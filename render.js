@@ -10,11 +10,8 @@ const closedIssues = issues.filter(issue => issue.state === 'closed')
 console.log(`
 # Electron Issues
 
-> A study of the issues filed on [electron/electron](https://github.com/electron/electron/issues)
+> An experiment to better understand the issues filed on [electron/electron](https://github.com/electron/electron/issues)
 
-`)
-
-console.log(`
 There are ${openIssues.length} open issues and ${closedIssues.length} closed issues.
 `)
 
