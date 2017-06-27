@@ -1,0 +1,25 @@
+{
+  "name": "electron-electron-issues",
+  "version": "1.0.0",
+  "description": "An experiment to better understand the issues filed on electron/electron",
+  "main": "issues.json",
+  "repository": "https://github.com/electron/electron-electron-issues",
+  "author": "zeke",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv-safe": "^4.0.4",
+    "ghissues": "^1.1.3",
+    "html-entities": "^1.2.1",
+    "node-time-ago": "^1.0.0"
+  },
+  "scripts": {
+    "build": "npm-run-all build:*",
+    "build:collect": "node collect.js > issues.json",
+    "build:render": "node render.js > readme.md",
+    "build:view": "vmd readme.md"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.0.2",
+    "vmd": "^1.29.1"
+  }
+}
