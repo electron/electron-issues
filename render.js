@@ -21,6 +21,39 @@ let datasets = {
       .value()
   },
 
+  high_sentiment_score: {
+    data: issues
+      .filter(issue => issue.commentCount > 3)
+      .sortBy('sentimentScore')
+      .reverse()
+      .slice(0, MAX)
+      .map(issue => {
+        return {
+          number: issue.linkedNumber,
+          title: issue.linkedTitle,
+          comments: issue.commentCount,
+          sentiment: issue.sentimentScore
+        }
+      })
+      .value()
+  },
+
+  low_sentiment_score: {
+    data: issues
+      .filter(issue => issue.commentCount > 3)
+      .sortBy('sentimentScore')
+      .slice(0, MAX)
+      .map(issue => {
+        return {
+          number: issue.linkedNumber,
+          title: issue.linkedTitle,
+          comments: issue.commentCount,
+          sentiment: issue.sentimentScore
+        }
+      })
+      .value()
+  },
+  
   oldest_open_issues: {
     data: issues
       .filter('open')

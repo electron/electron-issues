@@ -13,6 +13,7 @@
     "html-entities": "^1.2.1",
     "lodash": "^4.17.4",
     "node-time-ago": "^1.0.0",
+    "sentiment": "^4.0.0",
     "tableify": "^1.0.1"
   },
   "scripts": {
