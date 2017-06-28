@@ -2,13 +2,30 @@ const issues = require('.')
 const tableify = require('tableify')
 // const {pick} = require('lodash')
 const {titleCase} = require('change-case')
+const MAX = 20
 
 let datasets = {
+  closed_issues_with_comments_after_closure: {
+    data: issues
+      .filter('closed')
+      .sortBy('commentsAfterClosureCount')
+      .reverse()
+      .slice(0, MAX)
+      .map(issue => {
+        return {
+          number: issue.linkedNumber,
+          title: issue.linkedTitle,
+          commentsAfterClosure: issue.commentsAfterClosureCount
+        }
+      })
+      .value()
+  },
+
   oldest_open_issues: {
     data: issues
       .filter('open')
       .sort((a, b) => new Date(a.created_at) - new Date(b.created_at))
-      .slice(0, 10)
+      .slice(0, MAX)
       .map(issue => {
         return {
           '#': issue.linkedNumber,
@@ -24,7 +41,7 @@ let datasets = {
       .filter('open')
       .sortBy('commentCount')
       .reverse()
-      .slice(0, 10)
+      .slice(0, MAX)
       .map(issue => {
         return {
           number: issue.linkedNumber,
@@ -40,8 +57,7 @@ let datasets = {
       .filter('closed')
       .sortBy('commentCount')
       .reverse()
-      .slice(0, 10)
-      // .map(partialRight(pick, ['number', 'linkedTitle', 'opened']))
+      .slice(0, MAX)
       .map(issue => {
         return {
           number: issue.linkedNumber,
