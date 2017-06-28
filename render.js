@@ -13,7 +13,7 @@ let datasets = {
       .slice(0, MAX)
       .map(issue => {
         return {
-          number: issue.linkedNumber,
+          '#': issue.linkedNumber,
           title: issue.linkedTitle,
           commentsAfterClosure: issue.commentsAfterClosureCount
         }
@@ -21,16 +21,18 @@ let datasets = {
       .value()
   },
 
-  high_sentiment_score: {
+  open_issues_with_high_sentiment_score: {
     data: issues
+      .filter('open')
       .filter(issue => issue.commentCount > 3)
       .sortBy('sentimentScore')
       .reverse()
       .slice(0, MAX)
       .map(issue => {
         return {
-          number: issue.linkedNumber,
+          '#': issue.linkedNumber,
           title: issue.linkedTitle,
+          words: issue.positiveWords,
           comments: issue.commentCount,
           sentiment: issue.sentimentScore
         }
@@ -38,21 +40,61 @@ let datasets = {
       .value()
   },
 
-  low_sentiment_score: {
+  open_issues_with_low_sentiment_score: {
     data: issues
-      .filter(issue => issue.commentCount > 3)
+      .filter('open')
+      .filter(issue => issue.commentCount > 3)      
       .sortBy('sentimentScore')
       .slice(0, MAX)
       .map(issue => {
         return {
-          number: issue.linkedNumber,
+          '#': issue.linkedNumber,
           title: issue.linkedTitle,
+          words: issue.negativeWords,
           comments: issue.commentCount,
           sentiment: issue.sentimentScore
         }
       })
       .value()
   },
+  
+  closed_issues_with_high_sentiment_score: {
+    data: issues
+      .filter('closed')
+      .filter(issue => issue.commentCount > 3)
+      .sortBy('sentimentScore')
+      .reverse()
+      .slice(0, MAX)
+      .map(issue => {
+        return {
+          '#': issue.linkedNumber,
+          title: issue.linkedTitle,
+          words: issue.positiveWords,
+          comments: issue.commentCount,
+          sentiment: issue.sentimentScore
+        }
+      })
+      .value()
+  },
+
+  closed_issues_with_low_sentiment_score: {
+    data: issues
+      .filter('closed')
+      .filter(issue => issue.commentCount > 3)      
+      .sortBy('sentimentScore')
+      .slice(0, MAX)
+      .map(issue => {
+        return {
+          '#': issue.linkedNumber,
+          title: issue.linkedTitle,
+          words: issue.negativeWords,
+          comments: issue.commentCount,
+          sentiment: issue.sentimentScore
+        }
+      })
+      .value()
+  },
+  
   
   oldest_open_issues: {
     data: issues
@@ -77,7 +119,7 @@ let datasets = {
       .slice(0, MAX)
       .map(issue => {
         return {
-          number: issue.linkedNumber,
+          '#': issue.linkedNumber,
           title: issue.linkedTitle,
           comments: issue.commentCount
         }
@@ -93,7 +135,7 @@ let datasets = {
       .slice(0, MAX)
       .map(issue => {
         return {
-          number: issue.linkedNumber,
+          '#': issue.linkedNumber,
           title: issue.linkedTitle,
           comments: issue.commentCount
         }
@@ -102,8 +144,14 @@ let datasets = {
   }
 }
 
+console.log('# Electron Issues\n\n')
+
 Object.keys(datasets).forEach(slug => {
-  console.log(`\n\n## ${titleCase(slug)}`)
+  console.log(`- [${titleCase(slug)}](#${slug})`)
+})
+
+Object.keys(datasets).forEach(slug => {
+  console.log(`\n\n<h2 id="${slug}">${titleCase(slug)}</h2>`)
   const dataset = datasets[slug]
 
   console.log(tableify(dataset.data))
