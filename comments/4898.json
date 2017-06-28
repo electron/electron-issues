@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/200613949",
+    "html_url": "https://github.com/electron/electron/issues/4898#issuecomment-200613949",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4898",
+    "id": 200613949,
+    "user": {
+      "login": "xhyp0",
+      "id": 17170343,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/17170343?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xhyp0",
+      "html_url": "https://github.com/xhyp0",
+      "followers_url": "https://api.github.com/users/xhyp0/followers",
+      "following_url": "https://api.github.com/users/xhyp0/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xhyp0/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xhyp0/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xhyp0/subscriptions",
+      "organizations_url": "https://api.github.com/users/xhyp0/orgs",
+      "repos_url": "https://api.github.com/users/xhyp0/repos",
+      "events_url": "https://api.github.com/users/xhyp0/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xhyp0/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-24T02:03:45Z",
+    "updated_at": "2016-03-24T02:03:45Z",
+    "body": "Nevermind. Looks like it works if you do `setProxy({ proxyRules: proxy })` instead of `setProxy(proxy)`\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223379030",
+    "html_url": "https://github.com/electron/electron/issues/4898#issuecomment-223379030",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4898",
+    "id": 223379030,
+    "user": {
+      "login": "sheepray",
+      "id": 3812613,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3812613?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sheepray",
+      "html_url": "https://github.com/sheepray",
+      "followers_url": "https://api.github.com/users/sheepray/followers",
+      "following_url": "https://api.github.com/users/sheepray/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sheepray/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sheepray/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sheepray/subscriptions",
+      "organizations_url": "https://api.github.com/users/sheepray/orgs",
+      "repos_url": "https://api.github.com/users/sheepray/repos",
+      "events_url": "https://api.github.com/users/sheepray/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sheepray/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-02T18:24:56Z",
+    "updated_at": "2016-06-02T18:24:56Z",
+    "body": "Yes, changing setProxy(proxy) to setProxy({ proxyRules: proxy }) do solve my problem. Thanks\n"
+  }
+]

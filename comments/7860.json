@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/258142437",
+    "html_url": "https://github.com/electron/electron/issues/7860#issuecomment-258142437",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7860",
+    "id": 258142437,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-03T13:31:15Z",
+    "updated_at": "2016-11-03T13:31:15Z",
+    "body": "@farfromrefug It is not a bug.  If you logged `getCurrentWindow().db.test().a` it would return the correct value.\n\nYou see `Getter/Setter` because properties sent between processes are cast to syncronous get and set functions.  If you want it to look as you expect simply log\n\n`Object.assign({}, getCurrentWindow().db.test())`\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/258178181",
+    "html_url": "https://github.com/electron/electron/issues/7860#issuecomment-258178181",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7860",
+    "id": 258178181,
+    "user": {
+      "login": "farfromrefug",
+      "id": 655344,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/655344?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/farfromrefug",
+      "html_url": "https://github.com/farfromrefug",
+      "followers_url": "https://api.github.com/users/farfromrefug/followers",
+      "following_url": "https://api.github.com/users/farfromrefug/following{/other_user}",
+      "gists_url": "https://api.github.com/users/farfromrefug/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/farfromrefug/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/farfromrefug/subscriptions",
+      "organizations_url": "https://api.github.com/users/farfromrefug/orgs",
+      "repos_url": "https://api.github.com/users/farfromrefug/repos",
+      "events_url": "https://api.github.com/users/farfromrefug/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/farfromrefug/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-03T15:33:41Z",
+    "updated_at": "2016-11-03T15:33:41Z",
+    "body": "@MarshallOfSound Shouldn't there be an option to send results as simple 'JSON' object?\nI mean it's kind of big issue, i understand the fact that the object is that way because it is referenced both side. But in most case (like a simple math function), you absolutely don't need the result to be a remote object. And i am even worried about the fact that my \"result objects\" are referenced on both side.\n\nOne great feature (if not essential) would be to have a flag for `setGlobal` to only return \"non remote objects\".\n\nI think this is an issue/missing feature because there is no real way around this. \n"
+  }
+]

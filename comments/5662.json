@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/221144995",
+    "html_url": "https://github.com/electron/electron/pull/5662#issuecomment-221144995",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5662",
+    "id": 221144995,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-24T01:46:33Z",
+    "updated_at": "2016-05-24T01:46:33Z",
+    "body": ":+1:\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/230685605",
+    "html_url": "https://github.com/electron/electron/pull/5662#issuecomment-230685605",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5662",
+    "id": 230685605,
+    "user": {
+      "login": "BrighTide",
+      "id": 2033608,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2033608?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/BrighTide",
+      "html_url": "https://github.com/BrighTide",
+      "followers_url": "https://api.github.com/users/BrighTide/followers",
+      "following_url": "https://api.github.com/users/BrighTide/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BrighTide/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/BrighTide/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BrighTide/subscriptions",
+      "organizations_url": "https://api.github.com/users/BrighTide/orgs",
+      "repos_url": "https://api.github.com/users/BrighTide/repos",
+      "events_url": "https://api.github.com/users/BrighTide/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/BrighTide/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-06T06:32:18Z",
+    "updated_at": "2016-07-06T06:32:18Z",
+    "body": "For anyone else having an off day, this is the error you'll get if you find yourself somehow requiring the main thread in your application\n"
+  }
+]

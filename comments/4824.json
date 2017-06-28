@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/197846258",
+    "html_url": "https://github.com/electron/electron/issues/4824#issuecomment-197846258",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4824",
+    "id": 197846258,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-17T11:56:51Z",
+    "updated_at": "2016-03-17T11:56:51Z",
+    "body": "How are you loading the plugins ? `register-pepper-plugins` need to be provided with a comma separated values of plugins to be loaded. Tested with,\n\n```\napp.commandLine.appendSwitch('register-pepper-plugins','<path to plugin1>;<mimetype>, <path to plugin2>;<mimetype>');\n```\n\nAlso there is a limit to number of plugins that can be registered from commandline, which is [64](https://code.google.com/p/chromium/codesearch#chromium/src/content/common/pepper_plugin_list.cc&sq=package:chromium&l=25&rcl=1458199924)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/198153250",
+    "html_url": "https://github.com/electron/electron/issues/4824#issuecomment-198153250",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4824",
+    "id": 198153250,
+    "user": {
+      "login": "minggo",
+      "id": 488203,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/488203?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minggo",
+      "html_url": "https://github.com/minggo",
+      "followers_url": "https://api.github.com/users/minggo/followers",
+      "following_url": "https://api.github.com/users/minggo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minggo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minggo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minggo/subscriptions",
+      "organizations_url": "https://api.github.com/users/minggo/orgs",
+      "repos_url": "https://api.github.com/users/minggo/repos",
+      "events_url": "https://api.github.com/users/minggo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minggo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-18T01:28:38Z",
+    "updated_at": "2016-03-18T01:28:38Z",
+    "body": "@deepak1556 Oh, i misunderstood. I used `app.commandLine.appendSwitch` to register two plugins. \n"
+  }
+]

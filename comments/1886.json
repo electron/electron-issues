@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/110018699",
+    "html_url": "https://github.com/electron/electron/pull/1886#issuecomment-110018699",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1886",
+    "id": 110018699,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-06-08T14:42:01Z",
+    "updated_at": "2015-06-08T14:42:01Z",
+    "body": "Looks good to me, thanks!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/110316420",
+    "html_url": "https://github.com/electron/electron/pull/1886#issuecomment-110316420",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1886",
+    "id": 110316420,
+    "user": {
+      "login": "BobCochran",
+      "id": 2460105,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2460105?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/BobCochran",
+      "html_url": "https://github.com/BobCochran",
+      "followers_url": "https://api.github.com/users/BobCochran/followers",
+      "following_url": "https://api.github.com/users/BobCochran/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BobCochran/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/BobCochran/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BobCochran/subscriptions",
+      "organizations_url": "https://api.github.com/users/BobCochran/orgs",
+      "repos_url": "https://api.github.com/users/BobCochran/repos",
+      "events_url": "https://api.github.com/users/BobCochran/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/BobCochran/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-09T10:46:17Z",
+    "updated_at": "2015-06-09T10:46:17Z",
+    "body": "@zcbenz @apm I would like to continue helping with documentation. Where do you think I can help the most?\n\nThanks!\n\nBob\n\n> On Jun 8, 2015, at 10:42 AM, Cheng Zhao notifications@github.com wrote:\n> \n> Merged #1886.\n> \n> —\n> Reply to this email directly or view it on GitHub.\n"
+  }
+]

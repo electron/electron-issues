@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/261332907",
+    "html_url": "https://github.com/electron/electron/issues/8005#issuecomment-261332907",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8005",
+    "id": 261332907,
+    "user": {
+      "login": "frankhale",
+      "id": 190154,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/190154?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frankhale",
+      "html_url": "https://github.com/frankhale",
+      "followers_url": "https://api.github.com/users/frankhale/followers",
+      "following_url": "https://api.github.com/users/frankhale/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frankhale/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frankhale/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frankhale/subscriptions",
+      "organizations_url": "https://api.github.com/users/frankhale/orgs",
+      "repos_url": "https://api.github.com/users/frankhale/repos",
+      "events_url": "https://api.github.com/users/frankhale/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frankhale/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-17T18:47:08Z",
+    "updated_at": "2016-11-17T18:47:08Z",
+    "body": "See this issue: https://github.com/nodejs/node/issues/9542\n\nNew release of Node tentatively scheduled for next Tuesday\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/261333535",
+    "html_url": "https://github.com/electron/electron/issues/8005#issuecomment-261333535",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8005",
+    "id": 261333535,
+    "user": {
+      "login": "Niwotian60",
+      "id": 5266833,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5266833?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Niwotian60",
+      "html_url": "https://github.com/Niwotian60",
+      "followers_url": "https://api.github.com/users/Niwotian60/followers",
+      "following_url": "https://api.github.com/users/Niwotian60/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Niwotian60/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Niwotian60/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Niwotian60/subscriptions",
+      "organizations_url": "https://api.github.com/users/Niwotian60/orgs",
+      "repos_url": "https://api.github.com/users/Niwotian60/repos",
+      "events_url": "https://api.github.com/users/Niwotian60/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Niwotian60/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-17T18:49:14Z",
+    "updated_at": "2016-11-17T18:49:14Z",
+    "body": "Thanks - that answers my question perfectly. I searched for 7.1.0 with ELIFECYCLE errors and didn't find anything, but apparently EINVAL also occurs.\n"
+  }
+]

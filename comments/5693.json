@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/221624902",
+    "html_url": "https://github.com/electron/electron/pull/5693#issuecomment-221624902",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5693",
+    "id": 221624902,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-25T16:07:39Z",
+    "updated_at": "2016-05-25T16:07:39Z",
+    "body": "Hi, we are using http://contributor-covenant.org/ so we will only update this file when a new version of that document comes out, thanks though, closing this out.\n"
+  }
+]

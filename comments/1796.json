@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/106167379",
+    "html_url": "https://github.com/electron/electron/issues/1796#issuecomment-106167379",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1796",
+    "id": 106167379,
+    "user": {
+      "login": "baconbrad",
+      "id": 4763342,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4763342?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/baconbrad",
+      "html_url": "https://github.com/baconbrad",
+      "followers_url": "https://api.github.com/users/baconbrad/followers",
+      "following_url": "https://api.github.com/users/baconbrad/following{/other_user}",
+      "gists_url": "https://api.github.com/users/baconbrad/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/baconbrad/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/baconbrad/subscriptions",
+      "organizations_url": "https://api.github.com/users/baconbrad/orgs",
+      "repos_url": "https://api.github.com/users/baconbrad/repos",
+      "events_url": "https://api.github.com/users/baconbrad/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/baconbrad/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-28T04:34:51Z",
+    "updated_at": "2015-05-28T04:34:51Z",
+    "body": "[I don't see why not.](https://www.npmjs.com/search?q=rethinkdb)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/106188550",
+    "html_url": "https://github.com/electron/electron/issues/1796#issuecomment-106188550",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1796",
+    "id": 106188550,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-05-28T06:04:52Z",
+    "updated_at": "2015-05-28T06:04:52Z",
+    "body": "The [electron category on the Atom forums](http://discuss.atom.io/category/electron) is a better place for this kind of questions.\n"
+  }
+]

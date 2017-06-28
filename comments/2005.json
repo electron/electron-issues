@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/113405820",
+    "html_url": "https://github.com/electron/electron/issues/2005#issuecomment-113405820",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2005",
+    "id": 113405820,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-06-19T07:22:48Z",
+    "updated_at": "2015-06-19T07:22:48Z",
+    "body": "There were several updates of [Squirrel](https://github.com/Squirrel/Squirrel.Mac/issues) between 0.20 and 0.27, I'm not sure if it is the cause of this problem. The error code `-60005` means \"The authorization was denied\", I suggest posting this issue to Squirrel's repo since the error came from Squirrel and they might have a better idea of this.\n"
+  }
+]

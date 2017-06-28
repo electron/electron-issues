@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/107572387",
+    "html_url": "https://github.com/electron/electron/issues/1841#issuecomment-107572387",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1841",
+    "id": 107572387,
+    "user": {
+      "login": "mattdesl",
+      "id": 1383811,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1383811?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mattdesl",
+      "html_url": "https://github.com/mattdesl",
+      "followers_url": "https://api.github.com/users/mattdesl/followers",
+      "following_url": "https://api.github.com/users/mattdesl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mattdesl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mattdesl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mattdesl/subscriptions",
+      "organizations_url": "https://api.github.com/users/mattdesl/orgs",
+      "repos_url": "https://api.github.com/users/mattdesl/repos",
+      "events_url": "https://api.github.com/users/mattdesl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mattdesl/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-01T15:14:58Z",
+    "updated_at": "2015-06-01T15:14:58Z",
+    "body": "Note: only seems to happen 1 out of 5 times or so\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/107700789",
+    "html_url": "https://github.com/electron/electron/issues/1841#issuecomment-107700789",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1841",
+    "id": 107700789,
+    "user": {
+      "login": "mattdesl",
+      "id": 1383811,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1383811?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mattdesl",
+      "html_url": "https://github.com/mattdesl",
+      "followers_url": "https://api.github.com/users/mattdesl/followers",
+      "following_url": "https://api.github.com/users/mattdesl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mattdesl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mattdesl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mattdesl/subscriptions",
+      "organizations_url": "https://api.github.com/users/mattdesl/orgs",
+      "repos_url": "https://api.github.com/users/mattdesl/repos",
+      "events_url": "https://api.github.com/users/mattdesl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mattdesl/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-01T20:41:49Z",
+    "updated_at": "2015-06-01T20:41:49Z",
+    "body": "I can't no longer reproduce this reliably... Will re-open if I can.\n"
+  }
+]

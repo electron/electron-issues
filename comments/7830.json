@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/257582394",
+    "html_url": "https://github.com/electron/electron/issues/7830#issuecomment-257582394",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7830",
+    "id": 257582394,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-01T14:36:17Z",
+    "updated_at": "2016-11-01T14:36:17Z",
+    "body": "Seems more like a throttling issue, have you tried disabling `backgroundThrottling` ? There is an unconfirmed [issue](https://github.com/electron/electron/issues/7553) that `backgroundThrottling` is not working in latest version of Electron.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/257587998",
+    "html_url": "https://github.com/electron/electron/issues/7830#issuecomment-257587998",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7830",
+    "id": 257587998,
+    "user": {
+      "login": "ignjat",
+      "id": 1089731,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1089731?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ignjat",
+      "html_url": "https://github.com/ignjat",
+      "followers_url": "https://api.github.com/users/ignjat/followers",
+      "following_url": "https://api.github.com/users/ignjat/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ignjat/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ignjat/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ignjat/subscriptions",
+      "organizations_url": "https://api.github.com/users/ignjat/orgs",
+      "repos_url": "https://api.github.com/users/ignjat/repos",
+      "events_url": "https://api.github.com/users/ignjat/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ignjat/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-01T14:56:13Z",
+    "updated_at": "2016-11-01T14:56:26Z",
+    "body": "Thanks @deepak1556 that was it.\nAfter doing:\n\n```\nconst powerSaveBlocker = electron.powerSaveBlocker;\npowerSaveBlocker.start('prevent-app-suspension');\n```\n\neverything seems to be working fine. \n"
+  }
+]

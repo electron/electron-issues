@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/43842048",
+    "html_url": "https://github.com/electron/electron/pull/342#issuecomment-43842048",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/342",
+    "id": 43842048,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-05-22T02:17:15Z",
+    "updated_at": "2014-05-22T02:17:15Z",
+    "body": "The distribution's size would be bloated if we remove symlinks, OS X's frameworks relies heavily on that, so I can not merge this, sorry.\n\nI think you can try building under unix-compatible environments like cygwin on Windows.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/43844891",
+    "html_url": "https://github.com/electron/electron/pull/342#issuecomment-43844891",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/342",
+    "id": 43844891,
+    "user": {
+      "login": "entropi",
+      "id": 97201,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/97201?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/entropi",
+      "html_url": "https://github.com/entropi",
+      "followers_url": "https://api.github.com/users/entropi/followers",
+      "following_url": "https://api.github.com/users/entropi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/entropi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/entropi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/entropi/subscriptions",
+      "organizations_url": "https://api.github.com/users/entropi/orgs",
+      "repos_url": "https://api.github.com/users/entropi/repos",
+      "events_url": "https://api.github.com/users/entropi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/entropi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-05-22T03:22:24Z",
+    "updated_at": "2014-05-22T03:22:24Z",
+    "body": "I think it's more a limitation of the file system on windows than the build environment (e.g., cygwin), so packaging will likely just need to happen on a symlink compatible host, but I get your logic. Thanks!\n"
+  }
+]

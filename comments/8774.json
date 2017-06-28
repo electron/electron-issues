@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/282527303",
+    "html_url": "https://github.com/electron/electron/issues/8774#issuecomment-282527303",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8774",
+    "id": 282527303,
+    "user": {
+      "login": "roypardi",
+      "id": 9053196,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9053196?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/roypardi",
+      "html_url": "https://github.com/roypardi",
+      "followers_url": "https://api.github.com/users/roypardi/followers",
+      "following_url": "https://api.github.com/users/roypardi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/roypardi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/roypardi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/roypardi/subscriptions",
+      "organizations_url": "https://api.github.com/users/roypardi/orgs",
+      "repos_url": "https://api.github.com/users/roypardi/repos",
+      "events_url": "https://api.github.com/users/roypardi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/roypardi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-26T02:16:30Z",
+    "updated_at": "2017-02-26T02:16:30Z",
+    "body": "Seems to be resolved in Electron 1.6.1"
+  }
+]

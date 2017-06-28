@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/310627567",
+    "html_url": "https://github.com/electron/electron/issues/9635#issuecomment-310627567",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9635",
+    "id": 310627567,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-23T10:09:15Z",
+    "updated_at": "2017-06-23T10:09:15Z",
+    "body": "The underlying issue is same as https://github.com/electron/electron/issues/9342 , merging to it. Thanks for the report!"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/310677540",
+    "html_url": "https://github.com/electron/electron/issues/9635#issuecomment-310677540",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9635",
+    "id": 310677540,
+    "user": {
+      "login": "pfrazee",
+      "id": 1270099,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1270099?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pfrazee",
+      "html_url": "https://github.com/pfrazee",
+      "followers_url": "https://api.github.com/users/pfrazee/followers",
+      "following_url": "https://api.github.com/users/pfrazee/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pfrazee/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pfrazee/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pfrazee/subscriptions",
+      "organizations_url": "https://api.github.com/users/pfrazee/orgs",
+      "repos_url": "https://api.github.com/users/pfrazee/repos",
+      "events_url": "https://api.github.com/users/pfrazee/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pfrazee/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-23T14:18:37Z",
+    "updated_at": "2017-06-23T14:18:37Z",
+    "body": "Yay! Yall rock as always\n\n> On Jun 23, 2017, at 5:10 AM, Robo <notifications@github.com> wrote:\n> \n> Closed #9635.\n> \n> —\n> You are receiving this because you authored the thread.\n> Reply to this email directly, view it on GitHub, or mute the thread.\n> \n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/188608327",
+    "html_url": "https://github.com/electron/electron/issues/4590#issuecomment-188608327",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4590",
+    "id": 188608327,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-25T04:26:38Z",
+    "updated_at": "2016-02-25T04:26:38Z",
+    "body": "You have to use the [webFrame.registerURLSchemeAsBypassingCSP](http://electron.atom.io/docs/v0.36.8/api/web-frame/#webframeregisterurlschemeasbypassingcspscheme) API to make the URL scheme bypass CSP rules. I would like to make `webSecurity` turn off all security settings, however the design of Chromium and blink force us to provide a separate API for it.\n"
+  }
+]

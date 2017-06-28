@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/241907112",
+    "html_url": "https://github.com/electron/electron/issues/6949#issuecomment-241907112",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6949",
+    "id": 241907112,
+    "user": {
+      "login": "koush",
+      "id": 73924,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/73924?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/koush",
+      "html_url": "https://github.com/koush",
+      "followers_url": "https://api.github.com/users/koush/followers",
+      "following_url": "https://api.github.com/users/koush/following{/other_user}",
+      "gists_url": "https://api.github.com/users/koush/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/koush/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/koush/subscriptions",
+      "organizations_url": "https://api.github.com/users/koush/orgs",
+      "repos_url": "https://api.github.com/users/koush/repos",
+      "events_url": "https://api.github.com/users/koush/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/koush/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-23T23:00:34Z",
+    "updated_at": "2016-08-23T23:00:44Z",
+    "body": "Seems the API works fine if page is served from a file:// uri.\n\nIs there a chrome flag similar to -allow-file-access-from-files that I can use? That has no effect on my custom scheme.\n"
+  }
+]

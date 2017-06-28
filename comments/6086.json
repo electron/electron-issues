@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226585864",
+    "html_url": "https://github.com/electron/electron/issues/6086#issuecomment-226585864",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6086",
+    "id": 226585864,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-16T19:18:07Z",
+    "updated_at": "2016-06-16T19:18:07Z",
+    "body": "The paths listed are not part of this project and are not distributed with it.\n\nYou should report this issue against the application that provided you those files or the modules themselves.\n\nhttps://www.npmjs.com/package/electron-winstaller-fixed\n\nhttps://www.npmjs.com/package/core-js\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226586539",
+    "html_url": "https://github.com/electron/electron/issues/6086#issuecomment-226586539",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6086",
+    "id": 226586539,
+    "user": {
+      "login": "space-curiosity",
+      "id": 19937579,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19937579?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/space-curiosity",
+      "html_url": "https://github.com/space-curiosity",
+      "followers_url": "https://api.github.com/users/space-curiosity/followers",
+      "following_url": "https://api.github.com/users/space-curiosity/following{/other_user}",
+      "gists_url": "https://api.github.com/users/space-curiosity/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/space-curiosity/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/space-curiosity/subscriptions",
+      "organizations_url": "https://api.github.com/users/space-curiosity/orgs",
+      "repos_url": "https://api.github.com/users/space-curiosity/repos",
+      "events_url": "https://api.github.com/users/space-curiosity/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/space-curiosity/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-16T19:20:48Z",
+    "updated_at": "2016-06-16T19:20:48Z",
+    "body": "Ok cool, thanks \n"
+  }
+]

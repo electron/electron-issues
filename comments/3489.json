@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/157676112",
+    "html_url": "https://github.com/electron/electron/issues/3489#issuecomment-157676112",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3489",
+    "id": 157676112,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-18T10:45:14Z",
+    "updated_at": "2015-11-18T10:45:14Z",
+    "body": "Can you try the ways in http://jbavari.github.io/blog/2015/08/14/codesigning-electron-applications/? It seems that you also need to sign some symbol-linked directories.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/157725476",
+    "html_url": "https://github.com/electron/electron/issues/3489#issuecomment-157725476",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3489",
+    "id": 157725476,
+    "user": {
+      "login": "jorangreef",
+      "id": 413206,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/413206?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorangreef",
+      "html_url": "https://github.com/jorangreef",
+      "followers_url": "https://api.github.com/users/jorangreef/followers",
+      "following_url": "https://api.github.com/users/jorangreef/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorangreef/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorangreef/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorangreef/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorangreef/orgs",
+      "repos_url": "https://api.github.com/users/jorangreef/repos",
+      "events_url": "https://api.github.com/users/jorangreef/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorangreef/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-18T14:16:00Z",
+    "updated_at": "2015-11-18T14:16:00Z",
+    "body": "Thanks @zcbenz, I was trying to sign the frameworks via `versions/current` instead of via `versions/a`.\n\nI modified the script there and got it to work. The `export CODESIGN_ALLOCATE` there was not necessary.\n\nHere is a reduced and simple script which works and does the minimum of signing (without signing things twice):\n\nhttps://gist.github.com/jorangreef/27e708c67b7e6746a98a\n\nIt's a few seconds quicker and passes Gatekeeper. Hope this helps anyone else, and thanks again for the pointers.\n"
+  }
+]

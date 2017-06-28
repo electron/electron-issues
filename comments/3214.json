@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/151060457",
+    "html_url": "https://github.com/electron/electron/issues/3214#issuecomment-151060457",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3214",
+    "id": 151060457,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-26T08:39:55Z",
+    "updated_at": "2015-10-26T08:39:55Z",
+    "body": "The latest document has already been updated with auto-updater on Windows :)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/151066264",
+    "html_url": "https://github.com/electron/electron/issues/3214#issuecomment-151066264",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3214",
+    "id": 151066264,
+    "user": {
+      "login": "michaelzoidl",
+      "id": 528550,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/528550?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/michaelzoidl",
+      "html_url": "https://github.com/michaelzoidl",
+      "followers_url": "https://api.github.com/users/michaelzoidl/followers",
+      "following_url": "https://api.github.com/users/michaelzoidl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/michaelzoidl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/michaelzoidl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/michaelzoidl/subscriptions",
+      "organizations_url": "https://api.github.com/users/michaelzoidl/orgs",
+      "repos_url": "https://api.github.com/users/michaelzoidl/repos",
+      "events_url": "https://api.github.com/users/michaelzoidl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/michaelzoidl/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-26T08:56:48Z",
+    "updated_at": "2015-10-26T08:56:48Z",
+    "body": "oh well... -_- forgot to take a look... sorry\n"
+  }
+]

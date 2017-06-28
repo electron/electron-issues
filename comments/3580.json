@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/159791998",
+    "html_url": "https://github.com/electron/electron/issues/3580#issuecomment-159791998",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3580",
+    "id": 159791998,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-26T03:16:36Z",
+    "updated_at": "2015-11-26T03:16:36Z",
+    "body": "I think we have race conditions when there are lots of Node tasks running while closing the app, here is a similar crash report I saw before:\n\n```\nReceived signal 11 SEGV_MAPERR 000000000208\n#0 0x7fb45e46aca8 <unknown>\n#1 0x7fb456e83740 <unknown>\n#2 0x7fb468b489c3 uv__async_send\n#3 0x7fb468b48954 uv_async_send\n#4 0x0000006da78c atom::NodeBindings::WakeupEmbedThread()\n#5 0x0000006da6f8 atom::NodeBindings::~NodeBindings()\n#6 0x0000006dd505 atom::NodeBindingsLinux::~NodeBindingsLinux()\n#7 0x0000006dd529 atom::NodeBindingsLinux::~NodeBindingsLinux()\n#8 0x000000693012 base::DefaultDeleter<>::operator()()\n#9 0x000000692fc0 base::internal::scoped_ptr_impl<>::~scoped_ptr_impl()\n#10 0x000000692145 scoped_ptr<>::~scoped_ptr()\n#11 0x0000006e82a8 atom::AtomRendererClient::~AtomRendererClient()\n#12 0x0000006e8319 atom::AtomRendererClient::~AtomRendererClient()\n#13 0x00000068de32 base::DefaultDeleter<>::operator()()\n#14 0x00000068e310 base::internal::scoped_ptr_impl<>::~scoped_ptr_impl()\n#15 0x00000068d8c5 scoped_ptr<>::~scoped_ptr()\n#16 0x00000068d13a atom::AtomMainDelegate::~AtomMainDelegate()\n#17 0x00000068bfa7 main\n```\n\nThe crashing line is:\nhttps://github.com/atom/electron/blob/v0.35.1/atom/common/node_bindings.cc#L122\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/160617396",
+    "html_url": "https://github.com/electron/electron/issues/3580#issuecomment-160617396",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3580",
+    "id": 160617396,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-30T12:34:41Z",
+    "updated_at": "2015-11-30T12:34:41Z",
+    "body": "I think this had been fixed by #3356 in v0.34.3, and #3570 is not related to this.\n"
+  }
+]

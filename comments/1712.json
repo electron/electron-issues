@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/102738003",
+    "html_url": "https://github.com/electron/electron/issues/1712#issuecomment-102738003",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1712",
+    "id": 102738003,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-17T04:13:40Z",
+    "updated_at": "2015-05-17T04:14:12Z",
+    "body": "Check out `process.resourcesPath`, it's basically what you're describing for the 2nd option\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/102825084",
+    "html_url": "https://github.com/electron/electron/issues/1712#issuecomment-102825084",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1712",
+    "id": 102825084,
+    "user": {
+      "login": "maxogden",
+      "id": 39759,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/39759?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/maxogden",
+      "html_url": "https://github.com/maxogden",
+      "followers_url": "https://api.github.com/users/maxogden/followers",
+      "following_url": "https://api.github.com/users/maxogden/following{/other_user}",
+      "gists_url": "https://api.github.com/users/maxogden/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/maxogden/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/maxogden/subscriptions",
+      "organizations_url": "https://api.github.com/users/maxogden/orgs",
+      "repos_url": "https://api.github.com/users/maxogden/repos",
+      "events_url": "https://api.github.com/users/maxogden/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/maxogden/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-17T17:34:30Z",
+    "updated_at": "2015-05-17T17:34:30Z",
+    "body": "@paulcbetts ahhhhhh thanks, I didn't even realize https://github.com/atom/electron/blob/cd0aa4a956cb7a13cbe0e12029e6156c3e892924/docs/api/process.md#process-object existed (I didn't expect electron to monkeypatch `process`)\n"
+  }
+]

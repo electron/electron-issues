@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/76753153",
+    "html_url": "https://github.com/electron/electron/issues/1190#issuecomment-76753153",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1190",
+    "id": 76753153,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-03-02T17:09:27Z",
+    "updated_at": "2015-03-02T17:09:27Z",
+    "body": "It inserts CSS string, e.g. your first code.\n\nIf it doesn't work then it is very likely your rule has been overridden by the page's rules, you can use devtools to check that.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/280559524",
+    "html_url": "https://github.com/electron/electron/issues/1190#issuecomment-280559524",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1190",
+    "id": 280559524,
+    "user": {
+      "login": "piyushagade",
+      "id": 5830384,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5830384?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/piyushagade",
+      "html_url": "https://github.com/piyushagade",
+      "followers_url": "https://api.github.com/users/piyushagade/followers",
+      "following_url": "https://api.github.com/users/piyushagade/following{/other_user}",
+      "gists_url": "https://api.github.com/users/piyushagade/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/piyushagade/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/piyushagade/subscriptions",
+      "organizations_url": "https://api.github.com/users/piyushagade/orgs",
+      "repos_url": "https://api.github.com/users/piyushagade/repos",
+      "events_url": "https://api.github.com/users/piyushagade/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/piyushagade/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-17T05:49:05Z",
+    "updated_at": "2017-02-17T05:49:05Z",
+    "body": "Use it this way:\r\n<webview>.insertCSS(fs.readFileSync(path.join(__dirname, 'yourCSSFile.css'), 'utf8'));"
+  }
+]

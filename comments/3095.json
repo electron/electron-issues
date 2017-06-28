@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/148415306",
+    "html_url": "https://github.com/electron/electron/issues/3095#issuecomment-148415306",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3095",
+    "id": 148415306,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-15T15:04:53Z",
+    "updated_at": "2015-10-15T15:04:53Z",
+    "body": "Current we don't have Google Cloud Message supported, and we probably won't in future since the work to support this is relatively heavy. Google's private services are not included in Chromium's content module, so we don't get them in Electron by default.\n\nI'm closing this since we are not likely to fix this, however pull requests will be welcomed.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/148445711",
+    "html_url": "https://github.com/electron/electron/issues/3095#issuecomment-148445711",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3095",
+    "id": 148445711,
+    "user": {
+      "login": "adilanchian",
+      "id": 13204620,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/13204620?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adilanchian",
+      "html_url": "https://github.com/adilanchian",
+      "followers_url": "https://api.github.com/users/adilanchian/followers",
+      "following_url": "https://api.github.com/users/adilanchian/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adilanchian/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adilanchian/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adilanchian/subscriptions",
+      "organizations_url": "https://api.github.com/users/adilanchian/orgs",
+      "repos_url": "https://api.github.com/users/adilanchian/repos",
+      "events_url": "https://api.github.com/users/adilanchian/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adilanchian/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-15T16:28:36Z",
+    "updated_at": "2015-10-15T16:28:36Z",
+    "body": "zcbenz,\n\nThanks for the quick reply.\n\n-Alec \n"
+  }
+]

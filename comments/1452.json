@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/94709662",
+    "html_url": "https://github.com/electron/electron/issues/1452#issuecomment-94709662",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1452",
+    "id": 94709662,
+    "user": {
+      "login": "steelbrain",
+      "id": 4278113,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4278113?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/steelbrain",
+      "html_url": "https://github.com/steelbrain",
+      "followers_url": "https://api.github.com/users/steelbrain/followers",
+      "following_url": "https://api.github.com/users/steelbrain/following{/other_user}",
+      "gists_url": "https://api.github.com/users/steelbrain/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/steelbrain/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/steelbrain/subscriptions",
+      "organizations_url": "https://api.github.com/users/steelbrain/orgs",
+      "repos_url": "https://api.github.com/users/steelbrain/repos",
+      "events_url": "https://api.github.com/users/steelbrain/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/steelbrain/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-21T08:56:21Z",
+    "updated_at": "2015-04-21T08:56:21Z",
+    "body": "It would be great if you would share with the community, the solution that you found.\n"
+  }
+]

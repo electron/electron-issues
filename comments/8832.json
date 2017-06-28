@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/284106053",
+    "html_url": "https://github.com/electron/electron/issues/8832#issuecomment-284106053",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8832",
+    "id": 284106053,
+    "user": {
+      "login": "anthonybruno",
+      "id": 429837,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/429837?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anthonybruno",
+      "html_url": "https://github.com/anthonybruno",
+      "followers_url": "https://api.github.com/users/anthonybruno/followers",
+      "following_url": "https://api.github.com/users/anthonybruno/following{/other_user}",
+      "gists_url": "https://api.github.com/users/anthonybruno/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/anthonybruno/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/anthonybruno/subscriptions",
+      "organizations_url": "https://api.github.com/users/anthonybruno/orgs",
+      "repos_url": "https://api.github.com/users/anthonybruno/repos",
+      "events_url": "https://api.github.com/users/anthonybruno/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/anthonybruno/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-04T00:14:23Z",
+    "updated_at": "2017-03-04T00:14:23Z",
+    "body": "I believe that this issue might be related to #8831. I wasn't sure if they should be separated so I did just in case. Happy to roll into one. 😄 "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308065483",
+    "html_url": "https://github.com/electron/electron/issues/8832#issuecomment-308065483",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8832",
+    "id": 308065483,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-13T09:49:44Z",
+    "updated_at": "2017-06-13T09:49:44Z",
+    "body": "Closing for the same reason with https://github.com/electron/electron/issues/8831#issuecomment-308065373."
+  }
+]

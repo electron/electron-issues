@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/75383744",
+    "html_url": "https://github.com/electron/electron/issues/1165#issuecomment-75383744",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1165",
+    "id": 75383744,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-21T18:02:05Z",
+    "updated_at": "2015-02-21T18:02:05Z",
+    "body": "Give `child_process.fork` a try\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/75383839",
+    "html_url": "https://github.com/electron/electron/issues/1165#issuecomment-75383839",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1165",
+    "id": 75383839,
+    "user": {
+      "login": "steelbrain",
+      "id": 4278113,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4278113?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/steelbrain",
+      "html_url": "https://github.com/steelbrain",
+      "followers_url": "https://api.github.com/users/steelbrain/followers",
+      "following_url": "https://api.github.com/users/steelbrain/following{/other_user}",
+      "gists_url": "https://api.github.com/users/steelbrain/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/steelbrain/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/steelbrain/subscriptions",
+      "organizations_url": "https://api.github.com/users/steelbrain/orgs",
+      "repos_url": "https://api.github.com/users/steelbrain/repos",
+      "events_url": "https://api.github.com/users/steelbrain/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/steelbrain/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-21T18:04:08Z",
+    "updated_at": "2015-02-21T20:30:32Z",
+    "body": "I cant believe I did this >_<\nI am using pcntl_fork already in my other projects, It's a great way to manage child processes.\nThank You for reminding me @paulcbetts\n"
+  }
+]

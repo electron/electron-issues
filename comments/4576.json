@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/187279959",
+    "html_url": "https://github.com/electron/electron/issues/4576#issuecomment-187279959",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4576",
+    "id": 187279959,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-22T17:29:20Z",
+    "updated_at": "2016-02-22T17:29:20Z",
+    "body": "Webpack is stomping `require` with its own version. A way easier way to get react to work is to use [electron-compile](https://github.com/electronjs/electron-compile)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/187301262",
+    "html_url": "https://github.com/electron/electron/issues/4576#issuecomment-187301262",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4576",
+    "id": 187301262,
+    "user": {
+      "login": "ericat",
+      "id": 2279048,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2279048?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericat",
+      "html_url": "https://github.com/ericat",
+      "followers_url": "https://api.github.com/users/ericat/followers",
+      "following_url": "https://api.github.com/users/ericat/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ericat/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ericat/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ericat/subscriptions",
+      "organizations_url": "https://api.github.com/users/ericat/orgs",
+      "repos_url": "https://api.github.com/users/ericat/repos",
+      "events_url": "https://api.github.com/users/ericat/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ericat/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-22T18:14:28Z",
+    "updated_at": "2016-02-22T18:14:28Z",
+    "body": "@paulcbetts the issue was that I had somehow mistakenly installed a conflicting module that is called 'electron'. :( will close this, hopefully webpack won't cause problems at all. Thank you anyway!\n"
+  }
+]

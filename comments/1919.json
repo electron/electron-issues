@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/201973170",
+    "html_url": "https://github.com/electron/electron/issues/1919#issuecomment-201973170",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1919",
+    "id": 201973170,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-03-27T02:32:49Z",
+    "updated_at": "2016-03-27T02:32:49Z",
+    "body": "Unable to reproduce anymore.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/208245597",
+    "html_url": "https://github.com/electron/electron/issues/1919#issuecomment-208245597",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1919",
+    "id": 208245597,
+    "user": {
+      "login": "anagas",
+      "id": 12841639,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12841639?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anagas",
+      "html_url": "https://github.com/anagas",
+      "followers_url": "https://api.github.com/users/anagas/followers",
+      "following_url": "https://api.github.com/users/anagas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/anagas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/anagas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/anagas/subscriptions",
+      "organizations_url": "https://api.github.com/users/anagas/orgs",
+      "repos_url": "https://api.github.com/users/anagas/repos",
+      "events_url": "https://api.github.com/users/anagas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/anagas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-11T09:18:40Z",
+    "updated_at": "2016-04-11T09:18:40Z",
+    "body": "I have the same issue.\n\n![electron](https://cloud.githubusercontent.com/assets/12841639/14422423/10b0f33c-ffd7-11e5-91fd-29cd982312e8.png)\n"
+  }
+]

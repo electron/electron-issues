@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/52885508",
+    "html_url": "https://github.com/electron/electron/pull/595#issuecomment-52885508",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/595",
+    "id": 52885508,
+    "user": {
+      "login": "soh1988",
+      "id": 1724891,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1724891?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soh1988",
+      "html_url": "https://github.com/soh1988",
+      "followers_url": "https://api.github.com/users/soh1988/followers",
+      "following_url": "https://api.github.com/users/soh1988/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soh1988/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soh1988/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soh1988/subscriptions",
+      "organizations_url": "https://api.github.com/users/soh1988/orgs",
+      "repos_url": "https://api.github.com/users/soh1988/repos",
+      "events_url": "https://api.github.com/users/soh1988/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soh1988/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-08-21T07:05:50Z",
+    "updated_at": "2014-08-21T07:05:50Z",
+    "body": "Sorry, created on master not used to pull request, will create a branch and recreate the pull request\n"
+  }
+]

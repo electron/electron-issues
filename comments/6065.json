@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226387363",
+    "html_url": "https://github.com/electron/electron/issues/6065#issuecomment-226387363",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6065",
+    "id": 226387363,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-16T04:48:08Z",
+    "updated_at": "2016-06-16T04:48:08Z",
+    "body": "I'm merging this to #6031 since they are essentially the same thing.\n\nCurrently building shared library version is not considered in the `--build_libchromiumcontent` flag, this flag's whole purpose was to make it easier to build for different Linux platforms.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226454526",
+    "html_url": "https://github.com/electron/electron/issues/6065#issuecomment-226454526",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6065",
+    "id": 226454526,
+    "user": {
+      "login": "tomotvos",
+      "id": 2729259,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2729259?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tomotvos",
+      "html_url": "https://github.com/tomotvos",
+      "followers_url": "https://api.github.com/users/tomotvos/followers",
+      "following_url": "https://api.github.com/users/tomotvos/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tomotvos/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tomotvos/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tomotvos/subscriptions",
+      "organizations_url": "https://api.github.com/users/tomotvos/orgs",
+      "repos_url": "https://api.github.com/users/tomotvos/repos",
+      "events_url": "https://api.github.com/users/tomotvos/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tomotvos/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-16T11:03:10Z",
+    "updated_at": "2016-06-16T11:03:10Z",
+    "body": "The two issues are related, for sure, but not quite the same which is why I elected to make this one. The wording in #6031 is unfortunate. Really, when working with chromium, you want to do two things: build locally with PDBs available for debugging (and in the only practical way, which is to use shared libraries), and build a DEBUG version of chromium to get an extra boost of debugging power.\n\nI don't think that --build_libchromiumcontent should be reserved for Linux...that seems unnecessarily narrow.\n\nAnd yes, the Python script hard-codes the static library version, but it is trivial to change to \"shared_library\" or, ideally, pass on the command line. Further, I would argue that when you want to build chromium locally, would it not be in a debugging context when you want shared libraries for efficient electron linking?\n"
+  }
+]

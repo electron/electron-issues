@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/229985070",
+    "html_url": "https://github.com/electron/electron/issues/6317#issuecomment-229985070",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6317",
+    "id": 229985070,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-01T16:04:37Z",
+    "updated_at": "2016-07-01T16:04:37Z",
+    "body": "> If there is a difference between electron and nodejs require c + + addon?\n\nThere are differences. For native node modules to run in Electron they need to be compiled against Electron's v8 headers instead of node's v8 headers.\n\nYou can read more about it here: http://electron.atom.io/docs/tutorial/using-native-node-modules/\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/229986265",
+    "html_url": "https://github.com/electron/electron/issues/6317#issuecomment-229986265",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6317",
+    "id": 229986265,
+    "user": {
+      "login": "iptop",
+      "id": 13359372,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/13359372?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iptop",
+      "html_url": "https://github.com/iptop",
+      "followers_url": "https://api.github.com/users/iptop/followers",
+      "following_url": "https://api.github.com/users/iptop/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iptop/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iptop/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iptop/subscriptions",
+      "organizations_url": "https://api.github.com/users/iptop/orgs",
+      "repos_url": "https://api.github.com/users/iptop/repos",
+      "events_url": "https://api.github.com/users/iptop/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iptop/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-01T16:10:23Z",
+    "updated_at": "2016-07-01T16:10:23Z",
+    "body": "@kevinsawicki thank ！\n"
+  }
+]

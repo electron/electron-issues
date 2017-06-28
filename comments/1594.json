@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/99551787",
+    "html_url": "https://github.com/electron/electron/issues/1594#issuecomment-99551787",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1594",
+    "id": 99551787,
+    "user": {
+      "login": "ThorstenHans",
+      "id": 357884,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/357884?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ThorstenHans",
+      "html_url": "https://github.com/ThorstenHans",
+      "followers_url": "https://api.github.com/users/ThorstenHans/followers",
+      "following_url": "https://api.github.com/users/ThorstenHans/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ThorstenHans/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ThorstenHans/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ThorstenHans/subscriptions",
+      "organizations_url": "https://api.github.com/users/ThorstenHans/orgs",
+      "repos_url": "https://api.github.com/users/ThorstenHans/repos",
+      "events_url": "https://api.github.com/users/ThorstenHans/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ThorstenHans/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-06T17:51:40Z",
+    "updated_at": "2015-05-06T17:51:40Z",
+    "body": "works when putting `setTitle` within `webContents` `did-finish-load` event. \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/105366717",
+    "html_url": "https://github.com/electron/electron/issues/1594#issuecomment-105366717",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1594",
+    "id": 105366717,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-05-26T02:38:30Z",
+    "updated_at": "2015-05-26T02:38:30Z",
+    "body": "For future reference, the correct way to set window title is to prevent it from automatically updating to page's title first:\nhttps://github.com/atom/electron/blob/master/docs/api/browser-window.md#event-page-title-updated\n"
+  }
+]

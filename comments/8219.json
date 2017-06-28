@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/267735002",
+    "html_url": "https://github.com/electron/electron/pull/8219#issuecomment-267735002",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8219",
+    "id": 267735002,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-17T01:46:25Z",
+    "updated_at": "2016-12-17T01:46:25Z",
+    "body": "`BrowserWindow` isn't meant to be subclassed, this was last discussed in issue #5652, and @zcbenz explained why in some detail back in issue #23."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/267983963",
+    "html_url": "https://github.com/electron/electron/pull/8219#issuecomment-267983963",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8219",
+    "id": 267983963,
+    "user": {
+      "login": "EtienneLem",
+      "id": 436043,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/436043?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EtienneLem",
+      "html_url": "https://github.com/EtienneLem",
+      "followers_url": "https://api.github.com/users/EtienneLem/followers",
+      "following_url": "https://api.github.com/users/EtienneLem/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EtienneLem/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EtienneLem/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EtienneLem/subscriptions",
+      "organizations_url": "https://api.github.com/users/EtienneLem/orgs",
+      "repos_url": "https://api.github.com/users/EtienneLem/repos",
+      "events_url": "https://api.github.com/users/EtienneLem/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EtienneLem/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-19T14:56:47Z",
+    "updated_at": "2016-12-19T14:56:47Z",
+    "body": "Gotcha, thanks!"
+  }
+]

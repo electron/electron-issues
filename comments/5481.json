@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/218624177",
+    "html_url": "https://github.com/electron/electron/pull/5481#issuecomment-218624177",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5481",
+    "id": 218624177,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-11T23:56:47Z",
+    "updated_at": "2016-05-11T23:56:47Z",
+    "body": "Thanks for this, but this document is about the `File` object of DOM, which has nothing to do with the `open-file` event. We probably need to add a chapter in \"Desktop Environment Integration\" on how to handle it.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/218646239",
+    "html_url": "https://github.com/electron/electron/pull/5481#issuecomment-218646239",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5481",
+    "id": 218646239,
+    "user": {
+      "login": "mpchadwick",
+      "id": 4132322,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4132322?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mpchadwick",
+      "html_url": "https://github.com/mpchadwick",
+      "followers_url": "https://api.github.com/users/mpchadwick/followers",
+      "following_url": "https://api.github.com/users/mpchadwick/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mpchadwick/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mpchadwick/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mpchadwick/subscriptions",
+      "organizations_url": "https://api.github.com/users/mpchadwick/orgs",
+      "repos_url": "https://api.github.com/users/mpchadwick/repos",
+      "events_url": "https://api.github.com/users/mpchadwick/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mpchadwick/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-12T02:49:43Z",
+    "updated_at": "2016-05-12T02:49:43Z",
+    "body": "Well, from a technical standpoint as an Electron core developer they may seem unrelated, but to an end user who is interested in learning how to interact with files in Electron they would be related concepts.\n\nActually, there used to be a link to the docs on the `File` object on the landing page of the documentation section of the Electron site, but it seems to have disappeared, I guess with the release today? This seemed more important to me when the `File` object was featured as the only reference when you search for the word \"file\" on the documentation landing page. It's a natural progression to progression clicking on that link, and then wanting to learn about other ways to interact with file.\n\nAs a side note I'm thinking about publishing a post to my blog with some general tips about working with files in Electron (it will be OS X specific in this case).\n"
+  }
+]

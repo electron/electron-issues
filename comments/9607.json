@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/304448384",
+    "html_url": "https://github.com/electron/electron/issues/9607#issuecomment-304448384",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9607",
+    "id": 304448384,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-27T12:13:47Z",
+    "updated_at": "2017-05-27T12:13:47Z",
+    "body": "No one can help you if you don't specify what the actual error is."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/304448711",
+    "html_url": "https://github.com/electron/electron/issues/9607#issuecomment-304448711",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9607",
+    "id": 304448711,
+    "user": {
+      "login": "zo-tahiana",
+      "id": 15820473,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/15820473?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zo-tahiana",
+      "html_url": "https://github.com/zo-tahiana",
+      "followers_url": "https://api.github.com/users/zo-tahiana/followers",
+      "following_url": "https://api.github.com/users/zo-tahiana/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zo-tahiana/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zo-tahiana/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zo-tahiana/subscriptions",
+      "organizations_url": "https://api.github.com/users/zo-tahiana/orgs",
+      "repos_url": "https://api.github.com/users/zo-tahiana/repos",
+      "events_url": "https://api.github.com/users/zo-tahiana/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zo-tahiana/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-27T12:22:28Z",
+    "updated_at": "2017-05-27T12:25:13Z",
+    "body": "It's the same error like the [issue ](https://github.com/electron/electron/issues/9549)\r\nI'm currently installing electron with --verbose flag."
+  }
+]

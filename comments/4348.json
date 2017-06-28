@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/180064648",
+    "html_url": "https://github.com/electron/electron/issues/4348#issuecomment-180064648",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4348",
+    "id": 180064648,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-04T21:43:38Z",
+    "updated_at": "2016-02-04T21:43:38Z",
+    "body": "This is the expected behavior if the `dom-ready` event has not been fired yet on the web view.\n\nFrom the docs, http://electron.atom.io/docs/v0.36.5/api/web-view-tag/#methods\n\n> Note: The webview element must be loaded before using the methods.\n> \n> Example\n> \n> ``` js\n> webview.addEventListener(\"dom-ready\", function() {\n>     webview.openDevTools();\n> });\n> ```\n\nHas the `dom-ready` event fired on your webview before you called `loadURL`? You need to set the `src` attribute for the `dom-ready` event to fire I believe.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/180226603",
+    "html_url": "https://github.com/electron/electron/issues/4348#issuecomment-180226603",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4348",
+    "id": 180226603,
+    "user": {
+      "login": "rishibhargava",
+      "id": 1361910,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1361910?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rishibhargava",
+      "html_url": "https://github.com/rishibhargava",
+      "followers_url": "https://api.github.com/users/rishibhargava/followers",
+      "following_url": "https://api.github.com/users/rishibhargava/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rishibhargava/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rishibhargava/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rishibhargava/subscriptions",
+      "organizations_url": "https://api.github.com/users/rishibhargava/orgs",
+      "repos_url": "https://api.github.com/users/rishibhargava/repos",
+      "events_url": "https://api.github.com/users/rishibhargava/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rishibhargava/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-05T06:51:27Z",
+    "updated_at": "2016-02-05T06:51:27Z",
+    "body": "ok got it. Thanks for clarification. \n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/220348515",
+    "html_url": "https://github.com/electron/electron/issues/5607#issuecomment-220348515",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5607",
+    "id": 220348515,
+    "user": {
+      "login": "danhp",
+      "id": 3745612,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3745612?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/danhp",
+      "html_url": "https://github.com/danhp",
+      "followers_url": "https://api.github.com/users/danhp/followers",
+      "following_url": "https://api.github.com/users/danhp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danhp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danhp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danhp/subscriptions",
+      "organizations_url": "https://api.github.com/users/danhp/orgs",
+      "repos_url": "https://api.github.com/users/danhp/repos",
+      "events_url": "https://api.github.com/users/danhp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danhp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-19T14:51:56Z",
+    "updated_at": "2016-05-19T14:51:56Z",
+    "body": "You're probably going to have to take that issue up with https://github.com/electron-userland/electron-packager as this is a packaging issue not linked with core Electron.\nBut that aside, ignoring folders in `node_modules` can be risky business.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/220350486",
+    "html_url": "https://github.com/electron/electron/issues/5607#issuecomment-220350486",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5607",
+    "id": 220350486,
+    "user": {
+      "login": "mydansun",
+      "id": 8871143,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8871143?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mydansun",
+      "html_url": "https://github.com/mydansun",
+      "followers_url": "https://api.github.com/users/mydansun/followers",
+      "following_url": "https://api.github.com/users/mydansun/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mydansun/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mydansun/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mydansun/subscriptions",
+      "organizations_url": "https://api.github.com/users/mydansun/orgs",
+      "repos_url": "https://api.github.com/users/mydansun/repos",
+      "events_url": "https://api.github.com/users/mydansun/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mydansun/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-19T14:57:52Z",
+    "updated_at": "2016-05-19T14:57:52Z",
+    "body": "@danhp thanks\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/115427556",
+    "html_url": "https://github.com/electron/electron/issues/2058#issuecomment-115427556",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2058",
+    "id": 115427556,
+    "user": {
+      "login": "mmastrac",
+      "id": 512240,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/512240?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mmastrac",
+      "html_url": "https://github.com/mmastrac",
+      "followers_url": "https://api.github.com/users/mmastrac/followers",
+      "following_url": "https://api.github.com/users/mmastrac/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mmastrac/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mmastrac/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mmastrac/subscriptions",
+      "organizations_url": "https://api.github.com/users/mmastrac/orgs",
+      "repos_url": "https://api.github.com/users/mmastrac/repos",
+      "events_url": "https://api.github.com/users/mmastrac/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mmastrac/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-25T23:15:14Z",
+    "updated_at": "2015-06-25T23:15:14Z",
+    "body": "I'm working on a project that adds the ability to distribute end-user code in Java on top of Electron: https://github.com/orbitaljs\n\nIt works well on mac, but there are some platform bugs blocking it from working in Windows.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/115459419",
+    "html_url": "https://github.com/electron/electron/issues/2058#issuecomment-115459419",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2058",
+    "id": 115459419,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-06-26T01:52:15Z",
+    "updated_at": "2015-06-26T01:52:15Z",
+    "body": "I'm closing this since NPAPI plugins support is going to be removed very soon by Chromium, and we won't fix any NPAPI related issues.\n"
+  }
+]

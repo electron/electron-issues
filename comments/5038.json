@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/205937085",
+    "html_url": "https://github.com/electron/electron/issues/5038#issuecomment-205937085",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5038",
+    "id": 205937085,
+    "user": {
+      "login": "Xstoudi",
+      "id": 2575182,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2575182?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Xstoudi",
+      "html_url": "https://github.com/Xstoudi",
+      "followers_url": "https://api.github.com/users/Xstoudi/followers",
+      "following_url": "https://api.github.com/users/Xstoudi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Xstoudi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Xstoudi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Xstoudi/subscriptions",
+      "organizations_url": "https://api.github.com/users/Xstoudi/orgs",
+      "repos_url": "https://api.github.com/users/Xstoudi/repos",
+      "events_url": "https://api.github.com/users/Xstoudi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Xstoudi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-05T18:34:21Z",
+    "updated_at": "2016-04-05T18:34:21Z",
+    "body": "Ok, I failed the package.json\n"
+  }
+]

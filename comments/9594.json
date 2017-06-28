@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/305142396",
+    "html_url": "https://github.com/electron/electron/issues/9594#issuecomment-305142396",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9594",
+    "id": 305142396,
+    "user": {
+      "login": "cumajkeee",
+      "id": 1834053,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1834053?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cumajkeee",
+      "html_url": "https://github.com/cumajkeee",
+      "followers_url": "https://api.github.com/users/cumajkeee/followers",
+      "following_url": "https://api.github.com/users/cumajkeee/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cumajkeee/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cumajkeee/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cumajkeee/subscriptions",
+      "organizations_url": "https://api.github.com/users/cumajkeee/orgs",
+      "repos_url": "https://api.github.com/users/cumajkeee/repos",
+      "events_url": "https://api.github.com/users/cumajkeee/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cumajkeee/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-31T09:51:35Z",
+    "updated_at": "2017-05-31T09:51:35Z",
+    "body": "To display an overlay icon, the taskbar must be in the default large icon mode. If the taskbar is configured through Taskbar and Start Menu Properties to show small icons, overlays cannot be applied and calls to this method are ignored"
+  }
+]

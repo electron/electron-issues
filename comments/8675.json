@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/279560299",
+    "html_url": "https://github.com/electron/electron/issues/8675#issuecomment-279560299",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8675",
+    "id": 279560299,
+    "user": {
+      "login": "guillaumejenkins",
+      "id": 14299377,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14299377?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/guillaumejenkins",
+      "html_url": "https://github.com/guillaumejenkins",
+      "followers_url": "https://api.github.com/users/guillaumejenkins/followers",
+      "following_url": "https://api.github.com/users/guillaumejenkins/following{/other_user}",
+      "gists_url": "https://api.github.com/users/guillaumejenkins/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/guillaumejenkins/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/guillaumejenkins/subscriptions",
+      "organizations_url": "https://api.github.com/users/guillaumejenkins/orgs",
+      "repos_url": "https://api.github.com/users/guillaumejenkins/repos",
+      "events_url": "https://api.github.com/users/guillaumejenkins/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/guillaumejenkins/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-13T23:41:54Z",
+    "updated_at": "2017-02-13T23:41:54Z",
+    "body": "It looks like this is not even exposed by Windows APIs. Closing."
+  }
+]

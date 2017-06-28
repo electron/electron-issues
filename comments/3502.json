@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/157931140",
+    "html_url": "https://github.com/electron/electron/issues/3502#issuecomment-157931140",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3502",
+    "id": 157931140,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-19T02:36:37Z",
+    "updated_at": "2015-11-19T02:44:34Z",
+    "body": "@nathansobo \n\nSteps:\n1. Follow http://electron.atom.io/docs/v0.35.0/development/build-instructions-osx/ to clone and bootstrap Electron\n2. Build a Release version `./script/build.py -c R`\n3. Use the `out/R/Electron.app` to build Atom, you can replace the `electron/Electron.app` under `atom` dir with it and then run `script/build`\n4. In Instruments, do a profile of the newly built `Atom.app`\n5. Open menu `File` -> `Symbols...`\n6. Find the `Electron Framework` in the sidebar tree<br/>\n   <img width=\"218\" alt=\"screen shot 2015-11-19 at 10 32 33 am\" src=\"https://cloud.githubusercontent.com/assets/639601/11260739/de1d99e2-8ea8-11e5-9217-15efa9556f0d.png\">\n7. Click the `locate` button in<br/>\n   <img width=\"168\" alt=\"screen shot 2015-11-19 at 10 33 40 am\" src=\"https://cloud.githubusercontent.com/assets/639601/11260764/0aabc0c4-8ea9-11e5-970c-9362a31f16f4.png\">\n8. Load the `Electron Framework.framework.dSYM` which can be found in `out/R` under the Electron dir\n9. All addresses are now symbolized\n\nSorry I can not upload the symbols directly since they are _huge_, I'll provide the dSYM symbols in Releases directly in future so it wouldn't be so painful.\n\nP.S. I don't know how to profile the renderer process, but Chromium team should have already figured it out.\n"
+  }
+]

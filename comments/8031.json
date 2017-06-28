@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/261824767",
+    "html_url": "https://github.com/electron/electron/pull/8031#issuecomment-261824767",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8031",
+    "id": 261824767,
+    "user": {
+      "login": "zeke",
+      "id": 2289,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2289?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zeke",
+      "html_url": "https://github.com/zeke",
+      "followers_url": "https://api.github.com/users/zeke/followers",
+      "following_url": "https://api.github.com/users/zeke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zeke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zeke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zeke/subscriptions",
+      "organizations_url": "https://api.github.com/users/zeke/orgs",
+      "repos_url": "https://api.github.com/users/zeke/repos",
+      "events_url": "https://api.github.com/users/zeke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zeke/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-11-21T01:54:54Z",
+    "updated_at": "2016-11-21T01:54:54Z",
+    "body": "🙏 "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/261828114",
+    "html_url": "https://github.com/electron/electron/pull/8031#issuecomment-261828114",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8031",
+    "id": 261828114,
+    "user": {
+      "login": "muryoimpl",
+      "id": 318352,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/318352?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muryoimpl",
+      "html_url": "https://github.com/muryoimpl",
+      "followers_url": "https://api.github.com/users/muryoimpl/followers",
+      "following_url": "https://api.github.com/users/muryoimpl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muryoimpl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muryoimpl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muryoimpl/subscriptions",
+      "organizations_url": "https://api.github.com/users/muryoimpl/orgs",
+      "repos_url": "https://api.github.com/users/muryoimpl/repos",
+      "events_url": "https://api.github.com/users/muryoimpl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muryoimpl/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-21T02:29:41Z",
+    "updated_at": "2016-11-21T02:29:41Z",
+    "body": ":smile:"
+  }
+]

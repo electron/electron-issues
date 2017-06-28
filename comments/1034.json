@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/70806476",
+    "html_url": "https://github.com/electron/electron/pull/1034#issuecomment-70806476",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1034",
+    "id": 70806476,
+    "user": {
+      "login": "bwin",
+      "id": 1673361,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1673361?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bwin",
+      "html_url": "https://github.com/bwin",
+      "followers_url": "https://api.github.com/users/bwin/followers",
+      "following_url": "https://api.github.com/users/bwin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bwin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bwin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bwin/subscriptions",
+      "organizations_url": "https://api.github.com/users/bwin/orgs",
+      "repos_url": "https://api.github.com/users/bwin/repos",
+      "events_url": "https://api.github.com/users/bwin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bwin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-21T09:18:32Z",
+    "updated_at": "2015-01-21T09:18:32Z",
+    "body": "Could you include the node version it's based on?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/70926867",
+    "html_url": "https://github.com/electron/electron/pull/1034#issuecomment-70926867",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1034",
+    "id": 70926867,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-01-21T21:38:19Z",
+    "updated_at": "2015-01-21T21:38:19Z",
+    "body": "Node's version is now included.\n"
+  }
+]

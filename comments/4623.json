@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/189767422",
+    "html_url": "https://github.com/electron/electron/pull/4623#issuecomment-189767422",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4623",
+    "id": 189767422,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-28T02:41:24Z",
+    "updated_at": "2016-02-28T02:41:24Z",
+    "body": "Thanks!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/189804082",
+    "html_url": "https://github.com/electron/electron/pull/4623#issuecomment-189804082",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4623",
+    "id": 189804082,
+    "user": {
+      "login": "parro-it",
+      "id": 11197111,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11197111?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/parro-it",
+      "html_url": "https://github.com/parro-it",
+      "followers_url": "https://api.github.com/users/parro-it/followers",
+      "following_url": "https://api.github.com/users/parro-it/following{/other_user}",
+      "gists_url": "https://api.github.com/users/parro-it/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/parro-it/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/parro-it/subscriptions",
+      "organizations_url": "https://api.github.com/users/parro-it/orgs",
+      "repos_url": "https://api.github.com/users/parro-it/repos",
+      "events_url": "https://api.github.com/users/parro-it/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/parro-it/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-28T06:58:43Z",
+    "updated_at": "2016-02-28T06:58:43Z",
+    "body": "You're welcome!\n"
+  }
+]

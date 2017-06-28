@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/145504904",
+    "html_url": "https://github.com/electron/electron/issues/2989#issuecomment-145504904",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2989",
+    "id": 145504904,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-05T11:53:40Z",
+    "updated_at": "2015-10-05T11:53:40Z",
+    "body": "`libchromiumcontent-static` is a huge file and S3 is slow on many regions, you need to find a fast VPN or proxy server to be able to download it.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/162443487",
+    "html_url": "https://github.com/electron/electron/issues/2989#issuecomment-162443487",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2989",
+    "id": 162443487,
+    "user": {
+      "login": "jorangreef",
+      "id": 413206,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/413206?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorangreef",
+      "html_url": "https://github.com/jorangreef",
+      "followers_url": "https://api.github.com/users/jorangreef/followers",
+      "following_url": "https://api.github.com/users/jorangreef/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorangreef/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorangreef/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorangreef/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorangreef/orgs",
+      "repos_url": "https://api.github.com/users/jorangreef/repos",
+      "events_url": "https://api.github.com/users/jorangreef/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorangreef/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-07T08:06:23Z",
+    "updated_at": "2015-12-07T08:07:08Z",
+    "body": "I am getting the same error.\n\nI setup a SOCKS proxy to a nearby dedicated server with a fast connection but that still did not help, I still get the same error.\n\nThe dedicated server is able to download the file from S3, and my machine is able to download the file from there (using SCP).\n\nI think the problem lies in the download script itself, specifically around timeout handling. The timeout for the socket or read calls could be defined or set to None?\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/145200966",
+    "html_url": "https://github.com/electron/electron/issues/2966#issuecomment-145200966",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2966",
+    "id": 145200966,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-03T05:06:46Z",
+    "updated_at": "2015-10-03T05:06:46Z",
+    "body": "The object returned by `remote` module is not the original object, it is a proxy object that routes the calls to methods and properties to the main process and sends the result back, so operations that rely on object equivalence like `instanceof` won't work for it.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/145269120",
+    "html_url": "https://github.com/electron/electron/issues/2966#issuecomment-145269120",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2966",
+    "id": 145269120,
+    "user": {
+      "login": "jdalton",
+      "id": 4303,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4303?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "html_url": "https://github.com/jdalton",
+      "followers_url": "https://api.github.com/users/jdalton/followers",
+      "following_url": "https://api.github.com/users/jdalton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jdalton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jdalton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jdalton/subscriptions",
+      "organizations_url": "https://api.github.com/users/jdalton/orgs",
+      "repos_url": "https://api.github.com/users/jdalton/repos",
+      "events_url": "https://api.github.com/users/jdalton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jdalton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-03T17:14:03Z",
+    "updated_at": "2015-10-03T18:27:24Z",
+    "body": "@zcbenz \n~~Can you point to the area in the source that creates the remote object (just curious).~~\n\nI think I [found it](https://github.com/atom/electron/blob/master/atom/renderer/api/lib/remote.coffee).\n\n~~If you want to keep it seen as a plain object you could always make the remote object's `[[Prototype]]` value `null` as if it were created by `Object.create(null)`.~~\n\nActually that throws an error:\n\n> ``` bash\n> [20490:1003/112602:INFO:CONSOLE(41)] \"Uncaught TypeError: Cannot read property 'name' of undefined\", source: /Users/jdalton/Projects/different-contexts-isPlainObject-test/node_modules/electron-prebuilt/dist/Electron.app/Contents/Resources/atom.asar/renderer/api/lib/remote.js (41)\n> [20490:1003/112602:INFO:CONSOLE(0)] \"/deep/ combinator is deprecated. See https://www.chromestatus.com/features/6750456638341120 for more details.\", source:  (0)\n> [20490:1003/112602:WARNING:CONSOLE(0)] \"/deep/ combinator is deprecated. See https://www.chromestatus.com/features/6750456638341120 for more details.\", source:  (0)\n> ```\n"
+  }
+]

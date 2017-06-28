@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/205197135",
+    "html_url": "https://github.com/electron/electron/pull/4996#issuecomment-205197135",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4996",
+    "id": 205197135,
+    "user": {
+      "login": "erusev",
+      "id": 184170,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/184170?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/erusev",
+      "html_url": "https://github.com/erusev",
+      "followers_url": "https://api.github.com/users/erusev/followers",
+      "following_url": "https://api.github.com/users/erusev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/erusev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/erusev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/erusev/subscriptions",
+      "organizations_url": "https://api.github.com/users/erusev/orgs",
+      "repos_url": "https://api.github.com/users/erusev/repos",
+      "events_url": "https://api.github.com/users/erusev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/erusev/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-04T08:40:18Z",
+    "updated_at": "2016-04-04T08:41:11Z",
+    "body": "Some colors get distorted. \n\nWhen you set `#111` as a `backgroundColor` the background color of the window becomes `#151515`, if you set `#222` it becomes `#2D2D2D`, but if you set `#F00` the color remains the same.\n\n![image](https://cloud.githubusercontent.com/assets/184170/14242656/dc74bcca-fa59-11e5-81a7-8a682dd57761.png)\n\nIn the image above, you can see how the background color of the window on the top has a different color even though according to the code their colors should be the same.\n"
+  }
+]

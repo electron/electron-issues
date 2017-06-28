@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/172971486",
+    "html_url": "https://github.com/electron/electron/issues/4143#issuecomment-172971486",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4143",
+    "id": 172971486,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-19T20:09:20Z",
+    "updated_at": "2016-01-19T20:09:20Z",
+    "body": "Electron is just calling the API provided by Chromium, I guess it is a feature that window loading is synchronous, so Chromium won't start lots of connections at the same time.\n\nI don't think there is a way to make loadURL async, Chromium doesn't provide related APIs. I'm closing this as won't fix since it is probably very hard to solve and doesn't worth the effort.\n"
+  }
+]

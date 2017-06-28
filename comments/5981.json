@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225150830",
+    "html_url": "https://github.com/electron/electron/issues/5981#issuecomment-225150830",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5981",
+    "id": 225150830,
+    "user": {
+      "login": "jpittner",
+      "id": 5703234,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5703234?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jpittner",
+      "html_url": "https://github.com/jpittner",
+      "followers_url": "https://api.github.com/users/jpittner/followers",
+      "following_url": "https://api.github.com/users/jpittner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jpittner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jpittner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jpittner/subscriptions",
+      "organizations_url": "https://api.github.com/users/jpittner/orgs",
+      "repos_url": "https://api.github.com/users/jpittner/repos",
+      "events_url": "https://api.github.com/users/jpittner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jpittner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-10T10:41:18Z",
+    "updated_at": "2016-06-10T10:41:18Z",
+    "body": "dir is defined in the scope of button function, which incidentally doesn't get called anywhere in your code. This doesn't have anything to do with electron.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225184071",
+    "html_url": "https://github.com/electron/electron/issues/5981#issuecomment-225184071",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5981",
+    "id": 225184071,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-10T13:38:21Z",
+    "updated_at": "2016-06-10T13:38:21Z",
+    "body": "Thanks @jpittner for answering it, I'm closing this issue now. For further questions I suggest seeking help from [the community](https://github.com/electron/electron#community).\n"
+  }
+]

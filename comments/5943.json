@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224721339",
+    "html_url": "https://github.com/electron/electron/pull/5943#issuecomment-224721339",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5943",
+    "id": 224721339,
+    "user": {
+      "login": "bbondy",
+      "id": 831718,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/831718?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bbondy",
+      "html_url": "https://github.com/bbondy",
+      "followers_url": "https://api.github.com/users/bbondy/followers",
+      "following_url": "https://api.github.com/users/bbondy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bbondy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bbondy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bbondy/subscriptions",
+      "organizations_url": "https://api.github.com/users/bbondy/orgs",
+      "repos_url": "https://api.github.com/users/bbondy/repos",
+      "events_url": "https://api.github.com/users/bbondy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bbondy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-08T20:43:49Z",
+    "updated_at": "2016-06-08T20:43:49Z",
+    "body": "The system Pepper Flash plugin can be obtained by installing:\nWindows: https://admdownload.adobe.com/bin/live/flashplayer21pp_ka_install.exe\nOS X: https://admdownload.adobe.com/bin/live/AdobeFlashPlayer_21pp_a_install.dmg\n\nFor users that have Opera, Brave, and/or other browsers on their, machine they probably already have it.\n\nMore generally, the files above are offered for download depending on the UA string at https://get.adobe.com/flashplayer  \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224781066",
+    "html_url": "https://github.com/electron/electron/pull/5943#issuecomment-224781066",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5943",
+    "id": 224781066,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-09T01:48:50Z",
+    "updated_at": "2016-06-09T01:48:50Z",
+    "body": "👍 \n"
+  }
+]

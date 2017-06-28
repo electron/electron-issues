@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/69356024",
+    "html_url": "https://github.com/electron/electron/issues/992#issuecomment-69356024",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/992",
+    "id": 69356024,
+    "user": {
+      "login": "bwin",
+      "id": 1673361,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1673361?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bwin",
+      "html_url": "https://github.com/bwin",
+      "followers_url": "https://api.github.com/users/bwin/followers",
+      "following_url": "https://api.github.com/users/bwin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bwin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bwin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bwin/subscriptions",
+      "organizations_url": "https://api.github.com/users/bwin/orgs",
+      "repos_url": "https://api.github.com/users/bwin/repos",
+      "events_url": "https://api.github.com/users/bwin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bwin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-09T16:14:35Z",
+    "updated_at": "2015-01-09T16:14:35Z",
+    "body": "I can't reproduce this on 0.19.5 or 0.20.5 on Windows 7 HP 64bit.\nI get exactly one empty window.\n\n```\nvar app = require('app');\nvar BrowserWindow = require('browser-window');\n\napp.on('ready', function() {\n  mainWindow = new BrowserWindow({\n    \"width\": 800,\n    \"height\": 600,\n    \"fullscreen\":false,\n    \"kiosk\": false,\n    \"resizable\":false,\n    \"frame\":true,\n    \"web-preferences\":{\n      \"web-security\":false\n    },\n    \"show\":true\n  });\n});\n```\n\nWhy do you specify default values like `fullscreen: false`?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/69357380",
+    "html_url": "https://github.com/electron/electron/issues/992#issuecomment-69357380",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/992",
+    "id": 69357380,
+    "user": {
+      "login": "iamdriz",
+      "id": 801252,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/801252?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iamdriz",
+      "html_url": "https://github.com/iamdriz",
+      "followers_url": "https://api.github.com/users/iamdriz/followers",
+      "following_url": "https://api.github.com/users/iamdriz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iamdriz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iamdriz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iamdriz/subscriptions",
+      "organizations_url": "https://api.github.com/users/iamdriz/orgs",
+      "repos_url": "https://api.github.com/users/iamdriz/repos",
+      "events_url": "https://api.github.com/users/iamdriz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iamdriz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-09T16:22:58Z",
+    "updated_at": "2015-01-09T16:22:58Z",
+    "body": "Okay so I'm an idiot and had this line in my webpage:\n\n```\n// create a popup\nvar popup = window.open('projector.html');\n```\n\nWhich **obviously** caused the problem. However it doesn't happen in the older versions of atom-shell... weird :S\n"
+  }
+]

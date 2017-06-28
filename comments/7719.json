@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/256232572",
+    "html_url": "https://github.com/electron/electron/pull/7719#issuecomment-256232572",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7719",
+    "id": 256232572,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-26T02:23:12Z",
+    "updated_at": "2016-10-26T02:23:12Z",
+    "body": "👍 \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/256238297",
+    "html_url": "https://github.com/electron/electron/pull/7719#issuecomment-256238297",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7719",
+    "id": 256238297,
+    "user": {
+      "login": "vjeux",
+      "id": 197597,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/197597?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vjeux",
+      "html_url": "https://github.com/vjeux",
+      "followers_url": "https://api.github.com/users/vjeux/followers",
+      "following_url": "https://api.github.com/users/vjeux/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vjeux/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vjeux/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vjeux/subscriptions",
+      "organizations_url": "https://api.github.com/users/vjeux/orgs",
+      "repos_url": "https://api.github.com/users/vjeux/repos",
+      "events_url": "https://api.github.com/users/vjeux/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vjeux/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-26T03:09:09Z",
+    "updated_at": "2016-10-26T03:09:09Z",
+    "body": "Yay thanks!\n"
+  }
+]

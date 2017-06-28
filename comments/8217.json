@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/267545890",
+    "html_url": "https://github.com/electron/electron/issues/8217#issuecomment-267545890",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8217",
+    "id": 267545890,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-16T08:48:27Z",
+    "updated_at": "2016-12-16T08:48:27Z",
+    "body": "WebGL is disabled on that system because Chromium blacklisted the Intel HD 3000 on macOS [a few months back](https://codereview.chromium.org/2076443002/), there's also a [related issue](https://bugs.chromium.org/p/chromium/issues/detail?id=644091) in the Chromium bug tracker. You could try running the app with the `--ignore-gpu-blacklist` [Chromium switch](http://electron.atom.io/docs/api/chrome-command-line-switches/), e.g.\r\n\r\n```\r\napp.commandLine.appendSwitch(\"ignore-gpu-blacklist\")\r\n```"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/50224150",
+    "html_url": "https://github.com/electron/electron/issues/501#issuecomment-50224150",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/501",
+    "id": 50224150,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-07-26T05:38:51Z",
+    "updated_at": "2014-07-26T05:38:51Z",
+    "body": "This is actually an expected behavior on Windows, see:\nhttp://blogs.msdn.com/b/oldnewthing/archive/2012/03/26/10287385.aspx\n\nSo I think we should work around this in atom instead of hacking Windows's default behavior, we can remember window's maximized state, and when restoring window dimensions we restore the maximized state and only move window when it is in normal state.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/60104036",
+    "html_url": "https://github.com/electron/electron/issues/501#issuecomment-60104036",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/501",
+    "id": 60104036,
+    "user": {
+      "login": "iamdriz",
+      "id": 801252,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/801252?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iamdriz",
+      "html_url": "https://github.com/iamdriz",
+      "followers_url": "https://api.github.com/users/iamdriz/followers",
+      "following_url": "https://api.github.com/users/iamdriz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iamdriz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iamdriz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iamdriz/subscriptions",
+      "organizations_url": "https://api.github.com/users/iamdriz/orgs",
+      "repos_url": "https://api.github.com/users/iamdriz/repos",
+      "events_url": "https://api.github.com/users/iamdriz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iamdriz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-10-22T15:32:10Z",
+    "updated_at": "2014-10-22T15:32:10Z",
+    "body": "What is the work around for this then? I've trying to fix it using CSS if the screen is maximized, but that causes issues when viewing the window in aero peak, etc.\n"
+  }
+]

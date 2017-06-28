@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/287434293",
+    "html_url": "https://github.com/electron/electron/issues/8919#issuecomment-287434293",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8919",
+    "id": 287434293,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-03-17T18:24:16Z",
+    "updated_at": "2017-03-17T18:24:16Z",
+    "body": "> Is this the right behavior to delete what is downloaded from the bootstrap command ?\r\n\r\nYeah, `npm run clean` is a pretty comprehensive reset that will require a full re-bootstrap afterwards.\r\n\r\nWe could have two separate clean scripts, one to do a full clean when you want a full reset (often needed after a chrome upgrade or `node_modules` corruption) and a clean that just cleans the build folders so a `npm run build` will do a full recompile."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/287535408",
+    "html_url": "https://github.com/electron/electron/issues/8919#issuecomment-287535408",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8919",
+    "id": 287535408,
+    "user": {
+      "login": "babanesma",
+      "id": 2117734,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2117734?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/babanesma",
+      "html_url": "https://github.com/babanesma",
+      "followers_url": "https://api.github.com/users/babanesma/followers",
+      "following_url": "https://api.github.com/users/babanesma/following{/other_user}",
+      "gists_url": "https://api.github.com/users/babanesma/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/babanesma/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/babanesma/subscriptions",
+      "organizations_url": "https://api.github.com/users/babanesma/orgs",
+      "repos_url": "https://api.github.com/users/babanesma/repos",
+      "events_url": "https://api.github.com/users/babanesma/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/babanesma/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-18T10:53:35Z",
+    "updated_at": "2017-03-18T10:53:35Z",
+    "body": "@kevinsawicki I made a pull request #8955 to add a new command `npm run clean-build` , it will only remove `out` and `dist` directories "
+  }
+]

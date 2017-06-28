@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309799512",
+    "html_url": "https://github.com/electron/electron/pull/9810#issuecomment-309799512",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9810",
+    "id": 309799512,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-20T15:40:08Z",
+    "updated_at": "2017-06-20T15:40:08Z",
+    "body": "This change makes no sense, I suggest reading up on object destructuring: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment"
+  }
+]

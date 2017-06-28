@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/229724408",
+    "html_url": "https://github.com/electron/electron/issues/6296#issuecomment-229724408",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6296",
+    "id": 229724408,
+    "user": {
+      "login": "mnquintana",
+      "id": 823545,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/823545?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mnquintana",
+      "html_url": "https://github.com/mnquintana",
+      "followers_url": "https://api.github.com/users/mnquintana/followers",
+      "following_url": "https://api.github.com/users/mnquintana/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mnquintana/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mnquintana/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mnquintana/subscriptions",
+      "organizations_url": "https://api.github.com/users/mnquintana/orgs",
+      "repos_url": "https://api.github.com/users/mnquintana/repos",
+      "events_url": "https://api.github.com/users/mnquintana/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mnquintana/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-30T17:09:59Z",
+    "updated_at": "2016-06-30T17:09:59Z",
+    "body": "Can you paste the error and provide a minimal app that reproduces the issue? Thanks!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/230147505",
+    "html_url": "https://github.com/electron/electron/issues/6296#issuecomment-230147505",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6296",
+    "id": 230147505,
+    "user": {
+      "login": "patroza",
+      "id": 42661,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/42661?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/patroza",
+      "html_url": "https://github.com/patroza",
+      "followers_url": "https://api.github.com/users/patroza/followers",
+      "following_url": "https://api.github.com/users/patroza/following{/other_user}",
+      "gists_url": "https://api.github.com/users/patroza/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/patroza/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/patroza/subscriptions",
+      "organizations_url": "https://api.github.com/users/patroza/orgs",
+      "repos_url": "https://api.github.com/users/patroza/repos",
+      "events_url": "https://api.github.com/users/patroza/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/patroza/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-03T11:00:55Z",
+    "updated_at": "2016-07-03T11:00:55Z",
+    "body": "Apologies, seems to have been a network related issue on my end..\n"
+  }
+]

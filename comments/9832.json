@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/310361673",
+    "html_url": "https://github.com/electron/electron/issues/9832#issuecomment-310361673",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9832",
+    "id": 310361673,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-22T12:11:28Z",
+    "updated_at": "2017-06-22T12:11:28Z",
+    "body": "GitHub issues are for feature requests and bug reports, questions about using Electron should be directed to the [community](https://github.com/electron/electron#community) or to the [Slack Channel](http://atom-slack.herokuapp.com/)."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/310393535",
+    "html_url": "https://github.com/electron/electron/issues/9832#issuecomment-310393535",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9832",
+    "id": 310393535,
+    "user": {
+      "login": "xujiahan",
+      "id": 23237343,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23237343?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xujiahan",
+      "html_url": "https://github.com/xujiahan",
+      "followers_url": "https://api.github.com/users/xujiahan/followers",
+      "following_url": "https://api.github.com/users/xujiahan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xujiahan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xujiahan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xujiahan/subscriptions",
+      "organizations_url": "https://api.github.com/users/xujiahan/orgs",
+      "repos_url": "https://api.github.com/users/xujiahan/repos",
+      "events_url": "https://api.github.com/users/xujiahan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xujiahan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-22T14:16:44Z",
+    "updated_at": "2017-06-22T14:16:44Z",
+    "body": "sorry"
+  }
+]

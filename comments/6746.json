@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/237925626",
+    "html_url": "https://github.com/electron/electron/issues/6746#issuecomment-237925626",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6746",
+    "id": 237925626,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-05T18:23:23Z",
+    "updated_at": "2016-08-05T18:23:23Z",
+    "body": "If you open the dev tools and click the console tab you will see the following errors:\n\n> Uncaught Error: Bootstrap's JavaScript requires jQuery\n> Uncaught ReferenceError: $ is not defined\n\nThis is a duplicate of #254, you can read there for more discussion and fixes for this, a quick hack to get your app working would be:\n\n``` diff\ndiff --git a/shelter.html b/shelter.html\nindex 1a3a696..7dbc9c1 100644\n--- a/shelter.html\n+++ b/shelter.html\n@@ -152,6 +152,7 @@\n     </div>\n\n     <script src=\"js/jquery-2.1.4.min.js\"></script>\n+    <script>window.jQuery = window.$ = module.exports</script>\n     <script src=\"js/angular.min.js\"></script>\n     <script src=\"js/bootstrap.min.js\"></script>\n     <script src=\"js/json2.min.js\"></script>\n```\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/169541613",
+    "html_url": "https://github.com/electron/electron/issues/4008#issuecomment-169541613",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4008",
+    "id": 169541613,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-07T03:56:08Z",
+    "updated_at": "2016-01-07T03:56:08Z",
+    "body": "If you simply want to record or modify the requests, the `webRequest` API would be much better choice.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/169643426",
+    "html_url": "https://github.com/electron/electron/issues/4008#issuecomment-169643426",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4008",
+    "id": 169643426,
+    "user": {
+      "login": "py09mb",
+      "id": 2480869,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2480869?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/py09mb",
+      "html_url": "https://github.com/py09mb",
+      "followers_url": "https://api.github.com/users/py09mb/followers",
+      "following_url": "https://api.github.com/users/py09mb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/py09mb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/py09mb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/py09mb/subscriptions",
+      "organizations_url": "https://api.github.com/users/py09mb/orgs",
+      "repos_url": "https://api.github.com/users/py09mb/repos",
+      "events_url": "https://api.github.com/users/py09mb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/py09mb/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-07T12:04:38Z",
+    "updated_at": "2016-01-07T12:04:38Z",
+    "body": "Thanks for the response. Had a look at the webRequest API in the Session module but seems I can only cancel a request and redirect to another URL which breaks the websocket handshake.  I was looking to modify the url of the request before it was made which I thought was the function of the interceptor on Protocol, but I guess I was mistaken. \n\nI figured out another workaround in my project by overriding a function that builds up the websocket outside of electron so will close this if there is no actual issue. Thanks again!\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/258846867",
+    "html_url": "https://github.com/electron/electron/pull/7884#issuecomment-258846867",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7884",
+    "id": 258846867,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-07T14:18:40Z",
+    "updated_at": "2016-11-07T14:19:45Z",
+    "body": "OK so with these changes and the latest `electron-docs-linter` and `electron-definitelytyped` I managed to drop in the generated typings file to both VSCode and a personal project I've been working on and with a couple of tweaks (interface names and such) got both compiling with 0 type errors.\n\nThis is looking good to go 👍 (I think, might have missed some optionals so please review / add them if I did)\n\n/cc @zeke \n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/165495640",
+    "html_url": "https://github.com/electron/electron/pull/3849#issuecomment-165495640",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3849",
+    "id": 165495640,
+    "user": {
+      "login": "lipis",
+      "id": 125676,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/125676?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lipis",
+      "html_url": "https://github.com/lipis",
+      "followers_url": "https://api.github.com/users/lipis/followers",
+      "following_url": "https://api.github.com/users/lipis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lipis/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lipis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lipis/subscriptions",
+      "organizations_url": "https://api.github.com/users/lipis/orgs",
+      "repos_url": "https://api.github.com/users/lipis/repos",
+      "events_url": "https://api.github.com/users/lipis/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lipis/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-17T16:07:07Z",
+    "updated_at": "2015-12-17T16:07:07Z",
+    "body": ":dancers:\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/165634620",
+    "html_url": "https://github.com/electron/electron/pull/3849#issuecomment-165634620",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3849",
+    "id": 165634620,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-18T01:45:37Z",
+    "updated_at": "2015-12-18T01:45:37Z",
+    "body": ":+1: \n"
+  }
+]

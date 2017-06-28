@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/67847756",
+    "html_url": "https://github.com/electron/electron/issues/945#issuecomment-67847756",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/945",
+    "id": 67847756,
+    "user": {
+      "login": "lygstate",
+      "id": 121040,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/121040?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lygstate",
+      "html_url": "https://github.com/lygstate",
+      "followers_url": "https://api.github.com/users/lygstate/followers",
+      "following_url": "https://api.github.com/users/lygstate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lygstate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lygstate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lygstate/subscriptions",
+      "organizations_url": "https://api.github.com/users/lygstate/orgs",
+      "repos_url": "https://api.github.com/users/lygstate/repos",
+      "events_url": "https://api.github.com/users/lygstate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lygstate/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-22T15:15:24Z",
+    "updated_at": "2014-12-22T15:15:24Z",
+    "body": "duplicate of #381 \n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/253690797",
+    "html_url": "https://github.com/electron/electron/issues/7613#issuecomment-253690797",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7613",
+    "id": 253690797,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-14T02:01:08Z",
+    "updated_at": "2016-10-14T02:01:08Z",
+    "body": "> Is there any method to automatically close the dialog?\n\nThere isn't one currently, please subscribe to #5577 for future updates about this.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/253691466",
+    "html_url": "https://github.com/electron/electron/issues/7613#issuecomment-253691466",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7613",
+    "id": 253691466,
+    "user": {
+      "login": "EnchanterZero",
+      "id": 15273020,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/15273020?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EnchanterZero",
+      "html_url": "https://github.com/EnchanterZero",
+      "followers_url": "https://api.github.com/users/EnchanterZero/followers",
+      "following_url": "https://api.github.com/users/EnchanterZero/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EnchanterZero/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EnchanterZero/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EnchanterZero/subscriptions",
+      "organizations_url": "https://api.github.com/users/EnchanterZero/orgs",
+      "repos_url": "https://api.github.com/users/EnchanterZero/repos",
+      "events_url": "https://api.github.com/users/EnchanterZero/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EnchanterZero/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-14T02:06:28Z",
+    "updated_at": "2016-10-14T02:06:28Z",
+    "body": "OK,thank you :)\n"
+  }
+]

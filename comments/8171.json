@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/265888097",
+    "html_url": "https://github.com/electron/electron/issues/8171#issuecomment-265888097",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8171",
+    "id": 265888097,
+    "user": {
+      "login": "mnquintana",
+      "id": 823545,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/823545?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mnquintana",
+      "html_url": "https://github.com/mnquintana",
+      "followers_url": "https://api.github.com/users/mnquintana/followers",
+      "following_url": "https://api.github.com/users/mnquintana/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mnquintana/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mnquintana/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mnquintana/subscriptions",
+      "organizations_url": "https://api.github.com/users/mnquintana/orgs",
+      "repos_url": "https://api.github.com/users/mnquintana/repos",
+      "events_url": "https://api.github.com/users/mnquintana/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mnquintana/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-08T23:33:06Z",
+    "updated_at": "2016-12-08T23:33:06Z",
+    "body": "@kwonoj This looks like the same issue as https://github.com/electron/electron/issues/3379 – does that cover this case?"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/265888470",
+    "html_url": "https://github.com/electron/electron/issues/8171#issuecomment-265888470",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8171",
+    "id": 265888470,
+    "user": {
+      "login": "kwonoj",
+      "id": 1210596,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1210596?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kwonoj",
+      "html_url": "https://github.com/kwonoj",
+      "followers_url": "https://api.github.com/users/kwonoj/followers",
+      "following_url": "https://api.github.com/users/kwonoj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kwonoj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kwonoj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kwonoj/subscriptions",
+      "organizations_url": "https://api.github.com/users/kwonoj/orgs",
+      "repos_url": "https://api.github.com/users/kwonoj/repos",
+      "events_url": "https://api.github.com/users/kwonoj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kwonoj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-08T23:35:10Z",
+    "updated_at": "2016-12-08T23:35:10Z",
+    "body": "@mnquintana Oh yes, seems that's case. My searching wasn't good enough before filing new issue. Let me close this issue dupe of #3379."
+  }
+]

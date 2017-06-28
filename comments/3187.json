@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/150537671",
+    "html_url": "https://github.com/electron/electron/pull/3187#issuecomment-150537671",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3187",
+    "id": 150537671,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-23T10:26:27Z",
+    "updated_at": "2015-10-23T10:26:27Z",
+    "body": "`./node_modules/.bin/electron-rebuild` should work on all platforms, can you change the PR to use only that?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/150545381",
+    "html_url": "https://github.com/electron/electron/pull/3187#issuecomment-150545381",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3187",
+    "id": 150545381,
+    "user": {
+      "login": "alexandrubau",
+      "id": 1225661,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1225661?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexandrubau",
+      "html_url": "https://github.com/alexandrubau",
+      "followers_url": "https://api.github.com/users/alexandrubau/followers",
+      "following_url": "https://api.github.com/users/alexandrubau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexandrubau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexandrubau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexandrubau/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexandrubau/orgs",
+      "repos_url": "https://api.github.com/users/alexandrubau/repos",
+      "events_url": "https://api.github.com/users/alexandrubau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexandrubau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-23T11:10:59Z",
+    "updated_at": "2015-10-23T11:10:59Z",
+    "body": "sure\n"
+  }
+]

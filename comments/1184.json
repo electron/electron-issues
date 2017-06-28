@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/76655507",
+    "html_url": "https://github.com/electron/electron/issues/1184#issuecomment-76655507",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1184",
+    "id": 76655507,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-03-02T03:57:03Z",
+    "updated_at": "2015-03-02T03:57:03Z",
+    "body": "In atom-shell, in order to improve stability and reduce complexity, each window runs the web page in its own renderer process, which is separated with others. This unfortunately makes each window has its own session even when the windows are visiting the same site.\n\nThe localStorage stores data in disk for each site, so it is not affected by this.\n\nI'm closing this as won't fix since this is an expected side effect.\n\n> p.s. I'm aware I can use remote.getGlobal() to share data but I've found that to be noticeably slower when there's a lot of data - an order of 2-3 times slower in some cases - but that's probably another issue entirely?\n\nThe `remote` module doesn't return serialized objects, instead it returns proxy objects, and when you visit the members of a proxy object you would end up sending IPC messages. So using `remote` to share objects might end up with lots of IPC calls, which will be quite slow.\n\nYou can serialize objects to string when sharing them, or just use `ipc` module to explicitly send them.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/76702229",
+    "html_url": "https://github.com/electron/electron/issues/1184#issuecomment-76702229",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1184",
+    "id": 76702229,
+    "user": {
+      "login": "shrewdlogarithm",
+      "id": 4963937,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4963937?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shrewdlogarithm",
+      "html_url": "https://github.com/shrewdlogarithm",
+      "followers_url": "https://api.github.com/users/shrewdlogarithm/followers",
+      "following_url": "https://api.github.com/users/shrewdlogarithm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shrewdlogarithm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shrewdlogarithm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shrewdlogarithm/subscriptions",
+      "organizations_url": "https://api.github.com/users/shrewdlogarithm/orgs",
+      "repos_url": "https://api.github.com/users/shrewdlogarithm/repos",
+      "events_url": "https://api.github.com/users/shrewdlogarithm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shrewdlogarithm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-02T12:15:59Z",
+    "updated_at": "2015-03-02T12:15:59Z",
+    "body": "I thought the 'separate process' probably related to sessionStorage (the main reason I'm using atom-shell is the separate processes - it means memory is freed when a window is closed which node-webkit doesn't do)\n\nI can easily simulate sessionStorage by removing localStorage on window close/app exit or even on startup the next time around anyway so it's no big deal.\n\nThe 'proxy object' thing explains the staggering amount of IPC data in the profiler (I had an object with 10s of 1000s of properties - many of which were objects in their own right) - it was impossible to navigate through it to see where the 'real work' was being done, so I'll try serializing the object - thanks again!\n"
+  }
+]

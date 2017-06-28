@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/306933488",
+    "html_url": "https://github.com/electron/electron/issues/9035#issuecomment-306933488",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9035",
+    "id": 306933488,
+    "user": {
+      "login": "bompi88",
+      "id": 3270628,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3270628?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bompi88",
+      "html_url": "https://github.com/bompi88",
+      "followers_url": "https://api.github.com/users/bompi88/followers",
+      "following_url": "https://api.github.com/users/bompi88/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bompi88/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bompi88/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bompi88/subscriptions",
+      "organizations_url": "https://api.github.com/users/bompi88/orgs",
+      "repos_url": "https://api.github.com/users/bompi88/repos",
+      "events_url": "https://api.github.com/users/bompi88/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bompi88/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-07T21:40:44Z",
+    "updated_at": "2017-06-08T11:14:13Z",
+    "body": "__EDIT:__ Not ideal, but on mac I think I've used something like:\r\n\r\n```js\r\nvar filePath = clipboard.read('public.file-url').replace('file://', '');\r\n```\r\n\r\nto retrieve the path of the copied file.\r\n\r\nOn windows:\r\n```js\r\nvar rawFilePath = clipboard.read('FileNameW');\r\nvar filePath = rawFilePath.replace(new RegExp(String.fromCharCode(0), 'g'), '');\r\n```"
+  }
+]

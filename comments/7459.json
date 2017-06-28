@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/251091848",
+    "html_url": "https://github.com/electron/electron/issues/7459#issuecomment-251091848",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7459",
+    "id": 251091848,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-03T12:18:35Z",
+    "updated_at": "2016-10-03T12:18:35Z",
+    "body": "> Are there plans for these shortcuts to be supported by Electron's Global Shortcut Module ?\n\nCan't speak to that really, don't think anyone has plans at the moment :+1: \n\nAs for the actual implementation, I looked into this a long time ago and basically Apple make it very difficult to listen for those headphone button presses.  People normally use hacky workarounds like this https://github.com/Daij-Djan/DDHidLib\n\nIn fact I'm pretty sure that even apps like VLC and Spotify (which are built for native) don't integrate with those headphone buttons.  Community posts like [this one](https://community.spotify.com/t5/Live-Ideas/Support-for-the-headphone-play-pause-skip-buttons-Desktop/idi-p/78317) seem to confirm that.\n\nSomeone else might know some cool way of listening for these keys that I've never heard of, but I wouldn't hold any hope :cry: \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/254990246",
+    "html_url": "https://github.com/electron/electron/issues/7459#issuecomment-254990246",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7459",
+    "id": 254990246,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-20T02:05:10Z",
+    "updated_at": "2016-10-20T02:05:10Z",
+    "body": "Clearly Apple doesn't want to have any app except for iTunes to take the control of media keys, so I'm closing this as won't fix.\n"
+  }
+]

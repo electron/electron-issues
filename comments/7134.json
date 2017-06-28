@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/245552969",
+    "html_url": "https://github.com/electron/electron/issues/7134#issuecomment-245552969",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7134",
+    "id": 245552969,
+    "user": {
+      "login": "duncup",
+      "id": 7284558,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7284558?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/duncup",
+      "html_url": "https://github.com/duncup",
+      "followers_url": "https://api.github.com/users/duncup/followers",
+      "following_url": "https://api.github.com/users/duncup/following{/other_user}",
+      "gists_url": "https://api.github.com/users/duncup/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/duncup/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/duncup/subscriptions",
+      "organizations_url": "https://api.github.com/users/duncup/orgs",
+      "repos_url": "https://api.github.com/users/duncup/repos",
+      "events_url": "https://api.github.com/users/duncup/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/duncup/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-08T10:07:46Z",
+    "updated_at": "2016-09-08T10:07:46Z",
+    "body": "I see you make a book on github.\nDo you ask this for the book?\nIf this is ture,why use a old version of iojs?\nAnd this error is you'r network error,I can download this file.maybe you need a vpn to download this file.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/245656302",
+    "html_url": "https://github.com/electron/electron/issues/7134#issuecomment-245656302",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7134",
+    "id": 245656302,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-08T16:30:17Z",
+    "updated_at": "2016-09-08T16:30:17Z",
+    "body": "> Error: connect ETIMEDOUT 23.21.87.228:443\n\nYeah, this timeout is the issue, are you able to hit `https://atom.io/download/atom-shell/v1.3.5/iojs-v1.3.5.tar.gz` in a browser?\n\nYou may need to configure your network settings via the [`.npmrc`](https://docs.npmjs.com/files/npmrc)` file.\n\nClosing this out.\n"
+  }
+]

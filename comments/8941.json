@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/287227034",
+    "html_url": "https://github.com/electron/electron/issues/8941#issuecomment-287227034",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8941",
+    "id": 287227034,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-03-16T23:51:12Z",
+    "updated_at": "2017-03-16T23:51:12Z",
+    "body": "> Can I intercept certain key event to disable it?\r\n\r\nThere are some APIs to send and intercept keyboard/mouse events:\r\n\r\n* https://electron.atom.io/docs/api/web-contents/#event-before-input-event\r\n* https://electron.atom.io/docs/all/#winsetignoremouseeventsignore\r\n* https://electron.atom.io/docs/all/#contentssendinputeventevent\r\n\r\nYou can also extend Electron with C++ modules so it is feasible to add additional features to your app that access these platform APIs even if Electron does not currently expose it.\r\n\r\nClosing this out."
+  }
+]

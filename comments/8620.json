@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/279010470",
+    "html_url": "https://github.com/electron/electron/issues/8620#issuecomment-279010470",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8620",
+    "id": 279010470,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-10T17:37:01Z",
+    "updated_at": "2017-02-10T17:37:01Z",
+    "body": "Thanks for the test case, can confirm the behavior. https://github.com/electron/electron/pull/8537 will fix this."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/279493077",
+    "html_url": "https://github.com/electron/electron/issues/8620#issuecomment-279493077",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8620",
+    "id": 279493077,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-02-13T19:18:28Z",
+    "updated_at": "2017-02-13T19:18:28Z",
+    "body": "Fixed by #8537 "
+  }
+]

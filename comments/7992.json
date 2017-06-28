@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/261056727",
+    "html_url": "https://github.com/electron/electron/pull/7992#issuecomment-261056727",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7992",
+    "id": 261056727,
+    "user": {
+      "login": "crilleengvall",
+      "id": 623720,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/623720?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crilleengvall",
+      "html_url": "https://github.com/crilleengvall",
+      "followers_url": "https://api.github.com/users/crilleengvall/followers",
+      "following_url": "https://api.github.com/users/crilleengvall/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crilleengvall/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crilleengvall/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crilleengvall/subscriptions",
+      "organizations_url": "https://api.github.com/users/crilleengvall/orgs",
+      "repos_url": "https://api.github.com/users/crilleengvall/repos",
+      "events_url": "https://api.github.com/users/crilleengvall/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crilleengvall/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-16T20:07:43Z",
+    "updated_at": "2016-11-16T20:07:43Z",
+    "body": "Ok, got it!\n"
+  }
+]

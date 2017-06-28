@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/68564165",
+    "html_url": "https://github.com/electron/electron/issues/970#issuecomment-68564165",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/970",
+    "id": 68564165,
+    "user": {
+      "login": "ttilley",
+      "id": 9715,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9715?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ttilley",
+      "html_url": "https://github.com/ttilley",
+      "followers_url": "https://api.github.com/users/ttilley/followers",
+      "following_url": "https://api.github.com/users/ttilley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ttilley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ttilley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ttilley/subscriptions",
+      "organizations_url": "https://api.github.com/users/ttilley/orgs",
+      "repos_url": "https://api.github.com/users/ttilley/repos",
+      "events_url": "https://api.github.com/users/ttilley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ttilley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-02T21:30:13Z",
+    "updated_at": "2015-01-02T21:30:13Z",
+    "body": "Ignore me, I missed that atom-shell is using a modified version of `module.js` to achieve this. \n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250197511",
+    "html_url": "https://github.com/electron/electron/issues/7386#issuecomment-250197511",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7386",
+    "id": 250197511,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-28T15:13:39Z",
+    "updated_at": "2016-09-28T15:13:39Z",
+    "body": "Please search https://github.com/electron-userland/electron-prebuilt/issues and if you don't find an existing issue that matches yours then open a new one over there with FULL details of the error you've encountered.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250272829",
+    "html_url": "https://github.com/electron/electron/issues/7386#issuecomment-250272829",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7386",
+    "id": 250272829,
+    "user": {
+      "login": "azmuth94",
+      "id": 8680993,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8680993?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/azmuth94",
+      "html_url": "https://github.com/azmuth94",
+      "followers_url": "https://api.github.com/users/azmuth94/followers",
+      "following_url": "https://api.github.com/users/azmuth94/following{/other_user}",
+      "gists_url": "https://api.github.com/users/azmuth94/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/azmuth94/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/azmuth94/subscriptions",
+      "organizations_url": "https://api.github.com/users/azmuth94/orgs",
+      "repos_url": "https://api.github.com/users/azmuth94/repos",
+      "events_url": "https://api.github.com/users/azmuth94/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/azmuth94/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-28T19:26:36Z",
+    "updated_at": "2016-09-28T19:29:26Z",
+    "body": "I have cleared my cache and removed the electron folder from root directory\nthe issue repeats itself if i try installing electron:\n\nnpm install -g electron\n\n![image](https://cloud.githubusercontent.com/assets/8680993/18928843/e5a63f3c-858f-11e6-97cf-4c8b5601aca1.png)\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/82993202",
+    "html_url": "https://github.com/electron/electron/issues/1260#issuecomment-82993202",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1260",
+    "id": 82993202,
+    "user": {
+      "login": "sprintr",
+      "id": 3390089,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3390089?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sprintr",
+      "html_url": "https://github.com/sprintr",
+      "followers_url": "https://api.github.com/users/sprintr/followers",
+      "following_url": "https://api.github.com/users/sprintr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sprintr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sprintr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sprintr/subscriptions",
+      "organizations_url": "https://api.github.com/users/sprintr/orgs",
+      "repos_url": "https://api.github.com/users/sprintr/repos",
+      "events_url": "https://api.github.com/users/sprintr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sprintr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-18T14:18:46Z",
+    "updated_at": "2015-03-18T14:18:46Z",
+    "body": "Crashes on Win 8 too\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/82994767",
+    "html_url": "https://github.com/electron/electron/issues/1260#issuecomment-82994767",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1260",
+    "id": 82994767,
+    "user": {
+      "login": "frankhale",
+      "id": 190154,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/190154?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frankhale",
+      "html_url": "https://github.com/frankhale",
+      "followers_url": "https://api.github.com/users/frankhale/followers",
+      "following_url": "https://api.github.com/users/frankhale/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frankhale/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frankhale/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frankhale/subscriptions",
+      "organizations_url": "https://api.github.com/users/frankhale/orgs",
+      "repos_url": "https://api.github.com/users/frankhale/repos",
+      "events_url": "https://api.github.com/users/frankhale/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frankhale/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-18T14:24:25Z",
+    "updated_at": "2015-03-18T14:24:25Z",
+    "body": "Yeah I'm seeing this as well on Windows 10\n\nOn Wed, Mar 18, 2015 at 10:18 AM Amin Ullah Khan notifications@github.com\nwrote:\n\n> Crashes on Win 8 too\n> \n> —\n> Reply to this email directly or view it on GitHub\n> https://github.com/atom/atom-shell/issues/1260#issuecomment-82993202.\n"
+  }
+]

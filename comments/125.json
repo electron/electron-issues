@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/28902814",
+    "html_url": "https://github.com/electron/electron/pull/125#issuecomment-28902814",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/125",
+    "id": 28902814,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-11-20T16:15:00Z",
+    "updated_at": "2013-11-20T16:15:00Z",
+    "body": "This change is included in atom-shell 0.6.11.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/28905149",
+    "html_url": "https://github.com/electron/electron/pull/125#issuecomment-28905149",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/125",
+    "id": 28905149,
+    "user": {
+      "login": "mcolyer",
+      "id": 1424,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1424?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mcolyer",
+      "html_url": "https://github.com/mcolyer",
+      "followers_url": "https://api.github.com/users/mcolyer/followers",
+      "following_url": "https://api.github.com/users/mcolyer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mcolyer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mcolyer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mcolyer/subscriptions",
+      "organizations_url": "https://api.github.com/users/mcolyer/orgs",
+      "repos_url": "https://api.github.com/users/mcolyer/repos",
+      "events_url": "https://api.github.com/users/mcolyer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mcolyer/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-11-20T16:39:01Z",
+    "updated_at": "2013-11-20T16:39:01Z",
+    "body": ":cool: wasn't sure if I got everything right but I guess I did.\n"
+  }
+]

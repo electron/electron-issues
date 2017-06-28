@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/139097878",
+    "html_url": "https://github.com/electron/electron/issues/2741#issuecomment-139097878",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2741",
+    "id": 139097878,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-10T02:25:20Z",
+    "updated_at": "2015-09-10T02:25:20Z",
+    "body": "I thought it was the right place to pause, but it seems that Node.js pauses on the first line of user's script? We should do the same in Electron then.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/145291021",
+    "html_url": "https://github.com/electron/electron/issues/2741#issuecomment-145291021",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2741",
+    "id": 145291021,
+    "user": {
+      "login": "TayNelson",
+      "id": 12959855,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12959855?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TayNelson",
+      "html_url": "https://github.com/TayNelson",
+      "followers_url": "https://api.github.com/users/TayNelson/followers",
+      "following_url": "https://api.github.com/users/TayNelson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TayNelson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TayNelson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TayNelson/subscriptions",
+      "organizations_url": "https://api.github.com/users/TayNelson/orgs",
+      "repos_url": "https://api.github.com/users/TayNelson/repos",
+      "events_url": "https://api.github.com/users/TayNelson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TayNelson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-03T21:04:13Z",
+    "updated_at": "2015-10-12T20:30:21Z",
+    "body": "I'd really like this to be fixed. I currently can't get `debug-brk` working with any of the debuggers which I have tried.\n\n**Edit:** I have realised that this is unlikely the cause of the problem.\n\nLooking at Node.js' [`/src/node.cc`](https://github.com/nodejs/node/blob/2e6ece44e176f70a9c5c03879f4c98b912c7afbd/src/node.cc#L3928-L3938):\n\n``` cc\n// Start debug agent when argv has --debug\nif (instance_data->use_debug_agent())\n  StartDebug(env, debug_wait_connect);\n\nLoadEnvironment(env);\n\nenv->set_trace_sync_io(trace_sync_io);\n\n// Enable debugger\nif (instance_data->use_debug_agent())\n  EnableDebug(env);\n```\n\n[`LoadEnvironment`](https://github.com/nodejs/node/blob/2e6ece44e176f70a9c5c03879f4c98b912c7afbd/src/node.cc#L2967) will load [`/src/node.js`](https://github.com/nodejs/node/blob/master/src/node.js), and call its top-level function, passing the `process` object:\n\n``` cc\nLocal<Value> arg = env->process_object();\nf->Call(global, 1, &arg);\n```\n\nIt appears that they are only enabling the debug agent after the environment has been loaded. Perhaps this is what causes Node.js to _not_ break as early as Electron.\n"
+  }
+]

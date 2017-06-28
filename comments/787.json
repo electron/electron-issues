@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/61977851",
+    "html_url": "https://github.com/electron/electron/pull/787#issuecomment-61977851",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/787",
+    "id": 61977851,
+    "user": {
+      "login": "gstack",
+      "id": 5206028,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5206028?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gstack",
+      "html_url": "https://github.com/gstack",
+      "followers_url": "https://api.github.com/users/gstack/followers",
+      "following_url": "https://api.github.com/users/gstack/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gstack/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gstack/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gstack/subscriptions",
+      "organizations_url": "https://api.github.com/users/gstack/orgs",
+      "repos_url": "https://api.github.com/users/gstack/repos",
+      "events_url": "https://api.github.com/users/gstack/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gstack/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-06T13:25:16Z",
+    "updated_at": "2014-11-06T13:25:43Z",
+    "body": "thank you based zcbenz :pray: :+1:\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/68520410",
+    "html_url": "https://github.com/electron/electron/issues/968#issuecomment-68520410",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/968",
+    "id": 68520410,
+    "user": {
+      "login": "saschagehlich",
+      "id": 119684,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/119684?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/saschagehlich",
+      "html_url": "https://github.com/saschagehlich",
+      "followers_url": "https://api.github.com/users/saschagehlich/followers",
+      "following_url": "https://api.github.com/users/saschagehlich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/saschagehlich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/saschagehlich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/saschagehlich/subscriptions",
+      "organizations_url": "https://api.github.com/users/saschagehlich/orgs",
+      "repos_url": "https://api.github.com/users/saschagehlich/repos",
+      "events_url": "https://api.github.com/users/saschagehlich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/saschagehlich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-02T11:19:58Z",
+    "updated_at": "2015-01-02T11:21:06Z",
+    "body": "Have you tried DataURLs? You could use https://github.com/heldr/datauri to generate a DataURL from your String.\n\nBtw, I'm using jade also, but I precompile it using gulp.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/68544805",
+    "html_url": "https://github.com/electron/electron/issues/968#issuecomment-68544805",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/968",
+    "id": 68544805,
+    "user": {
+      "login": "laggingreflex",
+      "id": 2523987,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2523987?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/laggingreflex",
+      "html_url": "https://github.com/laggingreflex",
+      "followers_url": "https://api.github.com/users/laggingreflex/followers",
+      "following_url": "https://api.github.com/users/laggingreflex/following{/other_user}",
+      "gists_url": "https://api.github.com/users/laggingreflex/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/laggingreflex/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/laggingreflex/subscriptions",
+      "organizations_url": "https://api.github.com/users/laggingreflex/orgs",
+      "repos_url": "https://api.github.com/users/laggingreflex/repos",
+      "events_url": "https://api.github.com/users/laggingreflex/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/laggingreflex/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-02T17:33:22Z",
+    "updated_at": "2015-01-02T17:33:22Z",
+    "body": "It worked, thanks!\n\n```\nvar html = jade.renderFile('file://...');\nhtml = 'data:text/html,' + encodeURIComponent(html);\nwindow.loadUrl(html);\n```\n"
+  }
+]

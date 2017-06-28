@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/138486671",
+    "html_url": "https://github.com/electron/electron/issues/1456#issuecomment-138486671",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1456",
+    "id": 138486671,
+    "user": {
+      "login": "lin-chao",
+      "id": 3161552,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3161552?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lin-chao",
+      "html_url": "https://github.com/lin-chao",
+      "followers_url": "https://api.github.com/users/lin-chao/followers",
+      "following_url": "https://api.github.com/users/lin-chao/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lin-chao/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lin-chao/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lin-chao/subscriptions",
+      "organizations_url": "https://api.github.com/users/lin-chao/orgs",
+      "repos_url": "https://api.github.com/users/lin-chao/repos",
+      "events_url": "https://api.github.com/users/lin-chao/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lin-chao/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-08T09:02:34Z",
+    "updated_at": "2015-09-08T09:02:34Z",
+    "body": "I have encountered this problem\nOS: Mac && Win7 64\nElectron versions: 0.31.2\n"
+  }
+]

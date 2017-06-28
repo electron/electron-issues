@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/198795787",
+    "html_url": "https://github.com/electron/electron/issues/4820#issuecomment-198795787",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4820",
+    "id": 198795787,
+    "user": {
+      "login": "jarek-foksa",
+      "id": 193371,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/193371?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jarek-foksa",
+      "html_url": "https://github.com/jarek-foksa",
+      "followers_url": "https://api.github.com/users/jarek-foksa/followers",
+      "following_url": "https://api.github.com/users/jarek-foksa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jarek-foksa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jarek-foksa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jarek-foksa/subscriptions",
+      "organizations_url": "https://api.github.com/users/jarek-foksa/orgs",
+      "repos_url": "https://api.github.com/users/jarek-foksa/repos",
+      "events_url": "https://api.github.com/users/jarek-foksa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jarek-foksa/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-19T22:12:44Z",
+    "updated_at": "2016-03-19T22:12:44Z",
+    "body": "Related bug: https://github.com/atom/electron/issues/3871\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/202057262",
+    "html_url": "https://github.com/electron/electron/issues/4820#issuecomment-202057262",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4820",
+    "id": 202057262,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-03-27T12:46:45Z",
+    "updated_at": "2016-03-27T12:46:45Z",
+    "body": "I'm merging this to #3871.\n"
+  }
+]

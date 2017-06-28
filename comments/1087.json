@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/72705862",
+    "html_url": "https://github.com/electron/electron/issues/1087#issuecomment-72705862",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1087",
+    "id": 72705862,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-02-03T18:27:37Z",
+    "updated_at": "2015-02-03T18:27:37Z",
+    "body": "Can you verify if you are using v0.21.1 with `process.versions['atom-shell']`? It sounds like you are using v0.20.0 and I can not reproduce this on Linux.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/72777947",
+    "html_url": "https://github.com/electron/electron/issues/1087#issuecomment-72777947",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1087",
+    "id": 72777947,
+    "user": {
+      "login": "cyvirus",
+      "id": 3491434,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3491434?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cyvirus",
+      "html_url": "https://github.com/cyvirus",
+      "followers_url": "https://api.github.com/users/cyvirus/followers",
+      "following_url": "https://api.github.com/users/cyvirus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cyvirus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cyvirus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cyvirus/subscriptions",
+      "organizations_url": "https://api.github.com/users/cyvirus/orgs",
+      "repos_url": "https://api.github.com/users/cyvirus/repos",
+      "events_url": "https://api.github.com/users/cyvirus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cyvirus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-04T02:16:09Z",
+    "updated_at": "2015-02-04T02:16:09Z",
+    "body": "Sorry, I tested again with v0.21.1, it worked. Thanks!\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/84752875",
+    "html_url": "https://github.com/electron/electron/issues/1280#issuecomment-84752875",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1280",
+    "id": 84752875,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-03-23T02:11:33Z",
+    "updated_at": "2015-03-23T02:11:33Z",
+    "body": "`project_name` is like the executable file's name of your app, and `product_name` will be used as your app's name. It is totally fine to use the same name for both, but sometimes people would prefer a short lower-cased name for `project_name`.\n\nAs an example, in Atom editor, `project_name` is `atom` and `product_name` is `Atom`.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/88976098",
+    "html_url": "https://github.com/electron/electron/issues/1280#issuecomment-88976098",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1280",
+    "id": 88976098,
+    "user": {
+      "login": "Wortex17",
+      "id": 170627,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/170627?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Wortex17",
+      "html_url": "https://github.com/Wortex17",
+      "followers_url": "https://api.github.com/users/Wortex17/followers",
+      "following_url": "https://api.github.com/users/Wortex17/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Wortex17/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Wortex17/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Wortex17/subscriptions",
+      "organizations_url": "https://api.github.com/users/Wortex17/orgs",
+      "repos_url": "https://api.github.com/users/Wortex17/repos",
+      "events_url": "https://api.github.com/users/Wortex17/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Wortex17/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-02T17:07:46Z",
+    "updated_at": "2015-04-02T17:07:46Z",
+    "body": "I see, thanks ^^\n"
+  }
+]

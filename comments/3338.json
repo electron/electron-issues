@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/154034286",
+    "html_url": "https://github.com/electron/electron/issues/3338#issuecomment-154034286",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3338",
+    "id": 154034286,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-05T11:19:03Z",
+    "updated_at": "2015-11-05T11:19:03Z",
+    "body": "Starting with `/usr/local/bin/atom` is probably not going to work since Atom has its own ways of handling command line, can you try with your own app or a fresh downloaded binary?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/155620696",
+    "html_url": "https://github.com/electron/electron/issues/3338#issuecomment-155620696",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3338",
+    "id": 155620696,
+    "user": {
+      "login": "johnislarry",
+      "id": 1064522,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1064522?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnislarry",
+      "html_url": "https://github.com/johnislarry",
+      "followers_url": "https://api.github.com/users/johnislarry/followers",
+      "following_url": "https://api.github.com/users/johnislarry/following{/other_user}",
+      "gists_url": "https://api.github.com/users/johnislarry/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/johnislarry/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/johnislarry/subscriptions",
+      "organizations_url": "https://api.github.com/users/johnislarry/orgs",
+      "repos_url": "https://api.github.com/users/johnislarry/repos",
+      "events_url": "https://api.github.com/users/johnislarry/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/johnislarry/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-11T01:05:38Z",
+    "updated_at": "2015-11-11T01:05:38Z",
+    "body": "I ended up going with the excellent [spectron](https://www.npmjs.com/package/spectron) package instead of this route.  I suspect the underlying issue with this was that the version of electron that atom was using was different than the one expected by the selenium package.  I'm going to close out this issue.  Thanks for your attention @zcbenz!\n"
+  }
+]

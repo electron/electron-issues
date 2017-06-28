@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/123936928",
+    "html_url": "https://github.com/electron/electron/issues/2299#issuecomment-123936928",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2299",
+    "id": 123936928,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-07-23T02:32:47Z",
+    "updated_at": "2015-07-23T02:32:47Z",
+    "body": "I tried the `example/TCPSocket/basic` of node-ipc, with no network connection I got follow error in iojs v2.2.1:\n\n```\n######\nerror:  { [Error: getaddrinfo ENOENT localhost:8000]\n  code: 'ENOENT',\n  errno: 'ENOENT',\n  syscall: 'getaddrinfo',\n  hostname: 'localhost',\n  host: 'localhost',\n  port: 8000 }\nconnection closed world localhost -2 of false\ndisconnected from world\nrequested connection to  world localhost\nConnecting client via TCP to localhost 8000\n```\n\nAnd follow error in Electron:\n\n```\n[2432:0723/032837:INFO:CONSOLE(60)] \"\n\n######\nerror:  { [Error: getaddrinfo ENOENT localhost:8000]\n  code: 'ENOENT',\n  errno: 'ENOENT',\n  syscall: 'getaddrinfo',\n  hostname: 'localhost',\n  host: 'localhost',\n  port: 8000 }\", source: C:\\cygwin\\home\\zcbenz\\codes\\node-ipc\\node-ipc.js (60)\n[2432:0723/032837:INFO:CONSOLE(60)] \"connection closed world localhost -5 of false\", source: C:\\cygwin\\home\\zcbenz\\codes\\node-ipc\\node-ipc.js (60)\n[2432:0723/032837:INFO:CONSOLE(60)] \"disconnected from world\", source: C:\\cygwin\\home\\zcbenz\\codes\\node-ipc\\node-ipc.js (60)\n```\n\nIt is probably a bug of iojs, but since Electron is behaving exactly the same with iojs, I think it is fine to close this issue.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/124007669",
+    "html_url": "https://github.com/electron/electron/issues/2299#issuecomment-124007669",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2299",
+    "id": 124007669,
+    "user": {
+      "login": "iamdriz",
+      "id": 801252,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/801252?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iamdriz",
+      "html_url": "https://github.com/iamdriz",
+      "followers_url": "https://api.github.com/users/iamdriz/followers",
+      "following_url": "https://api.github.com/users/iamdriz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iamdriz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iamdriz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iamdriz/subscriptions",
+      "organizations_url": "https://api.github.com/users/iamdriz/orgs",
+      "repos_url": "https://api.github.com/users/iamdriz/repos",
+      "events_url": "https://api.github.com/users/iamdriz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iamdriz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-23T07:43:39Z",
+    "updated_at": "2015-07-23T07:43:39Z",
+    "body": "But it works fine outside of Electron regardless of network connection, so it only breaks when inside Electron.\n\nSent from my iPhone\n\n> On 23 Jul 2015, at 03:33, Cheng Zhao notifications@github.com wrote:\n> \n> I tried the example/TCPSocket/basic of node-ipc, with no network connection I got follow error in iojs v2.2.1:\n> \n> ######\n> error:  { [Error: getaddrinfo ENOENT localhost:8000]\n>   code: 'ENOENT',\n>   errno: 'ENOENT',\n>   syscall: 'getaddrinfo',\n>   hostname: 'localhost',\n>   host: 'localhost',\n>   port: 8000 }\n> connection closed world localhost -2 of false\n> disconnected from world\n> requested connection to  world localhost\n> Connecting client via TCP to localhost 8000\n> And follow error in Electron:\n> \n> [2432:0723/032837:INFO:CONSOLE(60)] \"\n> \n> ######\n> error:  { [Error: getaddrinfo ENOENT localhost:8000]\n>   code: 'ENOENT',\n>   errno: 'ENOENT',\n>   syscall: 'getaddrinfo',\n>   hostname: 'localhost',\n>   host: 'localhost',\n>   port: 8000 }\", source: C:\\cygwin\\home\\zcbenz\\codes\\node-ipc\\node-ipc.js (60)\n> [2432:0723/032837:INFO:CONSOLE(60)] \"connection closed world localhost -5 of false\", source: C:\\cygwin\\home\\zcbenz\\codes\\node-ipc\\node-ipc.js (60)\n> [2432:0723/032837:INFO:CONSOLE(60)] \"disconnected from world\", source: C:\\cygwin\\home\\zcbenz\\codes\\node-ipc\\node-ipc.js (60)\n> It is probably a bug of iojs, but since Electron is behaving exactly the same with iojs, I think it is fine to close this issue.\n> \n> —\n> Reply to this email directly or view it on GitHub.\n"
+  }
+]

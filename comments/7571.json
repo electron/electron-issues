@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/253161186",
+    "html_url": "https://github.com/electron/electron/issues/7571#issuecomment-253161186",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7571",
+    "id": 253161186,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-12T09:14:54Z",
+    "updated_at": "2016-10-12T09:14:54Z",
+    "body": "Please file this in the Atom repository, if they can reproduce it with the latest Electron then we can reopen this issue.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/253164196",
+    "html_url": "https://github.com/electron/electron/issues/7571#issuecomment-253164196",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7571",
+    "id": 253164196,
+    "user": {
+      "login": "jamesstidard",
+      "id": 1797906,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1797906?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jamesstidard",
+      "html_url": "https://github.com/jamesstidard",
+      "followers_url": "https://api.github.com/users/jamesstidard/followers",
+      "following_url": "https://api.github.com/users/jamesstidard/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jamesstidard/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jamesstidard/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jamesstidard/subscriptions",
+      "organizations_url": "https://api.github.com/users/jamesstidard/orgs",
+      "repos_url": "https://api.github.com/users/jamesstidard/repos",
+      "events_url": "https://api.github.com/users/jamesstidard/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jamesstidard/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-12T09:28:42Z",
+    "updated_at": "2016-10-12T09:28:42Z",
+    "body": "Will do. Thanks, @enlight. Here's the Atom issue if anyone finds this and wants the follow: atom/atom#12957\n"
+  }
+]

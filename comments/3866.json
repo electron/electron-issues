@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/166032576",
+    "html_url": "https://github.com/electron/electron/issues/3866#issuecomment-166032576",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3866",
+    "id": 166032576,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-19T23:02:13Z",
+    "updated_at": "2015-12-19T23:02:13Z",
+    "body": "This is a bug but if you want to work around it, set that icon to be as part of the unpacked part of the ASAR archive, then replace \"app.asar\" in the path with \"app.asar.unpacked\"\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/166050372",
+    "html_url": "https://github.com/electron/electron/issues/3866#issuecomment-166050372",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3866",
+    "id": 166050372,
+    "user": {
+      "login": "Rokt33r",
+      "id": 5865853,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5865853?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Rokt33r",
+      "html_url": "https://github.com/Rokt33r",
+      "followers_url": "https://api.github.com/users/Rokt33r/followers",
+      "following_url": "https://api.github.com/users/Rokt33r/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Rokt33r/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Rokt33r/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Rokt33r/subscriptions",
+      "organizations_url": "https://api.github.com/users/Rokt33r/orgs",
+      "repos_url": "https://api.github.com/users/Rokt33r/repos",
+      "events_url": "https://api.github.com/users/Rokt33r/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Rokt33r/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-20T01:30:07Z",
+    "updated_at": "2015-12-20T01:30:07Z",
+    "body": "Thanks you! I'll give a shot.\n"
+  }
+]

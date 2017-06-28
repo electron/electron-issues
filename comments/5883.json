@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223877029",
+    "html_url": "https://github.com/electron/electron/pull/5883#issuecomment-223877029",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5883",
+    "id": 223877029,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-06T06:20:15Z",
+    "updated_at": "2016-06-06T06:20:15Z",
+    "body": "Thanks!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223877234",
+    "html_url": "https://github.com/electron/electron/pull/5883#issuecomment-223877234",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5883",
+    "id": 223877234,
+    "user": {
+      "login": "sethlu",
+      "id": 3168941,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3168941?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sethlu",
+      "html_url": "https://github.com/sethlu",
+      "followers_url": "https://api.github.com/users/sethlu/followers",
+      "following_url": "https://api.github.com/users/sethlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sethlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sethlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sethlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sethlu/orgs",
+      "repos_url": "https://api.github.com/users/sethlu/repos",
+      "events_url": "https://api.github.com/users/sethlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sethlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-06T06:22:03Z",
+    "updated_at": "2016-06-06T06:22:03Z",
+    "body": "Just to keep docs up to date 😉\n"
+  }
+]

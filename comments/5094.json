@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/305443840",
+    "html_url": "https://github.com/electron/electron/issues/5094#issuecomment-305443840",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5094",
+    "id": 305443840,
+    "user": {
+      "login": "marcelfalliere",
+      "id": 388180,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/388180?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marcelfalliere",
+      "html_url": "https://github.com/marcelfalliere",
+      "followers_url": "https://api.github.com/users/marcelfalliere/followers",
+      "following_url": "https://api.github.com/users/marcelfalliere/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marcelfalliere/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marcelfalliere/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marcelfalliere/subscriptions",
+      "organizations_url": "https://api.github.com/users/marcelfalliere/orgs",
+      "repos_url": "https://api.github.com/users/marcelfalliere/repos",
+      "events_url": "https://api.github.com/users/marcelfalliere/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marcelfalliere/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-01T09:42:45Z",
+    "updated_at": "2017-06-01T09:42:45Z",
+    "body": "this does not work for a `webview`, right ? ie:\r\n\r\n`this.webview.openDevTools({ mode: 'right' });`\r\n\r\n(seen behaviour is a detached dev tools ; wanted is docked to the right)\r\n\r\n"
+  }
+]

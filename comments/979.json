@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/69607402",
+    "html_url": "https://github.com/electron/electron/issues/979#issuecomment-69607402",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/979",
+    "id": 69607402,
+    "user": {
+      "login": "park9140",
+      "id": 276898,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/276898?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/park9140",
+      "html_url": "https://github.com/park9140",
+      "followers_url": "https://api.github.com/users/park9140/followers",
+      "following_url": "https://api.github.com/users/park9140/following{/other_user}",
+      "gists_url": "https://api.github.com/users/park9140/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/park9140/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/park9140/subscriptions",
+      "organizations_url": "https://api.github.com/users/park9140/orgs",
+      "repos_url": "https://api.github.com/users/park9140/repos",
+      "events_url": "https://api.github.com/users/park9140/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/park9140/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-12T17:21:00Z",
+    "updated_at": "2015-01-12T17:21:00Z",
+    "body": "@zcbenz, any movement on this?  I can't release the next version of `atom-typescript-tools` without it. \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/70348037",
+    "html_url": "https://github.com/electron/electron/issues/979#issuecomment-70348037",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/979",
+    "id": 70348037,
+    "user": {
+      "login": "park9140",
+      "id": 276898,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/276898?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/park9140",
+      "html_url": "https://github.com/park9140",
+      "followers_url": "https://api.github.com/users/park9140/followers",
+      "following_url": "https://api.github.com/users/park9140/following{/other_user}",
+      "gists_url": "https://api.github.com/users/park9140/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/park9140/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/park9140/subscriptions",
+      "organizations_url": "https://api.github.com/users/park9140/orgs",
+      "repos_url": "https://api.github.com/users/park9140/repos",
+      "events_url": "https://api.github.com/users/park9140/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/park9140/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-17T01:22:37Z",
+    "updated_at": "2015-01-17T01:22:37Z",
+    "body": "@zcbenz,  ha you beat me too it I got it in my head to try and fix this getting as far as discovering it was the ICU that was not quite set up correctly.  Thanks for so much for fixing this.  Perhaps I will win the race next time, now that I went to all the trouble to learn how to compile and debug the project :)\n"
+  }
+]

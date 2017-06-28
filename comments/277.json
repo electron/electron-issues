@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/42643182",
+    "html_url": "https://github.com/electron/electron/issues/277#issuecomment-42643182",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/277",
+    "id": 42643182,
+    "user": {
+      "login": "r-lyeh",
+      "id": 878187,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/878187?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/r-lyeh",
+      "html_url": "https://github.com/r-lyeh",
+      "followers_url": "https://api.github.com/users/r-lyeh/followers",
+      "following_url": "https://api.github.com/users/r-lyeh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/r-lyeh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/r-lyeh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/r-lyeh/subscriptions",
+      "organizations_url": "https://api.github.com/users/r-lyeh/orgs",
+      "repos_url": "https://api.github.com/users/r-lyeh/repos",
+      "events_url": "https://api.github.com/users/r-lyeh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/r-lyeh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-05-09T08:18:32Z",
+    "updated_at": "2014-05-09T08:18:32Z",
+    "body": "atom-shell/vendor/depot_tools , chromium-breakpad/src , to name a few. it would be good to double check all the source tress\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/42650522",
+    "html_url": "https://github.com/electron/electron/issues/277#issuecomment-42650522",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/277",
+    "id": 42650522,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-05-09T09:58:45Z",
+    "updated_at": "2014-05-09T09:58:45Z",
+    "body": "The submodules were updated in CI successfully: https://travis-ci.org/atom/atom-shell/builds/24769986, so it should be some network problems on your side. The submodules you referred to were hosted on `https://chromium.googlesource.com`, please check if your access to it is blocked.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/146655900",
+    "html_url": "https://github.com/electron/electron/pull/3036#issuecomment-146655900",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3036",
+    "id": 146655900,
+    "user": {
+      "login": "osanyin",
+      "id": 228720,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/228720?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/osanyin",
+      "html_url": "https://github.com/osanyin",
+      "followers_url": "https://api.github.com/users/osanyin/followers",
+      "following_url": "https://api.github.com/users/osanyin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/osanyin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/osanyin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/osanyin/subscriptions",
+      "organizations_url": "https://api.github.com/users/osanyin/orgs",
+      "repos_url": "https://api.github.com/users/osanyin/repos",
+      "events_url": "https://api.github.com/users/osanyin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/osanyin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-08T19:03:31Z",
+    "updated_at": "2015-10-08T19:03:31Z",
+    "body": "Great! Nice translation.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/146737888",
+    "html_url": "https://github.com/electron/electron/pull/3036#issuecomment-146737888",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3036",
+    "id": 146737888,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-09T02:16:59Z",
+    "updated_at": "2015-10-09T02:16:59Z",
+    "body": "Thanks!\n"
+  }
+]

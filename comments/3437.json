@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/156718888",
+    "html_url": "https://github.com/electron/electron/issues/3437#issuecomment-156718888",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3437",
+    "id": 156718888,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-14T16:50:17Z",
+    "updated_at": "2015-11-14T16:50:17Z",
+    "body": "Thats because of not following up on incomplete certificate chains on linux, it was fixed sometime back https://github.com/atom/brightray/pull/156 . I suggest upgrading your electron version on linux to v0.34.x.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/156758273",
+    "html_url": "https://github.com/electron/electron/issues/3437#issuecomment-156758273",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3437",
+    "id": 156758273,
+    "user": {
+      "login": "kaarebs",
+      "id": 1903825,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1903825?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kaarebs",
+      "html_url": "https://github.com/kaarebs",
+      "followers_url": "https://api.github.com/users/kaarebs/followers",
+      "following_url": "https://api.github.com/users/kaarebs/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kaarebs/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kaarebs/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kaarebs/subscriptions",
+      "organizations_url": "https://api.github.com/users/kaarebs/orgs",
+      "repos_url": "https://api.github.com/users/kaarebs/repos",
+      "events_url": "https://api.github.com/users/kaarebs/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kaarebs/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-14T23:38:02Z",
+    "updated_at": "2015-11-14T23:38:02Z",
+    "body": "Ohh.. Thanks a lot :) - now auto updater fails - så I will compile from master branch now - that issue has been fixed here :)\n"
+  }
+]

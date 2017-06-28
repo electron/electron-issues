@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/220819631",
+    "html_url": "https://github.com/electron/electron/issues/5637#issuecomment-220819631",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5637",
+    "id": 220819631,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-22T08:01:34Z",
+    "updated_at": "2016-05-22T08:01:34Z",
+    "body": "I'm unable to reproduce, does the default app have the rubber banding effect on your machine?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/220852441",
+    "html_url": "https://github.com/electron/electron/issues/5637#issuecomment-220852441",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5637",
+    "id": 220852441,
+    "user": {
+      "login": "turadg",
+      "id": 21505,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/21505?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/turadg",
+      "html_url": "https://github.com/turadg",
+      "followers_url": "https://api.github.com/users/turadg/followers",
+      "following_url": "https://api.github.com/users/turadg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/turadg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/turadg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/turadg/subscriptions",
+      "organizations_url": "https://api.github.com/users/turadg/orgs",
+      "repos_url": "https://api.github.com/users/turadg/repos",
+      "events_url": "https://api.github.com/users/turadg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/turadg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-22T19:53:44Z",
+    "updated_at": "2016-05-22T19:53:44Z",
+    "body": "Root cause: PEBCAK\n\n(sorry to waste your time)\n"
+  }
+]

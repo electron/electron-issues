@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/178316277",
+    "html_url": "https://github.com/electron/electron/issues/4313#issuecomment-178316277",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4313",
+    "id": 178316277,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-02T02:19:34Z",
+    "updated_at": "2016-02-02T02:19:34Z",
+    "body": "Chrome 48 has switched to use pdfium for PDF generating, so we will get this fixed in Electron once we [upgrade to Chrome 48](https://github.com/atom/libchromiumcontent/pull/175). \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/179951818",
+    "html_url": "https://github.com/electron/electron/issues/4313#issuecomment-179951818",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4313",
+    "id": 179951818,
+    "user": {
+      "login": "danburzo",
+      "id": 205375,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/205375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/danburzo",
+      "html_url": "https://github.com/danburzo",
+      "followers_url": "https://api.github.com/users/danburzo/followers",
+      "following_url": "https://api.github.com/users/danburzo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danburzo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danburzo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danburzo/subscriptions",
+      "organizations_url": "https://api.github.com/users/danburzo/orgs",
+      "repos_url": "https://api.github.com/users/danburzo/repos",
+      "events_url": "https://api.github.com/users/danburzo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danburzo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-04T17:12:57Z",
+    "updated_at": "2016-02-04T17:12:57Z",
+    "body": "We've also had this problem. Seems that the printer generates bad Destination references for the links, writing just the fragment identifier in a link without creating a reference with that identifier in the dictionary. \n\nWe've managed to go around this limitation by post-processing the PDF with Apache PDFBox in Java, but there are also Python libraries that can help, e.g. [PyPDF2](https://pythonhosted.org/PyPDF2/Destination.html). \n\nThe idea is to iterate through all the annotations, identify the broken ones, and set the correct destinations.\n\nBut yes, we're very much looking forward to that pull request being merged :-D\n"
+  }
+]

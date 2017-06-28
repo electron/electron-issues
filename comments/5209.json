@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/212250226",
+    "html_url": "https://github.com/electron/electron/issues/5209#issuecomment-212250226",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5209",
+    "id": 212250226,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-20T04:21:53Z",
+    "updated_at": "2016-04-20T04:21:53Z",
+    "body": "Can you provide a minimal app that can reproduce this problem? I'm not able to reproduce on my machine.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/212573918",
+    "html_url": "https://github.com/electron/electron/issues/5209#issuecomment-212573918",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5209",
+    "id": 212573918,
+    "user": {
+      "login": "teimaj",
+      "id": 12814933,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12814933?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teimaj",
+      "html_url": "https://github.com/teimaj",
+      "followers_url": "https://api.github.com/users/teimaj/followers",
+      "following_url": "https://api.github.com/users/teimaj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teimaj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teimaj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teimaj/subscriptions",
+      "organizations_url": "https://api.github.com/users/teimaj/orgs",
+      "repos_url": "https://api.github.com/users/teimaj/repos",
+      "events_url": "https://api.github.com/users/teimaj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teimaj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-20T19:39:37Z",
+    "updated_at": "2016-04-20T19:39:37Z",
+    "body": "So, i've since found out that i now have to specify a preload script on the `<webview>` tag attribute `preload`. This enables me to set a global variable for the guest page such as `window.ipcRenderer = require('electron').ipcRenderer` and then my application works.\n\nI guess this `preload` attribute has been created between the previous version i was using and the current version, and the previous way no longer works. \n\nGoing to close this as it's a not an issue\n"
+  }
+]

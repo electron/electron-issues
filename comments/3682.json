@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/161952094",
+    "html_url": "https://github.com/electron/electron/issues/3682#issuecomment-161952094",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3682",
+    "id": 161952094,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-04T12:07:09Z",
+    "updated_at": "2015-12-04T12:07:09Z",
+    "body": "This is a bug of Chromium when handling DOM inputs, I think the solution is to handle the input with DOM events manually instead of relying on Menu's accelerator.\n\nTo fix this we have to dig into Chromium's source code, but that is just too much work. Reporting it to Chromium is unlikely to work too because to reproduce it you have to add a custom menu item to Chrome, which is not possible.\n\nI'm closing this as won't fix since probably no one would look into it, and you can work around it by listening to DOM's key events.\n"
+  }
+]

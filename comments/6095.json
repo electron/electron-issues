@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226647297",
+    "html_url": "https://github.com/electron/electron/pull/6095#issuecomment-226647297",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6095",
+    "id": 226647297,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-16T23:59:49Z",
+    "updated_at": "2016-06-16T23:59:49Z",
+    "body": "I feel like in general, the `ready` event should immediately fire if someone subscribes to it after `app` is ready, but this fixes the short-term problem at least\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226673324",
+    "html_url": "https://github.com/electron/electron/pull/6095#issuecomment-226673324",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6095",
+    "id": 226673324,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-17T03:40:44Z",
+    "updated_at": "2016-06-17T03:40:44Z",
+    "body": "👍 \n"
+  }
+]

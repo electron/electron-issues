@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/290830762",
+    "html_url": "https://github.com/electron/electron/issues/9070#issuecomment-290830762",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9070",
+    "id": 290830762,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-03-31T21:10:04Z",
+    "updated_at": "2017-03-31T21:10:04Z",
+    "body": "The version of node included with Electron is built via the `vendor/node` submodule in this repository.\r\n\r\nNode is upgraded when Chrome is upgraded so that they use the same v8 versions and are compatible with each other. You may experience issues if trying to use a different node version than the one Electron is built and tested against.\r\n\r\nIf you need to build Electron against a different version of node, you can change the `vendor/node` submodule to check out the version you want to build against.\r\n\r\nClosing this out."
+  }
+]

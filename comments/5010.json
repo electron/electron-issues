@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/205190144",
+    "html_url": "https://github.com/electron/electron/issues/5010#issuecomment-205190144",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5010",
+    "id": 205190144,
+    "user": {
+      "login": "yishn",
+      "id": 9217349,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9217349?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yishn",
+      "html_url": "https://github.com/yishn",
+      "followers_url": "https://api.github.com/users/yishn/followers",
+      "following_url": "https://api.github.com/users/yishn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yishn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yishn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yishn/subscriptions",
+      "organizations_url": "https://api.github.com/users/yishn/orgs",
+      "repos_url": "https://api.github.com/users/yishn/repos",
+      "events_url": "https://api.github.com/users/yishn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yishn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-04T08:25:31Z",
+    "updated_at": "2016-04-04T08:25:31Z",
+    "body": "It seems classes are CamelCase while modules that contain functions are mixedCase. I find that perfectly agreeable. Also, \"Synopsis\" is not a module.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/206749071",
+    "html_url": "https://github.com/electron/electron/issues/5010#issuecomment-206749071",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5010",
+    "id": 206749071,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-07T08:03:09Z",
+    "updated_at": "2016-04-07T08:03:09Z",
+    "body": "The basic idea is, the name of API should match how you use them. So use CamelCase when it is a class, or mixedCase when you want to call its methods.\n- When the module itself is a class, like `BrowserWindow` => use CamelCase\n- When the module is a set of APIs, like `clipboard` => use mixedCase\n- When the API is a property of object, and it is complex enough to be in a separate chapter, like `win.webContents` => use mixedCase\n- For other non-module APIs, use natural titles, like `<webview> Tag` or `Process Object`.\n\nThis follows the style of Node's APIs. \n"
+  }
+]

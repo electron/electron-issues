@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/157813374",
+    "html_url": "https://github.com/electron/electron/pull/3491#issuecomment-157813374",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3491",
+    "id": 157813374,
+    "user": {
+      "login": "sindresorhus",
+      "id": 170270,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/170270?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sindresorhus",
+      "html_url": "https://github.com/sindresorhus",
+      "followers_url": "https://api.github.com/users/sindresorhus/followers",
+      "following_url": "https://api.github.com/users/sindresorhus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sindresorhus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sindresorhus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sindresorhus/subscriptions",
+      "organizations_url": "https://api.github.com/users/sindresorhus/orgs",
+      "repos_url": "https://api.github.com/users/sindresorhus/repos",
+      "events_url": "https://api.github.com/users/sindresorhus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sindresorhus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-18T18:35:29Z",
+    "updated_at": "2015-11-18T18:35:40Z",
+    "body": "> Remove the `-` in BrowserWindow's option names.\n\nhttps://github.com/atom/electron/releases/tag/v0.35.0\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/157904628",
+    "html_url": "https://github.com/electron/electron/pull/3491#issuecomment-157904628",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3491",
+    "id": 157904628,
+    "user": {
+      "login": "vitorgalvao",
+      "id": 1699443,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1699443?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vitorgalvao",
+      "html_url": "https://github.com/vitorgalvao",
+      "followers_url": "https://api.github.com/users/vitorgalvao/followers",
+      "following_url": "https://api.github.com/users/vitorgalvao/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vitorgalvao/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vitorgalvao/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vitorgalvao/subscriptions",
+      "organizations_url": "https://api.github.com/users/vitorgalvao/orgs",
+      "repos_url": "https://api.github.com/users/vitorgalvao/repos",
+      "events_url": "https://api.github.com/users/vitorgalvao/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vitorgalvao/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-19T00:07:39Z",
+    "updated_at": "2015-11-19T00:07:39Z",
+    "body": "Weird. Wonder why I got `0.34.0` in my download earlier. Thank you for the comment.\n"
+  }
+]

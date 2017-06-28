@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/254991808",
+    "html_url": "https://github.com/electron/electron/issues/7504#issuecomment-254991808",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7504",
+    "id": 254991808,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-20T02:19:04Z",
+    "updated_at": "2016-10-20T02:19:04Z",
+    "body": "The webview is very tightly connected to its parent window, this is a design made in Chromium and we can not change that, I suggest reporting this to [Chromium's issues list](https://crbug.com) instead.\n\nAs for the tabs in Chrome, they are actually `BrowserWindow`s instead of `<webview>`s. \n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/291901800",
+    "html_url": "https://github.com/electron/electron/issues/9077#issuecomment-291901800",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9077",
+    "id": 291901800,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-05T15:38:18Z",
+    "updated_at": "2017-04-05T15:38:18Z",
+    "body": "This is by design of file protocol in chromium, there is nothing we can do about it. You can workaround by using custom protocols to serve local files and redirect to them."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309973798",
+    "html_url": "https://github.com/electron/electron/issues/9077#issuecomment-309973798",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9077",
+    "id": 309973798,
+    "user": {
+      "login": "huangzuizui",
+      "id": 11964422,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11964422?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/huangzuizui",
+      "html_url": "https://github.com/huangzuizui",
+      "followers_url": "https://api.github.com/users/huangzuizui/followers",
+      "following_url": "https://api.github.com/users/huangzuizui/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huangzuizui/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/huangzuizui/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huangzuizui/subscriptions",
+      "organizations_url": "https://api.github.com/users/huangzuizui/orgs",
+      "repos_url": "https://api.github.com/users/huangzuizui/repos",
+      "events_url": "https://api.github.com/users/huangzuizui/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/huangzuizui/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-21T06:12:42Z",
+    "updated_at": "2017-06-21T06:12:56Z",
+    "body": "You can try to turn off webSecurity in webPreferences to enable it."
+  }
+]

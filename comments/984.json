@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/69233279",
+    "html_url": "https://github.com/electron/electron/issues/984#issuecomment-69233279",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/984",
+    "id": 69233279,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-01-08T19:22:30Z",
+    "updated_at": "2015-01-08T19:22:30Z",
+    "body": "On Windows the `blur` event is emitted when window is beginning to lose focus, so `BrowserWindow.getFocusedWindow()` still returns current window. Before this is fixed, you can simply do things in next tick to work around it:\n\n``` javascript\nthis.nativeWin.on ( 'blur', function () {\n    setImmediate(function() {\n      if ( !BrowserWindow.getFocusedWindow() ) {\n          /// none of my atom-shell windows get focused, safely send 'totally-blur' message here!\n      }\n    });\n}.bind(this) );\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/69285226",
+    "html_url": "https://github.com/electron/electron/issues/984#issuecomment-69285226",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/984",
+    "id": 69285226,
+    "user": {
+      "login": "jwu",
+      "id": 174891,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/174891?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jwu",
+      "html_url": "https://github.com/jwu",
+      "followers_url": "https://api.github.com/users/jwu/followers",
+      "following_url": "https://api.github.com/users/jwu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jwu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwu/subscriptions",
+      "organizations_url": "https://api.github.com/users/jwu/orgs",
+      "repos_url": "https://api.github.com/users/jwu/repos",
+      "events_url": "https://api.github.com/users/jwu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jwu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-09T02:34:08Z",
+    "updated_at": "2015-01-09T02:34:08Z",
+    "body": "Thanks, it works! \n"
+  }
+]

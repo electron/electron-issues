@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/215063530",
+    "html_url": "https://github.com/electron/electron/issues/5305#issuecomment-215063530",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5305",
+    "id": 215063530,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-27T12:11:57Z",
+    "updated_at": "2016-04-27T12:11:57Z",
+    "body": "Setting `max_old_space_size` to 2000 doesn't necessarily mean you can use memory up to 2000mb, allocating memories generates fragments so the memory you can use is usually much less than the upper limit.\n\nBut I am not an expert on V8, I suggest seeking help from the v8-users mailing list.\n"
+  }
+]

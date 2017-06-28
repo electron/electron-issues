@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/180692932",
+    "html_url": "https://github.com/electron/electron/issues/4388#issuecomment-180692932",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4388",
+    "id": 180692932,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-06T05:28:58Z",
+    "updated_at": "2016-02-06T05:28:58Z",
+    "body": "I believe this is the file you're looking for: https://github.com/atom/electron/blob/master/atom/common/lib/asar.js\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/180693967",
+    "html_url": "https://github.com/electron/electron/issues/4388#issuecomment-180693967",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4388",
+    "id": 180693967,
+    "user": {
+      "login": "PokemonAshLovesMyTurkeyAndILikeYouTwo",
+      "id": 17089298,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17089298?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo",
+      "html_url": "https://github.com/PokemonAshLovesMyTurkeyAndILikeYouTwo",
+      "followers_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/followers",
+      "following_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/subscriptions",
+      "organizations_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/orgs",
+      "repos_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/repos",
+      "events_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-06T05:31:13Z",
+    "updated_at": "2016-02-06T05:31:13Z",
+    "body": "@enlight Hmm, yeah that's it! Weird how it shows up as a different name in chrome tools, thank you!!\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/116208653",
+    "html_url": "https://github.com/electron/electron/issues/2070#issuecomment-116208653",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2070",
+    "id": 116208653,
+    "user": {
+      "login": "hokein",
+      "id": 2557445,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2557445?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hokein",
+      "html_url": "https://github.com/hokein",
+      "followers_url": "https://api.github.com/users/hokein/followers",
+      "following_url": "https://api.github.com/users/hokein/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hokein/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hokein/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hokein/subscriptions",
+      "organizations_url": "https://api.github.com/users/hokein/orgs",
+      "repos_url": "https://api.github.com/users/hokein/repos",
+      "events_url": "https://api.github.com/users/hokein/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hokein/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-28T07:21:24Z",
+    "updated_at": "2015-06-28T07:21:24Z",
+    "body": "You can try the [WebContents.session.cookies](https://github.com/atom/electron/blob/master/docs/api/browser-window.md) APIs.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/116303940",
+    "html_url": "https://github.com/electron/electron/issues/2070#issuecomment-116303940",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2070",
+    "id": 116303940,
+    "user": {
+      "login": "Agrosis",
+      "id": 2617549,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2617549?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Agrosis",
+      "html_url": "https://github.com/Agrosis",
+      "followers_url": "https://api.github.com/users/Agrosis/followers",
+      "following_url": "https://api.github.com/users/Agrosis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Agrosis/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Agrosis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Agrosis/subscriptions",
+      "organizations_url": "https://api.github.com/users/Agrosis/orgs",
+      "repos_url": "https://api.github.com/users/Agrosis/repos",
+      "events_url": "https://api.github.com/users/Agrosis/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Agrosis/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-28T17:57:29Z",
+    "updated_at": "2015-06-28T17:57:29Z",
+    "body": "Yeah, cool, I set up a bridge with ipc and just used the webcontents api. Thanks!\n"
+  }
+]

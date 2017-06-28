@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/51055558",
+    "html_url": "https://github.com/electron/electron/issues/543#issuecomment-51055558",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/543",
+    "id": 51055558,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-08-04T12:53:28Z",
+    "updated_at": "2014-08-04T12:53:28Z",
+    "body": "I made a change that made user's script run earlier, so `app.commandLine.appendSwitch('remote-debugging-port', '9222');` can work now, it will be included in the next release.\n\nAlso notice that the command switch should be added before the `ready` event of `app` emits.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/51151094",
+    "html_url": "https://github.com/electron/electron/issues/543#issuecomment-51151094",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/543",
+    "id": 51151094,
+    "user": {
+      "login": "Gregg8",
+      "id": 3037372,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3037372?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Gregg8",
+      "html_url": "https://github.com/Gregg8",
+      "followers_url": "https://api.github.com/users/Gregg8/followers",
+      "following_url": "https://api.github.com/users/Gregg8/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Gregg8/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Gregg8/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Gregg8/subscriptions",
+      "organizations_url": "https://api.github.com/users/Gregg8/orgs",
+      "repos_url": "https://api.github.com/users/Gregg8/repos",
+      "events_url": "https://api.github.com/users/Gregg8/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Gregg8/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-08-05T05:21:20Z",
+    "updated_at": "2014-08-05T05:21:20Z",
+    "body": "Good news! Thanks.\n"
+  }
+]

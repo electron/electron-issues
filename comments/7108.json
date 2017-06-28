@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/244933773",
+    "html_url": "https://github.com/electron/electron/issues/7108#issuecomment-244933773",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7108",
+    "id": 244933773,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-06T12:24:01Z",
+    "updated_at": "2016-09-06T12:24:01Z",
+    "body": "@andreyavram Can you confirm that this is either the same issue or a different issue to #6571\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/244935433",
+    "html_url": "https://github.com/electron/electron/issues/7108#issuecomment-244935433",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7108",
+    "id": 244935433,
+    "user": {
+      "login": "andreyavram",
+      "id": 584270,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/584270?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/andreyavram",
+      "html_url": "https://github.com/andreyavram",
+      "followers_url": "https://api.github.com/users/andreyavram/followers",
+      "following_url": "https://api.github.com/users/andreyavram/following{/other_user}",
+      "gists_url": "https://api.github.com/users/andreyavram/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/andreyavram/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/andreyavram/subscriptions",
+      "organizations_url": "https://api.github.com/users/andreyavram/orgs",
+      "repos_url": "https://api.github.com/users/andreyavram/repos",
+      "events_url": "https://api.github.com/users/andreyavram/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/andreyavram/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-06T12:31:18Z",
+    "updated_at": "2016-09-06T12:31:18Z",
+    "body": "Yes, I strongly believe it's related. This could be closed.\n"
+  }
+]

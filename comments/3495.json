@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/157822189",
+    "html_url": "https://github.com/electron/electron/pull/3495#issuecomment-157822189",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3495",
+    "id": 157822189,
+    "user": {
+      "login": "preco21",
+      "id": 4936201,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4936201?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/preco21",
+      "html_url": "https://github.com/preco21",
+      "followers_url": "https://api.github.com/users/preco21/followers",
+      "following_url": "https://api.github.com/users/preco21/following{/other_user}",
+      "gists_url": "https://api.github.com/users/preco21/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/preco21/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/preco21/subscriptions",
+      "organizations_url": "https://api.github.com/users/preco21/orgs",
+      "repos_url": "https://api.github.com/users/preco21/repos",
+      "events_url": "https://api.github.com/users/preco21/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/preco21/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-18T18:57:37Z",
+    "updated_at": "2015-11-18T18:58:04Z",
+    "body": "Closed as unclear changes\n"
+  }
+]

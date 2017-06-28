@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/189552050",
+    "html_url": "https://github.com/electron/electron/issues/4621#issuecomment-189552050",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4621",
+    "id": 189552050,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-27T01:50:26Z",
+    "updated_at": "2016-02-27T01:50:31Z",
+    "body": "You can't do that, it will break the OS X code signing signature\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/189554061",
+    "html_url": "https://github.com/electron/electron/issues/4621#issuecomment-189554061",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4621",
+    "id": 189554061,
+    "user": {
+      "login": "amoinier",
+      "id": 16104776,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/16104776?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/amoinier",
+      "html_url": "https://github.com/amoinier",
+      "followers_url": "https://api.github.com/users/amoinier/followers",
+      "following_url": "https://api.github.com/users/amoinier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/amoinier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/amoinier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/amoinier/subscriptions",
+      "organizations_url": "https://api.github.com/users/amoinier/orgs",
+      "repos_url": "https://api.github.com/users/amoinier/repos",
+      "events_url": "https://api.github.com/users/amoinier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/amoinier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-27T01:59:08Z",
+    "updated_at": "2016-02-27T01:59:08Z",
+    "body": "Ok thank you !\n"
+  }
+]

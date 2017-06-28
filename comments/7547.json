@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/252691118",
+    "html_url": "https://github.com/electron/electron/issues/7547#issuecomment-252691118",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7547",
+    "id": 252691118,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-10T17:45:43Z",
+    "updated_at": "2016-10-10T17:45:43Z",
+    "body": "> Is this expected behavior? Is there another preferred way to accomplish this? Thanks!\n\nThis is expected behavior when running your app via the `electron` command line.\n\nhttps://github.com/electron/electron/blob/2efb7a12cb24bb447bfa823f34eb3eb372cab630/default_app/main.js#L39-L44\n\nOnce you package your app using something like `electron-packager` then the `default_app.asar` file is not included and this behavior should go away.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/252748826",
+    "html_url": "https://github.com/electron/electron/issues/7547#issuecomment-252748826",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7547",
+    "id": 252748826,
+    "user": {
+      "login": "pofallon",
+      "id": 505519,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/505519?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pofallon",
+      "html_url": "https://github.com/pofallon",
+      "followers_url": "https://api.github.com/users/pofallon/followers",
+      "following_url": "https://api.github.com/users/pofallon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pofallon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pofallon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pofallon/subscriptions",
+      "organizations_url": "https://api.github.com/users/pofallon/orgs",
+      "repos_url": "https://api.github.com/users/pofallon/repos",
+      "events_url": "https://api.github.com/users/pofallon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pofallon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-10T21:17:52Z",
+    "updated_at": "2016-10-10T21:17:52Z",
+    "body": "Ah ok, thanks!  I did see that in default_app, but wasn't aware that was being included when I provide my own main.js on the command line.\n"
+  }
+]

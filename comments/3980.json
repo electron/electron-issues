@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/168585949",
+    "html_url": "https://github.com/electron/electron/issues/3980#issuecomment-168585949",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3980",
+    "id": 168585949,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-04T05:24:52Z",
+    "updated_at": "2016-01-04T05:24:52Z",
+    "body": "Stack trace:\n\n```\nThread 16 Crashed:: Chrome_IOThread\n0   libnet.dylib                    0x00000001131e0e0e net::HttpResponseHeaders::EnumerateHeader(void**, base::BasicStringPiece<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*) const + 190\n1   libnet.dylib                    0x00000001131e153e net::HttpResponseHeaders::GetMimeTypeAndCharset(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*) const + 238\n2   libnet.dylib                    0x00000001131e1594 net::HttpResponseHeaders::GetMimeType(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*) const + 36\n3   com.github.electron.framework   0x000000010d0dff56 atom::URLRequestFetchJob::GetMimeType(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*) const + 102 (url_request_fetch_job.cc:211)\n4   libcontent.dylib                0x0000000110b5e4d6 0x11094f000 + 2159830\n5   libcontent.dylib                0x0000000110b5ec89 content::ResourceLoader::CompleteResponseStarted() + 121\n6   libcontent.dylib                0x0000000110b5ea0e content::ResourceLoader::OnResponseStarted(net::URLRequest*) + 30\n7   libnet.dylib                    0x00000001133fcef3 net::URLRequestJob::NotifyHeadersComplete() + 963\n8   com.github.electron.framework   0x000000010d0dfc41 atom::URLRequestFetchJob::HeadersCompleted() + 161 (url_request_fetch_job.cc:163)\n9   com.github.electron.framework   0x000000010d0e008a atom::URLRequestFetchJob::OnURLFetchComplete(net::URLFetcher const*) + 58 (url_request_fetch_job.cc:232)\n10  libbase.dylib                   0x000000010f2cf1ca base::debug::TaskAnnotator::RunTask(char const*, base::PendingTask const&) + 202\n```\n"
+  }
+]

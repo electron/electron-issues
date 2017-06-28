@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/254187120",
+    "html_url": "https://github.com/electron/electron/pull/7568#issuecomment-254187120",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7568",
+    "id": 254187120,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-17T11:56:18Z",
+    "updated_at": "2016-10-17T11:56:18Z",
+    "body": "Saying `true` is the default value doesn't make sense, because passing `false` to the attribute is actually the same with passing `true`, a more suitable way is to say \"when (not) added\" instead of \"true\"/\"false\". In the documentations of Chrome extensions API, \"if present\" and \"if on\" are also being used mixed.\n\nSo I'm closing this since it using wrong terms.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/288086657",
+    "html_url": "https://github.com/electron/electron/pull/8956#issuecomment-288086657",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8956",
+    "id": 288086657,
+    "user": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/842846?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-21T13:59:59Z",
+    "updated_at": "2017-03-21T13:59:59Z",
+    "body": "I've split indentation in api-crash-reporter-spec.js into a separate commit to make it easier following the changes. If required I can squash into the previous commit."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/289519197",
+    "html_url": "https://github.com/electron/electron/pull/8956#issuecomment-289519197",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8956",
+    "id": 289519197,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-03-27T17:09:49Z",
+    "updated_at": "2017-03-27T17:09:49Z",
+    "body": "Thanks for this 👍 ⚡️ :boom:"
+  }
+]

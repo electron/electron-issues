@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309674133",
+    "html_url": "https://github.com/electron/electron/issues/9281#issuecomment-309674133",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9281",
+    "id": 309674133,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-20T07:54:16Z",
+    "updated_at": "2017-06-20T07:54:16Z",
+    "body": "To unmaximize the window you have to call the `unmaximize` method, the `restore` should be called for a minimized window.\r\n\r\nCalling `restore` for a maximized window is undefined behavior, which may behave differently on different platform and versions. So I'm closing this as won't fix."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309701920",
+    "html_url": "https://github.com/electron/electron/issues/9281#issuecomment-309701920",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9281",
+    "id": 309701920,
+    "user": {
+      "login": "t3chguy",
+      "id": 2403652,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2403652?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/t3chguy",
+      "html_url": "https://github.com/t3chguy",
+      "followers_url": "https://api.github.com/users/t3chguy/followers",
+      "following_url": "https://api.github.com/users/t3chguy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/t3chguy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/t3chguy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/t3chguy/subscriptions",
+      "organizations_url": "https://api.github.com/users/t3chguy/orgs",
+      "repos_url": "https://api.github.com/users/t3chguy/repos",
+      "events_url": "https://api.github.com/users/t3chguy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/t3chguy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-20T09:44:34Z",
+    "updated_at": "2017-06-20T09:44:34Z",
+    "body": "@zcbenz this is about a **minimized** window\r\nOne that was first maximized, then later on minimized, so then it gets restored (unminimized) it should come back in a maximized state.\r\nSo your diagnosis seems unrelated.\r\n\r\nTo reiterate, for a window that is both maximized and then minimized `restore` ignores that it was earlier maximized *in Linux, but not in Windows*\r\n Which means that the definition of `restore` is inconsistent between Windows and Linux."
+  }
+]

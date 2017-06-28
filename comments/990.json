@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/69416574",
+    "html_url": "https://github.com/electron/electron/pull/990#issuecomment-69416574",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/990",
+    "id": 69416574,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-01-09T23:11:17Z",
+    "updated_at": "2015-01-09T23:11:17Z",
+    "body": "Thanks!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/175177939",
+    "html_url": "https://github.com/electron/electron/pull/990#issuecomment-175177939",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/990",
+    "id": 175177939,
+    "user": {
+      "login": "mattdesl",
+      "id": 1383811,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1383811?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mattdesl",
+      "html_url": "https://github.com/mattdesl",
+      "followers_url": "https://api.github.com/users/mattdesl/followers",
+      "following_url": "https://api.github.com/users/mattdesl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mattdesl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mattdesl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mattdesl/subscriptions",
+      "organizations_url": "https://api.github.com/users/mattdesl/orgs",
+      "repos_url": "https://api.github.com/users/mattdesl/repos",
+      "events_url": "https://api.github.com/users/mattdesl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mattdesl/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-26T18:58:00Z",
+    "updated_at": "2016-01-26T18:58:00Z",
+    "body": "Hi! I've noticed `removeDevToolsExtension` is not unloading in 0.36.5 (the extension persists in my userData cache, so it is re-loaded on subsequent runs). Should I open a new issue for this, or has this PR not yet made it into latest?\n\nCheers. :beers: \n"
+  }
+]

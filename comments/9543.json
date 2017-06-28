@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/303055425",
+    "html_url": "https://github.com/electron/electron/issues/9543#issuecomment-303055425",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9543",
+    "id": 303055425,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-22T09:58:37Z",
+    "updated_at": "2017-05-22T09:58:37Z",
+    "body": "@HurricanKai Can you provide sample code that replicates the scenario you are describing? 😄 "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/304989378",
+    "html_url": "https://github.com/electron/electron/issues/9543#issuecomment-304989378",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9543",
+    "id": 304989378,
+    "user": {
+      "login": "HurricanKai",
+      "id": 22711887,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22711887?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HurricanKai",
+      "html_url": "https://github.com/HurricanKai",
+      "followers_url": "https://api.github.com/users/HurricanKai/followers",
+      "following_url": "https://api.github.com/users/HurricanKai/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HurricanKai/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HurricanKai/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HurricanKai/subscriptions",
+      "organizations_url": "https://api.github.com/users/HurricanKai/orgs",
+      "repos_url": "https://api.github.com/users/HurricanKai/repos",
+      "events_url": "https://api.github.com/users/HurricanKai/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HurricanKai/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-30T19:53:52Z",
+    "updated_at": "2017-05-30T19:55:59Z",
+    "body": "Ill paste it here, but the files are also in Attached\r\nModules were installed using\r\n`npm install electron\r\n\r\n\r\n\r\n\r\n[helloworld.zip](https://github.com/electron/electron/files/1039529/helloworld.zip)\r\ni cant paste the .html, but here are the js:\r\n\r\nindex.js:\r\n```const remote = require('electron').remote\r\nconst main = remote.require('./main.js')\r\n\r\nvar button = document.createElement('button')\r\nbutton.textContent = 'Open window'\r\nbutton.addEventListener('click', () => {\r\n    main.openWindow()\r\n}, false)\r\ndocument.body.appendChild(button)\r\n```\r\n\r\nMain.js:\r\n```\r\nconst electron = require('electron')\r\nconst {app, BrowserWindow} = electron\r\n\r\napp.on('ready', () => {\r\n    let win = new BrowserWindow({width:800, hieght: 600})\r\n    win.loadURL(`file://${__dirname}/index.html`)\r\n    //win.webContents.openDevTools()\r\n})\r\n\r\nexports.openWindow = () => {\r\n    let win = new BrowserWindow({width:400, height:200})\r\n    win.loadURL(`fiel://${__dirname}/cam1.html`)\r\n}\r\n```\r\n"
+  }
+]

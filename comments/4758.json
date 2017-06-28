@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/195931101",
+    "html_url": "https://github.com/electron/electron/issues/4758#issuecomment-195931101",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4758",
+    "id": 195931101,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-03-13T10:37:11Z",
+    "updated_at": "2016-03-13T10:37:11Z",
+    "body": "No, the native menu only supports one accelerator for one menu item, you can probably work around it by handling shortcuts with DOM events.\n\nWe will have a solution for this when #1334 is implemented.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/195948068",
+    "html_url": "https://github.com/electron/electron/issues/4758#issuecomment-195948068",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4758",
+    "id": 195948068,
+    "user": {
+      "login": "k0kubun",
+      "id": 3138447,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3138447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/k0kubun",
+      "html_url": "https://github.com/k0kubun",
+      "followers_url": "https://api.github.com/users/k0kubun/followers",
+      "following_url": "https://api.github.com/users/k0kubun/following{/other_user}",
+      "gists_url": "https://api.github.com/users/k0kubun/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/k0kubun/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/k0kubun/subscriptions",
+      "organizations_url": "https://api.github.com/users/k0kubun/orgs",
+      "repos_url": "https://api.github.com/users/k0kubun/repos",
+      "events_url": "https://api.github.com/users/k0kubun/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/k0kubun/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-13T12:27:40Z",
+    "updated_at": "2016-03-13T12:27:40Z",
+    "body": "Oh I missed it. Thank you for your comment!\n"
+  }
+]

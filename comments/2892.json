@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/142940423",
+    "html_url": "https://github.com/electron/electron/issues/2892#issuecomment-142940423",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2892",
+    "id": 142940423,
+    "user": {
+      "login": "OlsonDev",
+      "id": 308072,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/308072?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/OlsonDev",
+      "html_url": "https://github.com/OlsonDev",
+      "followers_url": "https://api.github.com/users/OlsonDev/followers",
+      "following_url": "https://api.github.com/users/OlsonDev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/OlsonDev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/OlsonDev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/OlsonDev/subscriptions",
+      "organizations_url": "https://api.github.com/users/OlsonDev/orgs",
+      "repos_url": "https://api.github.com/users/OlsonDev/repos",
+      "events_url": "https://api.github.com/users/OlsonDev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/OlsonDev/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-24T14:07:11Z",
+    "updated_at": "2015-09-24T14:07:11Z",
+    "body": "Closing the dev tools will turn it off.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/142958160",
+    "html_url": "https://github.com/electron/electron/issues/2892#issuecomment-142958160",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2892",
+    "id": 142958160,
+    "user": {
+      "login": "shawnhsy",
+      "id": 5860623,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5860623?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shawnhsy",
+      "html_url": "https://github.com/shawnhsy",
+      "followers_url": "https://api.github.com/users/shawnhsy/followers",
+      "following_url": "https://api.github.com/users/shawnhsy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shawnhsy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shawnhsy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shawnhsy/subscriptions",
+      "organizations_url": "https://api.github.com/users/shawnhsy/orgs",
+      "repos_url": "https://api.github.com/users/shawnhsy/repos",
+      "events_url": "https://api.github.com/users/shawnhsy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shawnhsy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-24T15:12:24Z",
+    "updated_at": "2015-09-24T15:12:24Z",
+    "body": "work like a charm. lol.\n"
+  }
+]

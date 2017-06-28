@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/91863594",
+    "html_url": "https://github.com/electron/electron/issues/1401#issuecomment-91863594",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1401",
+    "id": 91863594,
+    "user": {
+      "login": "saschagehlich",
+      "id": 119684,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/119684?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/saschagehlich",
+      "html_url": "https://github.com/saschagehlich",
+      "followers_url": "https://api.github.com/users/saschagehlich/followers",
+      "following_url": "https://api.github.com/users/saschagehlich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/saschagehlich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/saschagehlich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/saschagehlich/subscriptions",
+      "organizations_url": "https://api.github.com/users/saschagehlich/orgs",
+      "repos_url": "https://api.github.com/users/saschagehlich/repos",
+      "events_url": "https://api.github.com/users/saschagehlich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/saschagehlich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-11T14:44:40Z",
+    "updated_at": "2015-04-11T14:44:40Z",
+    "body": "``` js\nvar app = require('app');\napp.quit();\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/91982342",
+    "html_url": "https://github.com/electron/electron/issues/1401#issuecomment-91982342",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1401",
+    "id": 91982342,
+    "user": {
+      "login": "majomuchi123",
+      "id": 7103315,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7103315?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/majomuchi123",
+      "html_url": "https://github.com/majomuchi123",
+      "followers_url": "https://api.github.com/users/majomuchi123/followers",
+      "following_url": "https://api.github.com/users/majomuchi123/following{/other_user}",
+      "gists_url": "https://api.github.com/users/majomuchi123/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/majomuchi123/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/majomuchi123/subscriptions",
+      "organizations_url": "https://api.github.com/users/majomuchi123/orgs",
+      "repos_url": "https://api.github.com/users/majomuchi123/repos",
+      "events_url": "https://api.github.com/users/majomuchi123/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/majomuchi123/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-12T03:54:48Z",
+    "updated_at": "2015-04-12T03:54:48Z",
+    "body": "Thanks a lot man.\nIt may be a silly question but im starting at prgramming, and i got 13 years so really thanks\n"
+  }
+]

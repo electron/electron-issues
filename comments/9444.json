@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/301063447",
+    "html_url": "https://github.com/electron/electron/issues/9444#issuecomment-301063447",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9444",
+    "id": 301063447,
+    "user": {
+      "login": "tonyganch",
+      "id": 872004,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/872004?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tonyganch",
+      "html_url": "https://github.com/tonyganch",
+      "followers_url": "https://api.github.com/users/tonyganch/followers",
+      "following_url": "https://api.github.com/users/tonyganch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tonyganch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tonyganch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tonyganch/subscriptions",
+      "organizations_url": "https://api.github.com/users/tonyganch/orgs",
+      "repos_url": "https://api.github.com/users/tonyganch/repos",
+      "events_url": "https://api.github.com/users/tonyganch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tonyganch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-12T12:28:51Z",
+    "updated_at": "2017-05-12T12:28:51Z",
+    "body": "`import` is not currently implemented in Chromium or Node, to use it in your code you will need a transpiler.\r\nPlease see MDN for reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/301066333",
+    "html_url": "https://github.com/electron/electron/issues/9444#issuecomment-301066333",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9444",
+    "id": 301066333,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-12T12:43:24Z",
+    "updated_at": "2017-05-12T12:43:24Z",
+    "body": "To expand on what @tonyganch said, you can use https://github.com/electron/electron-compile to transpile your code."
+  }
+]

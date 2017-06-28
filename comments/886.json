@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/65402937",
+    "html_url": "https://github.com/electron/electron/issues/886#issuecomment-65402937",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/886",
+    "id": 65402937,
+    "user": {
+      "login": "alexandernst",
+      "id": 89727,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/89727?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexandernst",
+      "html_url": "https://github.com/alexandernst",
+      "followers_url": "https://api.github.com/users/alexandernst/followers",
+      "following_url": "https://api.github.com/users/alexandernst/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexandernst/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexandernst/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexandernst/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexandernst/orgs",
+      "repos_url": "https://api.github.com/users/alexandernst/repos",
+      "events_url": "https://api.github.com/users/alexandernst/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexandernst/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-03T12:58:58Z",
+    "updated_at": "2014-12-03T12:58:58Z",
+    "body": "Or, maybe, print the content of an iframe (in which I'd load the PDF)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/65696959",
+    "html_url": "https://github.com/electron/electron/issues/886#issuecomment-65696959",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/886",
+    "id": 65696959,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-12-04T20:21:56Z",
+    "updated_at": "2014-12-04T20:21:56Z",
+    "body": "You should use node module or external program for this, this feature is not very related to the purpose of atom-shell, or you can use [pdf.js](http://mozilla.github.io/pdf.js/) to load the PDF in page and then print it.\n"
+  }
+]

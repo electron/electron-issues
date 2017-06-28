@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/99094908",
+    "html_url": "https://github.com/electron/electron/issues/1576#issuecomment-99094908",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1576",
+    "id": 99094908,
+    "user": {
+      "login": "burakvarli",
+      "id": 2301137,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2301137?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/burakvarli",
+      "html_url": "https://github.com/burakvarli",
+      "followers_url": "https://api.github.com/users/burakvarli/followers",
+      "following_url": "https://api.github.com/users/burakvarli/following{/other_user}",
+      "gists_url": "https://api.github.com/users/burakvarli/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/burakvarli/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/burakvarli/subscriptions",
+      "organizations_url": "https://api.github.com/users/burakvarli/orgs",
+      "repos_url": "https://api.github.com/users/burakvarli/repos",
+      "events_url": "https://api.github.com/users/burakvarli/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/burakvarli/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-05T14:28:06Z",
+    "updated_at": "2015-05-05T14:28:06Z",
+    "body": "file.path gives the dropped file's path actually. \ntry this;\n\n``` javascript\nconsole.log('File you dragged here is ' + file.path);\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/99830597",
+    "html_url": "https://github.com/electron/electron/issues/1576#issuecomment-99830597",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1576",
+    "id": 99830597,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-05-07T11:50:25Z",
+    "updated_at": "2015-05-07T11:50:25Z",
+    "body": "I belive @burakvarli has answered the question, thanks!\n"
+  }
+]

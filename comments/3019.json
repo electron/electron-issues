@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/146128963",
+    "html_url": "https://github.com/electron/electron/issues/3019#issuecomment-146128963",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3019",
+    "id": 146128963,
+    "user": {
+      "login": "skreborn",
+      "id": 1223086,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1223086?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/skreborn",
+      "html_url": "https://github.com/skreborn",
+      "followers_url": "https://api.github.com/users/skreborn/followers",
+      "following_url": "https://api.github.com/users/skreborn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/skreborn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/skreborn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/skreborn/subscriptions",
+      "organizations_url": "https://api.github.com/users/skreborn/orgs",
+      "repos_url": "https://api.github.com/users/skreborn/repos",
+      "events_url": "https://api.github.com/users/skreborn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/skreborn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-07T09:19:03Z",
+    "updated_at": "2015-10-07T09:19:03Z",
+    "body": "As far as I'm concerned, `.isAlwaysOnTop()` is used to query this propery. To set it, use `.setAlwaysOnTop(state)`.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/146130020",
+    "html_url": "https://github.com/electron/electron/issues/3019#issuecomment-146130020",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3019",
+    "id": 146130020,
+    "user": {
+      "login": "OlsonDev",
+      "id": 308072,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/308072?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/OlsonDev",
+      "html_url": "https://github.com/OlsonDev",
+      "followers_url": "https://api.github.com/users/OlsonDev/followers",
+      "following_url": "https://api.github.com/users/OlsonDev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/OlsonDev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/OlsonDev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/OlsonDev/subscriptions",
+      "organizations_url": "https://api.github.com/users/OlsonDev/orgs",
+      "repos_url": "https://api.github.com/users/OlsonDev/repos",
+      "events_url": "https://api.github.com/users/OlsonDev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/OlsonDev/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-07T09:25:01Z",
+    "updated_at": "2015-10-07T09:25:01Z",
+    "body": "Not only `as far as [you're] concerned`, but the docs state it [pretty clearly](https://github.com/atom/electron/blob/master/docs/api/browser-window.md#winsetalwaysontopflag) as well: use `mainWindow.setAlwaysOnTop(true)`.\n"
+  }
+]

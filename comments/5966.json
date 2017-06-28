@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225031984",
+    "html_url": "https://github.com/electron/electron/pull/5966#issuecomment-225031984",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5966",
+    "id": 225031984,
+    "user": {
+      "login": "felixrieseberg",
+      "id": 1426799,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1426799?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felixrieseberg",
+      "html_url": "https://github.com/felixrieseberg",
+      "followers_url": "https://api.github.com/users/felixrieseberg/followers",
+      "following_url": "https://api.github.com/users/felixrieseberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felixrieseberg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felixrieseberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felixrieseberg/subscriptions",
+      "organizations_url": "https://api.github.com/users/felixrieseberg/orgs",
+      "repos_url": "https://api.github.com/users/felixrieseberg/repos",
+      "events_url": "https://api.github.com/users/felixrieseberg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felixrieseberg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-09T21:26:54Z",
+    "updated_at": "2016-06-09T21:26:54Z",
+    "body": "@kevinsawicki thanks for looking out for me 👯\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225066008",
+    "html_url": "https://github.com/electron/electron/pull/5966#issuecomment-225066008",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5966",
+    "id": 225066008,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-10T00:37:02Z",
+    "updated_at": "2016-06-10T00:37:02Z",
+    "body": "Thanks 📝 🚢 \n"
+  }
+]

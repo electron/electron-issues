@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226672222",
+    "html_url": "https://github.com/electron/electron/pull/6091#issuecomment-226672222",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6091",
+    "id": 226672222,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-17T03:29:55Z",
+    "updated_at": "2016-06-17T03:29:55Z",
+    "body": "👍 \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226693596",
+    "html_url": "https://github.com/electron/electron/pull/6091#issuecomment-226693596",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6091",
+    "id": 226693596,
+    "user": {
+      "login": "fasterthanlime",
+      "id": 7998310,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7998310?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fasterthanlime",
+      "html_url": "https://github.com/fasterthanlime",
+      "followers_url": "https://api.github.com/users/fasterthanlime/followers",
+      "following_url": "https://api.github.com/users/fasterthanlime/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fasterthanlime/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fasterthanlime/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fasterthanlime/subscriptions",
+      "organizations_url": "https://api.github.com/users/fasterthanlime/orgs",
+      "repos_url": "https://api.github.com/users/fasterthanlime/repos",
+      "events_url": "https://api.github.com/users/fasterthanlime/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fasterthanlime/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-17T06:47:00Z",
+    "updated_at": "2016-06-17T06:47:00Z",
+    "body": "Thanks for the timely fix! 🌟 \n"
+  }
+]

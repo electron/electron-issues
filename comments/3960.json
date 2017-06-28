@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/167956132",
+    "html_url": "https://github.com/electron/electron/issues/3960#issuecomment-167956132",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3960",
+    "id": 167956132,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-30T08:20:27Z",
+    "updated_at": "2015-12-30T08:20:27Z",
+    "body": "This is a duplicate of #1130.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/168058314",
+    "html_url": "https://github.com/electron/electron/issues/3960#issuecomment-168058314",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3960",
+    "id": 168058314,
+    "user": {
+      "login": "asaschachar",
+      "id": 7051027,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7051027?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/asaschachar",
+      "html_url": "https://github.com/asaschachar",
+      "followers_url": "https://api.github.com/users/asaschachar/followers",
+      "following_url": "https://api.github.com/users/asaschachar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/asaschachar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/asaschachar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/asaschachar/subscriptions",
+      "organizations_url": "https://api.github.com/users/asaschachar/orgs",
+      "repos_url": "https://api.github.com/users/asaschachar/repos",
+      "events_url": "https://api.github.com/users/asaschachar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/asaschachar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-30T19:14:12Z",
+    "updated_at": "2015-12-30T19:14:12Z",
+    "body": "Thanks!\n"
+  }
+]

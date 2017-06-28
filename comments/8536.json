@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/276012586",
+    "html_url": "https://github.com/electron/electron/issues/8536#issuecomment-276012586",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8536",
+    "id": 276012586,
+    "user": {
+      "login": "nikolayh",
+      "id": 3613846,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3613846?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nikolayh",
+      "html_url": "https://github.com/nikolayh",
+      "followers_url": "https://api.github.com/users/nikolayh/followers",
+      "following_url": "https://api.github.com/users/nikolayh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nikolayh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nikolayh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nikolayh/subscriptions",
+      "organizations_url": "https://api.github.com/users/nikolayh/orgs",
+      "repos_url": "https://api.github.com/users/nikolayh/repos",
+      "events_url": "https://api.github.com/users/nikolayh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nikolayh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-30T09:16:11Z",
+    "updated_at": "2017-01-30T09:16:11Z",
+    "body": "#8090 related."
+  }
+]

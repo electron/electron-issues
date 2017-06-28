@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49657500",
+    "html_url": "https://github.com/electron/electron/issues/491#issuecomment-49657500",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/491",
+    "id": 49657500,
+    "user": {
+      "login": "probablycorey",
+      "id": 596,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/596?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/probablycorey",
+      "html_url": "https://github.com/probablycorey",
+      "followers_url": "https://api.github.com/users/probablycorey/followers",
+      "following_url": "https://api.github.com/users/probablycorey/following{/other_user}",
+      "gists_url": "https://api.github.com/users/probablycorey/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/probablycorey/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/probablycorey/subscriptions",
+      "organizations_url": "https://api.github.com/users/probablycorey/orgs",
+      "repos_url": "https://api.github.com/users/probablycorey/repos",
+      "events_url": "https://api.github.com/users/probablycorey/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/probablycorey/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-07-21T20:02:04Z",
+    "updated_at": "2014-07-21T20:02:04Z",
+    "body": "@intelligentcode could you give some more details about your problem? Screenshots would be very helpful.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/51183746",
+    "html_url": "https://github.com/electron/electron/issues/491#issuecomment-51183746",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/491",
+    "id": 51183746,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-08-05T11:18:19Z",
+    "updated_at": "2014-08-05T11:18:19Z",
+    "body": "The devtools of atom-shell is exactly the same with Chrome36's devtools, if you want to know how to do something with Chrome36's devtools, you can go asking Chrome's forums, if some features available in Chrome36 are missing in atom-shell, you can put some screenshots here to describe them.\n\nI'm closing this unless there is more information.\n"
+  }
+]

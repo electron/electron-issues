@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/265033301",
+    "html_url": "https://github.com/electron/electron/issues/8140#issuecomment-265033301",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8140",
+    "id": 265033301,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-12-06T01:27:38Z",
+    "updated_at": "2016-12-06T01:27:38Z",
+    "body": "Are you listening to the `crashed` event on the `webContents`?\r\n\r\nhttp://electron.atom.io/docs/api/web-contents/#event-crashed"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/265993087",
+    "html_url": "https://github.com/electron/electron/issues/8140#issuecomment-265993087",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8140",
+    "id": 265993087,
+    "user": {
+      "login": "mgcrea",
+      "id": 108273,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/108273?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mgcrea",
+      "html_url": "https://github.com/mgcrea",
+      "followers_url": "https://api.github.com/users/mgcrea/followers",
+      "following_url": "https://api.github.com/users/mgcrea/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mgcrea/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mgcrea/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mgcrea/subscriptions",
+      "organizations_url": "https://api.github.com/users/mgcrea/orgs",
+      "repos_url": "https://api.github.com/users/mgcrea/repos",
+      "events_url": "https://api.github.com/users/mgcrea/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mgcrea/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-09T11:29:40Z",
+    "updated_at": "2016-12-09T11:29:40Z",
+    "body": "Indeed, this was the correct event to listen. Thanks!"
+  }
+]

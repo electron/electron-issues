@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/229860750",
+    "html_url": "https://github.com/electron/electron/issues/6299#issuecomment-229860750",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6299",
+    "id": 229860750,
+    "user": {
+      "login": "miaowm5",
+      "id": 7985604,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7985604?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/miaowm5",
+      "html_url": "https://github.com/miaowm5",
+      "followers_url": "https://api.github.com/users/miaowm5/followers",
+      "following_url": "https://api.github.com/users/miaowm5/following{/other_user}",
+      "gists_url": "https://api.github.com/users/miaowm5/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/miaowm5/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/miaowm5/subscriptions",
+      "organizations_url": "https://api.github.com/users/miaowm5/orgs",
+      "repos_url": "https://api.github.com/users/miaowm5/repos",
+      "events_url": "https://api.github.com/users/miaowm5/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/miaowm5/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-01T06:01:13Z",
+    "updated_at": "2016-07-01T06:01:13Z",
+    "body": "My mistake..\nIt works fine when I change\n\n``` javascript\nconst {dialog} = require('electron').remote\n```\n\nto\n\n``` javascript\nconst {dialog} = require('electron')\n```\n"
+  }
+]

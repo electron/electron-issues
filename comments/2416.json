@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/127686989",
+    "html_url": "https://github.com/electron/electron/issues/2416#issuecomment-127686989",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2416",
+    "id": 127686989,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-04T17:35:52Z",
+    "updated_at": "2015-08-04T17:35:52Z",
+    "body": "yup `TraceOptions` needs to be a comma-separated value from the list `record-until-full, record-continuously, enable-sampling, enable-systrace`. Need to update docs with the usage of those options as specified [here](https://chromium.googlesource.com/chromium/src/+/15f86fe47c852a07534d5293f1088445d76bee3e/base/trace_event/trace_options.h)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/127717298",
+    "html_url": "https://github.com/electron/electron/issues/2416#issuecomment-127717298",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2416",
+    "id": 127717298,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-04T18:57:38Z",
+    "updated_at": "2015-08-04T18:57:38Z",
+    "body": "Hm, closer now but it still doesn't work, now `stopTracing` doesn't actually call the callback or write out a file - here's what I've got:\n\n``` js\nlet tracing = null;\nlet tracingSession = new rx.SerialDisposable();\n\nipc.listen('tracing:start').subscribe(() => {\n  logger.info('About to start recording!');\n  tracing = tracing || require('content-tracing');\n\n  tracing.startRecording('*', 'record-until-full,enable-sampling', () => {\n    logger.info('Started recording!');   // Hits here!\n\n    tracingSession.setDisposable(rx.Disposable.create(() => {\n      logger.info('About to stop recording!');   // Hits here!\n      tracing.stopRecording(null /* tried explicit path, empty str */, (path) => {\n        // XXX: We never get here\n        logger.info(`Content logging written to ${path}`); \n      });\n    }));\n  });\n});\n```\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/249666990",
+    "html_url": "https://github.com/electron/electron/pull/7343#issuecomment-249666990",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7343",
+    "id": 249666990,
+    "user": {
+      "login": "zeke",
+      "id": 2289,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2289?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zeke",
+      "html_url": "https://github.com/zeke",
+      "followers_url": "https://api.github.com/users/zeke/followers",
+      "following_url": "https://api.github.com/users/zeke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zeke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zeke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zeke/subscriptions",
+      "organizations_url": "https://api.github.com/users/zeke/orgs",
+      "repos_url": "https://api.github.com/users/zeke/repos",
+      "events_url": "https://api.github.com/users/zeke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zeke/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-26T19:09:06Z",
+    "updated_at": "2016-09-26T19:09:06Z",
+    "body": "@tinydew4 is this ready?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/249737035",
+    "html_url": "https://github.com/electron/electron/pull/7343#issuecomment-249737035",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7343",
+    "id": 249737035,
+    "user": {
+      "login": "tinydew4",
+      "id": 17612115,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/17612115?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tinydew4",
+      "html_url": "https://github.com/tinydew4",
+      "followers_url": "https://api.github.com/users/tinydew4/followers",
+      "following_url": "https://api.github.com/users/tinydew4/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tinydew4/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tinydew4/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tinydew4/subscriptions",
+      "organizations_url": "https://api.github.com/users/tinydew4/orgs",
+      "repos_url": "https://api.github.com/users/tinydew4/repos",
+      "events_url": "https://api.github.com/users/tinydew4/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tinydew4/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-27T00:38:49Z",
+    "updated_at": "2016-09-27T00:38:49Z",
+    "body": "I reviewed the changes again, and change some sentences.\nNow, it's possible to merge.\n"
+  }
+]

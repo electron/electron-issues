@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/239325726",
+    "html_url": "https://github.com/electron/electron/issues/6815#issuecomment-239325726",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6815",
+    "id": 239325726,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-11T23:40:18Z",
+    "updated_at": "2016-08-11T23:40:18Z",
+    "body": "If you are inside the app, why do you need to launch the app through a global protocal handler?\n\nWhy not use IPC to pass new parameters to the main process?\n\nRegardless, that won't **relaunch** the app, that would simply fire the **open-url** event.  If you want to relaunch it you need to update Electron versions and change your listener to be.\n\n``` js\napp.on('open-url', (event, url) => {\n  app.relaunch({\n    args: url,\n  });\n});\n```\n\nFWIW as well, questions like this should really go on Slack or the discussion forums.  The github issues section is for bugs\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/261771394",
+    "html_url": "https://github.com/electron/electron/issues/6815#issuecomment-261771394",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6815",
+    "id": 261771394,
+    "user": {
+      "login": "Avien",
+      "id": 4569044,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4569044?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Avien",
+      "html_url": "https://github.com/Avien",
+      "followers_url": "https://api.github.com/users/Avien/followers",
+      "following_url": "https://api.github.com/users/Avien/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Avien/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Avien/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Avien/subscriptions",
+      "organizations_url": "https://api.github.com/users/Avien/orgs",
+      "repos_url": "https://api.github.com/users/Avien/repos",
+      "events_url": "https://api.github.com/users/Avien/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Avien/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-20T10:58:52Z",
+    "updated_at": "2016-11-20T11:16:43Z",
+    "body": "What if I'm not inside the app anymore, but already closed it and it is still showing on the dock.\nI expect that reloading the url with different params AFTER it was closed will launch it the same way it does on first time (via protocol)\nIt just doesn't - only after I quit the app manually from the dock icon\n\n(update: it seems that the app.on('ready') event is not fired in this scenario)\n"
+  }
+]

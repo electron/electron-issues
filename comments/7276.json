@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/248521449",
+    "html_url": "https://github.com/electron/electron/pull/7276#issuecomment-248521449",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7276",
+    "id": 248521449,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-21T06:16:26Z",
+    "updated_at": "2016-09-21T06:16:26Z",
+    "body": "👍 \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/300662783",
+    "html_url": "https://github.com/electron/electron/pull/7276#issuecomment-300662783",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7276",
+    "id": 300662783,
+    "user": {
+      "login": "Vikaton",
+      "id": 9522710,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9522710?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Vikaton",
+      "html_url": "https://github.com/Vikaton",
+      "followers_url": "https://api.github.com/users/Vikaton/followers",
+      "following_url": "https://api.github.com/users/Vikaton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Vikaton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Vikaton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Vikaton/subscriptions",
+      "organizations_url": "https://api.github.com/users/Vikaton/orgs",
+      "repos_url": "https://api.github.com/users/Vikaton/repos",
+      "events_url": "https://api.github.com/users/Vikaton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Vikaton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-11T02:09:37Z",
+    "updated_at": "2017-05-11T02:09:37Z",
+    "body": "Any help with this issue? @zeke https://github.com/electron/electron/issues/9420"
+  }
+]

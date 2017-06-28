@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/245019396",
+    "html_url": "https://github.com/electron/electron/issues/7088#issuecomment-245019396",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7088",
+    "id": 245019396,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-06T17:06:43Z",
+    "updated_at": "2016-09-06T17:06:43Z",
+    "body": "@MarshallOfSound do you know if this was something working in previously releases that has regressed?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/245222708",
+    "html_url": "https://github.com/electron/electron/issues/7088#issuecomment-245222708",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7088",
+    "id": 245222708,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-07T09:15:08Z",
+    "updated_at": "2016-09-07T09:15:08Z",
+    "body": "@kevinsawicki I went back to Electron `1.1.0` and the error is thrown in all of them.\n\nI have attached a super minimal reproduction example.  Simply download the attached zip and run the following.\n\n``` bash\nnpm install\nnpm run test-good # This will pass\nnpm run test-bad # This will throw the error\n```\n\n[enzyme-crash.zip](https://github.com/electron/electron/files/458720/enzyme-crash.zip)\n"
+  }
+]

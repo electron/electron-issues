@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/239441750",
+    "html_url": "https://github.com/electron/electron/issues/6827#issuecomment-239441750",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6827",
+    "id": 239441750,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-12T13:10:17Z",
+    "updated_at": "2016-08-12T13:10:17Z",
+    "body": "@Roaders The `window` object is available in the preload script's scope.\n\nJust do something like\n\n`window.magicMethod = () => ipc.send(..)` inside your preload script 👍 \n\nFor future reference questions should go on the discussion forums or slack as the issues section on GitHub is purely for bugs\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/239449439",
+    "html_url": "https://github.com/electron/electron/issues/6827#issuecomment-239449439",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6827",
+    "id": 239449439,
+    "user": {
+      "login": "Roaders",
+      "id": 10414642,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10414642?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Roaders",
+      "html_url": "https://github.com/Roaders",
+      "followers_url": "https://api.github.com/users/Roaders/followers",
+      "following_url": "https://api.github.com/users/Roaders/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Roaders/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Roaders/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Roaders/subscriptions",
+      "organizations_url": "https://api.github.com/users/Roaders/orgs",
+      "repos_url": "https://api.github.com/users/Roaders/repos",
+      "events_url": "https://api.github.com/users/Roaders/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Roaders/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-12T13:42:53Z",
+    "updated_at": "2016-08-12T13:42:53Z",
+    "body": "OK, thanks for the answer and sorry about posting in the wrong place.\n"
+  }
+]

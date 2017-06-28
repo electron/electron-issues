@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/73826382",
+    "html_url": "https://github.com/electron/electron/issues/1121#issuecomment-73826382",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1121",
+    "id": 73826382,
+    "user": {
+      "login": "frankhale",
+      "id": 190154,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/190154?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frankhale",
+      "html_url": "https://github.com/frankhale",
+      "followers_url": "https://api.github.com/users/frankhale/followers",
+      "following_url": "https://api.github.com/users/frankhale/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frankhale/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frankhale/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frankhale/subscriptions",
+      "organizations_url": "https://api.github.com/users/frankhale/orgs",
+      "repos_url": "https://api.github.com/users/frankhale/repos",
+      "events_url": "https://api.github.com/users/frankhale/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frankhale/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-11T02:48:25Z",
+    "updated_at": "2015-02-11T02:48:25Z",
+    "body": ":+1: \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/151487597",
+    "html_url": "https://github.com/electron/electron/issues/1121#issuecomment-151487597",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1121",
+    "id": 151487597,
+    "user": {
+      "login": "omrilitov",
+      "id": 6610680,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6610680?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/omrilitov",
+      "html_url": "https://github.com/omrilitov",
+      "followers_url": "https://api.github.com/users/omrilitov/followers",
+      "following_url": "https://api.github.com/users/omrilitov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/omrilitov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/omrilitov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/omrilitov/subscriptions",
+      "organizations_url": "https://api.github.com/users/omrilitov/orgs",
+      "repos_url": "https://api.github.com/users/omrilitov/repos",
+      "events_url": "https://api.github.com/users/omrilitov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/omrilitov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-27T13:01:35Z",
+    "updated_at": "2015-10-27T13:02:02Z",
+    "body": "Added in https://github.com/atom/electron/pull/3231, can be closed\n"
+  }
+]

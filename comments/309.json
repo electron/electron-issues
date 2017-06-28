@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/43172905",
+    "html_url": "https://github.com/electron/electron/issues/309#issuecomment-43172905",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/309",
+    "id": 43172905,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-05-15T06:26:30Z",
+    "updated_at": "2014-05-15T06:26:30Z",
+    "body": "It is by design that JavaScript errors should not terminate the entire app unless the user wanted to, and it is hard to decide whether a JavaScript error is an internal error or not.\n\nBTW, if you followed [application distribution](https://github.com/atom/atom-shell/blob/master/docs/tutorial/application-distribution.md) to package your app, deleting `default_app` would be fine.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/69669942",
+    "html_url": "https://github.com/electron/electron/issues/1001#issuecomment-69669942",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1001",
+    "id": 69669942,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-01-12T23:45:41Z",
+    "updated_at": "2015-01-12T23:45:41Z",
+    "body": "On Linux and Windows there is no equivalent of `selector:` and you have to call editing related APIs directly. Chrome has provided [APIs](https://code.google.com/p/chromium/codesearch#chromium/src/content/public/browser/web_contents.h&q=webcontents&sq=package:chromium&type=cs&l=368) to execute editing commands on web pages, do you want them exposed in atom-shell?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/69670748",
+    "html_url": "https://github.com/electron/electron/issues/1001#issuecomment-69670748",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1001",
+    "id": 69670748,
+    "user": {
+      "login": "CharlieHess",
+      "id": 1865957,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1865957?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/CharlieHess",
+      "html_url": "https://github.com/CharlieHess",
+      "followers_url": "https://api.github.com/users/CharlieHess/followers",
+      "following_url": "https://api.github.com/users/CharlieHess/following{/other_user}",
+      "gists_url": "https://api.github.com/users/CharlieHess/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/CharlieHess/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/CharlieHess/subscriptions",
+      "organizations_url": "https://api.github.com/users/CharlieHess/orgs",
+      "repos_url": "https://api.github.com/users/CharlieHess/repos",
+      "events_url": "https://api.github.com/users/CharlieHess/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/CharlieHess/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-12T23:52:27Z",
+    "updated_at": "2015-01-12T23:52:27Z",
+    "body": "That would be lovely. :+1:\n"
+  }
+]

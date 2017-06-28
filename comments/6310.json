@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/229946978",
+    "html_url": "https://github.com/electron/electron/issues/6310#issuecomment-229946978",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6310",
+    "id": 229946978,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-01T13:30:24Z",
+    "updated_at": "2016-07-01T13:30:35Z",
+    "body": "On macOS you have to subscribe to the `open-file` and `open-url` events of `app` module, this is because macOS handles URL opening in a different way with other platforms.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/229970983",
+    "html_url": "https://github.com/electron/electron/issues/6310#issuecomment-229970983",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6310",
+    "id": 229970983,
+    "user": {
+      "login": "friksa",
+      "id": 2990564,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2990564?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/friksa",
+      "html_url": "https://github.com/friksa",
+      "followers_url": "https://api.github.com/users/friksa/followers",
+      "following_url": "https://api.github.com/users/friksa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/friksa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/friksa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/friksa/subscriptions",
+      "organizations_url": "https://api.github.com/users/friksa/orgs",
+      "repos_url": "https://api.github.com/users/friksa/repos",
+      "events_url": "https://api.github.com/users/friksa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/friksa/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-01T15:05:57Z",
+    "updated_at": "2016-07-01T15:05:57Z",
+    "body": "Thanks so much! `open-url` did the trick.\n"
+  }
+]

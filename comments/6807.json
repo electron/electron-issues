@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/242013264",
+    "html_url": "https://github.com/electron/electron/issues/6807#issuecomment-242013264",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6807",
+    "id": 242013264,
+    "user": {
+      "login": "gerhardberger",
+      "id": 1059699,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1059699?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gerhardberger",
+      "html_url": "https://github.com/gerhardberger",
+      "followers_url": "https://api.github.com/users/gerhardberger/followers",
+      "following_url": "https://api.github.com/users/gerhardberger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gerhardberger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gerhardberger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gerhardberger/subscriptions",
+      "organizations_url": "https://api.github.com/users/gerhardberger/orgs",
+      "repos_url": "https://api.github.com/users/gerhardberger/repos",
+      "events_url": "https://api.github.com/users/gerhardberger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gerhardberger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-24T09:55:20Z",
+    "updated_at": "2016-08-24T09:55:20Z",
+    "body": "are you running offscreen rendering in GPU-accelerated mode? because in that case, the dummy window we show, displays the offscreen-rendered website instead of the default text shown on macOS or in software output mode, that's why it doesn't respond to resize events.\n\nwhen you use offscreen-render you should hide this browser window, because its purpose is that it renders into bitmaps you can access through the `'paint'` event on `WebContents`. it is just a side effect that on Windows in GPU mode it shows the website too.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/304827699",
+    "html_url": "https://github.com/electron/electron/issues/6807#issuecomment-304827699",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6807",
+    "id": 304827699,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-30T09:45:01Z",
+    "updated_at": "2017-05-30T09:45:01Z",
+    "body": "I'm closing this since the behavior is expected."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/149778493",
+    "html_url": "https://github.com/electron/electron/issues/3164#issuecomment-149778493",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3164",
+    "id": 149778493,
+    "user": {
+      "login": "techninja",
+      "id": 320747,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/320747?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/techninja",
+      "html_url": "https://github.com/techninja",
+      "followers_url": "https://api.github.com/users/techninja/followers",
+      "following_url": "https://api.github.com/users/techninja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/techninja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/techninja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/techninja/subscriptions",
+      "organizations_url": "https://api.github.com/users/techninja/orgs",
+      "repos_url": "https://api.github.com/users/techninja/repos",
+      "events_url": "https://api.github.com/users/techninja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/techninja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-21T04:25:49Z",
+    "updated_at": "2015-10-21T04:26:38Z",
+    "body": "Apparently this is a something very close to, or a dupe of #1117 / #1580\n\nThe page, HTML, and CSS load and render fine for me, but no scripts run. I'll be using a script placeholder in the mean time.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/149787432",
+    "html_url": "https://github.com/electron/electron/issues/3164#issuecomment-149787432",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3164",
+    "id": 149787432,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-21T05:28:23Z",
+    "updated_at": "2015-10-21T05:28:23Z",
+    "body": "Yeah it is a duplicate of #1117.\n"
+  }
+]

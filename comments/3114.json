@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/197971298",
+    "html_url": "https://github.com/electron/electron/issues/3114#issuecomment-197971298",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3114",
+    "id": 197971298,
+    "user": {
+      "login": "ar7em",
+      "id": 2427360,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2427360?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ar7em",
+      "html_url": "https://github.com/ar7em",
+      "followers_url": "https://api.github.com/users/ar7em/followers",
+      "following_url": "https://api.github.com/users/ar7em/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ar7em/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ar7em/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ar7em/subscriptions",
+      "organizations_url": "https://api.github.com/users/ar7em/orgs",
+      "repos_url": "https://api.github.com/users/ar7em/repos",
+      "events_url": "https://api.github.com/users/ar7em/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ar7em/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-17T16:52:14Z",
+    "updated_at": "2016-03-17T16:52:14Z",
+    "body": "There is a workaround with this bug for now – to use https://github.com/sindresorhus/electron-debug and toggle Developer Tools after page reload.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217416660",
+    "html_url": "https://github.com/electron/electron/issues/3114#issuecomment-217416660",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3114",
+    "id": 217416660,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-06T11:28:28Z",
+    "updated_at": "2016-05-06T11:28:28Z",
+    "body": "Unable to reproduce in 0.37.8 anymore.\n"
+  }
+]

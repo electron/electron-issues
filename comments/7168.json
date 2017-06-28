@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/246590959",
+    "html_url": "https://github.com/electron/electron/issues/7168#issuecomment-246590959",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7168",
+    "id": 246590959,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-13T06:49:11Z",
+    "updated_at": "2016-09-13T06:49:11Z",
+    "body": "On Mac the kiosk mode is applied to the app, as long as your app is still showing, system would still be in kiosk mode.\n\nIt is easy to just quit kiosk mode when window hides, but it is also possible that users may want to keep the app in kiosk mode while there is no window. So I think we have to keep current behavior.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/247230645",
+    "html_url": "https://github.com/electron/electron/issues/7168#issuecomment-247230645",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7168",
+    "id": 247230645,
+    "user": {
+      "login": "guanyong1993",
+      "id": 10172834,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10172834?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/guanyong1993",
+      "html_url": "https://github.com/guanyong1993",
+      "followers_url": "https://api.github.com/users/guanyong1993/followers",
+      "following_url": "https://api.github.com/users/guanyong1993/following{/other_user}",
+      "gists_url": "https://api.github.com/users/guanyong1993/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/guanyong1993/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/guanyong1993/subscriptions",
+      "organizations_url": "https://api.github.com/users/guanyong1993/orgs",
+      "repos_url": "https://api.github.com/users/guanyong1993/repos",
+      "events_url": "https://api.github.com/users/guanyong1993/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/guanyong1993/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-15T04:18:41Z",
+    "updated_at": "2016-09-15T04:18:41Z",
+    "body": "Thanks for your answers. If this is so, then I think the kiosk mode in electron.app is more reasonable, rather than BrowserWindow. Of course, this may produce platform differences.\nThank you very much for your answers.\n"
+  }
+]

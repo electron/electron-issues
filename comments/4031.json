@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/170425988",
+    "html_url": "https://github.com/electron/electron/issues/4031#issuecomment-170425988",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4031",
+    "id": 170425988,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-11T03:51:58Z",
+    "updated_at": "2016-01-11T03:51:58Z",
+    "body": "This is actually a bug of Chrome, it is not impossible to reproduce in normal browser window since the focus will be switched to address bar, but you can reproduce it in Chrome app.\n\nSteps:\n- Download the hello-world app: https://gist.github.com/zcbenz/d041c65526156cb339cf\n- Load it in Chrome\n- You can see the exact problem in the Chrome app\n\nI'm closing this since there is nothing we can do in Electron, it is most likely a bug in blink, but we don't have the resources of fixing the bug and pushing it to upstream. I suggest reporting it to [Chromium's issues list](https://crbug.com), but it is very likely to be low-priorly.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/169600223",
+    "html_url": "https://github.com/electron/electron/issues/3228#issuecomment-169600223",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3228",
+    "id": 169600223,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-07T08:51:37Z",
+    "updated_at": "2016-01-07T08:51:37Z",
+    "body": "The `fullscreen: true` property means showing the window in fullscreen state, which conflicts with the `show: false`. I don't think there is a correct behavior when two conflicting properties are used together.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/169920653",
+    "html_url": "https://github.com/electron/electron/issues/3228#issuecomment-169920653",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3228",
+    "id": 169920653,
+    "user": {
+      "login": "EladBezalel",
+      "id": 6004537,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6004537?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EladBezalel",
+      "html_url": "https://github.com/EladBezalel",
+      "followers_url": "https://api.github.com/users/EladBezalel/followers",
+      "following_url": "https://api.github.com/users/EladBezalel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EladBezalel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EladBezalel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EladBezalel/subscriptions",
+      "organizations_url": "https://api.github.com/users/EladBezalel/orgs",
+      "repos_url": "https://api.github.com/users/EladBezalel/repos",
+      "events_url": "https://api.github.com/users/EladBezalel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EladBezalel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-08T07:44:03Z",
+    "updated_at": "2016-01-08T07:44:03Z",
+    "body": "@zcbenz the initial thought was creating a window that will be in fullscreen mode but i will decide when to show it or not..\n"
+  }
+]

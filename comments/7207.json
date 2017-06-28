@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308409458",
+    "html_url": "https://github.com/electron/electron/issues/7207#issuecomment-308409458",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7207",
+    "id": 308409458,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-14T11:59:15Z",
+    "updated_at": "2017-06-14T11:59:15Z",
+    "body": "`DataTransfer.effectAllowed` only works for HTML5 drag inside web pages, while `startDrag` is wrap of native call that independent from web pages.\r\n\r\n`startDrag` is more a hack around the abilities provided by Chromium, to implement what you want we have to refactor Chromium's dragging code, which we do not have resources to do. So I'm closing this as won't fix."
+  }
+]

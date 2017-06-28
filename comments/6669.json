@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/236466609",
+    "html_url": "https://github.com/electron/electron/issues/6669#issuecomment-236466609",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6669",
+    "id": 236466609,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-01T00:27:16Z",
+    "updated_at": "2016-08-01T00:27:16Z",
+    "body": "On OS X you have to hide your app to move focus to other apps, in Electron it is calling `app.hide`.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/236467842",
+    "html_url": "https://github.com/electron/electron/issues/6669#issuecomment-236467842",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6669",
+    "id": 236467842,
+    "user": {
+      "login": "blainesch",
+      "id": 769039,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/769039?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/blainesch",
+      "html_url": "https://github.com/blainesch",
+      "followers_url": "https://api.github.com/users/blainesch/followers",
+      "following_url": "https://api.github.com/users/blainesch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/blainesch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/blainesch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/blainesch/subscriptions",
+      "organizations_url": "https://api.github.com/users/blainesch/orgs",
+      "repos_url": "https://api.github.com/users/blainesch/repos",
+      "events_url": "https://api.github.com/users/blainesch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/blainesch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-01T00:49:12Z",
+    "updated_at": "2016-08-01T00:49:12Z",
+    "body": "Thank you!\n"
+  }
+]

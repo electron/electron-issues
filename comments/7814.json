@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/270794190",
+    "html_url": "https://github.com/electron/electron/issues/7814#issuecomment-270794190",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7814",
+    "id": 270794190,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-01-06T00:03:42Z",
+    "updated_at": "2017-01-06T00:03:42Z",
+    "body": "The stack trace for this one is:\r\n\r\n```\r\n0   libwebcore_shared.dylib       \t0x000000010c4cdf68 blink::BindingSecurity::shouldAllowAccessTo(v8::Isolate*, v8::Local<v8::Context>, v8::Local<v8::Context>, blink::SecurityReportingOption) + 200\r\n1   libblink_platform.dylib       \t0x000000010790b949 0x1077ba000 + 1382729\r\n2   libblink_platform.dylib       \t0x000000010790b75f 0x1077ba000 + 1382239\r\n3   libblink_platform.dylib       \t0x0000000107932332 0x1077ba000 + 1540914\r\n4   libblink_platform.dylib       \t0x0000000107911b7a 0x1077ba000 + 1407866\r\n5   libblink_platform.dylib       \t0x0000000107911790 0x1077ba000 + 1406864\r\n6   libblink_platform.dylib       \t0x0000000107910eb7 0x1077ba000 + 1404599\r\n7   libblink_platform.dylib       \t0x0000000107912948 0x1077ba000 + 1411400\r\n8   libblink_platform.dylib       \t0x00000001079302ba 0x1077ba000 + 1532602\r\n9   libblink_platform.dylib       \t0x000000010792cd30 0x1077ba000 + 1518896\r\n10  libblink_platform.dylib       \t0x000000010792ceba 0x1077ba000 + 1519290\r\n11  libv8.dylib                   \t0x000000010698fd9a v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&)) + 298\r\n12  libv8.dylib                   \t0x00000001069ca01e 0x10695d000 + 446494\r\n13  libv8.dylib                   \t0x00000001069f48af 0x10695d000 + 620719\r\n14  ???                           \t0x00003a50a2a06147 0 + 64118000214343\r\n15  ???                           \t0x00003a50a2b91ded 0 + 64118001835501\r\n16  ???                           \t0x00003a50a2a42263 0 + 64118000460387\r\n17  ???                           \t0x00003a50a2a25d6f 0 + 64118000344431\r\n18  libv8.dylib                   \t0x0000000106cb0570 0x10695d000 + 3487088\r\n19  libv8.dylib                   \t0x0000000106cb0379 v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*) + 313\r\n20  libv8.dylib                   \t0x000000010696a639 v8::Script::Run(v8::Local<v8::Context>) + 601\r\n21  libnode.dylib                 \t0x00000001060b9710 node::ContextifyScript::EvalMachine(node::Environment*, long long, bool, bool, v8::FunctionCallbackInfo<v8::Value> const&, v8::TryCatch*) + 672 (node_contextify.cc:866)\r\n22  libnode.dylib                 \t0x00000001060b79cd node::ContextifyScript::RunInContext(v8::FunctionCallbackInfo<v8::Value> const&) + 525 (node_contextify.cc:619)\r\n```"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/270795015",
+    "html_url": "https://github.com/electron/electron/issues/7814#issuecomment-270795015",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7814",
+    "id": 270795015,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-01-06T00:08:47Z",
+    "updated_at": "2017-01-06T00:10:11Z",
+    "body": "This looks to be fixed in Chrome 54, I can't reproduce this on the #7909 branch.\r\n\r\n![screen shot 2017-01-05 at 4 09 44 pm](https://cloud.githubusercontent.com/assets/671378/21702623/6560a2b6-d361-11e6-87be-b156eafb306d.png)\r\n"
+  }
+]

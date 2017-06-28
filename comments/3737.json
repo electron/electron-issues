@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/166259577",
+    "html_url": "https://github.com/electron/electron/issues/3737#issuecomment-166259577",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3737",
+    "id": 166259577,
+    "user": {
+      "login": "svileng",
+      "id": 351592,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/351592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/svileng",
+      "html_url": "https://github.com/svileng",
+      "followers_url": "https://api.github.com/users/svileng/followers",
+      "following_url": "https://api.github.com/users/svileng/following{/other_user}",
+      "gists_url": "https://api.github.com/users/svileng/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/svileng/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/svileng/subscriptions",
+      "organizations_url": "https://api.github.com/users/svileng/orgs",
+      "repos_url": "https://api.github.com/users/svileng/repos",
+      "events_url": "https://api.github.com/users/svileng/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/svileng/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-21T10:12:34Z",
+    "updated_at": "2015-12-21T10:12:34Z",
+    "body": "I'm experiencing the same issue — I have an Angular web app that uses hash-based routing, and `will-navigate` does not fire on page changes.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/169640549",
+    "html_url": "https://github.com/electron/electron/issues/3737#issuecomment-169640549",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3737",
+    "id": 169640549,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-07T11:49:32Z",
+    "updated_at": "2016-01-07T11:49:32Z",
+    "body": "I believe #3875 has fixed this.\n\nFor capturing in-page navigation event, a `did-navigate-in-page` event has been added and will be included in next release.\n"
+  }
+]

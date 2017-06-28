@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/231107533",
+    "html_url": "https://github.com/electron/electron/issues/6381#issuecomment-231107533",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6381",
+    "id": 231107533,
+    "user": {
+      "login": "wilsonpage",
+      "id": 1020551,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020551?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wilsonpage",
+      "html_url": "https://github.com/wilsonpage",
+      "followers_url": "https://api.github.com/users/wilsonpage/followers",
+      "following_url": "https://api.github.com/users/wilsonpage/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wilsonpage/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wilsonpage/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wilsonpage/subscriptions",
+      "organizations_url": "https://api.github.com/users/wilsonpage/orgs",
+      "repos_url": "https://api.github.com/users/wilsonpage/repos",
+      "events_url": "https://api.github.com/users/wilsonpage/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wilsonpage/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-07T15:10:06Z",
+    "updated_at": "2016-07-07T15:10:06Z",
+    "body": "Ping @joshaber who worked on xcode related patch https://github.com/electron/electron/pull/3015\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/231246156",
+    "html_url": "https://github.com/electron/electron/issues/6381#issuecomment-231246156",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6381",
+    "id": 231246156,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-08T00:31:33Z",
+    "updated_at": "2016-07-08T00:31:33Z",
+    "body": "This is a duplicate of #5494.\n\nTo answer your questions:\n\n> What IDE should I be using?\n\nYou can use any text editor you like, such as Atom and VS Code.\n\n> Can I use Xcode?\n\nYou can only use it like a text editor, but the IDE features are not available.\n\n> What is the recommended development/debugging workflow?\n\nEdit the source code in text editor, and build Electron with the scripts.\n"
+  }
+]

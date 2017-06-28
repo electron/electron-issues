@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/73704640",
+    "html_url": "https://github.com/electron/electron/issues/1119#issuecomment-73704640",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1119",
+    "id": 73704640,
+    "user": {
+      "login": "aegypius",
+      "id": 25710,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/25710?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aegypius",
+      "html_url": "https://github.com/aegypius",
+      "followers_url": "https://api.github.com/users/aegypius/followers",
+      "following_url": "https://api.github.com/users/aegypius/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aegypius/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aegypius/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aegypius/subscriptions",
+      "organizations_url": "https://api.github.com/users/aegypius/orgs",
+      "repos_url": "https://api.github.com/users/aegypius/repos",
+      "events_url": "https://api.github.com/users/aegypius/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aegypius/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-10T14:10:47Z",
+    "updated_at": "2015-02-10T14:10:47Z",
+    "body": "Seems to be related to atom/atom#3385.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/73706539",
+    "html_url": "https://github.com/electron/electron/issues/1119#issuecomment-73706539",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1119",
+    "id": 73706539,
+    "user": {
+      "login": "aegypius",
+      "id": 25710,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/25710?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aegypius",
+      "html_url": "https://github.com/aegypius",
+      "followers_url": "https://api.github.com/users/aegypius/followers",
+      "following_url": "https://api.github.com/users/aegypius/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aegypius/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aegypius/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aegypius/subscriptions",
+      "organizations_url": "https://api.github.com/users/aegypius/orgs",
+      "repos_url": "https://api.github.com/users/aegypius/repos",
+      "events_url": "https://api.github.com/users/aegypius/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aegypius/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-10T14:23:03Z",
+    "updated_at": "2015-02-10T14:23:03Z",
+    "body": "As a follow-up its related to nodejs 0.12 installed on the host building. Downgraded to 0.10\\* and build passed.\n\nI update the overlay (aegypius/overlay@1a245099) to use a 0.10.x version of nodejs\n\nMy bad ! \n"
+  }
+]

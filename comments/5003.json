@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/205667530",
+    "html_url": "https://github.com/electron/electron/issues/5003#issuecomment-205667530",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5003",
+    "id": 205667530,
+    "user": {
+      "login": "feross",
+      "id": 121766,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/121766?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/feross",
+      "html_url": "https://github.com/feross",
+      "followers_url": "https://api.github.com/users/feross/followers",
+      "following_url": "https://api.github.com/users/feross/following{/other_user}",
+      "gists_url": "https://api.github.com/users/feross/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/feross/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/feross/subscriptions",
+      "organizations_url": "https://api.github.com/users/feross/orgs",
+      "repos_url": "https://api.github.com/users/feross/repos",
+      "events_url": "https://api.github.com/users/feross/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/feross/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-05T06:09:46Z",
+    "updated_at": "2016-04-05T06:09:46Z",
+    "body": "Related: https://github.com/electron/electron/issues/5028 https://github.com/electron/electron/issues/5001\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/205686172",
+    "html_url": "https://github.com/electron/electron/issues/5003#issuecomment-205686172",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5003",
+    "id": 205686172,
+    "user": {
+      "login": "bpasero",
+      "id": 900690,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/900690?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bpasero",
+      "html_url": "https://github.com/bpasero",
+      "followers_url": "https://api.github.com/users/bpasero/followers",
+      "following_url": "https://api.github.com/users/bpasero/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bpasero/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bpasero/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bpasero/subscriptions",
+      "organizations_url": "https://api.github.com/users/bpasero/orgs",
+      "repos_url": "https://api.github.com/users/bpasero/repos",
+      "events_url": "https://api.github.com/users/bpasero/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bpasero/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-05T07:02:35Z",
+    "updated_at": "2016-04-05T07:02:35Z",
+    "body": "Thanks! How do you guys figure out what's broken if all you have is a crash dump?\n"
+  }
+]

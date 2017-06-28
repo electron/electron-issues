@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309903669",
+    "html_url": "https://github.com/electron/electron/issues/9817#issuecomment-309903669",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9817",
+    "id": 309903669,
+    "user": {
+      "login": "nicross",
+      "id": 840661,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/840661?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nicross",
+      "html_url": "https://github.com/nicross",
+      "followers_url": "https://api.github.com/users/nicross/followers",
+      "following_url": "https://api.github.com/users/nicross/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nicross/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nicross/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nicross/subscriptions",
+      "organizations_url": "https://api.github.com/users/nicross/orgs",
+      "repos_url": "https://api.github.com/users/nicross/repos",
+      "events_url": "https://api.github.com/users/nicross/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nicross/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-20T21:57:45Z",
+    "updated_at": "2017-06-20T21:57:45Z",
+    "body": "Was trigger-happy and accidentally closed #9816. Reopened here with additional comments."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/154674063",
+    "html_url": "https://github.com/electron/electron/issues/3310#issuecomment-154674063",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3310",
+    "id": 154674063,
+    "user": {
+      "login": "sidneys",
+      "id": 1630917,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1630917?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sidneys",
+      "html_url": "https://github.com/sidneys",
+      "followers_url": "https://api.github.com/users/sidneys/followers",
+      "following_url": "https://api.github.com/users/sidneys/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sidneys/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sidneys/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sidneys/subscriptions",
+      "organizations_url": "https://api.github.com/users/sidneys/orgs",
+      "repos_url": "https://api.github.com/users/sidneys/repos",
+      "events_url": "https://api.github.com/users/sidneys/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sidneys/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-07T09:29:23Z",
+    "updated_at": "2015-11-07T09:29:23Z",
+    "body": "+1 on this. \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/154800884",
+    "html_url": "https://github.com/electron/electron/issues/3310#issuecomment-154800884",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3310",
+    "id": 154800884,
+    "user": {
+      "login": "tejaspathak",
+      "id": 12093138,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12093138?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tejaspathak",
+      "html_url": "https://github.com/tejaspathak",
+      "followers_url": "https://api.github.com/users/tejaspathak/followers",
+      "following_url": "https://api.github.com/users/tejaspathak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tejaspathak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tejaspathak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tejaspathak/subscriptions",
+      "organizations_url": "https://api.github.com/users/tejaspathak/orgs",
+      "repos_url": "https://api.github.com/users/tejaspathak/repos",
+      "events_url": "https://api.github.com/users/tejaspathak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tejaspathak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-08T10:20:54Z",
+    "updated_at": "2015-11-08T10:20:54Z",
+    "body": "@zcbenz please check above code changes for this issue\n"
+  }
+]

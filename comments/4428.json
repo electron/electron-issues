@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/181846816",
+    "html_url": "https://github.com/electron/electron/issues/4428#issuecomment-181846816",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4428",
+    "id": 181846816,
+    "user": {
+      "login": "OlsonDev",
+      "id": 308072,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/308072?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/OlsonDev",
+      "html_url": "https://github.com/OlsonDev",
+      "followers_url": "https://api.github.com/users/OlsonDev/followers",
+      "following_url": "https://api.github.com/users/OlsonDev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/OlsonDev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/OlsonDev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/OlsonDev/subscriptions",
+      "organizations_url": "https://api.github.com/users/OlsonDev/orgs",
+      "repos_url": "https://api.github.com/users/OlsonDev/repos",
+      "events_url": "https://api.github.com/users/OlsonDev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/OlsonDev/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-09T12:37:39Z",
+    "updated_at": "2016-02-09T12:37:39Z",
+    "body": "Yes, refer to the documentation:\n\nhttp://electron.atom.io/docs/v0.36.7/api/browser-window/ `Ctrl+F` for \"preload\"\n\nhttp://electron.atom.io/docs/v0.36.7/api/web-view-tag/#preload\n\nQuestions like this should be asked in [this community](https://github.com/atom/electron#community).\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/181980756",
+    "html_url": "https://github.com/electron/electron/issues/4428#issuecomment-181980756",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4428",
+    "id": 181980756,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-09T17:54:01Z",
+    "updated_at": "2016-02-09T17:54:01Z",
+    "body": "Closing this out, thanks for the helpful information @OlsonDev \n"
+  }
+]

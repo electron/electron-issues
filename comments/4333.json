@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/178764255",
+    "html_url": "https://github.com/electron/electron/pull/4333#issuecomment-178764255",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4333",
+    "id": 178764255,
+    "user": {
+      "login": "felipegtx",
+      "id": 1022404,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1022404?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felipegtx",
+      "html_url": "https://github.com/felipegtx",
+      "followers_url": "https://api.github.com/users/felipegtx/followers",
+      "following_url": "https://api.github.com/users/felipegtx/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felipegtx/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felipegtx/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felipegtx/subscriptions",
+      "organizations_url": "https://api.github.com/users/felipegtx/orgs",
+      "repos_url": "https://api.github.com/users/felipegtx/repos",
+      "events_url": "https://api.github.com/users/felipegtx/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felipegtx/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-02T19:11:17Z",
+    "updated_at": "2016-02-02T19:11:17Z",
+    "body": "All my considerations from #4331 were handled so I've no further points regarding this. \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/178986663",
+    "html_url": "https://github.com/electron/electron/pull/4333#issuecomment-178986663",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4333",
+    "id": 178986663,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-03T03:49:31Z",
+    "updated_at": "2016-02-03T03:49:31Z",
+    "body": ":+1: \n"
+  }
+]

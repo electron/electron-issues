@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/239333766",
+    "html_url": "https://github.com/electron/electron/issues/6822#issuecomment-239333766",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6822",
+    "id": 239333766,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-12T00:36:38Z",
+    "updated_at": "2016-08-12T00:36:38Z",
+    "body": "@nikola I can't replicate this issue.\n\nI tried doing\n\n``` js\ndocument.querySelector('webview').src = 'chrome://flags'\n```\n\nAnd Electron did not crash or quit.\n\nCan you provide a minimal code sample that demonstrates the problem\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/239336436",
+    "html_url": "https://github.com/electron/electron/issues/6822#issuecomment-239336436",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6822",
+    "id": 239336436,
+    "user": {
+      "login": "nikola",
+      "id": 54608,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/54608?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nikola",
+      "html_url": "https://github.com/nikola",
+      "followers_url": "https://api.github.com/users/nikola/followers",
+      "following_url": "https://api.github.com/users/nikola/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nikola/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nikola/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nikola/subscriptions",
+      "organizations_url": "https://api.github.com/users/nikola/orgs",
+      "repos_url": "https://api.github.com/users/nikola/repos",
+      "events_url": "https://api.github.com/users/nikola/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nikola/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-12T00:57:12Z",
+    "updated_at": "2016-08-12T00:57:12Z",
+    "body": "After reducing the code, I have noticed that the exit is actually due to a side-effect where the target URL is being parsed like a regular HTTP URL. So this issue can be closed.\n"
+  }
+]

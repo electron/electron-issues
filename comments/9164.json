@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/293899101",
+    "html_url": "https://github.com/electron/electron/issues/9164#issuecomment-293899101",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9164",
+    "id": 293899101,
+    "user": {
+      "login": "sillyslux",
+      "id": 10578906,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10578906?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sillyslux",
+      "html_url": "https://github.com/sillyslux",
+      "followers_url": "https://api.github.com/users/sillyslux/followers",
+      "following_url": "https://api.github.com/users/sillyslux/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sillyslux/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sillyslux/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sillyslux/subscriptions",
+      "organizations_url": "https://api.github.com/users/sillyslux/orgs",
+      "repos_url": "https://api.github.com/users/sillyslux/repos",
+      "events_url": "https://api.github.com/users/sillyslux/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sillyslux/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-13T13:43:26Z",
+    "updated_at": "2017-04-13T14:00:31Z",
+    "body": "I think this is a duplicate of #8532 and #2170.\r\nMy workaround was to downgrade to a version which i know works fine (1.3.4).\r\nWould be nice to know with what version this has started.\r\n\r\nEdit: oh, in #8532 i've just read this\r\n> I just rolled back some versions, the issue started with 1.4.15. Works with 1.4.14."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/297802419",
+    "html_url": "https://github.com/electron/electron/issues/9164#issuecomment-297802419",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9164",
+    "id": 297802419,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-04-27T18:38:43Z",
+    "updated_at": "2017-04-27T18:38:43Z",
+    "body": "> I think this is a duplicate of #8532 and #2170.\r\n\r\nThanks, merging this into #8532 \r\n\r\n@elvisvoer please subscribe to that issue for updates."
+  }
+]

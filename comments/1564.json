@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/98553767",
+    "html_url": "https://github.com/electron/electron/issues/1564#issuecomment-98553767",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1564",
+    "id": 98553767,
+    "user": {
+      "login": "jgeurts",
+      "id": 158937,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/158937?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jgeurts",
+      "html_url": "https://github.com/jgeurts",
+      "followers_url": "https://api.github.com/users/jgeurts/followers",
+      "following_url": "https://api.github.com/users/jgeurts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jgeurts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jgeurts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jgeurts/subscriptions",
+      "organizations_url": "https://api.github.com/users/jgeurts/orgs",
+      "repos_url": "https://api.github.com/users/jgeurts/repos",
+      "events_url": "https://api.github.com/users/jgeurts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jgeurts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-03T22:54:56Z",
+    "updated_at": "2015-05-03T22:54:56Z",
+    "body": "Sorry, this belongs at http://github.com/atom/electron-starter\n"
+  }
+]

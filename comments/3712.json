@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/164169576",
+    "html_url": "https://github.com/electron/electron/issues/3712#issuecomment-164169576",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3712",
+    "id": 164169576,
+    "user": {
+      "login": "seanballais",
+      "id": 7175885,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7175885?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/seanballais",
+      "html_url": "https://github.com/seanballais",
+      "followers_url": "https://api.github.com/users/seanballais/followers",
+      "following_url": "https://api.github.com/users/seanballais/following{/other_user}",
+      "gists_url": "https://api.github.com/users/seanballais/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/seanballais/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/seanballais/subscriptions",
+      "organizations_url": "https://api.github.com/users/seanballais/orgs",
+      "repos_url": "https://api.github.com/users/seanballais/repos",
+      "events_url": "https://api.github.com/users/seanballais/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/seanballais/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-12T17:17:38Z",
+    "updated_at": "2015-12-12T17:17:38Z",
+    "body": "I did a PR (#3758) to fix this issue.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/164400160",
+    "html_url": "https://github.com/electron/electron/issues/3712#issuecomment-164400160",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3712",
+    "id": 164400160,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-14T10:18:31Z",
+    "updated_at": "2015-12-14T10:18:31Z",
+    "body": "Closed with #3758.\n"
+  }
+]

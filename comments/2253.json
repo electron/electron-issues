@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/122072481",
+    "html_url": "https://github.com/electron/electron/issues/2253#issuecomment-122072481",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2253",
+    "id": 122072481,
+    "user": {
+      "login": "justinmchase",
+      "id": 10974,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10974?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/justinmchase",
+      "html_url": "https://github.com/justinmchase",
+      "followers_url": "https://api.github.com/users/justinmchase/followers",
+      "following_url": "https://api.github.com/users/justinmchase/following{/other_user}",
+      "gists_url": "https://api.github.com/users/justinmchase/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/justinmchase/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/justinmchase/subscriptions",
+      "organizations_url": "https://api.github.com/users/justinmchase/orgs",
+      "repos_url": "https://api.github.com/users/justinmchase/repos",
+      "events_url": "https://api.github.com/users/justinmchase/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/justinmchase/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-16T20:04:23Z",
+    "updated_at": "2015-07-16T20:04:23Z",
+    "body": "Actually I figured it out. It does work like this but apparently this is bad:\n\n```\n'file://' + path.join(__dirname, '..', 'index.html')\n```\n\nIt was creating a bad path and the index.html was just not being loaded at all. Once I got the right path it started working as expected, thanks.\n"
+  }
+]

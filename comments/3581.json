@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/159730771",
+    "html_url": "https://github.com/electron/electron/issues/3581#issuecomment-159730771",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3581",
+    "id": 159730771,
+    "user": {
+      "login": "bengotow",
+      "id": 1037212,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1037212?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bengotow",
+      "html_url": "https://github.com/bengotow",
+      "followers_url": "https://api.github.com/users/bengotow/followers",
+      "following_url": "https://api.github.com/users/bengotow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bengotow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bengotow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bengotow/subscriptions",
+      "organizations_url": "https://api.github.com/users/bengotow/orgs",
+      "repos_url": "https://api.github.com/users/bengotow/repos",
+      "events_url": "https://api.github.com/users/bengotow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bengotow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-25T21:02:10Z",
+    "updated_at": "2015-11-25T21:02:22Z",
+    "body": "Hey @intellent — this is a great question. Since Electron uses NodeJS, you can use the `fs` module in NodeJS to access the filesystem. For your game, it might make sense to check to see if the user has a custom JSON file, and fall back to the default one in the app. Alternatively, you could copy the JSON file into /user/appdata the first time it's launched so they can see it and edit it there.\n\nThe code might look something like this:\n\n```\nvar app = require('electron').app;\nvar fs = require('fs');\nvar path = require('path');\n\nvar customJSONPath = path.join(app.getPath('userData'), 'my-levels.json')\n\nif fs.existsSync(customJSONPath)\n   // load from this path\nelse\n   // load from default path\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/159805145",
+    "html_url": "https://github.com/electron/electron/issues/3581#issuecomment-159805145",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3581",
+    "id": 159805145,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-26T04:58:09Z",
+    "updated_at": "2015-11-26T04:58:09Z",
+    "body": "You can also reference how Atom and VSCode implement their user preferences.\n"
+  }
+]

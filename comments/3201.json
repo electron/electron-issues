@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/150878955",
+    "html_url": "https://github.com/electron/electron/issues/3201#issuecomment-150878955",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3201",
+    "id": 150878955,
+    "user": {
+      "login": "etiktin",
+      "id": 4381579,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4381579?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/etiktin",
+      "html_url": "https://github.com/etiktin",
+      "followers_url": "https://api.github.com/users/etiktin/followers",
+      "following_url": "https://api.github.com/users/etiktin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/etiktin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/etiktin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/etiktin/subscriptions",
+      "organizations_url": "https://api.github.com/users/etiktin/orgs",
+      "repos_url": "https://api.github.com/users/etiktin/repos",
+      "events_url": "https://api.github.com/users/etiktin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/etiktin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-25T01:22:16Z",
+    "updated_at": "2015-10-25T01:23:47Z",
+    "body": "The shortcut to open devtools was only available because your app was hosted in the default_app (that's the state your app runs in unless you package it) which creates a menu item for opening the devtools. So by adding your own menu you actually replaced the old one and lost the shortcut.\nTo get the shortcut back you can add it to the menu like so: https://github.com/atom/electron/blob/1896deb10eda67d8e8cb5188fe0f747fa16fdfeb/atom/browser/default_app/main.js#L109\nOr if you don't want it in a menu item you can register a global shortcut (details [here](https://github.com/atom/electron/blob/1896deb10eda67d8e8cb5188fe0f747fa16fdfeb/docs/api/global-shortcut.md)).\n\nThe default_app exposes some shortcuts to help make it easier to develop/debug your app (e.g. reload, open devtools). Once you package it, it won't be available any more.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/150879018",
+    "html_url": "https://github.com/electron/electron/issues/3201#issuecomment-150879018",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3201",
+    "id": 150879018,
+    "user": {
+      "login": "Sekhmet",
+      "id": 1968722,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1968722?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Sekhmet",
+      "html_url": "https://github.com/Sekhmet",
+      "followers_url": "https://api.github.com/users/Sekhmet/followers",
+      "following_url": "https://api.github.com/users/Sekhmet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Sekhmet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Sekhmet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Sekhmet/subscriptions",
+      "organizations_url": "https://api.github.com/users/Sekhmet/orgs",
+      "repos_url": "https://api.github.com/users/Sekhmet/repos",
+      "events_url": "https://api.github.com/users/Sekhmet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Sekhmet/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-25T01:25:59Z",
+    "updated_at": "2015-10-25T01:25:59Z",
+    "body": "Oh, I messed up. I saw this code and thought it opens dev tools thanks to accelerator and I forgot about click event. Thanks a lot!\n"
+  }
+]

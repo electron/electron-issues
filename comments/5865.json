@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223769348",
+    "html_url": "https://github.com/electron/electron/issues/5865#issuecomment-223769348",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5865",
+    "id": 223769348,
+    "user": {
+      "login": "kunkinkan",
+      "id": 16960095,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/16960095?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunkinkan",
+      "html_url": "https://github.com/kunkinkan",
+      "followers_url": "https://api.github.com/users/kunkinkan/followers",
+      "following_url": "https://api.github.com/users/kunkinkan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kunkinkan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kunkinkan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kunkinkan/subscriptions",
+      "organizations_url": "https://api.github.com/users/kunkinkan/orgs",
+      "repos_url": "https://api.github.com/users/kunkinkan/repos",
+      "events_url": "https://api.github.com/users/kunkinkan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kunkinkan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-04T17:59:28Z",
+    "updated_at": "2016-06-04T17:59:28Z",
+    "body": "it appears both squirrel.mac and squirrel.windows have this option, so will this be integrated? \n\nhttps://github.com/Squirrel/Squirrel.Mac/issues/173\nhttps://github.com/Squirrel/Squirrel.Windows/issues/721\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223850808",
+    "html_url": "https://github.com/electron/electron/issues/5865#issuecomment-223850808",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5865",
+    "id": 223850808,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-06T01:21:51Z",
+    "updated_at": "2016-06-06T01:21:51Z",
+    "body": "This is a duplicate of #4587.\n"
+  }
+]

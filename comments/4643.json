@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/210479968",
+    "html_url": "https://github.com/electron/electron/issues/4643#issuecomment-210479968",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4643",
+    "id": 210479968,
+    "user": {
+      "login": "bpasero",
+      "id": 900690,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/900690?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bpasero",
+      "html_url": "https://github.com/bpasero",
+      "followers_url": "https://api.github.com/users/bpasero/followers",
+      "following_url": "https://api.github.com/users/bpasero/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bpasero/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bpasero/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bpasero/subscriptions",
+      "organizations_url": "https://api.github.com/users/bpasero/orgs",
+      "repos_url": "https://api.github.com/users/bpasero/repos",
+      "events_url": "https://api.github.com/users/bpasero/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bpasero/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-15T14:19:12Z",
+    "updated_at": "2016-04-15T14:19:12Z",
+    "body": "@zcbenz does this also apply to calling process.exit()? I realise we never used app.exit() but process.exit().\n"
+  }
+]

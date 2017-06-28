@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/252316844",
+    "html_url": "https://github.com/electron/electron/issues/7454#issuecomment-252316844",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7454",
+    "id": 252316844,
+    "user": {
+      "login": "jamesa",
+      "id": 284902,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/284902?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jamesa",
+      "html_url": "https://github.com/jamesa",
+      "followers_url": "https://api.github.com/users/jamesa/followers",
+      "following_url": "https://api.github.com/users/jamesa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jamesa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jamesa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jamesa/subscriptions",
+      "organizations_url": "https://api.github.com/users/jamesa/orgs",
+      "repos_url": "https://api.github.com/users/jamesa/repos",
+      "events_url": "https://api.github.com/users/jamesa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jamesa/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-07T17:48:36Z",
+    "updated_at": "2016-10-07T17:51:42Z",
+    "body": "It looks to me that you're not dragging the window, but resizing it? Have you tried `resizable: false`? Additionally you can add `movable: false`.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/278778555",
+    "html_url": "https://github.com/electron/electron/issues/7454#issuecomment-278778555",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7454",
+    "id": 278778555,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-02-09T21:26:00Z",
+    "updated_at": "2017-02-09T21:26:00Z",
+    "body": "Closing this out until more information is available."
+  }
+]

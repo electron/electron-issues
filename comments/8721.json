@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/281164922",
+    "html_url": "https://github.com/electron/electron/issues/8721#issuecomment-281164922",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8721",
+    "id": 281164922,
+    "user": {
+      "login": "groundwater",
+      "id": 538488,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/538488?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/groundwater",
+      "html_url": "https://github.com/groundwater",
+      "followers_url": "https://api.github.com/users/groundwater/followers",
+      "following_url": "https://api.github.com/users/groundwater/following{/other_user}",
+      "gists_url": "https://api.github.com/users/groundwater/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/groundwater/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/groundwater/subscriptions",
+      "organizations_url": "https://api.github.com/users/groundwater/orgs",
+      "repos_url": "https://api.github.com/users/groundwater/repos",
+      "events_url": "https://api.github.com/users/groundwater/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/groundwater/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-02-20T19:36:31Z",
+    "updated_at": "2017-02-20T19:36:31Z",
+    "body": "Hi @loreberti89. I would like to direct you towards a better spot for electron support.\r\n\r\n- [discuss.atom.io](http://discuss.atom.io/)\r\n- sign up for the [community slack](https://discuss.atom.io/t/join-us-on-slack/16638) and check out the `#electron` room"
+  }
+]

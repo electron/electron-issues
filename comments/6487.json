@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/232810903",
+    "html_url": "https://github.com/electron/electron/issues/6487#issuecomment-232810903",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6487",
+    "id": 232810903,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-14T22:27:26Z",
+    "updated_at": "2016-07-14T22:27:26Z",
+    "body": "@kevinsawicki These API's are UWP API's only, win32 applications can't integrate with them.\n\nhttps://msdn.microsoft.com/library/windows/apps/windows.ui.viewmanagement.applicationview.titlebar.aspx?cs-save-lang=1&cs-lang=cpp#code-snippet-1\n\nIt's a similar issue to #6250\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/232835348",
+    "html_url": "https://github.com/electron/electron/issues/6487#issuecomment-232835348",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6487",
+    "id": 232835348,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-15T01:09:23Z",
+    "updated_at": "2016-07-15T01:09:23Z",
+    "body": "I'm closing this as won't fix since it is a limitation of Windows.\n"
+  }
+]

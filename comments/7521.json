@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/252181023",
+    "html_url": "https://github.com/electron/electron/issues/7521#issuecomment-252181023",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7521",
+    "id": 252181023,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-07T08:21:51Z",
+    "updated_at": "2016-10-07T08:21:51Z",
+    "body": "As has been pointed out earlier, GitHub issues are for feature requests and bug reports, questions about using Electron should be directed to the [community](https://github.com/electron/electron#community).\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/252182242",
+    "html_url": "https://github.com/electron/electron/issues/7521#issuecomment-252182242",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7521",
+    "id": 252182242,
+    "user": {
+      "login": "SameerKhan1406",
+      "id": 22536811,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22536811?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SameerKhan1406",
+      "html_url": "https://github.com/SameerKhan1406",
+      "followers_url": "https://api.github.com/users/SameerKhan1406/followers",
+      "following_url": "https://api.github.com/users/SameerKhan1406/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SameerKhan1406/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SameerKhan1406/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SameerKhan1406/subscriptions",
+      "organizations_url": "https://api.github.com/users/SameerKhan1406/orgs",
+      "repos_url": "https://api.github.com/users/SameerKhan1406/repos",
+      "events_url": "https://api.github.com/users/SameerKhan1406/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SameerKhan1406/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-07T08:28:33Z",
+    "updated_at": "2016-10-07T08:28:33Z",
+    "body": "Sorry but i have posted but i am getting reply from community. Sending you the link https://discuss.atom.io/t/main-js-external-function-call-from-a-js-script-file/34387/1\n"
+  }
+]

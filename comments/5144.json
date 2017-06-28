@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/209753410",
+    "html_url": "https://github.com/electron/electron/issues/5144#issuecomment-209753410",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5144",
+    "id": 209753410,
+    "user": {
+      "login": "baconbrad",
+      "id": 4763342,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4763342?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/baconbrad",
+      "html_url": "https://github.com/baconbrad",
+      "followers_url": "https://api.github.com/users/baconbrad/followers",
+      "following_url": "https://api.github.com/users/baconbrad/following{/other_user}",
+      "gists_url": "https://api.github.com/users/baconbrad/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/baconbrad/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/baconbrad/subscriptions",
+      "organizations_url": "https://api.github.com/users/baconbrad/orgs",
+      "repos_url": "https://api.github.com/users/baconbrad/repos",
+      "events_url": "https://api.github.com/users/baconbrad/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/baconbrad/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-14T04:11:37Z",
+    "updated_at": "2016-04-14T04:17:29Z",
+    "body": "This isn't a bug. Electron packages both Chromium and Node.js along with what they are dependent on to run. And they try to cut out what is overall likely not needed or can be done via Node.js. Nit picking and cutting features here and there isn't going to yield a big difference when the bulk of it is required for Electron to operate. Modularizing/patching also requires massive modifications to Chromium itself which makes the project considerably harder to maintain against the upstream.\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/248091554",
+    "html_url": "https://github.com/electron/electron/issues/7190#issuecomment-248091554",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7190",
+    "id": 248091554,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-19T19:08:37Z",
+    "updated_at": "2016-09-19T19:08:37Z",
+    "body": "Looked into this a bit, I think the bookmark type is not as widely supported on Windows as it is on macOS.\n\nI think the best thing to do in `electron-context-menu` is to use `clipboard.write` instead and write text and a bookmark at the same time for the `Copy Link` action:\n\n``` js\nclipboard.write({\n  text: 'http://birthday.pizza',\n  bookmark: 'a website'\n})\n```\n\nThe above snippet seems to work correctly on macOS and Windows, you can still access the bookmark with `clipboard.readBookmark()` but apps not supporting bookmarks can still fallback to text support.\n\nUpdating this issue to update the docs to make this clearer.\n"
+  }
+]

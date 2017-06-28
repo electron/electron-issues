@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/255471423",
+    "html_url": "https://github.com/electron/electron/issues/7694#issuecomment-255471423",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7694",
+    "id": 255471423,
+    "user": {
+      "login": "mnquintana",
+      "id": 823545,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/823545?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mnquintana",
+      "html_url": "https://github.com/mnquintana",
+      "followers_url": "https://api.github.com/users/mnquintana/followers",
+      "following_url": "https://api.github.com/users/mnquintana/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mnquintana/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mnquintana/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mnquintana/subscriptions",
+      "organizations_url": "https://api.github.com/users/mnquintana/orgs",
+      "repos_url": "https://api.github.com/users/mnquintana/repos",
+      "events_url": "https://api.github.com/users/mnquintana/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mnquintana/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-21T21:37:38Z",
+    "updated_at": "2016-10-21T21:37:38Z",
+    "body": "For questions about writing apps, I'd suggest seeking help from [the community](https://github.com/electron/electron#community). The GitHub Issues list is only for bug reports and feature requests.\n"
+  }
+]

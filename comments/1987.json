@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/112641714",
+    "html_url": "https://github.com/electron/electron/issues/1987#issuecomment-112641714",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1987",
+    "id": 112641714,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-06-17T03:38:48Z",
+    "updated_at": "2015-06-17T03:38:48Z",
+    "body": "This is a duplicate of #1605.\n\nCurrently you have to choose a font in your CSS to work around it.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/194308973",
+    "html_url": "https://github.com/electron/electron/issues/1987#issuecomment-194308973",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1987",
+    "id": 194308973,
+    "user": {
+      "login": "tworry",
+      "id": 10987973,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10987973?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tworry",
+      "html_url": "https://github.com/tworry",
+      "followers_url": "https://api.github.com/users/tworry/followers",
+      "following_url": "https://api.github.com/users/tworry/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tworry/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tworry/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tworry/subscriptions",
+      "organizations_url": "https://api.github.com/users/tworry/orgs",
+      "repos_url": "https://api.github.com/users/tworry/repos",
+      "events_url": "https://api.github.com/users/tworry/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tworry/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-09T14:03:34Z",
+    "updated_at": "2016-03-09T14:03:34Z",
+    "body": "I've download NotoSansSC.otf,and put it in my app,but the Chinese font still not working while English characters is Noto Sans.how can I make it work?have 2 be woff?\n"
+  }
+]

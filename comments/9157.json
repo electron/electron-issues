@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/293307939",
+    "html_url": "https://github.com/electron/electron/pull/9157#issuecomment-293307939",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9157",
+    "id": 293307939,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-04-11T15:52:18Z",
+    "updated_at": "2017-04-11T15:52:18Z",
+    "body": "Thanks @cifratila 🚢 "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/305529380",
+    "html_url": "https://github.com/electron/electron/pull/9157#issuecomment-305529380",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9157",
+    "id": 305529380,
+    "user": {
+      "login": "englishextra",
+      "id": 537127,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/537127?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/englishextra",
+      "html_url": "https://github.com/englishextra",
+      "followers_url": "https://api.github.com/users/englishextra/followers",
+      "following_url": "https://api.github.com/users/englishextra/following{/other_user}",
+      "gists_url": "https://api.github.com/users/englishextra/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/englishextra/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/englishextra/subscriptions",
+      "organizations_url": "https://api.github.com/users/englishextra/orgs",
+      "repos_url": "https://api.github.com/users/englishextra/repos",
+      "events_url": "https://api.github.com/users/englishextra/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/englishextra/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-01T15:28:07Z",
+    "updated_at": "2017-06-01T15:28:22Z",
+    "body": "Does this mean that `xinput1_3.dll` removed while `pdf_viewer_resources.pak` added\r\n\r\nWhy asking? I had to manually change installers scripts, so would that be OK to change the above regarding migration from 1.6.2 to 1.6.10?"
+  }
+]

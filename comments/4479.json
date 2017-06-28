@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/184654631",
+    "html_url": "https://github.com/electron/electron/issues/4479#issuecomment-184654631",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4479",
+    "id": 184654631,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-16T11:57:43Z",
+    "updated_at": "2016-02-16T11:57:43Z",
+    "body": "It seems that any dynamical change to menu would make the `role` property wrong, we need to have our own `MenuModel` class instead of extending the `SimpleMenuModel` in C++.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/219219032",
+    "html_url": "https://github.com/electron/electron/issues/4479#issuecomment-219219032",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4479",
+    "id": 219219032,
+    "user": {
+      "login": "jpittner",
+      "id": 5703234,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5703234?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jpittner",
+      "html_url": "https://github.com/jpittner",
+      "followers_url": "https://api.github.com/users/jpittner/followers",
+      "following_url": "https://api.github.com/users/jpittner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jpittner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jpittner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jpittner/subscriptions",
+      "organizations_url": "https://api.github.com/users/jpittner/orgs",
+      "repos_url": "https://api.github.com/users/jpittner/repos",
+      "events_url": "https://api.github.com/users/jpittner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jpittner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-14T12:57:33Z",
+    "updated_at": "2016-05-14T12:57:33Z",
+    "body": "This also happens with the Window menu item. The current window title gets appended under the 3rd or 4th submenu, even if it isn't the \"Window\" submenu.\n"
+  }
+]

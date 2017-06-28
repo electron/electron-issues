@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/219960855",
+    "html_url": "https://github.com/electron/electron/issues/5313#issuecomment-219960855",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5313",
+    "id": 219960855,
+    "user": {
+      "login": "felixrieseberg",
+      "id": 1426799,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1426799?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felixrieseberg",
+      "html_url": "https://github.com/felixrieseberg",
+      "followers_url": "https://api.github.com/users/felixrieseberg/followers",
+      "following_url": "https://api.github.com/users/felixrieseberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felixrieseberg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felixrieseberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felixrieseberg/subscriptions",
+      "organizations_url": "https://api.github.com/users/felixrieseberg/orgs",
+      "repos_url": "https://api.github.com/users/felixrieseberg/repos",
+      "events_url": "https://api.github.com/users/felixrieseberg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felixrieseberg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-18T08:33:02Z",
+    "updated_at": "2016-05-18T08:33:02Z",
+    "body": "To get a name for the notification center, Windows 10 first checks for a corresponding shortcut in the start menu (anywhere there, it doesn't need to be pinned). If it finds a shortcut with the same AppUserModelId, it'll use the shortcut's name. If it doesn't, it'll use the AppUserModelId.\n\nCan you confirm that Squirrel set a shortcut somewhere in `C:\\Users\\USERNAME\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs`?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/222890617",
+    "html_url": "https://github.com/electron/electron/issues/5313#issuecomment-222890617",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5313",
+    "id": 222890617,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-01T04:38:10Z",
+    "updated_at": "2016-06-01T04:38:10Z",
+    "body": "Closing until more information is provided.\n"
+  }
+]

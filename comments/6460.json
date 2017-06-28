@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/232164960",
+    "html_url": "https://github.com/electron/electron/issues/6460#issuecomment-232164960",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6460",
+    "id": 232164960,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-12T20:11:24Z",
+    "updated_at": "2016-07-12T20:11:24Z",
+    "body": "Have you tried this in `1.2.6`?\n\nI think this may have been addressed by https://github.com/electron/electron/pull/6278\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/232440371",
+    "html_url": "https://github.com/electron/electron/issues/6460#issuecomment-232440371",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6460",
+    "id": 232440371,
+    "user": {
+      "login": "YurySolovyov",
+      "id": 2168518,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2168518?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YurySolovyov",
+      "html_url": "https://github.com/YurySolovyov",
+      "followers_url": "https://api.github.com/users/YurySolovyov/followers",
+      "following_url": "https://api.github.com/users/YurySolovyov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YurySolovyov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YurySolovyov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YurySolovyov/subscriptions",
+      "organizations_url": "https://api.github.com/users/YurySolovyov/orgs",
+      "repos_url": "https://api.github.com/users/YurySolovyov/repos",
+      "events_url": "https://api.github.com/users/YurySolovyov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YurySolovyov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-13T18:12:25Z",
+    "updated_at": "2016-07-13T18:12:25Z",
+    "body": "yes upgrading to 1.2.7 (and probably 1.2.6) helps.\n"
+  }
+]

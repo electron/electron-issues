@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/178999297",
+    "html_url": "https://github.com/electron/electron/issues/4337#issuecomment-178999297",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4337",
+    "id": 178999297,
+    "user": {
+      "login": "xywz",
+      "id": 16139904,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/16139904?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xywz",
+      "html_url": "https://github.com/xywz",
+      "followers_url": "https://api.github.com/users/xywz/followers",
+      "following_url": "https://api.github.com/users/xywz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xywz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xywz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xywz/subscriptions",
+      "organizations_url": "https://api.github.com/users/xywz/orgs",
+      "repos_url": "https://api.github.com/users/xywz/repos",
+      "events_url": "https://api.github.com/users/xywz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xywz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-03T04:27:40Z",
+    "updated_at": "2016-02-03T04:27:40Z",
+    "body": "Electron currently uses Chrome 47, which has no support for CSS variables.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/179468476",
+    "html_url": "https://github.com/electron/electron/issues/4337#issuecomment-179468476",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4337",
+    "id": 179468476,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-03T21:08:20Z",
+    "updated_at": "2016-02-03T21:08:20Z",
+    "body": "From looking at http://caniuse.com/#feat=css-variables it looks like CSS variables will be available via a flag in Chrome 48 and enabled by default in Chrome 49+.\n\nYou can subscribe to https://github.com/atom/libchromiumcontent/pull/175 to know when the initial work to upgrade Electron to Chrome 48 is complete.\n\nClosing this out.\n"
+  }
+]

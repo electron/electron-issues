@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/289915119",
+    "html_url": "https://github.com/electron/electron/issues/9015#issuecomment-289915119",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9015",
+    "id": 289915119,
+    "user": {
+      "login": "arashpayan",
+      "id": 46624,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46624?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arashpayan",
+      "html_url": "https://github.com/arashpayan",
+      "followers_url": "https://api.github.com/users/arashpayan/followers",
+      "following_url": "https://api.github.com/users/arashpayan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arashpayan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arashpayan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arashpayan/subscriptions",
+      "organizations_url": "https://api.github.com/users/arashpayan/orgs",
+      "repos_url": "https://api.github.com/users/arashpayan/repos",
+      "events_url": "https://api.github.com/users/arashpayan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arashpayan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-28T21:48:03Z",
+    "updated_at": "2017-03-28T21:48:03Z",
+    "body": "Turns out that the libffi failure is just a warning, and doesn't prohibit the complete build. You can just run the `build.py` script afterwards and everything works."
+  }
+]

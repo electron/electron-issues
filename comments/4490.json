@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/184377287",
+    "html_url": "https://github.com/electron/electron/issues/4490#issuecomment-184377287",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4490",
+    "id": 184377287,
+    "user": {
+      "login": "subwaymatch",
+      "id": 1064036,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1064036?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/subwaymatch",
+      "html_url": "https://github.com/subwaymatch",
+      "followers_url": "https://api.github.com/users/subwaymatch/followers",
+      "following_url": "https://api.github.com/users/subwaymatch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/subwaymatch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/subwaymatch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/subwaymatch/subscriptions",
+      "organizations_url": "https://api.github.com/users/subwaymatch/orgs",
+      "repos_url": "https://api.github.com/users/subwaymatch/repos",
+      "events_url": "https://api.github.com/users/subwaymatch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/subwaymatch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-15T20:29:53Z",
+    "updated_at": "2016-02-15T20:29:53Z",
+    "body": "My guess is that the date object is garbage collected when sent via async-message. \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/184689323",
+    "html_url": "https://github.com/electron/electron/issues/4490#issuecomment-184689323",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4490",
+    "id": 184689323,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-16T13:50:02Z",
+    "updated_at": "2016-02-16T13:50:02Z",
+    "body": "This is because `webContents.send` uses a different way of serialization from `event.returnValue`.\n"
+  }
+]

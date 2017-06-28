@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/44024984",
+    "html_url": "https://github.com/electron/electron/issues/348#issuecomment-44024984",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/348",
+    "id": 44024984,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-05-23T15:22:31Z",
+    "updated_at": "2014-05-23T15:22:31Z",
+    "body": "I had tried to [add snapshot feature](https://github.com/atom/atom-shell/issues/169#issuecomment-33667112) before, but the conclusion is unless we can make it work reliably we won't support it.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/44033714",
+    "html_url": "https://github.com/electron/electron/issues/348#issuecomment-44033714",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/348",
+    "id": 44033714,
+    "user": {
+      "login": "kevmt",
+      "id": 6227003,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6227003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevmt",
+      "html_url": "https://github.com/kevmt",
+      "followers_url": "https://api.github.com/users/kevmt/followers",
+      "following_url": "https://api.github.com/users/kevmt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevmt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevmt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevmt/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevmt/orgs",
+      "repos_url": "https://api.github.com/users/kevmt/repos",
+      "events_url": "https://api.github.com/users/kevmt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevmt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-05-23T16:41:15Z",
+    "updated_at": "2014-05-23T16:41:15Z",
+    "body": "Thanks for the detailed analysis on it..\n"
+  }
+]

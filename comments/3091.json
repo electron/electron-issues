@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/148406521",
+    "html_url": "https://github.com/electron/electron/issues/3091#issuecomment-148406521",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3091",
+    "id": 148406521,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-15T14:38:47Z",
+    "updated_at": "2015-10-15T14:38:47Z",
+    "body": "The implementation of offline/online events in Electron is exactly the same with upstream Chromium, I suggest reporting to [Chromium's issues list](https://crbug.com) instead, since we are not able to solve it on Electron's side.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/148565229",
+    "html_url": "https://github.com/electron/electron/issues/3091#issuecomment-148565229",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3091",
+    "id": 148565229,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-16T01:11:02Z",
+    "updated_at": "2015-10-16T01:11:02Z",
+    "body": "Offline in Chromium means, \"100% of the network adapters were removed / are disabled\" - it's not at all a reliable check for reachability. If you get `offline` you definitely know the network _won't_ work, but getting the `online` event is simply a hint that you _might_ be back online\n"
+  }
+]

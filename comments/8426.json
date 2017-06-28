@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/274710132",
+    "html_url": "https://github.com/electron/electron/issues/8426#issuecomment-274710132",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8426",
+    "id": 274710132,
+    "user": {
+      "login": "leethomas",
+      "id": 5622404,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5622404?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/leethomas",
+      "html_url": "https://github.com/leethomas",
+      "followers_url": "https://api.github.com/users/leethomas/followers",
+      "following_url": "https://api.github.com/users/leethomas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/leethomas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/leethomas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/leethomas/subscriptions",
+      "organizations_url": "https://api.github.com/users/leethomas/orgs",
+      "repos_url": "https://api.github.com/users/leethomas/repos",
+      "events_url": "https://api.github.com/users/leethomas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/leethomas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-24T04:58:50Z",
+    "updated_at": "2017-01-24T04:58:50Z",
+    "body": "As a workaround, you can call \r\n```js\r\nsetAlwaysOnTop(true, 'floating')\r\n```"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/306357500",
+    "html_url": "https://github.com/electron/electron/issues/8426#issuecomment-306357500",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8426",
+    "id": 306357500,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-06T01:42:02Z",
+    "updated_at": "2017-06-06T01:42:02Z",
+    "body": "We have seen similar problems (https://github.com/electron/electron/issues/1054) in the past, but we have on clue why it is happening, I'm closing this since it is something we are not able to fix (probably a bug of macOS), and there is a workaround to it."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/106381833",
+    "html_url": "https://github.com/electron/electron/issues/1803#issuecomment-106381833",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1803",
+    "id": 106381833,
+    "user": {
+      "login": "steelbrain",
+      "id": 4278113,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4278113?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/steelbrain",
+      "html_url": "https://github.com/steelbrain",
+      "followers_url": "https://api.github.com/users/steelbrain/followers",
+      "following_url": "https://api.github.com/users/steelbrain/following{/other_user}",
+      "gists_url": "https://api.github.com/users/steelbrain/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/steelbrain/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/steelbrain/subscriptions",
+      "organizations_url": "https://api.github.com/users/steelbrain/orgs",
+      "repos_url": "https://api.github.com/users/steelbrain/repos",
+      "events_url": "https://api.github.com/users/steelbrain/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/steelbrain/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-28T15:01:53Z",
+    "updated_at": "2015-05-28T15:01:53Z",
+    "body": "the error `process` is not defined is clearly not related to remote. Can you provide a minimal repro preload script?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/106443371",
+    "html_url": "https://github.com/electron/electron/issues/1803#issuecomment-106443371",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1803",
+    "id": 106443371,
+    "user": {
+      "login": "somebody32",
+      "id": 25742,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25742?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/somebody32",
+      "html_url": "https://github.com/somebody32",
+      "followers_url": "https://api.github.com/users/somebody32/followers",
+      "following_url": "https://api.github.com/users/somebody32/following{/other_user}",
+      "gists_url": "https://api.github.com/users/somebody32/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/somebody32/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/somebody32/subscriptions",
+      "organizations_url": "https://api.github.com/users/somebody32/orgs",
+      "repos_url": "https://api.github.com/users/somebody32/repos",
+      "events_url": "https://api.github.com/users/somebody32/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/somebody32/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-28T15:59:54Z",
+    "updated_at": "2015-05-28T16:00:04Z",
+    "body": "@steelbrain, of course:\n\n`main.js`:\n\n``` javascript\nvar app = require('app');\nvar BrowserWindow = require('browser-window');\nvar mainWindow = null;\napp.on('window-all-closed', function() {\n  if (process.platform != 'darwin')\n    app.quit();\n});\napp.on('ready', function() {\n  mainWindow = new BrowserWindow({width: 800, height: 600, preload: __dirname + '/client.js', 'node-integration': false});\n  mainWindow.loadUrl('http://google.com');\n  mainWindow.on('closed', function() {\n    mainWindow = null;\n  });\n});\n```\n\n`client.js`:\n\n``` javascript\n(function() {\n  'use strict';\n  var remote = require('remote');\n  var app = remote.require('app');\n})(this);\n```\n\nAnd this error happens only when `node-integration` set to `false`.\n"
+  }
+]

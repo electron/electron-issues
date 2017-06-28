@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/120490077",
+    "html_url": "https://github.com/electron/electron/pull/2186#issuecomment-120490077",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2186",
+    "id": 120490077,
+    "user": {
+      "login": "carlosperate",
+      "id": 4189262,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4189262?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carlosperate",
+      "html_url": "https://github.com/carlosperate",
+      "followers_url": "https://api.github.com/users/carlosperate/followers",
+      "following_url": "https://api.github.com/users/carlosperate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/carlosperate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/carlosperate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/carlosperate/subscriptions",
+      "organizations_url": "https://api.github.com/users/carlosperate/orgs",
+      "repos_url": "https://api.github.com/users/carlosperate/repos",
+      "events_url": "https://api.github.com/users/carlosperate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/carlosperate/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-10T18:37:11Z",
+    "updated_at": "2015-07-10T18:37:11Z",
+    "body": "The build instructions clearly state Python 2, and pretty much all [print calls are without parenthesis](https://github.com/atom/electron/search?l=python&q=print&type=Code&utf8=%E2%9C%93), so it'd go against the convention to add them just here.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/120491875",
+    "html_url": "https://github.com/electron/electron/pull/2186#issuecomment-120491875",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2186",
+    "id": 120491875,
+    "user": {
+      "login": "semperos",
+      "id": 231375,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/231375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/semperos",
+      "html_url": "https://github.com/semperos",
+      "followers_url": "https://api.github.com/users/semperos/followers",
+      "following_url": "https://api.github.com/users/semperos/following{/other_user}",
+      "gists_url": "https://api.github.com/users/semperos/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/semperos/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/semperos/subscriptions",
+      "organizations_url": "https://api.github.com/users/semperos/orgs",
+      "repos_url": "https://api.github.com/users/semperos/repos",
+      "events_url": "https://api.github.com/users/semperos/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/semperos/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-10T18:46:41Z",
+    "updated_at": "2015-07-10T18:46:41Z",
+    "body": "Thought I had sorted out my Python versioning, apologies for the noise.\n"
+  }
+]

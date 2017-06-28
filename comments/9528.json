@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/302578909",
+    "html_url": "https://github.com/electron/electron/issues/9528#issuecomment-302578909",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9528",
+    "id": 302578909,
+    "user": {
+      "login": "miniak",
+      "id": 1281234,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1281234?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/miniak",
+      "html_url": "https://github.com/miniak",
+      "followers_url": "https://api.github.com/users/miniak/followers",
+      "following_url": "https://api.github.com/users/miniak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/miniak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/miniak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/miniak/subscriptions",
+      "organizations_url": "https://api.github.com/users/miniak/orgs",
+      "repos_url": "https://api.github.com/users/miniak/repos",
+      "events_url": "https://api.github.com/users/miniak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/miniak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-19T00:46:31Z",
+    "updated_at": "2017-05-19T00:46:31Z",
+    "body": "<img width=\"1025\" alt=\"screen shot 2017-05-19 at 2 46 04 am\" src=\"https://cloud.githubusercontent.com/assets/1281234/26228852/5a7783d4-3c3d-11e7-927b-d7dd5a692792.png\">\r\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/239014591",
+    "html_url": "https://github.com/electron/electron/issues/6800#issuecomment-239014591",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6800",
+    "id": 239014591,
+    "user": {
+      "login": "sindresorhus",
+      "id": 170270,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/170270?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sindresorhus",
+      "html_url": "https://github.com/sindresorhus",
+      "followers_url": "https://api.github.com/users/sindresorhus/followers",
+      "following_url": "https://api.github.com/users/sindresorhus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sindresorhus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sindresorhus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sindresorhus/subscriptions",
+      "organizations_url": "https://api.github.com/users/sindresorhus/orgs",
+      "repos_url": "https://api.github.com/users/sindresorhus/repos",
+      "events_url": "https://api.github.com/users/sindresorhus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sindresorhus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-10T21:45:34Z",
+    "updated_at": "2016-08-10T21:45:34Z",
+    "body": "Duplicate of https://github.com/electron/electron/issues/5860.\n\nThis is how I worked around it: https://github.com/sindresorhus/electron-context-menu/blob/7b6c1dd31fb5fe483206d4999a8e849a09532342/index.js#L16-L19\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/239016697",
+    "html_url": "https://github.com/electron/electron/issues/6800#issuecomment-239016697",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6800",
+    "id": 239016697,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-10T21:54:19Z",
+    "updated_at": "2016-08-10T21:54:19Z",
+    "body": "Closing as duplicate, refs #5794\n"
+  }
+]

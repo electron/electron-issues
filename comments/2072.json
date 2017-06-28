@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/116297913",
+    "html_url": "https://github.com/electron/electron/issues/2072#issuecomment-116297913",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2072",
+    "id": 116297913,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-28T16:50:35Z",
+    "updated_at": "2015-06-28T16:50:35Z",
+    "body": "Disable node-integration or use a WebView tag with node-integration disabled\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/116304160",
+    "html_url": "https://github.com/electron/electron/issues/2072#issuecomment-116304160",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2072",
+    "id": 116304160,
+    "user": {
+      "login": "zg2013",
+      "id": 5134292,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5134292?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zg2013",
+      "html_url": "https://github.com/zg2013",
+      "followers_url": "https://api.github.com/users/zg2013/followers",
+      "following_url": "https://api.github.com/users/zg2013/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zg2013/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zg2013/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zg2013/subscriptions",
+      "organizations_url": "https://api.github.com/users/zg2013/orgs",
+      "repos_url": "https://api.github.com/users/zg2013/repos",
+      "events_url": "https://api.github.com/users/zg2013/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zg2013/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-28T18:02:22Z",
+    "updated_at": "2015-06-28T18:02:22Z",
+    "body": "Contact electron,Did not see clearly DOC.\nProblem solving!\nBut I didn't use \"node-integration\" because I need some UI plugin in my app, maybe he doesn't support nodejs.\nI use the \"iframe\", at least for the current problem.\n\nThanks to paulcbetts !!\n"
+  }
+]

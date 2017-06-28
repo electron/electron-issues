@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225339397",
+    "html_url": "https://github.com/electron/electron/issues/5993#issuecomment-225339397",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5993",
+    "id": 225339397,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-11T06:04:46Z",
+    "updated_at": "2016-06-11T06:04:46Z",
+    "body": "The best way to implement this is probably via an API like:\n\n``` js\nmyBrowserWindow.enableWindowRestoration();\n\nmyBrowserWindow.on('saveWindowState', () => {\n  // TODO: Developer writes their state to local storage or whatever\n});\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225475685",
+    "html_url": "https://github.com/electron/electron/issues/5993#issuecomment-225475685",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5993",
+    "id": 225475685,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-13T02:05:29Z",
+    "updated_at": "2016-06-13T02:05:29Z",
+    "body": "If we are going to implement this in Electron, I think we should implement this with existing APIs of Electron instead of using the native API provided by OS X. This feature has to be implemented across platforms, so having a common implementation will make the maintenance much easier.\n\nThere are also implementation details to consider:\n- What should we do when user sets an initial position and window size;\n- If we allow saving custom states, when should when let users read and write the custom states;\n- How to precisely save and restore minimized/maximized state;\n- How state restoring should work when `show` option is `false` and `true`.\n"
+  }
+]

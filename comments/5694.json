@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/221749028",
+    "html_url": "https://github.com/electron/electron/issues/5694#issuecomment-221749028",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5694",
+    "id": 221749028,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-26T00:46:54Z",
+    "updated_at": "2016-05-26T00:46:54Z",
+    "body": "The error came from a third party module instead of Electron, I don't think it is actually related to Electron:\n\n```\n80438 error Windows_NT 6.3.9600\n80439 error argv \"C:\\\\Program Files\\\\nodejs\\\\node.exe\" \"C:\\\\Program Files\\\\nodejs\\\\node_modules\\\\npm\\\\bin\\\\npm-cli.js\" \"install\"\n80440 error node v4.4.5\n80441 error npm  v2.15.5\n80442 error code ELIFECYCLE\n80443 error extremo@6.5.47 postinstall: `npm rebuild --fallback-to-build --runtime=electron --target=1.1.2 --arch=x64 --dist-url=https://atom.io/download/atom-shell --build-from-source`\n80443 error Exit status 1\n80444 error Failed at the extremo@6.5.47 postinstall script 'npm rebuild --fallback-to-build --runtime=electron --target=1.1.2 --arch=x64 --dist-url=https://atom.io/download/atom-shell --build-from-source'.\n80444 error This is most likely a problem with the extremo package,\n80444 error not with npm itself.\n80444 error Tell the author that this fails on your system:\n80444 error     npm rebuild --fallback-to-build --runtime=electron --target=1.1.2 --arch=x64 --dist-url=https://atom.io/download/atom-shell --build-from-source\n80444 error You can get information on how to open an issue for this project with:\n80444 error     npm bugs extremo\n80444 error Or if that isn't available, you can get their info via:\n80444 error\n80444 error     npm owner ls extremo\n80444 error There is likely additional logging output above.\n80445 verbose exit [ 1, true ]\n```\n"
+  }
+]

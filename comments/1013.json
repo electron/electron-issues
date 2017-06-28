@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/70220023",
+    "html_url": "https://github.com/electron/electron/issues/1013#issuecomment-70220023",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1013",
+    "id": 70220023,
+    "user": {
+      "login": "JW-Vinayak",
+      "id": 5630856,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5630856?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/JW-Vinayak",
+      "html_url": "https://github.com/JW-Vinayak",
+      "followers_url": "https://api.github.com/users/JW-Vinayak/followers",
+      "following_url": "https://api.github.com/users/JW-Vinayak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/JW-Vinayak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/JW-Vinayak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/JW-Vinayak/subscriptions",
+      "organizations_url": "https://api.github.com/users/JW-Vinayak/orgs",
+      "repos_url": "https://api.github.com/users/JW-Vinayak/repos",
+      "events_url": "https://api.github.com/users/JW-Vinayak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/JW-Vinayak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-16T08:01:39Z",
+    "updated_at": "2015-01-16T08:01:39Z",
+    "body": "Sorry for posting this issue here instead of posting it in asar project. Do let me know if I have to close this issue here and post it there.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/70297257",
+    "html_url": "https://github.com/electron/electron/issues/1013#issuecomment-70297257",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1013",
+    "id": 70297257,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-01-16T18:19:39Z",
+    "updated_at": "2015-01-16T18:19:39Z",
+    "body": "Yeah please reopen this issue in the asar repo.\n\nAnd have you tried to install other native modules like `runas`? It seems like a problem of your building environment.\n"
+  }
+]

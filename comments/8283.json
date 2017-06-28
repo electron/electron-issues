@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/269522072",
+    "html_url": "https://github.com/electron/electron/issues/8283#issuecomment-269522072",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8283",
+    "id": 269522072,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-12-28T18:51:34Z",
+    "updated_at": "2016-12-28T18:51:34Z",
+    "body": "Looks like these can be removed using the `systemPreferences` API.\r\n\r\nYou should be able to exclude them at the very beginning of your `main.js` file.\r\n\r\n```js\r\nconst {systemPreferences} = require('electron')\r\n\r\nsystemPreferences.setUserDefault('NSDisabledDictationMenuItem', 'boolean', true)\r\nsystemPreferences.setUserDefault('NSDisabledCharacterPaletteMenuItem', 'boolean', true)\r\n```\r\n\r\nhttps://stackoverflow.com/questions/21369736/remove-start-dictation-and-special-characters-from-menu/30046514"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/269523050",
+    "html_url": "https://github.com/electron/electron/issues/8283#issuecomment-269523050",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8283",
+    "id": 269523050,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-12-28T18:58:27Z",
+    "updated_at": "2016-12-28T18:58:27Z",
+    "body": "Closing this out since the macOS default is to include them and the preferences can be used to revert this behavior for application's that don't want to include them."
+  }
+]

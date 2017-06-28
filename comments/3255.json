@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/152267879",
+    "html_url": "https://github.com/electron/electron/issues/3255#issuecomment-152267879",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3255",
+    "id": 152267879,
+    "user": {
+      "login": "najamm",
+      "id": 7001308,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7001308?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/najamm",
+      "html_url": "https://github.com/najamm",
+      "followers_url": "https://api.github.com/users/najamm/followers",
+      "following_url": "https://api.github.com/users/najamm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/najamm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/najamm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/najamm/subscriptions",
+      "organizations_url": "https://api.github.com/users/najamm/orgs",
+      "repos_url": "https://api.github.com/users/najamm/repos",
+      "events_url": "https://api.github.com/users/najamm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/najamm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-29T18:03:26Z",
+    "updated_at": "2015-10-29T18:03:26Z",
+    "body": "Any thoughts, will this ever get fixed?\n"
+  }
+]

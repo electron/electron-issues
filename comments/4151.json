@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/172978090",
+    "html_url": "https://github.com/electron/electron/issues/4151#issuecomment-172978090",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4151",
+    "id": 172978090,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-19T20:35:51Z",
+    "updated_at": "2016-01-19T20:35:51Z",
+    "body": "Can you provide the code that creates the window?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/172982681",
+    "html_url": "https://github.com/electron/electron/issues/4151#issuecomment-172982681",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4151",
+    "id": 172982681,
+    "user": {
+      "login": "Rokt33r",
+      "id": 5865853,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5865853?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Rokt33r",
+      "html_url": "https://github.com/Rokt33r",
+      "followers_url": "https://api.github.com/users/Rokt33r/followers",
+      "following_url": "https://api.github.com/users/Rokt33r/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Rokt33r/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Rokt33r/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Rokt33r/subscriptions",
+      "organizations_url": "https://api.github.com/users/Rokt33r/orgs",
+      "repos_url": "https://api.github.com/users/Rokt33r/repos",
+      "events_url": "https://api.github.com/users/Rokt33r/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Rokt33r/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-19T20:51:18Z",
+    "updated_at": "2016-01-19T20:51:18Z",
+    "body": "This is my code.\n\n```\nvar mainWindow = new BrowserWindow({\n  width: 1080,\n  height: 720,\n  zoomFactor: 1.0,\n  webPreferences: {\n    blinkFeatures: 'OverlayScrollbars'\n  },\n  frame: false\n})\n```\n\nAnd, Nylas N1 also has same problem.\n\n<img width=\"229\" alt=\"screen shot 2016-01-20 at 5 48 07\" src=\"https://cloud.githubusercontent.com/assets/5865853/12431554/71a928b4-bf39-11e5-8da4-47d1bc6b731d.png\">\n\nIs it possible to remove empty title bar or show traffic icons?\n"
+  }
+]

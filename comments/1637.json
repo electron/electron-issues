@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/100632778",
+    "html_url": "https://github.com/electron/electron/issues/1637#issuecomment-100632778",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1637",
+    "id": 100632778,
+    "user": {
+      "login": "magicae",
+      "id": 6753092,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6753092?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/magicae",
+      "html_url": "https://github.com/magicae",
+      "followers_url": "https://api.github.com/users/magicae/followers",
+      "following_url": "https://api.github.com/users/magicae/following{/other_user}",
+      "gists_url": "https://api.github.com/users/magicae/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/magicae/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/magicae/subscriptions",
+      "organizations_url": "https://api.github.com/users/magicae/orgs",
+      "repos_url": "https://api.github.com/users/magicae/repos",
+      "events_url": "https://api.github.com/users/magicae/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/magicae/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-10T12:12:50Z",
+    "updated_at": "2015-05-10T12:12:50Z",
+    "body": "It seems in `atom/app/atom_content_client.cc`, content::PepperPluginInfo CreatePepperFlashInfo\nplugin.description is not set.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/100668324",
+    "html_url": "https://github.com/electron/electron/issues/1637#issuecomment-100668324",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1637",
+    "id": 100668324,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-10T16:56:04Z",
+    "updated_at": "2015-05-10T16:56:04Z",
+    "body": "Oh didnt know that, thought the computation happens with name and version. Will add it, anyways chrome also does its computation with the [name and version](https://code.google.com/p/chromium/codesearch#chromium/src/chrome/common/chrome_content_client.cc&cl=GROK&l=257) \n"
+  }
+]

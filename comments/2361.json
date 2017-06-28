@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/126937298",
+    "html_url": "https://github.com/electron/electron/issues/2361#issuecomment-126937298",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2361",
+    "id": 126937298,
+    "user": {
+      "login": "etiktin",
+      "id": 4381579,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4381579?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/etiktin",
+      "html_url": "https://github.com/etiktin",
+      "followers_url": "https://api.github.com/users/etiktin/followers",
+      "following_url": "https://api.github.com/users/etiktin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/etiktin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/etiktin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/etiktin/subscriptions",
+      "organizations_url": "https://api.github.com/users/etiktin/orgs",
+      "repos_url": "https://api.github.com/users/etiktin/repos",
+      "events_url": "https://api.github.com/users/etiktin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/etiktin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-01T16:54:47Z",
+    "updated_at": "2015-08-01T16:54:47Z",
+    "body": "I ended up, using a timer to prevent double \"confirm navigation\" dialogs. The idea is that in each `beforeunload` handler I check a flag to see if the message was displayed. If it wasn't, I show the message, set the flag and set a timer to remove the flag (using setTimeout with no delay). Because the timer will fire only after the current chain of events, it guarantees that for the remaining `beforeunload` propagation, the flag will be set and no extra confirmation will be requested.\n\nI don't know what was the idea behind changing the normal browser behavior of `beforeunload`, but it seems like a weird design decision (no offence). `BrowserWindow` already has a `close` event that you can use to prevent a navigation and display a custom dialog, so why did we need to mess with `beforeunload`? Replicating the normal behavior of `beforeunload`, that prevents more than one confirmation per event, is difficult and not straight forward. Granted if you build an entirely new application using Electron, you can work around this, but if you're trying to convert an existing web application it's needless friction.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/141080266",
+    "html_url": "https://github.com/electron/electron/issues/2361#issuecomment-141080266",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2361",
+    "id": 141080266,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-17T13:16:17Z",
+    "updated_at": "2015-09-17T13:16:17Z",
+    "body": "I'm merging this to #2579 since it proposed a fix of this.\n"
+  }
+]

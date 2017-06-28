@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/301355475",
+    "html_url": "https://github.com/electron/electron/pull/9460#issuecomment-301355475",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9460",
+    "id": 301355475,
+    "user": {
+      "login": "zeke",
+      "id": 2289,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2289?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zeke",
+      "html_url": "https://github.com/zeke",
+      "followers_url": "https://api.github.com/users/zeke/followers",
+      "following_url": "https://api.github.com/users/zeke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zeke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zeke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zeke/subscriptions",
+      "organizations_url": "https://api.github.com/users/zeke/orgs",
+      "repos_url": "https://api.github.com/users/zeke/repos",
+      "events_url": "https://api.github.com/users/zeke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zeke/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-15T01:28:20Z",
+    "updated_at": "2017-05-15T01:28:20Z",
+    "body": "published the fix in https://github.com/electron/electron-docs-linter/pull/95 as electron-docs-linter 2.3.2\r\n\r\n🙏 "
+  }
+]

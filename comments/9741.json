@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/307914654",
+    "html_url": "https://github.com/electron/electron/pull/9741#issuecomment-307914654",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9741",
+    "id": 307914654,
+    "user": {
+      "login": "poiru",
+      "id": 1319028,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1319028?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/poiru",
+      "html_url": "https://github.com/poiru",
+      "followers_url": "https://api.github.com/users/poiru/followers",
+      "following_url": "https://api.github.com/users/poiru/following{/other_user}",
+      "gists_url": "https://api.github.com/users/poiru/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/poiru/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/poiru/subscriptions",
+      "organizations_url": "https://api.github.com/users/poiru/orgs",
+      "repos_url": "https://api.github.com/users/poiru/repos",
+      "events_url": "https://api.github.com/users/poiru/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/poiru/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-12T20:29:16Z",
+    "updated_at": "2017-06-12T20:29:16Z",
+    "body": "Related: #8663"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308575320",
+    "html_url": "https://github.com/electron/electron/pull/9741#issuecomment-308575320",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9741",
+    "id": 308575320,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-14T22:24:00Z",
+    "updated_at": "2017-06-14T22:24:00Z",
+    "body": "Merging this for now, will pull it back out when the IPC redeliver issue is addressed via https://github.com/electron/electron/issues/6828"
+  }
+]

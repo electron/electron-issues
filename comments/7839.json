@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/257734961",
+    "html_url": "https://github.com/electron/electron/issues/7839#issuecomment-257734961",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7839",
+    "id": 257734961,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-01T23:59:50Z",
+    "updated_at": "2016-11-01T23:59:50Z",
+    "body": "Reminds me of these issues:\nhttps://stackoverflow.com/questions/39648969/node-js-electron-applications-for-single-core-windows-7-machines-are-slow-on-fil\nhttps://discuss.atom.io/t/electron-cpu-performance-on-windows-server-2012-r2/34573/2\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/260875595",
+    "html_url": "https://github.com/electron/electron/issues/7839#issuecomment-260875595",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7839",
+    "id": 260875595,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-11-16T07:39:58Z",
+    "updated_at": "2016-11-16T07:39:58Z",
+    "body": "I'm merging this to #1833 since they are essentially the same problem: we have bugs on message loops with node integration.\n\nThe workaround, is to use the module in a forked script via `child_process.fork`.\n"
+  }
+]

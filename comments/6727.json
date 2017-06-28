@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/237547507",
+    "html_url": "https://github.com/electron/electron/issues/6727#issuecomment-237547507",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6727",
+    "id": 237547507,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-04T13:09:03Z",
+    "updated_at": "2016-08-04T13:09:03Z",
+    "body": "According to the upstream Chromium it has been fixed in Chrome 53, so currently the only option is to wait for next stable release of Chrome:\nhttps://bugs.chromium.org/p/chromium/issues/detail?id=626534\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/264414764",
+    "html_url": "https://github.com/electron/electron/issues/6727#issuecomment-264414764",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6727",
+    "id": 264414764,
+    "user": {
+      "login": "RCasatta",
+      "id": 6470319,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6470319?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RCasatta",
+      "html_url": "https://github.com/RCasatta",
+      "followers_url": "https://api.github.com/users/RCasatta/followers",
+      "following_url": "https://api.github.com/users/RCasatta/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RCasatta/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RCasatta/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RCasatta/subscriptions",
+      "organizations_url": "https://api.github.com/users/RCasatta/orgs",
+      "repos_url": "https://api.github.com/users/RCasatta/repos",
+      "events_url": "https://api.github.com/users/RCasatta/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RCasatta/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-02T09:48:01Z",
+    "updated_at": "2016-12-02T09:50:19Z",
+    "body": "This is caused by libevent, version 2.0.22 has been [patched](https://github.com/Homebrew/homebrew-core/blob/master/Formula/libevent.rb#L11-L14)\r\n\r\nif you have libevent 2.0.22 version you need to force uninstall and reinstall\r\n`brew update`\r\n`brew uninstall --ignore-dependencies libevent`\r\n`brew install libevent`"
+  }
+]

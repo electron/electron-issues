@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/171823203",
+    "html_url": "https://github.com/electron/electron/issues/4105#issuecomment-171823203",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4105",
+    "id": 171823203,
+    "user": {
+      "login": "atdrago",
+      "id": 144225,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/144225?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/atdrago",
+      "html_url": "https://github.com/atdrago",
+      "followers_url": "https://api.github.com/users/atdrago/followers",
+      "following_url": "https://api.github.com/users/atdrago/following{/other_user}",
+      "gists_url": "https://api.github.com/users/atdrago/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/atdrago/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/atdrago/subscriptions",
+      "organizations_url": "https://api.github.com/users/atdrago/orgs",
+      "repos_url": "https://api.github.com/users/atdrago/repos",
+      "events_url": "https://api.github.com/users/atdrago/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/atdrago/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-15T00:07:40Z",
+    "updated_at": "2016-01-15T00:07:40Z",
+    "body": "Already documented in https://github.com/atom/electron/issues/3009\n"
+  }
+]

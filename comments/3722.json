@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/162733290",
+    "html_url": "https://github.com/electron/electron/issues/3722#issuecomment-162733290",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3722",
+    "id": 162733290,
+    "user": {
+      "login": "dperetti",
+      "id": 845612,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/845612?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dperetti",
+      "html_url": "https://github.com/dperetti",
+      "followers_url": "https://api.github.com/users/dperetti/followers",
+      "following_url": "https://api.github.com/users/dperetti/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dperetti/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dperetti/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dperetti/subscriptions",
+      "organizations_url": "https://api.github.com/users/dperetti/orgs",
+      "repos_url": "https://api.github.com/users/dperetti/repos",
+      "events_url": "https://api.github.com/users/dperetti/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dperetti/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-08T01:50:32Z",
+    "updated_at": "2015-12-08T01:50:54Z",
+    "body": "Damn, the \"decide to create issue then immediately find the cause\" syndrome.\nWhile I don't think Electron should crash badly like that, I can't blame it for crashing when the provided RegExp is a couple kilobytes long. (was growing over time, my fault).\n"
+  }
+]

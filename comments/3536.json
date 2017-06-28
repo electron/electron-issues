@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/158634256",
+    "html_url": "https://github.com/electron/electron/issues/3536#issuecomment-158634256",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3536",
+    "id": 158634256,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-21T12:04:22Z",
+    "updated_at": "2015-11-21T12:04:22Z",
+    "body": "Must be used after devtools creation.\n\n```\n    mainWindow.webContents.on('devtools-opened', function() {\n        mainWindow.webContents.addWorkSpace(__dirname)\n   })\n```\n\n@zcbenz should the api be made part of `mainWindow.devToolsWebContents` instead ?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/158670877",
+    "html_url": "https://github.com/electron/electron/issues/3536#issuecomment-158670877",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3536",
+    "id": 158670877,
+    "user": {
+      "login": "niedzielski",
+      "id": 1071806,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1071806?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/niedzielski",
+      "html_url": "https://github.com/niedzielski",
+      "followers_url": "https://api.github.com/users/niedzielski/followers",
+      "following_url": "https://api.github.com/users/niedzielski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/niedzielski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/niedzielski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/niedzielski/subscriptions",
+      "organizations_url": "https://api.github.com/users/niedzielski/orgs",
+      "repos_url": "https://api.github.com/users/niedzielski/repos",
+      "events_url": "https://api.github.com/users/niedzielski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/niedzielski/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-21T18:33:12Z",
+    "updated_at": "2015-11-21T18:33:12Z",
+    "body": "@deepak1556, thank you. That works perfectly. devToolsWebContents was a point of confusion.\n"
+  }
+]

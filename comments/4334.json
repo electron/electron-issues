@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/178788651",
+    "html_url": "https://github.com/electron/electron/issues/4334#issuecomment-178788651",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4334",
+    "id": 178788651,
+    "user": {
+      "login": "baconbrad",
+      "id": 4763342,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4763342?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/baconbrad",
+      "html_url": "https://github.com/baconbrad",
+      "followers_url": "https://api.github.com/users/baconbrad/followers",
+      "following_url": "https://api.github.com/users/baconbrad/following{/other_user}",
+      "gists_url": "https://api.github.com/users/baconbrad/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/baconbrad/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/baconbrad/subscriptions",
+      "organizations_url": "https://api.github.com/users/baconbrad/orgs",
+      "repos_url": "https://api.github.com/users/baconbrad/repos",
+      "events_url": "https://api.github.com/users/baconbrad/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/baconbrad/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-02T19:58:04Z",
+    "updated_at": "2016-02-02T19:58:04Z",
+    "body": "Easy peasy.\n\n``` javascript\nvar exec = require('child_process').exec;\nexec('start \"\" \"iexplore\" \"http://google.com/\"');\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/178801517",
+    "html_url": "https://github.com/electron/electron/issues/4334#issuecomment-178801517",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4334",
+    "id": 178801517,
+    "user": {
+      "login": "gj1118",
+      "id": 473101,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/473101?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gj1118",
+      "html_url": "https://github.com/gj1118",
+      "followers_url": "https://api.github.com/users/gj1118/followers",
+      "following_url": "https://api.github.com/users/gj1118/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gj1118/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gj1118/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gj1118/subscriptions",
+      "organizations_url": "https://api.github.com/users/gj1118/orgs",
+      "repos_url": "https://api.github.com/users/gj1118/repos",
+      "events_url": "https://api.github.com/users/gj1118/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gj1118/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-02T20:21:06Z",
+    "updated_at": "2016-02-02T20:21:38Z",
+    "body": "@baconface You are the man sir..  :+1:   :) \n"
+  }
+]

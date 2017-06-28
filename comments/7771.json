@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/256637606",
+    "html_url": "https://github.com/electron/electron/issues/7771#issuecomment-256637606",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7771",
+    "id": 256637606,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-27T13:16:52Z",
+    "updated_at": "2016-10-27T13:16:52Z",
+    "body": "> Currently this is a struggle in Electron development as you should manually do something that could be automated.\n\nI disagree, you should clean up after yourself and ensure you remove your own event listeners.\n\nYou can see #5344 (which I actually rose originally) which goes through a discussion regarding this.\n\nYou can also read up on #7648 where I'm trying to come up with a way to ignore some of these errors that **can't** be handled manually.\n\nThe TLDR of it all is normally you can remove the event listener yourself (and you should) or you can restructure your app so instead of having a cross-process function listener you can have the event listener in your main process that fires IPC events to the renderer process.\n"
+  }
+]

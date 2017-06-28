@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/169469980",
+    "html_url": "https://github.com/electron/electron/issues/2668#issuecomment-169469980",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2668",
+    "id": 169469980,
+    "user": {
+      "login": "leshow",
+      "id": 1128302,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1128302?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/leshow",
+      "html_url": "https://github.com/leshow",
+      "followers_url": "https://api.github.com/users/leshow/followers",
+      "following_url": "https://api.github.com/users/leshow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/leshow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/leshow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/leshow/subscriptions",
+      "organizations_url": "https://api.github.com/users/leshow/orgs",
+      "repos_url": "https://api.github.com/users/leshow/repos",
+      "events_url": "https://api.github.com/users/leshow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/leshow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-06T21:34:25Z",
+    "updated_at": "2016-01-06T21:34:25Z",
+    "body": "Also seeing this bug on windows/osx\n"
+  }
+]

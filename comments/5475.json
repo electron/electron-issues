@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/218294702",
+    "html_url": "https://github.com/electron/electron/issues/5475#issuecomment-218294702",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5475",
+    "id": 218294702,
+    "user": {
+      "login": "danhp",
+      "id": 3745612,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3745612?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/danhp",
+      "html_url": "https://github.com/danhp",
+      "followers_url": "https://api.github.com/users/danhp/followers",
+      "following_url": "https://api.github.com/users/danhp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danhp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danhp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danhp/subscriptions",
+      "organizations_url": "https://api.github.com/users/danhp/orgs",
+      "repos_url": "https://api.github.com/users/danhp/repos",
+      "events_url": "https://api.github.com/users/danhp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danhp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-10T21:18:20Z",
+    "updated_at": "2016-05-10T21:18:20Z",
+    "body": "OS X doesn't expose any of those API to third party apps so it isn't possible to implement this feature.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/218334347",
+    "html_url": "https://github.com/electron/electron/issues/5475#issuecomment-218334347",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5475",
+    "id": 218334347,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-11T00:53:39Z",
+    "updated_at": "2016-05-11T00:53:39Z",
+    "body": "I'm closing this as won't fix since it is not possible to implement in third party apps with public APIs.\n"
+  }
+]

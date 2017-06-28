@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/242120089",
+    "html_url": "https://github.com/electron/electron/issues/6957#issuecomment-242120089",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6957",
+    "id": 242120089,
+    "user": {
+      "login": "Joshua-Smith",
+      "id": 1660603,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1660603?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Joshua-Smith",
+      "html_url": "https://github.com/Joshua-Smith",
+      "followers_url": "https://api.github.com/users/Joshua-Smith/followers",
+      "following_url": "https://api.github.com/users/Joshua-Smith/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Joshua-Smith/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Joshua-Smith/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Joshua-Smith/subscriptions",
+      "organizations_url": "https://api.github.com/users/Joshua-Smith/orgs",
+      "repos_url": "https://api.github.com/users/Joshua-Smith/repos",
+      "events_url": "https://api.github.com/users/Joshua-Smith/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Joshua-Smith/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-24T16:05:22Z",
+    "updated_at": "2016-08-24T16:05:22Z",
+    "body": "Note, I just found https://github.com/electron/electron/issues/6784 which is probably the same issue.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/242120873",
+    "html_url": "https://github.com/electron/electron/issues/6957#issuecomment-242120873",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6957",
+    "id": 242120873,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-24T16:07:52Z",
+    "updated_at": "2016-08-24T16:07:52Z",
+    "body": "> Note, I just found #6784 which is probably the same issue.\n\nClosing out, I merged your reproduction steps into that issue's body 👍 \n"
+  }
+]

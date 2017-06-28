@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/290831378",
+    "html_url": "https://github.com/electron/electron/issues/9056#issuecomment-290831378",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9056",
+    "id": 290831378,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-03-31T21:12:40Z",
+    "updated_at": "2017-03-31T21:12:40Z",
+    "body": "> I am wondering if there are plans to introduce Electron with native Wayland compatibility\r\n\r\nNo formal plans, but any pull requests regarding it would be appreciated and reviewed."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308650264",
+    "html_url": "https://github.com/electron/electron/issues/9056#issuecomment-308650264",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9056",
+    "id": 308650264,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-15T07:20:11Z",
+    "updated_at": "2017-06-15T07:20:11Z",
+    "body": "Electron would get it automatically once Chromium has the support, you only have to wait for Chromium supporting ozone and wayland on Linux desktop.\r\n\r\nYou can find more about current state of ozone at:\r\nhttps://chromium.googlesource.com/chromium/src/+/master/docs/ozone_overview.md\r\n\r\nClosing since we can do nothing on Electrons's side. "
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/71256694",
+    "html_url": "https://github.com/electron/electron/pull/1048#issuecomment-71256694",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1048",
+    "id": 71256694,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-01-23T20:06:08Z",
+    "updated_at": "2015-01-23T20:06:08Z",
+    "body": "I have created a pull request in Atom to update it to use atom-shell@0.20.7, and fixed the problem there: https://github.com/atom/atom/pull/5235.\n\nIt was intended to make `screen` a browser side module, because it no longer works in renderer process on Windows and Linux.\n"
+  }
+]

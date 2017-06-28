@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/156582719",
+    "html_url": "https://github.com/electron/electron/issues/3430#issuecomment-156582719",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3430",
+    "id": 156582719,
+    "user": {
+      "login": "etiktin",
+      "id": 4381579,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4381579?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/etiktin",
+      "html_url": "https://github.com/etiktin",
+      "followers_url": "https://api.github.com/users/etiktin/followers",
+      "following_url": "https://api.github.com/users/etiktin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/etiktin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/etiktin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/etiktin/subscriptions",
+      "organizations_url": "https://api.github.com/users/etiktin/orgs",
+      "repos_url": "https://api.github.com/users/etiktin/repos",
+      "events_url": "https://api.github.com/users/etiktin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/etiktin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-13T22:59:46Z",
+    "updated_at": "2015-11-13T22:59:46Z",
+    "body": "FYI according to the docs setting `webSecurity` to false will set `allowRunningInsecureContent` and `allowDisplayingInsecureContent` to true for you.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/156950212",
+    "html_url": "https://github.com/electron/electron/issues/3430#issuecomment-156950212",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3430",
+    "id": 156950212,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-16T07:56:27Z",
+    "updated_at": "2015-11-16T07:56:27Z",
+    "body": "You can use `webFrame.registerUrlSchemeAsBypassingCsp`:\nhttp://electron.atom.io/docs/v0.34.0/api/web-frame/#webframe-registerurlschemeasbypassingcsp-scheme\n"
+  }
+]

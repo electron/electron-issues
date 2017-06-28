@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/260800682",
+    "html_url": "https://github.com/electron/electron/issues/7983#issuecomment-260800682",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7983",
+    "id": 260800682,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-11-15T23:12:39Z",
+    "updated_at": "2016-11-15T23:12:39Z",
+    "body": "I  believe this is a duplicate of https://github.com/electron/electron/issues/4796.\n\nThe click event isn't fired when a context menu is explicitly set via `setContextMenu`, you can use `popUpContextMenu` to pop up the menu in response to a click event.\n\nhttps://github.com/electron/electron/blob/307b504eb411add469fb9e9bbf8fea93ece178b9/atom/browser/ui/tray_icon_cocoa.mm#L234-L239\n\nIf you comment out `appIcon.setContextMenu(contextMenu)` you'll see that the click event does fire.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/260802672",
+    "html_url": "https://github.com/electron/electron/issues/7983#issuecomment-260802672",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7983",
+    "id": 260802672,
+    "user": {
+      "login": "kirly-af",
+      "id": 9356687,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9356687?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kirly-af",
+      "html_url": "https://github.com/kirly-af",
+      "followers_url": "https://api.github.com/users/kirly-af/followers",
+      "following_url": "https://api.github.com/users/kirly-af/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kirly-af/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kirly-af/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kirly-af/subscriptions",
+      "organizations_url": "https://api.github.com/users/kirly-af/orgs",
+      "repos_url": "https://api.github.com/users/kirly-af/repos",
+      "events_url": "https://api.github.com/users/kirly-af/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kirly-af/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-15T23:22:04Z",
+    "updated_at": "2016-11-15T23:22:04Z",
+    "body": "Thanks a lot @kevinsawicki, saved my day !\n"
+  }
+]

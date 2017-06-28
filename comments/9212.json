@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/294431925",
+    "html_url": "https://github.com/electron/electron/issues/9212#issuecomment-294431925",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9212",
+    "id": 294431925,
+    "user": {
+      "login": "brenca",
+      "id": 1690458,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1690458?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brenca",
+      "html_url": "https://github.com/brenca",
+      "followers_url": "https://api.github.com/users/brenca/followers",
+      "following_url": "https://api.github.com/users/brenca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brenca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brenca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brenca/subscriptions",
+      "organizations_url": "https://api.github.com/users/brenca/orgs",
+      "repos_url": "https://api.github.com/users/brenca/repos",
+      "events_url": "https://api.github.com/users/brenca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brenca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-17T08:34:33Z",
+    "updated_at": "2017-04-17T08:34:33Z",
+    "body": "This is an error related to another dependency (probably of xml-stream), node-expat. This module is compiled against an older version of electron, hence the error.\r\n\r\nGenerally speaking this error means that a native c++ module is compiled against a different version of electron. I'm closing this since this is not an electron bug."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/294432083",
+    "html_url": "https://github.com/electron/electron/issues/9212#issuecomment-294432083",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9212",
+    "id": 294432083,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-17T08:35:49Z",
+    "updated_at": "2017-04-17T08:35:49Z",
+    "body": "Relevant module to fix these things --> https://github.com/electron/electron-rebuild"
+  }
+]

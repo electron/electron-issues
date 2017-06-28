@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/244845781",
+    "html_url": "https://github.com/electron/electron/issues/7103#issuecomment-244845781",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7103",
+    "id": 244845781,
+    "user": {
+      "login": "lee-dohm",
+      "id": 1038121,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1038121?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lee-dohm",
+      "html_url": "https://github.com/lee-dohm",
+      "followers_url": "https://api.github.com/users/lee-dohm/followers",
+      "following_url": "https://api.github.com/users/lee-dohm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lee-dohm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lee-dohm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lee-dohm/subscriptions",
+      "organizations_url": "https://api.github.com/users/lee-dohm/orgs",
+      "repos_url": "https://api.github.com/users/lee-dohm/repos",
+      "events_url": "https://api.github.com/users/lee-dohm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lee-dohm/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-06T04:14:13Z",
+    "updated_at": "2016-09-06T04:14:13Z",
+    "body": "I believe that you can find the answers to your questions in [this comment on a very similarly titled Issue](https://github.com/electron/electron/issues/2478#issuecomment-130049909). Please let me know if I misunderstood your questions and I can reopen this.\n\nThanks for your interest :grinning:\n"
+  }
+]

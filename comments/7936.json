@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/260012544",
+    "html_url": "https://github.com/electron/electron/issues/7936#issuecomment-260012544",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7936",
+    "id": 260012544,
+    "user": {
+      "login": "zeke",
+      "id": 2289,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2289?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zeke",
+      "html_url": "https://github.com/zeke",
+      "followers_url": "https://api.github.com/users/zeke/followers",
+      "following_url": "https://api.github.com/users/zeke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zeke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zeke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zeke/subscriptions",
+      "organizations_url": "https://api.github.com/users/zeke/orgs",
+      "repos_url": "https://api.github.com/users/zeke/repos",
+      "events_url": "https://api.github.com/users/zeke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zeke/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-11-11T17:41:59Z",
+    "updated_at": "2016-11-11T17:41:59Z",
+    "body": "Please provide a minimal app that reproduces this problem.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/260795806",
+    "html_url": "https://github.com/electron/electron/issues/7936#issuecomment-260795806",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7936",
+    "id": 260795806,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-11-15T22:50:26Z",
+    "updated_at": "2016-11-15T22:50:26Z",
+    "body": "I think this might be a duplicate of #5844, @yuritk can you check out https://github.com/electron/electron/issues/5844#issuecomment-251018364 and see if it resolves your issue?\n"
+  }
+]

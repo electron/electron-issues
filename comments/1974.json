@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/112025009",
+    "html_url": "https://github.com/electron/electron/issues/1974#issuecomment-112025009",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1974",
+    "id": 112025009,
+    "user": {
+      "login": "layane",
+      "id": 1853429,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1853429?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/layane",
+      "html_url": "https://github.com/layane",
+      "followers_url": "https://api.github.com/users/layane/followers",
+      "following_url": "https://api.github.com/users/layane/following{/other_user}",
+      "gists_url": "https://api.github.com/users/layane/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/layane/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/layane/subscriptions",
+      "organizations_url": "https://api.github.com/users/layane/orgs",
+      "repos_url": "https://api.github.com/users/layane/repos",
+      "events_url": "https://api.github.com/users/layane/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/layane/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-15T11:29:54Z",
+    "updated_at": "2015-06-15T11:29:54Z",
+    "body": "I'm trying too:\n\n``` javascript\nmyinput.setCustomValidity('My custom error message');\n\nconsole.log(myinput.validity.customError);  //return true\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/112268303",
+    "html_url": "https://github.com/electron/electron/issues/1974#issuecomment-112268303",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1974",
+    "id": 112268303,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-06-16T03:04:22Z",
+    "updated_at": "2015-06-16T03:04:22Z",
+    "body": "This is a duplicate of #1043.\n"
+  }
+]

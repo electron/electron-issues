@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/159578340",
+    "html_url": "https://github.com/electron/electron/issues/3577#issuecomment-159578340",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3577",
+    "id": 159578340,
+    "user": {
+      "login": "jean-emmanuel",
+      "id": 5261671,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5261671?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jean-emmanuel",
+      "html_url": "https://github.com/jean-emmanuel",
+      "followers_url": "https://api.github.com/users/jean-emmanuel/followers",
+      "following_url": "https://api.github.com/users/jean-emmanuel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jean-emmanuel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jean-emmanuel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jean-emmanuel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jean-emmanuel/orgs",
+      "repos_url": "https://api.github.com/users/jean-emmanuel/repos",
+      "events_url": "https://api.github.com/users/jean-emmanuel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jean-emmanuel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-25T11:30:58Z",
+    "updated_at": "2015-11-25T11:30:58Z",
+    "body": "`require('ipc-renderer')` maybe ?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/159579425",
+    "html_url": "https://github.com/electron/electron/issues/3577#issuecomment-159579425",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3577",
+    "id": 159579425,
+    "user": {
+      "login": "youyudehexie",
+      "id": 3030118,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3030118?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/youyudehexie",
+      "html_url": "https://github.com/youyudehexie",
+      "followers_url": "https://api.github.com/users/youyudehexie/followers",
+      "following_url": "https://api.github.com/users/youyudehexie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/youyudehexie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/youyudehexie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/youyudehexie/subscriptions",
+      "organizations_url": "https://api.github.com/users/youyudehexie/orgs",
+      "repos_url": "https://api.github.com/users/youyudehexie/repos",
+      "events_url": "https://api.github.com/users/youyudehexie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/youyudehexie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-25T11:35:37Z",
+    "updated_at": "2015-11-25T11:35:37Z",
+    "body": "@jean-emmanuel  thx . require('ipc-renderer') is ok.\n"
+  }
+]

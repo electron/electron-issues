@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/286793447",
+    "html_url": "https://github.com/electron/electron/issues/8932#issuecomment-286793447",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8932",
+    "id": 286793447,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-03-15T16:13:27Z",
+    "updated_at": "2017-03-15T16:13:37Z",
+    "body": "I believe this is a duplicate of #8728, please subscribe to that issue for updates."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/286795449",
+    "html_url": "https://github.com/electron/electron/issues/8932#issuecomment-286795449",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8932",
+    "id": 286795449,
+    "user": {
+      "login": "paul321",
+      "id": 555502,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/555502?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paul321",
+      "html_url": "https://github.com/paul321",
+      "followers_url": "https://api.github.com/users/paul321/followers",
+      "following_url": "https://api.github.com/users/paul321/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paul321/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paul321/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paul321/subscriptions",
+      "organizations_url": "https://api.github.com/users/paul321/orgs",
+      "repos_url": "https://api.github.com/users/paul321/repos",
+      "events_url": "https://api.github.com/users/paul321/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paul321/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-15T16:19:40Z",
+    "updated_at": "2017-03-15T16:19:40Z",
+    "body": "Yes it is :)"
+  }
+]

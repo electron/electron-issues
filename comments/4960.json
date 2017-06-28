@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/204218819",
+    "html_url": "https://github.com/electron/electron/pull/4960#issuecomment-204218819",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4960",
+    "id": 204218819,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-01T02:31:32Z",
+    "updated_at": "2016-04-01T02:31:32Z",
+    "body": "> I initially tried with nodobjc, but it didn't work because interfacing the two runtime loops was non-trivial. I assumed that this would come up if I tried to do this as a separate add-on as well, and the reason this worked was because it was using the chromium run time behind the scenes, but if that will work and this is a bad fit for the electron core, I can give that a shot.\n\nThis can be easily turned into a native node module, and there is no need to interface with runtime loops, you can find [scrollbar-style module](https://github.com/atom/scrollbar-style) as an example.\n\nBut I'm good making this as a built-in feature of Electron, and I love the idea of using `NSDistributedNotificationCenter` to make the interface flexible. However I tend to make it as a method of a new module, instead of keeping adding things to `app` module. A possible API looks like this:\n\n``` js\n// In the main process.\nconst {systemPreferences} = require('electron')\nsystemPreferences.subscribeDistributedNotification('AppleAquaColorVariantChanged', function() {\n  console.log('Aqua Color changed')\n})\nsystemPreferences.unsubscribeDistributedNotification('AppleAquaColorVariantChanged')\n```\n\nAnd in future new APIs for #1861 can also be added to this module.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/204565425",
+    "html_url": "https://github.com/electron/electron/pull/4960#issuecomment-204565425",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4960",
+    "id": 204565425,
+    "user": {
+      "login": "dylan-cooper",
+      "id": 9642887,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9642887?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dylan-cooper",
+      "html_url": "https://github.com/dylan-cooper",
+      "followers_url": "https://api.github.com/users/dylan-cooper/followers",
+      "following_url": "https://api.github.com/users/dylan-cooper/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dylan-cooper/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dylan-cooper/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dylan-cooper/subscriptions",
+      "organizations_url": "https://api.github.com/users/dylan-cooper/orgs",
+      "repos_url": "https://api.github.com/users/dylan-cooper/repos",
+      "events_url": "https://api.github.com/users/dylan-cooper/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dylan-cooper/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-01T21:04:58Z",
+    "updated_at": "2016-04-01T21:04:58Z",
+    "body": "Thanks for the feedback and for pointing out the scrollbar-style module.  That looks like a great starting place for me.\n\nI'll find some time over the weekend and prototype what it would look like in its own module and post it back here to see whether it makes sense to build it into electron.\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/292544334",
+    "html_url": "https://github.com/electron/electron/issues/9118#issuecomment-292544334",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9118",
+    "id": 292544334,
+    "user": {
+      "login": "midweststudios",
+      "id": 5014486,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5014486?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/midweststudios",
+      "html_url": "https://github.com/midweststudios",
+      "followers_url": "https://api.github.com/users/midweststudios/followers",
+      "following_url": "https://api.github.com/users/midweststudios/following{/other_user}",
+      "gists_url": "https://api.github.com/users/midweststudios/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/midweststudios/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/midweststudios/subscriptions",
+      "organizations_url": "https://api.github.com/users/midweststudios/orgs",
+      "repos_url": "https://api.github.com/users/midweststudios/repos",
+      "events_url": "https://api.github.com/users/midweststudios/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/midweststudios/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-07T14:00:31Z",
+    "updated_at": "2017-04-07T14:00:31Z",
+    "body": "I think this can be resolved by making all of the key's assigned in `const defaultPrintingSetting = {}` available options within `WebContents.prototype.printToPDF = function (options, callback) {...}`. Then in my project file I can check for the screen's scaleFactor and/or it can be as simple as changing `fitToPageEnabled: false` to `fitToPageEnabled: true`. Won't know for sure until I run tests though. \r\n\r\nPlease reference: [https://github.com/electron/electron/blob/master/lib/browser/api/web-contents.js](https://github.com/electron/electron/blob/master/lib/browser/api/web-contents.js)\r\n\r\nNote: I need to wrap up the project that's having this issue and would prefer just modifying the file from my local install, but I haven't been able to find the Electron `.js` source files. If anyone can point me in the right direction, I would greatly appreciated it!"
+  }
+]

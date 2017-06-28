@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/159154594",
+    "html_url": "https://github.com/electron/electron/issues/3560#issuecomment-159154594",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3560",
+    "id": 159154594,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-24T05:39:40Z",
+    "updated_at": "2015-11-24T05:39:40Z",
+    "body": "I'm merging this to #323.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/159420083",
+    "html_url": "https://github.com/electron/electron/issues/3560#issuecomment-159420083",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3560",
+    "id": 159420083,
+    "user": {
+      "login": "usandfriends",
+      "id": 3241922,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3241922?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/usandfriends",
+      "html_url": "https://github.com/usandfriends",
+      "followers_url": "https://api.github.com/users/usandfriends/followers",
+      "following_url": "https://api.github.com/users/usandfriends/following{/other_user}",
+      "gists_url": "https://api.github.com/users/usandfriends/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/usandfriends/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/usandfriends/subscriptions",
+      "organizations_url": "https://api.github.com/users/usandfriends/orgs",
+      "repos_url": "https://api.github.com/users/usandfriends/repos",
+      "events_url": "https://api.github.com/users/usandfriends/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/usandfriends/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-24T22:06:14Z",
+    "updated_at": "2015-11-24T22:09:19Z",
+    "body": "@zcbenz Similar, just note that:\n- Native OS X sheets drop down from the application's top bar and cannot be repositioned or resized while dialogs can be spawned anywhere and can be moved to other desktops and resized at will.\n- Sheets share the top bar with their window while dialogs have their own top bar.\n- The window the sheet was spawned in becomes inaccessible until the sheet is dismissed (similar to a Javascript alert/prompt).\n\nHere's [an example](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/Art/sheet_example_2x.png) of a sheet.\n"
+  }
+]

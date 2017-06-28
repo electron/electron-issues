@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309682468",
+    "html_url": "https://github.com/electron/electron/issues/9216#issuecomment-309682468",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9216",
+    "id": 309682468,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-20T08:29:15Z",
+    "updated_at": "2017-06-20T08:29:15Z",
+    "body": "Can you try whether it is still crashing in v1.7.x?"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/310235322",
+    "html_url": "https://github.com/electron/electron/issues/9216#issuecomment-310235322",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9216",
+    "id": 310235322,
+    "user": {
+      "login": "RainingChain",
+      "id": 5470583,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5470583?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RainingChain",
+      "html_url": "https://github.com/RainingChain",
+      "followers_url": "https://api.github.com/users/RainingChain/followers",
+      "following_url": "https://api.github.com/users/RainingChain/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RainingChain/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RainingChain/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RainingChain/subscriptions",
+      "organizations_url": "https://api.github.com/users/RainingChain/orgs",
+      "repos_url": "https://api.github.com/users/RainingChain/repos",
+      "events_url": "https://api.github.com/users/RainingChain/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RainingChain/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-21T23:43:14Z",
+    "updated_at": "2017-06-21T23:43:14Z",
+    "body": "It might be related with https://github.com/node-inspector/v8-profiler/issues/112 \"takeSnapshot segfaults on Node 8\""
+  }
+]

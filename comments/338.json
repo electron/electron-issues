@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/43634754",
+    "html_url": "https://github.com/electron/electron/issues/338#issuecomment-43634754",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/338",
+    "id": 43634754,
+    "user": {
+      "login": "santiagoaguiar",
+      "id": 963231,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/963231?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/santiagoaguiar",
+      "html_url": "https://github.com/santiagoaguiar",
+      "followers_url": "https://api.github.com/users/santiagoaguiar/followers",
+      "following_url": "https://api.github.com/users/santiagoaguiar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/santiagoaguiar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/santiagoaguiar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/santiagoaguiar/subscriptions",
+      "organizations_url": "https://api.github.com/users/santiagoaguiar/orgs",
+      "repos_url": "https://api.github.com/users/santiagoaguiar/repos",
+      "events_url": "https://api.github.com/users/santiagoaguiar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/santiagoaguiar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-05-20T14:40:50Z",
+    "updated_at": "2014-05-20T14:40:50Z",
+    "body": "Duplicate issue. Seems it's already considered on [#280](https://github.com/atom/atom-shell/issues/280) and  [#295](https://github.com/atom/atom-shell/issues/295). Thanks.\n"
+  }
+]

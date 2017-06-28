@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/230950922",
+    "html_url": "https://github.com/electron/electron/issues/6367#issuecomment-230950922",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6367",
+    "id": 230950922,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-07T00:58:53Z",
+    "updated_at": "2016-07-07T00:58:53Z",
+    "body": "You can call the `app.disableHardwareAcceleration` API:\nhttp://electron.atom.io/docs/api/app/#appdisablehardwareacceleration\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/231009063",
+    "html_url": "https://github.com/electron/electron/issues/6367#issuecomment-231009063",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6367",
+    "id": 231009063,
+    "user": {
+      "login": "remss",
+      "id": 1586257,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1586257?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/remss",
+      "html_url": "https://github.com/remss",
+      "followers_url": "https://api.github.com/users/remss/followers",
+      "following_url": "https://api.github.com/users/remss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/remss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/remss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/remss/subscriptions",
+      "organizations_url": "https://api.github.com/users/remss/orgs",
+      "repos_url": "https://api.github.com/users/remss/repos",
+      "events_url": "https://api.github.com/users/remss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/remss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-07T07:57:16Z",
+    "updated_at": "2016-07-07T07:57:16Z",
+    "body": "Thanks it has disable GPU rendering, but now `chrome://gpu` says WebGL is unavailable so ithe SwiftShader seems not been enabled. How to enable WebGL rendering with SwiftShader ?\n"
+  }
+]

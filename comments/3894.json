@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/166585420",
+    "html_url": "https://github.com/electron/electron/issues/3894#issuecomment-166585420",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3894",
+    "id": 166585420,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-22T11:15:33Z",
+    "updated_at": "2015-12-22T11:15:33Z",
+    "body": "The documents are currently updated manually so they are a bit outdated, we will solve this once we implemented https://github.com/atom/electron.atom.io/issues/51.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/166587391",
+    "html_url": "https://github.com/electron/electron/issues/3894#issuecomment-166587391",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3894",
+    "id": 166587391,
+    "user": {
+      "login": "levrik",
+      "id": 9491603,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9491603?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/levrik",
+      "html_url": "https://github.com/levrik",
+      "followers_url": "https://api.github.com/users/levrik/followers",
+      "following_url": "https://api.github.com/users/levrik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/levrik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/levrik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/levrik/subscriptions",
+      "organizations_url": "https://api.github.com/users/levrik/orgs",
+      "repos_url": "https://api.github.com/users/levrik/repos",
+      "events_url": "https://api.github.com/users/levrik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/levrik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-22T11:21:34Z",
+    "updated_at": "2015-12-22T11:21:34Z",
+    "body": "Ah ok. Thanks for the information.\n"
+  }
+]

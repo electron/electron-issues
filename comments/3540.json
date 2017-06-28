@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/158818752",
+    "html_url": "https://github.com/electron/electron/issues/3540#issuecomment-158818752",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3540",
+    "id": 158818752,
+    "user": {
+      "login": "etiktin",
+      "id": 4381579,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4381579?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/etiktin",
+      "html_url": "https://github.com/etiktin",
+      "followers_url": "https://api.github.com/users/etiktin/followers",
+      "following_url": "https://api.github.com/users/etiktin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/etiktin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/etiktin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/etiktin/subscriptions",
+      "organizations_url": "https://api.github.com/users/etiktin/orgs",
+      "repos_url": "https://api.github.com/users/etiktin/repos",
+      "events_url": "https://api.github.com/users/etiktin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/etiktin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-22T23:39:41Z",
+    "updated_at": "2015-11-22T23:39:41Z",
+    "body": "The fullscreen events are documented here:\nhttps://github.com/atom/electron/blob/master/docs/api/browser-window.md#event-enter-full-screen\n\nWays to interact with the community are mentioned here:\nhttps://github.com/atom/electron/blob/master/README.md#community\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/158820848",
+    "html_url": "https://github.com/electron/electron/issues/3540#issuecomment-158820848",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3540",
+    "id": 158820848,
+    "user": {
+      "login": "krolow",
+      "id": 46822,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/46822?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/krolow",
+      "html_url": "https://github.com/krolow",
+      "followers_url": "https://api.github.com/users/krolow/followers",
+      "following_url": "https://api.github.com/users/krolow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/krolow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/krolow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/krolow/subscriptions",
+      "organizations_url": "https://api.github.com/users/krolow/orgs",
+      "repos_url": "https://api.github.com/users/krolow/repos",
+      "events_url": "https://api.github.com/users/krolow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/krolow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-23T00:02:24Z",
+    "updated_at": "2015-11-23T00:02:24Z",
+    "body": "thx @etiktin \n"
+  }
+]

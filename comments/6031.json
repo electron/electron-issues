@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226264920",
+    "html_url": "https://github.com/electron/electron/issues/6031#issuecomment-226264920",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6031",
+    "id": 226264920,
+    "user": {
+      "login": "tomotvos",
+      "id": 2729259,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2729259?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tomotvos",
+      "html_url": "https://github.com/tomotvos",
+      "followers_url": "https://api.github.com/users/tomotvos/followers",
+      "following_url": "https://api.github.com/users/tomotvos/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tomotvos/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tomotvos/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tomotvos/subscriptions",
+      "organizations_url": "https://api.github.com/users/tomotvos/orgs",
+      "repos_url": "https://api.github.com/users/tomotvos/repos",
+      "events_url": "https://api.github.com/users/tomotvos/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tomotvos/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-15T17:46:48Z",
+    "updated_at": "2016-06-15T17:46:48Z",
+    "body": "Using the --build_libchromiumcontent switch on bootstrap.py does, in fact, generate PDB files that can be used for debugging, although linking is extremely slow because static libraries are being generated. Shared library builds fail (#6065), but I think it is still useful to have a debug version of libcc to avoid having to deal with code optimizations during debugging.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226455640",
+    "html_url": "https://github.com/electron/electron/issues/6031#issuecomment-226455640",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6031",
+    "id": 226455640,
+    "user": {
+      "login": "tomotvos",
+      "id": 2729259,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2729259?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tomotvos",
+      "html_url": "https://github.com/tomotvos",
+      "followers_url": "https://api.github.com/users/tomotvos/followers",
+      "following_url": "https://api.github.com/users/tomotvos/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tomotvos/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tomotvos/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tomotvos/subscriptions",
+      "organizations_url": "https://api.github.com/users/tomotvos/orgs",
+      "repos_url": "https://api.github.com/users/tomotvos/repos",
+      "events_url": "https://api.github.com/users/tomotvos/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tomotvos/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-16T11:09:32Z",
+    "updated_at": "2016-06-16T11:09:32Z",
+    "body": "Note that #6065 was Closed due to merging with this ticket, but the comments have not come over. That ticket reports an error when the \"shared_library\" build of chromium is triggered, not necessarily a debug build.\n"
+  }
+]

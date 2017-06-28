@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/75234399",
+    "html_url": "https://github.com/electron/electron/issues/1156#issuecomment-75234399",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1156",
+    "id": 75234399,
+    "user": {
+      "login": "lllama",
+      "id": 598411,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/598411?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lllama",
+      "html_url": "https://github.com/lllama",
+      "followers_url": "https://api.github.com/users/lllama/followers",
+      "following_url": "https://api.github.com/users/lllama/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lllama/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lllama/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lllama/subscriptions",
+      "organizations_url": "https://api.github.com/users/lllama/orgs",
+      "repos_url": "https://api.github.com/users/lllama/repos",
+      "events_url": "https://api.github.com/users/lllama/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lllama/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-20T13:01:53Z",
+    "updated_at": "2015-02-20T13:01:53Z",
+    "body": "This seems to have fixed itself. Only change I can think of is that I removed python33 from the path and replaced it with python27. Which doesn't really make sense (I was running the scripts with 2.7 regardless). Looks like build.py is now failing but I'll open a separate issue for that once I've looked at it some more.\n"
+  }
+]

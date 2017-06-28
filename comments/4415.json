@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/181604161",
+    "html_url": "https://github.com/electron/electron/issues/4415#issuecomment-181604161",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4415",
+    "id": 181604161,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-08T22:39:40Z",
+    "updated_at": "2016-02-08T22:39:40Z",
+    "body": "So `proces.env` is writeable so you should be able to add and modify them in your app itself.\n\nCould you elaborate a bit on what you are trying to do? Thanks.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/181739517",
+    "html_url": "https://github.com/electron/electron/issues/4415#issuecomment-181739517",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4415",
+    "id": 181739517,
+    "user": {
+      "login": "mmahalwy",
+      "id": 3749095,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3749095?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mmahalwy",
+      "html_url": "https://github.com/mmahalwy",
+      "followers_url": "https://api.github.com/users/mmahalwy/followers",
+      "following_url": "https://api.github.com/users/mmahalwy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mmahalwy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mmahalwy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mmahalwy/subscriptions",
+      "organizations_url": "https://api.github.com/users/mmahalwy/orgs",
+      "repos_url": "https://api.github.com/users/mmahalwy/repos",
+      "events_url": "https://api.github.com/users/mmahalwy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mmahalwy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-09T07:06:03Z",
+    "updated_at": "2016-02-09T07:06:03Z",
+    "body": "Going to close this for now\n"
+  }
+]

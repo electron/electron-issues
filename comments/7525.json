@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/252249606",
+    "html_url": "https://github.com/electron/electron/issues/7525#issuecomment-252249606",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7525",
+    "id": 252249606,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-07T13:18:45Z",
+    "updated_at": "2016-10-07T13:18:45Z",
+    "body": "The `navigator.onLine` property is documented quite thoroughly across the web including at my personal goto MDN.\n\nhttps://developer.mozilla.org/en-US/docs/Web/API/NavigatorOnLine/onLine\n\n> In Chrome and Safari, if the browser is not able to connect to a local area network (LAN) or a router, it is offline; all other conditions return true. So while you can assume that the browser is offline when it returns a false value, you cannot assume that a true value necessarily means that the browser can access the internet. You could be getting false positives, such as in cases where the computer is running a virtualization software that has virtual ethernet adapters that are always \"connected.\" Therefore, if you really want to determine the online status of the browser, you should develop additional means for checking.\n\nI feel the tutorial in it's current state is accurate, perhaps just copy pasting the above paragraph into the docs would alleviate any concerns you have.  But I feel we should avoid re-documenting standard web API's and stick to documenting Electron specific things.\n\n> Electron users will be using this tutorial to create offline pages, which simply won't appear in a large percentage of cases where there is no connectivity. \n\nPersonally I think you should always be handling the `did-fail-load` event as well to make failures smooth as you can get `did-fail-load` for non-internet connection related issues.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/252250597",
+    "html_url": "https://github.com/electron/electron/issues/7525#issuecomment-252250597",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7525",
+    "id": 252250597,
+    "user": {
+      "login": "andymartinwork",
+      "id": 1785253,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1785253?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/andymartinwork",
+      "html_url": "https://github.com/andymartinwork",
+      "followers_url": "https://api.github.com/users/andymartinwork/followers",
+      "following_url": "https://api.github.com/users/andymartinwork/following{/other_user}",
+      "gists_url": "https://api.github.com/users/andymartinwork/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/andymartinwork/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/andymartinwork/subscriptions",
+      "organizations_url": "https://api.github.com/users/andymartinwork/orgs",
+      "repos_url": "https://api.github.com/users/andymartinwork/repos",
+      "events_url": "https://api.github.com/users/andymartinwork/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/andymartinwork/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-07T13:23:07Z",
+    "updated_at": "2016-10-07T13:23:27Z",
+    "body": "I think it would help to have that paragraph in the tutorial. Lots of people moving to electron used to be former C++ devs and are pretty new to javascript.\n\n`did-fail-load` sounds good too, looks like I'm off to implement that! Thanks!\n"
+  }
+]

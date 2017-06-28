@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/134050730",
+    "html_url": "https://github.com/electron/electron/issues/2502#issuecomment-134050730",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2502",
+    "id": 134050730,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-08-24T06:07:44Z",
+    "updated_at": "2015-08-24T06:07:44Z",
+    "body": "Currently you have to add the `process` object back to `global` to work around this:\n\n``` js\nvar process = global.process;\nprocess.once('loaded', function() {\n  window.process = process;\n});\n```\n\nI will figure out a better solution to make `process` and other things available in node modules while not polluting the global scope.\n"
+  }
+]

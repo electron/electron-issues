@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/234732596",
+    "html_url": "https://github.com/electron/electron/pull/6218#issuecomment-234732596",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6218",
+    "id": 234732596,
+    "user": {
+      "login": "mgparrish",
+      "id": 15224223,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15224223?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mgparrish",
+      "html_url": "https://github.com/mgparrish",
+      "followers_url": "https://api.github.com/users/mgparrish/followers",
+      "following_url": "https://api.github.com/users/mgparrish/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mgparrish/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mgparrish/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mgparrish/subscriptions",
+      "organizations_url": "https://api.github.com/users/mgparrish/orgs",
+      "repos_url": "https://api.github.com/users/mgparrish/repos",
+      "events_url": "https://api.github.com/users/mgparrish/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mgparrish/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-23T18:21:47Z",
+    "updated_at": "2016-07-23T18:21:47Z",
+    "body": "I checked my issue (6050) using version v 1.2.8, it still has the bug. The callback is never performed using the code I posted in 6050. I hadn't checked in V 1.2.6 but presume it wasn't working there either.\n"
+  }
+]

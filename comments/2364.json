@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/125801328",
+    "html_url": "https://github.com/electron/electron/issues/2364#issuecomment-125801328",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2364",
+    "id": 125801328,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-07-29T01:40:59Z",
+    "updated_at": "2015-07-29T01:40:59Z",
+    "body": "In Chromium the webview is implemented as plugins and plugins will capture all events, so I'm afraid this is something that will never be solved.\n\nBut I think with #2115 implemented you should be able to remove `x-frame-options` headers and use iframe instead, so I'm merging this to #2115.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/125803811",
+    "html_url": "https://github.com/electron/electron/issues/2364#issuecomment-125803811",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2364",
+    "id": 125803811,
+    "user": {
+      "login": "frankhale",
+      "id": 190154,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/190154?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frankhale",
+      "html_url": "https://github.com/frankhale",
+      "followers_url": "https://api.github.com/users/frankhale/followers",
+      "following_url": "https://api.github.com/users/frankhale/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frankhale/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frankhale/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frankhale/subscriptions",
+      "organizations_url": "https://api.github.com/users/frankhale/orgs",
+      "repos_url": "https://api.github.com/users/frankhale/repos",
+      "events_url": "https://api.github.com/users/frankhale/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frankhale/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-29T01:53:58Z",
+    "updated_at": "2015-07-29T01:53:58Z",
+    "body": "I think this can be solved in much the same way I solved talking from webview to my main app. I'm using socket.io to communicate from my app to my webview. I use the preload script in the webview to hook into what it needs and then I just fire socket.io messages back and forth from webview to app, app to webview. I don't turn on node-integration for my webview so it's isolated, just wanted to make sure that is clear. \n\nI don't see why you couldn't do something similar to what I am doing and create an event handler for the scroll events and then just manually propagate them to your main app using some communication mechanism such as socket.io.\n"
+  }
+]

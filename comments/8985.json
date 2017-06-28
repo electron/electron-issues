@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/288495779",
+    "html_url": "https://github.com/electron/electron/issues/8985#issuecomment-288495779",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8985",
+    "id": 288495779,
+    "user": {
+      "login": "timfish",
+      "id": 1150298,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1150298?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/timfish",
+      "html_url": "https://github.com/timfish",
+      "followers_url": "https://api.github.com/users/timfish/followers",
+      "following_url": "https://api.github.com/users/timfish/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timfish/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timfish/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timfish/subscriptions",
+      "organizations_url": "https://api.github.com/users/timfish/orgs",
+      "repos_url": "https://api.github.com/users/timfish/repos",
+      "events_url": "https://api.github.com/users/timfish/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timfish/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-22T18:30:00Z",
+    "updated_at": "2017-03-22T18:30:00Z",
+    "body": "Firstly `electron-updater` is not part of this repository. It is located at [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder)\r\n\r\nThis is also not a bug, it's a support question. Ask support questions in the [Discuss](https://discuss.atom.io/c/electron) forum or the [Slack](http://atom-slack.herokuapp.com/) channel."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/288496946",
+    "html_url": "https://github.com/electron/electron/issues/8985#issuecomment-288496946",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8985",
+    "id": 288496946,
+    "user": {
+      "login": "tjoye20",
+      "id": 16782808,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/16782808?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tjoye20",
+      "html_url": "https://github.com/tjoye20",
+      "followers_url": "https://api.github.com/users/tjoye20/followers",
+      "following_url": "https://api.github.com/users/tjoye20/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tjoye20/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tjoye20/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tjoye20/subscriptions",
+      "organizations_url": "https://api.github.com/users/tjoye20/orgs",
+      "repos_url": "https://api.github.com/users/tjoye20/repos",
+      "events_url": "https://api.github.com/users/tjoye20/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tjoye20/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-22T18:33:46Z",
+    "updated_at": "2017-03-22T18:33:46Z",
+    "body": "Oops, sorry. Thank you."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/91679505",
+    "html_url": "https://github.com/electron/electron/issues/1400#issuecomment-91679505",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1400",
+    "id": 91679505,
+    "user": {
+      "login": "bengotow",
+      "id": 1037212,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1037212?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bengotow",
+      "html_url": "https://github.com/bengotow",
+      "followers_url": "https://api.github.com/users/bengotow/followers",
+      "following_url": "https://api.github.com/users/bengotow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bengotow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bengotow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bengotow/subscriptions",
+      "organizations_url": "https://api.github.com/users/bengotow/orgs",
+      "repos_url": "https://api.github.com/users/bengotow/repos",
+      "events_url": "https://api.github.com/users/bengotow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bengotow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-10T20:37:56Z",
+    "updated_at": "2015-04-10T20:37:56Z",
+    "body": "Hi teleclimber,\n\nI think the problem you're running into is that the `window-all-closed` event handler (here: https://github.com/dougnukem/hello-atom/blob/master/hello-app/main.js#L12) is firing and quitting the application immediately after the last window is closed. You should be able to keep your application running on Windows/Linux by disabling that event handler.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/91699076",
+    "html_url": "https://github.com/electron/electron/issues/1400#issuecomment-91699076",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1400",
+    "id": 91699076,
+    "user": {
+      "login": "teleclimber",
+      "id": 5631748,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5631748?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teleclimber",
+      "html_url": "https://github.com/teleclimber",
+      "followers_url": "https://api.github.com/users/teleclimber/followers",
+      "following_url": "https://api.github.com/users/teleclimber/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teleclimber/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teleclimber/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teleclimber/subscriptions",
+      "organizations_url": "https://api.github.com/users/teleclimber/orgs",
+      "repos_url": "https://api.github.com/users/teleclimber/repos",
+      "events_url": "https://api.github.com/users/teleclimber/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teleclimber/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-10T21:37:10Z",
+    "updated_at": "2015-04-10T21:37:10Z",
+    "body": "Ooohh. Of course. I guess I never realized it quit because atom.exe keeps running after the application quits.\n\nThanks!\n"
+  }
+]

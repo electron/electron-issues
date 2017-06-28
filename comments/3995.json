@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/169038018",
+    "html_url": "https://github.com/electron/electron/issues/3995#issuecomment-169038018",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3995",
+    "id": 169038018,
+    "user": {
+      "login": "jarek-foksa",
+      "id": 193371,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/193371?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jarek-foksa",
+      "html_url": "https://github.com/jarek-foksa",
+      "followers_url": "https://api.github.com/users/jarek-foksa/followers",
+      "following_url": "https://api.github.com/users/jarek-foksa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jarek-foksa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jarek-foksa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jarek-foksa/subscriptions",
+      "organizations_url": "https://api.github.com/users/jarek-foksa/orgs",
+      "repos_url": "https://api.github.com/users/jarek-foksa/repos",
+      "events_url": "https://api.github.com/users/jarek-foksa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jarek-foksa/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-05T15:40:56Z",
+    "updated_at": "2016-01-05T17:06:17Z",
+    "body": "Here is a list of algorithms I have pulled from Chromium's [WebCrypto](https://www.chromium.org/blink/webcrypto) page:\n- AES - [NIST SP 800-38A](http://csrc.nist.gov/publications/nistpubs/800-38a/sp800-38a.pdf), [NIST SP 800-38D](http://csrc.nist.gov/publications/nistpubs/800-38D/SP-800-38D.pdf), [RFC 3394](http://www.ietf.org/rfc/rfc3394.txt)\n- HMAC - [FIPS 198-1](http://csrc.nist.gov/publications/fips/fips198-1/FIPS-198-1_final.pdf)\n- ECDSA - ANS X9.62–2005\n- ECDH - ANS X9.63–2001\n- HKDF - [NIST SP 800-56C](http://csrc.nist.gov/publications/nistpubs/800-56C/SP-800-56C.pdf)\n- PBKDF2 - [RFC 2898](https://tools.ietf.org/html/rfc2898)\n- RSA - [RFC 3447](http://www.ietf.org/rfc/rfc3447)\n- SHA - [FIPS 180-4](http://csrc.nist.gov/publications/fips/fips180-4/fips-180-4.pdf)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/169058181",
+    "html_url": "https://github.com/electron/electron/issues/3995#issuecomment-169058181",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3995",
+    "id": 169058181,
+    "user": {
+      "login": "jarek-foksa",
+      "id": 193371,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/193371?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jarek-foksa",
+      "html_url": "https://github.com/jarek-foksa",
+      "followers_url": "https://api.github.com/users/jarek-foksa/followers",
+      "following_url": "https://api.github.com/users/jarek-foksa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jarek-foksa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jarek-foksa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jarek-foksa/subscriptions",
+      "organizations_url": "https://api.github.com/users/jarek-foksa/orgs",
+      "repos_url": "https://api.github.com/users/jarek-foksa/repos",
+      "events_url": "https://api.github.com/users/jarek-foksa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jarek-foksa/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-05T16:49:06Z",
+    "updated_at": "2016-01-05T17:06:27Z",
+    "body": "Second list based on the OpenSSL [documentation](https://www.openssl.org/docs/manmaster/crypto/crypto.html):\n- Blowfish - https://www.schneier.com/cryptography/blowfish/\n- CAST - [RFC 2144](https://tools.ietf.org/html/rfc2144), [RFC 2612](https://tools.ietf.org/html/rfc2612)\n- DES - [FIPS 46-3](http://csrc.nist.gov/publications/fips/fips46-3/fips46-3.pdf)\n- DH - [RFC 2631](https://tools.ietf.org/html/rfc2631)\n- DSA - [ANSI X9.30](http://webstore.ansi.org/RecordDetail.aspx?sku=ANSI+X9.30-1%3A1997)\n- EC - [SEC 1](http://www.secg.org/sec1-v2.pdf)\n- HMAC - [RFC 2104](https://www.ietf.org/rfc/rfc2104.txt)\n- IDEA - \"On the Design and Security of Block Ciphers\" book by X. Lai\n- MD2 - [RFC 1319](http://tools.ietf.org/html/rfc1319)\n- MD4 - [RFC 6150](https://tools.ietf.org/html/rfc6150)\n- MD5 - [RFC 1321](https://tools.ietf.org/html/rfc1321)\n- MDC2 - [ISO/IEC 10118-2](https://www.openssl.org/docs/manmaster/crypto/mdc2.html)\n- RC2 - [RFC 2268](https://tools.ietf.org/html/rfc2268)\n- RC4 - [RFC 4345](https://tools.ietf.org/html/rfc4345)\n- RC5 - http://people.csail.mit.edu/rivest/Rivest-rc5rev.pdf\n- RIPEMD - [ISO/IEC 10118-3](http://webstore.ansi.org/RecordDetail.aspx?sku=ISO%2FIEC%2010118-3:2004)\n- RSA - [RFC 3447](http://www.ietf.org/rfc/rfc3447)\n- SHA - [FIPS 180-4](http://csrc.nist.gov/publications/fips/fips180-4/fips-180-4.pdf)\n"
+  }
+]

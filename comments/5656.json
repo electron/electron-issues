@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/221141312",
+    "html_url": "https://github.com/electron/electron/issues/5656#issuecomment-221141312",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5656",
+    "id": 221141312,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-24T01:19:17Z",
+    "updated_at": "2016-05-24T01:19:17Z",
+    "body": "I'm unable to reproduce on 10.11, probably a 10.9 only bug. As workaround you can try wrapping the call in `setImmediate`: \n\n``` js\n{\n    label: 'Exit',\n    click: () => setImmediate(() => app.quit())\n}\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/221664937",
+    "html_url": "https://github.com/electron/electron/issues/5656#issuecomment-221664937",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5656",
+    "id": 221664937,
+    "user": {
+      "login": "iofjuupasli",
+      "id": 1502968,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1502968?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iofjuupasli",
+      "html_url": "https://github.com/iofjuupasli",
+      "followers_url": "https://api.github.com/users/iofjuupasli/followers",
+      "following_url": "https://api.github.com/users/iofjuupasli/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iofjuupasli/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iofjuupasli/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iofjuupasli/subscriptions",
+      "organizations_url": "https://api.github.com/users/iofjuupasli/orgs",
+      "repos_url": "https://api.github.com/users/iofjuupasli/repos",
+      "events_url": "https://api.github.com/users/iofjuupasli/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iofjuupasli/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-25T18:30:28Z",
+    "updated_at": "2016-05-25T18:30:28Z",
+    "body": "I can confirm that with workaround it doesn't crash\n"
+  }
+]

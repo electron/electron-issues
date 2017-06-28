@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/187547499",
+    "html_url": "https://github.com/electron/electron/issues/4569#issuecomment-187547499",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4569",
+    "id": 187547499,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-23T05:41:05Z",
+    "updated_at": "2016-02-23T05:41:05Z",
+    "body": "The documentation makes it clear that the `callback` has to be a `Function`, and `null` is not a `Function`.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/187579898",
+    "html_url": "https://github.com/electron/electron/issues/4569#issuecomment-187579898",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4569",
+    "id": 187579898,
+    "user": {
+      "login": "akrieger",
+      "id": 667719,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/667719?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akrieger",
+      "html_url": "https://github.com/akrieger",
+      "followers_url": "https://api.github.com/users/akrieger/followers",
+      "following_url": "https://api.github.com/users/akrieger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akrieger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akrieger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akrieger/subscriptions",
+      "organizations_url": "https://api.github.com/users/akrieger/orgs",
+      "repos_url": "https://api.github.com/users/akrieger/repos",
+      "events_url": "https://api.github.com/users/akrieger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akrieger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-23T07:24:54Z",
+    "updated_at": "2016-02-23T07:24:54Z",
+    "body": "TIL. Thank you!\n"
+  }
+]

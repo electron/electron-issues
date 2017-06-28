@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/171695996",
+    "html_url": "https://github.com/electron/electron/issues/4095#issuecomment-171695996",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4095",
+    "id": 171695996,
+    "user": {
+      "login": "evgenyzinoviev",
+      "id": 6204306,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6204306?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/evgenyzinoviev",
+      "html_url": "https://github.com/evgenyzinoviev",
+      "followers_url": "https://api.github.com/users/evgenyzinoviev/followers",
+      "following_url": "https://api.github.com/users/evgenyzinoviev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evgenyzinoviev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evgenyzinoviev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evgenyzinoviev/subscriptions",
+      "organizations_url": "https://api.github.com/users/evgenyzinoviev/orgs",
+      "repos_url": "https://api.github.com/users/evgenyzinoviev/repos",
+      "events_url": "https://api.github.com/users/evgenyzinoviev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evgenyzinoviev/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-14T16:41:44Z",
+    "updated_at": "2016-01-14T16:41:44Z",
+    "body": "👍👍👍\n"
+  }
+]

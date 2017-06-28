@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/181071072",
+    "html_url": "https://github.com/electron/electron/issues/4399#issuecomment-181071072",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4399",
+    "id": 181071072,
+    "user": {
+      "login": "ritesh-pandey",
+      "id": 1433681,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1433681?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ritesh-pandey",
+      "html_url": "https://github.com/ritesh-pandey",
+      "followers_url": "https://api.github.com/users/ritesh-pandey/followers",
+      "following_url": "https://api.github.com/users/ritesh-pandey/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ritesh-pandey/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ritesh-pandey/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ritesh-pandey/subscriptions",
+      "organizations_url": "https://api.github.com/users/ritesh-pandey/orgs",
+      "repos_url": "https://api.github.com/users/ritesh-pandey/repos",
+      "events_url": "https://api.github.com/users/ritesh-pandey/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ritesh-pandey/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-07T18:17:15Z",
+    "updated_at": "2016-02-07T18:17:15Z",
+    "body": "Many folks have suggested to use -ltr in CFLAGS. How do I do that?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/184115454",
+    "html_url": "https://github.com/electron/electron/issues/4399#issuecomment-184115454",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4399",
+    "id": 184115454,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-15T08:45:41Z",
+    "updated_at": "2016-02-15T08:45:41Z",
+    "body": "The `-ltr` is in `CFLAGS`, but somehow your linker can't find the symbol, you can probably try installing `clang` in your system.\n\nI'm closing this because the toolchain system is complex between different linux distributions and we are not able to ensure Electron can build on every distribution with various build toolchains.\n"
+  }
+]

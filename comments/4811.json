@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/196765950",
+    "html_url": "https://github.com/electron/electron/issues/4811#issuecomment-196765950",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4811",
+    "id": 196765950,
+    "user": {
+      "login": "ignjat",
+      "id": 1089731,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1089731?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ignjat",
+      "html_url": "https://github.com/ignjat",
+      "followers_url": "https://api.github.com/users/ignjat/followers",
+      "following_url": "https://api.github.com/users/ignjat/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ignjat/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ignjat/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ignjat/subscriptions",
+      "organizations_url": "https://api.github.com/users/ignjat/orgs",
+      "repos_url": "https://api.github.com/users/ignjat/repos",
+      "events_url": "https://api.github.com/users/ignjat/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ignjat/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-15T11:01:00Z",
+    "updated_at": "2016-03-15T11:01:00Z",
+    "body": "Never mind, I figured out I should use { type: 'char', keyCode: 'a' }. This part of the API is seriously under documented.\n"
+  }
+]

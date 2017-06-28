@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/153858061",
+    "html_url": "https://github.com/electron/electron/pull/3335#issuecomment-153858061",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3335",
+    "id": 153858061,
+    "user": {
+      "login": "ryanmolden",
+      "id": 591522,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/591522?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ryanmolden",
+      "html_url": "https://github.com/ryanmolden",
+      "followers_url": "https://api.github.com/users/ryanmolden/followers",
+      "following_url": "https://api.github.com/users/ryanmolden/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ryanmolden/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ryanmolden/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ryanmolden/subscriptions",
+      "organizations_url": "https://api.github.com/users/ryanmolden/orgs",
+      "repos_url": "https://api.github.com/users/ryanmolden/repos",
+      "events_url": "https://api.github.com/users/ryanmolden/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ryanmolden/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-04T20:45:59Z",
+    "updated_at": "2015-11-04T20:45:59Z",
+    "body": "Whoops, CPPLint issues, will fix and submit another PR\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/153913007",
+    "html_url": "https://github.com/electron/electron/pull/3335#issuecomment-153913007",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3335",
+    "id": 153913007,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-05T00:18:36Z",
+    "updated_at": "2015-11-05T00:18:36Z",
+    "body": "@ryanmolden You don't need to resubmit a PR to add stuff to it, just make another commit and push! Bingo Bango, the PR updates. \n"
+  }
+]

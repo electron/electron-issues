@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250500065",
+    "html_url": "https://github.com/electron/electron/issues/7409#issuecomment-250500065",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7409",
+    "id": 250500065,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-29T15:27:29Z",
+    "updated_at": "2016-09-29T15:27:29Z",
+    "body": "The problem is with Electron arch package, since they are building with custom chromium and they seem to have fixed it https://git.archlinux.org/svntogit/community.git/commit/trunk?h=packages/electron&id=d14c8d8c671b32b9db84a6035e069f0ae2f36b00 . Closing this out since its not a bug in Electron.\n\nI believe the repo you would want to raise the issue is https://github.com/tensor5/arch-atom\n"
+  }
+]

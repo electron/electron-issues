@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/303056260",
+    "html_url": "https://github.com/electron/electron/issues/9503#issuecomment-303056260",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9503",
+    "id": 303056260,
+    "user": {
+      "login": "cifratila",
+      "id": 282777,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/282777?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cifratila",
+      "html_url": "https://github.com/cifratila",
+      "followers_url": "https://api.github.com/users/cifratila/followers",
+      "following_url": "https://api.github.com/users/cifratila/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cifratila/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cifratila/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cifratila/subscriptions",
+      "organizations_url": "https://api.github.com/users/cifratila/orgs",
+      "repos_url": "https://api.github.com/users/cifratila/repos",
+      "events_url": "https://api.github.com/users/cifratila/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cifratila/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-22T10:02:16Z",
+    "updated_at": "2017-05-22T10:02:16Z",
+    "body": "@rohit7209 Might be an issue with the way the serialport node module is compiled.\r\n\r\nTry to have these requirement set: `https://www.npmjs.com/package/serialport#installation-special-cases `\r\n\r\nWould recommend to have Python 2.7 and VS 2015 Update 3 on Windows in order to properly compile."
+  }
+]

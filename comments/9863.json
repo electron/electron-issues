@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/311332380",
+    "html_url": "https://github.com/electron/electron/issues/9863#issuecomment-311332380",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9863",
+    "id": 311332380,
+    "user": {
+      "login": "lubov15911",
+      "id": 14281771,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14281771?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lubov15911",
+      "html_url": "https://github.com/lubov15911",
+      "followers_url": "https://api.github.com/users/lubov15911/followers",
+      "following_url": "https://api.github.com/users/lubov15911/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lubov15911/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lubov15911/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lubov15911/subscriptions",
+      "organizations_url": "https://api.github.com/users/lubov15911/orgs",
+      "repos_url": "https://api.github.com/users/lubov15911/repos",
+      "events_url": "https://api.github.com/users/lubov15911/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lubov15911/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-27T11:37:39Z",
+    "updated_at": "2017-06-27T11:37:39Z",
+    "body": "The issue is not reproduced with electron version 1.7.3 "
+  }
+]

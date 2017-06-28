@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/99977694",
+    "html_url": "https://github.com/electron/electron/issues/1605#issuecomment-99977694",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1605",
+    "id": 99977694,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-07T18:52:38Z",
+    "updated_at": "2015-05-07T18:52:38Z",
+    "body": "I think this is perhaps a result of us not passing the correct OS language to the renderer (this might not be true anymore, I was looking into this long ago) - it seems to do different things based on it. \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/106782301",
+    "html_url": "https://github.com/electron/electron/issues/1605#issuecomment-106782301",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1605",
+    "id": 106782301,
+    "user": {
+      "login": "bundyo",
+      "id": 98318,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/98318?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bundyo",
+      "html_url": "https://github.com/bundyo",
+      "followers_url": "https://api.github.com/users/bundyo/followers",
+      "following_url": "https://api.github.com/users/bundyo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bundyo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bundyo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bundyo/subscriptions",
+      "organizations_url": "https://api.github.com/users/bundyo/orgs",
+      "repos_url": "https://api.github.com/users/bundyo/repos",
+      "events_url": "https://api.github.com/users/bundyo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bundyo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-29T11:54:11Z",
+    "updated_at": "2015-05-29T11:54:11Z",
+    "body": "Electron seems to choose different fonts on Linux. For instance for monospace Chrome 43 chooses Liberation Mono on my machine, while Electron chooses Courier New...\n"
+  }
+]

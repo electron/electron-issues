@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/73671335",
+    "html_url": "https://github.com/electron/electron/issues/1115#issuecomment-73671335",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1115",
+    "id": 73671335,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-02-10T09:46:15Z",
+    "updated_at": "2015-02-10T09:46:15Z",
+    "body": "It seems that GitHub Release always redirect the download url to S3 with `https` protocol, I'll turn off SSL verification to work around it.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/77609178",
+    "html_url": "https://github.com/electron/electron/issues/1115#issuecomment-77609178",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1115",
+    "id": 77609178,
+    "user": {
+      "login": "dentarg",
+      "id": 42626,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/42626?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dentarg",
+      "html_url": "https://github.com/dentarg",
+      "followers_url": "https://api.github.com/users/dentarg/followers",
+      "following_url": "https://api.github.com/users/dentarg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dentarg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dentarg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dentarg/subscriptions",
+      "organizations_url": "https://api.github.com/users/dentarg/orgs",
+      "repos_url": "https://api.github.com/users/dentarg/repos",
+      "events_url": "https://api.github.com/users/dentarg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dentarg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-06T18:26:04Z",
+    "updated_at": "2015-03-06T18:26:04Z",
+    "body": "> It seems that GitHub Release always redirect the download url to S3 with https protocol, I'll turn off SSL verification to work around it.\n\nDoesn't sound like good practice?\n"
+  }
+]

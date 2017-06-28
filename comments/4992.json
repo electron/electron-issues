@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/204698486",
+    "html_url": "https://github.com/electron/electron/issues/4992#issuecomment-204698486",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4992",
+    "id": 204698486,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-02T11:33:42Z",
+    "updated_at": "2016-04-02T11:33:42Z",
+    "body": "> 1 - backgroundColor is ignored unless transparent is true, is that the desired behavior?\n\nOn some platforms backgroundColor is not fully implemented yet, it is tracked at #861.\n\n> 2 - After testing with a couple of Hex value it seems like backgroundColor is rounding up any non 0 value to F\n\nIt is a new bug, thanks for reporting this.\n"
+  }
+]

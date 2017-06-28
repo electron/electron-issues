@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/188315686",
+    "html_url": "https://github.com/electron/electron/pull/4588#issuecomment-188315686",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4588",
+    "id": 188315686,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-24T15:52:58Z",
+    "updated_at": "2016-02-24T15:52:58Z",
+    "body": "```\n'use strict';\n\nconst electron = require('electron');\nconst app = electron.app;\nconst BrowserWindow = electron.BrowserWindow;\nconst session = electron.session;\nconst path = require('path')\n\nlet mainWindow;\n\nconst url = 'app://' + __dirname + '/fork.html';\n\nfunction createWindow() {\n  mainWindow = new BrowserWindow({\n    webPreferences: {\n      partition: 'temp'\n    }\n  });\n\n  session.fromPartition('temp').protocol.registerFileProtocol('app', function (request, callback) {\n    var file = request.url.substr(6);\n    console.log(file)\n    callback({\n      path: file\n    })\n  }, function (err) {\n    if (err) throw err;\n  });\n\n  mainWindow.loadURL(url);\n\n  mainWindow.on('closed', function() {\n    mainWindow = null;\n  });\n}\n\napp.on('ready', createWindow);\n\napp.on('window-all-closed', function() {\n  app.quit();\n});\n```\n\nI couldnt reproduce the crash on linux with the above sample, does it happen for all request jobs or only specific ?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/188776685",
+    "html_url": "https://github.com/electron/electron/pull/4588#issuecomment-188776685",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4588",
+    "id": 188776685,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-25T12:57:05Z",
+    "updated_at": "2016-02-25T12:57:05Z",
+    "body": "It crashed on OS X when running the `protocol.fromPartition` test, after commenting out the test, it then crashes when exiting on Linux in Travis CI.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/198591227",
+    "html_url": "https://github.com/electron/electron/pull/4847#issuecomment-198591227",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4847",
+    "id": 198591227,
+    "user": {
+      "login": "mitchhentges",
+      "id": 7784737,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7784737?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mitchhentges",
+      "html_url": "https://github.com/mitchhentges",
+      "followers_url": "https://api.github.com/users/mitchhentges/followers",
+      "following_url": "https://api.github.com/users/mitchhentges/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mitchhentges/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mitchhentges/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mitchhentges/subscriptions",
+      "organizations_url": "https://api.github.com/users/mitchhentges/orgs",
+      "repos_url": "https://api.github.com/users/mitchhentges/repos",
+      "events_url": "https://api.github.com/users/mitchhentges/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mitchhentges/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-19T00:19:13Z",
+    "updated_at": "2016-03-19T00:19:13Z",
+    "body": "Looks like Travis failed due to the network environment:\n\n```\n..............................................https://s3.amazonaws.com/github-janky-artifacts/libchromiumcontent/osx/x64/b06d4c307b861cdb091f4ba26b1a185333889033/libchromiumcontent.zip\n\nTraceback (most recent call last):\n\n  File \"/Users/travis/build/atom/electron/vendor/brightray/vendor/libchromiumcontent/script/download\", line 186, in <module>\n\n    sys.exit(main())\n\n  File \"/Users/travis/build/atom/electron/vendor/brightray/vendor/libchromiumcontent/script/download\", line 67, in main\n\n    args.force)\n\n  File \"/Users/travis/build/atom/electron/vendor/brightray/vendor/libchromiumcontent/script/download\", line 132, in download_if_needed\n\n    download(destination, base_url, commit, filename)\n\n  File \"/Users/travis/build/atom/electron/vendor/brightray/vendor/libchromiumcontent/script/download\", line 142, in download\n\n    download_and_extract(destination, url)\n\n  File \"/Users/travis/build/atom/electron/vendor/brightray/vendor/libchromiumcontent/script/download\", line 157, in download_and_extract\n\n    chunk = u.read(1024*1024)\n\n  File \"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py\", line 384, in read\n\n    data = self._sock.recv(left)\n\n  File \"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py\", line 612, in read\n\n    s = self.fp.read(amt)\n\n  File \"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py\", line 384, in read\n\n    data = self._sock.recv(left)\n\n  File \"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/ssl.py\", line 734, in recv\n\n    return self.read(buflen)\n\n  File \"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/ssl.py\", line 621, in read\n\n    v = self._sslobj.read(len or 1024)\n\nsocket.error: [Errno 54] Connection reset by peer\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/199399979",
+    "html_url": "https://github.com/electron/electron/pull/4847#issuecomment-199399979",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4847",
+    "id": 199399979,
+    "user": {
+      "login": "mitchhentges",
+      "id": 7784737,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7784737?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mitchhentges",
+      "html_url": "https://github.com/mitchhentges",
+      "followers_url": "https://api.github.com/users/mitchhentges/followers",
+      "following_url": "https://api.github.com/users/mitchhentges/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mitchhentges/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mitchhentges/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mitchhentges/subscriptions",
+      "organizations_url": "https://api.github.com/users/mitchhentges/orgs",
+      "repos_url": "https://api.github.com/users/mitchhentges/repos",
+      "events_url": "https://api.github.com/users/mitchhentges/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mitchhentges/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-21T17:49:42Z",
+    "updated_at": "2016-03-21T17:49:42Z",
+    "body": "This PR is invalid, as it assumes that a GC happens for each variable in JS, not for the value \"pointer to\". E.g.:\n\n```\nvar a = remote.getBrowserWindow();\nvar b = remote.getBrowserWindow();\n// a === b\n// There will only be one GC\n```\n\nThis is replaced by #4869 \n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/60405782",
+    "html_url": "https://github.com/electron/electron/pull/740#issuecomment-60405782",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/740",
+    "id": 60405782,
+    "user": {
+      "login": "spolu",
+      "id": 15067,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/15067?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/spolu",
+      "html_url": "https://github.com/spolu",
+      "followers_url": "https://api.github.com/users/spolu/followers",
+      "following_url": "https://api.github.com/users/spolu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/spolu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/spolu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/spolu/subscriptions",
+      "organizations_url": "https://api.github.com/users/spolu/orgs",
+      "repos_url": "https://api.github.com/users/spolu/repos",
+      "events_url": "https://api.github.com/users/spolu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/spolu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-10-24T15:44:05Z",
+    "updated_at": "2014-10-24T15:44:05Z",
+    "body": "Impressive! :+1: \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/60686908",
+    "html_url": "https://github.com/electron/electron/pull/740#issuecomment-60686908",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/740",
+    "id": 60686908,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-10-27T23:21:35Z",
+    "updated_at": "2014-10-27T23:21:35Z",
+    "body": "Your timing for this PR is impeccable, :gem::sparkles::tada:\n"
+  }
+]

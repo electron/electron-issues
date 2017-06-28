@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/297451684",
+    "html_url": "https://github.com/electron/electron/issues/9295#issuecomment-297451684",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9295",
+    "id": 297451684,
+    "user": {
+      "login": "durongze",
+      "id": 4144559,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4144559?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/durongze",
+      "html_url": "https://github.com/durongze",
+      "followers_url": "https://api.github.com/users/durongze/followers",
+      "following_url": "https://api.github.com/users/durongze/following{/other_user}",
+      "gists_url": "https://api.github.com/users/durongze/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/durongze/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/durongze/subscriptions",
+      "organizations_url": "https://api.github.com/users/durongze/orgs",
+      "repos_url": "https://api.github.com/users/durongze/repos",
+      "events_url": "https://api.github.com/users/durongze/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/durongze/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-26T15:39:12Z",
+    "updated_at": "2017-04-26T15:39:12Z",
+    "body": "sh: 1: node: not found\r\nnpm ERR! Linux 4.4.0-72-generic\r\nnpm ERR! argv \"/usr/bin/nodejs\" \"/usr/bin/npm\" \"install\" \"electron\" \"--save-dev\"\r\nnpm ERR! node v4.2.6\r\nnpm ERR! npm  v3.5.2\r\nnpm ERR! file sh\r\nnpm ERR! code ELIFECYCLE\r\nnpm ERR! errno ENOENT\r\nnpm ERR! syscall spawn\r\n\r\nnpm ERR! electron@1.4.15 postinstall: `node install.js`\r\nnpm ERR! spawn ENOENT\r\nnpm ERR! \r\nnpm ERR! Failed at the electron@1.4.15 postinstall script 'node install.js'.\r\nnpm ERR! Make sure you have the latest version of node.js and npm installed.\r\nnpm ERR! If you do, this is most likely a problem with the electron package,\r\nnpm ERR! not with npm itself.\r\nnpm ERR! Tell the author that this fails on your system:\r\nnpm ERR!     node install.js\r\nnpm ERR! You can get information on how to open an issue for this project with:\r\nnpm ERR!     npm bugs electron\r\nnpm ERR! Or if that isn't available, you can get their info via:\r\nnpm ERR!     npm owner ls electron\r\nnpm ERR! There is likely additional logging output above.\r\n\r\nnpm ERR! Please include the following file with any support request:\r\nnpm ERR!     /home/du/code/project/weixin/electronic-wechat/npm-debug.log\r\n"
+  }
+]

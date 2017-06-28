@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/98623647",
+    "html_url": "https://github.com/electron/electron/issues/1555#issuecomment-98623647",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1555",
+    "id": 98623647,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-05-04T08:10:11Z",
+    "updated_at": "2015-05-04T08:10:11Z",
+    "body": "It seems to work on a fresh installed 32bit Windows 7 provided by modern.IE.\n![screen shot 2015-05-04 at 4 04 42 pm](https://cloud.githubusercontent.com/assets/639601/7450464/db5c5072-f277-11e4-9826-363779df0380.png)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/98641159",
+    "html_url": "https://github.com/electron/electron/issues/1555#issuecomment-98641159",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1555",
+    "id": 98641159,
+    "user": {
+      "login": "Akryum",
+      "id": 2798204,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2798204?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Akryum",
+      "html_url": "https://github.com/Akryum",
+      "followers_url": "https://api.github.com/users/Akryum/followers",
+      "following_url": "https://api.github.com/users/Akryum/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Akryum/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Akryum/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Akryum/subscriptions",
+      "organizations_url": "https://api.github.com/users/Akryum/orgs",
+      "repos_url": "https://api.github.com/users/Akryum/repos",
+      "events_url": "https://api.github.com/users/Akryum/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Akryum/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-04T08:57:39Z",
+    "updated_at": "2015-05-04T08:57:50Z",
+    "body": "It seems to come from my computer, I just tested on my laptop running Win 8.1 64 bits and it works fine. I will try to find a program not being related to electron and having a indeterminate progress state to confirm that.\n"
+  }
+]

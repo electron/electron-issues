@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/280401663",
+    "html_url": "https://github.com/electron/electron/issues/6301#issuecomment-280401663",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6301",
+    "id": 280401663,
+    "user": {
+      "login": "averissimo",
+      "id": 211358,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/211358?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/averissimo",
+      "html_url": "https://github.com/averissimo",
+      "followers_url": "https://api.github.com/users/averissimo/followers",
+      "following_url": "https://api.github.com/users/averissimo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/averissimo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/averissimo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/averissimo/subscriptions",
+      "organizations_url": "https://api.github.com/users/averissimo/orgs",
+      "repos_url": "https://api.github.com/users/averissimo/repos",
+      "events_url": "https://api.github.com/users/averissimo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/averissimo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-16T17:35:40Z",
+    "updated_at": "2017-02-27T20:57:26Z",
+    "body": "(from #8582)\r\n\r\n* Electron version: 1.4.15\r\n* Operating system: Ubuntu 17.05 (also reported in 16.10)\r\n\r\n### Expected behavior\r\n\r\nTray icon changes without an intermediate image/artifact\r\n\r\n### Actual behavior\r\n\r\n![outphkfc5l8rt](https://cloud.githubusercontent.com/assets/211358/22598140/5e2aa21e-ea2a-11e6-93dd-fa742397a475.gif)\r\n\r\n\r\n### How to reproduce\r\n\r\nCheckout https://github.com/averissimo/electron-boilerplate/tree/refresh (branch refresh)\r\n\r\nAnd run electron app (it will update tray icon every second to demonstrate bug)\r\n\r\n```\r\n$ git clone https://github.com/averissimo/electron-boilerplate\r\n$ cd electron-boilerplate\r\n$ git checkout refresh\r\n$ cd boilerplate\r\n$ npm install\r\n$ npm start\r\n```\r\n\r\nThis is also reproducible in the renderer (where it first was reported: https://github.com/yakyak/yakyak/issues/575 )\r\n\r\n_edit_: added npm install step"
+  }
+]

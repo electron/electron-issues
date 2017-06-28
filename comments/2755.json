@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/139242390",
+    "html_url": "https://github.com/electron/electron/issues/2755#issuecomment-139242390",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2755",
+    "id": 139242390,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-10T13:58:54Z",
+    "updated_at": "2015-09-10T13:58:54Z",
+    "body": "@zcbenz related upstream bug https://github.com/nodejs/node/pull/2091#issuecomment-118073326 and fix https://github.com/nodejs/node/commit/56db28b6d734dc397459f5cfee51cb41b370c30b\n\nsnippet to cause crash \n\n```\nrequire('vm').runInNewContext('')\n```\n\nstacktrace\n\n```\n#0  0x00007ffff773a0f8 in v8::internal::Internals::GetNodeState(v8::internal::Object**) () from /home/robo/github/shell/out/D/libnode.so\n#1  0x00007ffff777da1e in v8::PersistentBase<v8::Context>::IsWeak() const () from /home/robo/github/shell/out/D/libnode.so\n#2  0x00007ffff777d97c in v8::Local<v8::Context> node::PersistentToLocal<v8::Context>(v8::Isolate*, v8::Persistent<v8::Context, v8::NonCopyablePersistentTraits<v8::Context> > const&) ()\n   from /home/robo/github/shell/out/D/libnode.so\n#3  0x00007ffff777c4c9 in node::ContextifyContext::context() const () from /home/robo/github/shell/out/D/libnode.so\n#4  0x00007ffff777cb68 in node::ContextifyContext::GlobalPropertyGetterCallback(v8::Local<v8::Name>, v8::PropertyCallbackInfo<v8::Value> const&) ()\n   from /home/robo/github/shell/out/D/libnode.so\n#5  0x00007ffff70baf97 in v8::internal::PropertyCallbackArguments::Call(void (*)(v8::Local<v8::Name>, v8::PropertyCallbackInfo<v8::Value> const&), v8::Local<v8::Name>) ()\n   from /home/robo/github/shell/out/D/libv8.so\n#6  0x00007ffff7360881 in v8::internal::JSObject::GetPropertyWithInterceptor(v8::internal::LookupIterator*, bool*) () from /home/robo/github/shell/out/D/libv8.so\n#7  0x00007ffff7360527 in v8::internal::Object::GetProperty(v8::internal::LookupIterator*, v8::internal::LanguageMode) () from /home/robo/github/shell/out/D/libv8.so\n#8  0x00007ffff73175f3 in v8::internal::LoadIC::Load(v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Name>) () from /home/robo/github/shell/out/D/libv8.so\n#9  0x00007ffff731dbba in v8::internal::LoadIC_Miss(int, v8::internal::Object**, v8::internal::Isolate*) () from /home/robo/github/shell/out/D/libv8.so\n```\n"
+  }
+]

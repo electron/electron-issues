@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226668506",
+    "html_url": "https://github.com/electron/electron/issues/6098#issuecomment-226668506",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6098",
+    "id": 226668506,
+    "user": {
+      "login": "notatestuser",
+      "id": 1255926,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1255926?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/notatestuser",
+      "html_url": "https://github.com/notatestuser",
+      "followers_url": "https://api.github.com/users/notatestuser/followers",
+      "following_url": "https://api.github.com/users/notatestuser/following{/other_user}",
+      "gists_url": "https://api.github.com/users/notatestuser/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/notatestuser/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/notatestuser/subscriptions",
+      "organizations_url": "https://api.github.com/users/notatestuser/orgs",
+      "repos_url": "https://api.github.com/users/notatestuser/repos",
+      "events_url": "https://api.github.com/users/notatestuser/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/notatestuser/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-17T02:54:48Z",
+    "updated_at": "2016-06-17T02:54:48Z",
+    "body": "Possibly related to #4092\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226675171",
+    "html_url": "https://github.com/electron/electron/issues/6098#issuecomment-226675171",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6098",
+    "id": 226675171,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-17T03:59:39Z",
+    "updated_at": "2016-06-17T03:59:39Z",
+    "body": "I can reproduce with `shell.openItem`.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/47186674",
+    "html_url": "https://github.com/electron/electron/issues/430#issuecomment-47186674",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/430",
+    "id": 47186674,
+    "user": {
+      "login": "TimWolla",
+      "id": 209270,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/209270?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimWolla",
+      "html_url": "https://github.com/TimWolla",
+      "followers_url": "https://api.github.com/users/TimWolla/followers",
+      "following_url": "https://api.github.com/users/TimWolla/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimWolla/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimWolla/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimWolla/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimWolla/orgs",
+      "repos_url": "https://api.github.com/users/TimWolla/repos",
+      "events_url": "https://api.github.com/users/TimWolla/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimWolla/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-06-26T04:30:06Z",
+    "updated_at": "2014-06-26T04:30:06Z",
+    "body": "Merci!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/47215583",
+    "html_url": "https://github.com/electron/electron/issues/430#issuecomment-47215583",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/430",
+    "id": 47215583,
+    "user": {
+      "login": "max-m",
+      "id": 642457,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/642457?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/max-m",
+      "html_url": "https://github.com/max-m",
+      "followers_url": "https://api.github.com/users/max-m/followers",
+      "following_url": "https://api.github.com/users/max-m/following{/other_user}",
+      "gists_url": "https://api.github.com/users/max-m/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/max-m/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/max-m/subscriptions",
+      "organizations_url": "https://api.github.com/users/max-m/orgs",
+      "repos_url": "https://api.github.com/users/max-m/repos",
+      "events_url": "https://api.github.com/users/max-m/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/max-m/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-06-26T11:40:41Z",
+    "updated_at": "2014-06-26T16:21:15Z",
+    "body": ":+1: :smiley: \n\nEdit: Just tried it, works great.\nBut I had some trouble compiling atom-shell on Ubuntu 14.04.\nI had to run the bootstrap.py as root or else some node modules couldn't be installed.\nAfterwards I had to install an [Ubuntu 12.10 `libudev0` build](https://launchpad.net/ubuntu/quantal/amd64/libudev0/175-0ubuntu13.1) as it is unavailable on Ubuntu 14.04 (just libudev1 is available in the repos).\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/153560920",
+    "html_url": "https://github.com/electron/electron/issues/3290#issuecomment-153560920",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3290",
+    "id": 153560920,
+    "user": {
+      "login": "mgarciaisaia",
+      "id": 1190974,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1190974?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mgarciaisaia",
+      "html_url": "https://github.com/mgarciaisaia",
+      "followers_url": "https://api.github.com/users/mgarciaisaia/followers",
+      "following_url": "https://api.github.com/users/mgarciaisaia/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mgarciaisaia/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mgarciaisaia/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mgarciaisaia/subscriptions",
+      "organizations_url": "https://api.github.com/users/mgarciaisaia/orgs",
+      "repos_url": "https://api.github.com/users/mgarciaisaia/repos",
+      "events_url": "https://api.github.com/users/mgarciaisaia/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mgarciaisaia/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-04T03:28:48Z",
+    "updated_at": "2015-11-04T03:28:48Z",
+    "body": "[This StackOverflow question](http://stackoverflow.com/questions/7258565/how-to-show-systray-tooltip-longer-than-128-characters) says [MSDN](https://msdn.microsoft.com/en-us/library/bb773352%28VS.85%29.aspx) specifies that limit:\n\n> `szTip`\n> Type: TCHAR[64]\n> A null-terminated string that specifies the text for a standard tooltip. It can have a maximum of 64 characters, including the terminating null character.\n> For Windows 2000 and later, `szTip` can have a maximum of 128 characters, including the terminating null character.\n\nTesting on OSX 10.10.5 it doesn't crash with long strings, but the tooltip doesn't get shown if `message.length` is larger than 4800.\n\nThe `setToolTip` function should handle those issues in each platform.\n"
+  }
+]

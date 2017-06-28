@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/135950486",
+    "html_url": "https://github.com/electron/electron/issues/2629#issuecomment-135950486",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2629",
+    "id": 135950486,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-08-29T07:10:00Z",
+    "updated_at": "2015-08-29T07:10:00Z",
+    "body": "I suggest writing a native module for it, we can not just add API for every single API. Another choice is to use node-ffi to call win32 APIs directly.\n\nAnd for your purpose, using named pipe is another popular way, and it doesn't require adding new API.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/136016709",
+    "html_url": "https://github.com/electron/electron/issues/2629#issuecomment-136016709",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2629",
+    "id": 136016709,
+    "user": {
+      "login": "joaomoreno",
+      "id": 22350,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/22350?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/joaomoreno",
+      "html_url": "https://github.com/joaomoreno",
+      "followers_url": "https://api.github.com/users/joaomoreno/followers",
+      "following_url": "https://api.github.com/users/joaomoreno/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joaomoreno/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joaomoreno/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joaomoreno/subscriptions",
+      "organizations_url": "https://api.github.com/users/joaomoreno/orgs",
+      "repos_url": "https://api.github.com/users/joaomoreno/repos",
+      "events_url": "https://api.github.com/users/joaomoreno/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joaomoreno/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-29T17:40:53Z",
+    "updated_at": "2015-08-29T17:40:53Z",
+    "body": "Fair enough, good point!\n"
+  }
+]

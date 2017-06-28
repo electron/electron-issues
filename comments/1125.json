@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/73944508",
+    "html_url": "https://github.com/electron/electron/issues/1125#issuecomment-73944508",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1125",
+    "id": 73944508,
+    "user": {
+      "login": "mark-hahn",
+      "id": 811455,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/811455?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mark-hahn",
+      "html_url": "https://github.com/mark-hahn",
+      "followers_url": "https://api.github.com/users/mark-hahn/followers",
+      "following_url": "https://api.github.com/users/mark-hahn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mark-hahn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mark-hahn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mark-hahn/subscriptions",
+      "organizations_url": "https://api.github.com/users/mark-hahn/orgs",
+      "repos_url": "https://api.github.com/users/mark-hahn/repos",
+      "events_url": "https://api.github.com/users/mark-hahn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mark-hahn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-11T19:15:42Z",
+    "updated_at": "2015-02-11T19:15:42Z",
+    "body": "Never mind.  I see chromium doesn't support it.\n\nhttps://code.google.com/p/chromium/issues/detail?id=172285\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/74325420",
+    "html_url": "https://github.com/electron/electron/issues/1125#issuecomment-74325420",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1125",
+    "id": 74325420,
+    "user": {
+      "login": "mark-hahn",
+      "id": 811455,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/811455?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mark-hahn",
+      "html_url": "https://github.com/mark-hahn",
+      "followers_url": "https://api.github.com/users/mark-hahn/followers",
+      "following_url": "https://api.github.com/users/mark-hahn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mark-hahn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mark-hahn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mark-hahn/subscriptions",
+      "organizations_url": "https://api.github.com/users/mark-hahn/orgs",
+      "repos_url": "https://api.github.com/users/mark-hahn/repos",
+      "events_url": "https://api.github.com/users/mark-hahn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mark-hahn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-13T20:56:35Z",
+    "updated_at": "2015-02-13T20:56:35Z",
+    "body": "Actually it does work.  On windows I used `apm config set https-proxy http://localhost:8888` and then fiddler picked up the traffic.  See the thread about proxies here https://discuss.atom.io/t/is-there-any-proxy-settings/710/28\n"
+  }
+]

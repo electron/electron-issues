@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/86407135",
+    "html_url": "https://github.com/electron/electron/pull/1304#issuecomment-86407135",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1304",
+    "id": 86407135,
+    "user": {
+      "login": "bwin",
+      "id": 1673361,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1673361?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bwin",
+      "html_url": "https://github.com/bwin",
+      "followers_url": "https://api.github.com/users/bwin/followers",
+      "following_url": "https://api.github.com/users/bwin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bwin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bwin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bwin/subscriptions",
+      "organizations_url": "https://api.github.com/users/bwin/orgs",
+      "repos_url": "https://api.github.com/users/bwin/repos",
+      "events_url": "https://api.github.com/users/bwin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bwin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-26T08:48:17Z",
+    "updated_at": "2015-03-26T09:05:51Z",
+    "body": "~~I don't think Aero Snap is a special state, AFAIK it just changes width/height and position BUT I could be wrong.~~\n\nIt seems I was wrong. When I snap a window to a side and change my resolution down and then up again, it always spans half of the screen, so there _is_ a special Aero Snap state.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/86416844",
+    "html_url": "https://github.com/electron/electron/pull/1304#issuecomment-86416844",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1304",
+    "id": 86416844,
+    "user": {
+      "login": "bwin",
+      "id": 1673361,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1673361?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bwin",
+      "html_url": "https://github.com/bwin",
+      "followers_url": "https://api.github.com/users/bwin/followers",
+      "following_url": "https://api.github.com/users/bwin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bwin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bwin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bwin/subscriptions",
+      "organizations_url": "https://api.github.com/users/bwin/orgs",
+      "repos_url": "https://api.github.com/users/bwin/repos",
+      "events_url": "https://api.github.com/users/bwin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bwin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-26T09:11:20Z",
+    "updated_at": "2015-03-26T09:11:20Z",
+    "body": "Just writing this because I have the habit of editing comments and was not sure if you've seen it.\nDon't believe my lies... I was wrong.\n"
+  }
+]

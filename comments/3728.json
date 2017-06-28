@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/163183644",
+    "html_url": "https://github.com/electron/electron/issues/3728#issuecomment-163183644",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3728",
+    "id": 163183644,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-09T10:36:38Z",
+    "updated_at": "2015-12-09T10:36:38Z",
+    "body": "I suggest asking about this in https://github.com/Squirrel/Squirrel.Mac/issues, the developers there should be able to give you much better answers.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/252446711",
+    "html_url": "https://github.com/electron/electron/issues/3728#issuecomment-252446711",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3728",
+    "id": 252446711,
+    "user": {
+      "login": "jamesopti",
+      "id": 3718812,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3718812?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jamesopti",
+      "html_url": "https://github.com/jamesopti",
+      "followers_url": "https://api.github.com/users/jamesopti/followers",
+      "following_url": "https://api.github.com/users/jamesopti/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jamesopti/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jamesopti/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jamesopti/subscriptions",
+      "organizations_url": "https://api.github.com/users/jamesopti/orgs",
+      "repos_url": "https://api.github.com/users/jamesopti/repos",
+      "events_url": "https://api.github.com/users/jamesopti/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jamesopti/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-08T20:30:18Z",
+    "updated_at": "2016-10-08T20:30:18Z",
+    "body": "@Rokt33r - Did you ever find a solution to this?\n\nThe same thing is happening to me.\n\nAny help would be awesome!\n"
+  }
+]

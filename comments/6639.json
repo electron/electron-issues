@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/235991874",
+    "html_url": "https://github.com/electron/electron/issues/6639#issuecomment-235991874",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6639",
+    "id": 235991874,
+    "user": {
+      "login": "danyelikekanye",
+      "id": 19253976,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19253976?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/danyelikekanye",
+      "html_url": "https://github.com/danyelikekanye",
+      "followers_url": "https://api.github.com/users/danyelikekanye/followers",
+      "following_url": "https://api.github.com/users/danyelikekanye/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danyelikekanye/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danyelikekanye/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danyelikekanye/subscriptions",
+      "organizations_url": "https://api.github.com/users/danyelikekanye/orgs",
+      "repos_url": "https://api.github.com/users/danyelikekanye/repos",
+      "events_url": "https://api.github.com/users/danyelikekanye/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danyelikekanye/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-28T18:58:47Z",
+    "updated_at": "2016-07-28T18:58:47Z",
+    "body": ".\n"
+  }
+]

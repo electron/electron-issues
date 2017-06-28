@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/114336440",
+    "html_url": "https://github.com/electron/electron/issues/2032#issuecomment-114336440",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2032",
+    "id": 114336440,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-06-23T03:00:57Z",
+    "updated_at": "2015-06-23T03:00:57Z",
+    "body": "It is currently tracked at #959.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/124708787",
+    "html_url": "https://github.com/electron/electron/issues/2032#issuecomment-124708787",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2032",
+    "id": 124708787,
+    "user": {
+      "login": "gajus",
+      "id": 973543,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/973543?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gajus",
+      "html_url": "https://github.com/gajus",
+      "followers_url": "https://api.github.com/users/gajus/followers",
+      "following_url": "https://api.github.com/users/gajus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gajus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gajus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gajus/subscriptions",
+      "organizations_url": "https://api.github.com/users/gajus/orgs",
+      "repos_url": "https://api.github.com/users/gajus/repos",
+      "events_url": "https://api.github.com/users/gajus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gajus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-24T20:20:24Z",
+    "updated_at": "2015-07-25T09:00:08Z",
+    "body": "@zcbenz I don't agree. While the title of the issue is somewhat relevant, the body of the issue is completely irrelevant:\n\n> When I use a webview and log in to a website (let's say github) it appears the session/cookie information is lost after restarting the application. Is there a way to enable this on the webview?\n\nThis issue describes ability to have multiple windows that have isolated sessions.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/248135949",
+    "html_url": "https://github.com/electron/electron/issues/7243#issuecomment-248135949",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7243",
+    "id": 248135949,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-19T21:41:11Z",
+    "updated_at": "2016-09-19T21:41:18Z",
+    "body": "> Electron version: v1.2.5\n\nCan you check if you see the same behavior in `1.4.0`?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/248272395",
+    "html_url": "https://github.com/electron/electron/issues/7243#issuecomment-248272395",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7243",
+    "id": 248272395,
+    "user": {
+      "login": "h421933728",
+      "id": 8063451,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8063451?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/h421933728",
+      "html_url": "https://github.com/h421933728",
+      "followers_url": "https://api.github.com/users/h421933728/followers",
+      "following_url": "https://api.github.com/users/h421933728/following{/other_user}",
+      "gists_url": "https://api.github.com/users/h421933728/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/h421933728/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/h421933728/subscriptions",
+      "organizations_url": "https://api.github.com/users/h421933728/orgs",
+      "repos_url": "https://api.github.com/users/h421933728/repos",
+      "events_url": "https://api.github.com/users/h421933728/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/h421933728/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-20T11:14:47Z",
+    "updated_at": "2016-09-20T11:14:47Z",
+    "body": "when I run in electron 1.4.0, that's ok ,  thanks !\n"
+  }
+]

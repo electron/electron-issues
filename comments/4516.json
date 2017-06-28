@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/185204169",
+    "html_url": "https://github.com/electron/electron/issues/4516#issuecomment-185204169",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4516",
+    "id": 185204169,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-17T13:28:39Z",
+    "updated_at": "2016-02-17T13:28:39Z",
+    "body": "There were a few similar issues in Chromium:\nhttps://code.google.com/p/chromium/issues/detail?id=246256\nhttps://code.google.com/p/chromium/issues/detail?id=334020\n\nI think it is probably because something wrong happened when you installed your toolchain, I suggest just reinstalling MSVS.\n\nI'm closing this since it is some bug of the toolchain or the build tools, and we are not able to fix it on Electron's side.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/185213849",
+    "html_url": "https://github.com/electron/electron/issues/4516#issuecomment-185213849",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4516",
+    "id": 185213849,
+    "user": {
+      "login": "PokemonAshLovesMyTurkeyAndILikeYouTwo",
+      "id": 17089298,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17089298?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo",
+      "html_url": "https://github.com/PokemonAshLovesMyTurkeyAndILikeYouTwo",
+      "followers_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/followers",
+      "following_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/subscriptions",
+      "organizations_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/orgs",
+      "repos_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/repos",
+      "events_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PokemonAshLovesMyTurkeyAndILikeYouTwo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-17T13:55:44Z",
+    "updated_at": "2016-02-17T13:55:53Z",
+    "body": "Alrighty. I'll reinstall MSVS thanks for those links as well. Thank you\n"
+  }
+]

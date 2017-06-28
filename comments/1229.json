@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/78141025",
+    "html_url": "https://github.com/electron/electron/issues/1229#issuecomment-78141025",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1229",
+    "id": 78141025,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-03-10T20:28:28Z",
+    "updated_at": "2015-03-10T20:28:28Z",
+    "body": "This behavior is intended to prevent parsing recursive objects.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/78153495",
+    "html_url": "https://github.com/electron/electron/issues/1229#issuecomment-78153495",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1229",
+    "id": 78153495,
+    "user": {
+      "login": "teleclimber",
+      "id": 5631748,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5631748?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teleclimber",
+      "html_url": "https://github.com/teleclimber",
+      "followers_url": "https://api.github.com/users/teleclimber/followers",
+      "following_url": "https://api.github.com/users/teleclimber/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teleclimber/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teleclimber/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teleclimber/subscriptions",
+      "organizations_url": "https://api.github.com/users/teleclimber/orgs",
+      "repos_url": "https://api.github.com/users/teleclimber/repos",
+      "events_url": "https://api.github.com/users/teleclimber/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teleclimber/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-10T21:35:11Z",
+    "updated_at": "2015-03-10T21:35:11Z",
+    "body": "This behavior -- silently altering message data -- is pretty bad.\n\nI understand that we don't want to parse recursive objects. But this isn't a recursive object. At least it's not an object that is problematic to parse. If it were cyclical then I would completely understand, but it's not.\n\nIn any case, if Atom-Shell can't deal with the message data as it is, why would it **silently** alter it?? It seems that throwing an error would be far more appropriate than silently changing my data structure.\n"
+  }
+]

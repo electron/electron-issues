@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/274977324",
+    "html_url": "https://github.com/electron/electron/issues/8431#issuecomment-274977324",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8431",
+    "id": 274977324,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-01-24T23:52:55Z",
+    "updated_at": "2017-01-24T23:52:55Z",
+    "body": "> Is there any way to disable this, or replace it to only show my own help topics?\r\n\r\nLooks like this can be configured in the `.plist` file, from my testing if you add an any value then the default help topics aren't displayed.\r\n\r\nExample taken from https://developer.apple.com/library/content/documentation/Carbon/Conceptual/ProvidingUserAssitAppleHelp/registering_help/registering_help.html#//apple_ref/doc/uid/TP30000903-CH207-CHDGHHDF\r\n\r\n```xml\r\n<key>CFBundleHelpBookFolder</key>\r\n<string>SurfWriter.Help</string>\r\n<key>CFBundleHelpBookName</key>\r\n<string>com.mycompany.surfwriter.help</string>\r\n```\r\n\r\nWith those values:\r\n\r\n<img width=\"753\" alt=\"screen shot 2017-01-24 at 3 50 57 pm\" src=\"https://cloud.githubusercontent.com/assets/671378/22272084/fe500486-e24c-11e6-942f-bcaf709aed88.png\">\r\n\r\nWithout those values:\r\n\r\n<img width=\"685\" alt=\"screen shot 2017-01-24 at 3 51 11 pm\" src=\"https://cloud.githubusercontent.com/assets/671378/22272086/02a54b90-e24d-11e6-8e53-17c669b35c3c.png\">\r\n\r\n\r\nSo VSCode can tweak their plist to remove these, closing this out since this doesn't require an Electron change."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/274984381",
+    "html_url": "https://github.com/electron/electron/issues/8431#issuecomment-274984381",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8431",
+    "id": 274984381,
+    "user": {
+      "login": "roblourens",
+      "id": 323878,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/323878?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/roblourens",
+      "html_url": "https://github.com/roblourens",
+      "followers_url": "https://api.github.com/users/roblourens/followers",
+      "following_url": "https://api.github.com/users/roblourens/following{/other_user}",
+      "gists_url": "https://api.github.com/users/roblourens/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/roblourens/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/roblourens/subscriptions",
+      "organizations_url": "https://api.github.com/users/roblourens/orgs",
+      "repos_url": "https://api.github.com/users/roblourens/repos",
+      "events_url": "https://api.github.com/users/roblourens/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/roblourens/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-25T00:33:23Z",
+    "updated_at": "2017-01-25T00:33:23Z",
+    "body": "Thanks!"
+  }
+]

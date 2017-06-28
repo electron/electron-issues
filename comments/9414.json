@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/302296659",
+    "html_url": "https://github.com/electron/electron/issues/9414#issuecomment-302296659",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9414",
+    "id": 302296659,
+    "user": {
+      "login": "ccnokes",
+      "id": 1610343,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1610343?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ccnokes",
+      "html_url": "https://github.com/ccnokes",
+      "followers_url": "https://api.github.com/users/ccnokes/followers",
+      "following_url": "https://api.github.com/users/ccnokes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ccnokes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ccnokes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ccnokes/subscriptions",
+      "organizations_url": "https://api.github.com/users/ccnokes/orgs",
+      "repos_url": "https://api.github.com/users/ccnokes/repos",
+      "events_url": "https://api.github.com/users/ccnokes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ccnokes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-18T04:22:08Z",
+    "updated_at": "2017-05-18T04:22:08Z",
+    "body": "I started hacking together a native node addon to do this here: https://github.com/ccnokes/electron-named-image/tree/master\r\n\r\nThe main issue with it currently is that icons (like the up chevron) are black by default, so somehow I need to be able to change the color on them to white (otherwise they're hard to see in the touch bar). NSTouchBar seems to do this automatically when passed a NSImage, AFAIK. \r\n"
+  }
+]

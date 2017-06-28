@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/297579692",
+    "html_url": "https://github.com/electron/electron/issues/9296#issuecomment-297579692",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9296",
+    "id": 297579692,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-04-27T00:41:29Z",
+    "updated_at": "2017-04-27T00:41:29Z",
+    "body": "Looking at the changes in 1.3.6, it seems like this one might be affecting it: https://github.com/electron/electron/pull/7175"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/297642443",
+    "html_url": "https://github.com/electron/electron/issues/9296#issuecomment-297642443",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9296",
+    "id": 297642443,
+    "user": {
+      "login": "igogo5yo",
+      "id": 3601883,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3601883?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/igogo5yo",
+      "html_url": "https://github.com/igogo5yo",
+      "followers_url": "https://api.github.com/users/igogo5yo/followers",
+      "following_url": "https://api.github.com/users/igogo5yo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/igogo5yo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/igogo5yo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/igogo5yo/subscriptions",
+      "organizations_url": "https://api.github.com/users/igogo5yo/orgs",
+      "repos_url": "https://api.github.com/users/igogo5yo/repos",
+      "events_url": "https://api.github.com/users/igogo5yo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/igogo5yo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-27T08:02:54Z",
+    "updated_at": "2017-04-27T08:05:08Z",
+    "body": "@kevinsawicki maybe but I'm not sure because after my investigation I didn't find in OneDrive any logic which depends on window.history or window.navigator. \r\nThey are using knockout.js for switching this view and only after 1.3.6 knockout.js don't switch this view."
+  }
+]

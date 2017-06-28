@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/239915979",
+    "html_url": "https://github.com/electron/electron/pull/6848#issuecomment-239915979",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6848",
+    "id": 239915979,
+    "user": {
+      "login": "miniak",
+      "id": 1281234,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1281234?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/miniak",
+      "html_url": "https://github.com/miniak",
+      "followers_url": "https://api.github.com/users/miniak/followers",
+      "following_url": "https://api.github.com/users/miniak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/miniak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/miniak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/miniak/subscriptions",
+      "organizations_url": "https://api.github.com/users/miniak/orgs",
+      "repos_url": "https://api.github.com/users/miniak/repos",
+      "events_url": "https://api.github.com/users/miniak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/miniak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-15T20:17:37Z",
+    "updated_at": "2016-08-15T20:19:01Z",
+    "body": "<img width=\"914\" alt=\"screen shot 2016-08-15 at 10 18 46 pm\" src=\"https://cloud.githubusercontent.com/assets/1281234/17678157/409b80f4-6336-11e6-8b4c-9a06ad5f291f.png\">\n\nWorks well.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/240628957",
+    "html_url": "https://github.com/electron/electron/pull/6848#issuecomment-240628957",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6848",
+    "id": 240628957,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-18T05:40:52Z",
+    "updated_at": "2016-08-18T05:40:52Z",
+    "body": "👍 \n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/126304330",
+    "html_url": "https://github.com/electron/electron/pull/2381#issuecomment-126304330",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2381",
+    "id": 126304330,
+    "user": {
+      "login": "hokein",
+      "id": 2557445,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2557445?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hokein",
+      "html_url": "https://github.com/hokein",
+      "followers_url": "https://api.github.com/users/hokein/followers",
+      "following_url": "https://api.github.com/users/hokein/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hokein/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hokein/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hokein/subscriptions",
+      "organizations_url": "https://api.github.com/users/hokein/orgs",
+      "repos_url": "https://api.github.com/users/hokein/repos",
+      "events_url": "https://api.github.com/users/hokein/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hokein/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-30T12:16:19Z",
+    "updated_at": "2015-07-30T12:16:19Z",
+    "body": "Thanks for the follow-up work.\n\n> Do not change status item's length for every draw.\n\nLooks like the current implementation only considers the `image_`'s width  when calculating `iconWidth`. And the tray pressed icon length will not update with `alternateImage_` width.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/127140648",
+    "html_url": "https://github.com/electron/electron/pull/2381#issuecomment-127140648",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2381",
+    "id": 127140648,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-08-03T06:35:41Z",
+    "updated_at": "2015-08-03T06:35:41Z",
+    "body": "> Looks like the current implementation only considers the image_'s width when calculating iconWidth. And the tray pressed icon length will not update with alternateImage_ width.\n\nDidn't notice that, I'm not sure how upstream status item deals with this, but I think it is fine to ignore the situation when `image` and `alternateImage` have different sizes.\n"
+  }
+]

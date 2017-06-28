@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/276110183",
+    "html_url": "https://github.com/electron/electron/issues/8183#issuecomment-276110183",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8183",
+    "id": 276110183,
+    "user": {
+      "login": "EliaContiniTrendrating",
+      "id": 5594725,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5594725?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EliaContiniTrendrating",
+      "html_url": "https://github.com/EliaContiniTrendrating",
+      "followers_url": "https://api.github.com/users/EliaContiniTrendrating/followers",
+      "following_url": "https://api.github.com/users/EliaContiniTrendrating/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EliaContiniTrendrating/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EliaContiniTrendrating/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EliaContiniTrendrating/subscriptions",
+      "organizations_url": "https://api.github.com/users/EliaContiniTrendrating/orgs",
+      "repos_url": "https://api.github.com/users/EliaContiniTrendrating/repos",
+      "events_url": "https://api.github.com/users/EliaContiniTrendrating/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EliaContiniTrendrating/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-30T16:27:09Z",
+    "updated_at": "2017-01-30T16:27:54Z",
+    "body": "Electron version: 1.4.15\r\nOperating System: Ubuntu 16.04.1\r\n\r\nI have a similar problem, but everything works fine (also on Recently Used) until I add the browserWindow param to obtain a modal dialog. Sample code\r\n\r\n```\r\nconst {dialog} = require('electron').remote; // I'm in the renderer\r\n\r\ndialog.showOpenDialog(\r\n   //parentWindow,\r\n   {\r\n      filters: [\r\n         {\r\n            name: 'Text',\r\n            extensions: ['txt']\r\n         },\r\n         {\r\n            name: 'All files',\r\n            extensions: ['*']\r\n         }\r\n      ],\r\n      properties: ['openFile'],\r\n      title: 'Select a file'\r\n   },\r\n   (filePaths) => {\r\n      console.log(filePaths)\r\n   }\r\n);\r\n```\r\n\r\nIf I remove comment from parentWindow, filters are not applied, the callback is not call and the window freeze."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/305447760",
+    "html_url": "https://github.com/electron/electron/issues/8183#issuecomment-305447760",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8183",
+    "id": 305447760,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-01T09:59:27Z",
+    "updated_at": "2017-06-01T09:59:27Z",
+    "body": "This is a bug of GTK+, I'm afraid we are not able to fix this on Electron's side."
+  }
+]

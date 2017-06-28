@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/96997280",
+    "html_url": "https://github.com/electron/electron/issues/1501#issuecomment-96997280",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1501",
+    "id": 96997280,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-04-28T10:00:10Z",
+    "updated_at": "2015-04-28T10:00:10Z",
+    "body": "It is not frozen, it just takes too much time.\n\n[A recent update](https://github.com/atom/electron/pull/1384) has traded build time for binary size and performance, you can still build Debug version quickly with [minimal bootstrapping](https://github.com/atom/electron/blob/master/docs/development/build-system-overview.md#minimal-bootstrapping) though.\n"
+  }
+]

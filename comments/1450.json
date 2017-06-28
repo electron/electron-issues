@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/115901395",
+    "html_url": "https://github.com/electron/electron/issues/1450#issuecomment-115901395",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1450",
+    "id": 115901395,
+    "user": {
+      "login": "weikaolun",
+      "id": 547877,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/547877?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/weikaolun",
+      "html_url": "https://github.com/weikaolun",
+      "followers_url": "https://api.github.com/users/weikaolun/followers",
+      "following_url": "https://api.github.com/users/weikaolun/following{/other_user}",
+      "gists_url": "https://api.github.com/users/weikaolun/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/weikaolun/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/weikaolun/subscriptions",
+      "organizations_url": "https://api.github.com/users/weikaolun/orgs",
+      "repos_url": "https://api.github.com/users/weikaolun/repos",
+      "events_url": "https://api.github.com/users/weikaolun/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/weikaolun/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-26T21:57:47Z",
+    "updated_at": "2015-06-26T21:57:47Z",
+    "body": "+1\n"
+  }
+]

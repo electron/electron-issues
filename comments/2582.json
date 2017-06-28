@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/134563483",
+    "html_url": "https://github.com/electron/electron/issues/2582#issuecomment-134563483",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2582",
+    "id": 134563483,
+    "user": {
+      "login": "Art2B",
+      "id": 3877717,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3877717?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Art2B",
+      "html_url": "https://github.com/Art2B",
+      "followers_url": "https://api.github.com/users/Art2B/followers",
+      "following_url": "https://api.github.com/users/Art2B/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Art2B/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Art2B/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Art2B/subscriptions",
+      "organizations_url": "https://api.github.com/users/Art2B/orgs",
+      "repos_url": "https://api.github.com/users/Art2B/repos",
+      "events_url": "https://api.github.com/users/Art2B/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Art2B/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-25T11:59:25Z",
+    "updated_at": "2015-08-25T11:59:25Z",
+    "body": "I think this bug is linked to the asar file in which I bundled my app.\nI've tried to put directly the files of my app in `resources/default_app` folder of prebuilt binaries, and then I don't get the bug I described before.\n\nI don't know why, but try not bundle your app in asar file if you're concerned. Hope that will help\n"
+  }
+]

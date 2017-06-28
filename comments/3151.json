@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/149388649",
+    "html_url": "https://github.com/electron/electron/issues/3151#issuecomment-149388649",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3151",
+    "id": 149388649,
+    "user": {
+      "login": "joshaber",
+      "id": 13760,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13760?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/joshaber",
+      "html_url": "https://github.com/joshaber",
+      "followers_url": "https://api.github.com/users/joshaber/followers",
+      "following_url": "https://api.github.com/users/joshaber/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joshaber/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joshaber/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joshaber/subscriptions",
+      "organizations_url": "https://api.github.com/users/joshaber/orgs",
+      "repos_url": "https://api.github.com/users/joshaber/repos",
+      "events_url": "https://api.github.com/users/joshaber/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joshaber/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-20T00:57:30Z",
+    "updated_at": "2015-10-20T00:57:30Z",
+    "body": "Looks like it could be a permission problem caused by El Cap's System Integrity Protection.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/149417539",
+    "html_url": "https://github.com/electron/electron/issues/3151#issuecomment-149417539",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3151",
+    "id": 149417539,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-20T03:27:42Z",
+    "updated_at": "2015-10-20T03:27:42Z",
+    "body": "This is a duplicate of https://github.com/mafintosh/electron-prebuilt/issues/48.\n"
+  }
+]

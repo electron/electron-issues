@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/94430440",
+    "html_url": "https://github.com/electron/electron/pull/1444#issuecomment-94430440",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1444",
+    "id": 94430440,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-04-20T11:41:00Z",
+    "updated_at": "2015-04-20T11:41:00Z",
+    "body": "Thanks!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/94430941",
+    "html_url": "https://github.com/electron/electron/pull/1444#issuecomment-94430941",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1444",
+    "id": 94430941,
+    "user": {
+      "login": "NKMR6194",
+      "id": 4254002,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4254002?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NKMR6194",
+      "html_url": "https://github.com/NKMR6194",
+      "followers_url": "https://api.github.com/users/NKMR6194/followers",
+      "following_url": "https://api.github.com/users/NKMR6194/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NKMR6194/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NKMR6194/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NKMR6194/subscriptions",
+      "organizations_url": "https://api.github.com/users/NKMR6194/orgs",
+      "repos_url": "https://api.github.com/users/NKMR6194/repos",
+      "events_url": "https://api.github.com/users/NKMR6194/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NKMR6194/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-20T11:45:03Z",
+    "updated_at": "2015-04-20T11:45:03Z",
+    "body": "@zcbenz \n\nThank you, too.\nI think it's a great name.\n"
+  }
+]

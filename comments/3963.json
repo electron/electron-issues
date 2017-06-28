@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/168008908",
+    "html_url": "https://github.com/electron/electron/issues/3963#issuecomment-168008908",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3963",
+    "id": 168008908,
+    "user": {
+      "login": "levrik",
+      "id": 9491603,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9491603?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/levrik",
+      "html_url": "https://github.com/levrik",
+      "followers_url": "https://api.github.com/users/levrik/followers",
+      "following_url": "https://api.github.com/users/levrik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/levrik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/levrik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/levrik/subscriptions",
+      "organizations_url": "https://api.github.com/users/levrik/orgs",
+      "repos_url": "https://api.github.com/users/levrik/repos",
+      "events_url": "https://api.github.com/users/levrik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/levrik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-30T14:19:14Z",
+    "updated_at": "2015-12-30T14:19:53Z",
+    "body": "See the answer here: #3923 \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/168014387",
+    "html_url": "https://github.com/electron/electron/issues/3963#issuecomment-168014387",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3963",
+    "id": 168014387,
+    "user": {
+      "login": "KeitIG",
+      "id": 1311607,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1311607?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/KeitIG",
+      "html_url": "https://github.com/KeitIG",
+      "followers_url": "https://api.github.com/users/KeitIG/followers",
+      "following_url": "https://api.github.com/users/KeitIG/following{/other_user}",
+      "gists_url": "https://api.github.com/users/KeitIG/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/KeitIG/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/KeitIG/subscriptions",
+      "organizations_url": "https://api.github.com/users/KeitIG/orgs",
+      "repos_url": "https://api.github.com/users/KeitIG/repos",
+      "events_url": "https://api.github.com/users/KeitIG/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/KeitIG/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-30T14:52:48Z",
+    "updated_at": "2015-12-30T14:52:48Z",
+    "body": "Damn, so I have to find another way. Thanks.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225452212",
+    "html_url": "https://github.com/electron/electron/pull/6013#issuecomment-225452212",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6013",
+    "id": 225452212,
+    "user": {
+      "login": "miniak",
+      "id": 1281234,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1281234?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/miniak",
+      "html_url": "https://github.com/miniak",
+      "followers_url": "https://api.github.com/users/miniak/followers",
+      "following_url": "https://api.github.com/users/miniak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/miniak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/miniak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/miniak/subscriptions",
+      "organizations_url": "https://api.github.com/users/miniak/orgs",
+      "repos_url": "https://api.github.com/users/miniak/repos",
+      "events_url": "https://api.github.com/users/miniak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/miniak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-12T18:22:42Z",
+    "updated_at": "2016-06-12T18:22:42Z",
+    "body": "I am not sure about the method name, any suggestions?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225505444",
+    "html_url": "https://github.com/electron/electron/pull/6013#issuecomment-225505444",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6013",
+    "id": 225505444,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-13T07:18:08Z",
+    "updated_at": "2016-06-13T07:18:08Z",
+    "body": "The name looks to me 👍.\n"
+  }
+]

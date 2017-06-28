@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/161934625",
+    "html_url": "https://github.com/electron/electron/issues/3592#issuecomment-161934625",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3592",
+    "id": 161934625,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-04T10:43:36Z",
+    "updated_at": "2015-12-04T10:43:47Z",
+    "body": "No currently there is no way to do that, but you can just call `webContents.selectAll()` method in the `click` handler, most `role`s have corresponding APIs.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/163701572",
+    "html_url": "https://github.com/electron/electron/issues/3592#issuecomment-163701572",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3592",
+    "id": 163701572,
+    "user": {
+      "login": "kmsheng",
+      "id": 880569,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/880569?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kmsheng",
+      "html_url": "https://github.com/kmsheng",
+      "followers_url": "https://api.github.com/users/kmsheng/followers",
+      "following_url": "https://api.github.com/users/kmsheng/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kmsheng/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kmsheng/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kmsheng/subscriptions",
+      "organizations_url": "https://api.github.com/users/kmsheng/orgs",
+      "repos_url": "https://api.github.com/users/kmsheng/repos",
+      "events_url": "https://api.github.com/users/kmsheng/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kmsheng/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-10T17:52:24Z",
+    "updated_at": "2015-12-10T17:52:24Z",
+    "body": "Got it. Thanks\n"
+  }
+]

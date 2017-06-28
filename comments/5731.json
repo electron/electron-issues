@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/222126048",
+    "html_url": "https://github.com/electron/electron/issues/5731#issuecomment-222126048",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5731",
+    "id": 222126048,
+    "user": {
+      "login": "beljand",
+      "id": 697031,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/697031?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/beljand",
+      "html_url": "https://github.com/beljand",
+      "followers_url": "https://api.github.com/users/beljand/followers",
+      "following_url": "https://api.github.com/users/beljand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/beljand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/beljand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/beljand/subscriptions",
+      "organizations_url": "https://api.github.com/users/beljand/orgs",
+      "repos_url": "https://api.github.com/users/beljand/repos",
+      "events_url": "https://api.github.com/users/beljand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/beljand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-27T11:42:58Z",
+    "updated_at": "2016-05-27T11:42:58Z",
+    "body": "To fix this issue use 'HashLocationStrategy'\n\n`provide(LocationStrategy, {useClass: HashLocationStrategy}),`\n"
+  }
+]

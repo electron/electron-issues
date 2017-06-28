@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/94422151",
+    "html_url": "https://github.com/electron/electron/issues/1447#issuecomment-94422151",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1447",
+    "id": 94422151,
+    "user": {
+      "login": "jorangreef",
+      "id": 413206,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/413206?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorangreef",
+      "html_url": "https://github.com/jorangreef",
+      "followers_url": "https://api.github.com/users/jorangreef/followers",
+      "following_url": "https://api.github.com/users/jorangreef/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorangreef/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorangreef/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorangreef/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorangreef/orgs",
+      "repos_url": "https://api.github.com/users/jorangreef/repos",
+      "events_url": "https://api.github.com/users/jorangreef/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorangreef/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-20T10:57:59Z",
+    "updated_at": "2015-04-20T10:57:59Z",
+    "body": "When you spawn subprocesses they inherit all the open file descriptors of the parent process unless those descriptors have been specifically flagged as FD_CLOEXEC.\n\nDo Electron and Chromium set the close-on-exec flag for all file descriptors?\n\nRe-spawning my app, I see the first instance has 99 fd's, the second instance has 139 fd's, the third instance has 179 fd's etc., and so on until the last instance has 1040 fd's at which point no more instances can be spawned.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/96121160",
+    "html_url": "https://github.com/electron/electron/issues/1447#issuecomment-96121160",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1447",
+    "id": 96121160,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-04-25T02:00:37Z",
+    "updated_at": "2015-04-25T02:00:37Z",
+    "body": "Chromium doesn't set `FD_CLOEXEC` for all file operations, I think it could be the reason of your problem. It is nearly impossible to patch all the file operations in Chromium, so I'm afraid you have to use a separate executable to restart Electron.\n"
+  }
+]

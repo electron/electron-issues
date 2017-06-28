@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/245754934",
+    "html_url": "https://github.com/electron/electron/pull/7143#issuecomment-245754934",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7143",
+    "id": 245754934,
+    "user": {
+      "login": "Haacked",
+      "id": 19977,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/19977?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Haacked",
+      "html_url": "https://github.com/Haacked",
+      "followers_url": "https://api.github.com/users/Haacked/followers",
+      "following_url": "https://api.github.com/users/Haacked/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Haacked/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Haacked/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Haacked/subscriptions",
+      "organizations_url": "https://api.github.com/users/Haacked/orgs",
+      "repos_url": "https://api.github.com/users/Haacked/repos",
+      "events_url": "https://api.github.com/users/Haacked/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Haacked/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-08T21:58:31Z",
+    "updated_at": "2016-09-08T21:58:31Z",
+    "body": "LGTM and I confirmed it fixes the tests. This is ready to merge once the travis-ci build completes.\n"
+  }
+]

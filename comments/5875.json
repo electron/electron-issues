@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223816684",
+    "html_url": "https://github.com/electron/electron/issues/5875#issuecomment-223816684",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5875",
+    "id": 223816684,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-05T14:38:13Z",
+    "updated_at": "2016-06-05T14:38:48Z",
+    "body": "That file is from [Brightray](https://github.com/electron/brightray/blob/master/browser/inspectable_web_contents.cc). You'll need to clone the Electron source from the [v1.2.1 tag](https://github.com/electron/electron/tree/v1.2.1). Then when VS prompts you to locate the source file browse to `vendor/brightray/browser` and press the `Open` button.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223854110",
+    "html_url": "https://github.com/electron/electron/issues/5875#issuecomment-223854110",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5875",
+    "id": 223854110,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-06T02:04:04Z",
+    "updated_at": "2016-06-06T02:04:04Z",
+    "body": "Thanks @enlight for answering it! I'm closing this issue now.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/131664203",
+    "html_url": "https://github.com/electron/electron/issues/2484#issuecomment-131664203",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2484",
+    "id": 131664203,
+    "user": {
+      "login": "OlsonDev",
+      "id": 308072,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/308072?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/OlsonDev",
+      "html_url": "https://github.com/OlsonDev",
+      "followers_url": "https://api.github.com/users/OlsonDev/followers",
+      "following_url": "https://api.github.com/users/OlsonDev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/OlsonDev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/OlsonDev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/OlsonDev/subscriptions",
+      "organizations_url": "https://api.github.com/users/OlsonDev/orgs",
+      "repos_url": "https://api.github.com/users/OlsonDev/repos",
+      "events_url": "https://api.github.com/users/OlsonDev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/OlsonDev/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-17T03:01:52Z",
+    "updated_at": "2015-08-17T03:08:22Z",
+    "body": "I just tried it on Windows 10. It returned `en-US` after I set the default as `es-419` (aka Spanish as spoken in the Latin America/Caribbean regions). Then I logged out of Windows, logged back in, reran it. Electron returned `es-419`.\n\nDid you try signing out then back in?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/132098154",
+    "html_url": "https://github.com/electron/electron/issues/2484#issuecomment-132098154",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2484",
+    "id": 132098154,
+    "user": {
+      "login": "pracucci",
+      "id": 1701904,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1701904?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pracucci",
+      "html_url": "https://github.com/pracucci",
+      "followers_url": "https://api.github.com/users/pracucci/followers",
+      "following_url": "https://api.github.com/users/pracucci/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pracucci/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pracucci/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pracucci/subscriptions",
+      "organizations_url": "https://api.github.com/users/pracucci/orgs",
+      "repos_url": "https://api.github.com/users/pracucci/repos",
+      "events_url": "https://api.github.com/users/pracucci/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pracucci/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-18T07:14:49Z",
+    "updated_at": "2015-08-18T07:14:49Z",
+    "body": "I found the root cause of the issue, thanks to @hongrich help on Slack's #electron channel. In order to make `navigator.language` (and generally, language detection) working in Electron on Mac, the `Resources` directory should contain a `<lang>.lproj` empty directory for each supported language. Since the directory is empty and git doesn't track empty dirs, I actually lost it when importing our project (including Electron pre-built binaries) to git.\n"
+  }
+]

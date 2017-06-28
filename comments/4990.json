@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/204600684",
+    "html_url": "https://github.com/electron/electron/issues/4990#issuecomment-204600684",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4990",
+    "id": 204600684,
+    "user": {
+      "login": "mnquintana",
+      "id": 823545,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/823545?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mnquintana",
+      "html_url": "https://github.com/mnquintana",
+      "followers_url": "https://api.github.com/users/mnquintana/followers",
+      "following_url": "https://api.github.com/users/mnquintana/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mnquintana/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mnquintana/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mnquintana/subscriptions",
+      "organizations_url": "https://api.github.com/users/mnquintana/orgs",
+      "repos_url": "https://api.github.com/users/mnquintana/repos",
+      "events_url": "https://api.github.com/users/mnquintana/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mnquintana/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-01T22:58:06Z",
+    "updated_at": "2016-04-01T22:58:06Z",
+    "body": "Context menu styles are determined by the OS, so unfortunately there's no way to style them. :confused: If you want to use a custom-styled context menu, you'd have to forgo the built-in Electron API for context menus and write your own. \n"
+  }
+]

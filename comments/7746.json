@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/257196123",
+    "html_url": "https://github.com/electron/electron/issues/7746#issuecomment-257196123",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7746",
+    "id": 257196123,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-31T01:30:19Z",
+    "updated_at": "2016-10-31T01:30:19Z",
+    "body": "This is because `WebContents` (the web page) view has hijacked those window messages, if you do not load any page in window you can observe all messages are being passed.\n\nI'm closing this as won't fix because I don't think there is any solution to this.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/257281473",
+    "html_url": "https://github.com/electron/electron/issues/7746#issuecomment-257281473",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7746",
+    "id": 257281473,
+    "user": {
+      "login": "aknuth",
+      "id": 1428662,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1428662?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aknuth",
+      "html_url": "https://github.com/aknuth",
+      "followers_url": "https://api.github.com/users/aknuth/followers",
+      "following_url": "https://api.github.com/users/aknuth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aknuth/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aknuth/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aknuth/subscriptions",
+      "organizations_url": "https://api.github.com/users/aknuth/orgs",
+      "repos_url": "https://api.github.com/users/aknuth/repos",
+      "events_url": "https://api.github.com/users/aknuth/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aknuth/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-31T12:30:00Z",
+    "updated_at": "2016-10-31T12:30:00Z",
+    "body": "Thanks for your investigations and your answer. Now I know that I've to go an other way to surely receive all mouse & keyboard interactions.\n"
+  }
+]

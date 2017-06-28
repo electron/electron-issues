@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/110209429",
+    "html_url": "https://github.com/electron/electron/issues/1905#issuecomment-110209429",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1905",
+    "id": 110209429,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-06-09T03:13:15Z",
+    "updated_at": "2015-06-09T03:13:15Z",
+    "body": "It is a harmless warning printed by Chromium, you can [suppress the warnings](https://github.com/atom/electron/blob/master/docs/api/chrome-command-line-switches.md#--vlog_level) if you don't want to see them.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/110216805",
+    "html_url": "https://github.com/electron/electron/issues/1905#issuecomment-110216805",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1905",
+    "id": 110216805,
+    "user": {
+      "login": "exoticknight",
+      "id": 1171407,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1171407?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/exoticknight",
+      "html_url": "https://github.com/exoticknight",
+      "followers_url": "https://api.github.com/users/exoticknight/followers",
+      "following_url": "https://api.github.com/users/exoticknight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/exoticknight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/exoticknight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/exoticknight/subscriptions",
+      "organizations_url": "https://api.github.com/users/exoticknight/orgs",
+      "repos_url": "https://api.github.com/users/exoticknight/repos",
+      "events_url": "https://api.github.com/users/exoticknight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/exoticknight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-09T03:59:40Z",
+    "updated_at": "2015-06-09T03:59:40Z",
+    "body": "@zcbenz thx~\n"
+  }
+]

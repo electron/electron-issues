@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/134007167",
+    "html_url": "https://github.com/electron/electron/issues/2441#issuecomment-134007167",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2441",
+    "id": 134007167,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-08-24T03:38:44Z",
+    "updated_at": "2015-08-24T03:38:44Z",
+    "body": "Can you ask the users to check if `YouApp.app/Contents/Frameworks` contain all necessary things? \n\n``` bash\n$ ls out/D/Electron.app/Contents/Frameworks/\nElectron Framework.framework Mantle.framework\nElectron Helper EH.app       ReactiveCocoa.framework\nElectron Helper NP.app       Squirrel.framework\nElectron Helper.app\n```\n\nAlso your problem seems to be exactly the same with this one:\nhttps://www.sencha.com/forum/showthread.php?303895-Works-perfectly-in-Windows-can-t-open-it-on-a-Mac&p=1111574\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/272218365",
+    "html_url": "https://github.com/electron/electron/issues/2441#issuecomment-272218365",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2441",
+    "id": 272218365,
+    "user": {
+      "login": "Jmales",
+      "id": 22914881,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/22914881?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Jmales",
+      "html_url": "https://github.com/Jmales",
+      "followers_url": "https://api.github.com/users/Jmales/followers",
+      "following_url": "https://api.github.com/users/Jmales/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Jmales/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Jmales/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Jmales/subscriptions",
+      "organizations_url": "https://api.github.com/users/Jmales/orgs",
+      "repos_url": "https://api.github.com/users/Jmales/repos",
+      "events_url": "https://api.github.com/users/Jmales/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Jmales/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-12T16:56:09Z",
+    "updated_at": "2017-01-12T16:56:09Z",
+    "body": "What is the solution for this problem after all?"
+  }
+]

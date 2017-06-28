@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217763159",
+    "html_url": "https://github.com/electron/electron/issues/5448#issuecomment-217763159",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5448",
+    "id": 217763159,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-09T02:18:33Z",
+    "updated_at": "2016-05-09T02:18:33Z",
+    "body": "This is a very good idea, the only problem is it is too hard to implement, especially on OS X. To implement this there are three major tasks:\n1. Extend our native and JavaScript menu model code to accept `acceleratorLabel`;\n2. Patch Chromium's menu implementation to allow drawing custom accelerator on Linux and Windows;\n3. Rewrite the menu implementation on OS X to draw custom menu items.\n\nThe (3) is particularly hard to implement since we have to rewrite the drawing code of the menu item from scratch and follow system's default behavior precisely.\n\nSo I'm closing this issue as won't fix, because considering the difficulty of it, I don't think it worths the efforts. However if anyone wants to challenge this, pull requests are welcomed.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/218464484",
+    "html_url": "https://github.com/electron/electron/issues/5448#issuecomment-218464484",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5448",
+    "id": 218464484,
+    "user": {
+      "login": "sindresorhus",
+      "id": 170270,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/170270?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sindresorhus",
+      "html_url": "https://github.com/sindresorhus",
+      "followers_url": "https://api.github.com/users/sindresorhus/followers",
+      "following_url": "https://api.github.com/users/sindresorhus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sindresorhus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sindresorhus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sindresorhus/subscriptions",
+      "organizations_url": "https://api.github.com/users/sindresorhus/orgs",
+      "repos_url": "https://api.github.com/users/sindresorhus/repos",
+      "events_url": "https://api.github.com/users/sindresorhus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sindresorhus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-11T13:48:45Z",
+    "updated_at": "2016-05-11T13:48:45Z",
+    "body": "That's fair. Thanks for explaining :)\n"
+  }
+]

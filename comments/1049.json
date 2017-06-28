@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/81583277",
+    "html_url": "https://github.com/electron/electron/issues/1049#issuecomment-81583277",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1049",
+    "id": 81583277,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-03-16T11:08:07Z",
+    "updated_at": "2015-03-16T11:08:07Z",
+    "body": "This requires hacking into Chromium's drawing code, and I don't even know if it is solvable, so I'm closing this since no one would work on it. We will still accept it if someone sends a pull request.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/181986920",
+    "html_url": "https://github.com/electron/electron/issues/1049#issuecomment-181986920",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1049",
+    "id": 181986920,
+    "user": {
+      "login": "Mr0grog",
+      "id": 74178,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/74178?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Mr0grog",
+      "html_url": "https://github.com/Mr0grog",
+      "followers_url": "https://api.github.com/users/Mr0grog/followers",
+      "following_url": "https://api.github.com/users/Mr0grog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Mr0grog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Mr0grog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Mr0grog/subscriptions",
+      "organizations_url": "https://api.github.com/users/Mr0grog/orgs",
+      "repos_url": "https://api.github.com/users/Mr0grog/repos",
+      "events_url": "https://api.github.com/users/Mr0grog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Mr0grog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-09T18:11:25Z",
+    "updated_at": "2016-02-09T18:11:58Z",
+    "body": "FWIW, it seems like wrapping a call to `capturePage()` in `window.webContents.beginFrameSubscription()` guarantees that the backing store is up-to-date:\n\n``` js\nwindow.webContents.beginFrameSubscription(function(buffer) {\n  window.webContents.endFrameSubscription();\n  window.capturePage(rect, callback);\n});\n```\n\nObviously that's a pretty hacky workaround and actually having `capturePage` wait would be better, but for anybody experiencing this problem (I was pretty stymied by it for a few hours trying to use Nightmare.js to capture screenshots), it does seem to work.\n"
+  }
+]

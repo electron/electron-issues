@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/301509937",
+    "html_url": "https://github.com/electron/electron/issues/9469#issuecomment-301509937",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9469",
+    "id": 301509937,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-15T15:25:46Z",
+    "updated_at": "2017-05-15T15:25:46Z",
+    "body": "@farfromrefug PR is up to fix the return type, thanks for picking up on this 👍 "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/301510436",
+    "html_url": "https://github.com/electron/electron/issues/9469#issuecomment-301510436",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9469",
+    "id": 301510436,
+    "user": {
+      "login": "farfromrefug",
+      "id": 655344,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/655344?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/farfromrefug",
+      "html_url": "https://github.com/farfromrefug",
+      "followers_url": "https://api.github.com/users/farfromrefug/followers",
+      "following_url": "https://api.github.com/users/farfromrefug/following{/other_user}",
+      "gists_url": "https://api.github.com/users/farfromrefug/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/farfromrefug/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/farfromrefug/subscriptions",
+      "organizations_url": "https://api.github.com/users/farfromrefug/orgs",
+      "repos_url": "https://api.github.com/users/farfromrefug/repos",
+      "events_url": "https://api.github.com/users/farfromrefug/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/farfromrefug/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-15T15:27:24Z",
+    "updated_at": "2017-05-15T15:27:24Z",
+    "body": "@MarshallOfSound thank YOU, that was fast! "
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/178874517",
+    "html_url": "https://github.com/electron/electron/issues/4336#issuecomment-178874517",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4336",
+    "id": 178874517,
+    "user": {
+      "login": "baconbrad",
+      "id": 4763342,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4763342?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/baconbrad",
+      "html_url": "https://github.com/baconbrad",
+      "followers_url": "https://api.github.com/users/baconbrad/followers",
+      "following_url": "https://api.github.com/users/baconbrad/following{/other_user}",
+      "gists_url": "https://api.github.com/users/baconbrad/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/baconbrad/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/baconbrad/subscriptions",
+      "organizations_url": "https://api.github.com/users/baconbrad/orgs",
+      "repos_url": "https://api.github.com/users/baconbrad/repos",
+      "events_url": "https://api.github.com/users/baconbrad/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/baconbrad/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-02T22:58:31Z",
+    "updated_at": "2016-02-02T22:58:31Z",
+    "body": "Works fine on 0.36.0. Seems several versions suffer from this from then and now. Might be an issue on my side. I am going to close this and look into it more and reopen if it is Electron.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/178910133",
+    "html_url": "https://github.com/electron/electron/issues/4336#issuecomment-178910133",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4336",
+    "id": 178910133,
+    "user": {
+      "login": "baconbrad",
+      "id": 4763342,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4763342?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/baconbrad",
+      "html_url": "https://github.com/baconbrad",
+      "followers_url": "https://api.github.com/users/baconbrad/followers",
+      "following_url": "https://api.github.com/users/baconbrad/following{/other_user}",
+      "gists_url": "https://api.github.com/users/baconbrad/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/baconbrad/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/baconbrad/subscriptions",
+      "organizations_url": "https://api.github.com/users/baconbrad/orgs",
+      "repos_url": "https://api.github.com/users/baconbrad/repos",
+      "events_url": "https://api.github.com/users/baconbrad/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/baconbrad/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-03T00:29:40Z",
+    "updated_at": "2016-02-03T00:29:40Z",
+    "body": "I am confirming this is not an Electron issue.\n"
+  }
+]

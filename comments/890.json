@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/65732701",
+    "html_url": "https://github.com/electron/electron/issues/890#issuecomment-65732701",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/890",
+    "id": 65732701,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-12-05T01:09:08Z",
+    "updated_at": "2014-12-05T01:09:08Z",
+    "body": "It''s called [FlashFrame](https://github.com/atom/atom-shell/blob/master/docs/api/browser-window.md#browserwindowflashframeflag) in atom-shell.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/65750679",
+    "html_url": "https://github.com/electron/electron/issues/890#issuecomment-65750679",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/890",
+    "id": 65750679,
+    "user": {
+      "login": "hachre",
+      "id": 885304,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/885304?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hachre",
+      "html_url": "https://github.com/hachre",
+      "followers_url": "https://api.github.com/users/hachre/followers",
+      "following_url": "https://api.github.com/users/hachre/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hachre/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hachre/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hachre/subscriptions",
+      "organizations_url": "https://api.github.com/users/hachre/orgs",
+      "repos_url": "https://api.github.com/users/hachre/repos",
+      "events_url": "https://api.github.com/users/hachre/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hachre/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-05T05:56:08Z",
+    "updated_at": "2014-12-05T05:56:08Z",
+    "body": "@zcbenz Don't know how I could overlook that, thanks!\n"
+  }
+]

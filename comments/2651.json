@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/136273179",
+    "html_url": "https://github.com/electron/electron/issues/2651#issuecomment-136273179",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2651",
+    "id": 136273179,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-08-31T05:49:04Z",
+    "updated_at": "2015-08-31T05:49:04Z",
+    "body": "I suggest writing a Node.js module for this, it is independent from Electron's APIs and we can not add API for every platform feature.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/136296774",
+    "html_url": "https://github.com/electron/electron/issues/2651#issuecomment-136296774",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2651",
+    "id": 136296774,
+    "user": {
+      "login": "RIAEvangelist",
+      "id": 369041,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/369041?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RIAEvangelist",
+      "html_url": "https://github.com/RIAEvangelist",
+      "followers_url": "https://api.github.com/users/RIAEvangelist/followers",
+      "following_url": "https://api.github.com/users/RIAEvangelist/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RIAEvangelist/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RIAEvangelist/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RIAEvangelist/subscriptions",
+      "organizations_url": "https://api.github.com/users/RIAEvangelist/orgs",
+      "repos_url": "https://api.github.com/users/RIAEvangelist/repos",
+      "events_url": "https://api.github.com/users/RIAEvangelist/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RIAEvangelist/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-31T08:11:54Z",
+    "updated_at": "2015-08-31T08:11:54Z",
+    "body": "Wasn't sure if this was something supported or not. Thought it was worth asking as it seemed pretty basic. Default app to open .txt or .mp4 etc.\n\nThanks for feedback.\n"
+  }
+]

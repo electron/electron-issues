@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/177457236",
+    "html_url": "https://github.com/electron/electron/issues/4290#issuecomment-177457236",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4290",
+    "id": 177457236,
+    "user": {
+      "login": "jaulz",
+      "id": 5358638,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5358638?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaulz",
+      "html_url": "https://github.com/jaulz",
+      "followers_url": "https://api.github.com/users/jaulz/followers",
+      "following_url": "https://api.github.com/users/jaulz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jaulz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jaulz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jaulz/subscriptions",
+      "organizations_url": "https://api.github.com/users/jaulz/orgs",
+      "repos_url": "https://api.github.com/users/jaulz/repos",
+      "events_url": "https://api.github.com/users/jaulz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jaulz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-31T10:22:45Z",
+    "updated_at": "2016-01-31T10:22:45Z",
+    "body": "Okay, just a few minutes after posting this issue I came across the possibility to implement the save dialog by myself. Thus you can find out the path from that instance:\n\n```\n      const savePath = require('dialog').showSaveDialog({\n        defaultPath: path.join(app.getPath('downloads'), item.getFilename())\n      })\n      if (savePath) {\n        item.setSavePath(savePath)\n      } else {\n        item.cancel()\n      }\n```\n"
+  }
+]

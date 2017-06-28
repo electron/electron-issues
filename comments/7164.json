@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/289292470",
+    "html_url": "https://github.com/electron/electron/issues/7164#issuecomment-289292470",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7164",
+    "id": 289292470,
+    "user": {
+      "login": "tborychowski",
+      "id": 392513,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/392513?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tborychowski",
+      "html_url": "https://github.com/tborychowski",
+      "followers_url": "https://api.github.com/users/tborychowski/followers",
+      "following_url": "https://api.github.com/users/tborychowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tborychowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tborychowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tborychowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/tborychowski/orgs",
+      "repos_url": "https://api.github.com/users/tborychowski/repos",
+      "events_url": "https://api.github.com/users/tborychowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tborychowski/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-26T15:45:42Z",
+    "updated_at": "2017-03-26T15:45:42Z",
+    "body": "this happens to me too. seems to be caused by the `webview` offset from the main (parent) window. If the `webview` starts in 0,0 px, it works.\r\nI've hacked it by positioning my `webview` like that, and then setting the padding of the loaded html to offset my sidebar. But this is far from ideal."
+  }
+]

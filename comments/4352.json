@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/181666328",
+    "html_url": "https://github.com/electron/electron/issues/4352#issuecomment-181666328",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4352",
+    "id": 181666328,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-09T01:53:16Z",
+    "updated_at": "2016-02-09T01:53:48Z",
+    "body": "@Thomas101 are you listening to the `will-download` event from the render process or the main process?\n\nI'm able to reproduce it when listening from the render process but it does seem to work correctly when listening from the main process\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/181759873",
+    "html_url": "https://github.com/electron/electron/issues/4352#issuecomment-181759873",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4352",
+    "id": 181759873,
+    "user": {
+      "login": "Thomas101",
+      "id": 103586,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/103586?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Thomas101",
+      "html_url": "https://github.com/Thomas101",
+      "followers_url": "https://api.github.com/users/Thomas101/followers",
+      "following_url": "https://api.github.com/users/Thomas101/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Thomas101/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Thomas101/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Thomas101/subscriptions",
+      "organizations_url": "https://api.github.com/users/Thomas101/orgs",
+      "repos_url": "https://api.github.com/users/Thomas101/repos",
+      "events_url": "https://api.github.com/users/Thomas101/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Thomas101/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-09T08:37:05Z",
+    "updated_at": "2016-02-09T08:37:05Z",
+    "body": "It was in the renderer process, I'll change it to the main process. Thanks!\n"
+  }
+]

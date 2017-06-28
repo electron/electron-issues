@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/303837852",
+    "html_url": "https://github.com/electron/electron/issues/9567#issuecomment-303837852",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9567",
+    "id": 303837852,
+    "user": {
+      "login": "LukePulverenti",
+      "id": 3607463,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3607463?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/LukePulverenti",
+      "html_url": "https://github.com/LukePulverenti",
+      "followers_url": "https://api.github.com/users/LukePulverenti/followers",
+      "following_url": "https://api.github.com/users/LukePulverenti/following{/other_user}",
+      "gists_url": "https://api.github.com/users/LukePulverenti/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/LukePulverenti/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/LukePulverenti/subscriptions",
+      "organizations_url": "https://api.github.com/users/LukePulverenti/orgs",
+      "repos_url": "https://api.github.com/users/LukePulverenti/repos",
+      "events_url": "https://api.github.com/users/LukePulverenti/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/LukePulverenti/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-24T20:11:44Z",
+    "updated_at": "2017-05-24T20:11:44Z",
+    "body": "@stickywes do you mean to say that behavior depending on RAF will slow to a crawl even when the application is running in the foreground? Or is this issue only experienced when in the background? Thanks."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/303849674",
+    "html_url": "https://github.com/electron/electron/issues/9567#issuecomment-303849674",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9567",
+    "id": 303849674,
+    "user": {
+      "login": "stickywes",
+      "id": 521813,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/521813?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stickywes",
+      "html_url": "https://github.com/stickywes",
+      "followers_url": "https://api.github.com/users/stickywes/followers",
+      "following_url": "https://api.github.com/users/stickywes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stickywes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stickywes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stickywes/subscriptions",
+      "organizations_url": "https://api.github.com/users/stickywes/orgs",
+      "repos_url": "https://api.github.com/users/stickywes/repos",
+      "events_url": "https://api.github.com/users/stickywes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stickywes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-24T20:57:49Z",
+    "updated_at": "2017-05-24T20:57:58Z",
+    "body": "Things are great if it's in the foreground!  This issue only arises when the application window becomes obscured or minimized.  RAF calls resume their normal rate as soon as the application is visible again.\r\n\r\nI've updated the issue description for clarity."
+  }
+]

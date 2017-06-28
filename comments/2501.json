@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/131095724",
+    "html_url": "https://github.com/electron/electron/issues/2501#issuecomment-131095724",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2501",
+    "id": 131095724,
+    "user": {
+      "login": "kamesh-a",
+      "id": 3531949,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3531949?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kamesh-a",
+      "html_url": "https://github.com/kamesh-a",
+      "followers_url": "https://api.github.com/users/kamesh-a/followers",
+      "following_url": "https://api.github.com/users/kamesh-a/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kamesh-a/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kamesh-a/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kamesh-a/subscriptions",
+      "organizations_url": "https://api.github.com/users/kamesh-a/orgs",
+      "repos_url": "https://api.github.com/users/kamesh-a/repos",
+      "events_url": "https://api.github.com/users/kamesh-a/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kamesh-a/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-14T12:46:03Z",
+    "updated_at": "2015-08-14T12:46:03Z",
+    "body": "Note : Mac the effect is same in both cases we are able to capture the \"crashed\" events always.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/135371488",
+    "html_url": "https://github.com/electron/electron/issues/2501#issuecomment-135371488",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2501",
+    "id": 135371488,
+    "user": {
+      "login": "kamesh-a",
+      "id": 3531949,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3531949?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kamesh-a",
+      "html_url": "https://github.com/kamesh-a",
+      "followers_url": "https://api.github.com/users/kamesh-a/followers",
+      "following_url": "https://api.github.com/users/kamesh-a/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kamesh-a/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kamesh-a/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kamesh-a/subscriptions",
+      "organizations_url": "https://api.github.com/users/kamesh-a/orgs",
+      "repos_url": "https://api.github.com/users/kamesh-a/repos",
+      "events_url": "https://api.github.com/users/kamesh-a/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kamesh-a/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-27T10:14:52Z",
+    "updated_at": "2015-08-27T10:14:52Z",
+    "body": "Thank you @zcbenz , we will check this test case and will update our findings in 0.30.6\n"
+  }
+]

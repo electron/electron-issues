@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/164330537",
+    "html_url": "https://github.com/electron/electron/issues/3776#issuecomment-164330537",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3776",
+    "id": 164330537,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-14T03:10:10Z",
+    "updated_at": "2015-12-14T03:10:28Z",
+    "body": "This is a bug of Chrome 47, you can reproduce by creating an `Event` object in Chrome browser.\n\n<img width=\"589\" alt=\"screen shot 2015-12-14 at 11 04 59 am\" src=\"https://cloud.githubusercontent.com/assets/639601/11772003/b32318f8-a252-11e5-857f-8aac3fefe6b2.png\">\n\nI'm closing this since it is not a big deal, and we are not able to fix it on Electron's side. If you are interested, you can report it to Chromium's issues list.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/164415634",
+    "html_url": "https://github.com/electron/electron/issues/3776#issuecomment-164415634",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3776",
+    "id": 164415634,
+    "user": {
+      "login": "OlsonDev",
+      "id": 308072,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/308072?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/OlsonDev",
+      "html_url": "https://github.com/OlsonDev",
+      "followers_url": "https://api.github.com/users/OlsonDev/followers",
+      "following_url": "https://api.github.com/users/OlsonDev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/OlsonDev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/OlsonDev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/OlsonDev/subscriptions",
+      "organizations_url": "https://api.github.com/users/OlsonDev/orgs",
+      "repos_url": "https://api.github.com/users/OlsonDev/repos",
+      "events_url": "https://api.github.com/users/OlsonDev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/OlsonDev/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-14T11:34:17Z",
+    "updated_at": "2015-12-14T11:34:17Z",
+    "body": "Apologies for not realizing it was a Chromium issue. I found [this issue](https://code.google.com/p/chromium/issues/detail?id=556726) reported on the Chromium tracker. Thanks!\n"
+  }
+]

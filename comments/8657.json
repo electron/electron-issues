@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/279138272",
+    "html_url": "https://github.com/electron/electron/issues/8657#issuecomment-279138272",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8657",
+    "id": 279138272,
+    "user": {
+      "login": "sgehrman",
+      "id": 287137,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/287137?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sgehrman",
+      "html_url": "https://github.com/sgehrman",
+      "followers_url": "https://api.github.com/users/sgehrman/followers",
+      "following_url": "https://api.github.com/users/sgehrman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sgehrman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sgehrman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sgehrman/subscriptions",
+      "organizations_url": "https://api.github.com/users/sgehrman/orgs",
+      "repos_url": "https://api.github.com/users/sgehrman/repos",
+      "events_url": "https://api.github.com/users/sgehrman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sgehrman/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-11T11:33:30Z",
+    "updated_at": "2017-02-11T11:33:30Z",
+    "body": "I'm dumb, nevermind."
+  }
+]

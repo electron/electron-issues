@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/125834567",
+    "html_url": "https://github.com/electron/electron/issues/2324#issuecomment-125834567",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2324",
+    "id": 125834567,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-29T04:21:10Z",
+    "updated_at": "2015-07-29T04:21:10Z",
+    "body": "could you list the user settings that are not found to persist ? Have addressed the following though,\n- zoom level preference\n- workspace settings ( provided an api instead of saving preference)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/125849226",
+    "html_url": "https://github.com/electron/electron/issues/2324#issuecomment-125849226",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2324",
+    "id": 125849226,
+    "user": {
+      "login": "s-a",
+      "id": 1270662,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1270662?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s-a",
+      "html_url": "https://github.com/s-a",
+      "followers_url": "https://api.github.com/users/s-a/followers",
+      "following_url": "https://api.github.com/users/s-a/following{/other_user}",
+      "gists_url": "https://api.github.com/users/s-a/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/s-a/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/s-a/subscriptions",
+      "organizations_url": "https://api.github.com/users/s-a/orgs",
+      "repos_url": "https://api.github.com/users/s-a/repos",
+      "events_url": "https://api.github.com/users/s-a/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/s-a/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-29T05:39:18Z",
+    "updated_at": "2015-07-29T05:39:18Z",
+    "body": "Thats it so far reported in my issue tracker. Maybe there are others but that is all I have seen.\n\nRegarding to the workspace the API is a much better way. Otherwise I would request an API to clear workspace settings :smile: \n"
+  }
+]

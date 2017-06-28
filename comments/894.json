@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/65776000",
+    "html_url": "https://github.com/electron/electron/issues/894#issuecomment-65776000",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/894",
+    "id": 65776000,
+    "user": {
+      "login": "rprichard",
+      "id": 1572855,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1572855?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rprichard",
+      "html_url": "https://github.com/rprichard",
+      "followers_url": "https://api.github.com/users/rprichard/followers",
+      "following_url": "https://api.github.com/users/rprichard/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rprichard/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rprichard/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rprichard/subscriptions",
+      "organizations_url": "https://api.github.com/users/rprichard/orgs",
+      "repos_url": "https://api.github.com/users/rprichard/repos",
+      "events_url": "https://api.github.com/users/rprichard/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rprichard/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-05T11:07:59Z",
+    "updated_at": "2014-12-05T11:07:59Z",
+    "body": "My attached test case reproduced easily for me (under 10 clicks) on two other Windows installs (a Windows 7 non-VM and a single-core Windows 8.1 VM), so maybe it'll reproduce for others, too.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/65853195",
+    "html_url": "https://github.com/electron/electron/issues/894#issuecomment-65853195",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/894",
+    "id": 65853195,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-12-05T20:56:39Z",
+    "updated_at": "2014-12-05T20:56:39Z",
+    "body": "Excellent research on this bug! I'll try to find a way to fix this.\n"
+  }
+]

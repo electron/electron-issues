@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/292773887",
+    "html_url": "https://github.com/electron/electron/issues/9146#issuecomment-292773887",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9146",
+    "id": 292773887,
+    "user": {
+      "login": "LitoMore",
+      "id": 8186898,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8186898?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/LitoMore",
+      "html_url": "https://github.com/LitoMore",
+      "followers_url": "https://api.github.com/users/LitoMore/followers",
+      "following_url": "https://api.github.com/users/LitoMore/following{/other_user}",
+      "gists_url": "https://api.github.com/users/LitoMore/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/LitoMore/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/LitoMore/subscriptions",
+      "organizations_url": "https://api.github.com/users/LitoMore/orgs",
+      "repos_url": "https://api.github.com/users/LitoMore/repos",
+      "events_url": "https://api.github.com/users/LitoMore/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/LitoMore/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-09T09:07:34Z",
+    "updated_at": "2017-04-09T09:07:34Z",
+    "body": "为 electron 贡献翻译可以给项目提交 pull request\r\n\r\n文档的中文翻译在 https://github.com/electron/electron/tree/master/docs-translations/zh-CN\r\n\r\n文档的排版可以参考 [中文文案排版指北](https://github.com/mzlogin/chinese-copywriting-guidelines)\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/297751425",
+    "html_url": "https://github.com/electron/electron/issues/9146#issuecomment-297751425",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9146",
+    "id": 297751425,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-04-27T15:36:00Z",
+    "updated_at": "2017-04-27T15:36:00Z",
+    "body": "Looks like this question was answered, thanks @LitoMore, closing this out.\r\n\r\nTranslations live in this repository and we are working on a better system to allow easier translations, https://github.com/electron/electron.atom.io/issues/686"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/76497695",
+    "html_url": "https://github.com/electron/electron/issues/1175#issuecomment-76497695",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1175",
+    "id": 76497695,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-02-28T00:23:57Z",
+    "updated_at": "2015-02-28T00:23:57Z",
+    "body": "I can not reproduce, I guess it is some other code in your app that has caused this. Can you work out a minimal demo that can show the problem?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/77016036",
+    "html_url": "https://github.com/electron/electron/issues/1175#issuecomment-77016036",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1175",
+    "id": 77016036,
+    "user": {
+      "login": "dcusan",
+      "id": 5691039,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5691039?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dcusan",
+      "html_url": "https://github.com/dcusan",
+      "followers_url": "https://api.github.com/users/dcusan/followers",
+      "following_url": "https://api.github.com/users/dcusan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dcusan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dcusan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dcusan/subscriptions",
+      "organizations_url": "https://api.github.com/users/dcusan/orgs",
+      "repos_url": "https://api.github.com/users/dcusan/repos",
+      "events_url": "https://api.github.com/users/dcusan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dcusan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-03T19:28:20Z",
+    "updated_at": "2015-03-04T08:27:43Z",
+    "body": "I'm pasting the demo app with a dialog, still the same behaviour when running `Atom.app/Contents/MacOS/Atom .`\n\n``` text\ndialog-test/\n├── Atom.app\n├── package.json\n├── main.js\n└── index.html\n```\n\n`main.js`:\n\n``` javascript\nvar app = require('app');\nvar BrowserWindow = require('browser-window');\nvar Menu = require('menu');\nvar MenuItem = require('menu-item');\nvar dialog = require('dialog');\nvar pjson = require('./package.json');\n\nvar mainWindow = null;\nvar aboutDialogOptions = {};\nvar appMenu = [];\n\napp.on('windows-all-closed', function() {\n  if (process.platform !== 'darwin') {\n    app.quit();\n  }\n});\n\napp.on('ready', function() {\n  mainWindow = new BrowserWindow({width: 500, height: 500});\n  mainWindow.loadUrl(\"file://\" + __dirname + \"/index.html\");\n\n  aboutDialogOptions = {\n    type: \"info\",\n    title: \"About Dialog\",\n    buttons: [\"Ok\"],\n    message: \"Dialog Test\",\n    detail: \"dialog test by \" + pjson.author\n  };\n\n  appMenu = [\n    {\n      submenu: [\n        {\n          label: 'About Dialog',\n          click: (function() {\n            return dialog.showMessageBox(mainWindow, aboutDialogOptions);\n          })\n        }, {\n          type: 'separator'\n        }, {\n          label: 'Quit',\n          accelerator: 'Command+Q',\n          click: (function() {\n            return app.quit();\n          })\n        }\n      ]\n    }\n  ];\n  var menu = Menu.buildFromTemplate(appMenu);\n  Menu.setApplicationMenu(menu);\n\n  mainWindow.on(\"closed\", function() {\n    mainWindow = null;\n  });\n});\n```\n\n`index.html`:\n\n``` html\n<!DOCTYPE html>\n<html>\n  <head>\n    <title>Dialog Test</title>\n  </head>\n  <body>\n    <h1>Dialog Test</h1>\n    We are using node.js <script>document.write(process.version)</script>\n    and atom-shell <script>document.write(process.versions['atom-shell'])</script>.\n  </body>\n</html>\n```\n\n`package.json`:\n\n``` json\n{\n  \"main\": \"main.js\",\n  \"name\": \"Dialog Test\",\n  \"description\": \"Dialog Test\",\n  \"version\": \"0.0.1\",\n  \"author\": \"Daniel Cusan\",\n  \"license\": \"MIT\"\n}\n```\n\nThis keeps happening, after clicking on the about menu item the second time and thereafter:\n![screen shot 2015-03-03 at 19 22 56](https://cloud.githubusercontent.com/assets/5691039/6470312/cf906f44-c1da-11e4-8ac2-d30e976daa06.png)\n"
+  }
+]

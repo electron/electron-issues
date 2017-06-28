@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49831848",
+    "html_url": "https://github.com/electron/electron/issues/496#issuecomment-49831848",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/496",
+    "id": 49831848,
+    "user": {
+      "login": "roughsoft",
+      "id": 459565,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/459565?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/roughsoft",
+      "html_url": "https://github.com/roughsoft",
+      "followers_url": "https://api.github.com/users/roughsoft/followers",
+      "following_url": "https://api.github.com/users/roughsoft/following{/other_user}",
+      "gists_url": "https://api.github.com/users/roughsoft/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/roughsoft/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/roughsoft/subscriptions",
+      "organizations_url": "https://api.github.com/users/roughsoft/orgs",
+      "repos_url": "https://api.github.com/users/roughsoft/repos",
+      "events_url": "https://api.github.com/users/roughsoft/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/roughsoft/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-23T04:28:55Z",
+    "updated_at": "2014-07-23T04:28:55Z",
+    "body": "+1\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/50389563",
+    "html_url": "https://github.com/electron/electron/issues/496#issuecomment-50389563",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/496",
+    "id": 50389563,
+    "user": {
+      "login": "marcbachmann",
+      "id": 431376,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/431376?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marcbachmann",
+      "html_url": "https://github.com/marcbachmann",
+      "followers_url": "https://api.github.com/users/marcbachmann/followers",
+      "following_url": "https://api.github.com/users/marcbachmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marcbachmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marcbachmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marcbachmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/marcbachmann/orgs",
+      "repos_url": "https://api.github.com/users/marcbachmann/repos",
+      "events_url": "https://api.github.com/users/marcbachmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marcbachmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-28T19:51:46Z",
+    "updated_at": "2014-07-28T19:51:46Z",
+    "body": "@zcbenz works diligently on that: #524\n"
+  }
+]

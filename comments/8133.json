@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/278948382",
+    "html_url": "https://github.com/electron/electron/issues/8133#issuecomment-278948382",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8133",
+    "id": 278948382,
+    "user": {
+      "login": "ragnerok",
+      "id": 20614030,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20614030?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ragnerok",
+      "html_url": "https://github.com/ragnerok",
+      "followers_url": "https://api.github.com/users/ragnerok/followers",
+      "following_url": "https://api.github.com/users/ragnerok/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ragnerok/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ragnerok/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ragnerok/subscriptions",
+      "organizations_url": "https://api.github.com/users/ragnerok/orgs",
+      "repos_url": "https://api.github.com/users/ragnerok/repos",
+      "events_url": "https://api.github.com/users/ragnerok/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ragnerok/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-10T14:01:15Z",
+    "updated_at": "2017-02-13T16:56:31Z",
+    "body": "@kevinsawicki Hi, this looks interesting I would like to work on this, any tips on how to get started ?\r\nThanks :D"
+  }
+]

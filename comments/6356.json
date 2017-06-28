@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/230657417",
+    "html_url": "https://github.com/electron/electron/pull/6356#issuecomment-230657417",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6356",
+    "id": 230657417,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-06T02:39:16Z",
+    "updated_at": "2016-07-06T02:39:27Z",
+    "body": "That's a real bummer for what it's worth, it sure was easier to tell people \"modern.ie\" than the new sitch of \"developer.microsoft.com, then uhhh click a bunch of stuff\"\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/230657561",
+    "html_url": "https://github.com/electron/electron/pull/6356#issuecomment-230657561",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6356",
+    "id": 230657561,
+    "user": {
+      "login": "jonathansampson",
+      "id": 815158,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/815158?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jonathansampson",
+      "html_url": "https://github.com/jonathansampson",
+      "followers_url": "https://api.github.com/users/jonathansampson/followers",
+      "following_url": "https://api.github.com/users/jonathansampson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jonathansampson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jonathansampson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jonathansampson/subscriptions",
+      "organizations_url": "https://api.github.com/users/jonathansampson/orgs",
+      "repos_url": "https://api.github.com/users/jonathansampson/repos",
+      "events_url": "https://api.github.com/users/jonathansampson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jonathansampson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-06T02:40:40Z",
+    "updated_at": "2016-07-06T02:42:46Z",
+    "body": "@paulcbetts The modern.ie URL will continue to forward. But attempting to deep-link would yield certificate warnings. So you can still tell people to go to modern.ie if you like. Alternatively, dev.microsoftedge.com works as well. :)\n"
+  }
+]

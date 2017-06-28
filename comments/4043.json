@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/170451591",
+    "html_url": "https://github.com/electron/electron/issues/4043#issuecomment-170451591",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4043",
+    "id": 170451591,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-11T07:14:35Z",
+    "updated_at": "2016-01-11T07:14:35Z",
+    "body": "This is unfortunately impossible to fix, to show transparent window correctly we have to remove the `WS_THICKFRAME` and `WS_CAPTION` styles from the window, which then resulted in the problem you saw. For more about the technical background, you can read https://github.com/atom/electron/issues/734#issuecomment-169332056.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/244133661",
+    "html_url": "https://github.com/electron/electron/issues/4043#issuecomment-244133661",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4043",
+    "id": 244133661,
+    "user": {
+      "login": "Gaubee",
+      "id": 2151644,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2151644?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Gaubee",
+      "html_url": "https://github.com/Gaubee",
+      "followers_url": "https://api.github.com/users/Gaubee/followers",
+      "following_url": "https://api.github.com/users/Gaubee/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Gaubee/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Gaubee/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Gaubee/subscriptions",
+      "organizations_url": "https://api.github.com/users/Gaubee/orgs",
+      "repos_url": "https://api.github.com/users/Gaubee/repos",
+      "events_url": "https://api.github.com/users/Gaubee/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Gaubee/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-01T16:24:31Z",
+    "updated_at": "2016-09-01T16:24:31Z",
+    "body": "Is there a way to reset  transparent as false ? \nIf can do it, then maximize can work.\nBut I still can not find the API.\n"
+  }
+]

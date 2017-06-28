@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/288733841",
+    "html_url": "https://github.com/electron/electron/issues/8992#issuecomment-288733841",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8992",
+    "id": 288733841,
+    "user": {
+      "login": "dkfiresky",
+      "id": 2175645,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2175645?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dkfiresky",
+      "html_url": "https://github.com/dkfiresky",
+      "followers_url": "https://api.github.com/users/dkfiresky/followers",
+      "following_url": "https://api.github.com/users/dkfiresky/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dkfiresky/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dkfiresky/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dkfiresky/subscriptions",
+      "organizations_url": "https://api.github.com/users/dkfiresky/orgs",
+      "repos_url": "https://api.github.com/users/dkfiresky/repos",
+      "events_url": "https://api.github.com/users/dkfiresky/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dkfiresky/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-23T14:20:34Z",
+    "updated_at": "2017-03-23T14:20:34Z",
+    "body": "Does it work when you add `-webkit-app-region: no-drag;` on a button?"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/288850903",
+    "html_url": "https://github.com/electron/electron/issues/8992#issuecomment-288850903",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8992",
+    "id": 288850903,
+    "user": {
+      "login": "rcosnita",
+      "id": 1006074,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1006074?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rcosnita",
+      "html_url": "https://github.com/rcosnita",
+      "followers_url": "https://api.github.com/users/rcosnita/followers",
+      "following_url": "https://api.github.com/users/rcosnita/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rcosnita/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rcosnita/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rcosnita/subscriptions",
+      "organizations_url": "https://api.github.com/users/rcosnita/orgs",
+      "repos_url": "https://api.github.com/users/rcosnita/repos",
+      "events_url": "https://api.github.com/users/rcosnita/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rcosnita/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-23T20:32:10Z",
+    "updated_at": "2017-03-23T20:32:10Z",
+    "body": "Sorry for not mentioning it: indeed I ended up adding -webkit-app-region: no-drag; style on the nested button.\r\n\r\nI've just seen a note in the https://github.com/electron/electron/blob/master/docs/api/frameless-window.md page.\r\n\r\nThank you so much for the quick reply."
+  }
+]

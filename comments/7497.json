@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/251847829",
+    "html_url": "https://github.com/electron/electron/pull/7497#issuecomment-251847829",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7497",
+    "id": 251847829,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-06T01:51:06Z",
+    "updated_at": "2016-10-06T01:51:06Z",
+    "body": "The phrasing could probably be improved here, but changing `while` to`whereas` makes no difference, both words mean the same thing in this context. I'm closing this to avoid needles churn.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/251848962",
+    "html_url": "https://github.com/electron/electron/pull/7497#issuecomment-251848962",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7497",
+    "id": 251848962,
+    "user": {
+      "login": "anshk00",
+      "id": 15196776,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/15196776?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anshk00",
+      "html_url": "https://github.com/anshk00",
+      "followers_url": "https://api.github.com/users/anshk00/followers",
+      "following_url": "https://api.github.com/users/anshk00/following{/other_user}",
+      "gists_url": "https://api.github.com/users/anshk00/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/anshk00/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/anshk00/subscriptions",
+      "organizations_url": "https://api.github.com/users/anshk00/orgs",
+      "repos_url": "https://api.github.com/users/anshk00/repos",
+      "events_url": "https://api.github.com/users/anshk00/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/anshk00/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-06T02:01:16Z",
+    "updated_at": "2016-10-06T02:01:16Z",
+    "body": "First time contributor to open source here. Was just looking for something\neasy to start with.\n"
+  }
+]

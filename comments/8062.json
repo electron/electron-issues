@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/262575390",
+    "html_url": "https://github.com/electron/electron/issues/8062#issuecomment-262575390",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8062",
+    "id": 262575390,
+    "user": {
+      "login": "Palabola",
+      "id": 5794264,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5794264?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Palabola",
+      "html_url": "https://github.com/Palabola",
+      "followers_url": "https://api.github.com/users/Palabola/followers",
+      "following_url": "https://api.github.com/users/Palabola/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Palabola/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Palabola/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Palabola/subscriptions",
+      "organizations_url": "https://api.github.com/users/Palabola/orgs",
+      "repos_url": "https://api.github.com/users/Palabola/repos",
+      "events_url": "https://api.github.com/users/Palabola/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Palabola/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-23T17:10:32Z",
+    "updated_at": "2016-11-23T17:10:32Z",
+    "body": "Confirmed really annoying bug!"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/268179140",
+    "html_url": "https://github.com/electron/electron/issues/8062#issuecomment-268179140",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8062",
+    "id": 268179140,
+    "user": {
+      "login": "martinsuchan",
+      "id": 3041397,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3041397?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/martinsuchan",
+      "html_url": "https://github.com/martinsuchan",
+      "followers_url": "https://api.github.com/users/martinsuchan/followers",
+      "following_url": "https://api.github.com/users/martinsuchan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/martinsuchan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/martinsuchan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/martinsuchan/subscriptions",
+      "organizations_url": "https://api.github.com/users/martinsuchan/orgs",
+      "repos_url": "https://api.github.com/users/martinsuchan/repos",
+      "events_url": "https://api.github.com/users/martinsuchan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/martinsuchan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-20T07:59:50Z",
+    "updated_at": "2016-12-20T07:59:50Z",
+    "body": "Google fixed the HiDPI issues in Chromium 54 as far as I know, latest Electron 1.4.12 is still based on Chromium 53.\r\nFixing the HiDPI issues should really be high priority, because it makes many apps unusable on screens with different DPI."
+  }
+]

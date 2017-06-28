@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/142158983",
+    "html_url": "https://github.com/electron/electron/issues/2863#issuecomment-142158983",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2863",
+    "id": 142158983,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-22T02:01:13Z",
+    "updated_at": "2015-09-22T02:01:13Z",
+    "body": "In Electron the modules have to be loaded with the `require` function of Node.js, modules imported by the `script` tag will run in browser's way, e.g. there is no `exports` object.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/273166119",
+    "html_url": "https://github.com/electron/electron/issues/2863#issuecomment-273166119",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2863",
+    "id": 273166119,
+    "user": {
+      "login": "samvloeberghs",
+      "id": 231618,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/231618?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/samvloeberghs",
+      "html_url": "https://github.com/samvloeberghs",
+      "followers_url": "https://api.github.com/users/samvloeberghs/followers",
+      "following_url": "https://api.github.com/users/samvloeberghs/following{/other_user}",
+      "gists_url": "https://api.github.com/users/samvloeberghs/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/samvloeberghs/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/samvloeberghs/subscriptions",
+      "organizations_url": "https://api.github.com/users/samvloeberghs/orgs",
+      "repos_url": "https://api.github.com/users/samvloeberghs/repos",
+      "events_url": "https://api.github.com/users/samvloeberghs/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/samvloeberghs/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-17T13:56:40Z",
+    "updated_at": "2017-01-17T13:56:40Z",
+    "body": "@zcbenz that simple comment being 1.5y old gave me a ton of insight, thanks"
+  }
+]

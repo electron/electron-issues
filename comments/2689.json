@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/138194143",
+    "html_url": "https://github.com/electron/electron/pull/2689#issuecomment-138194143",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2689",
+    "id": 138194143,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-07T05:51:52Z",
+    "updated_at": "2015-09-07T05:51:52Z",
+    "body": "Hi thanks for the PR! I agree we should make the `DownloadItem` an EventEmitter and fire events from it, such implementation is a bit more complex and you can reference how `Tray` or `WebContents` are implemented. If you don't have time for studying all this I'll do the implementation in future.\n\nAnd I have put a possible design of API at https://github.com/atom/electron/issues/2491#issuecomment-138193614.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/142921035",
+    "html_url": "https://github.com/electron/electron/pull/2689#issuecomment-142921035",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2689",
+    "id": 142921035,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-24T13:04:57Z",
+    "updated_at": "2015-09-24T13:04:57Z",
+    "body": "Closed in favor of #2840.\n"
+  }
+]

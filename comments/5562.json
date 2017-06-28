@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/219796165",
+    "html_url": "https://github.com/electron/electron/issues/5562#issuecomment-219796165",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5562",
+    "id": 219796165,
+    "user": {
+      "login": "felixrieseberg",
+      "id": 1426799,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1426799?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felixrieseberg",
+      "html_url": "https://github.com/felixrieseberg",
+      "followers_url": "https://api.github.com/users/felixrieseberg/followers",
+      "following_url": "https://api.github.com/users/felixrieseberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felixrieseberg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felixrieseberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felixrieseberg/subscriptions",
+      "organizations_url": "https://api.github.com/users/felixrieseberg/orgs",
+      "repos_url": "https://api.github.com/users/felixrieseberg/repos",
+      "events_url": "https://api.github.com/users/felixrieseberg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felixrieseberg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-17T17:41:49Z",
+    "updated_at": "2016-05-17T17:41:49Z",
+    "body": "You'll need to disable `backgroundThrottling` on the `webPreferences` of your browser window. See [the docs](https://github.com/electron/electron/blob/master/docs/api/browser-window.md) for more info!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/219866813",
+    "html_url": "https://github.com/electron/electron/issues/5562#issuecomment-219866813",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5562",
+    "id": 219866813,
+    "user": {
+      "login": "mulhoon",
+      "id": 1137909,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1137909?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mulhoon",
+      "html_url": "https://github.com/mulhoon",
+      "followers_url": "https://api.github.com/users/mulhoon/followers",
+      "following_url": "https://api.github.com/users/mulhoon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mulhoon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mulhoon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mulhoon/subscriptions",
+      "organizations_url": "https://api.github.com/users/mulhoon/orgs",
+      "repos_url": "https://api.github.com/users/mulhoon/repos",
+      "events_url": "https://api.github.com/users/mulhoon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mulhoon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-17T21:57:42Z",
+    "updated_at": "2016-05-17T21:57:42Z",
+    "body": "You're my hero. Thank you.\n\n```\nwebPreferences:{\n    backgroundThrottling:false\n}\n```\n\nBingo!\n"
+  }
+]

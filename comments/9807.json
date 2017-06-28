@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/310361567",
+    "html_url": "https://github.com/electron/electron/issues/9807#issuecomment-310361567",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9807",
+    "id": 310361567,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-22T12:10:50Z",
+    "updated_at": "2017-06-22T12:10:50Z",
+    "body": "If the page is loaded over `file` scheme then this is expected behavior, cookies are not stored for file scheme in Electron (same behavior as chrome). If you are using custom protocol, then the protocol needs to be registered as standard scheme using [protocol.registerStandardSchemes](https://github.com/electron/electron/blob/master/docs/api/protocol.md#protocolregisterstandardschemesschemes-options) ."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/232509539",
+    "html_url": "https://github.com/electron/electron/issues/6472#issuecomment-232509539",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6472",
+    "id": 232509539,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-13T22:49:18Z",
+    "updated_at": "2016-07-13T22:49:30Z",
+    "body": "> When specifying multiSelections in the open dialog properties, it's not possible to select any files at all. All files are greyed out. I also tried specifying filters but that didn't work with multiSelections either.\n\nYou need to include the `openFiles` option to open files and/or the `openDirectories` option to open directories.\n\nThere is a example of using them at the top of http://electron.atom.io/docs/api/dialog/#dialog\n"
+  }
+]

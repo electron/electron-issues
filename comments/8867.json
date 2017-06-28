@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/285306575",
+    "html_url": "https://github.com/electron/electron/issues/8867#issuecomment-285306575",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8867",
+    "id": 285306575,
+    "user": {
+      "login": "arantes555",
+      "id": 99662,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/99662?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arantes555",
+      "html_url": "https://github.com/arantes555",
+      "followers_url": "https://api.github.com/users/arantes555/followers",
+      "following_url": "https://api.github.com/users/arantes555/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arantes555/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arantes555/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arantes555/subscriptions",
+      "organizations_url": "https://api.github.com/users/arantes555/orgs",
+      "repos_url": "https://api.github.com/users/arantes555/repos",
+      "events_url": "https://api.github.com/users/arantes555/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arantes555/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-09T09:55:50Z",
+    "updated_at": "2017-03-11T17:32:30Z",
+    "body": "BTW, I noticed it also happens when the content-encoding is not unknown, but invalid.\r\n\r\nServer code: \r\n```javascript \r\n// adding another case in the previous server code\r\n    if (p === '/invalid-content-encoding') {\r\n      res.statusCode = 200\r\n      res.setHeader('Content-Type', 'text/plain')\r\n      res.setHeader('Content-Encoding', 'gzip')\r\n      res.end('fake gzip string')\r\n    }\r\n```\r\n\r\nError I get: \r\n<img width=\"420\" alt=\"image\" src=\"https://cloud.githubusercontent.com/assets/99662/23744914/0efa38fa-04ae-11e7-97ef-c06911b27fb6.png\">\r\n\r\n The error is then also impossible to catch. I'm updating the repo to be able to demonstrate this too.\r\n\r\nEDIT: My bad, this one is actually catchable. Just have to put a `.on('error')` listener on the response. The repo has been updated to show it."
+  }
+]

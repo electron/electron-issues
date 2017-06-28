@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/300746421",
+    "html_url": "https://github.com/electron/electron/pull/9134#issuecomment-300746421",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9134",
+    "id": 300746421,
+    "user": {
+      "login": "Dexwell",
+      "id": 521176,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/521176?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Dexwell",
+      "html_url": "https://github.com/Dexwell",
+      "followers_url": "https://api.github.com/users/Dexwell/followers",
+      "following_url": "https://api.github.com/users/Dexwell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Dexwell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Dexwell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Dexwell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Dexwell/orgs",
+      "repos_url": "https://api.github.com/users/Dexwell/repos",
+      "events_url": "https://api.github.com/users/Dexwell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Dexwell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-11T10:13:52Z",
+    "updated_at": "2017-05-11T10:13:52Z",
+    "body": "I was expecting this setting to enable scroll bouncing for DOM elements such as scrollable divs, but it only seems to apply to the BrowserWindow itself. Per Chromium [#546520](https://bugs.chromium.org/p/chromium/issues/detail?id=546520) it seems like this won't be possible soon."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/305042177",
+    "html_url": "https://github.com/electron/electron/pull/9134#issuecomment-305042177",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9134",
+    "id": 305042177,
+    "user": {
+      "login": "ianpaschal",
+      "id": 1137232,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1137232?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ianpaschal",
+      "html_url": "https://github.com/ianpaschal",
+      "followers_url": "https://api.github.com/users/ianpaschal/followers",
+      "following_url": "https://api.github.com/users/ianpaschal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ianpaschal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ianpaschal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ianpaschal/subscriptions",
+      "organizations_url": "https://api.github.com/users/ianpaschal/orgs",
+      "repos_url": "https://api.github.com/users/ianpaschal/repos",
+      "events_url": "https://api.github.com/users/ianpaschal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ianpaschal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-30T23:57:22Z",
+    "updated_at": "2017-05-30T23:57:22Z",
+    "body": "Same. When using...\r\n```\r\nbody, html {\r\n  width: 100%;\r\n  height: 100%;\r\n  overflow: hidden;\r\n}\r\n```\r\n...in Safari, only the body from bouncing but allows DOM elements to, as it though.\r\n\r\n...in Chromium, however, no-go. :("
+  }
+]

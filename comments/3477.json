@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/159369546",
+    "html_url": "https://github.com/electron/electron/issues/3477#issuecomment-159369546",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3477",
+    "id": 159369546,
+    "user": {
+      "login": "bjrmatos",
+      "id": 4262050,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4262050?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bjrmatos",
+      "html_url": "https://github.com/bjrmatos",
+      "followers_url": "https://api.github.com/users/bjrmatos/followers",
+      "following_url": "https://api.github.com/users/bjrmatos/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bjrmatos/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bjrmatos/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bjrmatos/subscriptions",
+      "organizations_url": "https://api.github.com/users/bjrmatos/orgs",
+      "repos_url": "https://api.github.com/users/bjrmatos/repos",
+      "events_url": "https://api.github.com/users/bjrmatos/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bjrmatos/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-24T18:48:07Z",
+    "updated_at": "2015-11-24T18:48:07Z",
+    "body": "thnks guys :clap: \n"
+  }
+]

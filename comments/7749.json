@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/256343837",
+    "html_url": "https://github.com/electron/electron/issues/7749#issuecomment-256343837",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7749",
+    "id": 256343837,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-26T13:16:25Z",
+    "updated_at": "2016-10-26T13:16:25Z",
+    "body": "`webkitSpeechRecognition` is an exception to the \"use your own google API key rule\"\n\n> It is NOT possible to get additional quota for Chrome's Speech API. Look at the [Cloud Speech API](https://cloud.google.com/speech/) instead.\n\nhttps://www.chromium.org/developers/how-tos/api-keys\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/256452693",
+    "html_url": "https://github.com/electron/electron/issues/7749#issuecomment-256452693",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7749",
+    "id": 256452693,
+    "user": {
+      "login": "friksa",
+      "id": 2990564,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2990564?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/friksa",
+      "html_url": "https://github.com/friksa",
+      "followers_url": "https://api.github.com/users/friksa/followers",
+      "following_url": "https://api.github.com/users/friksa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/friksa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/friksa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/friksa/subscriptions",
+      "organizations_url": "https://api.github.com/users/friksa/orgs",
+      "repos_url": "https://api.github.com/users/friksa/repos",
+      "events_url": "https://api.github.com/users/friksa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/friksa/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-26T19:30:15Z",
+    "updated_at": "2016-10-26T19:40:09Z",
+    "body": "@MarshallOfSound, I want to use our own Google API as they allow you to use the API with your own API key.\nhttps://console.developers.google.com/apis/api/speech.googleapis.com/overview?project=XXX&duration=PT1H\n\nOr are you saying that this is incompatible with the Cloud Speech API and I should file a request to support the Cloud Speech API?\n"
+  }
+]

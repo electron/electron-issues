@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/202995363",
+    "html_url": "https://github.com/electron/electron/issues/4937#issuecomment-202995363",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4937",
+    "id": 202995363,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-29T16:52:04Z",
+    "updated_at": "2016-03-29T16:52:04Z",
+    "body": "The default UA background color was changed to transparent, so you need to explicitly specify background color for your page.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/203023837",
+    "html_url": "https://github.com/electron/electron/issues/4937#issuecomment-203023837",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4937",
+    "id": 203023837,
+    "user": {
+      "login": "felixrieseberg",
+      "id": 1426799,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1426799?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felixrieseberg",
+      "html_url": "https://github.com/felixrieseberg",
+      "followers_url": "https://api.github.com/users/felixrieseberg/followers",
+      "following_url": "https://api.github.com/users/felixrieseberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felixrieseberg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felixrieseberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felixrieseberg/subscriptions",
+      "organizations_url": "https://api.github.com/users/felixrieseberg/orgs",
+      "repos_url": "https://api.github.com/users/felixrieseberg/repos",
+      "events_url": "https://api.github.com/users/felixrieseberg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felixrieseberg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-29T17:47:41Z",
+    "updated_at": "2016-03-29T17:47:41Z",
+    "body": "I guess this is just a documentation issue then. I added a blurb to the FAQ.\n"
+  }
+]

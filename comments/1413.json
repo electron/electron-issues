@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/92157396",
+    "html_url": "https://github.com/electron/electron/issues/1413#issuecomment-92157396",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1413",
+    "id": 92157396,
+    "user": {
+      "login": "Tribex",
+      "id": 5861371,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5861371?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Tribex",
+      "html_url": "https://github.com/Tribex",
+      "followers_url": "https://api.github.com/users/Tribex/followers",
+      "following_url": "https://api.github.com/users/Tribex/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Tribex/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Tribex/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Tribex/subscriptions",
+      "organizations_url": "https://api.github.com/users/Tribex/orgs",
+      "repos_url": "https://api.github.com/users/Tribex/repos",
+      "events_url": "https://api.github.com/users/Tribex/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Tribex/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-13T00:37:00Z",
+    "updated_at": "2015-04-13T00:38:32Z",
+    "body": "@paulcbetts This is intentional, see\nhttps://github.com/atom/atom-shell/blob/master/docs/development/build-system-overview.md#target-names\n:)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/92157534",
+    "html_url": "https://github.com/electron/electron/issues/1413#issuecomment-92157534",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1413",
+    "id": 92157534,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-13T00:40:05Z",
+    "updated_at": "2015-04-13T00:40:05Z",
+    "body": "Aha, closing - :tophat: @Tribex \n"
+  }
+]

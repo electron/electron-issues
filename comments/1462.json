@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/95133225",
+    "html_url": "https://github.com/electron/electron/issues/1462#issuecomment-95133225",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1462",
+    "id": 95133225,
+    "user": {
+      "login": "romovs",
+      "id": 2727288,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2727288?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/romovs",
+      "html_url": "https://github.com/romovs",
+      "followers_url": "https://api.github.com/users/romovs/followers",
+      "following_url": "https://api.github.com/users/romovs/following{/other_user}",
+      "gists_url": "https://api.github.com/users/romovs/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/romovs/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/romovs/subscriptions",
+      "organizations_url": "https://api.github.com/users/romovs/orgs",
+      "repos_url": "https://api.github.com/users/romovs/repos",
+      "events_url": "https://api.github.com/users/romovs/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/romovs/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-22T10:49:52Z",
+    "updated_at": "2015-04-22T10:49:52Z",
+    "body": "v0.24.0 runs fine on the same machine (Windows 7 Pro N with Media Foundation installed) so this is probably related to Chrome 42 upgrade and has nothing to do with #1442\n\nIs BluetoothApis.dll even available on Windows 7? I can't seem to find any definite confirmation on MSDN regarding it.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/95155437",
+    "html_url": "https://github.com/electron/electron/issues/1462#issuecomment-95155437",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1462",
+    "id": 95155437,
+    "user": {
+      "login": "christoth",
+      "id": 2223480,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2223480?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/christoth",
+      "html_url": "https://github.com/christoth",
+      "followers_url": "https://api.github.com/users/christoth/followers",
+      "following_url": "https://api.github.com/users/christoth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/christoth/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/christoth/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/christoth/subscriptions",
+      "organizations_url": "https://api.github.com/users/christoth/orgs",
+      "repos_url": "https://api.github.com/users/christoth/repos",
+      "events_url": "https://api.github.com/users/christoth/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/christoth/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-22T12:21:42Z",
+    "updated_at": "2015-04-22T12:22:16Z",
+    "body": "Had the same error on Win7 x64, Electron win32-x64.\n"
+  }
+]

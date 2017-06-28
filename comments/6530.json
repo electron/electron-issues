@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/233432434",
+    "html_url": "https://github.com/electron/electron/issues/6530#issuecomment-233432434",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6530",
+    "id": 233432434,
+    "user": {
+      "login": "sklink",
+      "id": 13424990,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13424990?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sklink",
+      "html_url": "https://github.com/sklink",
+      "followers_url": "https://api.github.com/users/sklink/followers",
+      "following_url": "https://api.github.com/users/sklink/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sklink/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sklink/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sklink/subscriptions",
+      "organizations_url": "https://api.github.com/users/sklink/orgs",
+      "repos_url": "https://api.github.com/users/sklink/repos",
+      "events_url": "https://api.github.com/users/sklink/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sklink/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-18T19:28:01Z",
+    "updated_at": "2016-07-18T19:28:01Z",
+    "body": "Never mind, I was using my global electron (v1.0.1) instead of local.\n"
+  }
+]

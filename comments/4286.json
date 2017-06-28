@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/177287196",
+    "html_url": "https://github.com/electron/electron/issues/4286#issuecomment-177287196",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4286",
+    "id": 177287196,
+    "user": {
+      "login": "etiktin",
+      "id": 4381579,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4381579?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/etiktin",
+      "html_url": "https://github.com/etiktin",
+      "followers_url": "https://api.github.com/users/etiktin/followers",
+      "following_url": "https://api.github.com/users/etiktin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/etiktin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/etiktin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/etiktin/subscriptions",
+      "organizations_url": "https://api.github.com/users/etiktin/orgs",
+      "repos_url": "https://api.github.com/users/etiktin/repos",
+      "events_url": "https://api.github.com/users/etiktin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/etiktin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-30T19:58:43Z",
+    "updated_at": "2016-01-30T19:58:43Z",
+    "body": "You can set different menus to different windows using the [setMenu](https://github.com/atom/electron/blob/master/docs/api/browser-window.md#winsetmenumenu-linux-windows) method.\n"
+  }
+]

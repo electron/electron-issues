@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/61501948",
+    "html_url": "https://github.com/electron/electron/issues/769#issuecomment-61501948",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/769",
+    "id": 61501948,
+    "user": {
+      "login": "frankhale",
+      "id": 190154,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/190154?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frankhale",
+      "html_url": "https://github.com/frankhale",
+      "followers_url": "https://api.github.com/users/frankhale/followers",
+      "following_url": "https://api.github.com/users/frankhale/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frankhale/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frankhale/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frankhale/subscriptions",
+      "organizations_url": "https://api.github.com/users/frankhale/orgs",
+      "repos_url": "https://api.github.com/users/frankhale/repos",
+      "events_url": "https://api.github.com/users/frankhale/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frankhale/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-03T16:13:55Z",
+    "updated_at": "2014-11-03T16:13:55Z",
+    "body": "Reference: https://github.com/brightray/brightray/pull/78\n"
+  }
+]

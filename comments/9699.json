@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/307046059",
+    "html_url": "https://github.com/electron/electron/issues/9699#issuecomment-307046059",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9699",
+    "id": 307046059,
+    "user": {
+      "login": "lyric-index",
+      "id": 23474941,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/23474941?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lyric-index",
+      "html_url": "https://github.com/lyric-index",
+      "followers_url": "https://api.github.com/users/lyric-index/followers",
+      "following_url": "https://api.github.com/users/lyric-index/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lyric-index/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lyric-index/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lyric-index/subscriptions",
+      "organizations_url": "https://api.github.com/users/lyric-index/orgs",
+      "repos_url": "https://api.github.com/users/lyric-index/repos",
+      "events_url": "https://api.github.com/users/lyric-index/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lyric-index/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-08T09:11:33Z",
+    "updated_at": "2017-06-08T09:11:33Z",
+    "body": "I use electron in webpack and vue.js\r\nmy package.json is blow:\r\n{\r\n  \"name\": \"electron-node\",\r\n  \"version\": \"1.0.0\",\r\n  \"description\": \"A Vue.js project\",\r\n  \"main\": \"app.js\",\r\n  \"author\": \"lyric <1353758518@qq.com>\",\r\n  \"private\": true,\r\n  \"scripts\": {\r\n    \"dev\": \"node build/dev-server.js\",\r\n    \"build\": \"node build/build.js\",\r\n    \"start\": \"electron .\",\r\n    \"package\": \"electron-packager ./ vue --platform=win32,darwin --arch=x64 --version=1.0.0 --out=./resource --overwrite --ignore=node_modulesc --prune\",\r\n    \"unit\": \"cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run\",\r\n    \"e2e\": \"node test/e2e/runner.js\",\r\n    \"test\": \"npm run unit && npm run e2e\",\r\n    \"lint\": \"eslint --ext .js,.vue src test/unit/specs test/e2e/specs\"\r\n  },\r\n  \"dependencies\": {\r\n    \"element-ui\": \"^1.3.5\",\r\n    \"fs\": \"^0.0.1-security\",\r\n    \"fs-plus\": \"^3.0.1\",\r\n    \"vue\": \"^2.3.3\",\r\n    \"vue-router\": \"^2.3.1\"\r\n  },\r\n  \"devDependencies\": {\r\n    \"autoprefixer\": \"^6.7.2\",\r\n    \"babel-core\": \"^6.22.1\",\r\n    \"babel-eslint\": \"^7.1.1\",\r\n    \"babel-loader\": \"^6.2.10\",\r\n    \"babel-plugin-istanbul\": \"^4.1.1\",\r\n    \"babel-plugin-transform-runtime\": \"^6.22.0\",\r\n    \"babel-preset-env\": \"^1.3.2\",\r\n    \"babel-preset-stage-2\": \"^6.22.0\",\r\n    \"babel-register\": \"^6.22.0\",\r\n    \"browserify\": \"^14.4.0\",\r\n    \"chai\": \"^3.5.0\",\r\n    \"chalk\": \"^1.1.3\",\r\n    \"chromedriver\": \"^2.27.2\",\r\n    \"connect-history-api-fallback\": \"^1.3.0\",\r\n    \"copy-webpack-plugin\": \"^4.0.1\",\r\n    \"cross-env\": \"^4.0.0\",\r\n    \"cross-spawn\": \"^5.0.1\",\r\n    \"css-loader\": \"^0.28.0\",\r\n    \"electron\": \"^1.6.10\",\r\n    \"electron-builder\": \"^18.5.1\",\r\n    \"electron-packager\": \"^8.7.1\",\r\n    \"eslint\": \"^3.19.0\",\r\n    \"eslint-config-standard\": \"^6.2.1\",\r\n    \"eslint-friendly-formatter\": \"^2.0.7\",\r\n    \"eslint-loader\": \"^1.7.1\",\r\n    \"eslint-plugin-html\": \"^2.0.0\",\r\n    \"eslint-plugin-promise\": \"^3.4.0\",\r\n    \"eslint-plugin-standard\": \"^2.0.1\",\r\n    \"eventsource-polyfill\": \"^0.9.6\",\r\n    \"express\": \"^4.14.1\",\r\n    \"extract-text-webpack-plugin\": \"^2.0.0\",\r\n    \"file-loader\": \"^0.11.1\",\r\n    \"friendly-errors-webpack-plugin\": \"^1.1.3\",\r\n    \"fs\": \"^0.0.1-security\",\r\n    \"html-webpack-plugin\": \"^2.28.0\",\r\n    \"http-proxy-middleware\": \"^0.17.3\",\r\n    \"inject-loader\": \"^3.0.0\",\r\n    \"karma\": \"^1.4.1\",\r\n    \"karma-coverage\": \"^1.1.1\",\r\n    \"karma-mocha\": \"^1.3.0\",\r\n    \"karma-phantomjs-launcher\": \"^1.0.2\",\r\n    \"karma-phantomjs-shim\": \"^1.4.0\",\r\n    \"karma-sinon-chai\": \"^1.3.1\",\r\n    \"karma-sourcemap-loader\": \"^0.3.7\",\r\n    \"karma-spec-reporter\": \"0.0.30\",\r\n    \"karma-webpack\": \"^2.0.2\",\r\n    \"lolex\": \"^1.5.2\",\r\n    \"mocha\": \"^3.2.0\",\r\n    \"nightwatch\": \"^0.9.12\",\r\n    \"opn\": \"^4.0.2\",\r\n    \"optimize-css-assets-webpack-plugin\": \"^1.3.0\",\r\n    \"ora\": \"^1.2.0\",\r\n    \"phantomjs-prebuilt\": \"^2.1.14\",\r\n    \"rimraf\": \"^2.6.0\",\r\n    \"selenium-server\": \"^3.0.1\",\r\n    \"semver\": \"^5.3.0\",\r\n    \"shelljs\": \"^0.7.6\",\r\n    \"sinon\": \"^2.1.0\",\r\n    \"sinon-chai\": \"^2.8.0\",\r\n    \"url-loader\": \"^0.5.8\",\r\n    \"vue-loader\": \"^12.1.0\",\r\n    \"vue-style-loader\": \"^3.0.1\",\r\n    \"vue-template-compiler\": \"^2.3.3\",\r\n    \"webpack\": \"^2.6.1\",\r\n    \"webpack-bundle-analyzer\": \"^2.2.1\",\r\n    \"webpack-dev-middleware\": \"^1.10.0\",\r\n    \"webpack-hot-middleware\": \"^2.18.0\",\r\n    \"webpack-merge\": \"^4.1.0\"\r\n  },\r\n  \"engines\": {\r\n    \"node\": \">= 4.0.0\",\r\n    \"npm\": \">= 3.0.0\"\r\n  },\r\n  \"browserslist\": [\r\n    \"> 1%\",\r\n    \"last 2 versions\",\r\n    \"not ie <= 8\"\r\n  ]\r\n}\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/307046141",
+    "html_url": "https://github.com/electron/electron/issues/9699#issuecomment-307046141",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9699",
+    "id": 307046141,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-08T09:11:52Z",
+    "updated_at": "2017-06-08T09:11:52Z",
+    "body": "GitHub issues are for feature requests and bug reports, questions about using Electron should be directed to the [community](https://github.com/electron/electron#community) or to the [Slack Channel](http://atom-slack.herokuapp.com/)."
+  }
+]

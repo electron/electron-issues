@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/195209727",
+    "html_url": "https://github.com/electron/electron/pull/4747#issuecomment-195209727",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4747",
+    "id": 195209727,
+    "user": {
+      "login": "maxbeatty",
+      "id": 93179,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/93179?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/maxbeatty",
+      "html_url": "https://github.com/maxbeatty",
+      "followers_url": "https://api.github.com/users/maxbeatty/followers",
+      "following_url": "https://api.github.com/users/maxbeatty/following{/other_user}",
+      "gists_url": "https://api.github.com/users/maxbeatty/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/maxbeatty/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/maxbeatty/subscriptions",
+      "organizations_url": "https://api.github.com/users/maxbeatty/orgs",
+      "repos_url": "https://api.github.com/users/maxbeatty/repos",
+      "events_url": "https://api.github.com/users/maxbeatty/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/maxbeatty/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-11T06:04:02Z",
+    "updated_at": "2016-03-11T06:04:02Z",
+    "body": "Closing in favor of #4751 \n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224463456",
+    "html_url": "https://github.com/electron/electron/issues/5920#issuecomment-224463456",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5920",
+    "id": 224463456,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-08T01:36:14Z",
+    "updated_at": "2016-06-08T01:36:14Z",
+    "body": "> Many windows opened. You can run npm install && npm start to see. Supposed only one window.\n\nIt is your code opening a second window by calling `window.open`.\n\n> Will you add native error popups? If my application can`t continue work, it will call a function to throw a fatal error and a error popup will be displayed.\n\nPlease view the docs of `dialog` module.\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/227101098",
+    "html_url": "https://github.com/electron/electron/pull/6145#issuecomment-227101098",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6145",
+    "id": 227101098,
+    "user": {
+      "login": "wa4557",
+      "id": 6475757,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6475757?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wa4557",
+      "html_url": "https://github.com/wa4557",
+      "followers_url": "https://api.github.com/users/wa4557/followers",
+      "following_url": "https://api.github.com/users/wa4557/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wa4557/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wa4557/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wa4557/subscriptions",
+      "organizations_url": "https://api.github.com/users/wa4557/orgs",
+      "repos_url": "https://api.github.com/users/wa4557/repos",
+      "events_url": "https://api.github.com/users/wa4557/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wa4557/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-20T10:03:54Z",
+    "updated_at": "2016-06-20T10:03:54Z",
+    "body": "Thanks! Sorry for not doing this earlier :)\n"
+  }
+]

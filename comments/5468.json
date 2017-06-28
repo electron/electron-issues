@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/218327579",
+    "html_url": "https://github.com/electron/electron/issues/5468#issuecomment-218327579",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5468",
+    "id": 218327579,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-11T00:05:52Z",
+    "updated_at": "2016-05-11T00:05:52Z",
+    "body": "I like the idea, and it is a already quite popular for Windows apps. But this issue does not belong to Electron, you can write a small installer that downloads the actual file from internet, which can work for arbitrary app instead of just Electron.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/218329472",
+    "html_url": "https://github.com/electron/electron/issues/5468#issuecomment-218329472",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5468",
+    "id": 218329472,
+    "user": {
+      "login": "sgarbesi",
+      "id": 155986,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/155986?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sgarbesi",
+      "html_url": "https://github.com/sgarbesi",
+      "followers_url": "https://api.github.com/users/sgarbesi/followers",
+      "following_url": "https://api.github.com/users/sgarbesi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sgarbesi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sgarbesi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sgarbesi/subscriptions",
+      "organizations_url": "https://api.github.com/users/sgarbesi/orgs",
+      "repos_url": "https://api.github.com/users/sgarbesi/repos",
+      "events_url": "https://api.github.com/users/sgarbesi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sgarbesi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-11T00:18:56Z",
+    "updated_at": "2016-05-11T00:18:56Z",
+    "body": "@zcbenz I was thinking more along the lines of a wrapper.\n\n`test.app` === wrapper with .zip of electron app bundled.\n\nWhen running `test.app` it decompresses itself internally, then launches the decompressed app. Obviously after the first run, it would cache the decompressed application and either swap itself out, or just always reference the decompressed library.\n\nYou're correct though. This is a separate app, but because of the large footprint, it probably would've been appealing if something like this was already bundled in. Maybe if I can find some spare time I'll try to write a add-on. I can't imagine it being that much code.\n"
+  }
+]

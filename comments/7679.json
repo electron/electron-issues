@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/255371900",
+    "html_url": "https://github.com/electron/electron/issues/7679#issuecomment-255371900",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7679",
+    "id": 255371900,
+    "user": {
+      "login": "singhshashi",
+      "id": 371601,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/371601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/singhshashi",
+      "html_url": "https://github.com/singhshashi",
+      "followers_url": "https://api.github.com/users/singhshashi/followers",
+      "following_url": "https://api.github.com/users/singhshashi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/singhshashi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/singhshashi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/singhshashi/subscriptions",
+      "organizations_url": "https://api.github.com/users/singhshashi/orgs",
+      "repos_url": "https://api.github.com/users/singhshashi/repos",
+      "events_url": "https://api.github.com/users/singhshashi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/singhshashi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-21T13:08:04Z",
+    "updated_at": "2016-10-21T13:08:04Z",
+    "body": "FYI.. This was working a few weeks before and has stopped working now. \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/255619710",
+    "html_url": "https://github.com/electron/electron/issues/7679#issuecomment-255619710",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7679",
+    "id": 255619710,
+    "user": {
+      "login": "singhshashi",
+      "id": 371601,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/371601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/singhshashi",
+      "html_url": "https://github.com/singhshashi",
+      "followers_url": "https://api.github.com/users/singhshashi/followers",
+      "following_url": "https://api.github.com/users/singhshashi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/singhshashi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/singhshashi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/singhshashi/subscriptions",
+      "organizations_url": "https://api.github.com/users/singhshashi/orgs",
+      "repos_url": "https://api.github.com/users/singhshashi/repos",
+      "events_url": "https://api.github.com/users/singhshashi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/singhshashi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-23T22:38:01Z",
+    "updated_at": "2016-10-23T22:38:01Z",
+    "body": "This seems to be working now. Closing\n"
+  }
+]

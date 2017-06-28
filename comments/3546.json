@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/158852240",
+    "html_url": "https://github.com/electron/electron/issues/3546#issuecomment-158852240",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3546",
+    "id": 158852240,
+    "user": {
+      "login": "bengotow",
+      "id": 1037212,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1037212?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bengotow",
+      "html_url": "https://github.com/bengotow",
+      "followers_url": "https://api.github.com/users/bengotow/followers",
+      "following_url": "https://api.github.com/users/bengotow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bengotow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bengotow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bengotow/subscriptions",
+      "organizations_url": "https://api.github.com/users/bengotow/orgs",
+      "repos_url": "https://api.github.com/users/bengotow/repos",
+      "events_url": "https://api.github.com/users/bengotow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bengotow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-23T04:32:05Z",
+    "updated_at": "2015-11-23T04:32:05Z",
+    "body": "Hi @wildfiremedia — it looks like your package.json file in \"bug\" contains \"pretty\" quotes, which aren't valid in JSON:\n\n![image](https://cloud.githubusercontent.com/assets/1037212/11329965/06a15eec-9158-11e5-93b5-6309cfbac101.png)\n\nWhen I remove those it reads the file and runs fine.\n"
+  }
+]

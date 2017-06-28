@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/21014158",
+    "html_url": "https://github.com/electron/electron/issues/39#issuecomment-21014158",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/39",
+    "id": 21014158,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-07-16T00:39:20Z",
+    "updated_at": "2013-07-16T00:39:20Z",
+    "body": "Node's implementation of `setImmediate` and `process.nextTick` use `uv_check_start` to schedule the callback to run in the next iteration of uv loop, which doesn't make atom-shell to wake up the uv loop, because it's not a real os event and would not make `kevent` return. I'm seeing if I can get a decent patch and send a PR to upstream libuv.\n\nAnd I'll also add automatic tests for atom-shell to avoid breaking fixed bugs again.\n"
+  }
+]

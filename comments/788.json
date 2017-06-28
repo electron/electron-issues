@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/61775392",
+    "html_url": "https://github.com/electron/electron/issues/788#issuecomment-61775392",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/788",
+    "id": 61775392,
+    "user": {
+      "login": "devinceble",
+      "id": 4859257,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4859257?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/devinceble",
+      "html_url": "https://github.com/devinceble",
+      "followers_url": "https://api.github.com/users/devinceble/followers",
+      "following_url": "https://api.github.com/users/devinceble/following{/other_user}",
+      "gists_url": "https://api.github.com/users/devinceble/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/devinceble/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/devinceble/subscriptions",
+      "organizations_url": "https://api.github.com/users/devinceble/orgs",
+      "repos_url": "https://api.github.com/users/devinceble/repos",
+      "events_url": "https://api.github.com/users/devinceble/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/devinceble/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-05T08:40:49Z",
+    "updated_at": "2014-11-06T08:05:35Z",
+    "body": "The Problem was Un-initialize mainWindow global variable on the main.js Fixed :-D\n"
+  }
+]

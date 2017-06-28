@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/227350394",
+    "html_url": "https://github.com/electron/electron/issues/6157#issuecomment-227350394",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6157",
+    "id": 227350394,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-21T06:18:36Z",
+    "updated_at": "2016-06-21T06:18:36Z",
+    "body": "You can choose to enable node integration, and then remove all node symbols except for `WebView` later, a similar example can be found at: http://electron.atom.io/docs/api/process/#event-loaded\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/228562629",
+    "html_url": "https://github.com/electron/electron/issues/6157#issuecomment-228562629",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6157",
+    "id": 228562629,
+    "user": {
+      "login": "chandrachivukula",
+      "id": 12478356,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12478356?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chandrachivukula",
+      "html_url": "https://github.com/chandrachivukula",
+      "followers_url": "https://api.github.com/users/chandrachivukula/followers",
+      "following_url": "https://api.github.com/users/chandrachivukula/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chandrachivukula/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chandrachivukula/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chandrachivukula/subscriptions",
+      "organizations_url": "https://api.github.com/users/chandrachivukula/orgs",
+      "repos_url": "https://api.github.com/users/chandrachivukula/repos",
+      "events_url": "https://api.github.com/users/chandrachivukula/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chandrachivukula/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-25T18:05:45Z",
+    "updated_at": "2016-06-25T18:05:45Z",
+    "body": "Thanks for the info @zcbenz, however this comment on the [webview page](https://github.com/electron/electron/blob/master/docs/api/web-view-tag.md#nodeintegration) is confusing. Does it mean I can use webview in my browserwindow (nodeintegration disabled) and have the webview inherit that setting automatically? I remember seeing a PR which make sure webview node integration inherits the BrowserWindow.\n\nCould you please clarify?\n\n> nodeintegration\n> \n> <webview src=\"http://www.google.com/\" nodeintegration></webview>\n> If \"on\", the guest page in webview will have node integration and can use node APIs like require and process to access low level system resources.\n> \n> Note: Node integration will always be disabled in the webview if it is disabled on the parent window.\n"
+  }
+]

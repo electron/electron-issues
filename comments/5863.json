@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223848211",
+    "html_url": "https://github.com/electron/electron/issues/5863#issuecomment-223848211",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5863",
+    "id": 223848211,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-06T00:42:35Z",
+    "updated_at": "2016-06-06T00:42:35Z",
+    "body": "Were you using `process.argv` in the main process?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223848831",
+    "html_url": "https://github.com/electron/electron/issues/5863#issuecomment-223848831",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5863",
+    "id": 223848831,
+    "user": {
+      "login": "Dillybob92",
+      "id": 10387670,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10387670?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Dillybob92",
+      "html_url": "https://github.com/Dillybob92",
+      "followers_url": "https://api.github.com/users/Dillybob92/followers",
+      "following_url": "https://api.github.com/users/Dillybob92/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Dillybob92/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Dillybob92/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Dillybob92/subscriptions",
+      "organizations_url": "https://api.github.com/users/Dillybob92/orgs",
+      "repos_url": "https://api.github.com/users/Dillybob92/repos",
+      "events_url": "https://api.github.com/users/Dillybob92/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Dillybob92/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-06T00:52:49Z",
+    "updated_at": "2016-06-06T00:52:49Z",
+    "body": "@zcbenz Oh oops. Nope, I was using it in the browser process\n\nI did this inside the main process\n\n![image](https://cloud.githubusercontent.com/assets/10387670/15809445/43c7b838-2b46-11e6-8729-b63f4f101fe1.png)\n\n.. And now I can access them!:\n![image](https://cloud.githubusercontent.com/assets/10387670/15809447/4c552daa-2b46-11e6-8b43-56725f36d089.png)\n\nHaha, my bad @zcbenz  Thanks for help!!!!\n"
+  }
+]

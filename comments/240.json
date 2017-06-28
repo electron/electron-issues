@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/42506054",
+    "html_url": "https://github.com/electron/electron/pull/240#issuecomment-42506054",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/240",
+    "id": 42506054,
+    "user": {
+      "login": "razic",
+      "id": 225005,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/225005?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/razic",
+      "html_url": "https://github.com/razic",
+      "followers_url": "https://api.github.com/users/razic/followers",
+      "following_url": "https://api.github.com/users/razic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/razic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/razic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/razic/subscriptions",
+      "organizations_url": "https://api.github.com/users/razic/orgs",
+      "repos_url": "https://api.github.com/users/razic/repos",
+      "events_url": "https://api.github.com/users/razic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/razic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-05-08T01:58:55Z",
+    "updated_at": "2014-05-08T01:58:55Z",
+    "body": ":+1: \n"
+  }
+]

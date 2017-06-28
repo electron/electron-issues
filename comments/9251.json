@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/307765410",
+    "html_url": "https://github.com/electron/electron/issues/9251#issuecomment-307765410",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9251",
+    "id": 307765410,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-12T11:41:35Z",
+    "updated_at": "2017-06-12T11:41:35Z",
+    "body": "Looks like a bug of GPU rendering, you may try using Electron with GPU acceleration disabled.\r\n\r\nI'm closing this since none of us in Electron team is familiar with Chromium's GPU rendering enough to be able to fix bugs with GPU rendering, you may have to wait for a Chrome upgrade to fix this."
+  }
+]

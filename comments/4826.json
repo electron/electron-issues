@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/197466967",
+    "html_url": "https://github.com/electron/electron/issues/4826#issuecomment-197466967",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4826",
+    "id": 197466967,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-03-16T18:18:30Z",
+    "updated_at": "2016-03-16T18:18:49Z",
+    "body": "You can use a library like [request](https://github.com/request/request) to send the buffer/stream returned from the `fs` APIs to your server.\n\nHere is a simple example from the README:\n\n``` js\nrequest('http://google.com/doodle.png').pipe(fs.createWriteStream('doodle.png'))\n```\n\nClosing this out.\n"
+  }
+]

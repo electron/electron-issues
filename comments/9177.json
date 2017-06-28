@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/293695532",
+    "html_url": "https://github.com/electron/electron/issues/9177#issuecomment-293695532",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9177",
+    "id": 293695532,
+    "user": {
+      "login": "LoganArnett",
+      "id": 8780547,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8780547?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/LoganArnett",
+      "html_url": "https://github.com/LoganArnett",
+      "followers_url": "https://api.github.com/users/LoganArnett/followers",
+      "following_url": "https://api.github.com/users/LoganArnett/following{/other_user}",
+      "gists_url": "https://api.github.com/users/LoganArnett/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/LoganArnett/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/LoganArnett/subscriptions",
+      "organizations_url": "https://api.github.com/users/LoganArnett/orgs",
+      "repos_url": "https://api.github.com/users/LoganArnett/repos",
+      "events_url": "https://api.github.com/users/LoganArnett/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/LoganArnett/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-12T20:19:54Z",
+    "updated_at": "2017-04-12T20:19:54Z",
+    "body": "I am running a react application within Electron, would I be able to make a very simple express app that just handles the webcam video and recording and use a `<webview>` tag to place it into my react view?"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308667078",
+    "html_url": "https://github.com/electron/electron/issues/9177#issuecomment-308667078",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9177",
+    "id": 308667078,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-15T08:38:10Z",
+    "updated_at": "2017-06-15T08:38:10Z",
+    "body": "Hmm I don't know why it happens, but I'm afraid we are unable to fix this since it is related to your specific hardware, even though it might be Electron's bug. Closing this as won't fix."
+  }
+]

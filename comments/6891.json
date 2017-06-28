@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/240589194",
+    "html_url": "https://github.com/electron/electron/issues/6891#issuecomment-240589194",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6891",
+    "id": 240589194,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-18T00:22:34Z",
+    "updated_at": "2016-08-18T00:22:34Z",
+    "body": "> Is it possible to make an \"outside\" call to a binary inside the package? I mean, running /bin/sh /path/to/asar/inside/binary, is it possible or is there any way to achieve that?\n\nYou can only use `child_process.execFile` with binaries inside an `.asar` archive.\n\nYou'll need to include the binary in your asar unpacked folder to use `child_process.exec`.\n\nhttp://electron.atom.io/docs/tutorial/application-packaging/#executing-binaries-inside-asar-archive\n\nhttp://electron.atom.io/docs/tutorial/application-packaging/#adding-unpacked-files-in-asar-archive\n"
+  }
+]

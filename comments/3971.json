@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/168253151",
+    "html_url": "https://github.com/electron/electron/issues/3971#issuecomment-168253151",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3971",
+    "id": 168253151,
+    "user": {
+      "login": "levrik",
+      "id": 9491603,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9491603?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/levrik",
+      "html_url": "https://github.com/levrik",
+      "followers_url": "https://api.github.com/users/levrik/followers",
+      "following_url": "https://api.github.com/users/levrik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/levrik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/levrik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/levrik/subscriptions",
+      "organizations_url": "https://api.github.com/users/levrik/orgs",
+      "repos_url": "https://api.github.com/users/levrik/repos",
+      "events_url": "https://api.github.com/users/levrik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/levrik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-31T21:48:48Z",
+    "updated_at": "2015-12-31T21:48:48Z",
+    "body": "Just override `window.open`.\n\nAn example (not tested, but should work): \n\n``` javascript\nvar originalWindowOpen = window.open;\nwindow.open = function openWindow(url, frameName) {\n    return originalWindowOpen(url, frameName, 'FEATURES_STRING');\n}\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/168253327",
+    "html_url": "https://github.com/electron/electron/issues/3971#issuecomment-168253327",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3971",
+    "id": 168253327,
+    "user": {
+      "login": "jamen",
+      "id": 6251703,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6251703?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jamen",
+      "html_url": "https://github.com/jamen",
+      "followers_url": "https://api.github.com/users/jamen/followers",
+      "following_url": "https://api.github.com/users/jamen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jamen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jamen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jamen/subscriptions",
+      "organizations_url": "https://api.github.com/users/jamen/orgs",
+      "repos_url": "https://api.github.com/users/jamen/repos",
+      "events_url": "https://api.github.com/users/jamen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jamen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-31T21:52:17Z",
+    "updated_at": "2015-12-31T21:52:17Z",
+    "body": "Thanks, that's a nice workaround.\n"
+  }
+]

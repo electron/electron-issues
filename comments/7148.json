@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/246580691",
+    "html_url": "https://github.com/electron/electron/issues/7148#issuecomment-246580691",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7148",
+    "id": 246580691,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-13T05:45:01Z",
+    "updated_at": "2016-09-13T05:45:01Z",
+    "body": "I think the root problem is we have two `exe` files, and each one should be used under different cases. An alternative way to fix this is to split `electron.exe` into `electron.exe` and `electron.dll`, and use the former as a small wrapper to find and load `electron.dll`, just like what Chrome does.\n\nA discussion on the alternative way can be found at https://github.com/electron/electron/issues/5830#issuecomment-243706205.\n"
+  }
+]

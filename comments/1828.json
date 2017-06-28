@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/108231129",
+    "html_url": "https://github.com/electron/electron/issues/1828#issuecomment-108231129",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1828",
+    "id": 108231129,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-06-03T07:30:16Z",
+    "updated_at": "2015-06-03T07:30:16Z",
+    "body": "It looks quite reasonable to throw the error if the script tries to load iframe with `X-Frame-Options` in a local page?\n\nI think you may try to make google drive API work in a normal Chrome and then run it in Electron. I'm closing this unless you can provide an example that can run in Chrome browser but not in Electron, you can also look for help in the [forum](https://discuss.atom.io/c/electron) or [Slack](https://discuss.atom.io/t/join-us-on-slack/16638).\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/256697391",
+    "html_url": "https://github.com/electron/electron/issues/7774#issuecomment-256697391",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7774",
+    "id": 256697391,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-27T16:29:29Z",
+    "updated_at": "2016-10-27T16:29:29Z",
+    "body": "I just added this to `electron-docs-linter` a few days ago.  They will be present in the next release\n\nAs an example:\n\n``` js\n\"instanceProperties\": [\n      {\n        \"name\": \"webContents\",\n        \"description\": \"A WebContents object this window owns. All web page related events and operations will be done via it. See the webContents documentation for its methods and events.\",\n        \"type\": \"WebContents\"\n      },\n      {\n        \"name\": \"id\",\n        \"description\": \"A Integer representing the unique ID of the window.\",\n        \"type\": \"Integer\"\n      }\n    ],\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/256699990",
+    "html_url": "https://github.com/electron/electron/issues/7774#issuecomment-256699990",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7774",
+    "id": 256699990,
+    "user": {
+      "login": "tong",
+      "id": 203646,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/203646?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tong",
+      "html_url": "https://github.com/tong",
+      "followers_url": "https://api.github.com/users/tong/followers",
+      "following_url": "https://api.github.com/users/tong/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tong/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tong/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tong/subscriptions",
+      "organizations_url": "https://api.github.com/users/tong/orgs",
+      "repos_url": "https://api.github.com/users/tong/repos",
+      "events_url": "https://api.github.com/users/tong/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tong/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-27T16:38:51Z",
+    "updated_at": "2016-10-27T16:38:51Z",
+    "body": "Great, thx!\n"
+  }
+]

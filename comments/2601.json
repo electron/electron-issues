@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/135258750",
+    "html_url": "https://github.com/electron/electron/issues/2601#issuecomment-135258750",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2601",
+    "id": 135258750,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-08-27T02:34:03Z",
+    "updated_at": "2015-08-27T02:34:24Z",
+    "body": "Unfortunately you can not use an ArrayBuffer created directly with V8 API in web pages, this is because blink has inserted custom C++ objects into ArrayBuffer for memory management, and it is expecting that everywhere.\n\nThis bit me deeply when upgrading io.js to v3.1.0 because io.js is also starting to do manual memory management for ArrayBuffer.\n\nI'm not sure which version of Electron your app is using, but I suggest switching Electron to v0.31.0 and io.js to v3.1.0, and then use node::Buffer in place of v8::ArrayBuffer. In io.js v3.1.0 they have reimplemented Buffer as Uint8Array, and I have made efforts to make it work well together with blink.\n\nAlso you may want to upgrade NAN to its v2 version, which fixes compatibility issues with io.js v3.1.0.\n\nThis problem is quite unfortunate, but there is really no way to fix that, so I'm closing this as won't fix.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/220818378",
+    "html_url": "https://github.com/electron/electron/issues/5626#issuecomment-220818378",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5626",
+    "id": 220818378,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-22T07:22:18Z",
+    "updated_at": "2016-05-22T07:22:18Z",
+    "body": "This is unfortunately a behavior of OS X, every app started from Finder does not get the environment variables from terminal. There is a simple module to work around this:\nhttps://github.com/sindresorhus/fix-path\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/220835504",
+    "html_url": "https://github.com/electron/electron/issues/5626#issuecomment-220835504",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5626",
+    "id": 220835504,
+    "user": {
+      "login": "antoniobrandao",
+      "id": 464121,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/464121?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antoniobrandao",
+      "html_url": "https://github.com/antoniobrandao",
+      "followers_url": "https://api.github.com/users/antoniobrandao/followers",
+      "following_url": "https://api.github.com/users/antoniobrandao/following{/other_user}",
+      "gists_url": "https://api.github.com/users/antoniobrandao/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/antoniobrandao/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/antoniobrandao/subscriptions",
+      "organizations_url": "https://api.github.com/users/antoniobrandao/orgs",
+      "repos_url": "https://api.github.com/users/antoniobrandao/repos",
+      "events_url": "https://api.github.com/users/antoniobrandao/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/antoniobrandao/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-22T14:30:45Z",
+    "updated_at": "2016-05-22T14:30:45Z",
+    "body": "BIG thanks @zcbenz \n"
+  }
+]

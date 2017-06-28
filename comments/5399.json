@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217097380",
+    "html_url": "https://github.com/electron/electron/issues/5399#issuecomment-217097380",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5399",
+    "id": 217097380,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-05T08:02:13Z",
+    "updated_at": "2016-05-05T08:02:13Z",
+    "body": "@karacas Electron won't implement this, but you can use this native module\n\nhttps://github.com/MarshallOfSound/node-lowlevel-keyboard-hook-win\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217156161",
+    "html_url": "https://github.com/electron/electron/issues/5399#issuecomment-217156161",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5399",
+    "id": 217156161,
+    "user": {
+      "login": "karacas",
+      "id": 1050937,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1050937?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karacas",
+      "html_url": "https://github.com/karacas",
+      "followers_url": "https://api.github.com/users/karacas/followers",
+      "following_url": "https://api.github.com/users/karacas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/karacas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/karacas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/karacas/subscriptions",
+      "organizations_url": "https://api.github.com/users/karacas/orgs",
+      "repos_url": "https://api.github.com/users/karacas/repos",
+      "events_url": "https://api.github.com/users/karacas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/karacas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-05T13:36:11Z",
+    "updated_at": "2016-05-05T13:36:11Z",
+    "body": "Tnxs!\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/50287489",
+    "html_url": "https://github.com/electron/electron/issues/490#issuecomment-50287489",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/490",
+    "id": 50287489,
+    "user": {
+      "login": "buschtoens",
+      "id": 834636,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/834636?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/buschtoens",
+      "html_url": "https://github.com/buschtoens",
+      "followers_url": "https://api.github.com/users/buschtoens/followers",
+      "following_url": "https://api.github.com/users/buschtoens/following{/other_user}",
+      "gists_url": "https://api.github.com/users/buschtoens/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/buschtoens/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/buschtoens/subscriptions",
+      "organizations_url": "https://api.github.com/users/buschtoens/orgs",
+      "repos_url": "https://api.github.com/users/buschtoens/repos",
+      "events_url": "https://api.github.com/users/buschtoens/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/buschtoens/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-27T22:09:28Z",
+    "updated_at": "2014-07-27T22:09:28Z",
+    "body": "Another pesky buf that corelates with this: When atom is closed while in maximized mode, it will remember that window size, but not the state of maximization.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/53180955",
+    "html_url": "https://github.com/electron/electron/issues/490#issuecomment-53180955",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/490",
+    "id": 53180955,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-08-24T06:38:47Z",
+    "updated_at": "2014-08-24T06:38:47Z",
+    "body": "This had already been fixed in atom.\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/43060136",
+    "html_url": "https://github.com/electron/electron/issues/298#issuecomment-43060136",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/298",
+    "id": 43060136,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-05-14T09:30:45Z",
+    "updated_at": "2014-05-14T09:30:45Z",
+    "body": "Before browser window actually shows any window, there is actually no `WebContents` attached to it, so opening devtools at this time would result in a broken devtools. This is expected behavior so we won't fix it.\n\nYou can just navigate to `about:blank` if you want to open devtools before loading the URL.\n"
+  }
+]

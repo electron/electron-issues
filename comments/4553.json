@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/186384156",
+    "html_url": "https://github.com/electron/electron/issues/4553#issuecomment-186384156",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4553",
+    "id": 186384156,
+    "user": {
+      "login": "JavaScriptDude",
+      "id": 4992230,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4992230?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/JavaScriptDude",
+      "html_url": "https://github.com/JavaScriptDude",
+      "followers_url": "https://api.github.com/users/JavaScriptDude/followers",
+      "following_url": "https://api.github.com/users/JavaScriptDude/following{/other_user}",
+      "gists_url": "https://api.github.com/users/JavaScriptDude/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/JavaScriptDude/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/JavaScriptDude/subscriptions",
+      "organizations_url": "https://api.github.com/users/JavaScriptDude/orgs",
+      "repos_url": "https://api.github.com/users/JavaScriptDude/repos",
+      "events_url": "https://api.github.com/users/JavaScriptDude/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/JavaScriptDude/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-19T20:11:29Z",
+    "updated_at": "2016-02-19T20:11:29Z",
+    "body": "I just noticed the new version now and found bug [3832](https://github.com/atom/electron/issues/3832) which sounded similar. I will close this issue, run the new Electron and open again if it comes back.\n"
+  }
+]

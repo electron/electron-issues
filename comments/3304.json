@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/153106207",
+    "html_url": "https://github.com/electron/electron/issues/3304#issuecomment-153106207",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3304",
+    "id": 153106207,
+    "user": {
+      "login": "bmathews",
+      "id": 848347,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/848347?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bmathews",
+      "html_url": "https://github.com/bmathews",
+      "followers_url": "https://api.github.com/users/bmathews/followers",
+      "following_url": "https://api.github.com/users/bmathews/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bmathews/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bmathews/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bmathews/subscriptions",
+      "organizations_url": "https://api.github.com/users/bmathews/orgs",
+      "repos_url": "https://api.github.com/users/bmathews/repos",
+      "events_url": "https://api.github.com/users/bmathews/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bmathews/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-02T18:11:57Z",
+    "updated_at": "2015-11-02T18:11:57Z",
+    "body": "https://github.com/atom/electron/blob/master/docs/api/native-image.md#high-resolution-image\n"
+  }
+]

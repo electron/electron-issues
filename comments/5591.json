@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/220178686",
+    "html_url": "https://github.com/electron/electron/issues/5591#issuecomment-220178686",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5591",
+    "id": 220178686,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-18T22:36:02Z",
+    "updated_at": "2016-05-18T22:36:02Z",
+    "body": "Unfortunately, OS X picks where those buttons go and there's nada you can do about it. In your case, I'd just ditch the custom menu entirely and move those items into the actual top-level menu, it's Quite Odd to put window-specific menus on OS X apps\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/220181254",
+    "html_url": "https://github.com/electron/electron/issues/5591#issuecomment-220181254",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5591",
+    "id": 220181254,
+    "user": {
+      "login": "xblox",
+      "id": 1205100,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1205100?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xblox",
+      "html_url": "https://github.com/xblox",
+      "followers_url": "https://api.github.com/users/xblox/followers",
+      "following_url": "https://api.github.com/users/xblox/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xblox/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xblox/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xblox/subscriptions",
+      "organizations_url": "https://api.github.com/users/xblox/orgs",
+      "repos_url": "https://api.github.com/users/xblox/repos",
+      "events_url": "https://api.github.com/users/xblox/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xblox/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-18T22:50:19Z",
+    "updated_at": "2016-05-18T22:50:19Z",
+    "body": "yeah, guessed so. i'll go for css hacking then. \nok, thanks a lot\n"
+  }
+]

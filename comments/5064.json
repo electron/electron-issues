@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/206644187",
+    "html_url": "https://github.com/electron/electron/pull/5064#issuecomment-206644187",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5064",
+    "id": 206644187,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-07T01:24:15Z",
+    "updated_at": "2016-04-07T01:24:15Z",
+    "body": "Looks like one of the builds is failing, investigating now. The error is:\n\n```\nFAILED: cd ../../; python tools/js2asar.py out/D/resources/default_app.asar default_app default_app/default_app.js default_app/index.html default_app/main.js default_app/package.json\n\nutil.js:538\n  ctor.prototype = Object.create(superCtor.prototype, {\n                                          ^\nTypeError: Cannot read property 'prototype' of undefined\n    at Object.exports.inherits (util.js:538:43)\n    at Object.<anonymous> (/var/lib/jenkins/workspace/electron-linux-arm/node_modules/asar/node_modules/mksnapshot/node_modules/fs-extra/node_modules/klaw/index.js:19:6)\n    at Module._compile (module.js:449:26)\n    at Object.Module._extensions..js (module.js:467:10)\n    at Module.load (module.js:356:32)\n    at Function.Module._load (module.js:312:12)\n    at Module.require (module.js:362:17)\n    at require (module.js:378:17)\n    at Object.<anonymous> (/var/lib/jenkins/workspace/electron-linux-arm/node_modules/asar/node_modules/mksnapshot/node_modules/fs-extra/lib/walk/index.js:1:74)\n    at Module._compile (module.js:449:26)\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/207019016",
+    "html_url": "https://github.com/electron/electron/pull/5064#issuecomment-207019016",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5064",
+    "id": 207019016,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-07T17:37:56Z",
+    "updated_at": "2016-04-07T17:38:00Z",
+    "body": "> Looks like one of the builds is failing, investigating now\n\nThis was due to our internal CI machines using node `0.8` which doesn't have the stream API needed by this upgrade.\n\nI upgraded the machines to `0.10` in #5075 \n"
+  }
+]

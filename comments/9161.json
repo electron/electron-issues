@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/293256440",
+    "html_url": "https://github.com/electron/electron/issues/9161#issuecomment-293256440",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9161",
+    "id": 293256440,
+    "user": {
+      "login": "levrik",
+      "id": 9491603,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9491603?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/levrik",
+      "html_url": "https://github.com/levrik",
+      "followers_url": "https://api.github.com/users/levrik/followers",
+      "following_url": "https://api.github.com/users/levrik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/levrik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/levrik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/levrik/subscriptions",
+      "organizations_url": "https://api.github.com/users/levrik/orgs",
+      "repos_url": "https://api.github.com/users/levrik/repos",
+      "events_url": "https://api.github.com/users/levrik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/levrik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-11T13:11:58Z",
+    "updated_at": "2017-04-11T13:11:58Z",
+    "body": "I think CEF (https://bitbucket.org/chromiumembedded/cef) would be a better choice for something like that. But that's only my opinion."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/293294822",
+    "html_url": "https://github.com/electron/electron/issues/9161#issuecomment-293294822",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9161",
+    "id": 293294822,
+    "user": {
+      "login": "BentleyBlanks",
+      "id": 5539624,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5539624?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/BentleyBlanks",
+      "html_url": "https://github.com/BentleyBlanks",
+      "followers_url": "https://api.github.com/users/BentleyBlanks/followers",
+      "following_url": "https://api.github.com/users/BentleyBlanks/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BentleyBlanks/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/BentleyBlanks/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BentleyBlanks/subscriptions",
+      "organizations_url": "https://api.github.com/users/BentleyBlanks/orgs",
+      "repos_url": "https://api.github.com/users/BentleyBlanks/repos",
+      "events_url": "https://api.github.com/users/BentleyBlanks/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/BentleyBlanks/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-11T15:10:54Z",
+    "updated_at": "2017-04-11T15:10:54Z",
+    "body": "It seems CEF is similar to the Electron's offscreen. \r\n\r\nActually I tried to use Three.js to simulate the same thing native OpenGL does. But I find it hard to put the UI label (HTML+CSS+JS) draw on the Three.js, just like this\r\n\r\n<a data-flickr-embed=\"true\"  href=\"https://www.flickr.com/photos/134486032@N03/33162957753/in/dateposted-public/\" title=\"electronWithThreeJS\"><img src=\"https://c1.staticflickr.com/4/3727/33162957753_b3d6243661_z.jpg\" width=\"640\" height=\"309\" alt=\"electronWithThreeJS\"></a>\r\n\r\nI find it not that easy to implement……Maybe it is more convenient to use ImGui to make a 3d editor I think ?\r\n"
+  }
+]

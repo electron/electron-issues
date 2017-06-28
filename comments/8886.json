@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/285593719",
+    "html_url": "https://github.com/electron/electron/issues/8886#issuecomment-285593719",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8886",
+    "id": 285593719,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-10T07:00:42Z",
+    "updated_at": "2017-03-10T07:00:42Z",
+    "body": "A quick experimentation makes me believe this was an intended change as a result of the Chromium update.  Things like this will change over time, will defer to someone to confirm this suspicion though 👍 "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/287217897",
+    "html_url": "https://github.com/electron/electron/issues/8886#issuecomment-287217897",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8886",
+    "id": 287217897,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-03-16T23:00:22Z",
+    "updated_at": "2017-03-16T23:00:22Z",
+    "body": "Yeah, the format Chrome uses can and will change over time. The spectron specs themselves initialized failed on 1.6 because of these changes, https://github.com/electron/spectron/pull/162/files#diff-e42eccb97686f30281e1d78eeedd5d06\r\n\r\nYou could raise this issue to the Chrome issue tracker if you want to discuss the root cause of these format changes and what stability you can expect going forward.\r\n\r\nI'm going to close this out here though since this log format is not something Electron or spectron has control over."
+  }
+]

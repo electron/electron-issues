@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/46864117",
+    "html_url": "https://github.com/electron/electron/issues/417#issuecomment-46864117",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/417",
+    "id": 46864117,
+    "user": {
+      "login": "sindresorhus",
+      "id": 170270,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/170270?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sindresorhus",
+      "html_url": "https://github.com/sindresorhus",
+      "followers_url": "https://api.github.com/users/sindresorhus/followers",
+      "following_url": "https://api.github.com/users/sindresorhus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sindresorhus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sindresorhus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sindresorhus/subscriptions",
+      "organizations_url": "https://api.github.com/users/sindresorhus/orgs",
+      "repos_url": "https://api.github.com/users/sindresorhus/repos",
+      "events_url": "https://api.github.com/users/sindresorhus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sindresorhus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-06-23T15:55:57Z",
+    "updated_at": "2014-06-23T15:55:57Z",
+    "body": "That was fast. Thank you! :)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/46864169",
+    "html_url": "https://github.com/electron/electron/issues/417#issuecomment-46864169",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/417",
+    "id": 46864169,
+    "user": {
+      "login": "FWeinb",
+      "id": 1250430,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1250430?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/FWeinb",
+      "html_url": "https://github.com/FWeinb",
+      "followers_url": "https://api.github.com/users/FWeinb/followers",
+      "following_url": "https://api.github.com/users/FWeinb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/FWeinb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/FWeinb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/FWeinb/subscriptions",
+      "organizations_url": "https://api.github.com/users/FWeinb/orgs",
+      "repos_url": "https://api.github.com/users/FWeinb/repos",
+      "events_url": "https://api.github.com/users/FWeinb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/FWeinb/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-06-23T15:56:20Z",
+    "updated_at": "2014-06-23T15:56:20Z",
+    "body": "Awesome! \n"
+  }
+]

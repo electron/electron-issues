@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/18647090",
+    "html_url": "https://github.com/electron/electron/issues/15#issuecomment-18647090",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/15",
+    "id": 18647090,
+    "user": {
+      "login": "jbarnette",
+      "id": 3117,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3117?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jbarnette",
+      "html_url": "https://github.com/jbarnette",
+      "followers_url": "https://api.github.com/users/jbarnette/followers",
+      "following_url": "https://api.github.com/users/jbarnette/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jbarnette/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jbarnette/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jbarnette/subscriptions",
+      "organizations_url": "https://api.github.com/users/jbarnette/orgs",
+      "repos_url": "https://api.github.com/users/jbarnette/repos",
+      "events_url": "https://api.github.com/users/jbarnette/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jbarnette/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-05-29T21:21:54Z",
+    "updated_at": "2013-05-29T21:21:54Z",
+    "body": "Yes.\n\nOn Wed, May 29, 2013 at 2:20 PM, Corey Johnson notifications@github.comwrote:\n\n> In Atom we use - instead of _ to separate words. Should we keep the same\n> convention with file names in atom-shell. For example, should we rename\n> browser_window.coffee to browser-window.coffee?\n> \n> —\n> Reply to this email directly or view it on GitHubhttps://github.com/atom/atom-shell/issues/15\n> .\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/18676723",
+    "html_url": "https://github.com/electron/electron/issues/15#issuecomment-18676723",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/15",
+    "id": 18676723,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-05-30T12:24:20Z",
+    "updated_at": "2013-05-30T12:24:20Z",
+    "body": "I used `_` because node used it in its built-in modules, like `child_process`. But in our case using `-` do seem more reasonable, I'll rename the files.\n"
+  }
+]

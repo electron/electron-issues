@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/232436837",
+    "html_url": "https://github.com/electron/electron/pull/6471#issuecomment-232436837",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6471",
+    "id": 232436837,
+    "user": {
+      "login": "zeke",
+      "id": 2289,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2289?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zeke",
+      "html_url": "https://github.com/zeke",
+      "followers_url": "https://api.github.com/users/zeke/followers",
+      "following_url": "https://api.github.com/users/zeke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zeke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zeke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zeke/subscriptions",
+      "organizations_url": "https://api.github.com/users/zeke/orgs",
+      "repos_url": "https://api.github.com/users/zeke/repos",
+      "events_url": "https://api.github.com/users/zeke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zeke/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-13T18:00:21Z",
+    "updated_at": "2016-07-13T18:00:21Z",
+    "body": "Nice work, @a904guy. Typescript is all the rage now!\n\nThere are a number of existing quickstarts/boilerplates out there for electron. Rather than picking favorites, I think we should add a note to `quick-start.md`:\n\n```\nFor more example apps, see the \n[list of boilerplates](http://electron.atom.io/community/#boilerplates) \nfrom the awesome electron community.\n```\n\nPending: https://github.com/electron/electron.atom.io/pull/381\n\nTo get your repo added to that list, you can open a PR at https://github.com/sindresorhus/awesome-electron\n"
+  }
+]

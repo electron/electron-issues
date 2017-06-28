@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/115103739",
+    "html_url": "https://github.com/electron/electron/issues/1800#issuecomment-115103739",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1800",
+    "id": 115103739,
+    "user": {
+      "login": "frankhale",
+      "id": 190154,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/190154?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frankhale",
+      "html_url": "https://github.com/frankhale",
+      "followers_url": "https://api.github.com/users/frankhale/followers",
+      "following_url": "https://api.github.com/users/frankhale/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frankhale/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frankhale/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frankhale/subscriptions",
+      "organizations_url": "https://api.github.com/users/frankhale/orgs",
+      "repos_url": "https://api.github.com/users/frankhale/repos",
+      "events_url": "https://api.github.com/users/frankhale/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frankhale/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-25T04:38:09Z",
+    "updated_at": "2015-06-25T04:38:09Z",
+    "body": "The answer to this is yes. If you install Electron using the npm module like this:\n\n```\n# Install the `electron` command globally in your $PATH\nnpm install electron-prebuilt -g\n```\n\nThen you can simply run electron from the command line and point it to the path of your app folder. The app folder containing all the necessary bits needed to run your app.\n\nI just test this against my own app.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/141106801",
+    "html_url": "https://github.com/electron/electron/issues/1800#issuecomment-141106801",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1800",
+    "id": 141106801,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-17T14:38:36Z",
+    "updated_at": "2015-09-17T14:38:36Z",
+    "body": "The quick start guide now mentions electron-prebuilt.\n"
+  }
+]

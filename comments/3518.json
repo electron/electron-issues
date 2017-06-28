@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/158257831",
+    "html_url": "https://github.com/electron/electron/issues/3518#issuecomment-158257831",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3518",
+    "id": 158257831,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-20T02:01:30Z",
+    "updated_at": "2015-11-20T02:01:30Z",
+    "body": "I'm unable to reproduce, which version of Electron are you using? \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/158362793",
+    "html_url": "https://github.com/electron/electron/issues/3518#issuecomment-158362793",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3518",
+    "id": 158362793,
+    "user": {
+      "login": "ivankarpey",
+      "id": 1046820,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1046820?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ivankarpey",
+      "html_url": "https://github.com/ivankarpey",
+      "followers_url": "https://api.github.com/users/ivankarpey/followers",
+      "following_url": "https://api.github.com/users/ivankarpey/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ivankarpey/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ivankarpey/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ivankarpey/subscriptions",
+      "organizations_url": "https://api.github.com/users/ivankarpey/orgs",
+      "repos_url": "https://api.github.com/users/ivankarpey/repos",
+      "events_url": "https://api.github.com/users/ivankarpey/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ivankarpey/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-20T11:14:02Z",
+    "updated_at": "2015-11-20T11:14:02Z",
+    "body": "was a problem caused by using browserify. Not electron fault. \n"
+  }
+]

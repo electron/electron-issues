@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/299616377",
+    "html_url": "https://github.com/electron/electron/pull/9390#issuecomment-299616377",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9390",
+    "id": 299616377,
+    "user": {
+      "login": "TimNZ",
+      "id": 1051701,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1051701?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimNZ",
+      "html_url": "https://github.com/TimNZ",
+      "followers_url": "https://api.github.com/users/TimNZ/followers",
+      "following_url": "https://api.github.com/users/TimNZ/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimNZ/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimNZ/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimNZ/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimNZ/orgs",
+      "repos_url": "https://api.github.com/users/TimNZ/repos",
+      "events_url": "https://api.github.com/users/TimNZ/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimNZ/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-06T05:10:47Z",
+    "updated_at": "2017-05-06T05:10:47Z",
+    "body": "Help please."
+  }
+]

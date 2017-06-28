@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217335039",
+    "html_url": "https://github.com/electron/electron/pull/5407#issuecomment-217335039",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5407",
+    "id": 217335039,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-06T02:38:55Z",
+    "updated_at": "2016-05-06T02:38:55Z",
+    "body": "Actually I don't think we should enforce the max/min sizes in constructor or setBounds, the size limitation is only for constraining the behaviors of users, not developers. If a developer sets a size limitation and then breaks it themselves, it is their responsibility. This is what every GUI toolkit does and we should follow the convention, we just need to make it clear in documentations.\n\nI'm very sorry I didn't make it clear in the original issue and wasted your time.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217452517",
+    "html_url": "https://github.com/electron/electron/pull/5407#issuecomment-217452517",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5407",
+    "id": 217452517,
+    "user": {
+      "login": "danhp",
+      "id": 3745612,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3745612?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/danhp",
+      "html_url": "https://github.com/danhp",
+      "followers_url": "https://api.github.com/users/danhp/followers",
+      "following_url": "https://api.github.com/users/danhp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danhp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danhp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danhp/subscriptions",
+      "organizations_url": "https://api.github.com/users/danhp/orgs",
+      "repos_url": "https://api.github.com/users/danhp/repos",
+      "events_url": "https://api.github.com/users/danhp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danhp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-06T14:19:11Z",
+    "updated_at": "2016-05-06T14:19:11Z",
+    "body": "It all good, as it wasn't much time to put together.\nDon't feel too bad over it 😄\n"
+  }
+]

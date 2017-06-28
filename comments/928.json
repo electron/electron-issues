@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/67331651",
+    "html_url": "https://github.com/electron/electron/issues/928#issuecomment-67331651",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/928",
+    "id": 67331651,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-17T14:46:12Z",
+    "updated_at": "2014-12-17T14:46:12Z",
+    "body": "On Windows I'd use `.childdbg 1` to debug the 4023440324x processes that get forked, but lldb doesn't seem to have an equivalent option. Any tips on how to debug Atom Shell renderer crashes?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/67379982",
+    "html_url": "https://github.com/electron/electron/issues/928#issuecomment-67379982",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/928",
+    "id": 67379982,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-12-17T19:38:20Z",
+    "updated_at": "2014-12-17T19:38:20Z",
+    "body": "Atom Shell runs Node.js in both browser process and renderer process and there are some hacks to make Node's event loop work on each side, so making `--single-process` work in Atom Shell is not practical.\n\nAnd in Chromium `--single-process` is not supposed to be stable, it is only guaranteed to open the window without crash.\n\nTo debug a child process on Mac I think you can append `--renderer-startup-dialog` in command line when starting and then use [process attach](http://lldb.llvm.org/tutorial.html) command to attach to the child process.\n"
+  }
+]

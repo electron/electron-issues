@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/281186413",
+    "html_url": "https://github.com/electron/electron/issues/8723#issuecomment-281186413",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8723",
+    "id": 281186413,
+    "user": {
+      "login": "baconbrad",
+      "id": 4763342,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4763342?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/baconbrad",
+      "html_url": "https://github.com/baconbrad",
+      "followers_url": "https://api.github.com/users/baconbrad/followers",
+      "following_url": "https://api.github.com/users/baconbrad/following{/other_user}",
+      "gists_url": "https://api.github.com/users/baconbrad/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/baconbrad/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/baconbrad/subscriptions",
+      "organizations_url": "https://api.github.com/users/baconbrad/orgs",
+      "repos_url": "https://api.github.com/users/baconbrad/repos",
+      "events_url": "https://api.github.com/users/baconbrad/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/baconbrad/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-20T21:34:52Z",
+    "updated_at": "2017-02-20T21:34:52Z",
+    "body": "Please close this and repost it on https://discuss.atom.io/c/electron\r\n\r\nThis issue manager is meant for bugs and not how-to do X discussion. Thanks."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/281192560",
+    "html_url": "https://github.com/electron/electron/issues/8723#issuecomment-281192560",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8723",
+    "id": 281192560,
+    "user": {
+      "login": "ademcan",
+      "id": 1199588,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1199588?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ademcan",
+      "html_url": "https://github.com/ademcan",
+      "followers_url": "https://api.github.com/users/ademcan/followers",
+      "following_url": "https://api.github.com/users/ademcan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ademcan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ademcan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ademcan/subscriptions",
+      "organizations_url": "https://api.github.com/users/ademcan/orgs",
+      "repos_url": "https://api.github.com/users/ademcan/repos",
+      "events_url": "https://api.github.com/users/ademcan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ademcan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-20T22:03:10Z",
+    "updated_at": "2017-02-20T22:03:10Z",
+    "body": "Thanks, I'll do that."
+  }
+]

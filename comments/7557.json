@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/252923954",
+    "html_url": "https://github.com/electron/electron/issues/7557#issuecomment-252923954",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7557",
+    "id": 252923954,
+    "user": {
+      "login": "CarstenHoyer",
+      "id": 1811751,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1811751?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/CarstenHoyer",
+      "html_url": "https://github.com/CarstenHoyer",
+      "followers_url": "https://api.github.com/users/CarstenHoyer/followers",
+      "following_url": "https://api.github.com/users/CarstenHoyer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/CarstenHoyer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/CarstenHoyer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/CarstenHoyer/subscriptions",
+      "organizations_url": "https://api.github.com/users/CarstenHoyer/orgs",
+      "repos_url": "https://api.github.com/users/CarstenHoyer/repos",
+      "events_url": "https://api.github.com/users/CarstenHoyer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/CarstenHoyer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-11T13:56:14Z",
+    "updated_at": "2016-10-11T13:56:14Z",
+    "body": "Problem solved by specifying the target version.\n\n./node_modules/.bin/electron-rebuild --version=1.4.3\n\nWhere version is the electron version.\n"
+  }
+]

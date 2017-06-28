@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/303018304",
+    "html_url": "https://github.com/electron/electron/pull/9507#issuecomment-303018304",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9507",
+    "id": 303018304,
+    "user": {
+      "login": "rreimann",
+      "id": 1131175,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1131175?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rreimann",
+      "html_url": "https://github.com/rreimann",
+      "followers_url": "https://api.github.com/users/rreimann/followers",
+      "following_url": "https://api.github.com/users/rreimann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rreimann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rreimann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rreimann/subscriptions",
+      "organizations_url": "https://api.github.com/users/rreimann/orgs",
+      "repos_url": "https://api.github.com/users/rreimann/repos",
+      "events_url": "https://api.github.com/users/rreimann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rreimann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-22T07:16:07Z",
+    "updated_at": "2017-05-22T07:16:07Z",
+    "body": "Fixed the requested naming/formatting changes in commit https://github.com/electron/electron/pull/9507/commits/8f9e553def72c419e99ae22a37c6223b38a8120b. @kevinsawicki would it be ok if i open another PR to backport this fix into the `1-6-x` brach after  it was merged into master?"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/303226315",
+    "html_url": "https://github.com/electron/electron/pull/9507#issuecomment-303226315",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9507",
+    "id": 303226315,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-22T21:34:31Z",
+    "updated_at": "2017-05-22T21:34:31Z",
+    "body": "Thanks for this @rreimann 👍 🚢 \r\n\r\n> would it be ok if i open another PR to backport this fix into the 1-6-x brach after it was merged into master?\r\n\r\nYes, sounds good, thanks 👍 "
+  }
+]

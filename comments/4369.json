@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/180983807",
+    "html_url": "https://github.com/electron/electron/issues/4369#issuecomment-180983807",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4369",
+    "id": 180983807,
+    "user": {
+      "login": "LartSimZ",
+      "id": 17067693,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/17067693?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/LartSimZ",
+      "html_url": "https://github.com/LartSimZ",
+      "followers_url": "https://api.github.com/users/LartSimZ/followers",
+      "following_url": "https://api.github.com/users/LartSimZ/following{/other_user}",
+      "gists_url": "https://api.github.com/users/LartSimZ/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/LartSimZ/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/LartSimZ/subscriptions",
+      "organizations_url": "https://api.github.com/users/LartSimZ/orgs",
+      "repos_url": "https://api.github.com/users/LartSimZ/repos",
+      "events_url": "https://api.github.com/users/LartSimZ/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/LartSimZ/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-07T09:33:53Z",
+    "updated_at": "2016-02-07T09:33:53Z",
+    "body": "Proposed pull request #4398 \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/184110242",
+    "html_url": "https://github.com/electron/electron/issues/4369#issuecomment-184110242",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4369",
+    "id": 184110242,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-15T08:30:40Z",
+    "updated_at": "2016-02-15T08:30:40Z",
+    "body": "Fixed by #4398.\n"
+  }
+]

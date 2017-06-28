@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/167051786",
+    "html_url": "https://github.com/electron/electron/pull/3912#issuecomment-167051786",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3912",
+    "id": 167051786,
+    "user": {
+      "login": "tylergibson",
+      "id": 1085397,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1085397?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tylergibson",
+      "html_url": "https://github.com/tylergibson",
+      "followers_url": "https://api.github.com/users/tylergibson/followers",
+      "following_url": "https://api.github.com/users/tylergibson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tylergibson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tylergibson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tylergibson/subscriptions",
+      "organizations_url": "https://api.github.com/users/tylergibson/orgs",
+      "repos_url": "https://api.github.com/users/tylergibson/repos",
+      "events_url": "https://api.github.com/users/tylergibson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tylergibson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-24T06:24:43Z",
+    "updated_at": "2015-12-24T06:24:43Z",
+    "body": "Thanks @paulcbetts for the pointer to the chromium version check, much cleaner :) \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/167060871",
+    "html_url": "https://github.com/electron/electron/pull/3912#issuecomment-167060871",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3912",
+    "id": 167060871,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-24T07:32:06Z",
+    "updated_at": "2015-12-24T07:32:06Z",
+    "body": "Awesome! :+1:\n"
+  }
+]

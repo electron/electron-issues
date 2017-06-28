@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250094215",
+    "html_url": "https://github.com/electron/electron/issues/7380#issuecomment-250094215",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7380",
+    "id": 250094215,
+    "user": {
+      "login": "miniak",
+      "id": 1281234,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1281234?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/miniak",
+      "html_url": "https://github.com/miniak",
+      "followers_url": "https://api.github.com/users/miniak/followers",
+      "following_url": "https://api.github.com/users/miniak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/miniak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/miniak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/miniak/subscriptions",
+      "organizations_url": "https://api.github.com/users/miniak/orgs",
+      "repos_url": "https://api.github.com/users/miniak/repos",
+      "events_url": "https://api.github.com/users/miniak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/miniak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-28T07:37:51Z",
+    "updated_at": "2016-09-28T07:38:56Z",
+    "body": "It also crashes on Windows\n\nException thrown: read access violation.\ncontent::WebContentsObserver::web_contents(...) returned nullptr.\n\n```\n>   electron.exe!atom::NativeWindow::RequestToClosePage() Line 393  C++\n    electron.exe!atom::`anonymous namespace'::NativeWindowClientView::CanClose() Line 121   C++\n    electron.exe!views::Widget::Close() Line 575    C++\n    electron.exe!views::HWNDMessageHandler::_ProcessWindowMessage(HWND__ * hWnd, unsigned int uMsg, unsigned __int64 wParam, __int64 lParam, __int64 & lResult, unsigned long dwMsgMapID) Line 378  C++\n    electron.exe!views::HWNDMessageHandler::OnWndProc(unsigned int message, unsigned __int64 w_param, __int64 l_param) Line 900 C++\n    electron.exe!gfx::WindowImpl::WndProc(HWND__ * hwnd, unsigned int message, unsigned __int64 w_param, __int64 l_param) Line 303  C++\n    electron.exe!base::win::WrappedWindowProc<&gfx::WindowImpl::WndProc>(HWND__ * hwnd, unsigned int message, unsigned __int64 wparam, __int64 lparam) Line 76  C++\n    user32.dll!UserCallWinProcCheckWow()    Unknown\n    user32.dll!DispatchClientMessage()  Unknown\n    user32.dll!__fnDWORD\u001e() Unknown\n    ntdll.dll!KiUserCallbackDispatcherContinue\u001e()   Unknown\n    user32.dll!NtUserMessageCall\u001e() Unknown\n    user32.dll!RealDefWindowProcWorker()    Unknown\n    user32.dll!RealDefWindowProcW() Unknown\n    uxtheme.dll!DoMsgDefault(const _THEME_MSG * ptm) Line 550   C++\n    uxtheme.dll!OnDwpSysCommand(CThemeWnd * pwnd, _THEME_MSG * ptm) Line 7650   C++\n    uxtheme.dll!_ThemeDefWindowProc(HWND__ * hwnd, unsigned int uMsg, unsigned __int64 wParam, __int64 lParam, int bUnicode) Line 1062  C++\n    uxtheme.dll!ThemeDefWindowProcW(HWND__ * hwnd, unsigned int uMsg, unsigned __int64 wParam, __int64 lParam) Line 1106    C++\n    user32.dll!DefWindowProcW() Unknown\n    electron.exe!views::HWNDMessageHandler::OnSysCommand(unsigned int notification_code, const gfx::Point & point) Line 2179    C++\n    electron.exe!views::HWNDMessageHandler::_ProcessWindowMessage(HWND__ * hWnd, unsigned int uMsg, unsigned __int64 wParam, __int64 lParam, __int64 & lResult, unsigned long dwMsgMapID) Line 404  C++\n    electron.exe!views::HWNDMessageHandler::OnWndProc(unsigned int message, unsigned __int64 w_param, __int64 l_param) Line 900 C++\n    electron.exe!gfx::WindowImpl::WndProc(HWND__ * hwnd, unsigned int message, unsigned __int64 w_param, __int64 l_param) Line 303  C++\n    electron.exe!base::win::WrappedWindowProc<&gfx::WindowImpl::WndProc>(HWND__ * hwnd, unsigned int message, unsigned __int64 wparam, __int64 lparam) Line 76  C++\n    user32.dll!UserCallWinProcCheckWow()    Unknown\n    user32.dll!DispatchClientMessage()  Unknown\n    user32.dll!__fnDWORD\u001e() Unknown\n    ntdll.dll!KiUserCallbackDispatcherContinue\u001e()   Unknown\n    user32.dll!NtUserMessageCall\u001e() Unknown\n    user32.dll!RealDefWindowProcWorker()    Unknown\n    user32.dll!RealDefWindowProcW() Unknown\n    uxtheme.dll!DoMsgDefault(const _THEME_MSG * ptm) Line 550   C++\n    uxtheme.dll!OnDwpNcLButtonDown(CThemeWnd * pwnd, _THEME_MSG * ptm) Line 7241    C++\n    uxtheme.dll!_ThemeDefWindowProc(HWND__ * hwnd, unsigned int uMsg, unsigned __int64 wParam, __int64 lParam, int bUnicode) Line 1062  C++\n    uxtheme.dll!ThemeDefWindowProcW(HWND__ * hwnd, unsigned int uMsg, unsigned __int64 wParam, __int64 lParam) Line 1106    C++\n    user32.dll!DefWindowProcW() Unknown\n    electron.exe!views::HWNDMessageHandler::OnWndProc(unsigned int message, unsigned __int64 w_param, __int64 l_param) Line 908 C++\n    electron.exe!gfx::WindowImpl::WndProc(HWND__ * hwnd, unsigned int message, unsigned __int64 w_param, __int64 l_param) Line 303  C++\n    electron.exe!base::win::WrappedWindowProc<&gfx::WindowImpl::WndProc>(HWND__ * hwnd, unsigned int message, unsigned __int64 wparam, __int64 lparam) Line 76  C++\n    user32.dll!UserCallWinProcCheckWow()    Unknown\n    user32.dll!DispatchMessageWorker()  Unknown\n    electron.exe!base::MessagePumpForUI::ProcessMessageHelper(const tagMSG & msg) Line 384  C++\n    electron.exe!base::MessagePumpForUI::DoRunLoop() Line 169   C++\n    electron.exe!base::MessagePumpWin::Run(base::MessagePump::Delegate * delegate) Line 56  C++\n    electron.exe!base::RunLoop::Run() Line 36   C++\n    electron.exe!content::BrowserMainLoop::MainMessageLoopRun() Line 1450   C++\n    electron.exe!content::BrowserMainLoop::RunMainMessageLoopParts() Line 977   C++\n    electron.exe!content::BrowserMainRunnerImpl::Run() Line 155 C++\n    electron.exe!content::BrowserMain(const content::MainFunctionParams & parameters) Line 46   C++\n    electron.exe!content::RunNamedProcessTypeMain(const std::basic_string<char,std::char_traits<char>,std::allocator<char> > & process_type, const content::MainFunctionParams & main_function_params, content::ContentMainDelegate * delegate) Line 420    C++\n    electron.exe!content::ContentMainRunnerImpl::Run() Line 787 C++\n    electron.exe!content::ContentMain(const content::ContentMainParams & params) Line 20    C++\n    electron.exe!wWinMain(HINSTANCE__ * instance, HINSTANCE__ * __formal, wchar_t * cmd, int __formal) Line 114 C++\n    electron.exe!__scrt_common_main_seh() Line 255  C++\n    kernel32.dll!BaseThreadInitThunk\u001e() Unknown\n    ntdll.dll!RtlUserThreadStart()  Unknown\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250098542",
+    "html_url": "https://github.com/electron/electron/issues/7380#issuecomment-250098542",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7380",
+    "id": 250098542,
+    "user": {
+      "login": "miniak",
+      "id": 1281234,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1281234?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/miniak",
+      "html_url": "https://github.com/miniak",
+      "followers_url": "https://api.github.com/users/miniak/followers",
+      "following_url": "https://api.github.com/users/miniak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/miniak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/miniak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/miniak/subscriptions",
+      "organizations_url": "https://api.github.com/users/miniak/orgs",
+      "repos_url": "https://api.github.com/users/miniak/repos",
+      "events_url": "https://api.github.com/users/miniak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/miniak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-28T08:00:33Z",
+    "updated_at": "2016-09-28T08:00:50Z",
+    "body": "Actually, it looks like it was fixed in master by https://github.com/electron/electron/commit/06cc9a44fe15aabb891ddaeeb90233b9977f374d\n\n```\natom/browser/native_window.cc\n @@ -391,6 +391,10 @@ void NativeWindow::RequestToClosePage() {\n    if (window_unresposive_closure_.IsCancelled())\n      ScheduleUnresponsiveEvent(5000);\n\n +  if (!web_contents())\n +    // Already closed by renderer\n +    return;\n +\n    if (web_contents()->NeedToFireBeforeUnload())\n      web_contents()->DispatchBeforeUnload();\n    else\n```\n"
+  }
+]

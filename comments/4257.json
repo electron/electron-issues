@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/176053577",
+    "html_url": "https://github.com/electron/electron/issues/4257#issuecomment-176053577",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4257",
+    "id": 176053577,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-28T08:34:44Z",
+    "updated_at": "2016-01-28T08:34:44Z",
+    "body": "Electron's environment is a bit different from normal browser because of the Node.js integration, you can probably follow [the FAQ](http://electron.atom.io/docs/v0.36.5/faq/electron-faq/#i-can-not-use-jquery-requirejs-meteor-angularjs-in-electron) to disable Node integration, or seek help in [the repo of charts ](https://github.com/echarts/echarts).\n"
+  }
+]

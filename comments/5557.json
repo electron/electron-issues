@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/221546549",
+    "html_url": "https://github.com/electron/electron/pull/5557#issuecomment-221546549",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5557",
+    "id": 221546549,
+    "user": {
+      "login": "saghul",
+      "id": 317464,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/317464?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/saghul",
+      "html_url": "https://github.com/saghul",
+      "followers_url": "https://api.github.com/users/saghul/followers",
+      "following_url": "https://api.github.com/users/saghul/following{/other_user}",
+      "gists_url": "https://api.github.com/users/saghul/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/saghul/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/saghul/subscriptions",
+      "organizations_url": "https://api.github.com/users/saghul/orgs",
+      "repos_url": "https://api.github.com/users/saghul/repos",
+      "events_url": "https://api.github.com/users/saghul/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/saghul/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-25T11:32:26Z",
+    "updated_at": "2016-05-25T11:32:26Z",
+    "body": "For those who ended up here and want the old (ie, having the invisible title bar draggable) behavior back, here is a trick to avoid modifying your HTML:\n\n```\n// Trick to make the transparent title bar draggable\nconst titleBarHack =\n    'var div = document.createElement(\"div\");' +\n    'div.style.position = \"absolute\";' +\n    'div.style.top = 0;' +\n    'div.style.height = \"23px\";' +\n    'div.style.width = \"100%\";' +\n    'div.style[\"-webkit-app-region\"] = \"drag\";' +\n    'document.body.appendChild(div);';\n\n...\n\n    // make the transparent title bar draggable\n    mainWindow.webContents.on('did-finish-load', function() {\n        if (process.platform === 'darwin') {\n            mainWindow.webContents.executeJavaScript(titleBarHack);\n        }\n    });\n```\n\nYou will need to adjust the height for the hidden-insert style.\n"
+  }
+]

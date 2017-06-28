@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/98119609",
+    "html_url": "https://github.com/electron/electron/issues/1544#issuecomment-98119609",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1544",
+    "id": 98119609,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-05-01T12:07:06Z",
+    "updated_at": "2015-05-01T12:07:06Z",
+    "body": "I suggest reporting this to lokijs, if it is caused by some bugs in electron we can create a new issue for it.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/98129482",
+    "html_url": "https://github.com/electron/electron/issues/1544#issuecomment-98129482",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1544",
+    "id": 98129482,
+    "user": {
+      "login": "tcdona",
+      "id": 352931,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/352931?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tcdona",
+      "html_url": "https://github.com/tcdona",
+      "followers_url": "https://api.github.com/users/tcdona/followers",
+      "following_url": "https://api.github.com/users/tcdona/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tcdona/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tcdona/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tcdona/subscriptions",
+      "organizations_url": "https://api.github.com/users/tcdona/orgs",
+      "repos_url": "https://api.github.com/users/tcdona/repos",
+      "events_url": "https://api.github.com/users/tcdona/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tcdona/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-01T13:08:03Z",
+    "updated_at": "2015-05-01T13:08:03Z",
+    "body": "i just find why i can't get my data \"loki.json\". \nthat's all because the path! \"./loki.json\" is some where else i run the electron app\n\n```\nnew loki(require('path').resolve(__dirname, './loki.json'))\n```\n\nthis is what i need\nor you have some way better, plz tell me !\n\nthe end.\n"
+  }
+]

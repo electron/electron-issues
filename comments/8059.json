@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/262435070",
+    "html_url": "https://github.com/electron/electron/issues/8059#issuecomment-262435070",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8059",
+    "id": 262435070,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-23T05:00:55Z",
+    "updated_at": "2016-11-23T05:00:55Z",
+    "body": "Electron does not handle the rendering, it is handled by blink same engine for chrome. The current behavior is consistent with chrome. Loading the image as a top level content will honor the exif value, but not in `<img>` currently. In Electron you can test it out with `window.loadURL`. There is work in standards for fixing this problem. Closing this out, since there is nothing we can do to fix it.\r\n\r\nhttps://www.w3.org/Bugs/Public/show_bug.cgi?id=25508 \r\nhttps://bugs.chromium.org/p/chromium/issues/detail?id=158753"
+  }
+]

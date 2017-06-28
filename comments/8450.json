@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/273992372",
+    "html_url": "https://github.com/electron/electron/issues/8450#issuecomment-273992372",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8450",
+    "id": 273992372,
+    "user": {
+      "login": "poiru",
+      "id": 1319028,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1319028?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/poiru",
+      "html_url": "https://github.com/poiru",
+      "followers_url": "https://api.github.com/users/poiru/followers",
+      "following_url": "https://api.github.com/users/poiru/following{/other_user}",
+      "gists_url": "https://api.github.com/users/poiru/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/poiru/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/poiru/subscriptions",
+      "organizations_url": "https://api.github.com/users/poiru/orgs",
+      "repos_url": "https://api.github.com/users/poiru/repos",
+      "events_url": "https://api.github.com/users/poiru/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/poiru/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-20T07:02:12Z",
+    "updated_at": "2017-01-20T07:02:18Z",
+    "body": "Thanks for the detailed report! Merging this into #5723."
+  }
+]

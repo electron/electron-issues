@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/288756599",
+    "html_url": "https://github.com/electron/electron/issues/8994#issuecomment-288756599",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8994",
+    "id": 288756599,
+    "user": {
+      "login": "muellermarkus",
+      "id": 757612,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/757612?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muellermarkus",
+      "html_url": "https://github.com/muellermarkus",
+      "followers_url": "https://api.github.com/users/muellermarkus/followers",
+      "following_url": "https://api.github.com/users/muellermarkus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muellermarkus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muellermarkus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muellermarkus/subscriptions",
+      "organizations_url": "https://api.github.com/users/muellermarkus/orgs",
+      "repos_url": "https://api.github.com/users/muellermarkus/repos",
+      "events_url": "https://api.github.com/users/muellermarkus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muellermarkus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-23T15:29:04Z",
+    "updated_at": "2017-03-23T15:29:04Z",
+    "body": "Solved my problem for back and forward shortcuts by simply mapping the menu items to the accelerators `CmdOrCtrl+Left` and `CmdOrCtrl+Right` (for macOS. `Alt` instead of `CmdOrCtrl` for Windows/Linux). \r\n\r\n`CmdOrCtrl+ü` and `CmdOrCtrl+Plus` anyways had the problem that they are not very intuitive & `CmdOrCtrl+Plus` is normally mapped to \"Zoom in\"."
+  }
+]

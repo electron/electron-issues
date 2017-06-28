@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/144408167",
+    "html_url": "https://github.com/electron/electron/pull/2941#issuecomment-144408167",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2941",
+    "id": 144408167,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-30T13:52:24Z",
+    "updated_at": "2015-09-30T13:52:24Z",
+    "body": "Actually `width` and `height` are not required, they have default values, we probably need to fix the descriptions in the docs. Also the `icon` can be a String, it will be automatically converted to NativeImage, this behavior is documented in [NativeImage's docs](http://electron.atom.io/docs/v0.33.0/api/native-image/).\n\nBut still thanks for help improving the docs!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/144414213",
+    "html_url": "https://github.com/electron/electron/pull/2941#issuecomment-144414213",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2941",
+    "id": 144414213,
+    "user": {
+      "login": "arusakov",
+      "id": 3473150,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3473150?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arusakov",
+      "html_url": "https://github.com/arusakov",
+      "followers_url": "https://api.github.com/users/arusakov/followers",
+      "following_url": "https://api.github.com/users/arusakov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arusakov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arusakov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arusakov/subscriptions",
+      "organizations_url": "https://api.github.com/users/arusakov/orgs",
+      "repos_url": "https://api.github.com/users/arusakov/repos",
+      "events_url": "https://api.github.com/users/arusakov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arusakov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-30T13:57:45Z",
+    "updated_at": "2015-09-30T13:57:45Z",
+    "body": "@zcbenz thanks!\nOnce I started, I can correct as necessary :)\n"
+  }
+]

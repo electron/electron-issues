@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/70565307",
+    "html_url": "https://github.com/electron/electron/issues/1017#issuecomment-70565307",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1017",
+    "id": 70565307,
+    "user": {
+      "login": "brandonecraig",
+      "id": 5140118,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5140118?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brandonecraig",
+      "html_url": "https://github.com/brandonecraig",
+      "followers_url": "https://api.github.com/users/brandonecraig/followers",
+      "following_url": "https://api.github.com/users/brandonecraig/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brandonecraig/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brandonecraig/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brandonecraig/subscriptions",
+      "organizations_url": "https://api.github.com/users/brandonecraig/orgs",
+      "repos_url": "https://api.github.com/users/brandonecraig/repos",
+      "events_url": "https://api.github.com/users/brandonecraig/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brandonecraig/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-19T21:36:16Z",
+    "updated_at": "2015-01-19T21:36:16Z",
+    "body": "I've determined that the issue occurs starting with v0.20.0\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/70729067",
+    "html_url": "https://github.com/electron/electron/issues/1017#issuecomment-70729067",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1017",
+    "id": 70729067,
+    "user": {
+      "login": "brandonecraig",
+      "id": 5140118,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5140118?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brandonecraig",
+      "html_url": "https://github.com/brandonecraig",
+      "followers_url": "https://api.github.com/users/brandonecraig/followers",
+      "following_url": "https://api.github.com/users/brandonecraig/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brandonecraig/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brandonecraig/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brandonecraig/subscriptions",
+      "organizations_url": "https://api.github.com/users/brandonecraig/orgs",
+      "repos_url": "https://api.github.com/users/brandonecraig/repos",
+      "events_url": "https://api.github.com/users/brandonecraig/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brandonecraig/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-20T20:42:42Z",
+    "updated_at": "2015-01-20T20:42:52Z",
+    "body": "I've narrowed it down to this span of commits:\n\ngood: [158d8efb8eb2d15c7dad8648daca7fea124ee52c] Merge pull request #910 from sonnyp/patch-1\nto\nbad: [654d21100ff2908af6c44e2d2d71ba92b1e96722] Upgrade libchromiumcontent to remove dom storage quota\n\nI can't narrow it down more than that though because when I try to build the project on those commits I experience a failure to checkout submodules. Example:\n\n```\nRunning in verbose mode\nSynchronizing submodule url for 'vendor/breakpad'\nSynchronizing submodule url for 'vendor/brightray'\nSynchronizing submodule url for 'vendor/depot_tools'\nSynchronizing submodule url for 'vendor/native_mate'\nSynchronizing submodule url for 'vendor/node'\n\nfatal: reference is not a tree: b07fb51bdb232fee33711e3eb48cb56dd3c257e3\nfatal: reference is not a tree: f7f439bdd31c901c802108ec903a3bfc0448c3d1\nfatal: reference is not a tree: b1d7464f1c05456027d41fa97384765bc1790212\nUnable to checkout 'b07fb51bdb232fee33711e3eb48cb56dd3c257e3' in submodule path 'vendor/breakpad'\nUnable to checkout 'f7f439bdd31c901c802108ec903a3bfc0448c3d1' in submodule path 'vendor/brightray'\nUnable to checkout 'b1d7464f1c05456027d41fa97384765bc1790212' in submodule path 'vendor/node'\n\nTraceback (most recent call last):\n  File \"./script/bootstrap.py\", line 119, in <module>\n    sys.exit(main())\n  File \"./script/bootstrap.py\", line 23, in main\n    update_submodules()\n  File \"./script/bootstrap.py\", line 53, in update_submodules\n    execute(['git', 'submodule', 'update', '--init', '--recursive'])\n  File \"/Users/brandon.craig/Code/atom-shell/script/lib/util.py\", line 142, in execute\n    raise e\nsubprocess.CalledProcessError: Command '['git', 'submodule', 'update', '--init', '--recursive']' returned non-zero exit status 1\n```\n"
+  }
+]

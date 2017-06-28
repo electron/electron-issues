@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/146834838",
+    "html_url": "https://github.com/electron/electron/issues/3044#issuecomment-146834838",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3044",
+    "id": 146834838,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-09T11:05:32Z",
+    "updated_at": "2015-10-09T11:05:32Z",
+    "body": "Electron is not designed to be embedded by other applications, and providing such interface is no easy work. If you want to embed a browser the best choice is to use [CEF](https://bitbucket.org/chromiumembedded/cef).\n\nIf you have interests in making Electron embeddable you can start with [how Chromium works](http://dev.chromium.org/Home), since the Electron is basically a custom build of Chrome browser.\n"
+  }
+]

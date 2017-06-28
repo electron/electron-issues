@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/247977791",
+    "html_url": "https://github.com/electron/electron/issues/7224#issuecomment-247977791",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7224",
+    "id": 247977791,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-19T12:19:00Z",
+    "updated_at": "2016-09-19T12:19:00Z",
+    "body": "You can hook to the `new-window` event of `WebContents` to create any window you want.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/274800089",
+    "html_url": "https://github.com/electron/electron/issues/7224#issuecomment-274800089",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7224",
+    "id": 274800089,
+    "user": {
+      "login": "mz2",
+      "id": 71363,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/71363?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mz2",
+      "html_url": "https://github.com/mz2",
+      "followers_url": "https://api.github.com/users/mz2/followers",
+      "following_url": "https://api.github.com/users/mz2/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mz2/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mz2/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mz2/subscriptions",
+      "organizations_url": "https://api.github.com/users/mz2/orgs",
+      "repos_url": "https://api.github.com/users/mz2/repos",
+      "events_url": "https://api.github.com/users/mz2/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mz2/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-24T13:18:03Z",
+    "updated_at": "2017-01-24T13:18:03Z",
+    "body": "@zcbenz could you elaborate, please, if only to point me at the most relevant documentation? What I believe I am having an issue with is the dialog not being able to talk back with the main window. Is that something that is specifically disabled in Electron?"
+  }
+]

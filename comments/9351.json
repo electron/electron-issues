@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/305691995",
+    "html_url": "https://github.com/electron/electron/issues/9351#issuecomment-305691995",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9351",
+    "id": 305691995,
+    "user": {
+      "login": "KagamiChan",
+      "id": 3816900,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3816900?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/KagamiChan",
+      "html_url": "https://github.com/KagamiChan",
+      "followers_url": "https://api.github.com/users/KagamiChan/followers",
+      "following_url": "https://api.github.com/users/KagamiChan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/KagamiChan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/KagamiChan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/KagamiChan/subscriptions",
+      "organizations_url": "https://api.github.com/users/KagamiChan/orgs",
+      "repos_url": "https://api.github.com/users/KagamiChan/repos",
+      "events_url": "https://api.github.com/users/KagamiChan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/KagamiChan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-02T05:18:11Z",
+    "updated_at": "2017-06-02T05:18:11Z",
+    "body": "Tested on 1.7.2, same result, still not fixed."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309687584",
+    "html_url": "https://github.com/electron/electron/issues/9351#issuecomment-309687584",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9351",
+    "id": 309687584,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-20T08:48:58Z",
+    "updated_at": "2017-06-20T08:48:58Z",
+    "body": "It seems that `nativeImage.createFromBuffer` mistakenly parsed the buffer as PNG or JPG image, the only solution seems to be adding an option to specify the type of buffer."
+  }
+]

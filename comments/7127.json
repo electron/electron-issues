@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/245358818",
+    "html_url": "https://github.com/electron/electron/issues/7127#issuecomment-245358818",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7127",
+    "id": 245358818,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-07T17:37:51Z",
+    "updated_at": "2016-09-07T17:37:51Z",
+    "body": "Does your app include a context menu on right click?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/245385455",
+    "html_url": "https://github.com/electron/electron/issues/7127#issuecomment-245385455",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7127",
+    "id": 245385455,
+    "user": {
+      "login": "lifeiscontent",
+      "id": 180963,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/180963?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lifeiscontent",
+      "html_url": "https://github.com/lifeiscontent",
+      "followers_url": "https://api.github.com/users/lifeiscontent/followers",
+      "following_url": "https://api.github.com/users/lifeiscontent/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lifeiscontent/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lifeiscontent/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lifeiscontent/subscriptions",
+      "organizations_url": "https://api.github.com/users/lifeiscontent/orgs",
+      "repos_url": "https://api.github.com/users/lifeiscontent/repos",
+      "events_url": "https://api.github.com/users/lifeiscontent/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lifeiscontent/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-07T19:12:02Z",
+    "updated_at": "2016-09-07T19:12:02Z",
+    "body": "@kevinsawicki seems that was it, thanks! 👍 \n"
+  }
+]

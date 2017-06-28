@@ -2,24 +2,32 @@
   "name": "electron-electron-issues",
   "version": "1.0.0",
   "description": "An experiment to better understand the issues filed on electron/electron",
-  "main": "issues.json",
+  "main": "index.js",
   "repository": "https://github.com/electron/electron-electron-issues",
   "author": "zeke",
   "license": "MIT",
   "dependencies": {
+    "change-case": "^3.0.1",
     "dotenv-safe": "^4.0.4",
     "ghissues": "^1.1.3",
     "html-entities": "^1.2.1",
-    "node-time-ago": "^1.0.0"
+    "lodash": "^4.17.4",
+    "node-time-ago": "^1.0.0",
+    "tableify": "^1.0.1"
   },
   "scripts": {
     "build": "npm-run-all build:*",
-    "build:collect": "node collect.js > issues.json",
+    "build:collect": "node collect-issues.js > issues.json",
+    "build:collect-comments": "node collect-comments.js > issues-with-comments.json",
     "build:render": "node render.js > readme.md",
-    "build:view": "vmd readme.md"
+    "build:view": "vmd readme.md",
+    "test": "mocha && standard --fix"
   },
   "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
     "npm-run-all": "^4.0.2",
+    "standard": "^10.0.2",
     "vmd": "^1.29.1"
   }
 }

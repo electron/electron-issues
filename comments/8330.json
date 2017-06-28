@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/270466751",
+    "html_url": "https://github.com/electron/electron/issues/8330#issuecomment-270466751",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8330",
+    "id": 270466751,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-01-04T19:43:00Z",
+    "updated_at": "2017-01-04T19:43:00Z",
+    "body": "Can you include a small reproduction app or code snippet that demonstrates this issue?\r\n\r\nI had trouble reproducing this, this worked for me:\r\n\r\n```\r\n navigator.getUserMedia({ audio: true, video: false }, function (s) {console.log(s)}, function (error) { console.log(error)})\r\n```\r\n\r\n![screen shot 2017-01-04 at 11 42 33 am](https://cloud.githubusercontent.com/assets/671378/21656412/e69c1d78-d272-11e6-9095-e99fc9680577.png)\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/270788422",
+    "html_url": "https://github.com/electron/electron/issues/8330#issuecomment-270788422",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8330",
+    "id": 270788422,
+    "user": {
+      "login": "richmonkey",
+      "id": 2627928,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2627928?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/richmonkey",
+      "html_url": "https://github.com/richmonkey",
+      "followers_url": "https://api.github.com/users/richmonkey/followers",
+      "following_url": "https://api.github.com/users/richmonkey/following{/other_user}",
+      "gists_url": "https://api.github.com/users/richmonkey/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/richmonkey/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/richmonkey/subscriptions",
+      "organizations_url": "https://api.github.com/users/richmonkey/orgs",
+      "repos_url": "https://api.github.com/users/richmonkey/repos",
+      "events_url": "https://api.github.com/users/richmonkey/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/richmonkey/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-05T23:28:05Z",
+    "updated_at": "2017-01-05T23:28:05Z",
+    "body": "I mistake, "
+  }
+]

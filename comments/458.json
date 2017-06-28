@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/48164914",
+    "html_url": "https://github.com/electron/electron/issues/458#issuecomment-48164914",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/458",
+    "id": 48164914,
+    "user": {
+      "login": "oliver----",
+      "id": 284099,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/284099?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/oliver----",
+      "html_url": "https://github.com/oliver----",
+      "followers_url": "https://api.github.com/users/oliver----/followers",
+      "following_url": "https://api.github.com/users/oliver----/following{/other_user}",
+      "gists_url": "https://api.github.com/users/oliver----/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/oliver----/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/oliver----/subscriptions",
+      "organizations_url": "https://api.github.com/users/oliver----/orgs",
+      "repos_url": "https://api.github.com/users/oliver----/repos",
+      "events_url": "https://api.github.com/users/oliver----/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/oliver----/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-07T10:56:47Z",
+    "updated_at": "2014-07-07T10:56:47Z",
+    "body": "Duplicate: #450\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/249308595",
+    "html_url": "https://github.com/electron/electron/issues/7320#issuecomment-249308595",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7320",
+    "id": 249308595,
+    "user": {
+      "login": "zeke",
+      "id": 2289,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2289?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zeke",
+      "html_url": "https://github.com/zeke",
+      "followers_url": "https://api.github.com/users/zeke/followers",
+      "following_url": "https://api.github.com/users/zeke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zeke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zeke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zeke/subscriptions",
+      "organizations_url": "https://api.github.com/users/zeke/orgs",
+      "repos_url": "https://api.github.com/users/zeke/repos",
+      "events_url": "https://api.github.com/users/zeke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zeke/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-23T21:37:25Z",
+    "updated_at": "2016-09-23T21:37:25Z",
+    "body": "Looks like you worked it out. If the problem persists, please comment on the issue and include a code example that reproduces the issue you're having.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250091409",
+    "html_url": "https://github.com/electron/electron/issues/7320#issuecomment-250091409",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7320",
+    "id": 250091409,
+    "user": {
+      "login": "LovaBP",
+      "id": 22192478,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22192478?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/LovaBP",
+      "html_url": "https://github.com/LovaBP",
+      "followers_url": "https://api.github.com/users/LovaBP/followers",
+      "following_url": "https://api.github.com/users/LovaBP/following{/other_user}",
+      "gists_url": "https://api.github.com/users/LovaBP/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/LovaBP/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/LovaBP/subscriptions",
+      "organizations_url": "https://api.github.com/users/LovaBP/orgs",
+      "repos_url": "https://api.github.com/users/LovaBP/repos",
+      "events_url": "https://api.github.com/users/LovaBP/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/LovaBP/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-28T07:23:00Z",
+    "updated_at": "2016-09-28T07:23:00Z",
+    "body": "The issue was tag `<a></a>`. I resolve using another tag for example `<div></div>`, but for me, is not good solution. \nCan you provide an \"enhancement\" or a pull request? @zeke \n"
+  }
+]

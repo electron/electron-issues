@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/311085868",
+    "html_url": "https://github.com/electron/electron/pull/9828#issuecomment-311085868",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9828",
+    "id": 311085868,
+    "user": {
+      "login": "poiru",
+      "id": 1319028,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1319028?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/poiru",
+      "html_url": "https://github.com/poiru",
+      "followers_url": "https://api.github.com/users/poiru/followers",
+      "following_url": "https://api.github.com/users/poiru/following{/other_user}",
+      "gists_url": "https://api.github.com/users/poiru/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/poiru/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/poiru/subscriptions",
+      "organizations_url": "https://api.github.com/users/poiru/orgs",
+      "repos_url": "https://api.github.com/users/poiru/repos",
+      "events_url": "https://api.github.com/users/poiru/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/poiru/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-26T15:02:01Z",
+    "updated_at": "2017-06-26T15:02:01Z",
+    "body": "This also fixes application menu keyboard shortcuts in BrowserView on Linux/Windows."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/311118320",
+    "html_url": "https://github.com/electron/electron/pull/9828#issuecomment-311118320",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9828",
+    "id": 311118320,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-26T16:55:04Z",
+    "updated_at": "2017-06-26T16:55:04Z",
+    "body": "Thanks @poiru \r\n\r\n Verified the crash was fixed with the following app:\r\n\r\n```js\r\nconst {app, BrowserView, BrowserWindow} = require('electron')\r\n\r\nlet win\r\n\r\napp.once('ready', () => {\r\n  win = new BrowserWindow({width: 800, height: 600})\r\n  win.on('closed', () => {\r\n    win = null\r\n  })\r\n\r\n  let view = new BrowserView({\r\n    webPreferences: {\r\n      nodeIntegration: false\r\n    }\r\n  })\r\n  win.setBrowserView(view)\r\n  view.setBounds({x: 0, y: 0, width: 300, height: 300})\r\n  view.webContents.loadURL(`file://${__dirname}/index.html`)\r\n})\r\n```\r\n\r\n```html\r\n<!DOCTYPE html>\r\n<html>\r\n  <head>\r\n    <meta charset=\"utf-8\">\r\n    <title></title>\r\n  </head>\r\n  <body>\r\n    hello\r\n    <input type=\"file\">\r\n  </body>\r\n</html>\r\n```"
+  }
+]

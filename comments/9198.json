@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/294266417",
+    "html_url": "https://github.com/electron/electron/issues/9198#issuecomment-294266417",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9198",
+    "id": 294266417,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-15T02:22:15Z",
+    "updated_at": "2017-04-15T02:22:15Z",
+    "body": "@xyyaya Maybe try\r\n\r\n```js\r\nwin = new BrowserWindow({ show: false });\r\nwin.minimize();\r\nwin.on('ready-to-show', () => win.show());\r\n```"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/294282362",
+    "html_url": "https://github.com/electron/electron/issues/9198#issuecomment-294282362",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9198",
+    "id": 294282362,
+    "user": {
+      "login": "xyyaya",
+      "id": 25798179,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/25798179?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xyyaya",
+      "html_url": "https://github.com/xyyaya",
+      "followers_url": "https://api.github.com/users/xyyaya/followers",
+      "following_url": "https://api.github.com/users/xyyaya/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xyyaya/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xyyaya/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xyyaya/subscriptions",
+      "organizations_url": "https://api.github.com/users/xyyaya/orgs",
+      "repos_url": "https://api.github.com/users/xyyaya/repos",
+      "events_url": "https://api.github.com/users/xyyaya/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xyyaya/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-15T09:26:33Z",
+    "updated_at": "2017-04-15T09:26:33Z",
+    "body": "@MarshallOfSound It works thank you very much"
+  }
+]

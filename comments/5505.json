@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/218696286",
+    "html_url": "https://github.com/electron/electron/issues/5505#issuecomment-218696286",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5505",
+    "id": 218696286,
+    "user": {
+      "login": "ninjaprawn",
+      "id": 4337909,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4337909?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ninjaprawn",
+      "html_url": "https://github.com/ninjaprawn",
+      "followers_url": "https://api.github.com/users/ninjaprawn/followers",
+      "following_url": "https://api.github.com/users/ninjaprawn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ninjaprawn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ninjaprawn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ninjaprawn/subscriptions",
+      "organizations_url": "https://api.github.com/users/ninjaprawn/orgs",
+      "repos_url": "https://api.github.com/users/ninjaprawn/repos",
+      "events_url": "https://api.github.com/users/ninjaprawn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ninjaprawn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-12T08:45:49Z",
+    "updated_at": "2016-05-12T08:45:49Z",
+    "body": "Is there anything else above this error? \n\nAlso check for any errors in scripts that you have written.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/218721139",
+    "html_url": "https://github.com/electron/electron/issues/5505#issuecomment-218721139",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5505",
+    "id": 218721139,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-12T10:38:28Z",
+    "updated_at": "2016-05-12T10:38:28Z",
+    "body": "The `ELIFECYCLE` error usually means there is something wrong happened in your environment, you can find possible solutions at https://github.com/electron-userland/electron-prebuilt/issues/27.\n"
+  }
+]

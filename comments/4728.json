@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/194348358",
+    "html_url": "https://github.com/electron/electron/issues/4728#issuecomment-194348358",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4728",
+    "id": 194348358,
+    "user": {
+      "login": "sbruchmann",
+      "id": 141435,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/141435?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sbruchmann",
+      "html_url": "https://github.com/sbruchmann",
+      "followers_url": "https://api.github.com/users/sbruchmann/followers",
+      "following_url": "https://api.github.com/users/sbruchmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sbruchmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sbruchmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sbruchmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sbruchmann/orgs",
+      "repos_url": "https://api.github.com/users/sbruchmann/repos",
+      "events_url": "https://api.github.com/users/sbruchmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sbruchmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-09T15:32:57Z",
+    "updated_at": "2016-03-09T15:32:57Z",
+    "body": "Modifier keys do not trigger a `keypress` event. Use `keydown`.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/194349381",
+    "html_url": "https://github.com/electron/electron/issues/4728#issuecomment-194349381",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4728",
+    "id": 194349381,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-09T15:36:16Z",
+    "updated_at": "2016-03-09T15:36:16Z",
+    "body": "Oh hell to the no....\n\nI feel quite silly now.  Thanks @sbruchmann, I can't believe I didn't catch that\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/141020483",
+    "html_url": "https://github.com/electron/electron/pull/2817#issuecomment-141020483",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2817",
+    "id": 141020483,
+    "user": {
+      "login": "tomashanacek",
+      "id": 1244486,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1244486?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tomashanacek",
+      "html_url": "https://github.com/tomashanacek",
+      "followers_url": "https://api.github.com/users/tomashanacek/followers",
+      "following_url": "https://api.github.com/users/tomashanacek/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tomashanacek/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tomashanacek/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tomashanacek/subscriptions",
+      "organizations_url": "https://api.github.com/users/tomashanacek/orgs",
+      "repos_url": "https://api.github.com/users/tomashanacek/repos",
+      "events_url": "https://api.github.com/users/tomashanacek/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tomashanacek/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-17T09:21:08Z",
+    "updated_at": "2015-09-17T09:21:08Z",
+    "body": ":+1: \n"
+  }
+]

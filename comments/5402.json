@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217105556",
+    "html_url": "https://github.com/electron/electron/issues/5402#issuecomment-217105556",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5402",
+    "id": 217105556,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-05T08:51:07Z",
+    "updated_at": "2016-05-05T08:51:07Z",
+    "body": "Did you install `git` and add it to your `PATH`? Make sure you can rut `git` from the command prompt.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217111383",
+    "html_url": "https://github.com/electron/electron/issues/5402#issuecomment-217111383",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5402",
+    "id": 217111383,
+    "user": {
+      "login": "kenzouno1",
+      "id": 1946802,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1946802?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kenzouno1",
+      "html_url": "https://github.com/kenzouno1",
+      "followers_url": "https://api.github.com/users/kenzouno1/followers",
+      "following_url": "https://api.github.com/users/kenzouno1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kenzouno1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kenzouno1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kenzouno1/subscriptions",
+      "organizations_url": "https://api.github.com/users/kenzouno1/orgs",
+      "repos_url": "https://api.github.com/users/kenzouno1/repos",
+      "events_url": "https://api.github.com/users/kenzouno1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kenzouno1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-05T09:26:37Z",
+    "updated_at": "2016-05-05T09:26:37Z",
+    "body": "oh.i'm re-install git and Problem solved.\nI'm self-taught nodejs, electron from today and i thought it was an error by python or electron.Thanks.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/216432768",
+    "html_url": "https://github.com/electron/electron/issues/5312#issuecomment-216432768",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5312",
+    "id": 216432768,
+    "user": {
+      "login": "vwvww",
+      "id": 10724286,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10724286?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vwvww",
+      "html_url": "https://github.com/vwvww",
+      "followers_url": "https://api.github.com/users/vwvww/followers",
+      "following_url": "https://api.github.com/users/vwvww/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vwvww/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vwvww/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vwvww/subscriptions",
+      "organizations_url": "https://api.github.com/users/vwvww/orgs",
+      "repos_url": "https://api.github.com/users/vwvww/repos",
+      "events_url": "https://api.github.com/users/vwvww/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vwvww/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-03T04:29:09Z",
+    "updated_at": "2016-05-03T04:29:09Z",
+    "body": "Is it right that you use the BrowserWindow api to set zoomFactor to 2 in order to set the webview's zoom level to 2? I'm newbie on electron but there is no zoomLevel related api in BrowserWindow api document...\n\nMaybe we can insert a code: when a web view is initialized, check the BrowserWindow's zoomFactor and set the web view's zoomLevel to inherit zoomFactor.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217690446",
+    "html_url": "https://github.com/electron/electron/issues/5312#issuecomment-217690446",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5312",
+    "id": 217690446,
+    "user": {
+      "login": "vwvww",
+      "id": 10724286,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10724286?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vwvww",
+      "html_url": "https://github.com/vwvww",
+      "followers_url": "https://api.github.com/users/vwvww/followers",
+      "following_url": "https://api.github.com/users/vwvww/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vwvww/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vwvww/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vwvww/subscriptions",
+      "organizations_url": "https://api.github.com/users/vwvww/orgs",
+      "repos_url": "https://api.github.com/users/vwvww/repos",
+      "events_url": "https://api.github.com/users/vwvww/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vwvww/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-08T04:18:12Z",
+    "updated_at": "2016-05-08T04:18:12Z",
+    "body": "1. It was not right that BrowserWindow api only handles zoomFactor. It also handles zoomLevel.\n2. I tried to modify WebViewImpl to inherit zoomLevel from webFrame, but webFrame's zoomLevel was set to 0, not inheriting zoomLevel from BrowserWindow.\n"
+  }
+]

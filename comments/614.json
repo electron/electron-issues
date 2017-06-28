@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/53665285",
+    "html_url": "https://github.com/electron/electron/pull/614#issuecomment-53665285",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/614",
+    "id": 53665285,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-08-28T02:06:33Z",
+    "updated_at": "2014-08-28T02:06:33Z",
+    "body": "Glad to see vNext is getting closer!\n\nAtom editor also changes the PE version header itself, which I think needs to be updated too: https://github.com/atom/atom/blob/master/build/tasks/set-version-task.coffee#L46.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/53773035",
+    "html_url": "https://github.com/electron/electron/pull/614#issuecomment-53773035",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/614",
+    "id": 53773035,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-08-28T18:28:20Z",
+    "updated_at": "2014-08-28T18:28:20Z",
+    "body": "@zcbenz Not sure if editing the resource like that will remove the Squirrel key, I'll look into it though\n"
+  }
+]

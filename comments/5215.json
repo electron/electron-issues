@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/212264844",
+    "html_url": "https://github.com/electron/electron/issues/5215#issuecomment-212264844",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5215",
+    "id": 212264844,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-20T05:24:25Z",
+    "updated_at": "2016-04-20T05:24:25Z",
+    "body": "It seems that you are passing a object through `remote` module which is an object but does not have `constructor` property.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/212450255",
+    "html_url": "https://github.com/electron/electron/issues/5215#issuecomment-212450255",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5215",
+    "id": 212450255,
+    "user": {
+      "login": "Taytay",
+      "id": 1330693,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1330693?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Taytay",
+      "html_url": "https://github.com/Taytay",
+      "followers_url": "https://api.github.com/users/Taytay/followers",
+      "following_url": "https://api.github.com/users/Taytay/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Taytay/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Taytay/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Taytay/subscriptions",
+      "organizations_url": "https://api.github.com/users/Taytay/orgs",
+      "repos_url": "https://api.github.com/users/Taytay/repos",
+      "events_url": "https://api.github.com/users/Taytay/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Taytay/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-20T14:35:55Z",
+    "updated_at": "2016-04-20T14:35:55Z",
+    "body": "Thanks Cheng!\n\nOn Wed, Apr 20, 2016 at 12:48 AM, Cheng Zhao notifications@github.com\nwrote:\n\n> Closed #5215 https://github.com/electron/electron/issues/5215 via #5223\n> https://github.com/electron/electron/pull/5223.\n> \n> —\n> You are receiving this because you authored the thread.\n> Reply to this email directly or view it on GitHub\n> https://github.com/electron/electron/issues/5215#event-634014826\n"
+  }
+]

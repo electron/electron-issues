@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/168896390",
+    "html_url": "https://github.com/electron/electron/issues/3985#issuecomment-168896390",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3985",
+    "id": 168896390,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-05T04:43:44Z",
+    "updated_at": "2016-01-05T04:43:44Z",
+    "body": "I'm unable to reproduce, it is probably the other parts of your code caused this problem. Can you provide a full example?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/169123989",
+    "html_url": "https://github.com/electron/electron/issues/3985#issuecomment-169123989",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3985",
+    "id": 169123989,
+    "user": {
+      "login": "johnthedebs",
+      "id": 97469,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/97469?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnthedebs",
+      "html_url": "https://github.com/johnthedebs",
+      "followers_url": "https://api.github.com/users/johnthedebs/followers",
+      "following_url": "https://api.github.com/users/johnthedebs/following{/other_user}",
+      "gists_url": "https://api.github.com/users/johnthedebs/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/johnthedebs/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/johnthedebs/subscriptions",
+      "organizations_url": "https://api.github.com/users/johnthedebs/orgs",
+      "repos_url": "https://api.github.com/users/johnthedebs/repos",
+      "events_url": "https://api.github.com/users/johnthedebs/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/johnthedebs/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-05T20:32:14Z",
+    "updated_at": "2016-01-05T20:32:14Z",
+    "body": "Hey, I took a fresh look at this today and you're right that it was my other code. I was listening for the event in the renderer process and then sending it off again to the webview. I missed that code when upgrading; sorry for the distraction!\n"
+  }
+]

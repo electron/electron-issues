@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/158890669",
+    "html_url": "https://github.com/electron/electron/issues/3551#issuecomment-158890669",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3551",
+    "id": 158890669,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-23T09:51:59Z",
+    "updated_at": "2015-11-23T09:51:59Z",
+    "body": "We have some basic events like `did-get-response-details`:\nhttp://electron.atom.io/docs/v0.35.0/api/web-contents/\n\nFor advanced things, you have to wait for #2115.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/158893992",
+    "html_url": "https://github.com/electron/electron/issues/3551#issuecomment-158893992",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3551",
+    "id": 158893992,
+    "user": {
+      "login": "huangruichang",
+      "id": 4167510,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4167510?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/huangruichang",
+      "html_url": "https://github.com/huangruichang",
+      "followers_url": "https://api.github.com/users/huangruichang/followers",
+      "following_url": "https://api.github.com/users/huangruichang/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huangruichang/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/huangruichang/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huangruichang/subscriptions",
+      "organizations_url": "https://api.github.com/users/huangruichang/orgs",
+      "repos_url": "https://api.github.com/users/huangruichang/repos",
+      "events_url": "https://api.github.com/users/huangruichang/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/huangruichang/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-23T10:07:43Z",
+    "updated_at": "2015-11-23T10:07:43Z",
+    "body": "@zcbenz cool, thanks a lot. :+1: \n"
+  }
+]

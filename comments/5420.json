@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217536802",
+    "html_url": "https://github.com/electron/electron/issues/5420#issuecomment-217536802",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5420",
+    "id": 217536802,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-06T19:26:44Z",
+    "updated_at": "2016-05-06T19:26:44Z",
+    "body": "Can confirm `did-fail-load` emits with `ERR_TUNNEL_CONNECTION_FAILED` error code. Tested with proxy and following in default app.\n\n```\nwindow.loadURL('https://google.com')\n\nsession.defaultSession.webRequest.onHeadersReceived(function (details, callback) {\n    details.responseHeaders['Location'] = 'http://httpstat.us'\n    callback({\n      responseHeaders: details.responseHeaders,\n      statusLine: 'HTTP/1.1 302 Found'\n    })\n  });\n```\n\ncan you provide an example app ?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217611288",
+    "html_url": "https://github.com/electron/electron/issues/5420#issuecomment-217611288",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5420",
+    "id": 217611288,
+    "user": {
+      "login": "romaincointepas",
+      "id": 797899,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/797899?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/romaincointepas",
+      "html_url": "https://github.com/romaincointepas",
+      "followers_url": "https://api.github.com/users/romaincointepas/followers",
+      "following_url": "https://api.github.com/users/romaincointepas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/romaincointepas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/romaincointepas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/romaincointepas/subscriptions",
+      "organizations_url": "https://api.github.com/users/romaincointepas/orgs",
+      "repos_url": "https://api.github.com/users/romaincointepas/repos",
+      "events_url": "https://api.github.com/users/romaincointepas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/romaincointepas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-07T06:31:55Z",
+    "updated_at": "2016-05-07T06:31:55Z",
+    "body": "Oh indeed, I must have done something wrong, sorry about that and thank you for the swift response.\n"
+  }
+]

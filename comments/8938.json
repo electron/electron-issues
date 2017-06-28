@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/287116902",
+    "html_url": "https://github.com/electron/electron/issues/8938#issuecomment-287116902",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8938",
+    "id": 287116902,
+    "user": {
+      "login": "pronebird",
+      "id": 704044,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/704044?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pronebird",
+      "html_url": "https://github.com/pronebird",
+      "followers_url": "https://api.github.com/users/pronebird/followers",
+      "following_url": "https://api.github.com/users/pronebird/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pronebird/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pronebird/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pronebird/subscriptions",
+      "organizations_url": "https://api.github.com/users/pronebird/orgs",
+      "repos_url": "https://api.github.com/users/pronebird/repos",
+      "events_url": "https://api.github.com/users/pronebird/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pronebird/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-16T16:40:07Z",
+    "updated_at": "2017-03-16T16:40:57Z",
+    "body": "You can get BrowserWindow's HWND then use `::FindWindowEx` to find web view's handle."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/287254564",
+    "html_url": "https://github.com/electron/electron/issues/8938#issuecomment-287254564",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8938",
+    "id": 287254564,
+    "user": {
+      "login": "Neilxzn",
+      "id": 10757009,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10757009?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Neilxzn",
+      "html_url": "https://github.com/Neilxzn",
+      "followers_url": "https://api.github.com/users/Neilxzn/followers",
+      "following_url": "https://api.github.com/users/Neilxzn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Neilxzn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Neilxzn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Neilxzn/subscriptions",
+      "organizations_url": "https://api.github.com/users/Neilxzn/orgs",
+      "repos_url": "https://api.github.com/users/Neilxzn/repos",
+      "events_url": "https://api.github.com/users/Neilxzn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Neilxzn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-17T03:04:56Z",
+    "updated_at": "2017-03-17T03:04:56Z",
+    "body": "Thx"
+  }
+]

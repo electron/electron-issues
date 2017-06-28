@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224485864",
+    "html_url": "https://github.com/electron/electron/issues/5927#issuecomment-224485864",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5927",
+    "id": 224485864,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-08T04:45:16Z",
+    "updated_at": "2016-06-08T04:45:16Z",
+    "body": "It is probably because nodobjc is not compatible with V8 5.1, sorry we are not able to fix problems of third party modules.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224500057",
+    "html_url": "https://github.com/electron/electron/issues/5927#issuecomment-224500057",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5927",
+    "id": 224500057,
+    "user": {
+      "login": "imlliu2005",
+      "id": 17467611,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/17467611?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/imlliu2005",
+      "html_url": "https://github.com/imlliu2005",
+      "followers_url": "https://api.github.com/users/imlliu2005/followers",
+      "following_url": "https://api.github.com/users/imlliu2005/following{/other_user}",
+      "gists_url": "https://api.github.com/users/imlliu2005/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/imlliu2005/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/imlliu2005/subscriptions",
+      "organizations_url": "https://api.github.com/users/imlliu2005/orgs",
+      "repos_url": "https://api.github.com/users/imlliu2005/repos",
+      "events_url": "https://api.github.com/users/imlliu2005/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/imlliu2005/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-08T06:23:04Z",
+    "updated_at": "2016-06-08T06:23:04Z",
+    "body": "ok，if as you say,use electron 1.2.0 and later I can not call objective-c with nodobjc,it is a bad news for me and other developers on mac who use eletron and objective-c to develop apps.\nthank you all the same, I will ask other for help.\n"
+  }
+]

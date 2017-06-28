@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226386708",
+    "html_url": "https://github.com/electron/electron/issues/6063#issuecomment-226386708",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6063",
+    "id": 226386708,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-16T04:41:30Z",
+    "updated_at": "2016-06-16T04:41:30Z",
+    "body": "Implementing something like \"forked windows\" requires the ability to dump and restore the current state of the web engine, which neither node, blink, or v8 supports, and I don't think it will ever be supported in future.\n\nFor POSIX systems it is possible to use `fork` call to copy the entire process, and in Chromium each renderer process has very complex connection with the main process, simply fork the renderer process will not work.\n\nThe closest thing I can think of is to save the HTML of current window and load it in new window, and then dynamically update the HTML file. But it is very hard to achieve, and I don't know whether it can make things better.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226432217",
+    "html_url": "https://github.com/electron/electron/issues/6063#issuecomment-226432217",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6063",
+    "id": 226432217,
+    "user": {
+      "login": "davej",
+      "id": 26971,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26971?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/davej",
+      "html_url": "https://github.com/davej",
+      "followers_url": "https://api.github.com/users/davej/followers",
+      "following_url": "https://api.github.com/users/davej/following{/other_user}",
+      "gists_url": "https://api.github.com/users/davej/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/davej/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/davej/subscriptions",
+      "organizations_url": "https://api.github.com/users/davej/orgs",
+      "repos_url": "https://api.github.com/users/davej/repos",
+      "events_url": "https://api.github.com/users/davej/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/davej/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-16T09:17:49Z",
+    "updated_at": "2016-06-16T09:17:49Z",
+    "body": "Thanks for the explanation.\n"
+  }
+]

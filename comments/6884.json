@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/240459934",
+    "html_url": "https://github.com/electron/electron/issues/6884#issuecomment-240459934",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6884",
+    "id": 240459934,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-17T16:02:05Z",
+    "updated_at": "2016-08-17T16:02:05Z",
+    "body": "Have you tried disabling `nodeIntegration` on the `BrowserWindow`?\n\nIt looks like `WebFont` does not set globals when required in a node context.\n\nhttps://github.com/typekit/webfontloader/blob/da5faa9f5262188e33000b33b0b9dfc271b5e97c/src/core/initialize.js#L89-L91\n\nYou can either disable `nodeIntegration` on `webPreferences` or bundle `WebFontLoader` directly in your app and do `window.WebFont = require('./vendor/webfont')` in a `preload` script to make it global.\n\nThis is very similar to #254, closing this out since this is a `WebFontLoader` issue.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/240471158",
+    "html_url": "https://github.com/electron/electron/issues/6884#issuecomment-240471158",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6884",
+    "id": 240471158,
+    "user": {
+      "login": "kreck",
+      "id": 4924763,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4924763?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kreck",
+      "html_url": "https://github.com/kreck",
+      "followers_url": "https://api.github.com/users/kreck/followers",
+      "following_url": "https://api.github.com/users/kreck/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kreck/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kreck/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kreck/subscriptions",
+      "organizations_url": "https://api.github.com/users/kreck/orgs",
+      "repos_url": "https://api.github.com/users/kreck/repos",
+      "events_url": "https://api.github.com/users/kreck/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kreck/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-17T16:39:58Z",
+    "updated_at": "2016-08-17T16:39:58Z",
+    "body": "@kevinsawicki thanks a lot. Disabling node integration does the trick. However, as i **need node integration** my solution is as follows (if anyone ever has the same problem):\n1. install WebFontLoader via npm\n2. in your BrowserWindow's JavaScript\n\n``` javascript\nvar WebFont = require('webfontloader');\nwindow.WebFont = WebFont;\n```\n1. Be happy and access `WebFont` in your `BrowserWindow` context\n\nAs you mentioned the solution similar to the one for #254 \n"
+  }
+]

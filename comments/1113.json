@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/73468675",
+    "html_url": "https://github.com/electron/electron/issues/1113#issuecomment-73468675",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1113",
+    "id": 73468675,
+    "user": {
+      "login": "bwin",
+      "id": 1673361,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1673361?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bwin",
+      "html_url": "https://github.com/bwin",
+      "followers_url": "https://api.github.com/users/bwin/followers",
+      "following_url": "https://api.github.com/users/bwin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bwin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bwin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bwin/subscriptions",
+      "organizations_url": "https://api.github.com/users/bwin/orgs",
+      "repos_url": "https://api.github.com/users/bwin/repos",
+      "events_url": "https://api.github.com/users/bwin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bwin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-09T07:45:28Z",
+    "updated_at": "2015-02-09T07:45:28Z",
+    "body": "Compiling native modules can be a b*tch on 0.21.x, so :+1:\n\nDavid Manning notifications@github.com schrieb am Mo., 9. Feb. 2015 08:41:\n\n> I realize io.js is a fast moving target, but a few things have become more\n> stable since the 1.0.0-pre version currently included. In particular, the\n> nan module has been updated a couple of times to improve the compatibility\n> of native modules with io.js.\n> \n> For example, building leveldown for leveldb fails against 1.0.0-pre, but\n> works fine on 1.1.0.\n> \n> —\n> Reply to this email directly or view it on GitHub\n> https://github.com/atom/atom-shell/issues/1113.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/73652292",
+    "html_url": "https://github.com/electron/electron/issues/1113#issuecomment-73652292",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1113",
+    "id": 73652292,
+    "user": {
+      "login": "dlmanning",
+      "id": 2949092,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2949092?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlmanning",
+      "html_url": "https://github.com/dlmanning",
+      "followers_url": "https://api.github.com/users/dlmanning/followers",
+      "following_url": "https://api.github.com/users/dlmanning/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dlmanning/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dlmanning/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dlmanning/subscriptions",
+      "organizations_url": "https://api.github.com/users/dlmanning/orgs",
+      "repos_url": "https://api.github.com/users/dlmanning/repos",
+      "events_url": "https://api.github.com/users/dlmanning/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dlmanning/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-10T06:44:37Z",
+    "updated_at": "2015-02-10T06:44:37Z",
+    "body": "Since posting this I've come to understand that the io.js / node version is tied to the version of v8 used in the packaged version of chrome. io.js 1.1.0 uses v8 4.1.0.14, which roughly matches v8 4.1.0.14 in Chrome 41, which is still in beta. Seeing as how the author is undoubtedly aware of all this and it's part of the normal release cycle, I'm closing my issue.\n"
+  }
+]

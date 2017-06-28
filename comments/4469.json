@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/183687172",
+    "html_url": "https://github.com/electron/electron/issues/4469#issuecomment-183687172",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4469",
+    "id": 183687172,
+    "user": {
+      "login": "Baransu",
+      "id": 9558691,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9558691?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Baransu",
+      "html_url": "https://github.com/Baransu",
+      "followers_url": "https://api.github.com/users/Baransu/followers",
+      "following_url": "https://api.github.com/users/Baransu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Baransu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Baransu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Baransu/subscriptions",
+      "organizations_url": "https://api.github.com/users/Baransu/orgs",
+      "repos_url": "https://api.github.com/users/Baransu/repos",
+      "events_url": "https://api.github.com/users/Baransu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Baransu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-13T15:32:27Z",
+    "updated_at": "2016-02-13T15:32:27Z",
+    "body": "It looks like it is problem with default Manjaro file manager - Dolphin, not Electron.\n"
+  }
+]

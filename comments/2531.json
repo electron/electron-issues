@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/132985219",
+    "html_url": "https://github.com/electron/electron/issues/2531#issuecomment-132985219",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2531",
+    "id": 132985219,
+    "user": {
+      "login": "petrfelzmann",
+      "id": 12231141,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12231141?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/petrfelzmann",
+      "html_url": "https://github.com/petrfelzmann",
+      "followers_url": "https://api.github.com/users/petrfelzmann/followers",
+      "following_url": "https://api.github.com/users/petrfelzmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/petrfelzmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/petrfelzmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/petrfelzmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/petrfelzmann/orgs",
+      "repos_url": "https://api.github.com/users/petrfelzmann/repos",
+      "events_url": "https://api.github.com/users/petrfelzmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/petrfelzmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-20T11:53:46Z",
+    "updated_at": "2015-08-20T11:53:46Z",
+    "body": "There is need to register [console-message](http://electron.atom.io/docs/v0.30.0/api/web-view-tag/#console-message) event, [thx to appelgriebsch](https://discuss.atom.io/t/cannot-see-console-log-from-webview/19974/3)! I'm closing the issue.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/290059475",
+    "html_url": "https://github.com/electron/electron/issues/2531#issuecomment-290059475",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2531",
+    "id": 290059475,
+    "user": {
+      "login": "arve0",
+      "id": 4810521,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4810521?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arve0",
+      "html_url": "https://github.com/arve0",
+      "followers_url": "https://api.github.com/users/arve0/followers",
+      "following_url": "https://api.github.com/users/arve0/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arve0/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arve0/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arve0/subscriptions",
+      "organizations_url": "https://api.github.com/users/arve0/orgs",
+      "repos_url": "https://api.github.com/users/arve0/repos",
+      "events_url": "https://api.github.com/users/arve0/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arve0/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-29T11:17:19Z",
+    "updated_at": "2017-03-29T11:17:19Z",
+    "body": "Link to current documentation: https://electron.atom.io/docs/api/webview-tag/#event-console-message"
+  }
+]

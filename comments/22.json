@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/19303586",
+    "html_url": "https://github.com/electron/electron/issues/22#issuecomment-19303586",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/22",
+    "id": 19303586,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-06-12T02:21:15Z",
+    "updated_at": "2013-06-12T02:21:15Z",
+    "body": "It's showed because the [renderer sandbox is disabled](https://github.com/atom/atom-shell/commit/34c4d734af9f28ec51c4e3b259863519713e408b), otherwise many node functions won't work. It is in fact not a error message, but a kind warning. Removing it only needs a one line patch for chromium.\n\nBut I want to keep this message so I can know whether and when the renderer has started, it's helpful for debugging. How about replacing it with a warmer message? like:\n\n```\n[0611/105852:INFO:renderer_main.cc(212)] Renderer started without sandbox\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/19304102",
+    "html_url": "https://github.com/electron/electron/issues/22#issuecomment-19304102",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/22",
+    "id": 19304102,
+    "user": {
+      "login": "probablycorey",
+      "id": 596,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/596?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/probablycorey",
+      "html_url": "https://github.com/probablycorey",
+      "followers_url": "https://api.github.com/users/probablycorey/followers",
+      "following_url": "https://api.github.com/users/probablycorey/following{/other_user}",
+      "gists_url": "https://api.github.com/users/probablycorey/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/probablycorey/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/probablycorey/subscriptions",
+      "organizations_url": "https://api.github.com/users/probablycorey/orgs",
+      "repos_url": "https://api.github.com/users/probablycorey/repos",
+      "events_url": "https://api.github.com/users/probablycorey/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/probablycorey/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-06-12T02:44:39Z",
+    "updated_at": "2014-05-05T17:56:52Z",
+    "body": "If it is helpful to you let's just keep it!\n"
+  }
+]

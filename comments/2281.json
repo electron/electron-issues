@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/141095623",
+    "html_url": "https://github.com/electron/electron/issues/2281#issuecomment-141095623",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2281",
+    "id": 141095623,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-17T14:00:44Z",
+    "updated_at": "2015-09-17T14:00:44Z",
+    "body": "This is a bug of OS X, and I believe it has been fixed in 10.10.4.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/268402787",
+    "html_url": "https://github.com/electron/electron/issues/2281#issuecomment-268402787",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2281",
+    "id": 268402787,
+    "user": {
+      "login": "noahbenham",
+      "id": 6981195,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6981195?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/noahbenham",
+      "html_url": "https://github.com/noahbenham",
+      "followers_url": "https://api.github.com/users/noahbenham/followers",
+      "following_url": "https://api.github.com/users/noahbenham/following{/other_user}",
+      "gists_url": "https://api.github.com/users/noahbenham/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/noahbenham/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/noahbenham/subscriptions",
+      "organizations_url": "https://api.github.com/users/noahbenham/orgs",
+      "repos_url": "https://api.github.com/users/noahbenham/repos",
+      "events_url": "https://api.github.com/users/noahbenham/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/noahbenham/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-21T00:49:41Z",
+    "updated_at": "2017-01-04T14:23:59Z",
+    "body": "I know this issue is closed, but I'm still seeing this behavior with electron 1.4.7 and macOS 10.11.6.\r\nI was able to work around this using [`win.setFullScreen(false)`](https://github.com/electron/electron/blob/master/docs/api/browser-window.md#winsetfullscreenflag)"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/115614183",
+    "html_url": "https://github.com/electron/electron/pull/2063#issuecomment-115614183",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2063",
+    "id": 115614183,
+    "user": {
+      "login": "darwin",
+      "id": 5453,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5453?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/darwin",
+      "html_url": "https://github.com/darwin",
+      "followers_url": "https://api.github.com/users/darwin/followers",
+      "following_url": "https://api.github.com/users/darwin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/darwin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/darwin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/darwin/subscriptions",
+      "organizations_url": "https://api.github.com/users/darwin/orgs",
+      "repos_url": "https://api.github.com/users/darwin/repos",
+      "events_url": "https://api.github.com/users/darwin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/darwin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-26T09:46:15Z",
+    "updated_at": "2015-06-26T09:46:15Z",
+    "body": "Related https://github.com/atom/brightray/pull/121\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/115696949",
+    "html_url": "https://github.com/electron/electron/pull/2063#issuecomment-115696949",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2063",
+    "id": 115696949,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-06-26T13:49:54Z",
+    "updated_at": "2015-06-26T13:49:54Z",
+    "body": ":+1:\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/104970916",
+    "html_url": "https://github.com/electron/electron/issues/1756#issuecomment-104970916",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1756",
+    "id": 104970916,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-05-24T02:38:50Z",
+    "updated_at": "2015-05-24T02:38:50Z",
+    "body": "Sending big data through IPC is always slow and would block your app for some time, if we serialize `Buffer` when sending it the app's whole performance would be decreased as long as there is a `Buffer` in some objects being sent.\n\nA possible solution is to use shared memory for sending `Buffer`s, but I don't think it deserves the effort, because under most cases when you want to send a `Buffer` you are doing the wrong thing.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/105000686",
+    "html_url": "https://github.com/electron/electron/issues/1756#issuecomment-105000686",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1756",
+    "id": 105000686,
+    "user": {
+      "login": "cronvel",
+      "id": 6891714,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6891714?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cronvel",
+      "html_url": "https://github.com/cronvel",
+      "followers_url": "https://api.github.com/users/cronvel/followers",
+      "following_url": "https://api.github.com/users/cronvel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cronvel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cronvel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cronvel/subscriptions",
+      "organizations_url": "https://api.github.com/users/cronvel/orgs",
+      "repos_url": "https://api.github.com/users/cronvel/repos",
+      "events_url": "https://api.github.com/users/cronvel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cronvel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-24T10:45:34Z",
+    "updated_at": "2015-05-24T10:45:34Z",
+    "body": "Hi, \n\nI understand your point.\n\nHowever \"Buffer\" does not always mean big data, it just means binary data.\n\nIn my case for example, the size is usually between **10 and 100 bytes**. That's a very small size, still, performing random byte access is slow, so I have to rely on a deprecated feature (`.toString('binary')`) to achieve that properly.\n"
+  }
+]

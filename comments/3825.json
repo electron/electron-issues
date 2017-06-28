@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/164914401",
+    "html_url": "https://github.com/electron/electron/pull/3825#issuecomment-164914401",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3825",
+    "id": 164914401,
+    "user": {
+      "login": "maxogden",
+      "id": 39759,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/39759?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/maxogden",
+      "html_url": "https://github.com/maxogden",
+      "followers_url": "https://api.github.com/users/maxogden/followers",
+      "following_url": "https://api.github.com/users/maxogden/following{/other_user}",
+      "gists_url": "https://api.github.com/users/maxogden/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/maxogden/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/maxogden/subscriptions",
+      "organizations_url": "https://api.github.com/users/maxogden/orgs",
+      "repos_url": "https://api.github.com/users/maxogden/repos",
+      "events_url": "https://api.github.com/users/maxogden/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/maxogden/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-15T22:14:39Z",
+    "updated_at": "2015-12-15T22:14:39Z",
+    "body": "by the way, I love desktop-capturer! I am already using it in screencat: https://github.com/maxogden/screencat/issues/37#issuecomment-164914178\n\n<img width=\"812\" alt=\"screen shot 2015-12-15 at 2 12 16 pm\" src=\"https://cloud.githubusercontent.com/assets/39759/11825810/29e2fe8e-a336-11e5-9c35-e84f9abb2397.png\">\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/164978429",
+    "html_url": "https://github.com/electron/electron/pull/3825#issuecomment-164978429",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3825",
+    "id": 164978429,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-16T03:30:02Z",
+    "updated_at": "2015-12-16T03:30:02Z",
+    "body": ":+1:\n"
+  }
+]

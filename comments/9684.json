@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/306913545",
+    "html_url": "https://github.com/electron/electron/issues/9684#issuecomment-306913545",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9684",
+    "id": 306913545,
+    "user": {
+      "login": "ProPuke",
+      "id": 105934,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/105934?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ProPuke",
+      "html_url": "https://github.com/ProPuke",
+      "followers_url": "https://api.github.com/users/ProPuke/followers",
+      "following_url": "https://api.github.com/users/ProPuke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ProPuke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ProPuke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ProPuke/subscriptions",
+      "organizations_url": "https://api.github.com/users/ProPuke/orgs",
+      "repos_url": "https://api.github.com/users/ProPuke/repos",
+      "events_url": "https://api.github.com/users/ProPuke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ProPuke/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-07T20:22:54Z",
+    "updated_at": "2017-06-07T21:56:12Z",
+    "body": "Amend to the above - Using Blobs **does** send data (and the filename parameter is honoured). But it's incorrectly represented (sent as a stream of ascii byte values with no separators, rather than a binary stream)"
+  }
+]

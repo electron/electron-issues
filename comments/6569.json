@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/234816558",
+    "html_url": "https://github.com/electron/electron/issues/6569#issuecomment-234816558",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6569",
+    "id": 234816558,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-25T01:17:48Z",
+    "updated_at": "2016-07-25T01:17:48Z",
+    "body": "I can reproduce on Windows, but not on OS X 10.11.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/289133062",
+    "html_url": "https://github.com/electron/electron/issues/6569#issuecomment-289133062",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6569",
+    "id": 289133062,
+    "user": {
+      "login": "rsms",
+      "id": 47046,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47046?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rsms",
+      "html_url": "https://github.com/rsms",
+      "followers_url": "https://api.github.com/users/rsms/followers",
+      "following_url": "https://api.github.com/users/rsms/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rsms/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rsms/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rsms/subscriptions",
+      "organizations_url": "https://api.github.com/users/rsms/orgs",
+      "repos_url": "https://api.github.com/users/rsms/repos",
+      "events_url": "https://api.github.com/users/rsms/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rsms/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-24T20:20:44Z",
+    "updated_at": "2017-03-24T20:20:44Z",
+    "body": "I can reproduce on macOS 10.12.3, electron 1.6.2.\r\n\r\nI modified the repro case to make it possible to simply paste it into the console of an existing view:\r\n\r\n```js\r\ndocument.body.innerHTML = '<h1>Put cursor over me</h1>'\r\nsetInterval(function() {\r\n  var h1 = document.querySelector('h1');\r\n  if (h1.style.cursor == 'wait') {\r\n    h1.style.cursor = '';\r\n  } else {\r\n    h1.style.cursor = 'wait';\r\n  }\r\n}, 1000);\r\n```\r\n\r\nPasting this into a HTML page running in Chrome 57 works as expected — every second the cursor switches between \"wait\" and default.\r\n\r\nHowever, pasting this into a `<webview>` of the Figma electron app doesn't, unless I continuously move the mouse.\r\n\r\nWould be really really great to fix this."
+  }
+]

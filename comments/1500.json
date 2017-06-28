@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/96528465",
+    "html_url": "https://github.com/electron/electron/issues/1500#issuecomment-96528465",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1500",
+    "id": 96528465,
+    "user": {
+      "login": "sindresorhus",
+      "id": 170270,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/170270?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sindresorhus",
+      "html_url": "https://github.com/sindresorhus",
+      "followers_url": "https://api.github.com/users/sindresorhus/followers",
+      "following_url": "https://api.github.com/users/sindresorhus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sindresorhus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sindresorhus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sindresorhus/subscriptions",
+      "organizations_url": "https://api.github.com/users/sindresorhus/orgs",
+      "repos_url": "https://api.github.com/users/sindresorhus/repos",
+      "events_url": "https://api.github.com/users/sindresorhus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sindresorhus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-27T07:18:32Z",
+    "updated_at": "2015-04-27T07:18:39Z",
+    "body": "@maxogden probably need this for https://github.com/maxogden/menubar too.\n"
+  }
+]

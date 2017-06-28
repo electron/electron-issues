@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/111388830",
+    "html_url": "https://github.com/electron/electron/issues/1937#issuecomment-111388830",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1937",
+    "id": 111388830,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-06-12T07:12:11Z",
+    "updated_at": "2015-06-12T07:12:11Z",
+    "body": "The v0.28.0 release should have this fixed.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/111741913",
+    "html_url": "https://github.com/electron/electron/issues/1937#issuecomment-111741913",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1937",
+    "id": 111741913,
+    "user": {
+      "login": "anonrig",
+      "id": 1935246,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1935246?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anonrig",
+      "html_url": "https://github.com/anonrig",
+      "followers_url": "https://api.github.com/users/anonrig/followers",
+      "following_url": "https://api.github.com/users/anonrig/following{/other_user}",
+      "gists_url": "https://api.github.com/users/anonrig/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/anonrig/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/anonrig/subscriptions",
+      "organizations_url": "https://api.github.com/users/anonrig/orgs",
+      "repos_url": "https://api.github.com/users/anonrig/repos",
+      "events_url": "https://api.github.com/users/anonrig/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/anonrig/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-13T19:22:37Z",
+    "updated_at": "2015-06-13T19:22:51Z",
+    "body": "@zcbenz When the application is in running on background, capturePage returns an empty buffer. It should throw something. \n"
+  }
+]

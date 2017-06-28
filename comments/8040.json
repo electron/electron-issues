@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/262116103",
+    "html_url": "https://github.com/electron/electron/issues/8040#issuecomment-262116103",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8040",
+    "id": 262116103,
+    "user": {
+      "login": "weiway",
+      "id": 4580862,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4580862?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/weiway",
+      "html_url": "https://github.com/weiway",
+      "followers_url": "https://api.github.com/users/weiway/followers",
+      "following_url": "https://api.github.com/users/weiway/following{/other_user}",
+      "gists_url": "https://api.github.com/users/weiway/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/weiway/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/weiway/subscriptions",
+      "organizations_url": "https://api.github.com/users/weiway/orgs",
+      "repos_url": "https://api.github.com/users/weiway/repos",
+      "events_url": "https://api.github.com/users/weiway/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/weiway/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-22T00:58:04Z",
+    "updated_at": "2016-11-22T00:58:04Z",
+    "body": "It seems this issue is related to electron-builder and squirrel.windows. I'll close this issue here."
+  }
+]

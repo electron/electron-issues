@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226993666",
+    "html_url": "https://github.com/electron/electron/issues/6123#issuecomment-226993666",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6123",
+    "id": 226993666,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-19T12:01:42Z",
+    "updated_at": "2016-06-19T12:01:42Z",
+    "body": "Haven't looked into it yet, but it should be related to `v8::MicrotasksScope` not being set for click handlers.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/227795531",
+    "html_url": "https://github.com/electron/electron/issues/6123#issuecomment-227795531",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6123",
+    "id": 227795531,
+    "user": {
+      "login": "fdelayen",
+      "id": 14359114,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/14359114?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fdelayen",
+      "html_url": "https://github.com/fdelayen",
+      "followers_url": "https://api.github.com/users/fdelayen/followers",
+      "following_url": "https://api.github.com/users/fdelayen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fdelayen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fdelayen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fdelayen/subscriptions",
+      "organizations_url": "https://api.github.com/users/fdelayen/orgs",
+      "repos_url": "https://api.github.com/users/fdelayen/repos",
+      "events_url": "https://api.github.com/users/fdelayen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fdelayen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-22T16:13:55Z",
+    "updated_at": "2016-06-22T16:13:55Z",
+    "body": "Looks like it comes from [here](https://github.com/electron/electron/blob/master/atom/browser/api/atom_api_menu.cc) (in ExecuteCommand function). I tried things with MicrotasksScope but as a beginner it's quite hard to know how to solve this because I don't know what Base::Callback is doing and why the callback is fired but the js promise is then delayed. At least I had the opportunity to work a bit with v8 and the api. I'll follow to see how this is resolved or help is there are any other clue !\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/286428045",
+    "html_url": "https://github.com/electron/electron/issues/8918#issuecomment-286428045",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8918",
+    "id": 286428045,
+    "user": {
+      "login": "Janneman84",
+      "id": 9085167,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9085167?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Janneman84",
+      "html_url": "https://github.com/Janneman84",
+      "followers_url": "https://api.github.com/users/Janneman84/followers",
+      "following_url": "https://api.github.com/users/Janneman84/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Janneman84/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Janneman84/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Janneman84/subscriptions",
+      "organizations_url": "https://api.github.com/users/Janneman84/orgs",
+      "repos_url": "https://api.github.com/users/Janneman84/repos",
+      "events_url": "https://api.github.com/users/Janneman84/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Janneman84/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-14T13:55:28Z",
+    "updated_at": "2017-03-14T13:55:28Z",
+    "body": "No one stops you from using Node modules that do this. For Windows for example there is NodeRT which allows you to use UWP APIs in Electron. I tried getting my location this way last week, it works :)."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/290846293",
+    "html_url": "https://github.com/electron/electron/issues/8918#issuecomment-290846293",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8918",
+    "id": 290846293,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-03-31T22:24:39Z",
+    "updated_at": "2017-03-31T22:24:39Z",
+    "body": "Yeah, Electron builds on top of the support in Chrome so native node modules are a good way to go to add any additional functionality that builds directly on top of OS APIs.\r\n\r\nClosing this out."
+  }
+]

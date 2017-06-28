@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/291466687",
+    "html_url": "https://github.com/electron/electron/issues/9106#issuecomment-291466687",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9106",
+    "id": 291466687,
+    "user": {
+      "login": "MrSaints",
+      "id": 68859,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/68859?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MrSaints",
+      "html_url": "https://github.com/MrSaints",
+      "followers_url": "https://api.github.com/users/MrSaints/followers",
+      "following_url": "https://api.github.com/users/MrSaints/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MrSaints/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MrSaints/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MrSaints/subscriptions",
+      "organizations_url": "https://api.github.com/users/MrSaints/orgs",
+      "repos_url": "https://api.github.com/users/MrSaints/repos",
+      "events_url": "https://api.github.com/users/MrSaints/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MrSaints/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-04T11:00:35Z",
+    "updated_at": "2017-04-04T11:00:35Z",
+    "body": "Duplicate of https://github.com/electron/electron/issues/228"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/291512025",
+    "html_url": "https://github.com/electron/electron/issues/9106#issuecomment-291512025",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9106",
+    "id": 291512025,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-04T14:11:10Z",
+    "updated_at": "2017-04-04T14:11:10Z",
+    "body": "Thanks @MrSaints, closing as duplicate."
+  }
+]

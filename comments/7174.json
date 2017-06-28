@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/246172321",
+    "html_url": "https://github.com/electron/electron/issues/7174#issuecomment-246172321",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7174",
+    "id": 246172321,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-11T10:07:20Z",
+    "updated_at": "2016-09-11T10:07:20Z",
+    "body": "As per [the docs](http://electron.atom.io/docs/api/shell/#shellopenexternalurl-options), the `options` argument is only used on macOS, so what you're describing is the expected behavior.\n\nClosing this out since it works as documented.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/246172438",
+    "html_url": "https://github.com/electron/electron/issues/7174#issuecomment-246172438",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7174",
+    "id": 246172438,
+    "user": {
+      "login": "Thomas101",
+      "id": 103586,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/103586?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Thomas101",
+      "html_url": "https://github.com/Thomas101",
+      "followers_url": "https://api.github.com/users/Thomas101/followers",
+      "following_url": "https://api.github.com/users/Thomas101/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Thomas101/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Thomas101/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Thomas101/subscriptions",
+      "organizations_url": "https://api.github.com/users/Thomas101/orgs",
+      "repos_url": "https://api.github.com/users/Thomas101/repos",
+      "events_url": "https://api.github.com/users/Thomas101/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Thomas101/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-11T10:10:03Z",
+    "updated_at": "2016-09-11T10:10:03Z",
+    "body": "Ah sorry, I missed that!\n"
+  }
+]

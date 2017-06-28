@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223481949",
+    "html_url": "https://github.com/electron/electron/issues/5822#issuecomment-223481949",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5822",
+    "id": 223481949,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-03T03:24:30Z",
+    "updated_at": "2016-06-03T03:24:30Z",
+    "body": "Can you provide a minimal app that can reproduce this problem?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/227064686",
+    "html_url": "https://github.com/electron/electron/issues/5822#issuecomment-227064686",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5822",
+    "id": 227064686,
+    "user": {
+      "login": "srivignes",
+      "id": 17283869,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/17283869?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/srivignes",
+      "html_url": "https://github.com/srivignes",
+      "followers_url": "https://api.github.com/users/srivignes/followers",
+      "following_url": "https://api.github.com/users/srivignes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/srivignes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/srivignes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/srivignes/subscriptions",
+      "organizations_url": "https://api.github.com/users/srivignes/orgs",
+      "repos_url": "https://api.github.com/users/srivignes/repos",
+      "events_url": "https://api.github.com/users/srivignes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/srivignes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-20T07:02:46Z",
+    "updated_at": "2016-06-20T07:02:46Z",
+    "body": "Actually, I've figured it out. I am able to access the files inside asar archive now using \n\n```\nfs.readFileSync('./resources/app.asar/app/data/Softbot.db');\n```\n\nThanks @zcbenz \n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/53570634",
+    "html_url": "https://github.com/electron/electron/issues/609#issuecomment-53570634",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/609",
+    "id": 53570634,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-08-27T13:19:49Z",
+    "updated_at": "2014-08-27T13:19:49Z",
+    "body": "It is a bug that the `BrowserWindow.show()` focuses the window, I'll see to fix it.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/54596966",
+    "html_url": "https://github.com/electron/electron/issues/609#issuecomment-54596966",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/609",
+    "id": 54596966,
+    "user": {
+      "login": "Subash",
+      "id": 3478693,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3478693?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Subash",
+      "html_url": "https://github.com/Subash",
+      "followers_url": "https://api.github.com/users/Subash/followers",
+      "following_url": "https://api.github.com/users/Subash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Subash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Subash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Subash/subscriptions",
+      "organizations_url": "https://api.github.com/users/Subash/orgs",
+      "repos_url": "https://api.github.com/users/Subash/repos",
+      "events_url": "https://api.github.com/users/Subash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Subash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-09-05T08:16:03Z",
+    "updated_at": "2014-09-05T08:16:03Z",
+    "body": "I am having a lot of trouble with this bug. Can you please fix this ?\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/303572364",
+    "html_url": "https://github.com/electron/electron/pull/9570#issuecomment-303572364",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9570",
+    "id": 303572364,
+    "user": {
+      "login": "mistydemeo",
+      "id": 780485,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/780485?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mistydemeo",
+      "html_url": "https://github.com/mistydemeo",
+      "followers_url": "https://api.github.com/users/mistydemeo/followers",
+      "following_url": "https://api.github.com/users/mistydemeo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mistydemeo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mistydemeo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mistydemeo/subscriptions",
+      "organizations_url": "https://api.github.com/users/mistydemeo/orgs",
+      "repos_url": "https://api.github.com/users/mistydemeo/repos",
+      "events_url": "https://api.github.com/users/mistydemeo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mistydemeo/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-24T00:03:28Z",
+    "updated_at": "2017-05-24T00:03:28Z",
+    "body": "For reference, there's some unfortunate order of operations stuff with `pre-cibuild`. Because `pre-cibuild` comes *before* the git pull, your first build will not reflect changes made within this branch."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/304156442",
+    "html_url": "https://github.com/electron/electron/pull/9570#issuecomment-304156442",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9570",
+    "id": 304156442,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-26T00:05:41Z",
+    "updated_at": "2017-05-26T00:05:47Z",
+    "body": "Linux crash specs are green now, thanks @mistydemeo 👍 "
+  }
+]

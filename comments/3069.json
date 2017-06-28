@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/147561168",
+    "html_url": "https://github.com/electron/electron/issues/3069#issuecomment-147561168",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3069",
+    "id": 147561168,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-13T00:57:02Z",
+    "updated_at": "2015-10-13T00:57:02Z",
+    "body": "Spawning a new process is exactly the right way to go.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/147684322",
+    "html_url": "https://github.com/electron/electron/issues/3069#issuecomment-147684322",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3069",
+    "id": 147684322,
+    "user": {
+      "login": "IonicaBizau",
+      "id": 2864371,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2864371?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/IonicaBizau",
+      "html_url": "https://github.com/IonicaBizau",
+      "followers_url": "https://api.github.com/users/IonicaBizau/followers",
+      "following_url": "https://api.github.com/users/IonicaBizau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/IonicaBizau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/IonicaBizau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/IonicaBizau/subscriptions",
+      "organizations_url": "https://api.github.com/users/IonicaBizau/orgs",
+      "repos_url": "https://api.github.com/users/IonicaBizau/repos",
+      "events_url": "https://api.github.com/users/IonicaBizau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/IonicaBizau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-13T11:06:51Z",
+    "updated_at": "2015-10-13T11:06:51Z",
+    "body": "@zcbenz Actually I saw that even the Electron CLI app spawns another process. I built [`electroner`](https://github.com/IonicaBizau/electroner) to simplify the things a little bit. :grin: \n"
+  }
+]

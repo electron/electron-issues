@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/270702470",
+    "html_url": "https://github.com/electron/electron/issues/8346#issuecomment-270702470",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8346",
+    "id": 270702470,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-01-05T17:22:16Z",
+    "updated_at": "2017-01-05T17:22:16Z",
+    "body": "Closing this out based on the updated comment at https://github.com/Glavin001/atom-beautify/issues/1444#issuecomment-270683262\r\n\r\n> Update: Nope. The error is originating from Winston and being throw from Electron. See:\r\n\r\nElectron is just passing through this error, not generating it.\r\n\r\nThis is the line it originates from 👇 \r\n\r\n```\r\nat Object. (C:\\Users\\davidtaylorjr.atom\\packages\\atom-beautify\\node_modules\\winston\\lib\\winston\\config.js:48:17)\r\n```"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/270703547",
+    "html_url": "https://github.com/electron/electron/issues/8346#issuecomment-270703547",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8346",
+    "id": 270703547,
+    "user": {
+      "login": "davidtaylorjr",
+      "id": 10404733,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10404733?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/davidtaylorjr",
+      "html_url": "https://github.com/davidtaylorjr",
+      "followers_url": "https://api.github.com/users/davidtaylorjr/followers",
+      "following_url": "https://api.github.com/users/davidtaylorjr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/davidtaylorjr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/davidtaylorjr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/davidtaylorjr/subscriptions",
+      "organizations_url": "https://api.github.com/users/davidtaylorjr/orgs",
+      "repos_url": "https://api.github.com/users/davidtaylorjr/repos",
+      "events_url": "https://api.github.com/users/davidtaylorjr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/davidtaylorjr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-05T17:26:51Z",
+    "updated_at": "2017-01-05T17:26:51Z",
+    "body": "Ok thanks, back to the drawing board.\nOn 1/5/2017 12:22:50 PM, Kevin Sawicki <notifications@github.com> wrote:\nClosed #8346 [https://github.com/electron/electron/issues/8346].\n—\nYou are receiving this because you authored the thread.\nReply to this email directly, view it on GitHub [https://github.com/electron/electron/issues/8346#event-912965017], or mute the thread [https://github.com/notifications/unsubscribe-auth/AJ7DfWsolTztr33vSpyOyrE2jyksF2m7ks5rPSbpgaJpZM4Lb2mV]."
+  }
+]

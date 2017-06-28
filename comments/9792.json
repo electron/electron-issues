@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309405750",
+    "html_url": "https://github.com/electron/electron/issues/9792#issuecomment-309405750",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9792",
+    "id": 309405750,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-19T10:51:32Z",
+    "updated_at": "2017-06-19T10:51:32Z",
+    "body": "Seen this asked before in the atom.io Slack channel and can't remember who answered it 😆 \r\n\r\n/cc @groundwater @lee-dohm "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309476292",
+    "html_url": "https://github.com/electron/electron/issues/9792#issuecomment-309476292",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9792",
+    "id": 309476292,
+    "user": {
+      "login": "lee-dohm",
+      "id": 1038121,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1038121?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lee-dohm",
+      "html_url": "https://github.com/lee-dohm",
+      "followers_url": "https://api.github.com/users/lee-dohm/followers",
+      "following_url": "https://api.github.com/users/lee-dohm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lee-dohm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lee-dohm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lee-dohm/subscriptions",
+      "organizations_url": "https://api.github.com/users/lee-dohm/orgs",
+      "repos_url": "https://api.github.com/users/lee-dohm/repos",
+      "events_url": "https://api.github.com/users/lee-dohm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lee-dohm/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-19T15:30:25Z",
+    "updated_at": "2017-06-19T15:30:25Z",
+    "body": "@stonegray the idea behind linking to github.com/logos is that you may follow the same guidelines for the use of the Electron logo as for the GitHub or Octocat logo. For example, you may use the Electron logo on a website to link to your GitHub repo for your Electron-based project but you may not use the Electron logo for your application icon. If you have any questions as to whether your specific use is allowed by our logo policies, please contact us through electron@github.com.\r\n\r\nWe do intend to update github.com/logos at some point but I don't have a timeline for when that will happen."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/275262443",
+    "html_url": "https://github.com/electron/electron/issues/8512#issuecomment-275262443",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8512",
+    "id": 275262443,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-25T23:11:47Z",
+    "updated_at": "2017-01-25T23:11:47Z",
+    "body": "This is by design and I don't think it is either easy or safe to change a window from non-transparent to transparent.\r\n\r\nIf you need a background colour, just set it on your HTML document."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/275269118",
+    "html_url": "https://github.com/electron/electron/issues/8512#issuecomment-275269118",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8512",
+    "id": 275269118,
+    "user": {
+      "login": "bakkiraju",
+      "id": 1934468,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1934468?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bakkiraju",
+      "html_url": "https://github.com/bakkiraju",
+      "followers_url": "https://api.github.com/users/bakkiraju/followers",
+      "following_url": "https://api.github.com/users/bakkiraju/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bakkiraju/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bakkiraju/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bakkiraju/subscriptions",
+      "organizations_url": "https://api.github.com/users/bakkiraju/orgs",
+      "repos_url": "https://api.github.com/users/bakkiraju/repos",
+      "events_url": "https://api.github.com/users/bakkiraju/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bakkiraju/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-25T23:47:22Z",
+    "updated_at": "2017-01-25T23:47:22Z",
+    "body": "How do I then show a window with background color and html contents and make all of it disappear gracefully ?\r\n\r\nLooks like CSS animations only work on a  window that is transparent from the get go"
+  }
+]

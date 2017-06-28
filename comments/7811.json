@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/257374665",
+    "html_url": "https://github.com/electron/electron/issues/7811#issuecomment-257374665",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7811",
+    "id": 257374665,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-31T18:14:49Z",
+    "updated_at": "2016-10-31T18:14:49Z",
+    "body": "> which node version do you use to build the app and which version should be the app tested on?\n\nNode is only used during the build of your app so any version can be used as long as the modules you use to build your app (such as `electron-packager`, `npm`, etc.) are supported by that version.\n\nElectron currently builds on top of Node 6.5.0 so any modules that you app distributes should work support that version.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/258199370",
+    "html_url": "https://github.com/electron/electron/issues/7811#issuecomment-258199370",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7811",
+    "id": 258199370,
+    "user": {
+      "login": "yopbeast",
+      "id": 22372334,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22372334?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yopbeast",
+      "html_url": "https://github.com/yopbeast",
+      "followers_url": "https://api.github.com/users/yopbeast/followers",
+      "following_url": "https://api.github.com/users/yopbeast/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yopbeast/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yopbeast/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yopbeast/subscriptions",
+      "organizations_url": "https://api.github.com/users/yopbeast/orgs",
+      "repos_url": "https://api.github.com/users/yopbeast/repos",
+      "events_url": "https://api.github.com/users/yopbeast/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yopbeast/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-03T16:39:58Z",
+    "updated_at": "2016-11-03T16:39:58Z",
+    "body": "@kevinsawicki Hey thank you! i was really in doubt for it, now it's everythings clear.\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/48570843",
+    "html_url": "https://github.com/electron/electron/issues/469#issuecomment-48570843",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/469",
+    "id": 48570843,
+    "user": {
+      "login": "douxing",
+      "id": 2324760,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2324760?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/douxing",
+      "html_url": "https://github.com/douxing",
+      "followers_url": "https://api.github.com/users/douxing/followers",
+      "following_url": "https://api.github.com/users/douxing/following{/other_user}",
+      "gists_url": "https://api.github.com/users/douxing/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/douxing/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/douxing/subscriptions",
+      "organizations_url": "https://api.github.com/users/douxing/orgs",
+      "repos_url": "https://api.github.com/users/douxing/repos",
+      "events_url": "https://api.github.com/users/douxing/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/douxing/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-10T06:49:43Z",
+    "updated_at": "2014-07-10T06:49:43Z",
+    "body": "okay, according to https://github.com/rogerwang/node-webkit/issues/213 \nhere is my solution:\n1. encapsulate cpp addons with any version of node(in my case 0.11.13)\n2. copy node.exe(v0.11.13) to my lib\n3. use child_process.spawn('node.exe', ['myEncapsulation.js', {cwd: path.resolve(__dirname), stdio: ['ipc']}]);\n4. use ipc to communication\n\npros:\n- i can easily un-require my addon by calling kill()\n- can be used between node versions as long as ipc protocol is stable\n\ncons:\n- need another node.exe in my project\n- need extra logic of handling message(events, callbacks, state-machines ...)\n\nand one more questions:\ndo atom-shell support child_process.fork? how to use it correctly?\nis there a way to use the native node.exe inside the atom.exe, so i don't have to require another node.exe in my project?\n"
+  }
+]

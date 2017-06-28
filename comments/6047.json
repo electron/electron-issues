@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226067813",
+    "html_url": "https://github.com/electron/electron/issues/6047#issuecomment-226067813",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6047",
+    "id": 226067813,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-15T01:56:36Z",
+    "updated_at": "2016-06-15T01:56:36Z",
+    "body": "The simply way to verify whether it works is to catch all mouse events, for example:\n\n``` javascript\ndocument.onmousemove = (event) => { console.log(event) }\nremote.getCurrentWebContents().sendInputEvent({type: 'mouseMove', x: 10, y: 10})\n```\n\nHowever for emulating certain actions you have to carefully construct every event in sequence, in your case you probably missed some necessary events.\n\nAlso there is no documentation on how to make certain actions work though, the `sendInputEvent` is only a simple wrapper around Chromium's interface, there is no guarantee on how the behavior should be.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226088419",
+    "html_url": "https://github.com/electron/electron/issues/6047#issuecomment-226088419",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6047",
+    "id": 226088419,
+    "user": {
+      "login": "kalharbi",
+      "id": 707356,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/707356?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kalharbi",
+      "html_url": "https://github.com/kalharbi",
+      "followers_url": "https://api.github.com/users/kalharbi/followers",
+      "following_url": "https://api.github.com/users/kalharbi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kalharbi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kalharbi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kalharbi/subscriptions",
+      "organizations_url": "https://api.github.com/users/kalharbi/orgs",
+      "repos_url": "https://api.github.com/users/kalharbi/repos",
+      "events_url": "https://api.github.com/users/kalharbi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kalharbi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-15T05:01:10Z",
+    "updated_at": "2016-06-15T05:01:10Z",
+    "body": "Thanks for the example! I used it and it does log the mouse event but the mouse cursor is not moving in the client window. I'm testing mouseMove at the moment and the cursor is not moving locally nor globally.\nIt's probably worth adding a note to the docs regarding the unpredictable behavior of `sendInputEvent`.\n"
+  }
+]

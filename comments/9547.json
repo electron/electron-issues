@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/303061439",
+    "html_url": "https://github.com/electron/electron/pull/9547#issuecomment-303061439",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9547",
+    "id": 303061439,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-22T10:26:44Z",
+    "updated_at": "2017-05-22T10:26:44Z",
+    "body": "A side effect of this change is: the requirement of GLIBC version in prebuilt binaries are now higher than before, so some rather old Linux distributions (including our Linux CI machine) won't be able to run the prebuilt binaries."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/303316182",
+    "html_url": "https://github.com/electron/electron/pull/9547#issuecomment-303316182",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9547",
+    "id": 303316182,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-23T07:41:09Z",
+    "updated_at": "2017-05-23T07:41:09Z",
+    "body": "I have changed the PR to only target Debian Jessie when building for arm64, so electron won't break on old Linux distributions, which are still popular on various CI servers."
+  }
+]

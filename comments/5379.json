@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217058975",
+    "html_url": "https://github.com/electron/electron/pull/5379#issuecomment-217058975",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5379",
+    "id": 217058975,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-05T02:12:56Z",
+    "updated_at": "2016-05-05T02:12:56Z",
+    "body": "Awesome! 👍 \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/218458526",
+    "html_url": "https://github.com/electron/electron/pull/5379#issuecomment-218458526",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5379",
+    "id": 218458526,
+    "user": {
+      "login": "dfournier",
+      "id": 2329786,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2329786?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dfournier",
+      "html_url": "https://github.com/dfournier",
+      "followers_url": "https://api.github.com/users/dfournier/followers",
+      "following_url": "https://api.github.com/users/dfournier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dfournier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dfournier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dfournier/subscriptions",
+      "organizations_url": "https://api.github.com/users/dfournier/orgs",
+      "repos_url": "https://api.github.com/users/dfournier/repos",
+      "events_url": "https://api.github.com/users/dfournier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dfournier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-11T13:27:20Z",
+    "updated_at": "2016-05-11T13:27:20Z",
+    "body": "Looks fabulous! Any ETA to see it in a release?\n"
+  }
+]

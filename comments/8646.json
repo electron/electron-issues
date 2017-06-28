@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/279025294",
+    "html_url": "https://github.com/electron/electron/issues/8646#issuecomment-279025294",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8646",
+    "id": 279025294,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-02-10T18:27:50Z",
+    "updated_at": "2017-02-10T18:27:50Z",
+    "body": "@sy-naveen this looks to be because having node integration on that page some how causes the JavaScript running on it to fail to load:\r\n\r\n```\r\nUncaught ReferenceError: scanner is not defined\r\n    at scanner.js:1\r\n```\r\n\r\nIf you create the `BrowserWindow` like:\r\n\r\n```js\r\nnew BrowserWindow({\r\n  webPreferences: {\r\n    nodeIntegration: false\r\n  } \r\n})\r\n```\r\n\r\nThen the UI does load:\r\n\r\n<img width=\"1388\" alt=\"screen shot 2017-02-10 at 10 27 01 am\" src=\"https://cloud.githubusercontent.com/assets/671378/22838778/7d1ac1c6-ef7b-11e6-971a-69cad8523e14.png\">\r\n\r\n\r\nClosing this out since this doesn't appear to be an Electron issue, but an issue with that `scanner.js` when certain node globals are set in a browser context."
+  }
+]

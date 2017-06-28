@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/97327358",
+    "html_url": "https://github.com/electron/electron/issues/1509#issuecomment-97327358",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1509",
+    "id": 97327358,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-04-29T06:55:01Z",
+    "updated_at": "2015-04-29T06:55:01Z",
+    "body": "Will the process quit if you just call `crashReporter.start()` without parameters?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/97459170",
+    "html_url": "https://github.com/electron/electron/issues/1509#issuecomment-97459170",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1509",
+    "id": 97459170,
+    "user": {
+      "login": "nantas",
+      "id": 344547,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/344547?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nantas",
+      "html_url": "https://github.com/nantas",
+      "followers_url": "https://api.github.com/users/nantas/followers",
+      "following_url": "https://api.github.com/users/nantas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nantas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nantas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nantas/subscriptions",
+      "organizations_url": "https://api.github.com/users/nantas/orgs",
+      "repos_url": "https://api.github.com/users/nantas/repos",
+      "events_url": "https://api.github.com/users/nantas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nantas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-29T15:08:09Z",
+    "updated_at": "2015-04-29T15:08:09Z",
+    "body": "Yes, without parameter it will still stick around.\n"
+  }
+]

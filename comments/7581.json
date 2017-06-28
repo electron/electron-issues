@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/254910912",
+    "html_url": "https://github.com/electron/electron/issues/7581#issuecomment-254910912",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7581",
+    "id": 254910912,
+    "user": {
+      "login": "pfrazee",
+      "id": 1270099,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1270099?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pfrazee",
+      "html_url": "https://github.com/pfrazee",
+      "followers_url": "https://api.github.com/users/pfrazee/followers",
+      "following_url": "https://api.github.com/users/pfrazee/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pfrazee/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pfrazee/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pfrazee/subscriptions",
+      "organizations_url": "https://api.github.com/users/pfrazee/orgs",
+      "repos_url": "https://api.github.com/users/pfrazee/repos",
+      "events_url": "https://api.github.com/users/pfrazee/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pfrazee/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-19T19:08:16Z",
+    "updated_at": "2016-10-19T19:08:16Z",
+    "body": "Try enabling `allowDisplayingInsecureContent` in the BrowserWindow. That page is serving images over HTTP, while the site is served over HTTPS.\n\nIf you're using a webview, you'll need to wait for https://github.com/electron/electron/pull/7631 to merge so you can set that flag.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/255641466",
+    "html_url": "https://github.com/electron/electron/issues/7581#issuecomment-255641466",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7581",
+    "id": 255641466,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-24T03:37:22Z",
+    "updated_at": "2016-10-24T03:37:22Z",
+    "body": "> That page is serving images over HTTP, while the site is served over HTTPS.\n\nAll the images on that page seem to be HTTPS now for me so I'm unable to reproduce.\n\n@myfrndjk please try the suggestion by @pfrazee and if you are still experiencing this please provide a URL that is still failing for you, closing this out for now.\n"
+  }
+]

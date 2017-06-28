@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/257197362",
+    "html_url": "https://github.com/electron/electron/issues/7759#issuecomment-257197362",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7759",
+    "id": 257197362,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-31T01:45:15Z",
+    "updated_at": "2016-10-31T01:45:15Z",
+    "body": "This is because the default window level of a always-on-top window is lower than menus, to work around this you can pass a higher level:\nhttp://electron.atom.io/docs/api/browser-window/#winsetalwaysontopflag-level\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/257352513",
+    "html_url": "https://github.com/electron/electron/issues/7759#issuecomment-257352513",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7759",
+    "id": 257352513,
+    "user": {
+      "login": "frederickk",
+      "id": 513134,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/513134?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frederickk",
+      "html_url": "https://github.com/frederickk",
+      "followers_url": "https://api.github.com/users/frederickk/followers",
+      "following_url": "https://api.github.com/users/frederickk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frederickk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frederickk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frederickk/subscriptions",
+      "organizations_url": "https://api.github.com/users/frederickk/orgs",
+      "repos_url": "https://api.github.com/users/frederickk/repos",
+      "events_url": "https://api.github.com/users/frederickk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frederickk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-31T16:59:29Z",
+    "updated_at": "2016-10-31T16:59:29Z",
+    "body": "Ok. Thanks for the tip, I hadn't noticed that in the docs. I gave it try, and perhaps I'm not understanding how to implement this, but regardless that above situation still persists.\n\nJust to clarify, the behaviour I expect is that when I click on another status item, my status item will fire an \"on blur\" event, or something I can use to tell the window to close.\n\nHere's another pseudo-code-snippet of what I've implemented, based on how I understood your note above.\n\n```\n        trayIcon = new Tray(__dirname + '/assets/TrayIconTemplate.png');\n        trayIcon.on('click', () => mainWindow.show());\n\n        mainWindow = new BrowserWindow({\n            resizable      : false,\n            transparent    : true,\n            skipTaskbar    : true,\n            maximizable    : false,\n            fullscreenable : false,\n            frame          : false,\n            movable        : false,\n            show           : false,\n            webPreferences : {\n                backgroundThrottling: false\n            }\n        });\n        mainWindow.loadURL(`file://${__dirname}/index.html`);\n        mainWindow.setAlwaysOnTop(true, 'dock'); // I opted for really high level to test...\n        mainWindow.on('blur', () => {\n            console.log('blur mainWindow.isFocused()', mainWindow.isFocused());\n            mainWindow.hide();\n        });\n```\n\nKen\n"
+  }
+]

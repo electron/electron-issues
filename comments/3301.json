@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/152932597",
+    "html_url": "https://github.com/electron/electron/issues/3301#issuecomment-152932597",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3301",
+    "id": 152932597,
+    "user": {
+      "login": "yibuyisheng",
+      "id": 2581682,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2581682?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yibuyisheng",
+      "html_url": "https://github.com/yibuyisheng",
+      "followers_url": "https://api.github.com/users/yibuyisheng/followers",
+      "following_url": "https://api.github.com/users/yibuyisheng/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yibuyisheng/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yibuyisheng/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yibuyisheng/subscriptions",
+      "organizations_url": "https://api.github.com/users/yibuyisheng/orgs",
+      "repos_url": "https://api.github.com/users/yibuyisheng/repos",
+      "events_url": "https://api.github.com/users/yibuyisheng/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yibuyisheng/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-02T06:49:22Z",
+    "updated_at": "2015-11-02T06:49:22Z",
+    "body": "When I change the renderer code to this:\n\n``` js\nvar webContents = remote. getCurrentWebContents();\nwebContents.once('params', function (params) {\n  console.log(params);\n});\nwebContents.emit('readytoreceiveparams');\n```\n\nIt works. But It is also prove the truth that the message sending between renderer process and main process is synchronous, and it's really strange, isn't it?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/152990659",
+    "html_url": "https://github.com/electron/electron/issues/3301#issuecomment-152990659",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3301",
+    "id": 152990659,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-02T11:14:39Z",
+    "updated_at": "2015-11-02T11:14:39Z",
+    "body": "Calling methods of objects returned by `remote` module is synchronous, e.g. the `webContents.emit('readytoreceiveparams');`. You should use `ipc` module explicitly if you want to send messages asynchronously.\n"
+  }
+]

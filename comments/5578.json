@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/220285066",
+    "html_url": "https://github.com/electron/electron/pull/5578#issuecomment-220285066",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5578",
+    "id": 220285066,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-19T10:21:31Z",
+    "updated_at": "2016-05-19T10:21:31Z",
+    "body": "Thanks!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/220387463",
+    "html_url": "https://github.com/electron/electron/pull/5578#issuecomment-220387463",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5578",
+    "id": 220387463,
+    "user": {
+      "login": "dlmanning",
+      "id": 2949092,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2949092?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlmanning",
+      "html_url": "https://github.com/dlmanning",
+      "followers_url": "https://api.github.com/users/dlmanning/followers",
+      "following_url": "https://api.github.com/users/dlmanning/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dlmanning/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dlmanning/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dlmanning/subscriptions",
+      "organizations_url": "https://api.github.com/users/dlmanning/orgs",
+      "repos_url": "https://api.github.com/users/dlmanning/repos",
+      "events_url": "https://api.github.com/users/dlmanning/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dlmanning/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-19T16:59:29Z",
+    "updated_at": "2016-05-19T16:59:29Z",
+    "body": "@deepak1556 : Thanks for doing that.\n"
+  }
+]

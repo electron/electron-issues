@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/145201051",
+    "html_url": "https://github.com/electron/electron/issues/2969#issuecomment-145201051",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2969",
+    "id": 145201051,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-03T05:10:05Z",
+    "updated_at": "2015-10-03T05:10:05Z",
+    "body": "Apparently the content of `dataFilePath` is not a valid JSON string, you can debug it by printing the file out.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/145592218",
+    "html_url": "https://github.com/electron/electron/issues/2969#issuecomment-145592218",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2969",
+    "id": 145592218,
+    "user": {
+      "login": "stevenmwade",
+      "id": 5377515,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5377515?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stevenmwade",
+      "html_url": "https://github.com/stevenmwade",
+      "followers_url": "https://api.github.com/users/stevenmwade/followers",
+      "following_url": "https://api.github.com/users/stevenmwade/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stevenmwade/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stevenmwade/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stevenmwade/subscriptions",
+      "organizations_url": "https://api.github.com/users/stevenmwade/orgs",
+      "repos_url": "https://api.github.com/users/stevenmwade/repos",
+      "events_url": "https://api.github.com/users/stevenmwade/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stevenmwade/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-05T16:32:19Z",
+    "updated_at": "2015-10-05T16:32:19Z",
+    "body": "@zcbenz You're right. It looked like everything was kosher, but apparently there are different kinds of quotation marks. Not sure how that happened. Sorry for the timesuck.\n"
+  }
+]

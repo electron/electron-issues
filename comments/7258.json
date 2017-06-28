@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/248219316",
+    "html_url": "https://github.com/electron/electron/issues/7258#issuecomment-248219316",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7258",
+    "id": 248219316,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-20T06:58:44Z",
+    "updated_at": "2016-09-20T06:58:44Z",
+    "body": "Electron uses system notification so whether it has a sound depends on your system configuration.\n\nAs for `Notification.sound`, it is not supported by any browser for now.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/310913099",
+    "html_url": "https://github.com/electron/electron/issues/7258#issuecomment-310913099",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7258",
+    "id": 310913099,
+    "user": {
+      "login": "theuniverse",
+      "id": 348304,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/348304?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/theuniverse",
+      "html_url": "https://github.com/theuniverse",
+      "followers_url": "https://api.github.com/users/theuniverse/followers",
+      "following_url": "https://api.github.com/users/theuniverse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/theuniverse/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/theuniverse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/theuniverse/subscriptions",
+      "organizations_url": "https://api.github.com/users/theuniverse/orgs",
+      "repos_url": "https://api.github.com/users/theuniverse/repos",
+      "events_url": "https://api.github.com/users/theuniverse/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/theuniverse/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-25T16:35:11Z",
+    "updated_at": "2017-06-25T16:35:11Z",
+    "body": "@zcbenz Do you have any idea if this is supported now?"
+  }
+]

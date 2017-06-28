@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/240084648",
+    "html_url": "https://github.com/electron/electron/issues/6860#issuecomment-240084648",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6860",
+    "id": 240084648,
+    "user": {
+      "login": "lukeapage",
+      "id": 309321,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/309321?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lukeapage",
+      "html_url": "https://github.com/lukeapage",
+      "followers_url": "https://api.github.com/users/lukeapage/followers",
+      "following_url": "https://api.github.com/users/lukeapage/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lukeapage/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lukeapage/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lukeapage/subscriptions",
+      "organizations_url": "https://api.github.com/users/lukeapage/orgs",
+      "repos_url": "https://api.github.com/users/lukeapage/repos",
+      "events_url": "https://api.github.com/users/lukeapage/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lukeapage/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-16T12:16:23Z",
+    "updated_at": "2016-08-16T12:16:23Z",
+    "body": "the most recent relevant PR/issues I can find is: https://github.com/electron/electron/pull/4700\n"
+  }
+]

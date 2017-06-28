@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/170442008",
+    "html_url": "https://github.com/electron/electron/issues/4037#issuecomment-170442008",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4037",
+    "id": 170442008,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-11T06:14:45Z",
+    "updated_at": "2016-01-11T06:14:45Z",
+    "body": "The prebuilt binaries of Electron are compiled with clang binaries provided by Chromium, which is very new and doesn't seem to support your processor. As for the chromium browser, its binaries are provided by community and are usually compiled with the default compilers of the Linux distribution, I think that's why it works.\n\nThe solution is to compile Electron with your Linux distribution's compilers, and I'm merging this to #259.\n"
+  }
+]

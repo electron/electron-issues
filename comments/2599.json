@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/135250409",
+    "html_url": "https://github.com/electron/electron/issues/2599#issuecomment-135250409",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2599",
+    "id": 135250409,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-08-27T02:19:09Z",
+    "updated_at": "2015-08-27T02:19:18Z",
+    "body": "Are you using `screen` or `tmux`? If so, please read this: https://github.com/atom/electron/issues/916#issuecomment-68567844.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/135528214",
+    "html_url": "https://github.com/electron/electron/issues/2599#issuecomment-135528214",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2599",
+    "id": 135528214,
+    "user": {
+      "login": "apexskier",
+      "id": 329222,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/329222?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apexskier",
+      "html_url": "https://github.com/apexskier",
+      "followers_url": "https://api.github.com/users/apexskier/followers",
+      "following_url": "https://api.github.com/users/apexskier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apexskier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apexskier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apexskier/subscriptions",
+      "organizations_url": "https://api.github.com/users/apexskier/orgs",
+      "repos_url": "https://api.github.com/users/apexskier/repos",
+      "events_url": "https://api.github.com/users/apexskier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apexskier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-27T19:18:22Z",
+    "updated_at": "2015-08-27T19:18:22Z",
+    "body": "Yep, that's it. Thanks!\n"
+  }
+]

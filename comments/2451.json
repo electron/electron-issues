@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/132075532",
+    "html_url": "https://github.com/electron/electron/issues/2451#issuecomment-132075532",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2451",
+    "id": 132075532,
+    "user": {
+      "login": "s-a",
+      "id": 1270662,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1270662?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s-a",
+      "html_url": "https://github.com/s-a",
+      "followers_url": "https://api.github.com/users/s-a/followers",
+      "following_url": "https://api.github.com/users/s-a/following{/other_user}",
+      "gists_url": "https://api.github.com/users/s-a/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/s-a/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/s-a/subscriptions",
+      "organizations_url": "https://api.github.com/users/s-a/orgs",
+      "repos_url": "https://api.github.com/users/s-a/repos",
+      "events_url": "https://api.github.com/users/s-a/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/s-a/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-18T05:31:42Z",
+    "updated_at": "2015-08-18T05:31:42Z",
+    "body": "ref: https://github.com/s-a/iron-node/issues/46\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/132283820",
+    "html_url": "https://github.com/electron/electron/issues/2451#issuecomment-132283820",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2451",
+    "id": 132283820,
+    "user": {
+      "login": "s-a",
+      "id": 1270662,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1270662?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s-a",
+      "html_url": "https://github.com/s-a",
+      "followers_url": "https://api.github.com/users/s-a/followers",
+      "following_url": "https://api.github.com/users/s-a/following{/other_user}",
+      "gists_url": "https://api.github.com/users/s-a/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/s-a/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/s-a/subscriptions",
+      "organizations_url": "https://api.github.com/users/s-a/orgs",
+      "repos_url": "https://api.github.com/users/s-a/repos",
+      "events_url": "https://api.github.com/users/s-a/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/s-a/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-18T17:16:13Z",
+    "updated_at": "2015-08-18T17:16:13Z",
+    "body": "Same confusion here as described at https://github.com/atom/electron/issues/2322#issuecomment-132270071 :grin:\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/121881815",
+    "html_url": "https://github.com/electron/electron/issues/2222#issuecomment-121881815",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2222",
+    "id": 121881815,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-07-16T08:48:29Z",
+    "updated_at": "2015-07-16T08:48:29Z",
+    "body": "Any test code? Following code works well:\n\n``` js\nvar fs = require('fs');\nvar originalFs = require('original-fs');\nvar assert = require('assert');\n\nassert.deepEqual(fs.lstatSync('/tmp'), originalFs.lstatSync('/tmp'));\nassert.deepEqual(fs.lstatSync('/tmp/'), originalFs.lstatSync('/tmp/'));\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/121915862",
+    "html_url": "https://github.com/electron/electron/issues/2222#issuecomment-121915862",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2222",
+    "id": 121915862,
+    "user": {
+      "login": "Keyang",
+      "id": 1092855,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1092855?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Keyang",
+      "html_url": "https://github.com/Keyang",
+      "followers_url": "https://api.github.com/users/Keyang/followers",
+      "following_url": "https://api.github.com/users/Keyang/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Keyang/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Keyang/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Keyang/subscriptions",
+      "organizations_url": "https://api.github.com/users/Keyang/orgs",
+      "repos_url": "https://api.github.com/users/Keyang/repos",
+      "events_url": "https://api.github.com/users/Keyang/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Keyang/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-16T10:07:28Z",
+    "updated_at": "2015-07-16T10:07:28Z",
+    "body": "Sorry for the confusion.\nFor direct filesystem access it is ok.\nI mean the relative path within asar file\ne.g.\napp.asar has following structure\n/data\n/lib/cmd\n/lib/cmd/a.js\n\nthe wrapped file system:\nfs.lstat(\"app.asar/lib/cmd/\",cb); //returns false / not found\nfs.lstat(\"app.asar/lib/cmd\",cb); //returns directory\n\nthe original filesystem always return directory no matter it is with or\nwithout the trailing slash.\n\n~Keyang\n\nOn 16 July 2015 at 09:48, Cheng Zhao notifications@github.com wrote:\n\n> Any test code? Following code works well:\n> \n> var fs = require('fs');var originalFs = require('original-fs');var assert = require('assert');\n> \n> assert.deepEqual(fs.lstatSync('/tmp'), originalFs.lstatSync('/tmp'));\n> assert.deepEqual(fs.lstatSync('/tmp/'), originalFs.lstatSync('/tmp/'));\n> \n> —\n> Reply to this email directly or view it on GitHub\n> https://github.com/atom/electron/issues/2222#issuecomment-121881815.\n"
+  }
+]

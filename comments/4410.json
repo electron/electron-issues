@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/181122894",
+    "html_url": "https://github.com/electron/electron/pull/4410#issuecomment-181122894",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4410",
+    "id": 181122894,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-07T21:39:25Z",
+    "updated_at": "2016-02-07T21:39:51Z",
+    "body": "@adam-lynch We don't need to call out Win7+ because Electron itself is Win7+. Thanks for docs PRs in general though, this is much appreciated!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/181123855",
+    "html_url": "https://github.com/electron/electron/pull/4410#issuecomment-181123855",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4410",
+    "id": 181123855,
+    "user": {
+      "login": "adam-lynch",
+      "id": 1427241,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1427241?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adam-lynch",
+      "html_url": "https://github.com/adam-lynch",
+      "followers_url": "https://api.github.com/users/adam-lynch/followers",
+      "following_url": "https://api.github.com/users/adam-lynch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adam-lynch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adam-lynch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adam-lynch/subscriptions",
+      "organizations_url": "https://api.github.com/users/adam-lynch/orgs",
+      "repos_url": "https://api.github.com/users/adam-lynch/repos",
+      "events_url": "https://api.github.com/users/adam-lynch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adam-lynch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-07T21:41:49Z",
+    "updated_at": "2016-02-07T21:41:49Z",
+    "body": "Ok cool, makes sense. It should point out that it's Windows only right though?\n"
+  }
+]

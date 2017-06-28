@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/139094956",
+    "html_url": "https://github.com/electron/electron/issues/2736#issuecomment-139094956",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2736",
+    "id": 139094956,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-10T02:04:23Z",
+    "updated_at": "2015-09-10T02:04:29Z",
+    "body": "The default menu will gone after you packaged your app into Electron, you can also use following trick to remove the default menu too:\n\n``` js\nsetImmediate(function() {\n  app.setApplicationMenu(null);\n});\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/139130697",
+    "html_url": "https://github.com/electron/electron/issues/2736#issuecomment-139130697",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2736",
+    "id": 139130697,
+    "user": {
+      "login": "daaru00",
+      "id": 8782994,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8782994?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/daaru00",
+      "html_url": "https://github.com/daaru00",
+      "followers_url": "https://api.github.com/users/daaru00/followers",
+      "following_url": "https://api.github.com/users/daaru00/following{/other_user}",
+      "gists_url": "https://api.github.com/users/daaru00/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/daaru00/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/daaru00/subscriptions",
+      "organizations_url": "https://api.github.com/users/daaru00/orgs",
+      "repos_url": "https://api.github.com/users/daaru00/repos",
+      "events_url": "https://api.github.com/users/daaru00/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/daaru00/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-10T06:38:00Z",
+    "updated_at": "2015-09-10T06:38:00Z",
+    "body": "Sorry, I do not have try to pack it.\nthank you! \n"
+  }
+]

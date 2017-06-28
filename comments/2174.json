@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/120244395",
+    "html_url": "https://github.com/electron/electron/issues/2174#issuecomment-120244395",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2174",
+    "id": 120244395,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-10T06:16:39Z",
+    "updated_at": "2015-07-10T06:16:39Z",
+    "body": "> Also, would love to be able to ignore the window popping up, and just see the error in the console. Is that possible?\n\ndoesnt `process.on('uncaughtException', callback)` help ?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/120302851",
+    "html_url": "https://github.com/electron/electron/issues/2174#issuecomment-120302851",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2174",
+    "id": 120302851,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-07-10T08:44:33Z",
+    "updated_at": "2015-07-10T08:44:33Z",
+    "body": "This is because calling `app.dock.hide();` would turn your app into a background process, and when your app doesn't have focus OS X will not show your app's dialogs. This is by design in OS X so we won't be able to fix it.\n\nA work-around is to call `app.focus()` for your app.\n"
+  }
+]

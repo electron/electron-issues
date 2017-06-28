@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/158860062",
+    "html_url": "https://github.com/electron/electron/issues/3500#issuecomment-158860062",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3500",
+    "id": 158860062,
+    "user": {
+      "login": "bengotow",
+      "id": 1037212,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1037212?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bengotow",
+      "html_url": "https://github.com/bengotow",
+      "followers_url": "https://api.github.com/users/bengotow/followers",
+      "following_url": "https://api.github.com/users/bengotow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bengotow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bengotow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bengotow/subscriptions",
+      "organizations_url": "https://api.github.com/users/bengotow/orgs",
+      "repos_url": "https://api.github.com/users/bengotow/repos",
+      "events_url": "https://api.github.com/users/bengotow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bengotow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-23T06:09:27Z",
+    "updated_at": "2015-11-23T06:09:27Z",
+    "body": "I'd be interested in this as well. Technically, those X and Y coordinates could be valid on Mac OS X, if your primary display was arranged beneath your secondary display, but you clicked the tray in the menu bar on the secondary display:\n\n```\nNSWindow's frame is in a global coordinate system relative to the frame origin of the zero screen.\n```\n\nJust out of curiosity, what happens when you try to create a BrowserWindow at those coordinates? Also, if you move a BrowserWindow to the correct position on the screen (beneath the tray icon), and run `browserWindow.getBounds()`, what different value does it give you? I think that'll help track this down.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/169628700",
+    "html_url": "https://github.com/electron/electron/issues/3500#issuecomment-169628700",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3500",
+    "id": 169628700,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-07T10:54:23Z",
+    "updated_at": "2016-01-07T10:54:23Z",
+    "body": "I agree the coordinates are actually correct, I'm closing this since there was no reply.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/219826791",
+    "html_url": "https://github.com/electron/electron/issues/5568#issuecomment-219826791",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5568",
+    "id": 219826791,
+    "user": {
+      "login": "felixrieseberg",
+      "id": 1426799,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1426799?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felixrieseberg",
+      "html_url": "https://github.com/felixrieseberg",
+      "followers_url": "https://api.github.com/users/felixrieseberg/followers",
+      "following_url": "https://api.github.com/users/felixrieseberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felixrieseberg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felixrieseberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felixrieseberg/subscriptions",
+      "organizations_url": "https://api.github.com/users/felixrieseberg/orgs",
+      "repos_url": "https://api.github.com/users/felixrieseberg/repos",
+      "events_url": "https://api.github.com/users/felixrieseberg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felixrieseberg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-17T19:26:55Z",
+    "updated_at": "2016-05-17T19:26:55Z",
+    "body": "See https://github.com/electron/electron/pull/5538. This is already fixed and will be in 1.1.1 (or whatever the next release will be).\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/219833146",
+    "html_url": "https://github.com/electron/electron/issues/5568#issuecomment-219833146",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5568",
+    "id": 219833146,
+    "user": {
+      "login": "rodryquintero",
+      "id": 1271370,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1271370?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rodryquintero",
+      "html_url": "https://github.com/rodryquintero",
+      "followers_url": "https://api.github.com/users/rodryquintero/followers",
+      "following_url": "https://api.github.com/users/rodryquintero/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rodryquintero/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rodryquintero/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rodryquintero/subscriptions",
+      "organizations_url": "https://api.github.com/users/rodryquintero/orgs",
+      "repos_url": "https://api.github.com/users/rodryquintero/repos",
+      "events_url": "https://api.github.com/users/rodryquintero/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rodryquintero/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-17T19:51:10Z",
+    "updated_at": "2016-05-17T19:51:10Z",
+    "body": "Ok, good. It took me two days to come across the solution though. This issue can help people with the same problem until the new version is released.\n\nThanks.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/66339946",
+    "html_url": "https://github.com/electron/electron/issues/906#issuecomment-66339946",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/906",
+    "id": 66339946,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-12-09T19:17:42Z",
+    "updated_at": "2014-12-09T19:17:47Z",
+    "body": "The `flashWindow` is actually implemented in Chromium, but I think we can fix this on atom-shell side.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/67099713",
+    "html_url": "https://github.com/electron/electron/issues/906#issuecomment-67099713",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/906",
+    "id": 67099713,
+    "user": {
+      "login": "hachre",
+      "id": 885304,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/885304?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hachre",
+      "html_url": "https://github.com/hachre",
+      "followers_url": "https://api.github.com/users/hachre/followers",
+      "following_url": "https://api.github.com/users/hachre/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hachre/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hachre/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hachre/subscriptions",
+      "organizations_url": "https://api.github.com/users/hachre/orgs",
+      "repos_url": "https://api.github.com/users/hachre/repos",
+      "events_url": "https://api.github.com/users/hachre/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hachre/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-16T01:43:13Z",
+    "updated_at": "2014-12-16T01:43:13Z",
+    "body": "Thanks!!\n"
+  }
+]

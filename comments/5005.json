@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/206717320",
+    "html_url": "https://github.com/electron/electron/issues/5005#issuecomment-206717320",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5005",
+    "id": 206717320,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-07T06:40:18Z",
+    "updated_at": "2016-04-07T06:40:18Z",
+    "body": "The sendInputEvent API is simply a wrapper of Chromium API, so we don't have fully control of its behavior in Electron. So I don't have answers to your questions, you have to capture the DOM events to see what's the correct sequence to enumerate real inputs, and then replay them. \n"
+  }
+]

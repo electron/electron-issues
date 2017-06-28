@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/304961787",
+    "html_url": "https://github.com/electron/electron/issues/9539#issuecomment-304961787",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9539",
+    "id": 304961787,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-30T18:10:20Z",
+    "updated_at": "2017-05-30T18:10:20Z",
+    "body": "I tried this sample app in 1.7.2 and am not seeing the `No good, backdrop-filter is unsupported in your browser.` message when loaded:\r\n\r\n\r\n```js\r\nconst {app, BrowserWindow} = require('electron')\r\n\r\nlet win\r\n\r\napp.once('ready', () => {\r\n  win = new BrowserWindow({\r\n    webPreferences: {\r\n      blinkFeatures: 'CSSBackdropFilter',\r\n      nodeIntegration: false\r\n    }\r\n  })\r\n  win.loadURL('https://codepen.io/tutsplus/full/WGEYoz/')\r\n})\r\n```\r\n\r\nAre you seeing the not working message on 1.7.2 with this sample?"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/305413470",
+    "html_url": "https://github.com/electron/electron/issues/9539#issuecomment-305413470",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9539",
+    "id": 305413470,
+    "user": {
+      "login": "romaincointepas",
+      "id": 797899,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/797899?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/romaincointepas",
+      "html_url": "https://github.com/romaincointepas",
+      "followers_url": "https://api.github.com/users/romaincointepas/followers",
+      "following_url": "https://api.github.com/users/romaincointepas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/romaincointepas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/romaincointepas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/romaincointepas/subscriptions",
+      "organizations_url": "https://api.github.com/users/romaincointepas/orgs",
+      "repos_url": "https://api.github.com/users/romaincointepas/repos",
+      "events_url": "https://api.github.com/users/romaincointepas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/romaincointepas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-01T07:34:16Z",
+    "updated_at": "2017-06-01T07:34:16Z",
+    "body": "I can't seem to reproduce with `https://codepen.io/tutsplus/full/WGEYoz`.\r\n\r\nI didn't really try with that link myself (I should have), I had my own html/css code and I could see the backdrop-filter effect appearing/disappearing simply by switching the electron version.\r\n\r\nMaybe Chromium changed what can be accepted as DOM hierarchy for backdrop-filter, or maybe it was something else on my side.\r\n\r\nThanks for checking this out, and apology for the useless issue :/."
+  }
+]

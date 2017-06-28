@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/175820007",
+    "html_url": "https://github.com/electron/electron/issues/3332#issuecomment-175820007",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3332",
+    "id": 175820007,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-27T19:47:13Z",
+    "updated_at": "2016-01-27T19:47:13Z",
+    "body": "Would adding support for numpad keycodes be enough or should they be mapped instead ? The problem i see with the latter approach is that if an accelerator is registered but its mapped numpad accelerator fails to register then should the entire registeration be returned as success or failure ?\n\n``` javascript\nglobalShortcut.register('ctrl+Plus', listener);\nglobalShortcut.register('ctrl+NumpadAdd', listener);\n\n// verify the registrations and take actions in the listener.\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/307945643",
+    "html_url": "https://github.com/electron/electron/issues/3332#issuecomment-307945643",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3332",
+    "id": 307945643,
+    "user": {
+      "login": "nruffilo",
+      "id": 1260513,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1260513?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nruffilo",
+      "html_url": "https://github.com/nruffilo",
+      "followers_url": "https://api.github.com/users/nruffilo/followers",
+      "following_url": "https://api.github.com/users/nruffilo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nruffilo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nruffilo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nruffilo/subscriptions",
+      "organizations_url": "https://api.github.com/users/nruffilo/orgs",
+      "repos_url": "https://api.github.com/users/nruffilo/repos",
+      "events_url": "https://api.github.com/users/nruffilo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nruffilo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-12T21:58:14Z",
+    "updated_at": "2017-06-12T21:58:14Z",
+    "body": "I would also like to use numpad.  I did a mapping for CommandOrControl+0 and it works fine in the number rows, but when I do the numpad, it does not work.  Using NumPad or Numpad is not recognized and throws an error."
+  }
+]

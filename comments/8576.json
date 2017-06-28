@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/277169908",
+    "html_url": "https://github.com/electron/electron/issues/8576#issuecomment-277169908",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8576",
+    "id": 277169908,
+    "user": {
+      "login": "groundwater",
+      "id": 538488,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/538488?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/groundwater",
+      "html_url": "https://github.com/groundwater",
+      "followers_url": "https://api.github.com/users/groundwater/followers",
+      "following_url": "https://api.github.com/users/groundwater/following{/other_user}",
+      "gists_url": "https://api.github.com/users/groundwater/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/groundwater/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/groundwater/subscriptions",
+      "organizations_url": "https://api.github.com/users/groundwater/orgs",
+      "repos_url": "https://api.github.com/users/groundwater/repos",
+      "events_url": "https://api.github.com/users/groundwater/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/groundwater/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-02-03T05:47:56Z",
+    "updated_at": "2017-02-03T05:47:56Z",
+    "body": "Hi @stephennyu ,\r\n\r\nI would like to direct you towards some support options for using electron.\r\n\r\nYour best bet is to engage the community as follows:\r\n\r\n- if you have a general usage question, there are several options\r\n  - join our [atom slack](http://atom-slack.herokuapp.com/) and ask in the #electron channel\r\n  - stack overflow has an [electron tag](http://stackoverflow.com/questions/tagged/electron) you can use\r\n\r\nThan you!"
+  }
+]

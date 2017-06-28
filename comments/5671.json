@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/221375759",
+    "html_url": "https://github.com/electron/electron/pull/5671#issuecomment-221375759",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5671",
+    "id": 221375759,
+    "user": {
+      "login": "leethomas",
+      "id": 5622404,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5622404?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/leethomas",
+      "html_url": "https://github.com/leethomas",
+      "followers_url": "https://api.github.com/users/leethomas/followers",
+      "following_url": "https://api.github.com/users/leethomas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/leethomas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/leethomas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/leethomas/subscriptions",
+      "organizations_url": "https://api.github.com/users/leethomas/orgs",
+      "repos_url": "https://api.github.com/users/leethomas/repos",
+      "events_url": "https://api.github.com/users/leethomas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/leethomas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-24T19:22:39Z",
+    "updated_at": "2016-05-25T01:04:09Z",
+    "body": "Looks like things are mostly green. The appveyor build passed on x64 but failed on x86 for I think an unrelated and intermittent reason:\n\n```\nCloning into 'vendor/breakpad'...\nSubmodule path 'vendor/breakpad': checked out 'c566c50d81f7b1edeaee9f11f5d07bda858d6b64'\nSubmodule 'src' (https://chromium.googlesource.com/breakpad/breakpad/src) registered for path 'src'\nCloning into 'src'...\nfatal: early EOF\nfatal: The remote end hung up unexpectedly\nfatal: index-pack failed\nerror: RPC failed; curl 18 transfer closed with outstanding read data remaining\nfatal: clone of 'https://chromium.googlesource.com/breakpad/breakpad/src' into submodule path 'src' failed\nFailed to recurse into submodule path 'vendor/breakpad'\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/221600243",
+    "html_url": "https://github.com/electron/electron/pull/5671#issuecomment-221600243",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5671",
+    "id": 221600243,
+    "user": {
+      "login": "leethomas",
+      "id": 5622404,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5622404?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/leethomas",
+      "html_url": "https://github.com/leethomas",
+      "followers_url": "https://api.github.com/users/leethomas/followers",
+      "following_url": "https://api.github.com/users/leethomas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/leethomas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/leethomas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/leethomas/subscriptions",
+      "organizations_url": "https://api.github.com/users/leethomas/orgs",
+      "repos_url": "https://api.github.com/users/leethomas/repos",
+      "events_url": "https://api.github.com/users/leethomas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/leethomas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-25T14:48:49Z",
+    "updated_at": "2016-05-25T14:48:49Z",
+    "body": "Closing since unnecessary \n"
+  }
+]

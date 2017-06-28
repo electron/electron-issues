@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/149068445",
+    "html_url": "https://github.com/electron/electron/issues/3112#issuecomment-149068445",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3112",
+    "id": 149068445,
+    "user": {
+      "login": "kurisubrooks",
+      "id": 6291467,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6291467?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kurisubrooks",
+      "html_url": "https://github.com/kurisubrooks",
+      "followers_url": "https://api.github.com/users/kurisubrooks/followers",
+      "following_url": "https://api.github.com/users/kurisubrooks/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kurisubrooks/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kurisubrooks/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kurisubrooks/subscriptions",
+      "organizations_url": "https://api.github.com/users/kurisubrooks/orgs",
+      "repos_url": "https://api.github.com/users/kurisubrooks/repos",
+      "events_url": "https://api.github.com/users/kurisubrooks/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kurisubrooks/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-19T00:43:33Z",
+    "updated_at": "2015-10-19T00:43:33Z",
+    "body": "This is an issue with OS X itself. It does this with other tray icons as i've noticed. The way to work around this is by setting an `Tray.setPressed(image)`, specifically choosing an image to replace the static one when the tray icon has been pressed.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/149072818",
+    "html_url": "https://github.com/electron/electron/issues/3112#issuecomment-149072818",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3112",
+    "id": 149072818,
+    "user": {
+      "login": "adilanchian",
+      "id": 13204620,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/13204620?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adilanchian",
+      "html_url": "https://github.com/adilanchian",
+      "followers_url": "https://api.github.com/users/adilanchian/followers",
+      "following_url": "https://api.github.com/users/adilanchian/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adilanchian/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adilanchian/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adilanchian/subscriptions",
+      "organizations_url": "https://api.github.com/users/adilanchian/orgs",
+      "repos_url": "https://api.github.com/users/adilanchian/repos",
+      "events_url": "https://api.github.com/users/adilanchian/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adilanchian/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-19T01:20:04Z",
+    "updated_at": "2015-10-19T01:20:04Z",
+    "body": "Hey kurisubrooks,\n\nThanks for the reply. I'm going to try that out but I appreciate the help!\n\n-Alec\n"
+  }
+]

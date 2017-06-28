@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/156544862",
+    "html_url": "https://github.com/electron/electron/issues/3431#issuecomment-156544862",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3431",
+    "id": 156544862,
+    "user": {
+      "login": "johnmuhl",
+      "id": 7944,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7944?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnmuhl",
+      "html_url": "https://github.com/johnmuhl",
+      "followers_url": "https://api.github.com/users/johnmuhl/followers",
+      "following_url": "https://api.github.com/users/johnmuhl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/johnmuhl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/johnmuhl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/johnmuhl/subscriptions",
+      "organizations_url": "https://api.github.com/users/johnmuhl/orgs",
+      "repos_url": "https://api.github.com/users/johnmuhl/repos",
+      "events_url": "https://api.github.com/users/johnmuhl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/johnmuhl/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-13T20:13:30Z",
+    "updated_at": "2015-11-13T20:13:30Z",
+    "body": "The docs on GitHub track the master branch (which is unreleased). Use http://electron.atom.io/docs/ (or select the appropriate tag on GH) to access documentation for released versions.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/156550223",
+    "html_url": "https://github.com/electron/electron/issues/3431#issuecomment-156550223",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3431",
+    "id": 156550223,
+    "user": {
+      "login": "terrysahaidak",
+      "id": 7809008,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7809008?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/terrysahaidak",
+      "html_url": "https://github.com/terrysahaidak",
+      "followers_url": "https://api.github.com/users/terrysahaidak/followers",
+      "following_url": "https://api.github.com/users/terrysahaidak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/terrysahaidak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/terrysahaidak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/terrysahaidak/subscriptions",
+      "organizations_url": "https://api.github.com/users/terrysahaidak/orgs",
+      "repos_url": "https://api.github.com/users/terrysahaidak/repos",
+      "events_url": "https://api.github.com/users/terrysahaidak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/terrysahaidak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-13T20:39:08Z",
+    "updated_at": "2015-11-13T20:39:08Z",
+    "body": "Oh, i did not know it and used master branch docs for alwayse.\nThank you for explanation.\n"
+  }
+]

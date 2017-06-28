@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/106216599",
+    "html_url": "https://github.com/electron/electron/issues/398#issuecomment-106216599",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/398",
+    "id": 106216599,
+    "user": {
+      "login": "nantas",
+      "id": 344547,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/344547?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nantas",
+      "html_url": "https://github.com/nantas",
+      "followers_url": "https://api.github.com/users/nantas/followers",
+      "following_url": "https://api.github.com/users/nantas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nantas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nantas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nantas/subscriptions",
+      "organizations_url": "https://api.github.com/users/nantas/orgs",
+      "repos_url": "https://api.github.com/users/nantas/repos",
+      "events_url": "https://api.github.com/users/nantas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nantas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-28T07:50:28Z",
+    "updated_at": "2015-05-28T07:50:28Z",
+    "body": "Hi there, I see another similar warning since v0.25.3:\n\n``` bash\n[7800:0528/154024:WARNING:accelerator_util.cc(185)] Invalid accelerator token: command\n```\n\nIs this somehow related? @zcbenz \n"
+  }
+]

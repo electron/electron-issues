@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/232124768",
+    "html_url": "https://github.com/electron/electron/issues/6452#issuecomment-232124768",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6452",
+    "id": 232124768,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-12T17:50:07Z",
+    "updated_at": "2016-07-12T17:50:42Z",
+    "body": "I believe this is due to https://github.com/electron/electron/issues/5851 and similar to https://github.com/electron/electron/issues/6318\n\nIf you rebuild `node-sass` locally then your test app should work:\n\n``` bash\nexport npm_config_target=1.2.6\nexport npm_config_arch=x64\nexport npm_config_disturl=https://atom.io/download/atom-shell\nexport npm_config_runtime=electron\nexport npm_config_build_from_source=true\ncd node_modules/node-sass\nrm -fr vendor/darwin-x64-48/binding.node\nHOME=~/.electron-gyp npm run build\ncd ../..\nnpm start\n```\n\nThen running `npm start` from the root shows the following in the console:\n\n```\n{ stats: \n   { entry: 'data',\n     start: 1468345738814,\n     includedFiles: [],\n     end: 1468345738816,\n     duration: 2 },\n  css: <Buffer 73 20 7b 0a 20 20 61 3a 20 73 73 3b 20 7d 0a> }\n```\n\nMerging this into #5851\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/232346687",
+    "html_url": "https://github.com/electron/electron/issues/6452#issuecomment-232346687",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6452",
+    "id": 232346687,
+    "user": {
+      "login": "davej",
+      "id": 26971,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26971?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/davej",
+      "html_url": "https://github.com/davej",
+      "followers_url": "https://api.github.com/users/davej/followers",
+      "following_url": "https://api.github.com/users/davej/following{/other_user}",
+      "gists_url": "https://api.github.com/users/davej/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/davej/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/davej/subscriptions",
+      "organizations_url": "https://api.github.com/users/davej/orgs",
+      "repos_url": "https://api.github.com/users/davej/repos",
+      "events_url": "https://api.github.com/users/davej/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/davej/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-13T12:58:13Z",
+    "updated_at": "2016-07-13T12:58:13Z",
+    "body": "Thanks @kevinsawicki, you're correct it is basically because of #5851.\n\nMy app uses a plugin system which downloads and installs modules from within the app using electron (instead of system node). I am able to force it to build instead of downloading the prebuilt binary but I then run into the problem that Electron doesn't define `process.config.target_defaults` (#6462) which is referenced in the `node-sass` build script (https://github.com/sass/node-sass/blob/master/scripts/build.js#L23).\n\n:-/\n\nI think moving back to 1.1.x is my only option at this stage, which is a pity because I am using some the 1.2.x features. Thanks for your help.\n"
+  }
+]

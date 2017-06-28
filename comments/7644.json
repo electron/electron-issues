@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/254183638",
+    "html_url": "https://github.com/electron/electron/issues/7644#issuecomment-254183638",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7644",
+    "id": 254183638,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-17T11:37:24Z",
+    "updated_at": "2016-10-17T11:37:24Z",
+    "body": "`session.setProxy` will download the pac file and set the sessions' proxy. It is not aware of pac file changes, you need to call the api again..\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/254251199",
+    "html_url": "https://github.com/electron/electron/issues/7644#issuecomment-254251199",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7644",
+    "id": 254251199,
+    "user": {
+      "login": "myfrndjk",
+      "id": 22800366,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22800366?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/myfrndjk",
+      "html_url": "https://github.com/myfrndjk",
+      "followers_url": "https://api.github.com/users/myfrndjk/followers",
+      "following_url": "https://api.github.com/users/myfrndjk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/myfrndjk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/myfrndjk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/myfrndjk/subscriptions",
+      "organizations_url": "https://api.github.com/users/myfrndjk/orgs",
+      "repos_url": "https://api.github.com/users/myfrndjk/repos",
+      "events_url": "https://api.github.com/users/myfrndjk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/myfrndjk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-17T16:01:15Z",
+    "updated_at": "2016-10-17T16:01:15Z",
+    "body": "Thanks @deepak1556\n I tried something like this and it worked\n\n`const {app, BrowserWindow} = require('electron');\nconst {session} = require('electron')\n\nlet mainWindow;\n\napp.on('window-all-closed', function() {\n  app.quit();\n});\n\napp.on('ready', function() {\n  mainWindow = new BrowserWindow({width: 1024, height: 768 });\n  session.defaultSession.allowNTLMCredentialsForDomains('*')//internal url authentication\n\nvar myVar = setInterval(myTimer, 60000);\nfunction myTimer() {\nmainWindow.webContents.session.setProxy({pacScript:'file://' + __dirname + '/proxy.pac'}, function () {return true;});\n}\n\nmainWindow.webContents.session.setProxy({pacScript:'file://' + __dirname + '/proxy.pac'}, function () {mainWindow.loadURL('file://' + __dirname + '/browser.html');});`\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/189771112",
+    "html_url": "https://github.com/electron/electron/issues/4627#issuecomment-189771112",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4627",
+    "id": 189771112,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-28T03:03:25Z",
+    "updated_at": "2016-02-28T03:03:25Z",
+    "body": "I'm merging this to #2180.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/244516542",
+    "html_url": "https://github.com/electron/electron/issues/4627#issuecomment-244516542",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4627",
+    "id": 244516542,
+    "user": {
+      "login": "blakewatson",
+      "id": 801425,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/801425?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/blakewatson",
+      "html_url": "https://github.com/blakewatson",
+      "followers_url": "https://api.github.com/users/blakewatson/followers",
+      "following_url": "https://api.github.com/users/blakewatson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/blakewatson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/blakewatson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/blakewatson/subscriptions",
+      "organizations_url": "https://api.github.com/users/blakewatson/orgs",
+      "repos_url": "https://api.github.com/users/blakewatson/repos",
+      "events_url": "https://api.github.com/users/blakewatson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/blakewatson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-03T00:46:36Z",
+    "updated_at": "2016-09-03T00:46:36Z",
+    "body": "Is this window type ever going to be available on macOS? I would like to make an onscreen keyboard for people with disabilities, but I need a non-focusable window in order for it to function properly.\n"
+  }
+]

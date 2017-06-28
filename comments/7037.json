@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/243739406",
+    "html_url": "https://github.com/electron/electron/issues/7037#issuecomment-243739406",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7037",
+    "id": 243739406,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-31T11:44:50Z",
+    "updated_at": "2016-08-31T11:44:50Z",
+    "body": "From application side there is not much information we can know on how the application is started. So if the app is launched because user wants to open a file with it, the `open-file` event will be emitted before the `ready` event, otherwise it would be emitted after.\n\nI recommend reading Atom's code on opening file, it shows how to handle `open-file` and `process.argv` at the same time:\nhttps://github.com/atom/atom/blob/master/src/main-process/main.js\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/243823605",
+    "html_url": "https://github.com/electron/electron/issues/7037#issuecomment-243823605",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7037",
+    "id": 243823605,
+    "user": {
+      "login": "rgbkrk",
+      "id": 836375,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/836375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rgbkrk",
+      "html_url": "https://github.com/rgbkrk",
+      "followers_url": "https://api.github.com/users/rgbkrk/followers",
+      "following_url": "https://api.github.com/users/rgbkrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rgbkrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rgbkrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rgbkrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/rgbkrk/orgs",
+      "repos_url": "https://api.github.com/users/rgbkrk/repos",
+      "events_url": "https://api.github.com/users/rgbkrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rgbkrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-31T16:37:23Z",
+    "updated_at": "2016-08-31T16:37:23Z",
+    "body": "Thank you @zcbenz!\n"
+  }
+]

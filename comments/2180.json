@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/198292626",
+    "html_url": "https://github.com/electron/electron/issues/2180#issuecomment-198292626",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2180",
+    "id": 198292626,
+    "user": {
+      "login": "hankbao",
+      "id": 756604,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/756604?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hankbao",
+      "html_url": "https://github.com/hankbao",
+      "followers_url": "https://api.github.com/users/hankbao/followers",
+      "following_url": "https://api.github.com/users/hankbao/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hankbao/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hankbao/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hankbao/subscriptions",
+      "organizations_url": "https://api.github.com/users/hankbao/orgs",
+      "repos_url": "https://api.github.com/users/hankbao/repos",
+      "events_url": "https://api.github.com/users/hankbao/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hankbao/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-18T10:15:52Z",
+    "updated_at": "2016-03-18T10:15:52Z",
+    "body": "+1 for this. Currently I found no way to set WS_EX_TOOLWINDOW to a BrowserWindow's window style in Windows.\n"
+  }
+]

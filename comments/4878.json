@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/203708480",
+    "html_url": "https://github.com/electron/electron/issues/4878#issuecomment-203708480",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4878",
+    "id": 203708480,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-03-31T01:32:51Z",
+    "updated_at": "2016-03-31T01:32:51Z",
+    "body": "Which icon is showed in dock is purely decided by the desktop environment you use, e.g. Unity.\n\nThe binary name of google-play-music-desktop-player is \"Google Play Music Desktop Player\", which has spaces in it, my theory is, when you start it from terminal, Unity failed to recognized the full name and only used \"Google\" as app name, resulting in the icon of google being used.\n\nI'm closing this since it is more likely a bug of Unity, I suggesting reporting it to Unity instead, but it is also possible that this bug has already been fixed in newer versions.\n"
+  }
+]

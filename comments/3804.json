@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/164421368",
+    "html_url": "https://github.com/electron/electron/issues/3804#issuecomment-164421368",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3804",
+    "id": 164421368,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-14T12:08:57Z",
+    "updated_at": "2015-12-14T12:08:57Z",
+    "body": "This is unfortunate a side effect of the `title-bar-style` option, I'm closing this as a duplicate of #3009.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/164424916",
+    "html_url": "https://github.com/electron/electron/issues/3804#issuecomment-164424916",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3804",
+    "id": 164424916,
+    "user": {
+      "login": "sunabozu",
+      "id": 135717,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/135717?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sunabozu",
+      "html_url": "https://github.com/sunabozu",
+      "followers_url": "https://api.github.com/users/sunabozu/followers",
+      "following_url": "https://api.github.com/users/sunabozu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sunabozu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sunabozu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sunabozu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sunabozu/orgs",
+      "repos_url": "https://api.github.com/users/sunabozu/repos",
+      "events_url": "https://api.github.com/users/sunabozu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sunabozu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-14T12:27:17Z",
+    "updated_at": "2015-12-14T12:27:17Z",
+    "body": "Ok, I see. But which project this side effect belongs to? I mean, we should solve it somehow.\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/43834846",
+    "html_url": "https://github.com/electron/electron/issues/344#issuecomment-43834846",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/344",
+    "id": 43834846,
+    "user": {
+      "login": "charandas",
+      "id": 542168,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/542168?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/charandas",
+      "html_url": "https://github.com/charandas",
+      "followers_url": "https://api.github.com/users/charandas/followers",
+      "following_url": "https://api.github.com/users/charandas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/charandas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/charandas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/charandas/subscriptions",
+      "organizations_url": "https://api.github.com/users/charandas/orgs",
+      "repos_url": "https://api.github.com/users/charandas/repos",
+      "events_url": "https://api.github.com/users/charandas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/charandas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-05-22T00:36:11Z",
+    "updated_at": "2014-05-22T00:36:11Z",
+    "body": "Oops. Realized about the category page [here](http://discuss.atom.io/category/atom-shell) a little late. Will follow up there.\n"
+  }
+]

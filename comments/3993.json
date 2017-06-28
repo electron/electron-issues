@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/169007376",
+    "html_url": "https://github.com/electron/electron/pull/3993#issuecomment-169007376",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3993",
+    "id": 169007376,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-05T13:53:49Z",
+    "updated_at": "2016-01-05T13:53:49Z",
+    "body": "`__dirname` is not current working dir, even if you run your app under terminal, you must have done something wrong.\n\nAlso `__dirname` can not be replaced with `app.getAppPath()` under some cases, when you use the default app to execute an app, like `electron /path/to/main.js`, the app path is the default app's path, not the directory that contains `main.js`.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/169008468",
+    "html_url": "https://github.com/electron/electron/pull/3993#issuecomment-169008468",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3993",
+    "id": 169008468,
+    "user": {
+      "login": "swissmanu",
+      "id": 170832,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/170832?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/swissmanu",
+      "html_url": "https://github.com/swissmanu",
+      "followers_url": "https://api.github.com/users/swissmanu/followers",
+      "following_url": "https://api.github.com/users/swissmanu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/swissmanu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/swissmanu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/swissmanu/subscriptions",
+      "organizations_url": "https://api.github.com/users/swissmanu/orgs",
+      "repos_url": "https://api.github.com/users/swissmanu/repos",
+      "events_url": "https://api.github.com/users/swissmanu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/swissmanu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-05T13:59:06Z",
+    "updated_at": "2016-01-05T13:59:06Z",
+    "body": "Thanks for your clarification @zcbenz. I see this might not be helpful for everyone then.\nI might investigate further maybe, but close this PR in the meantime.\n"
+  }
+]

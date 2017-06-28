@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/131212203",
+    "html_url": "https://github.com/electron/electron/issues/2496#issuecomment-131212203",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2496",
+    "id": 131212203,
+    "user": {
+      "login": "etiktin",
+      "id": 4381579,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4381579?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/etiktin",
+      "html_url": "https://github.com/etiktin",
+      "followers_url": "https://api.github.com/users/etiktin/followers",
+      "following_url": "https://api.github.com/users/etiktin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/etiktin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/etiktin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/etiktin/subscriptions",
+      "organizations_url": "https://api.github.com/users/etiktin/orgs",
+      "repos_url": "https://api.github.com/users/etiktin/repos",
+      "events_url": "https://api.github.com/users/etiktin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/etiktin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-14T19:12:36Z",
+    "updated_at": "2015-08-14T19:12:36Z",
+    "body": "You could do it with a `preload` script or with `WebContents.executeJavaScript`.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/131999878",
+    "html_url": "https://github.com/electron/electron/issues/2496#issuecomment-131999878",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2496",
+    "id": 131999878,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-08-18T00:07:47Z",
+    "updated_at": "2015-08-18T00:07:47Z",
+    "body": "Here are some links to the docs that @etiktin mentioned:\n\nExecuting JavaScript from the main process: https://github.com/atom/electron/blob/master/docs/api/browser-window.md#webcontentsexecutejavascriptcode-usergesture\n\nUsing a `preload` file when creating a new `BrowserWindow`: https://github.com/atom/electron/blob/master/docs/api/browser-window.md#new-browserwindowoptions\n\nClosing this out.\n"
+  }
+]

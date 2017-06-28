@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/215706584",
+    "html_url": "https://github.com/electron/electron/issues/5341#issuecomment-215706584",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5341",
+    "id": 215706584,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-29T13:09:24Z",
+    "updated_at": "2016-04-29T13:09:24Z",
+    "body": "It had been explained in our FAQ:\nhttp://electron.atom.io/docs/v0.37.7/faq/electron-faq/#when-will-electron-upgrade-to-latest-nodejs\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/247784419",
+    "html_url": "https://github.com/electron/electron/issues/5341#issuecomment-247784419",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5341",
+    "id": 247784419,
+    "user": {
+      "login": "arlair",
+      "id": 4236603,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4236603?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arlair",
+      "html_url": "https://github.com/arlair",
+      "followers_url": "https://api.github.com/users/arlair/followers",
+      "following_url": "https://api.github.com/users/arlair/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arlair/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arlair/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arlair/subscriptions",
+      "organizations_url": "https://api.github.com/users/arlair/orgs",
+      "repos_url": "https://api.github.com/users/arlair/repos",
+      "events_url": "https://api.github.com/users/arlair/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arlair/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-17T15:58:20Z",
+    "updated_at": "2016-09-17T15:58:20Z",
+    "body": "Now here: http://electron.atom.io/docs/faq/#when-will-electron-upgrade-to-latest-nodejs\n"
+  }
+]

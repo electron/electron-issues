@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/254682479",
+    "html_url": "https://github.com/electron/electron/issues/7447#issuecomment-254682479",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7447",
+    "id": 254682479,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-19T01:04:24Z",
+    "updated_at": "2016-10-19T01:04:24Z",
+    "body": "The `app.getLoginItemSettings` is just calling into the APIs provided by OS X, I'm afraid there is no way to implement this API while not affected by OS X's bug, so I'm closing this as won't fix.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/254735770",
+    "html_url": "https://github.com/electron/electron/issues/7447#issuecomment-254735770",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7447",
+    "id": 254735770,
+    "user": {
+      "login": "Thomas101",
+      "id": 103586,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/103586?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Thomas101",
+      "html_url": "https://github.com/Thomas101",
+      "followers_url": "https://api.github.com/users/Thomas101/followers",
+      "following_url": "https://api.github.com/users/Thomas101/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Thomas101/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Thomas101/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Thomas101/subscriptions",
+      "organizations_url": "https://api.github.com/users/Thomas101/orgs",
+      "repos_url": "https://api.github.com/users/Thomas101/repos",
+      "events_url": "https://api.github.com/users/Thomas101/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Thomas101/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-19T07:36:57Z",
+    "updated_at": "2016-10-19T07:36:57Z",
+    "body": "Okay, thanks for looking into this!\n"
+  }
+]

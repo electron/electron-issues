@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/124036218",
+    "html_url": "https://github.com/electron/electron/issues/2305#issuecomment-124036218",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2305",
+    "id": 124036218,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-07-23T09:48:36Z",
+    "updated_at": "2015-07-23T09:48:36Z",
+    "body": "I think there is some bug in Chromium's GPU acceleration or your GPU's driver, but honestly in either case we won't be able to fix it on Electron's side. I'm not sure if you wrote that app, but if so you can disable GPU acceleration to work around this, or you can wait for Electron to update to Chrome 44.\n\nI'm closing this as won't fix, I'm sorry to see this but we really can not help with it.\n"
+  }
+]

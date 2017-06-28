@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/106247041",
+    "html_url": "https://github.com/electron/electron/issues/1801#issuecomment-106247041",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1801",
+    "id": 106247041,
+    "user": {
+      "login": "saschagehlich",
+      "id": 119684,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/119684?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/saschagehlich",
+      "html_url": "https://github.com/saschagehlich",
+      "followers_url": "https://api.github.com/users/saschagehlich/followers",
+      "following_url": "https://api.github.com/users/saschagehlich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/saschagehlich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/saschagehlich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/saschagehlich/subscriptions",
+      "organizations_url": "https://api.github.com/users/saschagehlich/orgs",
+      "repos_url": "https://api.github.com/users/saschagehlich/repos",
+      "events_url": "https://api.github.com/users/saschagehlich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/saschagehlich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-28T09:30:54Z",
+    "updated_at": "2015-05-28T09:30:54Z",
+    "body": "Same goes for these ones:\n\n```\nElectron.app/Contents/Frameworks/Electron Framework.framework/Libraries/Libraries\nElectron.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/Libraries\nElectron.app/Contents/Frameworks/Electron Framework.framework/Versions/Current/Libraries/Libraries\n```\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/155597702",
+    "html_url": "https://github.com/electron/electron/pull/3396#issuecomment-155597702",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3396",
+    "id": 155597702,
+    "user": {
+      "login": "johnmuhl",
+      "id": 7944,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7944?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnmuhl",
+      "html_url": "https://github.com/johnmuhl",
+      "followers_url": "https://api.github.com/users/johnmuhl/followers",
+      "following_url": "https://api.github.com/users/johnmuhl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/johnmuhl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/johnmuhl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/johnmuhl/subscriptions",
+      "organizations_url": "https://api.github.com/users/johnmuhl/orgs",
+      "repos_url": "https://api.github.com/users/johnmuhl/repos",
+      "events_url": "https://api.github.com/users/johnmuhl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/johnmuhl/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-10T23:11:51Z",
+    "updated_at": "2015-11-10T23:11:51Z",
+    "body": "The master branch documents an unreleased version where the module names changed recently https://github.com/atom/electron/pull/3384. http://electron.atom.io/docs/ is a better place to view documentation for released versions of Electron.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/155631602",
+    "html_url": "https://github.com/electron/electron/pull/3396#issuecomment-155631602",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3396",
+    "id": 155631602,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-11T02:05:37Z",
+    "updated_at": "2015-11-11T02:05:37Z",
+    "body": "I'm agree with @johnmuhl, but still thanks @arnolem!\n"
+  }
+]

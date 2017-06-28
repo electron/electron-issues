@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/238162632",
+    "html_url": "https://github.com/electron/electron/issues/6756#issuecomment-238162632",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6756",
+    "id": 238162632,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-08T07:38:07Z",
+    "updated_at": "2016-08-08T07:38:07Z",
+    "body": "Can you provide a minimal app that can reproduce this problem?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/239484244",
+    "html_url": "https://github.com/electron/electron/issues/6756#issuecomment-239484244",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6756",
+    "id": 239484244,
+    "user": {
+      "login": "cuixiping",
+      "id": 1104492,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1104492?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cuixiping",
+      "html_url": "https://github.com/cuixiping",
+      "followers_url": "https://api.github.com/users/cuixiping/followers",
+      "following_url": "https://api.github.com/users/cuixiping/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cuixiping/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cuixiping/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cuixiping/subscriptions",
+      "organizations_url": "https://api.github.com/users/cuixiping/orgs",
+      "repos_url": "https://api.github.com/users/cuixiping/repos",
+      "events_url": "https://api.github.com/users/cuixiping/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cuixiping/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-12T15:52:23Z",
+    "updated_at": "2016-08-12T15:52:23Z",
+    "body": "Sorry I made a mistake. The callback works well. Please close this topic.\n"
+  }
+]

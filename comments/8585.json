@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/277484043",
+    "html_url": "https://github.com/electron/electron/issues/8585#issuecomment-277484043",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8585",
+    "id": 277484043,
+    "user": {
+      "login": "ericbets",
+      "id": 49939,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/49939?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericbets",
+      "html_url": "https://github.com/ericbets",
+      "followers_url": "https://api.github.com/users/ericbets/followers",
+      "following_url": "https://api.github.com/users/ericbets/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ericbets/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ericbets/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ericbets/subscriptions",
+      "organizations_url": "https://api.github.com/users/ericbets/orgs",
+      "repos_url": "https://api.github.com/users/ericbets/repos",
+      "events_url": "https://api.github.com/users/ericbets/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ericbets/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-04T22:52:11Z",
+    "updated_at": "2017-02-04T22:52:11Z",
+    "body": "The src attribute needs to be set beforehand.  XD"
+  }
+]

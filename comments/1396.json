@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/91745440",
+    "html_url": "https://github.com/electron/electron/issues/1396#issuecomment-91745440",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1396",
+    "id": 91745440,
+    "user": {
+      "login": "asamiller",
+      "id": 5133623,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5133623?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/asamiller",
+      "html_url": "https://github.com/asamiller",
+      "followers_url": "https://api.github.com/users/asamiller/followers",
+      "following_url": "https://api.github.com/users/asamiller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/asamiller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/asamiller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/asamiller/subscriptions",
+      "organizations_url": "https://api.github.com/users/asamiller/orgs",
+      "repos_url": "https://api.github.com/users/asamiller/repos",
+      "events_url": "https://api.github.com/users/asamiller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/asamiller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-11T02:35:12Z",
+    "updated_at": "2015-04-11T02:35:12Z",
+    "body": "I'm also having an issue signing after updating to 10.10.3 and Xcode 6.3. I'm running:\n\n`codesign --verbose --deep --force --sign \"<DEV ID>\" build/Atom.app`\nand get\n`build/Atom.app: invalid or unsupported format for signature\nIn subcomponent: /Users/asa/app/Atom.app/Contents/Frameworks/Squirrel.framework`\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/92233609",
+    "html_url": "https://github.com/electron/electron/issues/1396#issuecomment-92233609",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1396",
+    "id": 92233609,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-04-13T06:48:23Z",
+    "updated_at": "2015-04-13T06:48:38Z",
+    "body": "I think signing individual frameworks and apps has always been the correct way to go. I'm closing this since this is a problem of OS X, not something we can fix in atom-shell.\n\nThere are also some instructions on code signing in nw.js's issues:\nhttps://github.com/nwjs/nw.js/issues/3258\nhttps://github.com/nwjs/nw.js/issues/616\n"
+  }
+]

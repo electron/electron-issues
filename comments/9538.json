@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/305981571",
+    "html_url": "https://github.com/electron/electron/issues/9538#issuecomment-305981571",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9538",
+    "id": 305981571,
+    "user": {
+      "login": "Tester798",
+      "id": 8844478,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8844478?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Tester798",
+      "html_url": "https://github.com/Tester798",
+      "followers_url": "https://api.github.com/users/Tester798/followers",
+      "following_url": "https://api.github.com/users/Tester798/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Tester798/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Tester798/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Tester798/subscriptions",
+      "organizations_url": "https://api.github.com/users/Tester798/orgs",
+      "repos_url": "https://api.github.com/users/Tester798/repos",
+      "events_url": "https://api.github.com/users/Tester798/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Tester798/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-03T15:22:24Z",
+    "updated_at": "2017-06-03T15:22:24Z",
+    "body": "For me it crashes on second time I'm trying to set it's `src` attribute.\r\nSeems like started in 1.6.5, in 1.6.2 works well."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308184201",
+    "html_url": "https://github.com/electron/electron/issues/9538#issuecomment-308184201",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9538",
+    "id": 308184201,
+    "user": {
+      "login": "mkazlauskas",
+      "id": 2457868,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2457868?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mkazlauskas",
+      "html_url": "https://github.com/mkazlauskas",
+      "followers_url": "https://api.github.com/users/mkazlauskas/followers",
+      "following_url": "https://api.github.com/users/mkazlauskas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mkazlauskas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mkazlauskas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mkazlauskas/subscriptions",
+      "organizations_url": "https://api.github.com/users/mkazlauskas/orgs",
+      "repos_url": "https://api.github.com/users/mkazlauskas/repos",
+      "events_url": "https://api.github.com/users/mkazlauskas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mkazlauskas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-13T17:08:09Z",
+    "updated_at": "2017-06-13T17:08:09Z",
+    "body": "I have the same issue trying to set `src` for the 2nd time. Running exactly the same code it crashes on Windows but not Linux."
+  }
+]

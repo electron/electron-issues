@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/237207992",
+    "html_url": "https://github.com/electron/electron/pull/6706#issuecomment-237207992",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6706",
+    "id": 237207992,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-03T11:06:01Z",
+    "updated_at": "2016-08-03T11:06:01Z",
+    "body": "Thanks!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/237212205",
+    "html_url": "https://github.com/electron/electron/pull/6706#issuecomment-237212205",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6706",
+    "id": 237212205,
+    "user": {
+      "login": "sairoutine",
+      "id": 6726054,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6726054?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sairoutine",
+      "html_url": "https://github.com/sairoutine",
+      "followers_url": "https://api.github.com/users/sairoutine/followers",
+      "following_url": "https://api.github.com/users/sairoutine/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sairoutine/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sairoutine/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sairoutine/subscriptions",
+      "organizations_url": "https://api.github.com/users/sairoutine/orgs",
+      "repos_url": "https://api.github.com/users/sairoutine/repos",
+      "events_url": "https://api.github.com/users/sairoutine/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sairoutine/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-03T11:30:24Z",
+    "updated_at": "2016-08-03T11:30:24Z",
+    "body": "Thank you!\n"
+  }
+]

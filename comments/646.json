@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/55292750",
+    "html_url": "https://github.com/electron/electron/issues/646#issuecomment-55292750",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/646",
+    "id": 55292750,
+    "user": {
+      "login": "frankhale",
+      "id": 190154,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/190154?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frankhale",
+      "html_url": "https://github.com/frankhale",
+      "followers_url": "https://api.github.com/users/frankhale/followers",
+      "following_url": "https://api.github.com/users/frankhale/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frankhale/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frankhale/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frankhale/subscriptions",
+      "organizations_url": "https://api.github.com/users/frankhale/orgs",
+      "repos_url": "https://api.github.com/users/frankhale/repos",
+      "events_url": "https://api.github.com/users/frankhale/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frankhale/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-09-11T16:46:34Z",
+    "updated_at": "2014-09-11T16:47:13Z",
+    "body": "Just tried this on Linux Mint 17 with the Cinnamon desktop and Atom-Shell 0.16.2.\n\n![linux-mint-cinnamon](https://cloud.githubusercontent.com/assets/190154/4237884/2a460dee-39d3-11e4-889f-3e9b9624dd4d.PNG)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/55295487",
+    "html_url": "https://github.com/electron/electron/issues/646#issuecomment-55295487",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/646",
+    "id": 55295487,
+    "user": {
+      "login": "frankhale",
+      "id": 190154,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/190154?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frankhale",
+      "html_url": "https://github.com/frankhale",
+      "followers_url": "https://api.github.com/users/frankhale/followers",
+      "following_url": "https://api.github.com/users/frankhale/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frankhale/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frankhale/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frankhale/subscriptions",
+      "organizations_url": "https://api.github.com/users/frankhale/orgs",
+      "repos_url": "https://api.github.com/users/frankhale/repos",
+      "events_url": "https://api.github.com/users/frankhale/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frankhale/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-09-11T17:06:40Z",
+    "updated_at": "2014-09-11T17:06:40Z",
+    "body": "@zcbenz, I looked for a few hours trying to find where the code might be but I was not able to locate it. Is the code in question in libchromiumcontent or coming from Chromium itself?\n"
+  }
+]

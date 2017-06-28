@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/213606558",
+    "html_url": "https://github.com/electron/electron/issues/5258#issuecomment-213606558",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5258",
+    "id": 213606558,
+    "user": {
+      "login": "gamelaster",
+      "id": 1665373,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1665373?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gamelaster",
+      "html_url": "https://github.com/gamelaster",
+      "followers_url": "https://api.github.com/users/gamelaster/followers",
+      "following_url": "https://api.github.com/users/gamelaster/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gamelaster/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gamelaster/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gamelaster/subscriptions",
+      "organizations_url": "https://api.github.com/users/gamelaster/orgs",
+      "repos_url": "https://api.github.com/users/gamelaster/repos",
+      "events_url": "https://api.github.com/users/gamelaster/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gamelaster/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-22T22:12:14Z",
+    "updated_at": "2016-04-22T22:12:14Z",
+    "body": "Solved!\nNeeded to run from Desktop by .sh script\n"
+  }
+]

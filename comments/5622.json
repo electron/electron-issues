@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/220783926",
+    "html_url": "https://github.com/electron/electron/pull/5622#issuecomment-220783926",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5622",
+    "id": 220783926,
+    "user": {
+      "login": "kcrt",
+      "id": 505011,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/505011?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kcrt",
+      "html_url": "https://github.com/kcrt",
+      "followers_url": "https://api.github.com/users/kcrt/followers",
+      "following_url": "https://api.github.com/users/kcrt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kcrt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kcrt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kcrt/subscriptions",
+      "organizations_url": "https://api.github.com/users/kcrt/orgs",
+      "repos_url": "https://api.github.com/users/kcrt/repos",
+      "events_url": "https://api.github.com/users/kcrt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kcrt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-21T15:30:04Z",
+    "updated_at": "2016-05-21T15:30:04Z",
+    "body": "Thank you for your comments, @Flatta. \nI modified the docs.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/220819503",
+    "html_url": "https://github.com/electron/electron/pull/5622#issuecomment-220819503",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5622",
+    "id": 220819503,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-22T07:57:34Z",
+    "updated_at": "2016-05-22T07:57:34Z",
+    "body": "Thanks!\n"
+  }
+]

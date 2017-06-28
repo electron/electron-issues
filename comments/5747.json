@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/222608672",
+    "html_url": "https://github.com/electron/electron/issues/5747#issuecomment-222608672",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5747",
+    "id": 222608672,
+    "user": {
+      "login": "vasumahesh1",
+      "id": 5372612,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5372612?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vasumahesh1",
+      "html_url": "https://github.com/vasumahesh1",
+      "followers_url": "https://api.github.com/users/vasumahesh1/followers",
+      "following_url": "https://api.github.com/users/vasumahesh1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vasumahesh1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vasumahesh1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vasumahesh1/subscriptions",
+      "organizations_url": "https://api.github.com/users/vasumahesh1/orgs",
+      "repos_url": "https://api.github.com/users/vasumahesh1/repos",
+      "events_url": "https://api.github.com/users/vasumahesh1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vasumahesh1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-31T07:07:52Z",
+    "updated_at": "2016-05-31T07:07:52Z",
+    "body": "Was able to find a work around.\n\nIt seems if you add this CSS to your page:\n\n``` css\n@page {\n  size: 3in 5in;\n}\n```\n\nThen the CSS is able to change the page layout and `printToPDF` works as expected. Found a test case in [Blink](https://chromium.googlesource.com/experimental/chromium/blink/+/refs/heads/master/LayoutTests/printing/custom-page-size-style.html) using custom page sizes by the above method.\n"
+  }
+]

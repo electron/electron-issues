@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/169207448",
+    "html_url": "https://github.com/electron/electron/issues/3999#issuecomment-169207448",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3999",
+    "id": 169207448,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-06T03:13:52Z",
+    "updated_at": "2016-01-06T03:13:52Z",
+    "body": "I'm merging this to #1374.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/169235497",
+    "html_url": "https://github.com/electron/electron/issues/3999#issuecomment-169235497",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3999",
+    "id": 169235497,
+    "user": {
+      "login": "cigitia",
+      "id": 6068566,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6068566?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cigitia",
+      "html_url": "https://github.com/cigitia",
+      "followers_url": "https://api.github.com/users/cigitia/followers",
+      "following_url": "https://api.github.com/users/cigitia/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cigitia/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cigitia/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cigitia/subscriptions",
+      "organizations_url": "https://api.github.com/users/cigitia/orgs",
+      "repos_url": "https://api.github.com/users/cigitia/repos",
+      "events_url": "https://api.github.com/users/cigitia/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cigitia/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-06T05:49:52Z",
+    "updated_at": "2016-01-06T05:50:56Z",
+    "body": "@zcbenz Thanks for looking at this. Shold this really be considered a duplicate of #1374, though? The [Chrome-app `webview` dialog events](https://developer.chrome.com/apps/tags/webview#event-dialog) that #1374 refers to only include modal dialogs created by `window.alert`, `window.confirm`, or `window.prompt`. These may be quite different in nature from file-upload events: the former three involve only passing string or boolean values, while the latter involves the creation of `File` objects using information outside the web page's sandbox (something not normally possible; cf. #749).\n"
+  }
+]

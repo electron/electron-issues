@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/293972264",
+    "html_url": "https://github.com/electron/electron/pull/2608#issuecomment-293972264",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2608",
+    "id": 293972264,
+    "user": {
+      "login": "Hum4n01d",
+      "id": 17228477,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/17228477?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Hum4n01d",
+      "html_url": "https://github.com/Hum4n01d",
+      "followers_url": "https://api.github.com/users/Hum4n01d/followers",
+      "following_url": "https://api.github.com/users/Hum4n01d/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Hum4n01d/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Hum4n01d/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Hum4n01d/subscriptions",
+      "organizations_url": "https://api.github.com/users/Hum4n01d/orgs",
+      "repos_url": "https://api.github.com/users/Hum4n01d/repos",
+      "events_url": "https://api.github.com/users/Hum4n01d/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Hum4n01d/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-13T17:45:16Z",
+    "updated_at": "2017-04-13T17:45:16Z",
+    "body": "I’m still getting this issue when trying to debug in both VSCode **and** PyCharm (I don’t think it’s related to the editors)\r\n\r\n```\r\ntheproject/node_modules/.bin/electron —debug-brk=65056 --expose_debug_as=v8debug theproject/src/main.js\r\nApp threw an error during load\r\nError: Cannot find module 'theproject/src/—debug-brk=65056'\r\n    at Module._resolveFilename (module.js:470:15)\r\n```\r\n\r\nI replaced the absolute paths with `theproject` for privacy 😉 "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/293977156",
+    "html_url": "https://github.com/electron/electron/pull/2608#issuecomment-293977156",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2608",
+    "id": 293977156,
+    "user": {
+      "login": "Hum4n01d",
+      "id": 17228477,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/17228477?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Hum4n01d",
+      "html_url": "https://github.com/Hum4n01d",
+      "followers_url": "https://api.github.com/users/Hum4n01d/followers",
+      "following_url": "https://api.github.com/users/Hum4n01d/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Hum4n01d/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Hum4n01d/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Hum4n01d/subscriptions",
+      "organizations_url": "https://api.github.com/users/Hum4n01d/orgs",
+      "repos_url": "https://api.github.com/users/Hum4n01d/repos",
+      "events_url": "https://api.github.com/users/Hum4n01d/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Hum4n01d/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-13T18:04:33Z",
+    "updated_at": "2017-04-13T18:04:33Z",
+    "body": "Ah, never mind. I found the problem. It’s in `electron-prebuilt-compile` https://github.com/electron-userland/electron-prebuilt-compile/issues/23"
+  }
+]

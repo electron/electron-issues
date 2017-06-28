@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/260559616",
+    "html_url": "https://github.com/electron/electron/issues/7406#issuecomment-260559616",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7406",
+    "id": 260559616,
+    "user": {
+      "login": "steverandy",
+      "id": 525332,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/525332?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/steverandy",
+      "html_url": "https://github.com/steverandy",
+      "followers_url": "https://api.github.com/users/steverandy/followers",
+      "following_url": "https://api.github.com/users/steverandy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/steverandy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/steverandy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/steverandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/steverandy/orgs",
+      "repos_url": "https://api.github.com/users/steverandy/repos",
+      "events_url": "https://api.github.com/users/steverandy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/steverandy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-15T06:35:10Z",
+    "updated_at": "2016-11-15T06:35:27Z",
+    "body": "@kevinsawicki is it possible to add this patch to electron v1.3.x in the upcoming release?\n\nI have to downgrade electron to v1.3 at the moment because of webview issue and would like to have this patch.\n"
+  }
+]

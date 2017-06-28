@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/64759421",
+    "html_url": "https://github.com/electron/electron/issues/871#issuecomment-64759421",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/871",
+    "id": 64759421,
+    "user": {
+      "login": "antton",
+      "id": 1666548,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1666548?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antton",
+      "html_url": "https://github.com/antton",
+      "followers_url": "https://api.github.com/users/antton/followers",
+      "following_url": "https://api.github.com/users/antton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/antton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/antton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/antton/subscriptions",
+      "organizations_url": "https://api.github.com/users/antton/orgs",
+      "repos_url": "https://api.github.com/users/antton/repos",
+      "events_url": "https://api.github.com/users/antton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/antton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-27T08:31:16Z",
+    "updated_at": "2014-11-27T08:31:16Z",
+    "body": "How did you success adding the try icon? Everything I tried was ended in a failure. Check #850 please and let us know :)\n"
+  }
+]

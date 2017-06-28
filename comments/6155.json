@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/265452636",
+    "html_url": "https://github.com/electron/electron/issues/6155#issuecomment-265452636",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6155",
+    "id": 265452636,
+    "user": {
+      "login": "mattgalvin",
+      "id": 3188630,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3188630?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mattgalvin",
+      "html_url": "https://github.com/mattgalvin",
+      "followers_url": "https://api.github.com/users/mattgalvin/followers",
+      "following_url": "https://api.github.com/users/mattgalvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mattgalvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mattgalvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mattgalvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/mattgalvin/orgs",
+      "repos_url": "https://api.github.com/users/mattgalvin/repos",
+      "events_url": "https://api.github.com/users/mattgalvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mattgalvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-07T13:55:13Z",
+    "updated_at": "2016-12-07T13:55:13Z",
+    "body": "Does anyone know a workaround to this issue? I'm working on a project where window capture is an integral piece of functionality and it's basically useless on retina display computers because of this bug."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/287115475",
+    "html_url": "https://github.com/electron/electron/issues/6155#issuecomment-287115475",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6155",
+    "id": 287115475,
+    "user": {
+      "login": "pronebird",
+      "id": 704044,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/704044?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pronebird",
+      "html_url": "https://github.com/pronebird",
+      "followers_url": "https://api.github.com/users/pronebird/followers",
+      "following_url": "https://api.github.com/users/pronebird/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pronebird/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pronebird/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pronebird/subscriptions",
+      "organizations_url": "https://api.github.com/users/pronebird/orgs",
+      "repos_url": "https://api.github.com/users/pronebird/repos",
+      "events_url": "https://api.github.com/users/pronebird/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pronebird/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-16T16:35:34Z",
+    "updated_at": "2017-03-16T16:35:34Z",
+    "body": "You should probably pass scale factor of your display? Do you have retina mac?"
+  }
+]

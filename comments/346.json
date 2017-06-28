@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/44266032",
+    "html_url": "https://github.com/electron/electron/issues/346#issuecomment-44266032",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/346",
+    "id": 44266032,
+    "user": {
+      "login": "aegypius",
+      "id": 25710,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/25710?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aegypius",
+      "html_url": "https://github.com/aegypius",
+      "followers_url": "https://api.github.com/users/aegypius/followers",
+      "following_url": "https://api.github.com/users/aegypius/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aegypius/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aegypius/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aegypius/subscriptions",
+      "organizations_url": "https://api.github.com/users/aegypius/orgs",
+      "repos_url": "https://api.github.com/users/aegypius/repos",
+      "events_url": "https://api.github.com/users/aegypius/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aegypius/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-05-27T11:57:25Z",
+    "updated_at": "2014-05-27T12:00:41Z",
+    "body": "Actually 393d61b does not seems to fix anything for me. Version is still set to 0.1.0 in atom menu\n\nI don't if its related but an error at startup : \n\n```\n>$ /usr/share/atom-shell/atom /usr/share/atom\n[9412:0527/135046:INFO:gpu_info_collector_x11.cc(80)] NVCtrl extension does not exist.\nApp load time: 184ms\n[9414:0100/000000:ERROR:zygote_linux.cc(532)] write: Broken pipe\n```\n\nAnd then a popup shows up :\n![screenshot from 2014-05-27 13 51 36](https://cloud.githubusercontent.com/assets/25710/3090996/57ae4a9a-e595-11e3-9071-f3e76afab858.png)\n\n---\n\nBuild info\n- atom/atom-shell@v0.12.7\n- atom/atom@00987f36\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/222393858",
+    "html_url": "https://github.com/electron/electron/issues/5729#issuecomment-222393858",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5729",
+    "id": 222393858,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-30T01:04:17Z",
+    "updated_at": "2016-05-30T01:04:17Z",
+    "body": "You don't need to run bootstrap script if you just want to use electron, for more questions\nI suggest seeking help from [the community](https://github.com/electron/electron#community).\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/244064345",
+    "html_url": "https://github.com/electron/electron/issues/5729#issuecomment-244064345",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5729",
+    "id": 244064345,
+    "user": {
+      "login": "solomonope",
+      "id": 2082470,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2082470?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/solomonope",
+      "html_url": "https://github.com/solomonope",
+      "followers_url": "https://api.github.com/users/solomonope/followers",
+      "following_url": "https://api.github.com/users/solomonope/following{/other_user}",
+      "gists_url": "https://api.github.com/users/solomonope/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/solomonope/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/solomonope/subscriptions",
+      "organizations_url": "https://api.github.com/users/solomonope/orgs",
+      "repos_url": "https://api.github.com/users/solomonope/repos",
+      "events_url": "https://api.github.com/users/solomonope/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/solomonope/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-01T12:32:26Z",
+    "updated_at": "2016-09-01T12:32:26Z",
+    "body": "If you want to just use electron, you don't need the to run the bootstrap script.\n\nI had the same problem while trying to build electron, you need to run this bootstrap command from the root of your electron folder and not from the script folder, that solved it for me.\n"
+  }
+]

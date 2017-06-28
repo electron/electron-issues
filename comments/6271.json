@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/229020564",
+    "html_url": "https://github.com/electron/electron/issues/6271#issuecomment-229020564",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6271",
+    "id": 229020564,
+    "user": {
+      "login": "francoislaberge",
+      "id": 1845,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1845?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/francoislaberge",
+      "html_url": "https://github.com/francoislaberge",
+      "followers_url": "https://api.github.com/users/francoislaberge/followers",
+      "following_url": "https://api.github.com/users/francoislaberge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/francoislaberge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/francoislaberge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/francoislaberge/subscriptions",
+      "organizations_url": "https://api.github.com/users/francoislaberge/orgs",
+      "repos_url": "https://api.github.com/users/francoislaberge/repos",
+      "events_url": "https://api.github.com/users/francoislaberge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/francoislaberge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-28T11:15:26Z",
+    "updated_at": "2016-06-28T11:15:26Z",
+    "body": "Closing this. I had another issue that was silently throwing an exception before this code was being hit.\n"
+  }
+]

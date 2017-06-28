@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308246296",
+    "html_url": "https://github.com/electron/electron/issues/9749#issuecomment-308246296",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9749",
+    "id": 308246296,
+    "user": {
+      "login": "craxal",
+      "id": 3473026,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3473026?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/craxal",
+      "html_url": "https://github.com/craxal",
+      "followers_url": "https://api.github.com/users/craxal/followers",
+      "following_url": "https://api.github.com/users/craxal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craxal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/craxal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craxal/subscriptions",
+      "organizations_url": "https://api.github.com/users/craxal/orgs",
+      "repos_url": "https://api.github.com/users/craxal/repos",
+      "events_url": "https://api.github.com/users/craxal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/craxal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-13T20:57:08Z",
+    "updated_at": "2017-06-13T20:57:08Z",
+    "body": "That was an incredibly fast response. Thanks!"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308247729",
+    "html_url": "https://github.com/electron/electron/issues/9749#issuecomment-308247729",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9749",
+    "id": 308247729,
+    "user": {
+      "login": "zeke",
+      "id": 2289,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2289?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zeke",
+      "html_url": "https://github.com/zeke",
+      "followers_url": "https://api.github.com/users/zeke/followers",
+      "following_url": "https://api.github.com/users/zeke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zeke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zeke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zeke/subscriptions",
+      "organizations_url": "https://api.github.com/users/zeke/orgs",
+      "repos_url": "https://api.github.com/users/zeke/repos",
+      "events_url": "https://api.github.com/users/zeke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zeke/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-13T21:02:44Z",
+    "updated_at": "2017-06-13T21:02:44Z",
+    "body": "@MarshallOfSound never sleeps."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/156425740",
+    "html_url": "https://github.com/electron/electron/issues/3426#issuecomment-156425740",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3426",
+    "id": 156425740,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-13T12:57:35Z",
+    "updated_at": "2015-11-13T12:57:35Z",
+    "body": "You also need to install Xcode, which includes OS X SDK.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/170737946",
+    "html_url": "https://github.com/electron/electron/issues/3426#issuecomment-170737946",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3426",
+    "id": 170737946,
+    "user": {
+      "login": "evgenyzinoviev",
+      "id": 6204306,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6204306?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/evgenyzinoviev",
+      "html_url": "https://github.com/evgenyzinoviev",
+      "followers_url": "https://api.github.com/users/evgenyzinoviev/followers",
+      "following_url": "https://api.github.com/users/evgenyzinoviev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evgenyzinoviev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evgenyzinoviev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evgenyzinoviev/subscriptions",
+      "organizations_url": "https://api.github.com/users/evgenyzinoviev/orgs",
+      "repos_url": "https://api.github.com/users/evgenyzinoviev/repos",
+      "events_url": "https://api.github.com/users/evgenyzinoviev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evgenyzinoviev/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-12T00:05:13Z",
+    "updated_at": "2016-01-12T00:05:13Z",
+    "body": "I updated Xcode from 6.2 to 7.2 on my OS X 10.10 machine and have the same issue now.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/45454927",
+    "html_url": "https://github.com/electron/electron/issues/368#issuecomment-45454927",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/368",
+    "id": 45454927,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-06-09T01:37:10Z",
+    "updated_at": "2014-06-09T01:37:10Z",
+    "body": "Can you try building under standard Console? The build scripts had not been tested under msysgit shell.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/45662521",
+    "html_url": "https://github.com/electron/electron/issues/368#issuecomment-45662521",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/368",
+    "id": 45662521,
+    "user": {
+      "login": "ataranto",
+      "id": 50555,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/50555?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ataranto",
+      "html_url": "https://github.com/ataranto",
+      "followers_url": "https://api.github.com/users/ataranto/followers",
+      "following_url": "https://api.github.com/users/ataranto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ataranto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ataranto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ataranto/subscriptions",
+      "organizations_url": "https://api.github.com/users/ataranto/orgs",
+      "repos_url": "https://api.github.com/users/ataranto/repos",
+      "events_url": "https://api.github.com/users/ataranto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ataranto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-06-10T19:49:04Z",
+    "updated_at": "2014-06-10T19:49:04Z",
+    "body": "`bootstrap.py` succeeded in cmd.exe after i added the python, node, and git paths to the Environment Variables PATH preferences (apparently python doesn't pick up the PATH if you run `set PATH=...` in the console).\n\nHowever, update-external-binaries.py downloads an invalid directxsdk.zip file on windows. I can continue with the build by downloading and extracting these files into `external-binaries` by hand (using a browser to download, for example). Files downloaded by Chrome and script\\lib\\util.py's `download()` differ on disk. Separate issue?\n"
+  }
+]

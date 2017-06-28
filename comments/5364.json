@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/229647320",
+    "html_url": "https://github.com/electron/electron/issues/5364#issuecomment-229647320",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5364",
+    "id": 229647320,
+    "user": {
+      "login": "Silvercast",
+      "id": 998048,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/998048?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Silvercast",
+      "html_url": "https://github.com/Silvercast",
+      "followers_url": "https://api.github.com/users/Silvercast/followers",
+      "following_url": "https://api.github.com/users/Silvercast/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Silvercast/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Silvercast/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Silvercast/subscriptions",
+      "organizations_url": "https://api.github.com/users/Silvercast/orgs",
+      "repos_url": "https://api.github.com/users/Silvercast/repos",
+      "events_url": "https://api.github.com/users/Silvercast/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Silvercast/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-30T12:45:12Z",
+    "updated_at": "2016-06-30T12:45:12Z",
+    "body": "+1\n"
+  }
+]

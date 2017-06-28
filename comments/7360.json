@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250023042",
+    "html_url": "https://github.com/electron/electron/issues/7360#issuecomment-250023042",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7360",
+    "id": 250023042,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-27T22:55:27Z",
+    "updated_at": "2016-09-27T22:55:27Z",
+    "body": "I believe this is expected behavior when running `process.stderr.write()` from the Console tab of the dev tools.\n\n`process.stderr` is a `WritableStream` and the return value of `WritableStream.write` is a boolean which is why you see `true` displayed. You can reproduce this in node as well by running `node -e \"console.log(process.stderr.write(''))\"` from a Terminal which produces the output of `true`.\n\nhttps://nodejs.org/dist/latest-v6.x/docs/api/stream.html#stream_writable_write_chunk_encoding_callback\n\nClosing this out.\n"
+  }
+]

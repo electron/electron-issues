@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/260383582",
+    "html_url": "https://github.com/electron/electron/issues/7966#issuecomment-260383582",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7966",
+    "id": 260383582,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-14T16:25:13Z",
+    "updated_at": "2016-11-14T16:25:40Z",
+    "body": "AppImage appears to be a growing trend of sorts but I don't think it suits Electron's distribution methodology.  Applications built on Electron should be asked to provide AppImage files (not Electron).  Electron itself is just a couple of pre-built binaries that can be distributed however you want.  (Could be `.deb`, `.rpm` or `AppImage`).\n\nYour example of a `.dmg` explains this quite well I think, we provide a ZIP file of prebuilts for macOS and if an application wants to distribute a DMG then they generate a DMG and put our prebuilts inside.  The same concept should be applied to AppImage, we provide the prebuilts, applications should do whatever they want with them.\n\nIf you want to build `AppImage` files for you Application I believe the `AppImage` repository has a guide on how to do it 👍 \n"
+  }
+]

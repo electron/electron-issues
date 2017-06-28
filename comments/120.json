@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/27600614",
+    "html_url": "https://github.com/electron/electron/issues/120#issuecomment-27600614",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/120",
+    "id": 27600614,
+    "user": {
+      "login": "mcolyer",
+      "id": 1424,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1424?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mcolyer",
+      "html_url": "https://github.com/mcolyer",
+      "followers_url": "https://api.github.com/users/mcolyer/followers",
+      "following_url": "https://api.github.com/users/mcolyer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mcolyer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mcolyer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mcolyer/subscriptions",
+      "organizations_url": "https://api.github.com/users/mcolyer/orgs",
+      "repos_url": "https://api.github.com/users/mcolyer/repos",
+      "events_url": "https://api.github.com/users/mcolyer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mcolyer/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-11-01T21:00:14Z",
+    "updated_at": "2013-11-01T21:00:14Z",
+    "body": "I believe this is related to patching the exe in atom/atom#1042 which @zcbenz brought up.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/27613014",
+    "html_url": "https://github.com/electron/electron/issues/120#issuecomment-27613014",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/120",
+    "id": 27613014,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-11-02T02:22:06Z",
+    "updated_at": "2013-11-02T02:22:06Z",
+    "body": "Yeah the `app.getVersion()` reads the `ProductionVersion` property of the exe, which should be set by atom's build process.\n"
+  }
+]

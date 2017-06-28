@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/303038820",
+    "html_url": "https://github.com/electron/electron/issues/9545#issuecomment-303038820",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9545",
+    "id": 303038820,
+    "user": {
+      "login": "NeekSandhu",
+      "id": 11316020,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/11316020?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NeekSandhu",
+      "html_url": "https://github.com/NeekSandhu",
+      "followers_url": "https://api.github.com/users/NeekSandhu/followers",
+      "following_url": "https://api.github.com/users/NeekSandhu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NeekSandhu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NeekSandhu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NeekSandhu/subscriptions",
+      "organizations_url": "https://api.github.com/users/NeekSandhu/orgs",
+      "repos_url": "https://api.github.com/users/NeekSandhu/repos",
+      "events_url": "https://api.github.com/users/NeekSandhu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NeekSandhu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-22T08:49:17Z",
+    "updated_at": "2017-05-22T08:49:17Z",
+    "body": "Updating Node to 7.x.x fixed it for me."
+  }
+]

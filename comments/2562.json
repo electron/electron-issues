@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/133798317",
+    "html_url": "https://github.com/electron/electron/issues/2562#issuecomment-133798317",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2562",
+    "id": 133798317,
+    "user": {
+      "login": "bpasero",
+      "id": 900690,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/900690?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bpasero",
+      "html_url": "https://github.com/bpasero",
+      "followers_url": "https://api.github.com/users/bpasero/followers",
+      "following_url": "https://api.github.com/users/bpasero/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bpasero/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bpasero/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bpasero/subscriptions",
+      "organizations_url": "https://api.github.com/users/bpasero/orgs",
+      "repos_url": "https://api.github.com/users/bpasero/repos",
+      "events_url": "https://api.github.com/users/bpasero/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bpasero/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-23T07:55:41Z",
+    "updated_at": "2015-08-23T07:55:41Z",
+    "body": "I see issues with cp.fork() when I try to run VS Code with the latest where my forked apps (from the renderer) crash instantly without much info. Having a hard time to reproduce this in a standalone app though. Is there something that could have an impact around forking either from the update to Chrome 44 or io.js 3.1.0?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/134074885",
+    "html_url": "https://github.com/electron/electron/issues/2562#issuecomment-134074885",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2562",
+    "id": 134074885,
+    "user": {
+      "login": "bpasero",
+      "id": 900690,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/900690?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bpasero",
+      "html_url": "https://github.com/bpasero",
+      "followers_url": "https://api.github.com/users/bpasero/followers",
+      "following_url": "https://api.github.com/users/bpasero/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bpasero/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bpasero/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bpasero/subscriptions",
+      "organizations_url": "https://api.github.com/users/bpasero/orgs",
+      "repos_url": "https://api.github.com/users/bpasero/repos",
+      "events_url": "https://api.github.com/users/bpasero/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bpasero/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-24T07:42:19Z",
+    "updated_at": "2015-08-24T07:42:19Z",
+    "body": "Stacks I am seeing:\n\n[uncaught exception]:  Error: UnknownSystemError: Unknown system error, uv_pipe_open\n    at Error (native)\n    at new Socket (net.js:129:18)\n    at createWritableStdioStream (node.js:601:18)\n    at process.stderr (node.js:642:16)\n    at Socket._destroy (net.js:464:25)\n    at Socket.destroy (net.js:495:8)\n    at maybeDestroy (net.js:420:12)\n    at Pipe.onread (net.js:551:5)\n"
+  }
+]

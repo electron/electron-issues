@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/252463584",
+    "html_url": "https://github.com/electron/electron/issues/7534#issuecomment-252463584",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7534",
+    "id": 252463584,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-09T04:10:40Z",
+    "updated_at": "2016-10-09T04:10:40Z",
+    "body": "This is probably an issue with your app, not Electron, please seek help from the [community](https://github.com/electron/electron#community) (do mention where `loginsdk.node` came from, whether you've rebuilt it to target Electron, and whether or not you're using a module loader/bundler like Webpack).\n"
+  }
+]

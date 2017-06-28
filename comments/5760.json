@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/222373013",
+    "html_url": "https://github.com/electron/electron/issues/5760#issuecomment-222373013",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5760",
+    "id": 222373013,
+    "user": {
+      "login": "mnquintana",
+      "id": 823545,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/823545?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mnquintana",
+      "html_url": "https://github.com/mnquintana",
+      "followers_url": "https://api.github.com/users/mnquintana/followers",
+      "following_url": "https://api.github.com/users/mnquintana/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mnquintana/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mnquintana/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mnquintana/subscriptions",
+      "organizations_url": "https://api.github.com/users/mnquintana/orgs",
+      "repos_url": "https://api.github.com/users/mnquintana/repos",
+      "events_url": "https://api.github.com/users/mnquintana/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mnquintana/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-29T17:43:47Z",
+    "updated_at": "2016-05-29T17:43:47Z",
+    "body": "This looks like a duplicate of https://github.com/electron/electron/issues/254 – see that issue for some options for solutions. In general, you should also check the console for any errors first.\n\nAlso, [we're trying to control the amount of Issues that we have to triage and track](http://blog.atom.io/2016/04/19/managing-the-deluge-of-atom-issues.html). For support questions like this, [the Electron message board](https://discuss.atom.io/c/electron) or the [Electron Slack channel](http://atom-slack.herokuapp.com/) is where you'll probably be able to find answers faster.\n"
+  }
+]

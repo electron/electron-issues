@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/284736053",
+    "html_url": "https://github.com/electron/electron/issues/2814#issuecomment-284736053",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2814",
+    "id": 284736053,
+    "user": {
+      "login": "tonyganch",
+      "id": 872004,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/872004?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tonyganch",
+      "html_url": "https://github.com/tonyganch",
+      "followers_url": "https://api.github.com/users/tonyganch/followers",
+      "following_url": "https://api.github.com/users/tonyganch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tonyganch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tonyganch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tonyganch/subscriptions",
+      "organizations_url": "https://api.github.com/users/tonyganch/orgs",
+      "repos_url": "https://api.github.com/users/tonyganch/repos",
+      "events_url": "https://api.github.com/users/tonyganch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tonyganch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-07T14:27:56Z",
+    "updated_at": "2017-03-07T14:27:56Z",
+    "body": "Taking the issue 🐙 "
+  }
+]

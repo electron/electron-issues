@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/150671715",
+    "html_url": "https://github.com/electron/electron/issues/3190#issuecomment-150671715",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3190",
+    "id": 150671715,
+    "user": {
+      "login": "jaumard",
+      "id": 2970449,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2970449?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaumard",
+      "html_url": "https://github.com/jaumard",
+      "followers_url": "https://api.github.com/users/jaumard/followers",
+      "following_url": "https://api.github.com/users/jaumard/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jaumard/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jaumard/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jaumard/subscriptions",
+      "organizations_url": "https://api.github.com/users/jaumard/orgs",
+      "repos_url": "https://api.github.com/users/jaumard/repos",
+      "events_url": "https://api.github.com/users/jaumard/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jaumard/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-23T19:39:16Z",
+    "updated_at": "2015-10-23T19:39:16Z",
+    "body": "Disabling node integration fix the problem ! \n\n```\nmainWindow = new BrowserWindow({\n        width              : 1200,\n        height             : 900,\n        \"node-integration\" : false\n    });\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/252440037",
+    "html_url": "https://github.com/electron/electron/issues/3190#issuecomment-252440037",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3190",
+    "id": 252440037,
+    "user": {
+      "login": "HaiderMalik12",
+      "id": 16774378,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/16774378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HaiderMalik12",
+      "html_url": "https://github.com/HaiderMalik12",
+      "followers_url": "https://api.github.com/users/HaiderMalik12/followers",
+      "following_url": "https://api.github.com/users/HaiderMalik12/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HaiderMalik12/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HaiderMalik12/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HaiderMalik12/subscriptions",
+      "organizations_url": "https://api.github.com/users/HaiderMalik12/orgs",
+      "repos_url": "https://api.github.com/users/HaiderMalik12/repos",
+      "events_url": "https://api.github.com/users/HaiderMalik12/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HaiderMalik12/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-08T18:21:29Z",
+    "updated_at": "2016-10-08T18:21:29Z",
+    "body": "I also want to use sails js with electron. Could you provide me some boilerplate code for sails and electron integration ?\n"
+  }
+]

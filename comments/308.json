@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/43093546",
+    "html_url": "https://github.com/electron/electron/issues/308#issuecomment-43093546",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/308",
+    "id": 43093546,
+    "user": {
+      "login": "rynomad",
+      "id": 3123395,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3123395?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rynomad",
+      "html_url": "https://github.com/rynomad",
+      "followers_url": "https://api.github.com/users/rynomad/followers",
+      "following_url": "https://api.github.com/users/rynomad/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rynomad/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rynomad/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rynomad/subscriptions",
+      "organizations_url": "https://api.github.com/users/rynomad/orgs",
+      "repos_url": "https://api.github.com/users/rynomad/repos",
+      "events_url": "https://api.github.com/users/rynomad/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rynomad/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-05-14T15:12:50Z",
+    "updated_at": "2014-05-14T15:12:50Z",
+    "body": "thanks for the quick fix :)\n"
+  }
+]

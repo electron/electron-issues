@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309671938",
+    "html_url": "https://github.com/electron/electron/issues/9267#issuecomment-309671938",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9267",
+    "id": 309671938,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-20T07:44:35Z",
+    "updated_at": "2017-06-20T07:44:35Z",
+    "body": "Icons in notification area can only show as squared since it is a limitation of Windows, to implement what you want we have to introduce a whole new set of API to create taskbar toolbars, which I think is beyond Electron's scope.\r\n\r\nFor your case I suggest writing a native module to create taskbar toolbars."
+  }
+]

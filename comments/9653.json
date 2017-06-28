@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/307660534",
+    "html_url": "https://github.com/electron/electron/issues/9653#issuecomment-307660534",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9653",
+    "id": 307660534,
+    "user": {
+      "login": "shubham2892",
+      "id": 6316389,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6316389?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shubham2892",
+      "html_url": "https://github.com/shubham2892",
+      "followers_url": "https://api.github.com/users/shubham2892/followers",
+      "following_url": "https://api.github.com/users/shubham2892/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shubham2892/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shubham2892/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shubham2892/subscriptions",
+      "organizations_url": "https://api.github.com/users/shubham2892/orgs",
+      "repos_url": "https://api.github.com/users/shubham2892/repos",
+      "events_url": "https://api.github.com/users/shubham2892/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shubham2892/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-11T22:15:23Z",
+    "updated_at": "2017-06-11T22:15:23Z",
+    "body": "@antelle : You might be able to listen to the system events using:\r\n\r\n```\r\n  const {systemPreferences} = require('electron')\r\n  systemPreferences.subscribeNotification('com.apple.screensaver.didstart', () => {\r\n       console.log('Screen Saver Starts')\r\n  })\r\n\r\n```"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/307884877",
+    "html_url": "https://github.com/electron/electron/issues/9653#issuecomment-307884877",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9653",
+    "id": 307884877,
+    "user": {
+      "login": "antelle",
+      "id": 633557,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/633557?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antelle",
+      "html_url": "https://github.com/antelle",
+      "followers_url": "https://api.github.com/users/antelle/followers",
+      "following_url": "https://api.github.com/users/antelle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/antelle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/antelle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/antelle/subscriptions",
+      "organizations_url": "https://api.github.com/users/antelle/orgs",
+      "repos_url": "https://api.github.com/users/antelle/repos",
+      "events_url": "https://api.github.com/users/antelle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/antelle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-12T18:52:44Z",
+    "updated_at": "2017-06-12T18:52:44Z",
+    "body": "@shubham2892 wow that's cool! Both events are working, thanks for the tip!\r\nHowever, it would be great to have a common lock event for all OS'es, so I'll leave it open."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/219935774",
+    "html_url": "https://github.com/electron/electron/issues/5555#issuecomment-219935774",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5555",
+    "id": 219935774,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-18T06:22:54Z",
+    "updated_at": "2016-05-18T06:22:54Z",
+    "body": "@dlmanning Can you file this bug upstream? It's obscure, but at least if it's filed Chrome might fix it in the future\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/220086453",
+    "html_url": "https://github.com/electron/electron/issues/5555#issuecomment-220086453",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5555",
+    "id": 220086453,
+    "user": {
+      "login": "dlmanning",
+      "id": 2949092,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2949092?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlmanning",
+      "html_url": "https://github.com/dlmanning",
+      "followers_url": "https://api.github.com/users/dlmanning/followers",
+      "following_url": "https://api.github.com/users/dlmanning/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dlmanning/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dlmanning/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dlmanning/subscriptions",
+      "organizations_url": "https://api.github.com/users/dlmanning/orgs",
+      "repos_url": "https://api.github.com/users/dlmanning/repos",
+      "events_url": "https://api.github.com/users/dlmanning/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dlmanning/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-18T16:41:45Z",
+    "updated_at": "2016-05-18T16:41:45Z",
+    "body": "@paulcbetts : yeah, I'll make a report. Who knows, right? (Honestly, I'm not sure NTLM even deserves to be fixed)\n"
+  }
+]

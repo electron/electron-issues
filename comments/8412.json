@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/272657550",
+    "html_url": "https://github.com/electron/electron/issues/8412#issuecomment-272657550",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8412",
+    "id": 272657550,
+    "user": {
+      "login": "CodeX2",
+      "id": 20548812,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20548812?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/CodeX2",
+      "html_url": "https://github.com/CodeX2",
+      "followers_url": "https://api.github.com/users/CodeX2/followers",
+      "following_url": "https://api.github.com/users/CodeX2/following{/other_user}",
+      "gists_url": "https://api.github.com/users/CodeX2/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/CodeX2/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/CodeX2/subscriptions",
+      "organizations_url": "https://api.github.com/users/CodeX2/orgs",
+      "repos_url": "https://api.github.com/users/CodeX2/repos",
+      "events_url": "https://api.github.com/users/CodeX2/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/CodeX2/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-14T22:21:16Z",
+    "updated_at": "2017-01-14T22:21:16Z",
+    "body": "Resolved by setting \r\ntype: \"toolbar\","
+  }
+]

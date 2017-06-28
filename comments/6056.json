@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226127261",
+    "html_url": "https://github.com/electron/electron/issues/6056#issuecomment-226127261",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6056",
+    "id": 226127261,
+    "user": {
+      "login": "fasterthanlime",
+      "id": 7998310,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7998310?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fasterthanlime",
+      "html_url": "https://github.com/fasterthanlime",
+      "followers_url": "https://api.github.com/users/fasterthanlime/followers",
+      "following_url": "https://api.github.com/users/fasterthanlime/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fasterthanlime/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fasterthanlime/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fasterthanlime/subscriptions",
+      "organizations_url": "https://api.github.com/users/fasterthanlime/orgs",
+      "repos_url": "https://api.github.com/users/fasterthanlime/repos",
+      "events_url": "https://api.github.com/users/fasterthanlime/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fasterthanlime/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-15T08:52:49Z",
+    "updated_at": "2016-06-15T08:59:43Z",
+    "body": "I think I found the culprit: `app.dock.setIcon` probably sets its own NSTile contentView, which doesn't contain the progress bar subview, which means the if body never gets executed, which explains the crash on\n\n``` objc\n NSProgressIndicator* progress_indicator =\n      static_cast<NSProgressIndicator*>([[[dock_tile contentView] subviews]\n```\n\n...since the contentView doesn't have any subviews\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226130226",
+    "html_url": "https://github.com/electron/electron/issues/6056#issuecomment-226130226",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6056",
+    "id": 226130226,
+    "user": {
+      "login": "fasterthanlime",
+      "id": 7998310,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7998310?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fasterthanlime",
+      "html_url": "https://github.com/fasterthanlime",
+      "followers_url": "https://api.github.com/users/fasterthanlime/followers",
+      "following_url": "https://api.github.com/users/fasterthanlime/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fasterthanlime/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fasterthanlime/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fasterthanlime/subscriptions",
+      "organizations_url": "https://api.github.com/users/fasterthanlime/orgs",
+      "repos_url": "https://api.github.com/users/fasterthanlime/repos",
+      "events_url": "https://api.github.com/users/fasterthanlime/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fasterthanlime/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-15T09:05:10Z",
+    "updated_at": "2016-06-15T09:05:10Z",
+    "body": "[dock.setIcon code for reference](https://github.com/electron/electron/blob/f34cd8767cc54a73bf7e49fa69a108031cc67a6d/atom/browser/browser_mac.mm#L217) — that the contentView is set is probably an implementation detail of OSX.\n\nmaybe the if's check should be changed to\n\n``` objc\nif ([dock_tile contentView] == NULL || [[[dock_tile contentView] subViews] count] == 0)\n```\n\nthat's the simplest fix I can think of — it would override the default contentView created by OSX on `setApplicationIconImage`, but with a view owned by electron that displays the same icon (because the `applicationIconImage` getter would return the newly set value).\n\nthe only remaining issue will be that setting the dock icon will probably clear the progress bar (but that could be patched in DockSetIcon pretty easily)\n"
+  }
+]

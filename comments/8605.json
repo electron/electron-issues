@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/277848914",
+    "html_url": "https://github.com/electron/electron/pull/8605#issuecomment-277848914",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8605",
+    "id": 277848914,
+    "user": {
+      "login": "ide",
+      "id": 379606,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/379606?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ide",
+      "html_url": "https://github.com/ide",
+      "followers_url": "https://api.github.com/users/ide/followers",
+      "following_url": "https://api.github.com/users/ide/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ide/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ide/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ide/subscriptions",
+      "organizations_url": "https://api.github.com/users/ide/orgs",
+      "repos_url": "https://api.github.com/users/ide/repos",
+      "events_url": "https://api.github.com/users/ide/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ide/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-06T23:30:46Z",
+    "updated_at": "2017-02-06T23:30:46Z",
+    "body": "Nice!"
+  }
+]

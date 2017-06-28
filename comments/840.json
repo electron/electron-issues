@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/63588932",
+    "html_url": "https://github.com/electron/electron/issues/840#issuecomment-63588932",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/840",
+    "id": 63588932,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-19T03:57:39Z",
+    "updated_at": "2014-11-19T03:57:39Z",
+    "body": "/cc atom/atom-shell-starter#9\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/63592745",
+    "html_url": "https://github.com/electron/electron/issues/840#issuecomment-63592745",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/840",
+    "id": 63592745,
+    "user": {
+      "login": "mehcode",
+      "id": 753919,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/753919?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mehcode",
+      "html_url": "https://github.com/mehcode",
+      "followers_url": "https://api.github.com/users/mehcode/followers",
+      "following_url": "https://api.github.com/users/mehcode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mehcode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mehcode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mehcode/subscriptions",
+      "organizations_url": "https://api.github.com/users/mehcode/orgs",
+      "repos_url": "https://api.github.com/users/mehcode/repos",
+      "events_url": "https://api.github.com/users/mehcode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mehcode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-19T05:04:07Z",
+    "updated_at": "2014-11-19T05:04:07Z",
+    "body": "Somewhat related to this — The developer tools pop-out does not have `WM_CLASS` set at all.\n"
+  }
+]

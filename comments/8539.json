@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/276142777",
+    "html_url": "https://github.com/electron/electron/pull/8539#issuecomment-276142777",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8539",
+    "id": 276142777,
+    "user": {
+      "login": "ide",
+      "id": 379606,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/379606?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ide",
+      "html_url": "https://github.com/ide",
+      "followers_url": "https://api.github.com/users/ide/followers",
+      "following_url": "https://api.github.com/users/ide/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ide/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ide/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ide/subscriptions",
+      "organizations_url": "https://api.github.com/users/ide/orgs",
+      "repos_url": "https://api.github.com/users/ide/repos",
+      "events_url": "https://api.github.com/users/ide/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ide/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-30T18:11:15Z",
+    "updated_at": "2017-01-30T18:11:15Z",
+    "body": "Thanks for taking care of the rebase and updating the tests!"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/276149757",
+    "html_url": "https://github.com/electron/electron/pull/8539#issuecomment-276149757",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8539",
+    "id": 276149757,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-01-30T18:36:44Z",
+    "updated_at": "2017-01-30T18:36:44Z",
+    "body": "Thanks for this @ide 👍 "
+  }
+]

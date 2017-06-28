@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/247643440",
+    "html_url": "https://github.com/electron/electron/issues/6731#issuecomment-247643440",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6731",
+    "id": 247643440,
+    "user": {
+      "login": "yuya-oc",
+      "id": 1412057,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1412057?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yuya-oc",
+      "html_url": "https://github.com/yuya-oc",
+      "followers_url": "https://api.github.com/users/yuya-oc/followers",
+      "following_url": "https://api.github.com/users/yuya-oc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yuya-oc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yuya-oc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yuya-oc/subscriptions",
+      "organizations_url": "https://api.github.com/users/yuya-oc/orgs",
+      "repos_url": "https://api.github.com/users/yuya-oc/repos",
+      "events_url": "https://api.github.com/users/yuya-oc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yuya-oc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-16T16:19:36Z",
+    "updated_at": "2016-09-16T16:19:36Z",
+    "body": "FYI, when using JP 106/109 keyboard layout, `Ctrl+Plus` ends up as `Shift+Ctrl+;`. In the layout, `+` is located as `Shift+;`, so it seems to depend on the way to input `+` with keyboard.\n- Electron: 1.4.0\n- Operation system: Windows 10\n"
+  }
+]

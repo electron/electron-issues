@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/261773471",
+    "html_url": "https://github.com/electron/electron/issues/8026#issuecomment-261773471",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8026",
+    "id": 261773471,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-20T11:48:22Z",
+    "updated_at": "2016-11-20T11:48:22Z",
+    "body": "See https://github.com/electron/electron/issues/5830#issuecomment-243706205\nhttps://github.com/electron/electron/issues/673\n\nFor issues discussing this generic issue that others have faced.  The TLDR is that splitting `electron.exe` into `electron.dll` and `electron.exe` is quite difficult and not in the plan at the moment.  The runtime discussion is still ongoing.  Using the same executable for multiple programs introduces a whole heap of issues though.\n"
+  }
+]

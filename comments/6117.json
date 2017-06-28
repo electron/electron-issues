@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226991280",
+    "html_url": "https://github.com/electron/electron/issues/6117#issuecomment-226991280",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6117",
+    "id": 226991280,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-19T11:01:51Z",
+    "updated_at": "2016-06-19T11:01:51Z",
+    "body": "No, it is not possible in Electron for now, and even you patched Electron to allow that, we would still strongly advice against that, Node.js is not designed to allow hot-patching loaded components, and it is definitely going to cause troubles for you.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/227000658",
+    "html_url": "https://github.com/electron/electron/issues/6117#issuecomment-227000658",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6117",
+    "id": 227000658,
+    "user": {
+      "login": "lordminor",
+      "id": 17415565,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17415565?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lordminor",
+      "html_url": "https://github.com/lordminor",
+      "followers_url": "https://api.github.com/users/lordminor/followers",
+      "following_url": "https://api.github.com/users/lordminor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lordminor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lordminor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lordminor/subscriptions",
+      "organizations_url": "https://api.github.com/users/lordminor/orgs",
+      "repos_url": "https://api.github.com/users/lordminor/repos",
+      "events_url": "https://api.github.com/users/lordminor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lordminor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-19T14:36:25Z",
+    "updated_at": "2016-06-19T14:36:25Z",
+    "body": "Hi. Thanks for the reply! \n\nI know that isn't the better way to update the App but what about download the asar file in another director and once the App is closed replace the App.asar..? It wont cause troubles. I'm trying to execute the script before unload the App but the file still locked. It is possible with node ? For example run a background service to apply the update or an event in electrón to execute code after the App was closed ? Thanks for the help. \n"
+  }
+]

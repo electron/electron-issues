@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/304387871",
+    "html_url": "https://github.com/electron/electron/issues/9455#issuecomment-304387871",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9455",
+    "id": 304387871,
+    "user": {
+      "login": "shubham2892",
+      "id": 6316389,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6316389?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shubham2892",
+      "html_url": "https://github.com/shubham2892",
+      "followers_url": "https://api.github.com/users/shubham2892/followers",
+      "following_url": "https://api.github.com/users/shubham2892/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shubham2892/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shubham2892/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shubham2892/subscriptions",
+      "organizations_url": "https://api.github.com/users/shubham2892/orgs",
+      "repos_url": "https://api.github.com/users/shubham2892/repos",
+      "events_url": "https://api.github.com/users/shubham2892/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shubham2892/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-26T21:04:24Z",
+    "updated_at": "2017-05-26T21:19:36Z",
+    "body": "Did a little digging and seems like on [[dialog setAllowedFileTypes:file_types]](https://github.com/electron/electron/blob/master/atom/browser/ui/file_dialog_mac.mm#L43),  the extension in the file name is changed to first _extension type_ passed in `file_types` variable which  happened to be `png` in above example(The order in which extensions are passed is not respected as it is being stored in `set` in an intermediate step). "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308813232",
+    "html_url": "https://github.com/electron/electron/issues/9455#issuecomment-308813232",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9455",
+    "id": 308813232,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-15T17:29:28Z",
+    "updated_at": "2017-06-15T17:29:28Z",
+    "body": "Fixed by @shubham2892 in #9610 "
+  }
+]

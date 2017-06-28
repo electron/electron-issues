@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224131127",
+    "html_url": "https://github.com/electron/electron/issues/5885#issuecomment-224131127",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5885",
+    "id": 224131127,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-07T00:45:05Z",
+    "updated_at": "2016-06-07T00:45:05Z",
+    "body": "Electron doesn't keep navigation history, you have to hook the DOM to provide your own solution.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224156038",
+    "html_url": "https://github.com/electron/electron/issues/5885#issuecomment-224156038",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5885",
+    "id": 224156038,
+    "user": {
+      "login": "pfrazee",
+      "id": 1270099,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1270099?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pfrazee",
+      "html_url": "https://github.com/pfrazee",
+      "followers_url": "https://api.github.com/users/pfrazee/followers",
+      "following_url": "https://api.github.com/users/pfrazee/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pfrazee/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pfrazee/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pfrazee/subscriptions",
+      "organizations_url": "https://api.github.com/users/pfrazee/orgs",
+      "repos_url": "https://api.github.com/users/pfrazee/repos",
+      "events_url": "https://api.github.com/users/pfrazee/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pfrazee/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-07T02:58:28Z",
+    "updated_at": "2016-06-07T02:58:28Z",
+    "body": "I'll need an API to set the history, won't I?\n\n> On Jun 6, 2016, at 5:46 PM, Cheng Zhao notifications@github.com wrote:\n> \n> Closed #5885.\n> \n> —\n> You are receiving this because you authored the thread.\n> Reply to this email directly, view it on GitHub, or mute the thread.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/215978088",
+    "html_url": "https://github.com/electron/electron/pull/5352#issuecomment-215978088",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5352",
+    "id": 215978088,
+    "user": {
+      "login": "dasilvacontin",
+      "id": 1260830,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1260830?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dasilvacontin",
+      "html_url": "https://github.com/dasilvacontin",
+      "followers_url": "https://api.github.com/users/dasilvacontin/followers",
+      "following_url": "https://api.github.com/users/dasilvacontin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dasilvacontin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dasilvacontin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dasilvacontin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dasilvacontin/orgs",
+      "repos_url": "https://api.github.com/users/dasilvacontin/repos",
+      "events_url": "https://api.github.com/users/dasilvacontin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dasilvacontin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-30T16:46:15Z",
+    "updated_at": "2016-04-30T16:46:15Z",
+    "body": "Thanks so much for working on this!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217065893",
+    "html_url": "https://github.com/electron/electron/pull/5352#issuecomment-217065893",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5352",
+    "id": 217065893,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-05T03:06:55Z",
+    "updated_at": "2016-05-05T03:06:55Z",
+    "body": "👍 \n"
+  }
+]

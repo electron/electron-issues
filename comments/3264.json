@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/152393946",
+    "html_url": "https://github.com/electron/electron/issues/3264#issuecomment-152393946",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3264",
+    "id": 152393946,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-30T02:30:17Z",
+    "updated_at": "2015-10-30T02:30:17Z",
+    "body": "`prevent-app-suspension` only prevents your app to be suspended by system when it is running in background, it doesn't make your app run even when the system sleeps.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/152394090",
+    "html_url": "https://github.com/electron/electron/issues/3264#issuecomment-152394090",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3264",
+    "id": 152394090,
+    "user": {
+      "login": "zackify",
+      "id": 449136,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/449136?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zackify",
+      "html_url": "https://github.com/zackify",
+      "followers_url": "https://api.github.com/users/zackify/followers",
+      "following_url": "https://api.github.com/users/zackify/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zackify/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zackify/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zackify/subscriptions",
+      "organizations_url": "https://api.github.com/users/zackify/orgs",
+      "repos_url": "https://api.github.com/users/zackify/repos",
+      "events_url": "https://api.github.com/users/zackify/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zackify/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-30T02:31:44Z",
+    "updated_at": "2015-10-30T02:31:44Z",
+    "body": "Is there no way to prevent sleep long enough to make an Ajax request?\nOn Thu, Oct 29, 2015 at 22:30 Cheng Zhao notifications@github.com wrote:\n\n> Closed #3264 https://github.com/atom/electron/issues/3264.\n> \n> —\n> Reply to this email directly or view it on GitHub\n> https://github.com/atom/electron/issues/3264#event-449963195.\n"
+  }
+]

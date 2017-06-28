@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/230365041",
+    "html_url": "https://github.com/electron/electron/issues/6338#issuecomment-230365041",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6338",
+    "id": 230365041,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-05T00:02:07Z",
+    "updated_at": "2016-07-05T00:02:07Z",
+    "body": "The copy command on macOS is a bit different from other platforms, for Windows and Linux the ctrl-c event is translated to copy command directly, however for macOS, the cmd+c would trigger the `copy:` action on the webview, which then sends a copy command.\n\nBut `sendInputEvent` sends the event to DOM directly, and skips the `copy:` action, which should be why it doesn't emit the copy command.\n\nI'm closing this since it is how Chromium's input system is designed.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/230365562",
+    "html_url": "https://github.com/electron/electron/issues/6338#issuecomment-230365562",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6338",
+    "id": 230365562,
+    "user": {
+      "login": "kirkouimet",
+      "id": 62191,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/62191?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kirkouimet",
+      "html_url": "https://github.com/kirkouimet",
+      "followers_url": "https://api.github.com/users/kirkouimet/followers",
+      "following_url": "https://api.github.com/users/kirkouimet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kirkouimet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kirkouimet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kirkouimet/subscriptions",
+      "organizations_url": "https://api.github.com/users/kirkouimet/orgs",
+      "repos_url": "https://api.github.com/users/kirkouimet/repos",
+      "events_url": "https://api.github.com/users/kirkouimet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kirkouimet/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-05T00:12:23Z",
+    "updated_at": "2016-07-05T00:12:23Z",
+    "body": "Thanks @zcbenz, good to know this about macOS. \n"
+  }
+]

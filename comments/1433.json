@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/93865318",
+    "html_url": "https://github.com/electron/electron/issues/1433#issuecomment-93865318",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1433",
+    "id": 93865318,
+    "user": {
+      "login": "frankhale",
+      "id": 190154,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/190154?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frankhale",
+      "html_url": "https://github.com/frankhale",
+      "followers_url": "https://api.github.com/users/frankhale/followers",
+      "following_url": "https://api.github.com/users/frankhale/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frankhale/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frankhale/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frankhale/subscriptions",
+      "organizations_url": "https://api.github.com/users/frankhale/orgs",
+      "repos_url": "https://api.github.com/users/frankhale/repos",
+      "events_url": "https://api.github.com/users/frankhale/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frankhale/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-17T00:05:07Z",
+    "updated_at": "2015-04-17T00:05:07Z",
+    "body": "I'd suspect that a new identifier called electron will be added which\nprovides the same info and the atom-shell will still exist and then be\ndeprecated after a while. That is just an opinion of course.\n\nOn Thu, Apr 16, 2015 at 7:58 PM mattcollier notifications@github.com\nwrote:\n\n> I suspect there's a fair amount of existing code that uses\n> process.versions['atom-shell'] to identify the atom-shell environment. What\n> is to become of this property when the name change occurs? Is there a\n> better way to identify then atom-shell environment?\n> \n> —\n> Reply to this email directly or view it on GitHub\n> https://github.com/atom/atom-shell/issues/1433.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/93890134",
+    "html_url": "https://github.com/electron/electron/issues/1433#issuecomment-93890134",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1433",
+    "id": 93890134,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-04-17T04:17:06Z",
+    "updated_at": "2015-04-17T04:17:06Z",
+    "body": "`process.versions['atom-shell']` will be kept for backward compatibility, existing code will not be affected by the rename.\n"
+  }
+]

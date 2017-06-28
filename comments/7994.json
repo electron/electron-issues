@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/305114192",
+    "html_url": "https://github.com/electron/electron/issues/7994#issuecomment-305114192",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7994",
+    "id": 305114192,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-31T07:54:47Z",
+    "updated_at": "2017-05-31T07:54:47Z",
+    "body": "There is an open Chromium issue for this: https://bugs.chromium.org/p/chromium/issues/detail?id=568727, I'm closing this issue since there is not much meaning keeping the same issue opened in Electron, anyone interested in this can follow the Chromium issue instead."
+  }
+]

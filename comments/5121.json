@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/209162484",
+    "html_url": "https://github.com/electron/electron/issues/5121#issuecomment-209162484",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5121",
+    "id": 209162484,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-13T00:25:09Z",
+    "updated_at": "2016-04-13T00:25:09Z",
+    "body": "It looks like a race condition when doing IO:\n\n```\nTweakStyle!std::_Hash<std::_Umap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,brightray::DevToolsNetworkInterceptor * __ptr64,std::_Uhash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::hash<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::equal_to<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,brightray::DevToolsNetworkInterceptor * __ptr64> >,0> >::lower_bound+0x82\nTweakStyle!brightray::DevToolsNetworkController::SetNetworkState+0x41\nTweakStyle!brightray::`anonymous namespace'::UpdateNetworkStateInIO+0x34\nTweakStyle!base::internal::InvokeHelper<0,void,base::internal::RunnableAdapter<void (__cdecl*)(brightray::DevToolsNetworkController * __ptr64,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __ptr64,scoped_ptr<brightray::DevToolsNetworkConditions,std::default_delete<brightray::DevToolsNetworkConditions> >)>,base::internal::TypeList<brightray::DevToolsNetworkController * __ptr64 const & __ptr64,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __ptr64,scoped_ptr<brightray::DevToolsNetworkConditions,std::default_delete<brightray::DevToolsNetworkConditions> > > >::MakeItSo+0x56\nTweakStyle!base::internal::Invoker<base::IndexSequence<0,1,2>,base::internal::BindState<base::internal::RunnableAdapter<void (__cdecl*)(brightray::DevToolsNetworkController * __ptr64,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __ptr64,scoped_ptr<brightray::DevToolsNetworkConditions,std::default_delete<brightray::DevToolsNetworkConditions> >)>,void __cdecl(brightray::DevToolsNetworkController * __ptr64,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __ptr64,scoped_ptr<brightray::DevToolsNetworkConditions,std::default_delete<brightray::DevToolsNetworkConditions> >),brightray::DevToolsNetworkController * __ptr64,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,base::internal::PassedWrapper<scoped_ptr<brightray::DevToolsNetworkConditions,std::default_delete<brightray::DevToolsNetworkConditions> > > >,base::internal::TypeList<base::internal::UnwrapTraits<brightray::DevToolsNetworkController * __ptr64>,base::internal::UnwrapTraits<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,base::internal::UnwrapTraits<base::internal::PassedWrapper<scoped_ptr<brightray::DevToolsNetworkConditions,std::default_delete<brightray::DevToolsNetworkConditions> > > > >,base::internal::InvokeHelper<0,void,base::internal::RunnableAdapter<void (__cdecl*)(brightray::DevToolsNetworkController * __ptr64,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __ptr64,scoped_ptr<brightray::DevToolsNetworkConditions,std::default_delete<brightray::DevToolsNetworkConditions> >)>,base::internal::TypeList<brightray::DevToolsNetworkController * __ptr64 const & __ptr64,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __ptr64,scoped_ptr<brightray::DevToolsNetworkConditions,std::default_delete<brightray::DevToolsNetworkConditions> > > >,void __cdecl(void)>::Run+0x45\nTweakStyle!base::debug::TaskAnnotator::RunTask+0x133\nTweakStyle!base::MessageLoop::RunTask+0x368\nTweakStyle!base::MessageLoop::DoWork+0x3f6\nTweakStyle!base::MessagePumpForIO::DoRunLoop+0x10e\nTweakStyle!base::MessagePumpWin::Run+0x4b\nTweakStyle!base::RunLoop::Run+0x68\nTweakStyle!base::MessageLoop::Run+0x20\nTweakStyle!content::BrowserThreadImpl::IOThreadRun+0x2e\nTweakStyle!content::BrowserThreadImpl::Run+0x10f\nTweakStyle!base::Thread::ThreadMain+0x176\nTweakStyle!base::`anonymous namespace'::ThreadFunc+0x157\nkernel32!BaseThreadInitThunk+0x22\nntdll!RtlUserThreadStart+0x34\n```\n"
+  }
+]

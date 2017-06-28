@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/295351066",
+    "html_url": "https://github.com/electron/electron/issues/9232#issuecomment-295351066",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9232",
+    "id": 295351066,
+    "user": {
+      "login": "rhysd",
+      "id": 823277,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/823277?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rhysd",
+      "html_url": "https://github.com/rhysd",
+      "followers_url": "https://api.github.com/users/rhysd/followers",
+      "following_url": "https://api.github.com/users/rhysd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rhysd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rhysd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rhysd/subscriptions",
+      "organizations_url": "https://api.github.com/users/rhysd/orgs",
+      "repos_url": "https://api.github.com/users/rhysd/repos",
+      "events_url": "https://api.github.com/users/rhysd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rhysd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-19T17:15:01Z",
+    "updated_at": "2017-04-19T17:47:48Z",
+    "body": "If `sandbox: true` is not set, inserted CSS is reflected. So this behavior may be intentional (although I could not find any doc for this)."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309669011",
+    "html_url": "https://github.com/electron/electron/issues/9232#issuecomment-309669011",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9232",
+    "id": 309669011,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-20T07:30:26Z",
+    "updated_at": "2017-06-20T07:30:26Z",
+    "body": "I'm merging this to #9073 since they are essentially the same bug."
+  }
+]

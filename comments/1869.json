@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/109061328",
+    "html_url": "https://github.com/electron/electron/issues/1869#issuecomment-109061328",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1869",
+    "id": 109061328,
+    "user": {
+      "login": "steelbrain",
+      "id": 4278113,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4278113?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/steelbrain",
+      "html_url": "https://github.com/steelbrain",
+      "followers_url": "https://api.github.com/users/steelbrain/followers",
+      "following_url": "https://api.github.com/users/steelbrain/following{/other_user}",
+      "gists_url": "https://api.github.com/users/steelbrain/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/steelbrain/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/steelbrain/subscriptions",
+      "organizations_url": "https://api.github.com/users/steelbrain/orgs",
+      "repos_url": "https://api.github.com/users/steelbrain/repos",
+      "events_url": "https://api.github.com/users/steelbrain/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/steelbrain/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-04T21:36:43Z",
+    "updated_at": "2015-06-04T21:36:43Z",
+    "body": "Please do explain. Your question was **very** confusing.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/109256371",
+    "html_url": "https://github.com/electron/electron/issues/1869#issuecomment-109256371",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1869",
+    "id": 109256371,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-06-05T10:43:39Z",
+    "updated_at": "2015-06-05T10:43:39Z",
+    "body": "Probably the [new-window event](https://github.com/atom/electron/blob/master/docs/api/browser-window.md#event-new-window).\n"
+  }
+]

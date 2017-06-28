@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/220812551",
+    "html_url": "https://github.com/electron/electron/issues/5619#issuecomment-220812551",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5619",
+    "id": 220812551,
+    "user": {
+      "login": "romaincointepas",
+      "id": 797899,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/797899?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/romaincointepas",
+      "html_url": "https://github.com/romaincointepas",
+      "followers_url": "https://api.github.com/users/romaincointepas/followers",
+      "following_url": "https://api.github.com/users/romaincointepas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/romaincointepas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/romaincointepas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/romaincointepas/subscriptions",
+      "organizations_url": "https://api.github.com/users/romaincointepas/orgs",
+      "repos_url": "https://api.github.com/users/romaincointepas/repos",
+      "events_url": "https://api.github.com/users/romaincointepas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/romaincointepas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-22T03:40:32Z",
+    "updated_at": "2016-05-22T03:40:32Z",
+    "body": "Awesome, thanks!\n"
+  }
+]

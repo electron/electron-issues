@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/238167234",
+    "html_url": "https://github.com/electron/electron/issues/6763#issuecomment-238167234",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6763",
+    "id": 238167234,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-08T08:01:32Z",
+    "updated_at": "2016-08-08T08:01:32Z",
+    "body": "Thanks for noticing, I have updated the release notes.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/238173587",
+    "html_url": "https://github.com/electron/electron/issues/6763#issuecomment-238173587",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6763",
+    "id": 238173587,
+    "user": {
+      "login": "miniak",
+      "id": 1281234,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1281234?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/miniak",
+      "html_url": "https://github.com/miniak",
+      "followers_url": "https://api.github.com/users/miniak/followers",
+      "following_url": "https://api.github.com/users/miniak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/miniak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/miniak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/miniak/subscriptions",
+      "organizations_url": "https://api.github.com/users/miniak/orgs",
+      "repos_url": "https://api.github.com/users/miniak/repos",
+      "events_url": "https://api.github.com/users/miniak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/miniak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-08T08:31:58Z",
+    "updated_at": "2016-08-08T08:31:58Z",
+    "body": "@zcbenz When I update the TypeScript definitions for a new Electron version, I also do `git diff vPrev..vNew docs/api` and then check the release notes :)\n"
+  }
+]

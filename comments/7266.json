@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/248348030",
+    "html_url": "https://github.com/electron/electron/issues/7266#issuecomment-248348030",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7266",
+    "id": 248348030,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-20T16:03:19Z",
+    "updated_at": "2016-09-20T16:03:19Z",
+    "body": "This is added by the operating system and not Electron.\n\nYou might want to check out http://apple.stackexchange.com/questions/207895/app-gets-in-commandline-parameter-psn-0-nnnnnn-why for more details.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/248378159",
+    "html_url": "https://github.com/electron/electron/issues/7266#issuecomment-248378159",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7266",
+    "id": 248378159,
+    "user": {
+      "login": "rgbkrk",
+      "id": 836375,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/836375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rgbkrk",
+      "html_url": "https://github.com/rgbkrk",
+      "followers_url": "https://api.github.com/users/rgbkrk/followers",
+      "following_url": "https://api.github.com/users/rgbkrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rgbkrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rgbkrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rgbkrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/rgbkrk/orgs",
+      "repos_url": "https://api.github.com/users/rgbkrk/repos",
+      "events_url": "https://api.github.com/users/rgbkrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rgbkrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-20T17:49:38Z",
+    "updated_at": "2016-09-20T17:49:38Z",
+    "body": "Thanks @kevinsawicki! Yeah, I filtered that out from our args after reporting this. Sorry for the noise.\n"
+  }
+]

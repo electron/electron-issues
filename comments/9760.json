@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308580713",
+    "html_url": "https://github.com/electron/electron/pull/9760#issuecomment-308580713",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9760",
+    "id": 308580713,
+    "user": {
+      "login": "zeke",
+      "id": 2289,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2289?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zeke",
+      "html_url": "https://github.com/zeke",
+      "followers_url": "https://api.github.com/users/zeke/followers",
+      "following_url": "https://api.github.com/users/zeke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zeke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zeke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zeke/subscriptions",
+      "organizations_url": "https://api.github.com/users/zeke/orgs",
+      "repos_url": "https://api.github.com/users/zeke/repos",
+      "events_url": "https://api.github.com/users/zeke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zeke/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-14T22:54:03Z",
+    "updated_at": "2017-06-14T22:54:03Z",
+    "body": "Related to https://github.com/electron/electron/issues/8689\r\n\r\ncc @pronebird"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308666489",
+    "html_url": "https://github.com/electron/electron/pull/9760#issuecomment-308666489",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9760",
+    "id": 308666489,
+    "user": {
+      "login": "pronebird",
+      "id": 704044,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/704044?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pronebird",
+      "html_url": "https://github.com/pronebird",
+      "followers_url": "https://api.github.com/users/pronebird/followers",
+      "following_url": "https://api.github.com/users/pronebird/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pronebird/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pronebird/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pronebird/subscriptions",
+      "organizations_url": "https://api.github.com/users/pronebird/orgs",
+      "repos_url": "https://api.github.com/users/pronebird/repos",
+      "events_url": "https://api.github.com/users/pronebird/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pronebird/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-15T08:35:35Z",
+    "updated_at": "2017-06-15T08:35:35Z",
+    "body": "@zeke this PR introduces mouse hover support. That's different from when user clicks on other item in menubar..."
+  }
+]

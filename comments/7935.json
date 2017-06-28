@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/259843614",
+    "html_url": "https://github.com/electron/electron/issues/7935#issuecomment-259843614",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7935",
+    "id": 259843614,
+    "user": {
+      "login": "Sential",
+      "id": 11065386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11065386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Sential",
+      "html_url": "https://github.com/Sential",
+      "followers_url": "https://api.github.com/users/Sential/followers",
+      "following_url": "https://api.github.com/users/Sential/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Sential/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Sential/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Sential/subscriptions",
+      "organizations_url": "https://api.github.com/users/Sential/orgs",
+      "repos_url": "https://api.github.com/users/Sential/repos",
+      "events_url": "https://api.github.com/users/Sential/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Sential/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-10T23:57:55Z",
+    "updated_at": "2016-11-10T23:57:55Z",
+    "body": "Problem have been solved. Just turn off antivirus in my case Avast. Closing.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/260207920",
+    "html_url": "https://github.com/electron/electron/issues/7935#issuecomment-260207920",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7935",
+    "id": 260207920,
+    "user": {
+      "login": "TimNZ",
+      "id": 1051701,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1051701?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimNZ",
+      "html_url": "https://github.com/TimNZ",
+      "followers_url": "https://api.github.com/users/TimNZ/followers",
+      "following_url": "https://api.github.com/users/TimNZ/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimNZ/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimNZ/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimNZ/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimNZ/orgs",
+      "repos_url": "https://api.github.com/users/TimNZ/repos",
+      "events_url": "https://api.github.com/users/TimNZ/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimNZ/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-13T19:52:22Z",
+    "updated_at": "2016-11-13T19:52:22Z",
+    "body": "This is one of the reasons I haven't run AV for years.  \n"
+  }
+]

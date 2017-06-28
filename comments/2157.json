@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/119804762",
+    "html_url": "https://github.com/electron/electron/issues/2157#issuecomment-119804762",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2157",
+    "id": 119804762,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-07-09T03:37:23Z",
+    "updated_at": "2015-07-09T03:37:23Z",
+    "body": "The error means it failed to move a file while there is no error happened... not exactly understanding the reason but I think you can try removing `C:\\...\\viewputio` and do a restart of your computer.\n\nAnyway this error can be safely ignored, so I'm closing this.\n"
+  }
+]

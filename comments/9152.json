@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/292826351",
+    "html_url": "https://github.com/electron/electron/issues/9152#issuecomment-292826351",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9152",
+    "id": 292826351,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-10T00:54:53Z",
+    "updated_at": "2017-04-10T00:55:04Z",
+    "body": "GitHub issues are for feature requests and bug reports, questions about using Electron should be directed to the [community](https://github.com/electron/electron#community) or to the [Slack Channel](http://atom-slack.herokuapp.com/).\r\n\r\nIt would appear that the offending code is running in the renderer process (since it accesses the DOM), there is no `net` module in the renderer process, it's only available in the main process. In the renderer process you should use standard HTML5 APIs to fetch remote resources."
+  }
+]

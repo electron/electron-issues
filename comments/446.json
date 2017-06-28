@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49575650",
+    "html_url": "https://github.com/electron/electron/issues/446#issuecomment-49575650",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/446",
+    "id": 49575650,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-07-21T06:44:03Z",
+    "updated_at": "2014-07-21T06:44:03Z",
+    "body": "The `host-rules` setting is only supported in the Chrome browser, not in atom-shell which only uses the content module of Chrome browser. You can create a new issue if you want to have atom-shell support it.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49597178",
+    "html_url": "https://github.com/electron/electron/issues/446#issuecomment-49597178",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/446",
+    "id": 49597178,
+    "user": {
+      "login": "huntaub",
+      "id": 242363,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/242363?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/huntaub",
+      "html_url": "https://github.com/huntaub",
+      "followers_url": "https://api.github.com/users/huntaub/followers",
+      "following_url": "https://api.github.com/users/huntaub/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huntaub/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/huntaub/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huntaub/subscriptions",
+      "organizations_url": "https://api.github.com/users/huntaub/orgs",
+      "repos_url": "https://api.github.com/users/huntaub/repos",
+      "events_url": "https://api.github.com/users/huntaub/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/huntaub/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-21T12:01:55Z",
+    "updated_at": "2014-07-21T12:04:33Z",
+    "body": "Sorry, didn't realize that atom-shell only supported a subset of switches. I will add a new issue.\n\nIs there documentation somewhere for the switches supported by the Content Module?\n"
+  }
+]

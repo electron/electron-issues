@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/186823351",
+    "html_url": "https://github.com/electron/electron/issues/4556#issuecomment-186823351",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4556",
+    "id": 186823351,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-21T13:32:53Z",
+    "updated_at": "2016-02-21T13:32:53Z",
+    "body": "`event.getModifierState` is implemented in Chrome 48 and Electron is still using Chrome 47, we will get this solved once Electron is upgraded to Chrome 48. You can watch https://github.com/atom/libchromiumcontent/pull/175 for the progress.\n"
+  }
+]

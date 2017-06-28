@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/268249513",
+    "html_url": "https://github.com/electron/electron/issues/8244#issuecomment-268249513",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8244",
+    "id": 268249513,
+    "user": {
+      "login": "aredfox",
+      "id": 1333704,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1333704?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aredfox",
+      "html_url": "https://github.com/aredfox",
+      "followers_url": "https://api.github.com/users/aredfox/followers",
+      "following_url": "https://api.github.com/users/aredfox/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aredfox/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aredfox/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aredfox/subscriptions",
+      "organizations_url": "https://api.github.com/users/aredfox/orgs",
+      "repos_url": "https://api.github.com/users/aredfox/repos",
+      "events_url": "https://api.github.com/users/aredfox/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aredfox/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-20T13:58:53Z",
+    "updated_at": "2016-12-20T14:02:47Z",
+    "body": "Possible culprit is **desktopCapturer.getSources()**.\r\n\r\n**ADDENDUM:** Found that the issue must be inside the codeblock of `getMainSource`, because when I cache that \"source\" result it doesn't freeze the whole of electron. Thus it must be that the filter method or getting the screen itself is causing the issue of the freeze.\r\n\r\n```\r\nfunction getMainSource(desktopCapturer, screen, done) {\r\n    const options = {\r\n        types: ['screen'], thumbnailSize: screen.getPrimaryDisplay().workAreaSize\r\n    }\r\n    desktopCapturer.getSources(options, (err, sources) => {\r\n        if (err) return console.log('Cannot capture screen: ', err)\r\n\r\n        const isMainSource = source => source.name === 'Entire screen' || source.name === 'Screen 1'\r\n        done(sources.filter(isMainSource)[0])\r\n    })\r\n}\r\n```\r\n\r\nThe solution though is **not** caching the result of getMainSource (aka the \"source\"), as it will result in the same image data each time of course. I verified that by writing to file as png, and indeed each screenshot then was the exact same, even though enough had changed on the desktop. **TODO:** Possible option is to setup a video stream and save an image from the stream? "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/268253919",
+    "html_url": "https://github.com/electron/electron/issues/8244#issuecomment-268253919",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8244",
+    "id": 268253919,
+    "user": {
+      "login": "aredfox",
+      "id": 1333704,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1333704?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aredfox",
+      "html_url": "https://github.com/aredfox",
+      "followers_url": "https://api.github.com/users/aredfox/followers",
+      "following_url": "https://api.github.com/users/aredfox/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aredfox/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aredfox/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aredfox/subscriptions",
+      "organizations_url": "https://api.github.com/users/aredfox/orgs",
+      "repos_url": "https://api.github.com/users/aredfox/repos",
+      "events_url": "https://api.github.com/users/aredfox/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aredfox/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-20T14:18:27Z",
+    "updated_at": "2016-12-20T14:18:27Z",
+    "body": "This issue can be closed, I opened a new issue at https://github.com/electron/electron/issues/8246 which is more closely related to the electron API's."
+  }
+]

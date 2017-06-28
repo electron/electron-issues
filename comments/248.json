@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/42351084",
+    "html_url": "https://github.com/electron/electron/issues/248#issuecomment-42351084",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/248",
+    "id": 42351084,
+    "user": {
+      "login": "ChiperSoft",
+      "id": 231157,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/231157?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ChiperSoft",
+      "html_url": "https://github.com/ChiperSoft",
+      "followers_url": "https://api.github.com/users/ChiperSoft/followers",
+      "following_url": "https://api.github.com/users/ChiperSoft/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ChiperSoft/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ChiperSoft/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ChiperSoft/subscriptions",
+      "organizations_url": "https://api.github.com/users/ChiperSoft/orgs",
+      "repos_url": "https://api.github.com/users/ChiperSoft/repos",
+      "events_url": "https://api.github.com/users/ChiperSoft/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ChiperSoft/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-05-06T19:58:39Z",
+    "updated_at": "2014-05-06T19:58:39Z",
+    "body": "Upon doing some experimentation, the answer to both questions appears to be no. IPC is a one-way trigger, and there is no way to have an object that spans both sides.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/42380869",
+    "html_url": "https://github.com/electron/electron/issues/248#issuecomment-42380869",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/248",
+    "id": 42380869,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-05-07T01:50:54Z",
+    "updated_at": "2014-05-07T01:50:54Z",
+    "body": "Actually there is an API to send message from browser side to web page, see [WebContents.send](https://github.com/atom/atom-shell/blob/master/docs/api/browser-window.md#webcontentssendchannel-args).\n\nI have made it more obvious in the docs.\n"
+  }
+]

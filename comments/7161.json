@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/246081692",
+    "html_url": "https://github.com/electron/electron/issues/7161#issuecomment-246081692",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7161",
+    "id": 246081692,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-10T02:05:56Z",
+    "updated_at": "2016-09-10T02:05:56Z",
+    "body": "> Does the global chrome configuration can affect electron.\n\nNope, Electron does not follow the content settings configuration of chrome.\n\n> Can this be something regarding a proxy\n\nCan't say for sure without logs, you could provide `log-net-log` trace. Also `loaded` event of process doesn't gurantee successful page load, the error is most likely caused by failure in page load which you can verify with `did-fail-load` event.\n\nClosing this out since its not a bug in Electron, can reopen if you think its a bug with reproducible example. \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/246335971",
+    "html_url": "https://github.com/electron/electron/issues/7161#issuecomment-246335971",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7161",
+    "id": 246335971,
+    "user": {
+      "login": "drFabio",
+      "id": 2636143,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2636143?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/drFabio",
+      "html_url": "https://github.com/drFabio",
+      "followers_url": "https://api.github.com/users/drFabio/followers",
+      "following_url": "https://api.github.com/users/drFabio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/drFabio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/drFabio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/drFabio/subscriptions",
+      "organizations_url": "https://api.github.com/users/drFabio/orgs",
+      "repos_url": "https://api.github.com/users/drFabio/repos",
+      "events_url": "https://api.github.com/users/drFabio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/drFabio/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-12T12:46:15Z",
+    "updated_at": "2016-09-12T12:46:15Z",
+    "body": "I guess it's not an error on electron . Thanks will check the event\n"
+  }
+]

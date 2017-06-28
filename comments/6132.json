@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226996384",
+    "html_url": "https://github.com/electron/electron/issues/6132#issuecomment-226996384",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6132",
+    "id": 226996384,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-19T13:06:52Z",
+    "updated_at": "2016-06-19T13:06:52Z",
+    "body": "This is actually expected behavior, explanations can be found in #3598.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226998478",
+    "html_url": "https://github.com/electron/electron/issues/6132#issuecomment-226998478",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6132",
+    "id": 226998478,
+    "user": {
+      "login": "zaaack",
+      "id": 5233940,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5233940?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zaaack",
+      "html_url": "https://github.com/zaaack",
+      "followers_url": "https://api.github.com/users/zaaack/followers",
+      "following_url": "https://api.github.com/users/zaaack/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zaaack/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zaaack/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zaaack/subscriptions",
+      "organizations_url": "https://api.github.com/users/zaaack/orgs",
+      "repos_url": "https://api.github.com/users/zaaack/repos",
+      "events_url": "https://api.github.com/users/zaaack/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zaaack/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-19T13:51:22Z",
+    "updated_at": "2016-06-19T13:51:22Z",
+    "body": "why not just use JSON.parse?@zcbenz\n"
+  }
+]

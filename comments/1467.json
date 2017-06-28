@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/95401428",
+    "html_url": "https://github.com/electron/electron/issues/1467#issuecomment-95401428",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1467",
+    "id": 95401428,
+    "user": {
+      "login": "steelbrain",
+      "id": 4278113,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4278113?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/steelbrain",
+      "html_url": "https://github.com/steelbrain",
+      "followers_url": "https://api.github.com/users/steelbrain/followers",
+      "following_url": "https://api.github.com/users/steelbrain/following{/other_user}",
+      "gists_url": "https://api.github.com/users/steelbrain/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/steelbrain/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/steelbrain/subscriptions",
+      "organizations_url": "https://api.github.com/users/steelbrain/orgs",
+      "repos_url": "https://api.github.com/users/steelbrain/repos",
+      "events_url": "https://api.github.com/users/steelbrain/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/steelbrain/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-23T02:50:58Z",
+    "updated_at": "2015-04-23T02:50:58Z",
+    "body": "I am not sure if it's a bug, 'cause I experience the same behavior with Google Chrome, doing a goBack doesn't re-run all the scripts, it just resumes the previous state. Even stuff like scroll position and input values\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/95527967",
+    "html_url": "https://github.com/electron/electron/issues/1467#issuecomment-95527967",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1467",
+    "id": 95527967,
+    "user": {
+      "login": "christoth",
+      "id": 2223480,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2223480?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/christoth",
+      "html_url": "https://github.com/christoth",
+      "followers_url": "https://api.github.com/users/christoth/followers",
+      "following_url": "https://api.github.com/users/christoth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/christoth/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/christoth/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/christoth/subscriptions",
+      "organizations_url": "https://api.github.com/users/christoth/orgs",
+      "repos_url": "https://api.github.com/users/christoth/repos",
+      "events_url": "https://api.github.com/users/christoth/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/christoth/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-23T10:30:11Z",
+    "updated_at": "2015-04-23T10:30:11Z",
+    "body": "My issue is that I initialize a variable on the window object, on the first load that is not initialized when the page is revisited. Hence, my script does not execute.\n"
+  }
+]

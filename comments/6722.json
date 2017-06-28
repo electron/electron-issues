@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/237479566",
+    "html_url": "https://github.com/electron/electron/issues/6722#issuecomment-237479566",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6722",
+    "id": 237479566,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-04T07:52:40Z",
+    "updated_at": "2016-08-04T07:52:40Z",
+    "body": "> [15826:0804/155819:FATAL:render_sandbox_host_linux.cc(40)]\n>     Check failed: 0 == shutdown(renderer_socket_, SHUT_RD). shutdown: Invalid argument\n\nWSL doesn't fully implement the `shutdown` system call, and it triggered an assertion in Chromium. I suggest reporting this to Microsoft instead.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/237481197",
+    "html_url": "https://github.com/electron/electron/issues/6722#issuecomment-237481197",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6722",
+    "id": 237481197,
+    "user": {
+      "login": "kurisubrooks",
+      "id": 6291467,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6291467?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kurisubrooks",
+      "html_url": "https://github.com/kurisubrooks",
+      "followers_url": "https://api.github.com/users/kurisubrooks/followers",
+      "following_url": "https://api.github.com/users/kurisubrooks/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kurisubrooks/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kurisubrooks/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kurisubrooks/subscriptions",
+      "organizations_url": "https://api.github.com/users/kurisubrooks/orgs",
+      "repos_url": "https://api.github.com/users/kurisubrooks/repos",
+      "events_url": "https://api.github.com/users/kurisubrooks/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kurisubrooks/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-04T08:00:04Z",
+    "updated_at": "2016-08-04T08:00:04Z",
+    "body": "Thanks for your comment, i've created an issue with Microsoft.\n"
+  }
+]

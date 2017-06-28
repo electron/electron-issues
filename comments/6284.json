@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/229252323",
+    "html_url": "https://github.com/electron/electron/issues/6284#issuecomment-229252323",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6284",
+    "id": 229252323,
+    "user": {
+      "login": "mnquintana",
+      "id": 823545,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/823545?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mnquintana",
+      "html_url": "https://github.com/mnquintana",
+      "followers_url": "https://api.github.com/users/mnquintana/followers",
+      "following_url": "https://api.github.com/users/mnquintana/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mnquintana/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mnquintana/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mnquintana/subscriptions",
+      "organizations_url": "https://api.github.com/users/mnquintana/orgs",
+      "repos_url": "https://api.github.com/users/mnquintana/repos",
+      "events_url": "https://api.github.com/users/mnquintana/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mnquintana/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-29T04:18:02Z",
+    "updated_at": "2016-06-29T04:18:02Z",
+    "body": "No, this isn't possible. You might be able to, however, embed whatever you have embedded in an OS X webview in an Electron webview, though you would need to swap any and all native APIs you were accessing from the OS X webview for Electron APIs.\n\nIn the future, for questions on writing apps, I suggest seeking help from [the community](https://github.com/electron/electron#community). The issues list is only for bug reports and feature requests.\n"
+  }
+]

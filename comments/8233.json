@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/267929087",
+    "html_url": "https://github.com/electron/electron/issues/8233#issuecomment-267929087",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8233",
+    "id": 267929087,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-19T10:18:17Z",
+    "updated_at": "2016-12-19T10:18:17Z",
+    "body": "Can you provide a minimal example to reproduce the issue ? I am unable to reproduce with https://httpbin.org/basic-auth/user/passwd . It would be great if you can include the behavior of `clearAuthCache` with the example."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/268603482",
+    "html_url": "https://github.com/electron/electron/issues/8233#issuecomment-268603482",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8233",
+    "id": 268603482,
+    "user": {
+      "login": "manikantag",
+      "id": 317299,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/317299?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/manikantag",
+      "html_url": "https://github.com/manikantag",
+      "followers_url": "https://api.github.com/users/manikantag/followers",
+      "following_url": "https://api.github.com/users/manikantag/following{/other_user}",
+      "gists_url": "https://api.github.com/users/manikantag/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/manikantag/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/manikantag/subscriptions",
+      "organizations_url": "https://api.github.com/users/manikantag/orgs",
+      "repos_url": "https://api.github.com/users/manikantag/repos",
+      "events_url": "https://api.github.com/users/manikantag/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/manikantag/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-21T18:34:11Z",
+    "updated_at": "2016-12-21T18:34:11Z",
+    "body": "My bad :( \r\n\r\nIt is working as expected: closing the app **is clearing** the password auth cache. I figured it out after trying to reproduce it with electron quick start app, and I couldn't reproduce it.\r\n\r\nProblem with my app is, I m giving correct credentials for websocket connection auth, i.e., I've websocket URL as `wss://someusername:somepassword@server.com` (I m using URL like this as Chrome doesn't support auth for WebSockets *- correct me if I m wrong!*). So, when Electron/Chrome established a successful WS connection, it is remembering the creds, which is expected. And same creds are being used for all other Ajax calls too, which is obvious again. Thanks @deepak1556 for asking me to reproduce it 👍 \r\n\r\n> It would be great if you can include the behavior of clearAuthCache with the example.\r\n\r\nAs I mentioned above, the WS connection is happening after the cache clear and thus using `setTimeout` is postponing the cache clear after the WS connection. But it is not required, and working as expected.\r\n\r\nI've other doubt: how to call the **login** `callback` from Renderer process? Because in my application, end user login credentials will be validated by server request by sending the user given credentials as basic auth, which will happen in AngularJS code (i.e., Renderer process). I tried with `ipcMain` and `ipcRenderer`, but is not working as I can't pass functions when sending messages from main to renderer. And also I m not able to send username & password from renderer to main synchronously. Is there any way of doing this?\r\n\r\nI m closing this issue anyway, Thanks."
+  }
+]

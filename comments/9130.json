@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/292149585",
+    "html_url": "https://github.com/electron/electron/issues/9130#issuecomment-292149585",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9130",
+    "id": 292149585,
+    "user": {
+      "login": "tonychen0716",
+      "id": 1866391,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1866391?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tonychen0716",
+      "html_url": "https://github.com/tonychen0716",
+      "followers_url": "https://api.github.com/users/tonychen0716/followers",
+      "following_url": "https://api.github.com/users/tonychen0716/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tonychen0716/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tonychen0716/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tonychen0716/subscriptions",
+      "organizations_url": "https://api.github.com/users/tonychen0716/orgs",
+      "repos_url": "https://api.github.com/users/tonychen0716/repos",
+      "events_url": "https://api.github.com/users/tonychen0716/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tonychen0716/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-06T11:49:06Z",
+    "updated_at": "2017-04-06T11:49:06Z",
+    "body": "Maybe it's not support Windows 2008"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/292943434",
+    "html_url": "https://github.com/electron/electron/issues/9130#issuecomment-292943434",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9130",
+    "id": 292943434,
+    "user": {
+      "login": "cifratila",
+      "id": 282777,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/282777?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cifratila",
+      "html_url": "https://github.com/cifratila",
+      "followers_url": "https://api.github.com/users/cifratila/followers",
+      "following_url": "https://api.github.com/users/cifratila/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cifratila/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cifratila/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cifratila/subscriptions",
+      "organizations_url": "https://api.github.com/users/cifratila/orgs",
+      "repos_url": "https://api.github.com/users/cifratila/repos",
+      "events_url": "https://api.github.com/users/cifratila/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cifratila/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-10T13:05:57Z",
+    "updated_at": "2017-04-10T13:05:57Z",
+    "body": "Yes, Vista and Server distros are not supported: https://github.com/electron/electron/issues/3263"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/307721421",
+    "html_url": "https://github.com/electron/electron/issues/8741#issuecomment-307721421",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8741",
+    "id": 307721421,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-12T08:20:22Z",
+    "updated_at": "2017-06-12T08:20:40Z",
+    "body": "The `\\` maps to `VKEY_OEM_5`, which seems to be `'` on Swedish keyboard. We should probably explicitly document which key the punctuations are mapped to.\r\n\r\nTo really solve this, we would have to deal with ICU when parsing accelerator, which goes too far. While we would like to fix this, I'm afraid it is probably an impossible task, and I'm closing this as won't fix.\r\n\r\nA possible solution to this is to correctly show `VKEY_OEM_5` as `'` for Swedish keyboard, which is a bug of Chromium that `VKEY_OEM_5` is hardcoded to be `/`, and I suggest reporting it to Chromium."
+  }
+]

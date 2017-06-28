@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/61152573",
+    "html_url": "https://github.com/electron/electron/issues/755#issuecomment-61152573",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/755",
+    "id": 61152573,
+    "user": {
+      "login": "salzig",
+      "id": 99911,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/99911?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/salzig",
+      "html_url": "https://github.com/salzig",
+      "followers_url": "https://api.github.com/users/salzig/followers",
+      "following_url": "https://api.github.com/users/salzig/following{/other_user}",
+      "gists_url": "https://api.github.com/users/salzig/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/salzig/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/salzig/subscriptions",
+      "organizations_url": "https://api.github.com/users/salzig/orgs",
+      "repos_url": "https://api.github.com/users/salzig/repos",
+      "events_url": "https://api.github.com/users/salzig/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/salzig/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-10-30T19:10:47Z",
+    "updated_at": "2014-10-30T19:10:47Z",
+    "body": "it seems the attribute onload is not supported for webview, but you can assign a handler via javascript. \nhttps://github.com/atom/atom-shell/blob/master/docs/api/web-view-tag.md \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/61215443",
+    "html_url": "https://github.com/electron/electron/issues/755#issuecomment-61215443",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/755",
+    "id": 61215443,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-10-31T04:20:46Z",
+    "updated_at": "2014-10-31T04:20:46Z",
+    "body": "Yeah you have to listen to the `did-finish-load` DOM event, there is no `onload` attribute in `webview`.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308494062",
+    "html_url": "https://github.com/electron/electron/issues/9746#issuecomment-308494062",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9746",
+    "id": 308494062,
+    "user": {
+      "login": "pabloleban",
+      "id": 13904174,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13904174?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pabloleban",
+      "html_url": "https://github.com/pabloleban",
+      "followers_url": "https://api.github.com/users/pabloleban/followers",
+      "following_url": "https://api.github.com/users/pabloleban/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pabloleban/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pabloleban/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pabloleban/subscriptions",
+      "organizations_url": "https://api.github.com/users/pabloleban/orgs",
+      "repos_url": "https://api.github.com/users/pabloleban/repos",
+      "events_url": "https://api.github.com/users/pabloleban/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pabloleban/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-14T16:58:27Z",
+    "updated_at": "2017-06-14T16:58:27Z",
+    "body": "English please?"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308631965",
+    "html_url": "https://github.com/electron/electron/issues/9746#issuecomment-308631965",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9746",
+    "id": 308631965,
+    "user": {
+      "login": "KagamiChan",
+      "id": 3816900,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3816900?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/KagamiChan",
+      "html_url": "https://github.com/KagamiChan",
+      "followers_url": "https://api.github.com/users/KagamiChan/followers",
+      "following_url": "https://api.github.com/users/KagamiChan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/KagamiChan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/KagamiChan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/KagamiChan/subscriptions",
+      "organizations_url": "https://api.github.com/users/KagamiChan/orgs",
+      "repos_url": "https://api.github.com/users/KagamiChan/repos",
+      "events_url": "https://api.github.com/users/KagamiChan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/KagamiChan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-15T05:23:57Z",
+    "updated_at": "2017-06-15T05:23:57Z",
+    "body": "Please use English\r\n\r\nFor your question, use [`process.argv`](https://nodejs.org/docs/latest/api/process.html#process_process_argv), you may be interested in packages like `yargs`"
+  }
+]

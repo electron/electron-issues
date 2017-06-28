@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/253423128",
+    "html_url": "https://github.com/electron/electron/issues/7594#issuecomment-253423128",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7594",
+    "id": 253423128,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-13T06:10:53Z",
+    "updated_at": "2016-10-13T06:10:53Z",
+    "body": "GitHub issues are for bug reports and feature requests, for everything else please ask the [community](https://github.com/electron/electron#community). \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/261901775",
+    "html_url": "https://github.com/electron/electron/issues/7594#issuecomment-261901775",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7594",
+    "id": 261901775,
+    "user": {
+      "login": "AglaiaZ",
+      "id": 19726212,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19726212?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AglaiaZ",
+      "html_url": "https://github.com/AglaiaZ",
+      "followers_url": "https://api.github.com/users/AglaiaZ/followers",
+      "following_url": "https://api.github.com/users/AglaiaZ/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AglaiaZ/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AglaiaZ/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AglaiaZ/subscriptions",
+      "organizations_url": "https://api.github.com/users/AglaiaZ/orgs",
+      "repos_url": "https://api.github.com/users/AglaiaZ/repos",
+      "events_url": "https://api.github.com/users/AglaiaZ/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AglaiaZ/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-21T10:36:51Z",
+    "updated_at": "2016-11-21T10:36:51Z",
+    "body": "`<script>\r\n            window.nodeRequire = require;\r\n            angularRequire = window.require;\r\n            delete window.require;\r\n            delete window.exports;\r\n            delete window.module;\r\n        </script>`"
+  }
+]

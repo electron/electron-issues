@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/229881067",
+    "html_url": "https://github.com/electron/electron/pull/5776#issuecomment-229881067",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5776",
+    "id": 229881067,
+    "user": {
+      "login": "bpasero",
+      "id": 900690,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/900690?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bpasero",
+      "html_url": "https://github.com/bpasero",
+      "followers_url": "https://api.github.com/users/bpasero/followers",
+      "following_url": "https://api.github.com/users/bpasero/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bpasero/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bpasero/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bpasero/subscriptions",
+      "organizations_url": "https://api.github.com/users/bpasero/orgs",
+      "repos_url": "https://api.github.com/users/bpasero/repos",
+      "events_url": "https://api.github.com/users/bpasero/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bpasero/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-01T07:53:47Z",
+    "updated_at": "2016-07-01T07:53:47Z",
+    "body": "@zcbenz Does this change make the ELECTRON_NO_ATTACH_CONSOLE workaround on Windows obsolete? We set it to get output together with ELECTRON_RUN_AS_NODE and now I wonder if we can remove the no-attach if we update to a newer Electron.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/229937405",
+    "html_url": "https://github.com/electron/electron/pull/5776#issuecomment-229937405",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5776",
+    "id": 229937405,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-01T12:44:51Z",
+    "updated_at": "2016-07-01T12:44:51Z",
+    "body": "@bpasero I'm not sure, ideally the output of node processes should work out of box now.\n"
+  }
+]

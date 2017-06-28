@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/297189794",
+    "html_url": "https://github.com/electron/electron/issues/9127#issuecomment-297189794",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9127",
+    "id": 297189794,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-04-25T23:01:22Z",
+    "updated_at": "2017-04-25T23:01:22Z",
+    "body": "Hmm, having trouble reproducing this, tried with the following:\r\n\r\n```js\r\noptions = {\r\n     title: \"Select photo folder:\",\r\n     defaultPath: \"C:\\\\Users\\\\Kevin\\\\Pictures\\\\test.png\",\r\n}\r\n\r\nrequire('electron').remote.dialog.showSaveDialog(options);\r\n```\r\n\r\n<img width=\"885\" alt=\"screen shot 2017-04-25 at 4 00 20 pm\" src=\"https://cloud.githubusercontent.com/assets/671378/25411225/609db21c-29d0-11e7-957d-2981b29c1907.png\">\r\n\r\nYour example code did not have the backslashes escaped in the string, could that be your issue?"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/297683942",
+    "html_url": "https://github.com/electron/electron/issues/9127#issuecomment-297683942",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9127",
+    "id": 297683942,
+    "user": {
+      "login": "Sharim",
+      "id": 10552567,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10552567?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Sharim",
+      "html_url": "https://github.com/Sharim",
+      "followers_url": "https://api.github.com/users/Sharim/followers",
+      "following_url": "https://api.github.com/users/Sharim/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Sharim/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Sharim/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Sharim/subscriptions",
+      "organizations_url": "https://api.github.com/users/Sharim/orgs",
+      "repos_url": "https://api.github.com/users/Sharim/repos",
+      "events_url": "https://api.github.com/users/Sharim/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Sharim/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-27T11:08:32Z",
+    "updated_at": "2017-04-27T11:08:32Z",
+    "body": "Looks like the problem was unescaped backslashes. Thanks for your time & help :)"
+  }
+]

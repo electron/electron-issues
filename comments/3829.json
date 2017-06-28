@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/165096064",
+    "html_url": "https://github.com/electron/electron/pull/3829#issuecomment-165096064",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3829",
+    "id": 165096064,
+    "user": {
+      "login": "herrmannplatz",
+      "id": 174685,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/174685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/herrmannplatz",
+      "html_url": "https://github.com/herrmannplatz",
+      "followers_url": "https://api.github.com/users/herrmannplatz/followers",
+      "following_url": "https://api.github.com/users/herrmannplatz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/herrmannplatz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/herrmannplatz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/herrmannplatz/subscriptions",
+      "organizations_url": "https://api.github.com/users/herrmannplatz/orgs",
+      "repos_url": "https://api.github.com/users/herrmannplatz/repos",
+      "events_url": "https://api.github.com/users/herrmannplatz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/herrmannplatz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-16T12:51:32Z",
+    "updated_at": "2015-12-16T12:51:32Z",
+    "body": "that was fast :)\n"
+  }
+]

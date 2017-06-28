@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/259528604",
+    "html_url": "https://github.com/electron/electron/issues/7918#issuecomment-259528604",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7918",
+    "id": 259528604,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-11-09T21:15:18Z",
+    "updated_at": "2016-11-09T21:15:18Z",
+    "body": "> remote.js:98 \n> Uncaught TypeError: Cannot read property 'Symbol(Symbol.iterator)' of undefined\n> _:51\n\nAre you able to provide a fuller stack trace for this one?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/259559197",
+    "html_url": "https://github.com/electron/electron/issues/7918#issuecomment-259559197",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7918",
+    "id": 259559197,
+    "user": {
+      "login": "juturu",
+      "id": 11049886,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11049886?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juturu",
+      "html_url": "https://github.com/juturu",
+      "followers_url": "https://api.github.com/users/juturu/followers",
+      "following_url": "https://api.github.com/users/juturu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juturu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juturu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juturu/subscriptions",
+      "organizations_url": "https://api.github.com/users/juturu/orgs",
+      "repos_url": "https://api.github.com/users/juturu/repos",
+      "events_url": "https://api.github.com/users/juturu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juturu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-09T23:41:14Z",
+    "updated_at": "2016-11-09T23:41:14Z",
+    "body": "Unfortunately, didn't get the full stack trace for this.\n"
+  }
+]

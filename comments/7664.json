@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/254618509",
+    "html_url": "https://github.com/electron/electron/pull/7664#issuecomment-254618509",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7664",
+    "id": 254618509,
+    "user": {
+      "login": "amtj",
+      "id": 12820331,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/12820331?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/amtj",
+      "html_url": "https://github.com/amtj",
+      "followers_url": "https://api.github.com/users/amtj/followers",
+      "following_url": "https://api.github.com/users/amtj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/amtj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/amtj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/amtj/subscriptions",
+      "organizations_url": "https://api.github.com/users/amtj/orgs",
+      "repos_url": "https://api.github.com/users/amtj/repos",
+      "events_url": "https://api.github.com/users/amtj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/amtj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-18T19:47:56Z",
+    "updated_at": "2016-10-18T19:47:56Z",
+    "body": "Sorry for that. Did not mean to open this pr\n"
+  }
+]

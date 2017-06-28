@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250075876",
+    "html_url": "https://github.com/electron/electron/issues/7373#issuecomment-250075876",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7373",
+    "id": 250075876,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-28T05:33:58Z",
+    "updated_at": "2016-09-28T05:33:58Z",
+    "body": "Perhaps we could group these by API so we don't have to create a separate file for every struct?\n\n<pre>\n- docs\n     | - api\n           | - structures\n                 | - app.md\n                 | - common.md (shared structures?)\n                 | - dialog.md\n           | - app.md\n           | - dialog.md\n</pre>\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250077812",
+    "html_url": "https://github.com/electron/electron/issues/7373#issuecomment-250077812",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7373",
+    "id": 250077812,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-28T05:49:34Z",
+    "updated_at": "2016-09-28T05:49:34Z",
+    "body": "> Perhaps we could group these by API so we don't have to create a separate file for every struct?\n\nI feel as though that isn't as logical, if that makes sense?  Like linking to a structure with the original suggesting would be\n\n``` markdown\n[Display](structures/Display)\n```\n\nWhereas the alternative would look like this\n\n``` markdown\n[Display](structures/common.md#display)\n```\n\nI'm also thinking about how these would be rendered on the `electron.atom.io` website.\n"
+  }
+]

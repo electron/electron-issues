@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/218571702",
+    "html_url": "https://github.com/electron/electron/issues/5497#issuecomment-218571702",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5497",
+    "id": 218571702,
+    "user": {
+      "login": "lusbuab",
+      "id": 12849807,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12849807?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lusbuab",
+      "html_url": "https://github.com/lusbuab",
+      "followers_url": "https://api.github.com/users/lusbuab/followers",
+      "following_url": "https://api.github.com/users/lusbuab/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lusbuab/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lusbuab/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lusbuab/subscriptions",
+      "organizations_url": "https://api.github.com/users/lusbuab/orgs",
+      "repos_url": "https://api.github.com/users/lusbuab/repos",
+      "events_url": "https://api.github.com/users/lusbuab/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lusbuab/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-11T19:57:34Z",
+    "updated_at": "2016-05-11T19:57:34Z",
+    "body": "In #5439 are some suggestions on how to dynamically create an icon for the tray. \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/218637179",
+    "html_url": "https://github.com/electron/electron/issues/5497#issuecomment-218637179",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5497",
+    "id": 218637179,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-12T01:36:02Z",
+    "updated_at": "2016-05-12T01:36:02Z",
+    "body": "Other platform do not allow native title and you have to draw it as part of the icon.\n"
+  }
+]

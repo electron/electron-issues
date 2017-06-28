@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49576156",
+    "html_url": "https://github.com/electron/electron/issues/457#issuecomment-49576156",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/457",
+    "id": 49576156,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-07-21T06:55:04Z",
+    "updated_at": "2014-07-21T06:55:16Z",
+    "body": "It seems that latest node-gyp requires a `SHASUMS.txt` in the headers tarball, I'll add the file in atom-shell's headers distribution.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49576240",
+    "html_url": "https://github.com/electron/electron/issues/457#issuecomment-49576240",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/457",
+    "id": 49576240,
+    "user": {
+      "login": "Subash",
+      "id": 3478693,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3478693?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Subash",
+      "html_url": "https://github.com/Subash",
+      "followers_url": "https://api.github.com/users/Subash/followers",
+      "following_url": "https://api.github.com/users/Subash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Subash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Subash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Subash/subscriptions",
+      "organizations_url": "https://api.github.com/users/Subash/orgs",
+      "repos_url": "https://api.github.com/users/Subash/repos",
+      "events_url": "https://api.github.com/users/Subash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Subash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-21T06:56:49Z",
+    "updated_at": "2014-07-21T06:56:49Z",
+    "body": "I hope you will add that ASAP. Thanks\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/66577229",
+    "html_url": "https://github.com/electron/electron/issues/909#issuecomment-66577229",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/909",
+    "id": 66577229,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-11T06:05:30Z",
+    "updated_at": "2014-12-11T06:05:30Z",
+    "body": "@stumitchell Generally it's a bad idea to do much of anything before `app.ready`, I'd hold off opening that socket until that happens. \n\nTo get stuff printed to the console, use the `node-nslog` module:\n\n``` coffee\n# Only do this in the Browser process\nconsole.log = require('nslog')\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/66688330",
+    "html_url": "https://github.com/electron/electron/issues/909#issuecomment-66688330",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/909",
+    "id": 66688330,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-12-11T21:03:38Z",
+    "updated_at": "2014-12-11T21:03:38Z",
+    "body": "You can use the undocumented `dialog.showErrorBox(title, content)` API to safely show the error dialog before `app` becomes `ready`, see an example at:\nhttps://github.com/atom/atom-shell/blob/master/atom/browser/default_app/main.js#L51\n\nI'll make it documented and disable using other dialog APIs at early stages.\n\nBut as @paulcbetts said, you should do that kind of thing after `app` becomes `ready`.\n"
+  }
+]

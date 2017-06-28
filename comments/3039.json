@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/146739212",
+    "html_url": "https://github.com/electron/electron/issues/3039#issuecomment-146739212",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3039",
+    "id": 146739212,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-09T02:32:20Z",
+    "updated_at": "2015-10-09T02:32:20Z",
+    "body": "This is weird, can you provide a sample app?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/147826081",
+    "html_url": "https://github.com/electron/electron/issues/3039#issuecomment-147826081",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3039",
+    "id": 147826081,
+    "user": {
+      "login": "ChinmayPatel",
+      "id": 684063,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/684063?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ChinmayPatel",
+      "html_url": "https://github.com/ChinmayPatel",
+      "followers_url": "https://api.github.com/users/ChinmayPatel/followers",
+      "following_url": "https://api.github.com/users/ChinmayPatel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ChinmayPatel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ChinmayPatel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ChinmayPatel/subscriptions",
+      "organizations_url": "https://api.github.com/users/ChinmayPatel/orgs",
+      "repos_url": "https://api.github.com/users/ChinmayPatel/repos",
+      "events_url": "https://api.github.com/users/ChinmayPatel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ChinmayPatel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-13T19:37:26Z",
+    "updated_at": "2015-10-13T19:37:26Z",
+    "body": "oops. I was doing it wrong. Just realized that my \"npm start\" was firing up a `gulp` command instead of `electron` command. As soon as I ran the script inside the electron context, it started working. \n\nApologies.\n"
+  }
+]

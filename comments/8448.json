@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/273856911",
+    "html_url": "https://github.com/electron/electron/issues/8448#issuecomment-273856911",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8448",
+    "id": 273856911,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-19T18:26:12Z",
+    "updated_at": "2017-01-19T18:26:12Z",
+    "body": "Same as https://github.com/electron/electron/issues/8317 , you can use blob URI instead. But we should not crash the application, instead warn users when the character limit is reached."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/273912933",
+    "html_url": "https://github.com/electron/electron/issues/8448#issuecomment-273912933",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8448",
+    "id": 273912933,
+    "user": {
+      "login": "drumboog",
+      "id": 1297086,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1297086?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/drumboog",
+      "html_url": "https://github.com/drumboog",
+      "followers_url": "https://api.github.com/users/drumboog/followers",
+      "following_url": "https://api.github.com/users/drumboog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/drumboog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/drumboog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/drumboog/subscriptions",
+      "organizations_url": "https://api.github.com/users/drumboog/orgs",
+      "repos_url": "https://api.github.com/users/drumboog/repos",
+      "events_url": "https://api.github.com/users/drumboog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/drumboog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-19T22:03:04Z",
+    "updated_at": "2017-01-19T22:03:04Z",
+    "body": "The Blob works great... thanks!"
+  }
+]

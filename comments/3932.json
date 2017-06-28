@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/209340236",
+    "html_url": "https://github.com/electron/electron/issues/3932#issuecomment-209340236",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3932",
+    "id": 209340236,
+    "user": {
+      "login": "bpasero",
+      "id": 900690,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/900690?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bpasero",
+      "html_url": "https://github.com/bpasero",
+      "followers_url": "https://api.github.com/users/bpasero/followers",
+      "following_url": "https://api.github.com/users/bpasero/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bpasero/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bpasero/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bpasero/subscriptions",
+      "organizations_url": "https://api.github.com/users/bpasero/orgs",
+      "repos_url": "https://api.github.com/users/bpasero/repos",
+      "events_url": "https://api.github.com/users/bpasero/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bpasero/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-13T09:41:28Z",
+    "updated_at": "2016-04-13T09:41:28Z",
+    "body": "@nishanths has this been verified? I am not able to clear the list of recent files and folders when calling `app.clearRecentDocuments()` in our bundled VS Code version, it does work though when we run \"out of sources\". I wonder if there is some extra requirement in application bundles to make this work properly?\n\nThis is with Electron 0.37.5.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/288036623",
+    "html_url": "https://github.com/electron/electron/issues/3932#issuecomment-288036623",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3932",
+    "id": 288036623,
+    "user": {
+      "login": "starriv",
+      "id": 7098001,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7098001?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/starriv",
+      "html_url": "https://github.com/starriv",
+      "followers_url": "https://api.github.com/users/starriv/followers",
+      "following_url": "https://api.github.com/users/starriv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/starriv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/starriv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/starriv/subscriptions",
+      "organizations_url": "https://api.github.com/users/starriv/orgs",
+      "repos_url": "https://api.github.com/users/starriv/repos",
+      "events_url": "https://api.github.com/users/starriv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/starriv/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-21T10:29:11Z",
+    "updated_at": "2017-03-21T10:29:11Z",
+    "body": "Seems to have been repaired for a long time, but why is there an atom problem?\r\n\r\n<img width=\"144\" alt=\"qq20170321-182813 2x\" src=\"https://cloud.githubusercontent.com/assets/7098001/24143291/31cf9ae0-0e64-11e7-953b-e36629c9c0a8.png\">\r\n"
+  }
+]

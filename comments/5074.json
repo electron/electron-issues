@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/207267936",
+    "html_url": "https://github.com/electron/electron/issues/5074#issuecomment-207267936",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5074",
+    "id": 207267936,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-08T07:22:42Z",
+    "updated_at": "2016-04-08T07:22:42Z",
+    "body": "It sounds good to me.\n\n> My biggest question would be whether ResourceTypeToString should be moved out of atom_network_delegate.cc so it’s more easily accessible to WebContents (and is there a good place to put it?) or if it should just be publicly exposed in atom_network_delegate.h.\n\nI'm good with either solution, probably just expose it in `atom_network_delegate.h` since `atom_api_web_contents.h` is quite bloated.\n"
+  }
+]

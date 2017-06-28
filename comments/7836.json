@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/260874559",
+    "html_url": "https://github.com/electron/electron/issues/7836#issuecomment-260874559",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7836",
+    "id": 260874559,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-11-16T07:33:14Z",
+    "updated_at": "2016-11-16T07:33:14Z",
+    "body": "According to Moom's release notes, they are doing workarounds for Chrome browser:\nhttps://manytricks.com/moom/releasenotes/\n\nSo it is very likely that Moom is not compatible with Chrome, and the only solution to solve this is to ask Moom to add your app to its workaround list.\n\nClosing since we can not fix it on our side.\n"
+  }
+]

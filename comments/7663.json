@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/255376096",
+    "html_url": "https://github.com/electron/electron/issues/7663#issuecomment-255376096",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7663",
+    "id": 255376096,
+    "user": {
+      "login": "ArneGockeln",
+      "id": 1309250,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1309250?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ArneGockeln",
+      "html_url": "https://github.com/ArneGockeln",
+      "followers_url": "https://api.github.com/users/ArneGockeln/followers",
+      "following_url": "https://api.github.com/users/ArneGockeln/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ArneGockeln/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ArneGockeln/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ArneGockeln/subscriptions",
+      "organizations_url": "https://api.github.com/users/ArneGockeln/orgs",
+      "repos_url": "https://api.github.com/users/ArneGockeln/repos",
+      "events_url": "https://api.github.com/users/ArneGockeln/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ArneGockeln/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-21T13:26:23Z",
+    "updated_at": "2016-10-21T13:26:23Z",
+    "body": "The same behavior is with Kubuntu Linux \n\n$ cat /proc/version\nLinux version 4.4.0-45-generic (buildd@lgw01-34) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.2) ) #66-Ubuntu SMP Wed Oct 19 14:12:37 UTC 2016\n\nI am using a mac with macOS 10.12 Sierra with electron-builder to build for macOS, Windows (wine) and Linux. \n- npm: 3.9.5\n- electron-builder: 7.14.2\n- electron: 1.4.4\n"
+  }
+]

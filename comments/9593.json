@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308806458",
+    "html_url": "https://github.com/electron/electron/issues/9593#issuecomment-308806458",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9593",
+    "id": 308806458,
+    "user": {
+      "login": "Dhaval8087",
+      "id": 7660739,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7660739?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Dhaval8087",
+      "html_url": "https://github.com/Dhaval8087",
+      "followers_url": "https://api.github.com/users/Dhaval8087/followers",
+      "following_url": "https://api.github.com/users/Dhaval8087/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Dhaval8087/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Dhaval8087/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Dhaval8087/subscriptions",
+      "organizations_url": "https://api.github.com/users/Dhaval8087/orgs",
+      "repos_url": "https://api.github.com/users/Dhaval8087/repos",
+      "events_url": "https://api.github.com/users/Dhaval8087/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Dhaval8087/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-15T17:07:49Z",
+    "updated_at": "2017-06-15T17:15:42Z",
+    "body": "```\r\nYou need to use the will-download method for the issue like \r\nconst { dialog } = require('electron')\r\nmainWindow.webContents.session.on('will-download', (event, downloadItem, webContents) => {\r\n\r\n    var fileName = dialog.showSaveDialog({\r\n      defaultPath: defaultFileName,\r\n      filters: [\r\n        { name: 'Excel', extensions: ['pdf'] }]\r\n    });\r\n\r\n    if (typeof fileName == \"undefined\") {\r\n      downloadItem.cancel()\r\n    }\r\n    else {\r\n      downloadItem.setSavePath(fileName);\r\n    }\r\n  });\r\n```\r\n![image](https://user-images.githubusercontent.com/7660739/27193179-907aecc0-521b-11e7-81ef-9b93f5fa14e7.png)\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309346625",
+    "html_url": "https://github.com/electron/electron/issues/9593#issuecomment-309346625",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9593",
+    "id": 309346625,
+    "user": {
+      "login": "JanBN",
+      "id": 7447593,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7447593?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/JanBN",
+      "html_url": "https://github.com/JanBN",
+      "followers_url": "https://api.github.com/users/JanBN/followers",
+      "following_url": "https://api.github.com/users/JanBN/following{/other_user}",
+      "gists_url": "https://api.github.com/users/JanBN/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/JanBN/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/JanBN/subscriptions",
+      "organizations_url": "https://api.github.com/users/JanBN/orgs",
+      "repos_url": "https://api.github.com/users/JanBN/repos",
+      "events_url": "https://api.github.com/users/JanBN/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/JanBN/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-19T06:04:54Z",
+    "updated_at": "2017-06-19T06:04:54Z",
+    "body": "Awesome.\r\nThank you very much ;)"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/97141964",
+    "html_url": "https://github.com/electron/electron/issues/1506#issuecomment-97141964",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1506",
+    "id": 97141964,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-28T17:18:36Z",
+    "updated_at": "2015-04-28T17:18:36Z",
+    "body": "Can you provide a small crashing example, unable to reproduce it. Although the cause is `NavigationEntry` returned null [here](https://github.com/atom/electron/blob/05ae1960d1e421cf057a960b0526890665983c47/atom/browser/api/atom_api_web_contents.cc#L261) . Just want to know which case causes it before writing the patch :)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/97145399",
+    "html_url": "https://github.com/electron/electron/issues/1506#issuecomment-97145399",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1506",
+    "id": 97145399,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-28T17:34:25Z",
+    "updated_at": "2015-04-28T17:34:25Z",
+    "body": "@deepak1556 It seems intermittent, it's not immediately on every link, but it seems basically guaranteed to happen after about 2-3mins or so. I don't have a repro example, my repro steps in the Slack Electron app are:\n1. Open the app\n2. Hit Cmd-Left Arrow by accident, which ends up refreshing the page\n3. Keep using the app, eventually click a link\n4. Kablooey\n"
+  }
+]

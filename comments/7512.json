@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/252399880",
+    "html_url": "https://github.com/electron/electron/issues/7512#issuecomment-252399880",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7512",
+    "id": 252399880,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-08T03:32:38Z",
+    "updated_at": "2016-10-08T03:32:38Z",
+    "body": "Have you loaded in the symbols that you download from the releases section\n\nhttps://github.com/electron/electron/releases\n\nThe filename should be `electron-v1.4.3-${platform}-${arch}-symbols.zip`\n\nRead more about debugging inside Electron [here](https://github.com/electron/electron/blob/master/docs/development/debug-instructions-windows.md)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/254993254",
+    "html_url": "https://github.com/electron/electron/issues/7512#issuecomment-254993254",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7512",
+    "id": 254993254,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-20T02:30:35Z",
+    "updated_at": "2016-10-20T02:30:35Z",
+    "body": "The symbols uploading had been broken for sometime so a few old versions can not find symbols in the symbols server. You can solve this by downloading the PDB files from the Releases page.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/17898583",
+    "html_url": "https://github.com/electron/electron/issues/2#issuecomment-17898583",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2",
+    "id": 17898583,
+    "user": {
+      "login": "aroben",
+      "id": 917945,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/917945?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aroben",
+      "html_url": "https://github.com/aroben",
+      "followers_url": "https://api.github.com/users/aroben/followers",
+      "following_url": "https://api.github.com/users/aroben/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aroben/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aroben/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aroben/subscriptions",
+      "organizations_url": "https://api.github.com/users/aroben/orgs",
+      "repos_url": "https://api.github.com/users/aroben/repos",
+      "events_url": "https://api.github.com/users/aroben/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aroben/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-05-14T19:16:51Z",
+    "updated_at": "2013-05-14T19:16:51Z",
+    "body": "As I mentioned in Campfire, I think this will just require implementing `content::WebContentsDelegate::MoveContents`.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/17944278",
+    "html_url": "https://github.com/electron/electron/issues/2#issuecomment-17944278",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2",
+    "id": 17944278,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-05-15T15:05:02Z",
+    "updated_at": "2013-05-15T15:05:02Z",
+    "body": ":cool::exclamation: \n"
+  }
+]

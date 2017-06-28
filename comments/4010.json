@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/173425679",
+    "html_url": "https://github.com/electron/electron/issues/4010#issuecomment-173425679",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4010",
+    "id": 173425679,
+    "user": {
+      "login": "felixrieseberg",
+      "id": 1426799,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1426799?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felixrieseberg",
+      "html_url": "https://github.com/felixrieseberg",
+      "followers_url": "https://api.github.com/users/felixrieseberg/followers",
+      "following_url": "https://api.github.com/users/felixrieseberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felixrieseberg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felixrieseberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felixrieseberg/subscriptions",
+      "organizations_url": "https://api.github.com/users/felixrieseberg/orgs",
+      "repos_url": "https://api.github.com/users/felixrieseberg/repos",
+      "events_url": "https://api.github.com/users/felixrieseberg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felixrieseberg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-21T01:50:29Z",
+    "updated_at": "2016-01-21T01:50:29Z",
+    "body": "I'm not sure that this should be a part of Electron. Instead, you could make a little Node module that uses ffi or a little console application to figure this out. \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/227766446",
+    "html_url": "https://github.com/electron/electron/issues/4010#issuecomment-227766446",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4010",
+    "id": 227766446,
+    "user": {
+      "login": "black-snow",
+      "id": 579733,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/579733?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/black-snow",
+      "html_url": "https://github.com/black-snow",
+      "followers_url": "https://api.github.com/users/black-snow/followers",
+      "following_url": "https://api.github.com/users/black-snow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/black-snow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/black-snow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/black-snow/subscriptions",
+      "organizations_url": "https://api.github.com/users/black-snow/orgs",
+      "repos_url": "https://api.github.com/users/black-snow/repos",
+      "events_url": "https://api.github.com/users/black-snow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/black-snow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-22T14:43:35Z",
+    "updated_at": "2016-06-22T14:43:35Z",
+    "body": "@felixrieseberg Do you know if anything's changed here since 0.36?\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/301539373",
+    "html_url": "https://github.com/electron/electron/issues/9407#issuecomment-301539373",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9407",
+    "id": 301539373,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-15T17:08:40Z",
+    "updated_at": "2017-05-15T17:08:40Z",
+    "body": "They should be in the temp directory.\r\n\r\nSomething like:\r\n\r\n```js\r\npath.join(app.getPath('temp'), app.getName() + ' Crashes')\r\n```\r\n\r\nThe `productName` specified to the crash reporter will be used instead of `app.getName()` if present.\r\n\r\nYou can see the code at https://github.com/electron/electron/blob/e708a45496b9a9621e6c1f16aa039f700a2aba14/lib/common/api/crash-reporter.js#L81-L84"
+  }
+]

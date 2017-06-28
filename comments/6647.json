@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/236185529",
+    "html_url": "https://github.com/electron/electron/issues/6647#issuecomment-236185529",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6647",
+    "id": 236185529,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-29T13:51:06Z",
+    "updated_at": "2016-07-29T13:51:06Z",
+    "body": "I think the second call of `autoUpdater.checkForUpdates` should have the same result with the the first call, @paulcbetts might have a better idea of what the correct behavior should be.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/236231536",
+    "html_url": "https://github.com/electron/electron/issues/6647#issuecomment-236231536",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6647",
+    "id": 236231536,
+    "user": {
+      "login": "KSKS",
+      "id": 555130,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/555130?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/KSKS",
+      "html_url": "https://github.com/KSKS",
+      "followers_url": "https://api.github.com/users/KSKS/followers",
+      "following_url": "https://api.github.com/users/KSKS/following{/other_user}",
+      "gists_url": "https://api.github.com/users/KSKS/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/KSKS/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/KSKS/subscriptions",
+      "organizations_url": "https://api.github.com/users/KSKS/orgs",
+      "repos_url": "https://api.github.com/users/KSKS/repos",
+      "events_url": "https://api.github.com/users/KSKS/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/KSKS/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-29T16:44:51Z",
+    "updated_at": "2016-07-29T16:44:51Z",
+    "body": "That is basically the behavior on Mac right now.\n"
+  }
+]

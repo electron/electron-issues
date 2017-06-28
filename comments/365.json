@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/44929161",
+    "html_url": "https://github.com/electron/electron/issues/365#issuecomment-44929161",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/365",
+    "id": 44929161,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-06-03T07:44:31Z",
+    "updated_at": "2014-06-03T07:44:31Z",
+    "body": "No, accelerator is only for keyboard events.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/44937198",
+    "html_url": "https://github.com/electron/electron/issues/365#issuecomment-44937198",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/365",
+    "id": 44937198,
+    "user": {
+      "login": "m0g",
+      "id": 1441121,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1441121?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/m0g",
+      "html_url": "https://github.com/m0g",
+      "followers_url": "https://api.github.com/users/m0g/followers",
+      "following_url": "https://api.github.com/users/m0g/following{/other_user}",
+      "gists_url": "https://api.github.com/users/m0g/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/m0g/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/m0g/subscriptions",
+      "organizations_url": "https://api.github.com/users/m0g/orgs",
+      "repos_url": "https://api.github.com/users/m0g/repos",
+      "events_url": "https://api.github.com/users/m0g/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/m0g/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-06-03T08:23:24Z",
+    "updated_at": "2014-06-03T08:23:24Z",
+    "body": "All right, thanks for your answer\n\n2014-06-03 10:44 GMT+03:00 Cheng Zhao notifications@github.com:\n\n> No, accelerator is only for keyboard events.\n> \n> —\n> Reply to this email directly or view it on GitHub\n> https://github.com/atom/atom-shell/issues/365#issuecomment-44929161.\n\n## \n\n---\n\nLoïc Nogues\n"
+  }
+]

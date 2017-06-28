@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/197463614",
+    "html_url": "https://github.com/electron/electron/issues/4813#issuecomment-197463614",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4813",
+    "id": 197463614,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-03-16T18:11:48Z",
+    "updated_at": "2016-03-16T18:11:48Z",
+    "body": "This seems somewhat similar to https://github.com/atom/electron/issues/4688 in terms of the socket path being too long\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/197482489",
+    "html_url": "https://github.com/electron/electron/issues/4813#issuecomment-197482489",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4813",
+    "id": 197482489,
+    "user": {
+      "login": "herrmannplatz",
+      "id": 174685,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/174685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/herrmannplatz",
+      "html_url": "https://github.com/herrmannplatz",
+      "followers_url": "https://api.github.com/users/herrmannplatz/followers",
+      "following_url": "https://api.github.com/users/herrmannplatz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/herrmannplatz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/herrmannplatz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/herrmannplatz/subscriptions",
+      "organizations_url": "https://api.github.com/users/herrmannplatz/orgs",
+      "repos_url": "https://api.github.com/users/herrmannplatz/repos",
+      "events_url": "https://api.github.com/users/herrmannplatz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/herrmannplatz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-16T18:47:05Z",
+    "updated_at": "2016-03-16T18:47:05Z",
+    "body": "Indeed. Thanks will keep an eye on this issue.\n"
+  }
+]

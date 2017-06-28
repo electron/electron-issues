@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/291810219",
+    "html_url": "https://github.com/electron/electron/issues/9085#issuecomment-291810219",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9085",
+    "id": 291810219,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-05T09:44:29Z",
+    "updated_at": "2017-04-05T09:44:29Z",
+    "body": "The error occurs when we are violating a security origin policy during navigation and it happens because initial navigation will end up with `data:text/html,chromewebdata` and when devtools is opened it sees origin violation. There is nothing we can do in this case, the behavior is same with chrome.\r\n* Open new-tab\r\n* navigate to non-existent local url\r\n* open devtools\r\n\r\nYou can listen to `did-fail-load` event of webContents for better error messages."
+  }
+]

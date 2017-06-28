@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/233335140",
+    "html_url": "https://github.com/electron/electron/issues/6526#issuecomment-233335140",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6526",
+    "id": 233335140,
+    "user": {
+      "login": "longboy",
+      "id": 6941888,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6941888?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/longboy",
+      "html_url": "https://github.com/longboy",
+      "followers_url": "https://api.github.com/users/longboy/followers",
+      "following_url": "https://api.github.com/users/longboy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/longboy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/longboy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/longboy/subscriptions",
+      "organizations_url": "https://api.github.com/users/longboy/orgs",
+      "repos_url": "https://api.github.com/users/longboy/repos",
+      "events_url": "https://api.github.com/users/longboy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/longboy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-18T13:55:03Z",
+    "updated_at": "2016-07-18T13:55:03Z",
+    "body": "I want to set white background.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/233382751",
+    "html_url": "https://github.com/electron/electron/issues/6526#issuecomment-233382751",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6526",
+    "id": 233382751,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-18T16:32:10Z",
+    "updated_at": "2016-07-18T16:32:10Z",
+    "body": "You can only either use the native frame, or use a frameless window and draws the chrome with your own code. Windows doesn't provide a way to change the color of native frame.\n"
+  }
+]

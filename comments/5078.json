@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/208264340",
+    "html_url": "https://github.com/electron/electron/issues/5078#issuecomment-208264340",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5078",
+    "id": 208264340,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-11T09:59:13Z",
+    "updated_at": "2016-04-11T09:59:13Z",
+    "body": "Currently the only work around is to use native node modules to read clipboard.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/267604646",
+    "html_url": "https://github.com/electron/electron/issues/5078#issuecomment-267604646",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5078",
+    "id": 267604646,
+    "user": {
+      "login": "Bacto",
+      "id": 1188497,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1188497?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Bacto",
+      "html_url": "https://github.com/Bacto",
+      "followers_url": "https://api.github.com/users/Bacto/followers",
+      "following_url": "https://api.github.com/users/Bacto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Bacto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Bacto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Bacto/subscriptions",
+      "organizations_url": "https://api.github.com/users/Bacto/orgs",
+      "repos_url": "https://api.github.com/users/Bacto/repos",
+      "events_url": "https://api.github.com/users/Bacto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Bacto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-16T14:25:27Z",
+    "updated_at": "2016-12-16T14:25:27Z",
+    "body": "Hi guys,\r\n\r\nI have  the same problem. Do you know a native node modules that can copy a GIF to the clipboard?\r\nI don't find anything :("
+  }
+]

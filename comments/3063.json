@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/147273909",
+    "html_url": "https://github.com/electron/electron/issues/3063#issuecomment-147273909",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3063",
+    "id": 147273909,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-12T02:11:23Z",
+    "updated_at": "2015-10-12T02:11:23Z",
+    "body": "Can you try the latest release? We had some fixes for devtools events in recent versions.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/147292337",
+    "html_url": "https://github.com/electron/electron/issues/3063#issuecomment-147292337",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3063",
+    "id": 147292337,
+    "user": {
+      "login": "kress95",
+      "id": 2013206,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2013206?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kress95",
+      "html_url": "https://github.com/kress95",
+      "followers_url": "https://api.github.com/users/kress95/followers",
+      "following_url": "https://api.github.com/users/kress95/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kress95/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kress95/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kress95/subscriptions",
+      "organizations_url": "https://api.github.com/users/kress95/orgs",
+      "repos_url": "https://api.github.com/users/kress95/repos",
+      "events_url": "https://api.github.com/users/kress95/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kress95/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-12T05:09:08Z",
+    "updated_at": "2015-10-12T05:09:43Z",
+    "body": "When calling openDevTools with `{detach: true}` the `devtools-closed` event is firing without a manual close, but it's no issue for me since I can ignore the first call.\n\nI checked it with `isDevToolsOpened` and it's really closed (I think the detatch option closes it in order to put it in a separate window) but no issue with that so far, closing :3\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/68195534",
+    "html_url": "https://github.com/electron/electron/issues/956#issuecomment-68195534",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/956",
+    "id": 68195534,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-12-28T01:30:28Z",
+    "updated_at": "2014-12-28T01:30:28Z",
+    "body": "Please try in latest release, it was not supported until recent versions.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/158690841",
+    "html_url": "https://github.com/electron/electron/issues/956#issuecomment-158690841",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/956",
+    "id": 158690841,
+    "user": {
+      "login": "mark-hahn",
+      "id": 811455,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/811455?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mark-hahn",
+      "html_url": "https://github.com/mark-hahn",
+      "followers_url": "https://api.github.com/users/mark-hahn/followers",
+      "following_url": "https://api.github.com/users/mark-hahn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mark-hahn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mark-hahn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mark-hahn/subscriptions",
+      "organizations_url": "https://api.github.com/users/mark-hahn/orgs",
+      "repos_url": "https://api.github.com/users/mark-hahn/repos",
+      "events_url": "https://api.github.com/users/mark-hahn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mark-hahn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-21T23:37:34Z",
+    "updated_at": "2015-11-21T23:47:25Z",
+    "body": "**Edit:** Ignore this.  My code below has the asterisk in the wrong place.\n\nWhen I place the code below in an atom package I'm getting the `Unexpected token *` also.  This is in javascript code escaped in coffeescript.  Any idea what I'm doing wrong?\n\n```\n`\nfunction test* () {\n  x=1\n  yield\n  x=2\n}\n`\n```\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/134039175",
+    "html_url": "https://github.com/electron/electron/issues/2477#issuecomment-134039175",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2477",
+    "id": 134039175,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-08-24T05:17:56Z",
+    "updated_at": "2015-08-24T05:17:56Z",
+    "body": "Electron doesn't require or help how you run tests, it is no different from running any other browser based tests. I suggest asking the [forum](https://discuss.atom.io/c/electron) for help since many people have their own ways of running specs.\n\nFor running Electron itself's specs, you can look at the [Build instructions](https://github.com/atom/electron/blob/master/docs/development/build-instructions-mac.md) in docs.\n"
+  }
+]

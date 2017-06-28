@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/177785296",
+    "html_url": "https://github.com/electron/electron/issues/4296#issuecomment-177785296",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4296",
+    "id": 177785296,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-01T06:01:38Z",
+    "updated_at": "2016-02-01T06:01:38Z",
+    "body": "There is no option to prevent it from being created. But I think we should not create it at all if users didn't use devtools extensions.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/177813379",
+    "html_url": "https://github.com/electron/electron/issues/4296#issuecomment-177813379",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4296",
+    "id": 177813379,
+    "user": {
+      "login": "matthewmueller",
+      "id": 170299,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/170299?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matthewmueller",
+      "html_url": "https://github.com/matthewmueller",
+      "followers_url": "https://api.github.com/users/matthewmueller/followers",
+      "following_url": "https://api.github.com/users/matthewmueller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matthewmueller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matthewmueller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matthewmueller/subscriptions",
+      "organizations_url": "https://api.github.com/users/matthewmueller/orgs",
+      "repos_url": "https://api.github.com/users/matthewmueller/repos",
+      "events_url": "https://api.github.com/users/matthewmueller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matthewmueller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-01T06:54:09Z",
+    "updated_at": "2016-02-01T06:54:09Z",
+    "body": "that's an even better solution :-)\n"
+  }
+]

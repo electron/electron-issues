@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/193689547",
+    "html_url": "https://github.com/electron/electron/issues/4702#issuecomment-193689547",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4702",
+    "id": 193689547,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-03-08T09:41:26Z",
+    "updated_at": "2016-03-08T09:41:26Z",
+    "body": "The media keys can only be registered when they are not taken by other applications, in your case I believe Windows itself has taken all of them.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/193734478",
+    "html_url": "https://github.com/electron/electron/issues/4702#issuecomment-193734478",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4702",
+    "id": 193734478,
+    "user": {
+      "login": "xabdullahx",
+      "id": 2795235,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2795235?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xabdullahx",
+      "html_url": "https://github.com/xabdullahx",
+      "followers_url": "https://api.github.com/users/xabdullahx/followers",
+      "following_url": "https://api.github.com/users/xabdullahx/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xabdullahx/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xabdullahx/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xabdullahx/subscriptions",
+      "organizations_url": "https://api.github.com/users/xabdullahx/orgs",
+      "repos_url": "https://api.github.com/users/xabdullahx/repos",
+      "events_url": "https://api.github.com/users/xabdullahx/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xabdullahx/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-08T11:19:04Z",
+    "updated_at": "2016-03-08T13:47:27Z",
+    "body": "I removed the keyboard software and it worked. Now i wonder how i am going to get the media tracking on my bluetooth headset to work.\n\nBut now it's clear that this has nothing to do with Electron :+1: \n"
+  }
+]

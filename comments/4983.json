@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/204355013",
+    "html_url": "https://github.com/electron/electron/issues/4983#issuecomment-204355013",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4983",
+    "id": 204355013,
+    "user": {
+      "login": "levrik",
+      "id": 9491603,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9491603?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/levrik",
+      "html_url": "https://github.com/levrik",
+      "followers_url": "https://api.github.com/users/levrik/followers",
+      "following_url": "https://api.github.com/users/levrik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/levrik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/levrik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/levrik/subscriptions",
+      "organizations_url": "https://api.github.com/users/levrik/orgs",
+      "repos_url": "https://api.github.com/users/levrik/repos",
+      "events_url": "https://api.github.com/users/levrik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/levrik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-01T11:27:34Z",
+    "updated_at": "2016-04-01T11:28:10Z",
+    "body": "There is no Electron-way to do this but you can simply check the platform with this Node-function: https://nodejs.org/dist/latest/docs/api/os.html#os_os_platform\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/205472744",
+    "html_url": "https://github.com/electron/electron/issues/4983#issuecomment-205472744",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4983",
+    "id": 205472744,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-04T20:07:36Z",
+    "updated_at": "2016-04-04T20:07:36Z",
+    "body": "Yup, as @DerNivel mentioned, checking `process.platform` or `os.platform()` before creating the browser window and tweaking the options based on the value is the way to accomplish this.\n"
+  }
+]

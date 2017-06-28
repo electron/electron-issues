@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/299341696",
+    "html_url": "https://github.com/electron/electron/issues/9374#issuecomment-299341696",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9374",
+    "id": 299341696,
+    "user": {
+      "login": "brmscheiner",
+      "id": 9775178,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9775178?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brmscheiner",
+      "html_url": "https://github.com/brmscheiner",
+      "followers_url": "https://api.github.com/users/brmscheiner/followers",
+      "following_url": "https://api.github.com/users/brmscheiner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brmscheiner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brmscheiner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brmscheiner/subscriptions",
+      "organizations_url": "https://api.github.com/users/brmscheiner/orgs",
+      "repos_url": "https://api.github.com/users/brmscheiner/repos",
+      "events_url": "https://api.github.com/users/brmscheiner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brmscheiner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-05T00:04:04Z",
+    "updated_at": "2017-05-05T00:04:04Z",
+    "body": "@johnmuhl pointed out that I have to start crashReporter in both the main and render processes "
+  }
+]

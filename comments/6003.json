@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/227946801",
+    "html_url": "https://github.com/electron/electron/issues/6003#issuecomment-227946801",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6003",
+    "id": 227946801,
+    "user": {
+      "login": "azer",
+      "id": 13072,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13072?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/azer",
+      "html_url": "https://github.com/azer",
+      "followers_url": "https://api.github.com/users/azer/followers",
+      "following_url": "https://api.github.com/users/azer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/azer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/azer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/azer/subscriptions",
+      "organizations_url": "https://api.github.com/users/azer/orgs",
+      "repos_url": "https://api.github.com/users/azer/repos",
+      "events_url": "https://api.github.com/users/azer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/azer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-23T04:26:52Z",
+    "updated_at": "2016-06-23T04:26:52Z",
+    "body": "@kunkinkan why did you close it after opening ? you've figured an answer ?\n"
+  }
+]

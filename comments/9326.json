@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/298197766",
+    "html_url": "https://github.com/electron/electron/issues/9326#issuecomment-298197766",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9326",
+    "id": 298197766,
+    "user": {
+      "login": "ir-fuel",
+      "id": 1573715,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1573715?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ir-fuel",
+      "html_url": "https://github.com/ir-fuel",
+      "followers_url": "https://api.github.com/users/ir-fuel/followers",
+      "following_url": "https://api.github.com/users/ir-fuel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ir-fuel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ir-fuel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ir-fuel/subscriptions",
+      "organizations_url": "https://api.github.com/users/ir-fuel/orgs",
+      "repos_url": "https://api.github.com/users/ir-fuel/repos",
+      "events_url": "https://api.github.com/users/ir-fuel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ir-fuel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-29T22:13:18Z",
+    "updated_at": "2017-04-29T22:13:18Z",
+    "body": "I just tested the electron quickstart project.\r\nSame issue:\r\n\r\n```\r\nPS C:\\Users\\ir_fu\\Documents> cd test\r\nPS C:\\Users\\ir_fu\\Documents\\test> git clone https://github.com/electron/electron-quick-start\r\n>>\r\nCloning into 'electron-quick-start'...\r\nremote: Counting objects: 255, done.\r\nremote: Total 255 (delta 0), reused 0 (delta 0), pack-reused 255Receiving objects:  63% (161\r\nReceiving objects: 100% (255/255), 42.43 KiB | 0 bytes/s, done.\r\nResolving deltas: 100% (118/118), done.\r\nPS C:\\Users\\ir_fu\\Documents\\test> cd .\\electron-quick-start\\\r\nPS C:\\Users\\ir_fu\\Documents\\test\\electron-quick-start> npm install\r\n\r\n> electron@1.6.6 postinstall C:\\Users\\ir_fu\\Documents\\test\\electron-quick-start\\node_modules\\electron\r\n> node install.js\r\n\r\nC:\\Users\\ir_fu\\Documents\\test\\electron-quick-start\\node_modules\\electron\\install.js:47\r\n  throw err\r\n  ^\r\n\r\nError: ENOENT: no such file or directory, lstat 'C:\\Users\\ir_fu\\Documents\\test\\electron-quick-start\\node_modules\\electro\r\nn\\dist\\resources'\r\nnpm ERR! Windows_NT 10.0.14393\r\nnpm ERR! argv \"C:\\\\Program Files\\\\nodejs\\\\node.exe\" \"C:\\\\Users\\\\ir_fu\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\\\\npm\\\\bin\\\\np\r\nm-cli.js\" \"install\"\r\nnpm ERR! node v7.9.0\r\nnpm ERR! npm  v4.0.2\r\nnpm ERR! code ELIFECYCLE\r\n\r\nnpm ERR! electron@1.6.6 postinstall: `node install.js`\r\nnpm ERR! Exit status 1\r\nnpm ERR!\r\nnpm ERR! Failed at the electron@1.6.6 postinstall script 'node install.js'.\r\nnpm ERR! Make sure you have the latest version of node.js and npm installed.\r\nnpm ERR! If you do, this is most likely a problem with the electron package,\r\nnpm ERR! not with npm itself.\r\nnpm ERR! Tell the author that this fails on your system:\r\nnpm ERR!     node install.js\r\nnpm ERR! You can get information on how to open an issue for this project with:\r\nnpm ERR!     npm bugs electron\r\nnpm ERR! Or if that isn't available, you can get their info via:\r\nnpm ERR!     npm owner ls electron\r\nnpm ERR! There is likely additional logging output above.\r\n\r\nnpm ERR! Please include the following file with any support request:\r\nnpm ERR!     C:\\Users\\ir_fu\\Documents\\test\\electron-quick-start\\npm-debug.log\r\n```\r\n\r\nAdded the npm debug file\r\n\r\n[npm-debug.txt](https://github.com/electron/electron/files/966439/npm-debug.txt)\r\n\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/298197862",
+    "html_url": "https://github.com/electron/electron/issues/9326#issuecomment-298197862",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9326",
+    "id": 298197862,
+    "user": {
+      "login": "ir-fuel",
+      "id": 1573715,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1573715?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ir-fuel",
+      "html_url": "https://github.com/ir-fuel",
+      "followers_url": "https://api.github.com/users/ir-fuel/followers",
+      "following_url": "https://api.github.com/users/ir-fuel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ir-fuel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ir-fuel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ir-fuel/subscriptions",
+      "organizations_url": "https://api.github.com/users/ir-fuel/orgs",
+      "repos_url": "https://api.github.com/users/ir-fuel/repos",
+      "events_url": "https://api.github.com/users/ir-fuel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ir-fuel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-29T22:15:11Z",
+    "updated_at": "2017-04-29T22:15:11Z",
+    "body": "Seems to be a duplicate of\r\n\r\nhttps://github.com/electron/electron/issues/9323"
+  }
+]

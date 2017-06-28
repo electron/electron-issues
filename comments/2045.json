@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/115096219",
+    "html_url": "https://github.com/electron/electron/issues/2045#issuecomment-115096219",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2045",
+    "id": 115096219,
+    "user": {
+      "login": "frankhale",
+      "id": 190154,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/190154?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frankhale",
+      "html_url": "https://github.com/frankhale",
+      "followers_url": "https://api.github.com/users/frankhale/followers",
+      "following_url": "https://api.github.com/users/frankhale/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frankhale/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frankhale/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frankhale/subscriptions",
+      "organizations_url": "https://api.github.com/users/frankhale/orgs",
+      "repos_url": "https://api.github.com/users/frankhale/repos",
+      "events_url": "https://api.github.com/users/frankhale/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frankhale/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-25T04:00:40Z",
+    "updated_at": "2015-06-25T04:01:13Z",
+    "body": "Looks like runas is failing to install. Can you try to install runas by itself and see if it fails?\n\n```\nnpm install -g runas\n```\n\nAre you by chance using the Visual Studio command prompt to run bootstrap? If not, could you try it? I know there are other methods for building on Windows but for me it's worked well across multiple systems when I've encountered various issues similar to this. I've noticed quite a lot of problems building node modules on Windows. It seems to be a source of much pain (at least it has been for me).\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/115219593",
+    "html_url": "https://github.com/electron/electron/issues/2045#issuecomment-115219593",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2045",
+    "id": 115219593,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-06-25T11:48:05Z",
+    "updated_at": "2015-06-25T11:48:05Z",
+    "body": "The `ELIFECYCLE` error usually means there is some trouble in your Windows development environment, one common solution is to reinstall Visual Studio.\n\nClosing since it is actually an `npm` issue.\n"
+  }
+]

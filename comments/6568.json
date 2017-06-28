@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/234535964",
+    "html_url": "https://github.com/electron/electron/issues/6568#issuecomment-234535964",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6568",
+    "id": 234535964,
+    "user": {
+      "login": "bontibon",
+      "id": 110883,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/110883?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bontibon",
+      "html_url": "https://github.com/bontibon",
+      "followers_url": "https://api.github.com/users/bontibon/followers",
+      "following_url": "https://api.github.com/users/bontibon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bontibon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bontibon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bontibon/subscriptions",
+      "organizations_url": "https://api.github.com/users/bontibon/orgs",
+      "repos_url": "https://api.github.com/users/bontibon/repos",
+      "events_url": "https://api.github.com/users/bontibon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bontibon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-22T12:54:46Z",
+    "updated_at": "2016-07-22T12:54:46Z",
+    "body": "related #5217 \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/234817482",
+    "html_url": "https://github.com/electron/electron/issues/6568#issuecomment-234817482",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6568",
+    "id": 234817482,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-25T01:28:44Z",
+    "updated_at": "2016-07-25T01:28:44Z",
+    "body": "I'm merging this to #1378 since they are essentially the same problem: it is currently not possible to prevent synchronous events in renderer process.\n"
+  }
+]

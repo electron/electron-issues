@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/130049909",
+    "html_url": "https://github.com/electron/electron/issues/2478#issuecomment-130049909",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2478",
+    "id": 130049909,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-08-11T20:13:04Z",
+    "updated_at": "2015-08-11T20:13:04Z",
+    "body": "> (a) Do you agree that the listed developer is the main developer of Atom/Electron?\n\nYes\n\n> (b) Do you agree that Atom/Electron will be in trouble if the listed developer leave the project (e.g., if he wins in the lottery, to be less morbid)?\n\nYes\n\n> (c) Does Atom/Electron have some characteristics that would attenuate the loss of the listed developer (e.g., detailed documentation)?\n\nYes, we are actively looking to grow the team, both by hiring and by expanding the number of active maintainers on the project. We are also working to improve the documentation and the way issues are triaged.\n\nHope this helps, closing this out.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/130313843",
+    "html_url": "https://github.com/electron/electron/issues/2478#issuecomment-130313843",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2478",
+    "id": 130313843,
+    "user": {
+      "login": "gavelino",
+      "id": 666210,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/666210?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gavelino",
+      "html_url": "https://github.com/gavelino",
+      "followers_url": "https://api.github.com/users/gavelino/followers",
+      "following_url": "https://api.github.com/users/gavelino/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gavelino/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gavelino/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gavelino/subscriptions",
+      "organizations_url": "https://api.github.com/users/gavelino/orgs",
+      "repos_url": "https://api.github.com/users/gavelino/repos",
+      "events_url": "https://api.github.com/users/gavelino/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gavelino/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-12T13:54:45Z",
+    "updated_at": "2015-08-12T13:54:45Z",
+    "body": "Thank you.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/120093767",
+    "html_url": "https://github.com/electron/electron/issues/2169#issuecomment-120093767",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2169",
+    "id": 120093767,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-09T18:20:24Z",
+    "updated_at": "2015-07-09T18:20:24Z",
+    "body": "there is `setAudioMuted` api on [webContents](https://github.com/atom/electron/blob/master/docs/api/browser-window.md#webcontentssetaudiomutedmuted)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/120107901",
+    "html_url": "https://github.com/electron/electron/issues/2169#issuecomment-120107901",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2169",
+    "id": 120107901,
+    "user": {
+      "login": "matthewmueller",
+      "id": 170299,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/170299?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matthewmueller",
+      "html_url": "https://github.com/matthewmueller",
+      "followers_url": "https://api.github.com/users/matthewmueller/followers",
+      "following_url": "https://api.github.com/users/matthewmueller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matthewmueller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matthewmueller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matthewmueller/subscriptions",
+      "organizations_url": "https://api.github.com/users/matthewmueller/orgs",
+      "repos_url": "https://api.github.com/users/matthewmueller/repos",
+      "events_url": "https://api.github.com/users/matthewmueller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matthewmueller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-09T18:57:23Z",
+    "updated_at": "2015-07-09T18:57:23Z",
+    "body": "Gah. Thanks. Don't know how I missed that.\nOn Thu, Jul 9, 2015 at 11:20 Robo notifications@github.com wrote:\n\n> there is setAudioMuted api on webContents\n> https://github.com/atom/electron/blob/master/docs/api/browser-window.md#webcontentssetaudiomutedmuted\n> \n> —\n> Reply to this email directly or view it on GitHub\n> https://github.com/atom/electron/issues/2169#issuecomment-120093767.\n"
+  }
+]

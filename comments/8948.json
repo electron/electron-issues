@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/310504581",
+    "html_url": "https://github.com/electron/electron/issues/8948#issuecomment-310504581",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8948",
+    "id": 310504581,
+    "user": {
+      "login": "shubham2892",
+      "id": 6316389,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6316389?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shubham2892",
+      "html_url": "https://github.com/shubham2892",
+      "followers_url": "https://api.github.com/users/shubham2892/followers",
+      "following_url": "https://api.github.com/users/shubham2892/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shubham2892/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shubham2892/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shubham2892/subscriptions",
+      "organizations_url": "https://api.github.com/users/shubham2892/orgs",
+      "repos_url": "https://api.github.com/users/shubham2892/repos",
+      "events_url": "https://api.github.com/users/shubham2892/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shubham2892/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-22T21:14:56Z",
+    "updated_at": "2017-06-22T21:14:56Z",
+    "body": "I have proposed a fix where the file packages are treated as directories, but IMHO it would be great if there could be a flag which when enabled would treat them as file and attach the `.zip` version of them to the input."
+  }
+]

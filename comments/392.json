@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/46107020",
+    "html_url": "https://github.com/electron/electron/issues/392#issuecomment-46107020",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/392",
+    "id": 46107020,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-06-15T04:57:23Z",
+    "updated_at": "2014-06-15T04:57:23Z",
+    "body": "We do not and will not support building with Xcode, ninja is used because it is fast and has same interface on all platforms. If you want to generate a Xcode project you can start hacking by changing gyp generator to Xcode in [script/update.py](https://github.com/atom/atom-shell/blob/master/script/update.py#L32), but we will not provide support for it and it may require some changes of building configurations to work.\n\nAlso the `Atom Framework.framwork` is not for use in other applications, it has a `main` function and is quite self-contained, so there is just no way to integrate atom-shell into your own application.\n"
+  }
+]

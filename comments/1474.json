@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/95688848",
+    "html_url": "https://github.com/electron/electron/issues/1474#issuecomment-95688848",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1474",
+    "id": 95688848,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-23T19:12:25Z",
+    "updated_at": "2015-04-23T19:12:25Z",
+    "body": "We actually are finding that (anecdotally) the latest version loads much faster than previous versions on Windows, this might be based on what your app is doing at startup? \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/95717417",
+    "html_url": "https://github.com/electron/electron/issues/1474#issuecomment-95717417",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1474",
+    "id": 95717417,
+    "user": {
+      "login": "romovs",
+      "id": 2727288,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2727288?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/romovs",
+      "html_url": "https://github.com/romovs",
+      "followers_url": "https://api.github.com/users/romovs/followers",
+      "following_url": "https://api.github.com/users/romovs/following{/other_user}",
+      "gists_url": "https://api.github.com/users/romovs/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/romovs/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/romovs/subscriptions",
+      "organizations_url": "https://api.github.com/users/romovs/orgs",
+      "repos_url": "https://api.github.com/users/romovs/repos",
+      "events_url": "https://api.github.com/users/romovs/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/romovs/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-23T21:00:39Z",
+    "updated_at": "2015-04-23T21:00:39Z",
+    "body": "It happens with the default_app which comes bundled with Electron. My app which is a bit heavier also loads faster on previous versions.\nStrangely enough it seems that only one specific machine is affected by this. I just tested on two more almost identical Windows installations and everything is fine there - latest version indeed loads faster. Weird.\n\nI guess we can close this as it doesn't seem like something reproducible...\n"
+  }
+]

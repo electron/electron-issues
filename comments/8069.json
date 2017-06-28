@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/266463969",
+    "html_url": "https://github.com/electron/electron/issues/8069#issuecomment-266463969",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8069",
+    "id": 266463969,
+    "user": {
+      "login": "imsnif",
+      "id": 795598,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/795598?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/imsnif",
+      "html_url": "https://github.com/imsnif",
+      "followers_url": "https://api.github.com/users/imsnif/followers",
+      "following_url": "https://api.github.com/users/imsnif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/imsnif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/imsnif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/imsnif/subscriptions",
+      "organizations_url": "https://api.github.com/users/imsnif/orgs",
+      "repos_url": "https://api.github.com/users/imsnif/repos",
+      "events_url": "https://api.github.com/users/imsnif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/imsnif/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-12T15:42:32Z",
+    "updated_at": "2016-12-12T15:42:32Z",
+    "body": "Was the information sufficient? Am I missing something?"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/305117980",
+    "html_url": "https://github.com/electron/electron/issues/8069#issuecomment-305117980",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8069",
+    "id": 305117980,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-31T08:11:42Z",
+    "updated_at": "2017-05-31T08:11:42Z",
+    "body": "The work area information on Linux is received by reading the `_NET_WORKAREA` hint provided by window manager, if the values are wrong, then it is an issue of the window manager, there is no way for Electron to know the correct value.\r\n\r\nI'm closing this since we are unable to fix this on Electron's side."
+  }
+]

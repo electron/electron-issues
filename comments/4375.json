@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/180389970",
+    "html_url": "https://github.com/electron/electron/issues/4375#issuecomment-180389970",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4375",
+    "id": 180389970,
+    "user": {
+      "login": "astoilkov",
+      "id": 884810,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/884810?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/astoilkov",
+      "html_url": "https://github.com/astoilkov",
+      "followers_url": "https://api.github.com/users/astoilkov/followers",
+      "following_url": "https://api.github.com/users/astoilkov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/astoilkov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/astoilkov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/astoilkov/subscriptions",
+      "organizations_url": "https://api.github.com/users/astoilkov/orgs",
+      "repos_url": "https://api.github.com/users/astoilkov/repos",
+      "events_url": "https://api.github.com/users/astoilkov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/astoilkov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-05T14:58:53Z",
+    "updated_at": "2016-02-05T14:58:53Z",
+    "body": "One addition:\n\n``` js\n// in main process returns true\nbrowserWindow.webContents == browserWindow.webContents\n\n// in renderer process returns false\nbrowserWindow.webContents == browserWindow.webContents\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/180390695",
+    "html_url": "https://github.com/electron/electron/issues/4375#issuecomment-180390695",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4375",
+    "id": 180390695,
+    "user": {
+      "login": "astoilkov",
+      "id": 884810,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/884810?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/astoilkov",
+      "html_url": "https://github.com/astoilkov",
+      "followers_url": "https://api.github.com/users/astoilkov/followers",
+      "following_url": "https://api.github.com/users/astoilkov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/astoilkov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/astoilkov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/astoilkov/subscriptions",
+      "organizations_url": "https://api.github.com/users/astoilkov/orgs",
+      "repos_url": "https://api.github.com/users/astoilkov/repos",
+      "events_url": "https://api.github.com/users/astoilkov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/astoilkov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-05T15:01:50Z",
+    "updated_at": "2016-02-05T15:01:50Z",
+    "body": "It seems like its possible to return the same instance. This is seen in `getCurrentWebContents()` so I suggest normalizing this behavior and making `browserWindow.webContents` also consistent always returning the same instance.\n"
+  }
+]

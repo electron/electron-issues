@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/61821085",
+    "html_url": "https://github.com/electron/electron/issues/786#issuecomment-61821085",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/786",
+    "id": 61821085,
+    "user": {
+      "login": "ghost",
+      "id": 10137,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10137?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghost",
+      "html_url": "https://github.com/ghost",
+      "followers_url": "https://api.github.com/users/ghost/followers",
+      "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghost/orgs",
+      "repos_url": "https://api.github.com/users/ghost/repos",
+      "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghost/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-05T15:10:13Z",
+    "updated_at": "2014-11-05T15:10:13Z",
+    "body": "I can't test it right now, but doesn't setting `fullscreen: false` at browser-window creation what you want? If I remember correctly the fullscreen button was hidden with this option.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/61852200",
+    "html_url": "https://github.com/electron/electron/issues/786#issuecomment-61852200",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/786",
+    "id": 61852200,
+    "user": {
+      "login": "alice0meta",
+      "id": 4326906,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4326906?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alice0meta",
+      "html_url": "https://github.com/alice0meta",
+      "followers_url": "https://api.github.com/users/alice0meta/followers",
+      "following_url": "https://api.github.com/users/alice0meta/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alice0meta/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alice0meta/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alice0meta/subscriptions",
+      "organizations_url": "https://api.github.com/users/alice0meta/orgs",
+      "repos_url": "https://api.github.com/users/alice0meta/repos",
+      "events_url": "https://api.github.com/users/alice0meta/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alice0meta/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-05T17:59:08Z",
+    "updated_at": "2014-11-05T17:59:08Z",
+    "body": "That does work! Which really surprises me - I thought the option would have a default of false, whereas it actually has a default of undefined?\n"
+  }
+]

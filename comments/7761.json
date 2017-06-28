@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/256719182",
+    "html_url": "https://github.com/electron/electron/issues/7761#issuecomment-256719182",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7761",
+    "id": 256719182,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-27T17:48:16Z",
+    "updated_at": "2016-10-27T17:48:16Z",
+    "body": "You can access the dev tools web contents via:\n\n``` js\nif (win.webContents.isDevToolsFocused()) {\n  win.webContents.devToolsWebContents.paste()\n}\n```\n\nYou can also use `require('electron').webContents.getFocusedWebContents()` to get the focused web contents.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/30608031",
+    "html_url": "https://github.com/electron/electron/issues/143#issuecomment-30608031",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/143",
+    "id": 30608031,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-12-15T14:37:22Z",
+    "updated_at": "2014-05-05T17:30:36Z",
+    "body": "Detailed crash report: CRASH-SERVER/view/2d5eacbc-b82b-42b4-8a93-bae6ff589579.\n\nThis should be upstream Chromium bug https://code.google.com/p/chromium/issues/detail?id=276064 which was solved by https://codereview.chromium.org/18842002/. Will be fixed when #140 is done.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/31248607",
+    "html_url": "https://github.com/electron/electron/issues/143#issuecomment-31248607",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/143",
+    "id": 31248607,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-12-27T06:09:39Z",
+    "updated_at": "2013-12-27T06:09:39Z",
+    "body": "Fixed by #140.\n"
+  }
+]

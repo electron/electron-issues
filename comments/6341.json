@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/230246969",
+    "html_url": "https://github.com/electron/electron/issues/6341#issuecomment-230246969",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6341",
+    "id": 230246969,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-04T09:28:35Z",
+    "updated_at": "2016-07-04T09:28:35Z",
+    "body": "You just raised this issue like 2 hours ago and it was closed #6340\n\n> For questions about writing apps, I suggest seeking help from the [community](https://github.com/electron/electron#community). The GitHub Issues list is only for bug reports and feature requests.\n\nI fail to see how this question has changed, use the discussion forum if you want help developingg for Electron.  The issues section on github is only for bug reports and feature requests.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/231280023",
+    "html_url": "https://github.com/electron/electron/issues/6341#issuecomment-231280023",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6341",
+    "id": 231280023,
+    "user": {
+      "login": "ShivangiGa",
+      "id": 20225542,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20225542?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ShivangiGa",
+      "html_url": "https://github.com/ShivangiGa",
+      "followers_url": "https://api.github.com/users/ShivangiGa/followers",
+      "following_url": "https://api.github.com/users/ShivangiGa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ShivangiGa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ShivangiGa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ShivangiGa/subscriptions",
+      "organizations_url": "https://api.github.com/users/ShivangiGa/orgs",
+      "repos_url": "https://api.github.com/users/ShivangiGa/repos",
+      "events_url": "https://api.github.com/users/ShivangiGa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ShivangiGa/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-08T05:45:33Z",
+    "updated_at": "2016-07-08T05:45:33Z",
+    "body": "oh. By mistake. Apologies for inconvenience.\n"
+  }
+]

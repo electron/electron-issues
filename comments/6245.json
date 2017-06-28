@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/228583687",
+    "html_url": "https://github.com/electron/electron/issues/6245#issuecomment-228583687",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6245",
+    "id": 228583687,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-26T04:26:34Z",
+    "updated_at": "2016-06-26T04:26:34Z",
+    "body": "iojs-1.2.4 is not actually io.js, a more appropriate name for it is electron-1.2.4 but the name is what it is to keep `node-gyp` happy. This exact same question was answered in #6214 two days ago.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/68087330",
+    "html_url": "https://github.com/electron/electron/issues/952#issuecomment-68087330",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/952",
+    "id": 68087330,
+    "user": {
+      "login": "hachre",
+      "id": 885304,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/885304?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hachre",
+      "html_url": "https://github.com/hachre",
+      "followers_url": "https://api.github.com/users/hachre/followers",
+      "following_url": "https://api.github.com/users/hachre/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hachre/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hachre/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hachre/subscriptions",
+      "organizations_url": "https://api.github.com/users/hachre/orgs",
+      "repos_url": "https://api.github.com/users/hachre/repos",
+      "events_url": "https://api.github.com/users/hachre/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hachre/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-25T05:03:50Z",
+    "updated_at": "2014-12-25T05:04:11Z",
+    "body": "You now need to change many more things than just the Bundle name. Basically every occurrence of \"Atom\" has to be renamed as file and directory name in the .app bundle. Including the Symlinks and their destinations... \n\nhttps://github.com/atom/atom-shell/blob/master/docs/tutorial/application-distribution.md#renaming-atom-shell-for-your-app\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/68173947",
+    "html_url": "https://github.com/electron/electron/issues/952#issuecomment-68173947",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/952",
+    "id": 68173947,
+    "user": {
+      "login": "ghost",
+      "id": 10137,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10137?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghost",
+      "html_url": "https://github.com/ghost",
+      "followers_url": "https://api.github.com/users/ghost/followers",
+      "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghost/orgs",
+      "repos_url": "https://api.github.com/users/ghost/repos",
+      "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghost/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-27T09:45:49Z",
+    "updated_at": "2014-12-27T09:45:49Z",
+    "body": "Rebuilding the whole shell is the most convenient option available. Thanks for pointing it out. Some releases ago it worked with just renaming some keys in the plist file.\n"
+  }
+]

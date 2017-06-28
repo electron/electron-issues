@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/242306127",
+    "html_url": "https://github.com/electron/electron/issues/6967#issuecomment-242306127",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6967",
+    "id": 242306127,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-25T07:43:07Z",
+    "updated_at": "2016-08-25T07:43:07Z",
+    "body": "Use this: http://electron.atom.io/docs/api/app/#appmakesingleinstancecallback\n\nGitHub issues are for feature requests and bug reports, questions on how to use Electron should be directed to the [community](https://github.com/electron/electron#community).\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/242307643",
+    "html_url": "https://github.com/electron/electron/issues/6967#issuecomment-242307643",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6967",
+    "id": 242307643,
+    "user": {
+      "login": "hisune",
+      "id": 7941669,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7941669?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hisune",
+      "html_url": "https://github.com/hisune",
+      "followers_url": "https://api.github.com/users/hisune/followers",
+      "following_url": "https://api.github.com/users/hisune/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hisune/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hisune/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hisune/subscriptions",
+      "organizations_url": "https://api.github.com/users/hisune/orgs",
+      "repos_url": "https://api.github.com/users/hisune/repos",
+      "events_url": "https://api.github.com/users/hisune/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hisune/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-25T07:50:53Z",
+    "updated_at": "2016-08-25T07:50:53Z",
+    "body": "@enlight \nThx. Worked perfectly!\n"
+  }
+]

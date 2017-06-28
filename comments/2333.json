@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/124791854",
+    "html_url": "https://github.com/electron/electron/issues/2333#issuecomment-124791854",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2333",
+    "id": 124791854,
+    "user": {
+      "login": "hokein",
+      "id": 2557445,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2557445?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hokein",
+      "html_url": "https://github.com/hokein",
+      "followers_url": "https://api.github.com/users/hokein/followers",
+      "following_url": "https://api.github.com/users/hokein/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hokein/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hokein/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hokein/subscriptions",
+      "organizations_url": "https://api.github.com/users/hokein/orgs",
+      "repos_url": "https://api.github.com/users/hokein/repos",
+      "events_url": "https://api.github.com/users/hokein/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hokein/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-25T02:58:47Z",
+    "updated_at": "2015-07-25T02:58:47Z",
+    "body": "Minimize to `setResizable()` API bug. Each time calling `setResizable(false)` in a frameless window, the height of the window will increase, and the increased number each time seems to be the height of title bar(about 22px).\n\nA minimal sample:\n\n```\nvar BrowserWindow = require('browser-window');\n  var win = new BrowserWindow({\n    frame: false\n });\nwin.setResizable(false);\nwin.setResizable(false);\n```\n"
+  }
+]

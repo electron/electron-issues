@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/285508947",
+    "html_url": "https://github.com/electron/electron/issues/8627#issuecomment-285508947",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8627",
+    "id": 285508947,
+    "user": {
+      "login": "brenca",
+      "id": 1690458,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1690458?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brenca",
+      "html_url": "https://github.com/brenca",
+      "followers_url": "https://api.github.com/users/brenca/followers",
+      "following_url": "https://api.github.com/users/brenca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brenca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brenca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brenca/subscriptions",
+      "organizations_url": "https://api.github.com/users/brenca/orgs",
+      "repos_url": "https://api.github.com/users/brenca/repos",
+      "events_url": "https://api.github.com/users/brenca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brenca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-09T22:49:26Z",
+    "updated_at": "2017-03-09T22:49:26Z",
+    "body": "Using the `--enable-logging` switch I got these lines (multiples of the second):\r\n```\r\n[20280:0309/231458.912:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 297\r\n[20280:0309/231459.029:ERROR:gl_context_wgl.cc(77)] Could not share GL contexts.\r\n```"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/306390902",
+    "html_url": "https://github.com/electron/electron/issues/8627#issuecomment-306390902",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8627",
+    "id": 306390902,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-06T06:05:38Z",
+    "updated_at": "2017-06-06T06:05:38Z",
+    "body": "This looks like a bug of Chromium, while we would like to fix it, I'm afraid non of us is familiar well enough with Chromium's GPU rendering to be able to solve this, and I'm closing this as won't fix."
+  }
+]

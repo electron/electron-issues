@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/157374815",
+    "html_url": "https://github.com/electron/electron/issues/3470#issuecomment-157374815",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3470",
+    "id": 157374815,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-17T13:50:29Z",
+    "updated_at": "2015-11-17T13:50:29Z",
+    "body": "It has been fixed by https://github.com/atom/brightray/pull/175, the fix will be included in next release.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/157375927",
+    "html_url": "https://github.com/electron/electron/issues/3470#issuecomment-157375927",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3470",
+    "id": 157375927,
+    "user": {
+      "login": "raleksandar",
+      "id": 33291,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/33291?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/raleksandar",
+      "html_url": "https://github.com/raleksandar",
+      "followers_url": "https://api.github.com/users/raleksandar/followers",
+      "following_url": "https://api.github.com/users/raleksandar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/raleksandar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/raleksandar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/raleksandar/subscriptions",
+      "organizations_url": "https://api.github.com/users/raleksandar/orgs",
+      "repos_url": "https://api.github.com/users/raleksandar/repos",
+      "events_url": "https://api.github.com/users/raleksandar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/raleksandar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-17T13:56:09Z",
+    "updated_at": "2015-11-17T13:56:09Z",
+    "body": "Great, thanks on quick reply! :)\n"
+  }
+]

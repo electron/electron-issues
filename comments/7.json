@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/18048067",
+    "html_url": "https://github.com/electron/electron/issues/7#issuecomment-18048067",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7",
+    "id": 18048067,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-05-17T07:47:54Z",
+    "updated_at": "2013-05-17T07:49:11Z",
+    "body": "ES6's WeakMap can only have weak keys, while the IDWeakMap in atom-shell can set weak values.\n\nI now added the [app.commandLine.appendSwitch](https://github.com/atom/atom-shell/wiki/app#appcommandlineappendswitchswitch-value) API to give Atom the ability to add the flags.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224372884",
+    "html_url": "https://github.com/electron/electron/issues/5916#issuecomment-224372884",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5916",
+    "id": 224372884,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-07T18:33:36Z",
+    "updated_at": "2016-06-07T18:33:36Z",
+    "body": "You've got bad RAM and Electron is the victim:\n\n```\n0: kd> !analyze -v\n*******************************************************************************\n*                                                                             *\n*                        Bugcheck Analysis                                    *\n*                                                                             *\n*******************************************************************************\n\nIRQL_NOT_LESS_OR_EQUAL (a)\nAn attempt was made to access a pageable (or completely invalid) address at an\ninterrupt request level (IRQL) that is too high.  This is usually\ncaused by drivers using improper addresses.\nIf a kernel debugger is available get the stack backtrace.\nArguments:\nArg1: 0000000000000028, memory referenced\nArg2: 0000000000000002, IRQL\nArg3: 0000000000000000, bitfield :\n    bit 0 : value 0 = read operation, 1 = write operation\n    bit 3 : value 0 = not an execute operation, 1 = execute operation (only on chips which support this level of status)\nArg4: fffff802d851510a, address which referenced memory\n\nDebugging Details:\n------------------\n\n*** WARNING: Unable to verify timestamp for win32k.sys\n*** ERROR: Module load completed but symbols could not be loaded for win32k.sys\n\nDUMP_CLASS: 1\n\nDUMP_QUALIFIER: 400\n\nBUILD_VERSION_STRING:  10.0.10586.306 (th2_release_sec.160422-1850)\n\nDUMP_TYPE:  2\n\nBUGCHECK_P1: 28\n\nBUGCHECK_P2: 2\n\nBUGCHECK_P3: 0\n\nBUGCHECK_P4: fffff802d851510a\n\nREAD_ADDRESS: fffff802d8790520: Unable to get MiVisibleState\n 0000000000000028 \n\nCURRENT_IRQL:  2\n\nFAULTING_IP: \nnt!MiUnlinkNumaStandbyPage+7a\nfffff802`d851510a 498b4028        mov     rax,qword ptr [r8+28h]\n\nCPU_COUNT: 4\n\nCPU_MHZ: ce4\n\nCPU_VENDOR:  GenuineIntel\n\nCPU_FAMILY: 6\n\nCPU_MODEL: 3a\n\nCPU_STEPPING: 9\n\nCUSTOMER_CRASH_COUNT:  1\n\nDEFAULT_BUCKET_ID:  WIN8_DRIVER_FAULT\n\nBUGCHECK_STR:  AV\n\nPROCESS_NAME:  System\n\nANALYSIS_SESSION_HOST:  LYSITHEA\n\nANALYSIS_SESSION_TIME:  06-07-2016 11:30:19.0074\n\nANALYSIS_VERSION: 10.0.14318.1022 amd64fre\n\nTRAP_FRAME:  ffffd000207538b0 -- (.trap 0xffffd000207538b0)\nNOTE: The trap frame does not contain all registers.\nSome register values may be zeroed or incorrect.\nrax=0000000000000004 rbx=0000000000000000 rcx=0220400000083b31\nrdx=0000000000000004 rsi=0000000000000000 rdi=0000000000000000\nrip=fffff802d851510a rsp=ffffd00020753a40 rbp=0000000000000000\n r8=0000000000000000  r9=0220400000083b31 r10=fffffa80024abe10\nr11=fffffff000000000 r12=0000000000000000 r13=0000000000000000\nr14=0000000000000000 r15=0000000000000000\niopl=0         nv up ei pl nz na pe nc\nnt!MiUnlinkNumaStandbyPage+0x7a:\nfffff802`d851510a 498b4028        mov     rax,qword ptr [r8+28h] ds:00000000`00000028=????????????????\nResetting default scope\n\nLAST_CONTROL_TRANSFER:  from fffff802d855f2e9 to fffff802d8554780\n\nSTACK_TEXT:  \nffffd000`20753768 fffff802`d855f2e9 : 00000000`0000000a 00000000`00000028 00000000`00000002 00000000`00000000 : nt!KeBugCheckEx\nffffd000`20753770 fffff802`d855dac7 : 0000000f`ffffffff 00000000`00000001 00000000`00000000 fffff802`d84e9bd3 : nt!KiBugCheckDispatch+0x69\nffffd000`207538b0 fffff802`d851510a : fffffd80`00000be0 fffff802`d8447097 fffff802`d870ec40 fffff802`d870f4c0 : nt!KiPageFault+0x247\nffffd000`20753a40 fffff802`d8514f0c : fffffa80`024abe10 00000000`00000000 00000000`000c394b 00000000`0000000c : nt!MiUnlinkNumaStandbyPage+0x7a\nffffd000`20753a80 fffff802`d85f0924 : 0000000f`ffffffff 00000000`00000000 00000580`00000000 00000000`00000000 : nt!MiRemoveLowestPriorityStandbyPage+0x13c\nffffd000`20753b10 fffff802`d8454c59 : fffffd80`00002110 ffffe000`7170f840 fffff802`d85f0898 fffff802`d8710068 : nt!MiRebalanceZeroFreeLists+0x8c\nffffd000`20753b80 fffff802`d84ffb65 : fffff901`40582490 00000000`00000080 ffffe000`714b4700 ffffe000`7170f840 : nt!ExpWorkerThread+0xe9\nffffd000`20753c10 fffff802`d8559926 : ffffd001`63ddc180 ffffe000`7170f840 fffff802`d84ffb24 fffff961`4cbb82b9 : nt!PspSystemThreadStartup+0x41\nffffd000`20753c60 00000000`00000000 : ffffd000`20754000 ffffd000`2074e000 00000000`00000000 00000000`00000000 : nt!KiStartSystemThread+0x16\n\n\nSTACK_COMMAND:  kb\n\nTHREAD_SHA1_HASH_MOD_FUNC:  07b974f38b5f81fa4b5bba7898720c5f63aa5377\n\nTHREAD_SHA1_HASH_MOD_FUNC_OFFSET:  e3d87ebd42dfda926e1cafcfaacce57bd4ff3db8\n\nTHREAD_SHA1_HASH_MOD:  9f457f347057f10e1df248e166a3e95e6570ecfe\n\nFOLLOWUP_IP: \nnt!MiUnlinkNumaStandbyPage+7a\nfffff802`d851510a 498b4028        mov     rax,qword ptr [r8+28h]\n\nFAULT_INSTR_CODE:  28408b49\n\nSYMBOL_STACK_INDEX:  3\n\nSYMBOL_NAME:  nt!MiUnlinkNumaStandbyPage+7a\n\nFOLLOWUP_NAME:  MachineOwner\n\nMODULE_NAME: nt\n\nDEBUG_FLR_IMAGE_TIMESTAMP:  571af445\n\nIMAGE_VERSION:  10.0.10586.306\n\nIMAGE_NAME:  memory_corruption\n\nBUCKET_ID_FUNC_OFFSET:  7a\n\nFAILURE_BUCKET_ID:  AV_nt!MiUnlinkNumaStandbyPage\n\nBUCKET_ID:  AV_nt!MiUnlinkNumaStandbyPage\n\nPRIMARY_PROBLEM_CLASS:  AV_nt!MiUnlinkNumaStandbyPage\n\nTARGET_TIME:  2016-06-07T15:35:51.000Z\n\nOSBUILD:  10586\n\nOSSERVICEPACK:  306\n\nSERVICEPACK_NUMBER: 0\n\nOS_REVISION: 0\n\nSUITE_MASK:  272\n\nPRODUCT_TYPE:  1\n\nOSPLATFORM_TYPE:  x64\n\nOSNAME:  Windows 10\n\nOSEDITION:  Windows 10 WinNt TerminalServer SingleUserTS\n\nOS_LOCALE:  \n\nUSER_LCID:  0\n\nOSBUILD_TIMESTAMP:  2016-04-22 21:04:21\n\nBUILDDATESTAMP_STR:  160422-1850\n\nBUILDLAB_STR:  th2_release_sec\n\nBUILDOSVER_STR:  10.0.10586.306\n\nANALYSIS_SESSION_ELAPSED_TIME: 21eb\n\nANALYSIS_SOURCE:  KM\n\nFAILURE_ID_HASH_STRING:  km:av_nt!miunlinknumastandbypage\n\nFAILURE_ID_HASH:  {eda81f1f-73f6-2968-25f9-b9d26d43eeb5}\n\nFollowup:     MachineOwner\n---------\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224654875",
+    "html_url": "https://github.com/electron/electron/issues/5916#issuecomment-224654875",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5916",
+    "id": 224654875,
+    "user": {
+      "login": "joeathome",
+      "id": 19804056,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19804056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/joeathome",
+      "html_url": "https://github.com/joeathome",
+      "followers_url": "https://api.github.com/users/joeathome/followers",
+      "following_url": "https://api.github.com/users/joeathome/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joeathome/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joeathome/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joeathome/subscriptions",
+      "organizations_url": "https://api.github.com/users/joeathome/orgs",
+      "repos_url": "https://api.github.com/users/joeathome/repos",
+      "events_url": "https://api.github.com/users/joeathome/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joeathome/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-08T16:52:20Z",
+    "updated_at": "2016-06-08T16:52:20Z",
+    "body": "Thanks for the help.  Time to get some memory\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/58422642",
+    "html_url": "https://github.com/electron/electron/issues/601#issuecomment-58422642",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/601",
+    "id": 58422642,
+    "user": {
+      "login": "huntaub",
+      "id": 242363,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/242363?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/huntaub",
+      "html_url": "https://github.com/huntaub",
+      "followers_url": "https://api.github.com/users/huntaub/followers",
+      "following_url": "https://api.github.com/users/huntaub/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huntaub/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/huntaub/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huntaub/subscriptions",
+      "organizations_url": "https://api.github.com/users/huntaub/orgs",
+      "repos_url": "https://api.github.com/users/huntaub/repos",
+      "events_url": "https://api.github.com/users/huntaub/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/huntaub/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-10-08T20:32:46Z",
+    "updated_at": "2014-10-08T20:32:46Z",
+    "body": "With Yosemite poised to hit the shelves within the next couple of weeks, has there been any update on this?\n"
+  }
+]

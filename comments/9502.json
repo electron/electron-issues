@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/311300650",
+    "html_url": "https://github.com/electron/electron/pull/9502#issuecomment-311300650",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9502",
+    "id": 311300650,
+    "user": {
+      "login": "liusy182",
+      "id": 3293332,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3293332?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/liusy182",
+      "html_url": "https://github.com/liusy182",
+      "followers_url": "https://api.github.com/users/liusy182/followers",
+      "following_url": "https://api.github.com/users/liusy182/following{/other_user}",
+      "gists_url": "https://api.github.com/users/liusy182/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/liusy182/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/liusy182/subscriptions",
+      "organizations_url": "https://api.github.com/users/liusy182/orgs",
+      "repos_url": "https://api.github.com/users/liusy182/repos",
+      "events_url": "https://api.github.com/users/liusy182/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/liusy182/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-27T09:12:55Z",
+    "updated_at": "2017-06-27T09:12:55Z",
+    "body": "Thanks @zcbenz  you are right. I can still call `parentWindow.close()` to close parent window anytime. I will close this PR until I come up with a right solution."
+  }
+]

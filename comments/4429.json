@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/182511677",
+    "html_url": "https://github.com/electron/electron/issues/4429#issuecomment-182511677",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4429",
+    "id": 182511677,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-10T18:16:34Z",
+    "updated_at": "2016-02-10T18:16:34Z",
+    "body": "Related https://github.com/atom/electron/issues/4307 and has been fixed on master. Also the reason for not showing `Argument must be an integer` is because we build with `no-rtti`. More info [here](https://github.com/zcbenz/native-mate/blob/master/native_mate/function_template.h#L150) \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/183176775",
+    "html_url": "https://github.com/electron/electron/issues/4429#issuecomment-183176775",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4429",
+    "id": 183176775,
+    "user": {
+      "login": "lukeapage",
+      "id": 309321,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/309321?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lukeapage",
+      "html_url": "https://github.com/lukeapage",
+      "followers_url": "https://api.github.com/users/lukeapage/followers",
+      "following_url": "https://api.github.com/users/lukeapage/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lukeapage/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lukeapage/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lukeapage/subscriptions",
+      "organizations_url": "https://api.github.com/users/lukeapage/orgs",
+      "repos_url": "https://api.github.com/users/lukeapage/repos",
+      "events_url": "https://api.github.com/users/lukeapage/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lukeapage/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-12T04:31:25Z",
+    "updated_at": "2016-02-12T04:31:25Z",
+    "body": "Ok, will retry after next release. Closing to reduce noise. Thanks for info!\n"
+  }
+]

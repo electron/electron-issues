@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/39640539",
+    "html_url": "https://github.com/electron/electron/issues/220#issuecomment-39640539",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/220",
+    "id": 39640539,
+    "user": {
+      "login": "nathansobo",
+      "id": 1789,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1789?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nathansobo",
+      "html_url": "https://github.com/nathansobo",
+      "followers_url": "https://api.github.com/users/nathansobo/followers",
+      "following_url": "https://api.github.com/users/nathansobo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathansobo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nathansobo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathansobo/subscriptions",
+      "organizations_url": "https://api.github.com/users/nathansobo/orgs",
+      "repos_url": "https://api.github.com/users/nathansobo/repos",
+      "events_url": "https://api.github.com/users/nathansobo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nathansobo/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-04-05T14:55:14Z",
+    "updated_at": "2014-04-05T14:55:14Z",
+    "body": ":zap: :zap:\n"
+  }
+]

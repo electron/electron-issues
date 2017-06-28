@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/118621289",
+    "html_url": "https://github.com/electron/electron/issues/2124#issuecomment-118621289",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2124",
+    "id": 118621289,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-07-05T13:37:49Z",
+    "updated_at": "2015-07-05T13:37:49Z",
+    "body": "This bug is in V8 and we need an upgrade of Chrome to have the fix because we are not using V8 of io.js. Also this bug is actually only meaningful for server apps because it makes the server crash with client input, for client apps like Chrome and Electron, it is not security critical since Chrome's multi-process architecture is prepared for such crashes.\n\nI'm closing this since it is not security critical for Electron, and I will update when Chrome releases an update.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/118628033",
+    "html_url": "https://github.com/electron/electron/issues/2124#issuecomment-118628033",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2124",
+    "id": 118628033,
+    "user": {
+      "login": "frankhale",
+      "id": 190154,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/190154?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frankhale",
+      "html_url": "https://github.com/frankhale",
+      "followers_url": "https://api.github.com/users/frankhale/followers",
+      "following_url": "https://api.github.com/users/frankhale/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frankhale/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frankhale/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frankhale/subscriptions",
+      "organizations_url": "https://api.github.com/users/frankhale/orgs",
+      "repos_url": "https://api.github.com/users/frankhale/repos",
+      "events_url": "https://api.github.com/users/frankhale/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frankhale/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-05T14:49:49Z",
+    "updated_at": "2015-07-05T14:49:49Z",
+    "body": "Awesome thanks for the explanation!\n"
+  }
+]

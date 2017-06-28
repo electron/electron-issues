@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309774121",
+    "html_url": "https://github.com/electron/electron/issues/9804#issuecomment-309774121",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9804",
+    "id": 309774121,
+    "user": {
+      "login": "MaharishiCanada",
+      "id": 5099917,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5099917?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaharishiCanada",
+      "html_url": "https://github.com/MaharishiCanada",
+      "followers_url": "https://api.github.com/users/MaharishiCanada/followers",
+      "following_url": "https://api.github.com/users/MaharishiCanada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MaharishiCanada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MaharishiCanada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MaharishiCanada/subscriptions",
+      "organizations_url": "https://api.github.com/users/MaharishiCanada/orgs",
+      "repos_url": "https://api.github.com/users/MaharishiCanada/repos",
+      "events_url": "https://api.github.com/users/MaharishiCanada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MaharishiCanada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-20T14:29:16Z",
+    "updated_at": "2017-06-20T14:29:16Z",
+    "body": "OK, I found the answer.  The documentation is very dense and I misunderstood it. These are different methods. In the webview case, no return value is documented, so we have to assume that there is no return value. In the webContents case, the return value is a promise, as documented.  I had tried to discuss this issue in a forum before, but the response got lost somewhere. I personally, still find that the documentation should mention explicitly that in the case of webview, the method is executed asynchronously and there is, thus, no return value. Whereas, in the case of webContents, the method synchronously returns a promise.  This interesting fact should be made a  bit more explicit, but having started to learn Node and Electron  a month ago, I am biased.  "
+  }
+]

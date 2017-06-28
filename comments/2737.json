@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/138674233",
+    "html_url": "https://github.com/electron/electron/issues/2737#issuecomment-138674233",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2737",
+    "id": 138674233,
+    "user": {
+      "login": "carlosperate",
+      "id": 4189262,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4189262?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carlosperate",
+      "html_url": "https://github.com/carlosperate",
+      "followers_url": "https://api.github.com/users/carlosperate/followers",
+      "following_url": "https://api.github.com/users/carlosperate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/carlosperate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/carlosperate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/carlosperate/subscriptions",
+      "organizations_url": "https://api.github.com/users/carlosperate/orgs",
+      "repos_url": "https://api.github.com/users/carlosperate/repos",
+      "events_url": "https://api.github.com/users/carlosperate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/carlosperate/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-08T19:16:19Z",
+    "updated_at": "2015-09-08T19:16:43Z",
+    "body": "This is the kind of question that belongs to the forum, not the issue tracker: https://discuss.atom.io/c/electron\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/138674821",
+    "html_url": "https://github.com/electron/electron/issues/2737#issuecomment-138674821",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2737",
+    "id": 138674821,
+    "user": {
+      "login": "jonatasfreitasv",
+      "id": 8763192,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8763192?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jonatasfreitasv",
+      "html_url": "https://github.com/jonatasfreitasv",
+      "followers_url": "https://api.github.com/users/jonatasfreitasv/followers",
+      "following_url": "https://api.github.com/users/jonatasfreitasv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jonatasfreitasv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jonatasfreitasv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jonatasfreitasv/subscriptions",
+      "organizations_url": "https://api.github.com/users/jonatasfreitasv/orgs",
+      "repos_url": "https://api.github.com/users/jonatasfreitasv/repos",
+      "events_url": "https://api.github.com/users/jonatasfreitasv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jonatasfreitasv/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-08T19:19:01Z",
+    "updated_at": "2015-09-08T19:19:01Z",
+    "body": "Nice !!! I did not know of the existence of this tool.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224727888",
+    "html_url": "https://github.com/electron/electron/pull/5944#issuecomment-224727888",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5944",
+    "id": 224727888,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-08T21:06:42Z",
+    "updated_at": "2016-06-08T21:06:53Z",
+    "body": "This does seem to also address the case @danhp mentioned in https://github.com/electron/electron/issues/5745#issuecomment-222400436 as well:\n\n``` js\nmainWindow = new BrowserWindow({\n  width: 800,\n  height: 600,\n  titleBarStyle: 'hidden',\n  minimizable: false,\n  maximizable: false\n});\n```\n\n<img width=\"812\" alt=\"screen shot 2016-06-08 at 2 06 26 pm\" src=\"https://cloud.githubusercontent.com/assets/671378/15910938/32c77efe-2d82-11e6-950f-f67760f28bdf.png\">\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224781421",
+    "html_url": "https://github.com/electron/electron/pull/5944#issuecomment-224781421",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5944",
+    "id": 224781421,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-09T01:51:54Z",
+    "updated_at": "2016-06-09T01:51:54Z",
+    "body": "👍 \n"
+  }
+]

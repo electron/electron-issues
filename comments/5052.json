@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/209050634",
+    "html_url": "https://github.com/electron/electron/issues/5052#issuecomment-209050634",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5052",
+    "id": 209050634,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-12T18:49:27Z",
+    "updated_at": "2016-04-12T18:50:20Z",
+    "body": "We could do this via the `tag` field on Notifications. Wanna submit a PR @3v1n0? https://github.com/electron/brightray/blob/master/browser/linux/notification_presenter_linux.cc is the code you want to have a look at. The easiest way to test this code is:\n1. Clone electron/electron and build it\n2. Go into `vendor/brightray` and create a new branch\n3. Make some brightray changes, build Electron, it works, rad\n4. Fork brightray and push up your change as a PR\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/209219357",
+    "html_url": "https://github.com/electron/electron/issues/5052#issuecomment-209219357",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5052",
+    "id": 209219357,
+    "user": {
+      "login": "3v1n0",
+      "id": 345675,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/345675?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/3v1n0",
+      "html_url": "https://github.com/3v1n0",
+      "followers_url": "https://api.github.com/users/3v1n0/followers",
+      "following_url": "https://api.github.com/users/3v1n0/following{/other_user}",
+      "gists_url": "https://api.github.com/users/3v1n0/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/3v1n0/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/3v1n0/subscriptions",
+      "organizations_url": "https://api.github.com/users/3v1n0/orgs",
+      "repos_url": "https://api.github.com/users/3v1n0/repos",
+      "events_url": "https://api.github.com/users/3v1n0/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/3v1n0/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-13T04:21:14Z",
+    "updated_at": "2016-04-13T05:27:56Z",
+    "body": "@paulcbetts thanks for the hints, actually getting into electron development is quite straight forward.\n\nAs for the fix itself, I think that the `tag` field is probably not meant to be used in this way, as it's made for replacing the notifications.\nHowever, in the mean time I've implemented the support for it: https://github.com/electron/brightray/pull/211\n\nI think we could use that in a reverse way, though: by default in ubuntu we add the `append` hint, if a tag is specified, then by design the append tag is ignored (this has actually to be fixed in notify-osd, but I'm looking at that as well). Thus if someone wants to revert this behavior, they only have to provide a tag.\n\nIf instead we want to pass use some different parameters, the only way is using the `Notification.data` field, but from what I've seen it's currently provided as a `std::vector<char> data` in `PlatformNotificationData` and I'm not sure what's the best way to deserialize it.\n\nLet me know what you'd prefer\n"
+  }
+]

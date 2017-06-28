@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/171129632",
+    "html_url": "https://github.com/electron/electron/issues/4078#issuecomment-171129632",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4078",
+    "id": 171129632,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-13T02:03:47Z",
+    "updated_at": "2016-01-13T02:03:47Z",
+    "body": "Only showErrorBox can be called before the ready event.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/171241421",
+    "html_url": "https://github.com/electron/electron/issues/4078#issuecomment-171241421",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4078",
+    "id": 171241421,
+    "user": {
+      "login": "adam-lynch",
+      "id": 1427241,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1427241?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adam-lynch",
+      "html_url": "https://github.com/adam-lynch",
+      "followers_url": "https://api.github.com/users/adam-lynch/followers",
+      "following_url": "https://api.github.com/users/adam-lynch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adam-lynch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adam-lynch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adam-lynch/subscriptions",
+      "organizations_url": "https://api.github.com/users/adam-lynch/orgs",
+      "repos_url": "https://api.github.com/users/adam-lynch/repos",
+      "events_url": "https://api.github.com/users/adam-lynch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adam-lynch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-13T10:12:17Z",
+    "updated_at": "2016-01-13T10:12:17Z",
+    "body": ":+1: \n"
+  }
+]

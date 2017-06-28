@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/301557712",
+    "html_url": "https://github.com/electron/electron/pull/9435#issuecomment-301557712",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9435",
+    "id": 301557712,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-15T18:10:51Z",
+    "updated_at": "2017-05-15T18:10:51Z",
+    "body": "Thanks for this @cjld 👍 "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/301797976",
+    "html_url": "https://github.com/electron/electron/pull/9435#issuecomment-301797976",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9435",
+    "id": 301797976,
+    "user": {
+      "login": "cjld",
+      "id": 4838354,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4838354?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cjld",
+      "html_url": "https://github.com/cjld",
+      "followers_url": "https://api.github.com/users/cjld/followers",
+      "following_url": "https://api.github.com/users/cjld/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cjld/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cjld/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cjld/subscriptions",
+      "organizations_url": "https://api.github.com/users/cjld/orgs",
+      "repos_url": "https://api.github.com/users/cjld/repos",
+      "events_url": "https://api.github.com/users/cjld/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cjld/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-16T14:21:59Z",
+    "updated_at": "2017-05-16T14:21:59Z",
+    "body": "@kevinsawicki You are welcome, Electron is great and helps me a lot  : P"
+  }
+]

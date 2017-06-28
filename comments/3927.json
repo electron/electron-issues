@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/167397136",
+    "html_url": "https://github.com/electron/electron/issues/3927#issuecomment-167397136",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3927",
+    "id": 167397136,
+    "user": {
+      "login": "alvin-777",
+      "id": 13615512,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/13615512?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alvin-777",
+      "html_url": "https://github.com/alvin-777",
+      "followers_url": "https://api.github.com/users/alvin-777/followers",
+      "following_url": "https://api.github.com/users/alvin-777/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alvin-777/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alvin-777/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alvin-777/subscriptions",
+      "organizations_url": "https://api.github.com/users/alvin-777/orgs",
+      "repos_url": "https://api.github.com/users/alvin-777/repos",
+      "events_url": "https://api.github.com/users/alvin-777/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alvin-777/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-27T09:47:32Z",
+    "updated_at": "2015-12-27T09:47:32Z",
+    "body": "I guess you can detach the dev tools and hide the browser window?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/167554144",
+    "html_url": "https://github.com/electron/electron/issues/3927#issuecomment-167554144",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3927",
+    "id": 167554144,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-28T12:08:54Z",
+    "updated_at": "2015-12-28T12:08:54Z",
+    "body": "Yeah hiding the browser window would do the trick.\n"
+  }
+]

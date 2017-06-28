@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/177069157",
+    "html_url": "https://github.com/electron/electron/issues/4280#issuecomment-177069157",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4280",
+    "id": 177069157,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-30T05:06:31Z",
+    "updated_at": "2016-01-30T05:06:31Z",
+    "body": "There is a default limitation on how many files you can open on POSIX systems, you can call `process.setFdLimit` to change it:\n\n``` js\nprocess.setFdLimit(8192);\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/177220004",
+    "html_url": "https://github.com/electron/electron/issues/4280#issuecomment-177220004",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4280",
+    "id": 177220004,
+    "user": {
+      "login": "juturu",
+      "id": 11049886,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11049886?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/juturu",
+      "html_url": "https://github.com/juturu",
+      "followers_url": "https://api.github.com/users/juturu/followers",
+      "following_url": "https://api.github.com/users/juturu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/juturu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/juturu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/juturu/subscriptions",
+      "organizations_url": "https://api.github.com/users/juturu/orgs",
+      "repos_url": "https://api.github.com/users/juturu/repos",
+      "events_url": "https://api.github.com/users/juturu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/juturu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-30T16:05:01Z",
+    "updated_at": "2016-01-30T16:05:01Z",
+    "body": "Thanks @zcbenz \n"
+  }
+]

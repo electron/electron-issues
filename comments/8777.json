@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/283529512",
+    "html_url": "https://github.com/electron/electron/issues/8777#issuecomment-283529512",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8777",
+    "id": 283529512,
+    "user": {
+      "login": "jkleinsc",
+      "id": 609052,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/609052?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jkleinsc",
+      "html_url": "https://github.com/jkleinsc",
+      "followers_url": "https://api.github.com/users/jkleinsc/followers",
+      "following_url": "https://api.github.com/users/jkleinsc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jkleinsc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jkleinsc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jkleinsc/subscriptions",
+      "organizations_url": "https://api.github.com/users/jkleinsc/orgs",
+      "repos_url": "https://api.github.com/users/jkleinsc/repos",
+      "events_url": "https://api.github.com/users/jkleinsc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jkleinsc/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-03-02T01:40:45Z",
+    "updated_at": "2017-03-02T01:40:45Z",
+    "body": "I would like to work on this issue."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/285859820",
+    "html_url": "https://github.com/electron/electron/issues/8777#issuecomment-285859820",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8777",
+    "id": 285859820,
+    "user": {
+      "login": "myfrndjk",
+      "id": 22800366,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22800366?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/myfrndjk",
+      "html_url": "https://github.com/myfrndjk",
+      "followers_url": "https://api.github.com/users/myfrndjk/followers",
+      "following_url": "https://api.github.com/users/myfrndjk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/myfrndjk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/myfrndjk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/myfrndjk/subscriptions",
+      "organizations_url": "https://api.github.com/users/myfrndjk/orgs",
+      "repos_url": "https://api.github.com/users/myfrndjk/repos",
+      "events_url": "https://api.github.com/users/myfrndjk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/myfrndjk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-11T11:01:56Z",
+    "updated_at": "2017-03-11T11:01:56Z",
+    "body": "@jkleinsc Thanks for working on this.\r\nWill it be available in 1.6.3\r\n"
+  }
+]

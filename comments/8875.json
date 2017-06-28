@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/285423492",
+    "html_url": "https://github.com/electron/electron/issues/8875#issuecomment-285423492",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8875",
+    "id": 285423492,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-03-09T17:37:52Z",
+    "updated_at": "2017-03-09T17:37:52Z",
+    "body": "> I am aware of filters for selecting certain file type, but if there was a way in which we could restrict the file size it would be great.\r\n\r\nThis would require support from the native Windows file dialog APIs, I'm not seeing anything in https://msdn.microsoft.com/en-us/library/windows/desktop/dn457282(v=vs.85).aspx that handles that.\r\n\r\nSo I don't think this will be possible, you'll just have to handle this in your application and notify the user when they select something too large and re-prompt.\r\n\r\nHave you seen this behavior in other apps that open the Windows file dialog?"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/290877247",
+    "html_url": "https://github.com/electron/electron/issues/8875#issuecomment-290877247",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8875",
+    "id": 290877247,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-04-01T00:16:52Z",
+    "updated_at": "2017-04-01T00:16:52Z",
+    "body": "Closing this out since it doesn't look like their are native APIs to handle this on Windows."
+  }
+]

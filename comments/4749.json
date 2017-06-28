@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/195485961",
+    "html_url": "https://github.com/electron/electron/issues/4749#issuecomment-195485961",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4749",
+    "id": 195485961,
+    "user": {
+      "login": "walltex",
+      "id": 1400956,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1400956?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/walltex",
+      "html_url": "https://github.com/walltex",
+      "followers_url": "https://api.github.com/users/walltex/followers",
+      "following_url": "https://api.github.com/users/walltex/following{/other_user}",
+      "gists_url": "https://api.github.com/users/walltex/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/walltex/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/walltex/subscriptions",
+      "organizations_url": "https://api.github.com/users/walltex/orgs",
+      "repos_url": "https://api.github.com/users/walltex/repos",
+      "events_url": "https://api.github.com/users/walltex/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/walltex/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-11T18:17:35Z",
+    "updated_at": "2016-03-11T18:18:05Z",
+    "body": "Add --app-version=1.0.0 to your electron-packager call.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/195573271",
+    "html_url": "https://github.com/electron/electron/issues/4749#issuecomment-195573271",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4749",
+    "id": 195573271,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-03-11T22:13:21Z",
+    "updated_at": "2016-03-11T22:13:21Z",
+    "body": "Thanks for the answer @walltex \n\nClosing this out.\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/292967294",
+    "html_url": "https://github.com/electron/electron/issues/9156#issuecomment-292967294",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9156",
+    "id": 292967294,
+    "user": {
+      "login": "Quirinus",
+      "id": 5452565,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5452565?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Quirinus",
+      "html_url": "https://github.com/Quirinus",
+      "followers_url": "https://api.github.com/users/Quirinus/followers",
+      "following_url": "https://api.github.com/users/Quirinus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Quirinus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Quirinus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Quirinus/subscriptions",
+      "organizations_url": "https://api.github.com/users/Quirinus/orgs",
+      "repos_url": "https://api.github.com/users/Quirinus/repos",
+      "events_url": "https://api.github.com/users/Quirinus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Quirinus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-10T14:31:52Z",
+    "updated_at": "2017-04-10T14:32:38Z",
+    "body": "False report. I am sorry.\r\n\r\nI had the window maximizable option set to false."
+  }
+]

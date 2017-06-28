@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/289597789",
+    "html_url": "https://github.com/electron/electron/issues/9032#issuecomment-289597789",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9032",
+    "id": 289597789,
+    "user": {
+      "login": "renambot-uic",
+      "id": 5324913,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5324913?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renambot-uic",
+      "html_url": "https://github.com/renambot-uic",
+      "followers_url": "https://api.github.com/users/renambot-uic/followers",
+      "following_url": "https://api.github.com/users/renambot-uic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renambot-uic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renambot-uic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renambot-uic/subscriptions",
+      "organizations_url": "https://api.github.com/users/renambot-uic/orgs",
+      "repos_url": "https://api.github.com/users/renambot-uic/repos",
+      "events_url": "https://api.github.com/users/renambot-uic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renambot-uic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-27T21:53:44Z",
+    "updated_at": "2017-03-27T22:23:26Z",
+    "body": "By default Electron enables Nodejs integration which provides 'require' and can conflict with libraries.\r\n\r\nEither:\r\n  - disable Nodejs integration in your app. You need to create a js file with something like:\r\n    new BrowserWindow({webPreferences: { nodeIntegration: false }});\r\n\r\n - or load d3 with 'require':\r\n      npm install d3@3\r\n     and put 'var d3 = require(\"d3\");' at the top of your script tag and remove the script tag loading d3.\r\n\r\nLuc\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/290837546",
+    "html_url": "https://github.com/electron/electron/issues/9032#issuecomment-290837546",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9032",
+    "id": 290837546,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-03-31T21:43:01Z",
+    "updated_at": "2017-03-31T21:43:01Z",
+    "body": "Thanks @renambot-uic for the tips, closing this out."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/248498674",
+    "html_url": "https://github.com/electron/electron/issues/7280#issuecomment-248498674",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7280",
+    "id": 248498674,
+    "user": {
+      "login": "duncup",
+      "id": 7284558,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7284558?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/duncup",
+      "html_url": "https://github.com/duncup",
+      "followers_url": "https://api.github.com/users/duncup/followers",
+      "following_url": "https://api.github.com/users/duncup/following{/other_user}",
+      "gists_url": "https://api.github.com/users/duncup/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/duncup/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/duncup/subscriptions",
+      "organizations_url": "https://api.github.com/users/duncup/orgs",
+      "repos_url": "https://api.github.com/users/duncup/repos",
+      "events_url": "https://api.github.com/users/duncup/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/duncup/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-21T03:05:52Z",
+    "updated_at": "2016-09-21T03:05:52Z",
+    "body": "@kevinsawicki @zcbenz \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/249472141",
+    "html_url": "https://github.com/electron/electron/issues/7280#issuecomment-249472141",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7280",
+    "id": 249472141,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-26T03:29:37Z",
+    "updated_at": "2016-09-26T03:29:37Z",
+    "body": "Because apps may want to handle the arguments, like `atom .`.\n"
+  }
+]

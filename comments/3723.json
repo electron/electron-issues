@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/162761957",
+    "html_url": "https://github.com/electron/electron/issues/3723#issuecomment-162761957",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3723",
+    "id": 162761957,
+    "user": {
+      "login": "xywz",
+      "id": 16139904,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/16139904?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xywz",
+      "html_url": "https://github.com/xywz",
+      "followers_url": "https://api.github.com/users/xywz/followers",
+      "following_url": "https://api.github.com/users/xywz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xywz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xywz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xywz/subscriptions",
+      "organizations_url": "https://api.github.com/users/xywz/orgs",
+      "repos_url": "https://api.github.com/users/xywz/repos",
+      "events_url": "https://api.github.com/users/xywz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xywz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-08T04:51:21Z",
+    "updated_at": "2015-12-08T04:51:21Z",
+    "body": "`'did-get-redirect-request'` is only for when a redirect is received while requesting a resource. `'will-navigate'` is for when a user or the page wants to start navigation.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/162790601",
+    "html_url": "https://github.com/electron/electron/issues/3723#issuecomment-162790601",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3723",
+    "id": 162790601,
+    "user": {
+      "login": "diracdeltas",
+      "id": 549654,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/549654?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/diracdeltas",
+      "html_url": "https://github.com/diracdeltas",
+      "followers_url": "https://api.github.com/users/diracdeltas/followers",
+      "following_url": "https://api.github.com/users/diracdeltas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/diracdeltas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/diracdeltas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/diracdeltas/subscriptions",
+      "organizations_url": "https://api.github.com/users/diracdeltas/orgs",
+      "repos_url": "https://api.github.com/users/diracdeltas/repos",
+      "events_url": "https://api.github.com/users/diracdeltas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/diracdeltas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-08T06:43:29Z",
+    "updated_at": "2015-12-08T06:43:29Z",
+    "body": "I guess that also makes sense. It turns out that `load-commit` is good enough for my use case. Closing.\n"
+  }
+]

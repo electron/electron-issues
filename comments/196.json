@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/36629026",
+    "html_url": "https://github.com/electron/electron/pull/196#issuecomment-36629026",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/196",
+    "id": 36629026,
+    "user": {
+      "login": "ptoomey3",
+      "id": 103360,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/103360?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ptoomey3",
+      "html_url": "https://github.com/ptoomey3",
+      "followers_url": "https://api.github.com/users/ptoomey3/followers",
+      "following_url": "https://api.github.com/users/ptoomey3/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ptoomey3/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ptoomey3/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ptoomey3/subscriptions",
+      "organizations_url": "https://api.github.com/users/ptoomey3/orgs",
+      "repos_url": "https://api.github.com/users/ptoomey3/repos",
+      "events_url": "https://api.github.com/users/ptoomey3/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ptoomey3/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-03-04T14:32:58Z",
+    "updated_at": "2014-03-04T14:32:58Z",
+    "body": ":heart:  This is awesome!  I haven't tested the fix, but that unit test makes me think this should work. Thanks!\n"
+  }
+]

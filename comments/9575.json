@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/303771028",
+    "html_url": "https://github.com/electron/electron/issues/9575#issuecomment-303771028",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9575",
+    "id": 303771028,
+    "user": {
+      "login": "cifratila",
+      "id": 282777,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/282777?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cifratila",
+      "html_url": "https://github.com/cifratila",
+      "followers_url": "https://api.github.com/users/cifratila/followers",
+      "following_url": "https://api.github.com/users/cifratila/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cifratila/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cifratila/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cifratila/subscriptions",
+      "organizations_url": "https://api.github.com/users/cifratila/orgs",
+      "repos_url": "https://api.github.com/users/cifratila/repos",
+      "events_url": "https://api.github.com/users/cifratila/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cifratila/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-24T16:03:55Z",
+    "updated_at": "2017-05-24T16:03:55Z",
+    "body": "@Herobone I think Electron hasn't been tested with VS 2017 and a lot of the underlying modules used for building will probably not work in there, for example the one you pointed out is gyp.\r\n\r\nI think you cannot even yet compile Chromium using VS 2017, the requirement is still VS 2015 Update 3."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/304940648",
+    "html_url": "https://github.com/electron/electron/issues/9575#issuecomment-304940648",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9575",
+    "id": 304940648,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-30T16:54:10Z",
+    "updated_at": "2017-05-30T16:54:10Z",
+    "body": "Closing this out, VS 2015 is required, you can download it from https://my.visualstudio.com/Downloads?q=visual%20studio%20community%202015%20update%203 with a free account."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/115178698",
+    "html_url": "https://github.com/electron/electron/issues/2053#issuecomment-115178698",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2053",
+    "id": 115178698,
+    "user": {
+      "login": "dalinaum",
+      "id": 145585,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/145585?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dalinaum",
+      "html_url": "https://github.com/dalinaum",
+      "followers_url": "https://api.github.com/users/dalinaum/followers",
+      "following_url": "https://api.github.com/users/dalinaum/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dalinaum/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dalinaum/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dalinaum/subscriptions",
+      "organizations_url": "https://api.github.com/users/dalinaum/orgs",
+      "repos_url": "https://api.github.com/users/dalinaum/repos",
+      "events_url": "https://api.github.com/users/dalinaum/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dalinaum/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-25T09:14:14Z",
+    "updated_at": "2015-06-25T09:14:14Z",
+    "body": "I found my mistake. That module `web-frame` is for only the renderer process. It looks to me like it is a very inconvenient limitation.\n"
+  }
+]

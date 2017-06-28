@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/173429365",
+    "html_url": "https://github.com/electron/electron/issues/4174#issuecomment-173429365",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4174",
+    "id": 173429365,
+    "user": {
+      "login": "PalmerAL",
+      "id": 10314059,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10314059?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PalmerAL",
+      "html_url": "https://github.com/PalmerAL",
+      "followers_url": "https://api.github.com/users/PalmerAL/followers",
+      "following_url": "https://api.github.com/users/PalmerAL/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PalmerAL/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PalmerAL/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PalmerAL/subscriptions",
+      "organizations_url": "https://api.github.com/users/PalmerAL/orgs",
+      "repos_url": "https://api.github.com/users/PalmerAL/repos",
+      "events_url": "https://api.github.com/users/PalmerAL/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PalmerAL/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-21T02:16:23Z",
+    "updated_at": "2016-01-21T02:16:23Z",
+    "body": "Chrome's webview has a <a href=\"https://developer.chrome.com/apps/tags/webview#event-permissionrequest\">permissionrequest</a> event. Would it possible to add this to Electron?\n"
+  }
+]

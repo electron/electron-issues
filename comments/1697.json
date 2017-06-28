@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/102524321",
+    "html_url": "https://github.com/electron/electron/issues/1697#issuecomment-102524321",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1697",
+    "id": 102524321,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-15T20:57:45Z",
+    "updated_at": "2015-05-15T20:58:31Z",
+    "body": "Are you possibly talking about https://github.com/atom/atom/issues/5901? Adding Explorer context menus is not a default Electron behavior, both Atom and VS Code are explicitly doing this themselves\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/102627824",
+    "html_url": "https://github.com/electron/electron/issues/1697#issuecomment-102627824",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1697",
+    "id": 102627824,
+    "user": {
+      "login": "prasannavl",
+      "id": 559409,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/559409?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/prasannavl",
+      "html_url": "https://github.com/prasannavl",
+      "followers_url": "https://api.github.com/users/prasannavl/followers",
+      "following_url": "https://api.github.com/users/prasannavl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/prasannavl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/prasannavl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/prasannavl/subscriptions",
+      "organizations_url": "https://api.github.com/users/prasannavl/orgs",
+      "repos_url": "https://api.github.com/users/prasannavl/repos",
+      "events_url": "https://api.github.com/users/prasannavl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/prasannavl/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-16T13:32:09Z",
+    "updated_at": "2015-05-16T13:32:09Z",
+    "body": "Yes. I believe it is the issue. Thanks for noting that. I'll close this. \n"
+  }
+]

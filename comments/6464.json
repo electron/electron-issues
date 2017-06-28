@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/232208821",
+    "html_url": "https://github.com/electron/electron/issues/6464#issuecomment-232208821",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6464",
+    "id": 232208821,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-12T23:08:05Z",
+    "updated_at": "2016-07-12T23:08:05Z",
+    "body": "Are you running this code from the main process or the renderer process?\n\nIf you are running it in the renderer process you need to use\n\n``` js\nconsole.log(require('electron').remote.powerSaveBlocker);\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/232213897",
+    "html_url": "https://github.com/electron/electron/issues/6464#issuecomment-232213897",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6464",
+    "id": 232213897,
+    "user": {
+      "login": "amilajack",
+      "id": 6374832,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6374832?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/amilajack",
+      "html_url": "https://github.com/amilajack",
+      "followers_url": "https://api.github.com/users/amilajack/followers",
+      "following_url": "https://api.github.com/users/amilajack/following{/other_user}",
+      "gists_url": "https://api.github.com/users/amilajack/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/amilajack/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/amilajack/subscriptions",
+      "organizations_url": "https://api.github.com/users/amilajack/orgs",
+      "repos_url": "https://api.github.com/users/amilajack/repos",
+      "events_url": "https://api.github.com/users/amilajack/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/amilajack/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-12T23:39:16Z",
+    "updated_at": "2016-07-12T23:39:16Z",
+    "body": "Works fine now. Thanks!\n"
+  }
+]

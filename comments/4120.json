@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/172154357",
+    "html_url": "https://github.com/electron/electron/issues/4120#issuecomment-172154357",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4120",
+    "id": 172154357,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-16T04:02:59Z",
+    "updated_at": "2016-01-16T04:02:59Z",
+    "body": "The API provided by Chromium only allows us to modify the headers, if we want to add this API we need Chromium to provide related interface first. You can probably suggest adding this API to `chrome.webRequest` in [Chromium's issues list](https://crbug.com), once it is added there we can port it to Electron.\n\nOr you can just use the `protocol` module to try to similar things.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/270469076",
+    "html_url": "https://github.com/electron/electron/issues/8324#issuecomment-270469076",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8324",
+    "id": 270469076,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-01-04T19:52:12Z",
+    "updated_at": "2017-01-04T19:52:12Z",
+    "body": "@sayanm01 have you tried the answer here? http://stackoverflow.com/a/39063263/687965"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/272315082",
+    "html_url": "https://github.com/electron/electron/issues/8324#issuecomment-272315082",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8324",
+    "id": 272315082,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-01-12T23:18:57Z",
+    "updated_at": "2017-01-12T23:18:57Z",
+    "body": "That stackoverflow answer previously posted should help you build it successfully, I just followed that answer on Windows 10 using Electron 1.4.14 and was able to `require` sqlite3 in Electron and run the sample from https://github.com/mapbox/node-sqlite3#usage.\r\n\r\nClosing this out."
+  }
+]

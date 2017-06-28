@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225985629",
+    "html_url": "https://github.com/electron/electron/issues/6048#issuecomment-225985629",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6048",
+    "id": 225985629,
+    "user": {
+      "login": "atdrago",
+      "id": 144225,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/144225?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/atdrago",
+      "html_url": "https://github.com/atdrago",
+      "followers_url": "https://api.github.com/users/atdrago/followers",
+      "following_url": "https://api.github.com/users/atdrago/following{/other_user}",
+      "gists_url": "https://api.github.com/users/atdrago/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/atdrago/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/atdrago/subscriptions",
+      "organizations_url": "https://api.github.com/users/atdrago/orgs",
+      "repos_url": "https://api.github.com/users/atdrago/repos",
+      "events_url": "https://api.github.com/users/atdrago/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/atdrago/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-14T19:11:13Z",
+    "updated_at": "2016-06-14T19:11:13Z",
+    "body": "@coreybutler I understand you're requesting a feature, and you've probably thought of this, but you could just create your own \"dialog\" from a `BrowserWindow` that has a checkbox, rather than using the built-in `dialog.showMessageBox` :)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225986934",
+    "html_url": "https://github.com/electron/electron/issues/6048#issuecomment-225986934",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6048",
+    "id": 225986934,
+    "user": {
+      "login": "coreybutler",
+      "id": 770982,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/770982?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/coreybutler",
+      "html_url": "https://github.com/coreybutler",
+      "followers_url": "https://api.github.com/users/coreybutler/followers",
+      "following_url": "https://api.github.com/users/coreybutler/following{/other_user}",
+      "gists_url": "https://api.github.com/users/coreybutler/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/coreybutler/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/coreybutler/subscriptions",
+      "organizations_url": "https://api.github.com/users/coreybutler/orgs",
+      "repos_url": "https://api.github.com/users/coreybutler/repos",
+      "events_url": "https://api.github.com/users/coreybutler/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/coreybutler/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-14T19:16:11Z",
+    "updated_at": "2016-06-14T19:16:11Z",
+    "body": "@atdrago Sure have. I'm really trying to leverage native message boxes. Luckily, I have a great data management library with rollback support, so my current solution is actually to just delete the item and give the user a notification to \"undo\" it in the case of a mistaken removal. That may, ultimately, be a better workflow anyway... but I would still love to have a checkbox option since I think this is still applicable in many other scenarios.\n"
+  }
+]

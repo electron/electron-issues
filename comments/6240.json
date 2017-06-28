@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/228580738",
+    "html_url": "https://github.com/electron/electron/issues/6240#issuecomment-228580738",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6240",
+    "id": 228580738,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-26T02:28:00Z",
+    "updated_at": "2016-06-26T02:28:00Z",
+    "body": "The \"Window manager warning: Buggy client\" warning comes from gnome-session and it happens for lots of popular apps. The real problem is wingpanel crashed, and I think you should report the bug to wingpanel, even though it may be caused by Electron sending wrong messages. Sorry for keep you reporting this to different repos.\n"
+  }
+]

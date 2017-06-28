@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/198597944",
+    "html_url": "https://github.com/electron/electron/pull/4848#issuecomment-198597944",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4848",
+    "id": 198597944,
+    "user": {
+      "login": "mitchhentges",
+      "id": 7784737,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7784737?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mitchhentges",
+      "html_url": "https://github.com/mitchhentges",
+      "followers_url": "https://api.github.com/users/mitchhentges/followers",
+      "following_url": "https://api.github.com/users/mitchhentges/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mitchhentges/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mitchhentges/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mitchhentges/subscriptions",
+      "organizations_url": "https://api.github.com/users/mitchhentges/orgs",
+      "repos_url": "https://api.github.com/users/mitchhentges/repos",
+      "events_url": "https://api.github.com/users/mitchhentges/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mitchhentges/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-19T01:17:42Z",
+    "updated_at": "2016-03-19T01:17:42Z",
+    "body": "Eh, I get a weird error in `script/update.py`, it's not worth the rabbit hole.\n"
+  }
+]

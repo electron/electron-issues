@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/299670791",
+    "html_url": "https://github.com/electron/electron/issues/9361#issuecomment-299670791",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9361",
+    "id": 299670791,
+    "user": {
+      "login": "drulm",
+      "id": 1435384,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1435384?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/drulm",
+      "html_url": "https://github.com/drulm",
+      "followers_url": "https://api.github.com/users/drulm/followers",
+      "following_url": "https://api.github.com/users/drulm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/drulm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/drulm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/drulm/subscriptions",
+      "organizations_url": "https://api.github.com/users/drulm/orgs",
+      "repos_url": "https://api.github.com/users/drulm/repos",
+      "events_url": "https://api.github.com/users/drulm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/drulm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-06T22:53:21Z",
+    "updated_at": "2017-05-06T23:35:04Z",
+    "body": "Verified this behavior also on Ubuntu 16.04."
+  }
+]

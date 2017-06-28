@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/121976793",
+    "html_url": "https://github.com/electron/electron/issues/2245#issuecomment-121976793",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2245",
+    "id": 121976793,
+    "user": {
+      "login": "jprichardson",
+      "id": 150063,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/150063?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jprichardson",
+      "html_url": "https://github.com/jprichardson",
+      "followers_url": "https://api.github.com/users/jprichardson/followers",
+      "following_url": "https://api.github.com/users/jprichardson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jprichardson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jprichardson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jprichardson/subscriptions",
+      "organizations_url": "https://api.github.com/users/jprichardson/orgs",
+      "repos_url": "https://api.github.com/users/jprichardson/repos",
+      "events_url": "https://api.github.com/users/jprichardson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jprichardson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-16T14:39:28Z",
+    "updated_at": "2015-07-16T14:39:28Z",
+    "body": "``` js\n\"web-preferences\" : {\n    \"web-security\" : false\n}\n```\n\nShould work. As a test, try making a request using a Node.js module in the `renderer`... say using something like [`request`](https://github.com/request/request).\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/122031670",
+    "html_url": "https://github.com/electron/electron/issues/2245#issuecomment-122031670",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2245",
+    "id": 122031670,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-07-16T17:40:05Z",
+    "updated_at": "2015-07-16T17:40:05Z",
+    "body": "I'm merging this to #2223, Chromium doesn't provide a good way to disable web requests security for now, the best choice is to use Node.js modules.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250673359",
+    "html_url": "https://github.com/electron/electron/issues/7423#issuecomment-250673359",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7423",
+    "id": 250673359,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-30T06:56:16Z",
+    "updated_at": "2016-09-30T06:56:16Z",
+    "body": "GitHub issues are for feature requests and bug reports, questions about using Electron should be directed to the [community](https://github.com/electron/electron#community) or to the [Slack Channel](http://atom-slack.herokuapp.com/).\n\n> and the folder is readonly.\n\nYou shouldn't be writing to your apps install directory, that is what `app.getPath('userData')` is for.\n\nYou can read more about macOS Sierra's new Gatekeeper features in blog posts such as this one\n\nhttp://weblog.rogueamoeba.com/2016/06/29/sierra-and-gatekeeper-path-randomization/\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250682202",
+    "html_url": "https://github.com/electron/electron/issues/7423#issuecomment-250682202",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7423",
+    "id": 250682202,
+    "user": {
+      "login": "alex-zhang",
+      "id": 4457451,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4457451?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alex-zhang",
+      "html_url": "https://github.com/alex-zhang",
+      "followers_url": "https://api.github.com/users/alex-zhang/followers",
+      "following_url": "https://api.github.com/users/alex-zhang/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alex-zhang/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alex-zhang/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alex-zhang/subscriptions",
+      "organizations_url": "https://api.github.com/users/alex-zhang/orgs",
+      "repos_url": "https://api.github.com/users/alex-zhang/repos",
+      "events_url": "https://api.github.com/users/alex-zhang/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alex-zhang/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-30T07:50:59Z",
+    "updated_at": "2016-09-30T07:50:59Z",
+    "body": "@MarshallOfSound  thanks.\n"
+  }
+]

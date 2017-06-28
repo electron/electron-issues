@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/111317767",
+    "html_url": "https://github.com/electron/electron/issues/1946#issuecomment-111317767",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1946",
+    "id": 111317767,
+    "user": {
+      "login": "hokein",
+      "id": 2557445,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2557445?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hokein",
+      "html_url": "https://github.com/hokein",
+      "followers_url": "https://api.github.com/users/hokein/followers",
+      "following_url": "https://api.github.com/users/hokein/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hokein/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hokein/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hokein/subscriptions",
+      "organizations_url": "https://api.github.com/users/hokein/orgs",
+      "repos_url": "https://api.github.com/users/hokein/repos",
+      "events_url": "https://api.github.com/users/hokein/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hokein/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-12T00:56:19Z",
+    "updated_at": "2015-06-12T00:56:19Z",
+    "body": "You may search `Accelerator` in the repo to find all related code. https://github.com/atom/electron/search?p=1&q=Accelerator&utf8=%E2%9C%93\n\nOne of the major usage is in global-shortcut API, you can view the usage in https://github.com/atom/electron/blob/master/atom/browser/api/atom_api_global_shortcut.cc\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/111391803",
+    "html_url": "https://github.com/electron/electron/issues/1946#issuecomment-111391803",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1946",
+    "id": 111391803,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-06-12T07:27:53Z",
+    "updated_at": "2015-06-12T07:27:53Z",
+    "body": "The accelerators are used in `menu` and `global-shortcut` modules.\n"
+  }
+]

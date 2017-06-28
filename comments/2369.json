@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/125857168",
+    "html_url": "https://github.com/electron/electron/pull/2369#issuecomment-125857168",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2369",
+    "id": 125857168,
+    "user": {
+      "login": "nishanths",
+      "id": 6028224,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6028224?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nishanths",
+      "html_url": "https://github.com/nishanths",
+      "followers_url": "https://api.github.com/users/nishanths/followers",
+      "following_url": "https://api.github.com/users/nishanths/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nishanths/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nishanths/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nishanths/subscriptions",
+      "organizations_url": "https://api.github.com/users/nishanths/orgs",
+      "repos_url": "https://api.github.com/users/nishanths/repos",
+      "events_url": "https://api.github.com/users/nishanths/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nishanths/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-29T06:35:01Z",
+    "updated_at": "2015-07-29T06:35:01Z",
+    "body": "In reference to 8d22eeb: This is great. \nEventually, we should remember to add support for the Super/Command key. \n"
+  }
+]

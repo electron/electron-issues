@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/263749388",
+    "html_url": "https://github.com/electron/electron/issues/8094#issuecomment-263749388",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8094",
+    "id": 263749388,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-11-30T00:52:03Z",
+    "updated_at": "2016-11-30T00:52:03Z",
+    "body": "You should be able to do this by directly scripting against Chrome's dev tools API, it isn't Electron specific. From your dev tools extension you can access any of the APIs provided by the Chrome dev tools.\r\n\r\nYou may want to take a look at something like https://github.com/paulirish/automated-chrome-profiling for examples."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/193084974",
+    "html_url": "https://github.com/electron/electron/issues/4696#issuecomment-193084974",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4696",
+    "id": 193084974,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-03-07T04:06:13Z",
+    "updated_at": "2016-03-07T04:06:13Z",
+    "body": "The minimize operation is asynchronous on Linux, it works by asking the window manager to minimize the window and then gets informed whether the window would be minimized. On the other hand there is no way to know whether the window manger supports minimize operation in Linux's desktop protocol.\n\nSo basically you have following solutions:\n- Provide an option to users to let them decide whether to close or minimise the window;\n- Get current window manager and decides the behaviour yourself;\n- Set timeout when checking whether window is minimised.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/193085296",
+    "html_url": "https://github.com/electron/electron/issues/4696#issuecomment-193085296",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4696",
+    "id": 193085296,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-07T04:09:43Z",
+    "updated_at": "2016-03-07T04:09:43Z",
+    "body": "Could we add a note in the docs \n\nhttps://github.com/atom/electron/blob/master/docs/api/browser-window.md#winminimize\n\nThat indicates the asyncronous nature of window management on linux :smile: \nIf you can provide a list of the methods that are async I'll gladly PR in the docs :+1: \n"
+  }
+]

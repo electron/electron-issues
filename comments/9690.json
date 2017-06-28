@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/306682498",
+    "html_url": "https://github.com/electron/electron/issues/9690#issuecomment-306682498",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9690",
+    "id": 306682498,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-07T04:21:57Z",
+    "updated_at": "2017-06-07T04:23:20Z",
+    "body": "The docs you linked describe the in-app protocol module, so no you can't use that one in Chrome. If you want to register a protocol/scheme with the OS so other apps can redirect those URLs to your app you need to use [app.registerAsDefaultProtocolClient](https://electron.atom.io/docs/api/app/#appsetasdefaultprotocolclientprotocol-path-args-macos-windows), there's a demo of this functionality in the Electron API Demos app."
+  }
+]

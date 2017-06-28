@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/210713846",
+    "html_url": "https://github.com/electron/electron/issues/5175#issuecomment-210713846",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5175",
+    "id": 210713846,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-16T02:09:26Z",
+    "updated_at": "2016-04-16T02:09:26Z",
+    "body": "I can confirm this, we need to patch Chromium to remove the white flash.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223809813",
+    "html_url": "https://github.com/electron/electron/issues/5175#issuecomment-223809813",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5175",
+    "id": 223809813,
+    "user": {
+      "login": "antelle",
+      "id": 633557,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/633557?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antelle",
+      "html_url": "https://github.com/antelle",
+      "followers_url": "https://api.github.com/users/antelle/followers",
+      "following_url": "https://api.github.com/users/antelle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/antelle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/antelle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/antelle/subscriptions",
+      "organizations_url": "https://api.github.com/users/antelle/orgs",
+      "repos_url": "https://api.github.com/users/antelle/repos",
+      "events_url": "https://api.github.com/users/antelle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/antelle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-05T12:12:17Z",
+    "updated_at": "2016-06-05T12:13:23Z",
+    "body": "Please also consider this related bug: #4645\nFor desktop apps, it would be very helpful to control what happens while the app is running in background/inactive.\n"
+  }
+]

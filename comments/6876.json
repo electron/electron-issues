@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/240416452",
+    "html_url": "https://github.com/electron/electron/issues/6876#issuecomment-240416452",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6876",
+    "id": 240416452,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-17T13:48:24Z",
+    "updated_at": "2016-08-17T13:48:24Z",
+    "body": "You can find why it doesn't work and how to do it correctly in following links:\nhttp://unix.stackexchange.com/questions/131503/run-a-gui-program-at-startup\nhttps://gnomeshell.wordpress.com/2011/08/28/manage-the-startup-applications/\n"
+  }
+]

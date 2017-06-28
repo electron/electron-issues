@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217332469",
+    "html_url": "https://github.com/electron/electron/issues/5405#issuecomment-217332469",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5405",
+    "id": 217332469,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-06T02:19:21Z",
+    "updated_at": "2016-05-06T02:19:21Z",
+    "body": "The IPC in Electron copies data cross processes, so you shouldn't assume it is efficient when passing large real-time data.\n\nFor video related things, the only thing you can use is HTML5 video APIs, the low-level ffmepg routines are not exposed in Electron. If you want to do something really complicated, you should probably write a PPAPI plugin instead.\n"
+  }
+]

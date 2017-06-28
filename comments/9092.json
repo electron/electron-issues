@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/292392504",
+    "html_url": "https://github.com/electron/electron/issues/9092#issuecomment-292392504",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9092",
+    "id": 292392504,
+    "user": {
+      "login": "FullstackDevsYT",
+      "id": 26261648,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26261648?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/FullstackDevsYT",
+      "html_url": "https://github.com/FullstackDevsYT",
+      "followers_url": "https://api.github.com/users/FullstackDevsYT/followers",
+      "following_url": "https://api.github.com/users/FullstackDevsYT/following{/other_user}",
+      "gists_url": "https://api.github.com/users/FullstackDevsYT/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/FullstackDevsYT/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/FullstackDevsYT/subscriptions",
+      "organizations_url": "https://api.github.com/users/FullstackDevsYT/orgs",
+      "repos_url": "https://api.github.com/users/FullstackDevsYT/repos",
+      "events_url": "https://api.github.com/users/FullstackDevsYT/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/FullstackDevsYT/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-07T01:36:20Z",
+    "updated_at": "2017-04-07T01:36:20Z",
+    "body": "it seems to be working now"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/299565433",
+    "html_url": "https://github.com/electron/electron/issues/9092#issuecomment-299565433",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9092",
+    "id": 299565433,
+    "user": {
+      "login": "yjlintw",
+      "id": 1399376,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1399376?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yjlintw",
+      "html_url": "https://github.com/yjlintw",
+      "followers_url": "https://api.github.com/users/yjlintw/followers",
+      "following_url": "https://api.github.com/users/yjlintw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yjlintw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yjlintw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yjlintw/subscriptions",
+      "organizations_url": "https://api.github.com/users/yjlintw/orgs",
+      "repos_url": "https://api.github.com/users/yjlintw/repos",
+      "events_url": "https://api.github.com/users/yjlintw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yjlintw/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-05T20:17:12Z",
+    "updated_at": "2017-05-06T21:58:10Z",
+    "body": "I still have the same problem on Win10.\r\n```electron version: v1.6.8```\r\nI'm using frameless window. Is that the issue?"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223699349",
+    "html_url": "https://github.com/electron/electron/issues/5854#issuecomment-223699349",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5854",
+    "id": 223699349,
+    "user": {
+      "login": "felixrieseberg",
+      "id": 1426799,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1426799?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felixrieseberg",
+      "html_url": "https://github.com/felixrieseberg",
+      "followers_url": "https://api.github.com/users/felixrieseberg/followers",
+      "following_url": "https://api.github.com/users/felixrieseberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felixrieseberg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felixrieseberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felixrieseberg/subscriptions",
+      "organizations_url": "https://api.github.com/users/felixrieseberg/orgs",
+      "repos_url": "https://api.github.com/users/felixrieseberg/repos",
+      "events_url": "https://api.github.com/users/felixrieseberg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felixrieseberg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-03T21:29:32Z",
+    "updated_at": "2016-06-03T21:29:32Z",
+    "body": "This might be a simple fix: If you're anything like me, you probably missed that extensions are persisted. In this case, `addDevToolsExtension` will return nothing, which is confusing. If you add an extension for the first time, everything is fine.\n\nI added a `console.warn` to make this more obvious.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223701076",
+    "html_url": "https://github.com/electron/electron/issues/5854#issuecomment-223701076",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5854",
+    "id": 223701076,
+    "user": {
+      "login": "bengotow",
+      "id": 1037212,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1037212?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bengotow",
+      "html_url": "https://github.com/bengotow",
+      "followers_url": "https://api.github.com/users/bengotow/followers",
+      "following_url": "https://api.github.com/users/bengotow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bengotow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bengotow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bengotow/subscriptions",
+      "organizations_url": "https://api.github.com/users/bengotow/orgs",
+      "repos_url": "https://api.github.com/users/bengotow/repos",
+      "events_url": "https://api.github.com/users/bengotow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bengotow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-03T21:38:08Z",
+    "updated_at": "2016-06-03T21:38:08Z",
+    "body": "Oh cool—persisted through restart? Didn't realize that... we'll definitely change the way we're enabling this then! Cheers—\n"
+  }
+]

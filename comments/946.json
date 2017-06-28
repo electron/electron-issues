@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/70371763",
+    "html_url": "https://github.com/electron/electron/issues/946#issuecomment-70371763",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/946",
+    "id": 70371763,
+    "user": {
+      "login": "lygstate",
+      "id": 121040,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/121040?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lygstate",
+      "html_url": "https://github.com/lygstate",
+      "followers_url": "https://api.github.com/users/lygstate/followers",
+      "following_url": "https://api.github.com/users/lygstate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lygstate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lygstate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lygstate/subscriptions",
+      "organizations_url": "https://api.github.com/users/lygstate/orgs",
+      "repos_url": "https://api.github.com/users/lygstate/repos",
+      "events_url": "https://api.github.com/users/lygstate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lygstate/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-17T15:51:17Z",
+    "updated_at": "2015-01-17T15:51:17Z",
+    "body": "I investigate the brackets, and brackets doesn't suffering from this issue. Only appear this issue when\nswitching the theme from win7 aero mode to win7 basic mode. \nhttps://github.com/adobe/brackets/issues/10400\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/169332346",
+    "html_url": "https://github.com/electron/electron/issues/946#issuecomment-169332346",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/946",
+    "id": 169332346,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-06T14:12:39Z",
+    "updated_at": "2016-01-06T14:12:39Z",
+    "body": "Can not reproduce on 0.36.2.\n"
+  }
+]

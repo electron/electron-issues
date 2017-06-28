@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/199904804",
+    "html_url": "https://github.com/electron/electron/issues/4879#issuecomment-199904804",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4879",
+    "id": 199904804,
+    "user": {
+      "login": "javan",
+      "id": 5355,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5355?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/javan",
+      "html_url": "https://github.com/javan",
+      "followers_url": "https://api.github.com/users/javan/followers",
+      "following_url": "https://api.github.com/users/javan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/javan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/javan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/javan/subscriptions",
+      "organizations_url": "https://api.github.com/users/javan/orgs",
+      "repos_url": "https://api.github.com/users/javan/repos",
+      "events_url": "https://api.github.com/users/javan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/javan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-22T16:56:40Z",
+    "updated_at": "2016-03-22T16:56:40Z",
+    "body": "Working around this in my app by delegating the message to all `<webview>`s. Perhaps an internal fix would look similar.\n\n``` coffee\n{remote} = require(\"electron\")\n\ndocument.addEventListener \"visibilitychange\", ->\n  hostWindow = remote.getCurrentWindow()\n  isVisible = hostWindow.isVisible()\n  isMinimized = hostWindow.isMinimized()\n\n  for webview in document.querySelectorAll(\"webview\")\n    webview.getWebContents().send(\"ATOM_RENDERER_WINDOW_VISIBILITY_CHANGE\", isVisible, isMinimized)\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/221752905",
+    "html_url": "https://github.com/electron/electron/issues/4879#issuecomment-221752905",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4879",
+    "id": 221752905,
+    "user": {
+      "login": "javan",
+      "id": 5355,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5355?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/javan",
+      "html_url": "https://github.com/javan",
+      "followers_url": "https://api.github.com/users/javan/followers",
+      "following_url": "https://api.github.com/users/javan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/javan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/javan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/javan/subscriptions",
+      "organizations_url": "https://api.github.com/users/javan/orgs",
+      "repos_url": "https://api.github.com/users/javan/repos",
+      "events_url": "https://api.github.com/users/javan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/javan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-26T01:16:17Z",
+    "updated_at": "2016-05-26T01:16:17Z",
+    "body": "Thank you! ❤️\n"
+  }
+]

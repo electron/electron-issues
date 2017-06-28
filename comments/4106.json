@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/171785164",
+    "html_url": "https://github.com/electron/electron/pull/4106#issuecomment-171785164",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4106",
+    "id": 171785164,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-14T21:27:54Z",
+    "updated_at": "2016-01-14T21:27:54Z",
+    "body": "@jlord everything in the diff look good to you? :eyes: \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/171796884",
+    "html_url": "https://github.com/electron/electron/pull/4106#issuecomment-171796884",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4106",
+    "id": 171796884,
+    "user": {
+      "login": "jlord",
+      "id": 1305617,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1305617?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jlord",
+      "html_url": "https://github.com/jlord",
+      "followers_url": "https://api.github.com/users/jlord/followers",
+      "following_url": "https://api.github.com/users/jlord/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jlord/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jlord/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jlord/subscriptions",
+      "organizations_url": "https://api.github.com/users/jlord/orgs",
+      "repos_url": "https://api.github.com/users/jlord/repos",
+      "events_url": "https://api.github.com/users/jlord/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jlord/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-14T22:06:27Z",
+    "updated_at": "2016-01-14T22:06:27Z",
+    "body": "``` js\n// It looks great!\n```\n"
+  }
+]

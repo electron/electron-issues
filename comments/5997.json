@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225348778",
+    "html_url": "https://github.com/electron/electron/issues/5997#issuecomment-225348778",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5997",
+    "id": 225348778,
+    "user": {
+      "login": "panther99",
+      "id": 9025282,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9025282?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/panther99",
+      "html_url": "https://github.com/panther99",
+      "followers_url": "https://api.github.com/users/panther99/followers",
+      "following_url": "https://api.github.com/users/panther99/following{/other_user}",
+      "gists_url": "https://api.github.com/users/panther99/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/panther99/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/panther99/subscriptions",
+      "organizations_url": "https://api.github.com/users/panther99/orgs",
+      "repos_url": "https://api.github.com/users/panther99/repos",
+      "events_url": "https://api.github.com/users/panther99/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/panther99/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-11T09:55:40Z",
+    "updated_at": "2016-06-11T09:55:40Z",
+    "body": "There was an error in syntax (I merged _createWindow()_ function with _.on()_ directives).\n"
+  }
+]

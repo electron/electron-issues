@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/294570578",
+    "html_url": "https://github.com/electron/electron/issues/4782#issuecomment-294570578",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4782",
+    "id": 294570578,
+    "user": {
+      "login": "philfreo",
+      "id": 97612,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/97612?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/philfreo",
+      "html_url": "https://github.com/philfreo",
+      "followers_url": "https://api.github.com/users/philfreo/followers",
+      "following_url": "https://api.github.com/users/philfreo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/philfreo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/philfreo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/philfreo/subscriptions",
+      "organizations_url": "https://api.github.com/users/philfreo/orgs",
+      "repos_url": "https://api.github.com/users/philfreo/repos",
+      "events_url": "https://api.github.com/users/philfreo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/philfreo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-17T19:45:51Z",
+    "updated_at": "2017-04-17T19:47:05Z",
+    "body": "@subwaymatch Would you consider open sourcing (even if it's not fully polished) your version of implementing a \"find in page\" in Electron similar to Chrome's functionality? It would be very much appreciated! See also people +1ing this idea in https://github.com/sindresorhus/awesome-electron/issues/5#issuecomment-217316280 and https://github.com/electron/electron/issues/2037"
+  }
+]

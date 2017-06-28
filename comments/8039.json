@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/262066502",
+    "html_url": "https://github.com/electron/electron/issues/8039#issuecomment-262066502",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8039",
+    "id": 262066502,
+    "user": {
+      "login": "Moai-",
+      "id": 11062621,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11062621?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Moai-",
+      "html_url": "https://github.com/Moai-",
+      "followers_url": "https://api.github.com/users/Moai-/followers",
+      "following_url": "https://api.github.com/users/Moai-/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Moai-/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Moai-/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Moai-/subscriptions",
+      "organizations_url": "https://api.github.com/users/Moai-/orgs",
+      "repos_url": "https://api.github.com/users/Moai-/repos",
+      "events_url": "https://api.github.com/users/Moai-/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Moai-/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-21T21:04:08Z",
+    "updated_at": "2016-11-22T00:28:39Z",
+    "body": "I have resolved my issue, will post solution in case if anyone else runs into it. It's kind of a weird one.\r\n\r\nAs previously mentioned, my app has multiple windows. These new windows are spawned when the user \"undocks\" one of the in-app tabs. I use IPC for coordinating shared data between these tabs.\r\n\r\nOn exit, every window needs to clean up its IPC listeners, otherwise the listeners stack up and the app leaks memory. So on exit, I used the following code:\r\n\r\n`ipc.removeAllListeners();`\r\n\r\nApparently Menus are somehow related to IPC, because this is the line that wipes out the `click` handlers from any Menus in the app. Thankfully, my coordination system only uses one channel, so my issue was solved thusly:\r\n\r\n`ipc.removeAllListeners('update-in');`\r\n\r\nI'm sure this isn't a bug but a really weird side effect of the framework, but I will leave this issue open anyway, in case if it does turn out to be a bug, or if the devs would like to document this behaviour (unless it's already documented and I'm just blind)."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/262164831",
+    "html_url": "https://github.com/electron/electron/issues/8039#issuecomment-262164831",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8039",
+    "id": 262164831,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-22T07:12:39Z",
+    "updated_at": "2016-11-22T07:12:39Z",
+    "body": "I think we should prevent users calling `ipc.removeAllListeners()` without an argument as it destroys a lot of Electron internals."
+  }
+]

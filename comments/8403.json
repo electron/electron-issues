@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/272722408",
+    "html_url": "https://github.com/electron/electron/issues/8403#issuecomment-272722408",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8403",
+    "id": 272722408,
+    "user": {
+      "login": "rvmey",
+      "id": 18071525,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18071525?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rvmey",
+      "html_url": "https://github.com/rvmey",
+      "followers_url": "https://api.github.com/users/rvmey/followers",
+      "following_url": "https://api.github.com/users/rvmey/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rvmey/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rvmey/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rvmey/subscriptions",
+      "organizations_url": "https://api.github.com/users/rvmey/orgs",
+      "repos_url": "https://api.github.com/users/rvmey/repos",
+      "events_url": "https://api.github.com/users/rvmey/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rvmey/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-15T20:44:57Z",
+    "updated_at": "2017-01-15T20:44:57Z",
+    "body": "Nevermind, apparently it only happens on my development PC.  \r\nI finally tried it about 30 times on another computer and I can't get it to fail. "
+  }
+]

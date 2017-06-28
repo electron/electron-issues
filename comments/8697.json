@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/280281587",
+    "html_url": "https://github.com/electron/electron/issues/8697#issuecomment-280281587",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8697",
+    "id": 280281587,
+    "user": {
+      "login": "CarlosRen",
+      "id": 6012322,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6012322?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/CarlosRen",
+      "html_url": "https://github.com/CarlosRen",
+      "followers_url": "https://api.github.com/users/CarlosRen/followers",
+      "following_url": "https://api.github.com/users/CarlosRen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/CarlosRen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/CarlosRen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/CarlosRen/subscriptions",
+      "organizations_url": "https://api.github.com/users/CarlosRen/orgs",
+      "repos_url": "https://api.github.com/users/CarlosRen/repos",
+      "events_url": "https://api.github.com/users/CarlosRen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/CarlosRen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-16T09:39:24Z",
+    "updated_at": "2017-02-16T09:39:24Z",
+    "body": "\r\n![3](https://cloud.githubusercontent.com/assets/6012322/23015325/5044911c-f46d-11e6-97b9-a48d1e6cee7b.png)\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/280296063",
+    "html_url": "https://github.com/electron/electron/issues/8697#issuecomment-280296063",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8697",
+    "id": 280296063,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-16T10:40:41Z",
+    "updated_at": "2017-02-16T10:40:41Z",
+    "body": "You need to disable `nodeIntegration` on your BrowerWindow if you are going to be loading remote content that uses modules like jQuery.\r\n\r\nBasically if you don't disable `nodeIntegration` the global `module` object is still available so jQuery treats it like a node environment."
+  }
+]

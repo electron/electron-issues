@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/307447681",
+    "html_url": "https://github.com/electron/electron/issues/9569#issuecomment-307447681",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9569",
+    "id": 307447681,
+    "user": {
+      "login": "smachs",
+      "id": 6456734,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6456734?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/smachs",
+      "html_url": "https://github.com/smachs",
+      "followers_url": "https://api.github.com/users/smachs/followers",
+      "following_url": "https://api.github.com/users/smachs/following{/other_user}",
+      "gists_url": "https://api.github.com/users/smachs/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/smachs/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/smachs/subscriptions",
+      "organizations_url": "https://api.github.com/users/smachs/orgs",
+      "repos_url": "https://api.github.com/users/smachs/repos",
+      "events_url": "https://api.github.com/users/smachs/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/smachs/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-09T17:16:54Z",
+    "updated_at": "2017-06-09T17:18:02Z",
+    "body": "hey try this!\r\n\r\nChange it:\r\n\r\n```\r\nmainWindow = new BrowserWindow({width: 1615, height: 1020, frame: true, resizable: true})\r\n\r\n  mainWindow.loadURL(url.format({\r\n    pathname: path.join(__dirname, 'index.html'),\r\n    protocol: 'file:',\r\n    slashes: true\r\n  }))\r\n```\r\n\r\nfor this:\r\n```\r\napp.on('ready', function() {\r\n  mainWindow = new BrowserWindow({\r\n    width: 1615,\r\n    height: 1020,\r\n    frame: true,\r\n    resizable: true\r\n  });\r\n\r\n  mainWindow.loadUrl('file://' + __dirname + '/index.html');\r\n\r\n  if(process.env.ENVIRONMENT === 'DEV') {\r\n\r\n    mainWindow.openDevTools();\r\n  }\r\n\r\n  mainWindow.on('closed', function() {\r\n    mainWindow = null;\r\n  });\r\n});\r\n```"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/310431884",
+    "html_url": "https://github.com/electron/electron/issues/9569#issuecomment-310431884",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9569",
+    "id": 310431884,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-22T16:25:56Z",
+    "updated_at": "2017-06-22T16:25:56Z",
+    "body": "@brunomilhan there is no `localStorage` attribute for webview in Electron. It is available by default, are you by chance checking the dev console of parent page ? Can you provide a minimal example to reproduce the issue, thanks!"
+  }
+]

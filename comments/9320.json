@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/298432931",
+    "html_url": "https://github.com/electron/electron/issues/9320#issuecomment-298432931",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9320",
+    "id": 298432931,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-01T21:07:08Z",
+    "updated_at": "2017-05-01T21:07:08Z",
+    "body": "@Frahmer can you include more steps on how to reproduce? Perhaps you could fork https://github.com/electron/electron-quick-start and create a branch that demonstrates the issue, thanks."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/299698573",
+    "html_url": "https://github.com/electron/electron/issues/9320#issuecomment-299698573",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9320",
+    "id": 299698573,
+    "user": {
+      "login": "Frahmer",
+      "id": 23572683,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/23572683?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Frahmer",
+      "html_url": "https://github.com/Frahmer",
+      "followers_url": "https://api.github.com/users/Frahmer/followers",
+      "following_url": "https://api.github.com/users/Frahmer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Frahmer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Frahmer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Frahmer/subscriptions",
+      "organizations_url": "https://api.github.com/users/Frahmer/orgs",
+      "repos_url": "https://api.github.com/users/Frahmer/repos",
+      "events_url": "https://api.github.com/users/Frahmer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Frahmer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-07T11:10:51Z",
+    "updated_at": "2017-05-07T11:10:51Z",
+    "body": "@kevinsawicki I have found my mistake, I use the method protocol.registerBufferProtocol() to load my files, but I didn't know that protocol.registerStandardSchemes() is necessary for socket.io (since electron 1.6.x ?)."
+  }
+]

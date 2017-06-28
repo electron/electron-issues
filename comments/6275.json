@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/229957764",
+    "html_url": "https://github.com/electron/electron/issues/6275#issuecomment-229957764",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6275",
+    "id": 229957764,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-01T14:14:05Z",
+    "updated_at": "2016-07-01T14:14:05Z",
+    "body": "This is a bug of Chrome browser, you can reproduce by running following code:\n\n``` js\nfor (let i = 0; i < 10000; ++i) {\n  let e = document.createElement('img')\n  e.src = 'file:///tmp/1.bmp'\n  document.body.appendChild(e)\n  setTimeout(() => { document.body.removeChild(e) }, 1000)\n}\n```\n\nI don't know whether it is a known bug, but I suggest reporting this to Chromium's issues list anyway.\n\nClosing this since it is an upstream bug and we are not able to fix this on Electron's side.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/229959633",
+    "html_url": "https://github.com/electron/electron/issues/6275#issuecomment-229959633",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6275",
+    "id": 229959633,
+    "user": {
+      "login": "bpasero",
+      "id": 900690,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/900690?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bpasero",
+      "html_url": "https://github.com/bpasero",
+      "followers_url": "https://api.github.com/users/bpasero/followers",
+      "following_url": "https://api.github.com/users/bpasero/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bpasero/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bpasero/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bpasero/subscriptions",
+      "organizations_url": "https://api.github.com/users/bpasero/orgs",
+      "repos_url": "https://api.github.com/users/bpasero/repos",
+      "events_url": "https://api.github.com/users/bpasero/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bpasero/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-01T14:21:47Z",
+    "updated_at": "2016-07-01T14:21:47Z",
+    "body": "https://bugs.chromium.org/p/chromium/issues/detail?id=625168\n"
+  }
+]

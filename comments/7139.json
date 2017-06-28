@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/245665307",
+    "html_url": "https://github.com/electron/electron/issues/7139#issuecomment-245665307",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7139",
+    "id": 245665307,
+    "user": {
+      "login": "lee-dohm",
+      "id": 1038121,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1038121?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lee-dohm",
+      "html_url": "https://github.com/lee-dohm",
+      "followers_url": "https://api.github.com/users/lee-dohm/followers",
+      "following_url": "https://api.github.com/users/lee-dohm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lee-dohm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lee-dohm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lee-dohm/subscriptions",
+      "organizations_url": "https://api.github.com/users/lee-dohm/orgs",
+      "repos_url": "https://api.github.com/users/lee-dohm/repos",
+      "events_url": "https://api.github.com/users/lee-dohm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lee-dohm/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-08T16:59:24Z",
+    "updated_at": "2016-09-08T16:59:24Z",
+    "body": "What you're describing is the functionality of a [keylogger](https://en.wikipedia.org/wiki/Keystroke_logging). While there are valid uses for such techniques, the far more common uses are nefarious (collecting passwords, stealing access to private information, etc). We don't want Electron used to violate others' privacy or worse, so we have to err on the side of caution and deny your request for assistance.\n\nThanks for your understanding!\n"
+  }
+]

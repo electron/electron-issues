@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/196095875",
+    "html_url": "https://github.com/electron/electron/issues/4760#issuecomment-196095875",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4760",
+    "id": 196095875,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-14T01:23:41Z",
+    "updated_at": "2016-03-14T01:23:41Z",
+    "body": "@zcbenz [WebContentsDelegate::ShouldCreateWebContents](https://code.google.com/p/chromium/codesearch#chromium/src/content/browser/web_contents/web_contents_impl.cc&sq=package:chromium&q=web_contents_impl.cc&l=1856) doesnt provide the window disposition as a parameter, cant think of any easy way to decide the navigation policy. Can we patch to provide this parameter ?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/196162041",
+    "html_url": "https://github.com/electron/electron/issues/4760#issuecomment-196162041",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4760",
+    "id": 196162041,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-03-14T06:13:14Z",
+    "updated_at": "2016-03-14T06:13:14Z",
+    "body": "The `window_container_type` parameter is supposed to provide the information, but I'm not sure why it doesn't work.\n\nI'm OK with patching if it is like a one-line patch, otherwise it would be a maintenance nightmare.\n"
+  }
+]

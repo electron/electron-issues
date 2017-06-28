@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/279044041",
+    "html_url": "https://github.com/electron/electron/issues/8521#issuecomment-279044041",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8521",
+    "id": 279044041,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-02-10T19:35:04Z",
+    "updated_at": "2017-02-10T19:35:04Z",
+    "body": "The `accelerator` property on `Menu` is not supported for top level menu items.\r\n\r\nOn Windows this can be enabled by using a label of `&Edit` where the `&` sign will register an alt keybinding for the letter it precedes, in this case `Alt+E`.\r\n\r\nI don't think this is natively supported on macOS by their menu API, you can open the menu with `fn+F2` or `fn+Control+f2`.\r\n\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/280102603",
+    "html_url": "https://github.com/electron/electron/issues/8521#issuecomment-280102603",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8521",
+    "id": 280102603,
+    "user": {
+      "login": "nishant09",
+      "id": 7454585,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7454585?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nishant09",
+      "html_url": "https://github.com/nishant09",
+      "followers_url": "https://api.github.com/users/nishant09/followers",
+      "following_url": "https://api.github.com/users/nishant09/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nishant09/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nishant09/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nishant09/subscriptions",
+      "organizations_url": "https://api.github.com/users/nishant09/orgs",
+      "repos_url": "https://api.github.com/users/nishant09/repos",
+      "events_url": "https://api.github.com/users/nishant09/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nishant09/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-15T18:52:12Z",
+    "updated_at": "2017-02-15T18:52:12Z",
+    "body": "Thank you @kevinsawicki . this helps"
+  }
+]

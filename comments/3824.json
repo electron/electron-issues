@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/164907298",
+    "html_url": "https://github.com/electron/electron/issues/3824#issuecomment-164907298",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3824",
+    "id": 164907298,
+    "user": {
+      "login": "rdbell",
+      "id": 1130966,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1130966?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rdbell",
+      "html_url": "https://github.com/rdbell",
+      "followers_url": "https://api.github.com/users/rdbell/followers",
+      "following_url": "https://api.github.com/users/rdbell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rdbell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rdbell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rdbell/subscriptions",
+      "organizations_url": "https://api.github.com/users/rdbell/orgs",
+      "repos_url": "https://api.github.com/users/rdbell/repos",
+      "events_url": "https://api.github.com/users/rdbell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rdbell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-15T21:46:45Z",
+    "updated_at": "2015-12-15T21:46:53Z",
+    "body": "I may switch to using webview instead, because it seems to spoof toplevel by default, but I'd still like to know if this is possible with iframes.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/164978147",
+    "html_url": "https://github.com/electron/electron/issues/3824#issuecomment-164978147",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3824",
+    "id": 164978147,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-16T03:27:14Z",
+    "updated_at": "2015-12-16T03:27:14Z",
+    "body": "No, we used to have a few options for controlling `iframe`, but they had been removed once the `<webview>` supported was added.\n"
+  }
+]

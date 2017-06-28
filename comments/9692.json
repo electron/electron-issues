@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/306728500",
+    "html_url": "https://github.com/electron/electron/issues/9692#issuecomment-306728500",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9692",
+    "id": 306728500,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-07T08:35:22Z",
+    "updated_at": "2017-06-07T08:35:22Z",
+    "body": "GitHub issues are for feature requests and bug reports, questions about using Electron should be directed to the [community](https://github.com/electron/electron#community) or to the [Slack Channel](http://atom-slack.herokuapp.com/).\r\n\r\nFWIW, by default `window.open()` in Electron will not open Chrome, so something in your code must be calling `shell.openExternal()`."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/306731844",
+    "html_url": "https://github.com/electron/electron/issues/9692#issuecomment-306731844",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9692",
+    "id": 306731844,
+    "user": {
+      "login": "RamanKharchee",
+      "id": 16698919,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/16698919?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RamanKharchee",
+      "html_url": "https://github.com/RamanKharchee",
+      "followers_url": "https://api.github.com/users/RamanKharchee/followers",
+      "following_url": "https://api.github.com/users/RamanKharchee/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RamanKharchee/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RamanKharchee/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RamanKharchee/subscriptions",
+      "organizations_url": "https://api.github.com/users/RamanKharchee/orgs",
+      "repos_url": "https://api.github.com/users/RamanKharchee/repos",
+      "events_url": "https://api.github.com/users/RamanKharchee/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RamanKharchee/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-07T08:49:11Z",
+    "updated_at": "2017-06-07T08:49:11Z",
+    "body": "Thank You @enlight Ok i will use community or the slack channel. \r\nBut before that i want know that shell.openExternal( ) i will have to add in main.js of electron. And window.open in my applications js file should be kept as it is?"
+  }
+]

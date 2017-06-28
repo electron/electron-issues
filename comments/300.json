@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/42953895",
+    "html_url": "https://github.com/electron/electron/issues/300#issuecomment-42953895",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/300",
+    "id": 42953895,
+    "user": {
+      "login": "clintberry",
+      "id": 464582,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/464582?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/clintberry",
+      "html_url": "https://github.com/clintberry",
+      "followers_url": "https://api.github.com/users/clintberry/followers",
+      "following_url": "https://api.github.com/users/clintberry/following{/other_user}",
+      "gists_url": "https://api.github.com/users/clintberry/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/clintberry/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/clintberry/subscriptions",
+      "organizations_url": "https://api.github.com/users/clintberry/orgs",
+      "repos_url": "https://api.github.com/users/clintberry/repos",
+      "events_url": "https://api.github.com/users/clintberry/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/clintberry/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-05-13T13:26:44Z",
+    "updated_at": "2014-05-13T13:26:44Z",
+    "body": "new mac. no xcode. Sorry :-)\n"
+  }
+]

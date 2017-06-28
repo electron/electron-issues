@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/259122055",
+    "html_url": "https://github.com/electron/electron/issues/7903#issuecomment-259122055",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7903",
+    "id": 259122055,
+    "user": {
+      "login": "TekSiDoT",
+      "id": 10874046,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10874046?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TekSiDoT",
+      "html_url": "https://github.com/TekSiDoT",
+      "followers_url": "https://api.github.com/users/TekSiDoT/followers",
+      "following_url": "https://api.github.com/users/TekSiDoT/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TekSiDoT/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TekSiDoT/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TekSiDoT/subscriptions",
+      "organizations_url": "https://api.github.com/users/TekSiDoT/orgs",
+      "repos_url": "https://api.github.com/users/TekSiDoT/repos",
+      "events_url": "https://api.github.com/users/TekSiDoT/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TekSiDoT/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-08T12:17:42Z",
+    "updated_at": "2016-11-08T12:17:42Z",
+    "body": "Nevermind, this was meant for electron-packager.\n"
+  }
+]

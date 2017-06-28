@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/256842260",
+    "html_url": "https://github.com/electron/electron/issues/7783#issuecomment-256842260",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7783",
+    "id": 256842260,
+    "user": {
+      "login": "rmccue",
+      "id": 21655,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/21655?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rmccue",
+      "html_url": "https://github.com/rmccue",
+      "followers_url": "https://api.github.com/users/rmccue/followers",
+      "following_url": "https://api.github.com/users/rmccue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rmccue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rmccue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rmccue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rmccue/orgs",
+      "repos_url": "https://api.github.com/users/rmccue/repos",
+      "events_url": "https://api.github.com/users/rmccue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rmccue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-28T05:55:04Z",
+    "updated_at": "2016-10-28T05:55:04Z",
+    "body": "Note: I'd _almost_ suggest defaulting to this when the BrowserWindow is set, as otherwise macOS hides the title completely. It would be nice to have full control over this field for all dialogs though, so unsure what the best behaviour would be.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/257679679",
+    "html_url": "https://github.com/electron/electron/issues/7783#issuecomment-257679679",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7783",
+    "id": 257679679,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-11-01T20:06:22Z",
+    "updated_at": "2016-11-01T20:06:22Z",
+    "body": ">  It would be nice to have full control over this field for all dialogs though\n\nAfter glancing at the [NSSavePanel docs](https://developer.apple.com/reference/appkit/nssavepanel?language=objc), it might be nice to support these others as well:\n- `nameFieldLabel`\n- `showsTagField`\n"
+  }
+]

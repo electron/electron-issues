@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/44075656",
+    "html_url": "https://github.com/electron/electron/issues/349#issuecomment-44075656",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/349",
+    "id": 44075656,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-05-24T02:40:55Z",
+    "updated_at": "2014-05-24T02:40:55Z",
+    "body": "> Is that supposed to be checked?\n\nYes, that was a typo.\n\n> Also, in the MenuItem documentation, why is the groupId supposed to a boolean?\n\nIt was a typo too, it should be an `Integer`.\n\n> I also think I'm missing something because the checkbox and radio type menu items don't seem to be functioning as such (I have to manually set the checked flag on the click event, and for radios I have to go uncheck the other radios in the group).\n\nThis should be a bug, I'll look into it.\n"
+  }
+]

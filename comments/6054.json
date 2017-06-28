@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226379925",
+    "html_url": "https://github.com/electron/electron/issues/6054#issuecomment-226379925",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6054",
+    "id": 226379925,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-16T03:32:42Z",
+    "updated_at": "2016-06-16T03:32:42Z",
+    "body": "I'm merging this to #4396 since they are essentially the same bug.\n\nIt is actually sort of expected behavior in Chromium, for downloading as example, first you navigated to a location, after received headers Chromium found it is a download and then aborted the navigation.\n\nThough it totally makes sense, I think we should not emit `ERR_ABORTED` for this kind of abortion.\n"
+  }
+]

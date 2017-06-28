@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/238779306",
+    "html_url": "https://github.com/electron/electron/issues/6790#issuecomment-238779306",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6790",
+    "id": 238779306,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-10T06:43:12Z",
+    "updated_at": "2016-08-10T06:43:12Z",
+    "body": "I'm not sure what you mean by without desktop, currently you have to at least have a virtual X11 environment to run Electron:\nhttps://github.com/electron/electron/blob/master/docs/tutorial/testing-on-headless-ci.md\n\nFor running Electron without X11, it is tracked at #228.\n"
+  }
+]

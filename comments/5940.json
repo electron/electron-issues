@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224773700",
+    "html_url": "https://github.com/electron/electron/issues/5940#issuecomment-224773700",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5940",
+    "id": 224773700,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-09T00:48:59Z",
+    "updated_at": "2016-06-09T00:49:05Z",
+    "body": "It is documented that the type of `x` and `y` is Integer.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/302751597",
+    "html_url": "https://github.com/electron/electron/issues/5940#issuecomment-302751597",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5940",
+    "id": 302751597,
+    "user": {
+      "login": "johnryan",
+      "id": 416564,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/416564?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnryan",
+      "html_url": "https://github.com/johnryan",
+      "followers_url": "https://api.github.com/users/johnryan/followers",
+      "following_url": "https://api.github.com/users/johnryan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/johnryan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/johnryan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/johnryan/subscriptions",
+      "organizations_url": "https://api.github.com/users/johnryan/orgs",
+      "repos_url": "https://api.github.com/users/johnryan/repos",
+      "events_url": "https://api.github.com/users/johnryan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/johnryan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-19T16:36:22Z",
+    "updated_at": "2017-05-19T16:36:22Z",
+    "body": "@zcbenz should the documentation for `setBounds` and the like be updated as well? [Rectangle](https://github.com/electron/electron/blob/master/docs/api/structures/rectangle.md). This throws a pretty unhelpful javascript error on windows:\r\n\r\n> Error processing argument at index 0, conversion failure from [object Object]\r\n"
+  }
+]

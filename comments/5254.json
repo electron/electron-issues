@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/213509887",
+    "html_url": "https://github.com/electron/electron/pull/5254#issuecomment-213509887",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5254",
+    "id": 213509887,
+    "user": {
+      "login": "jlord",
+      "id": 1305617,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1305617?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jlord",
+      "html_url": "https://github.com/jlord",
+      "followers_url": "https://api.github.com/users/jlord/followers",
+      "following_url": "https://api.github.com/users/jlord/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jlord/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jlord/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jlord/subscriptions",
+      "organizations_url": "https://api.github.com/users/jlord/orgs",
+      "repos_url": "https://api.github.com/users/jlord/repos",
+      "events_url": "https://api.github.com/users/jlord/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jlord/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-22T16:55:23Z",
+    "updated_at": "2016-04-22T16:55:23Z",
+    "body": "Nice, thank you! ✨ \n"
+  }
+]

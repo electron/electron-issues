@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/238381342",
+    "html_url": "https://github.com/electron/electron/issues/6781#issuecomment-238381342",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6781",
+    "id": 238381342,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-08T21:20:38Z",
+    "updated_at": "2016-08-08T21:20:38Z",
+    "body": "Are you using a different menu in your packaged app vs. running app?\n\nI believe you need a menu with a role of `'window'` for open windows to be displayed there.\n\n``` js\n{role: 'window'}\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/238387358",
+    "html_url": "https://github.com/electron/electron/issues/6781#issuecomment-238387358",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6781",
+    "id": 238387358,
+    "user": {
+      "login": "tylerjames",
+      "id": 1138573,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1138573?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tylerjames",
+      "html_url": "https://github.com/tylerjames",
+      "followers_url": "https://api.github.com/users/tylerjames/followers",
+      "following_url": "https://api.github.com/users/tylerjames/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tylerjames/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tylerjames/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tylerjames/subscriptions",
+      "organizations_url": "https://api.github.com/users/tylerjames/orgs",
+      "repos_url": "https://api.github.com/users/tylerjames/repos",
+      "events_url": "https://api.github.com/users/tylerjames/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tylerjames/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-08T21:43:59Z",
+    "updated_at": "2016-08-08T21:43:59Z",
+    "body": "Thanks @kevinsawicki you were right.\n\nDidn't realize it was necessary to have that for the windows to appear in the dock. \n"
+  }
+]

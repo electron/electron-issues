@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250549701",
+    "html_url": "https://github.com/electron/electron/issues/7401#issuecomment-250549701",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7401",
+    "id": 250549701,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-29T18:22:44Z",
+    "updated_at": "2016-09-29T18:23:05Z",
+    "body": "@HiroTamori I think this bug is related to calling `show()` on a window that is a modal dialog multiple times causes issues. In that demo, there is a `win.show()` line but the window defaults to show as well and `NativeWindowMac::Show()` is getting called twice which is causing issues.\n\nIf I comment out the `win.show()` line the demo works fine for me, but this can be fixed in Electron by guarding against this case in `NativeWindowMac::Show()`.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250642671",
+    "html_url": "https://github.com/electron/electron/issues/7401#issuecomment-250642671",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7401",
+    "id": 250642671,
+    "user": {
+      "login": "HiroTamori",
+      "id": 10972221,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10972221?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/HiroTamori",
+      "html_url": "https://github.com/HiroTamori",
+      "followers_url": "https://api.github.com/users/HiroTamori/followers",
+      "following_url": "https://api.github.com/users/HiroTamori/following{/other_user}",
+      "gists_url": "https://api.github.com/users/HiroTamori/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/HiroTamori/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/HiroTamori/subscriptions",
+      "organizations_url": "https://api.github.com/users/HiroTamori/orgs",
+      "repos_url": "https://api.github.com/users/HiroTamori/repos",
+      "events_url": "https://api.github.com/users/HiroTamori/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/HiroTamori/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-30T02:19:41Z",
+    "updated_at": "2016-09-30T02:19:41Z",
+    "body": "Thanks, @kevinsawicki \n\nCommented out `win.show()` also be fine on my side, however the status of `NativeWindowMac::Show()` would obviously better to be controlled in Electron.\nI'm waiting for the fix. :+1:\n"
+  }
+]

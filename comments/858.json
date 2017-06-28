@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/64276742",
+    "html_url": "https://github.com/electron/electron/pull/858#issuecomment-64276742",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/858",
+    "id": 64276742,
+    "user": {
+      "login": "mehcode",
+      "id": 753919,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/753919?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mehcode",
+      "html_url": "https://github.com/mehcode",
+      "followers_url": "https://api.github.com/users/mehcode/followers",
+      "following_url": "https://api.github.com/users/mehcode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mehcode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mehcode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mehcode/subscriptions",
+      "organizations_url": "https://api.github.com/users/mehcode/orgs",
+      "repos_url": "https://api.github.com/users/mehcode/repos",
+      "events_url": "https://api.github.com/users/mehcode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mehcode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-24T22:27:37Z",
+    "updated_at": "2014-11-24T22:27:37Z",
+    "body": "Awesome. Thank you @zcbenz \n"
+  }
+]

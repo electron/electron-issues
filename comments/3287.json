@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/152750177",
+    "html_url": "https://github.com/electron/electron/pull/3287#issuecomment-152750177",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3287",
+    "id": 152750177,
+    "user": {
+      "login": "Titan-p",
+      "id": 9355792,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9355792?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Titan-p",
+      "html_url": "https://github.com/Titan-p",
+      "followers_url": "https://api.github.com/users/Titan-p/followers",
+      "following_url": "https://api.github.com/users/Titan-p/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Titan-p/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Titan-p/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Titan-p/subscriptions",
+      "organizations_url": "https://api.github.com/users/Titan-p/orgs",
+      "repos_url": "https://api.github.com/users/Titan-p/repos",
+      "events_url": "https://api.github.com/users/Titan-p/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Titan-p/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-31T16:57:04Z",
+    "updated_at": "2015-10-31T16:57:04Z",
+    "body": "Sorry pls ignore it.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/81927769",
+    "html_url": "https://github.com/electron/electron/issues/1198#issuecomment-81927769",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1198",
+    "id": 81927769,
+    "user": {
+      "login": "diomat",
+      "id": 6215791,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6215791?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/diomat",
+      "html_url": "https://github.com/diomat",
+      "followers_url": "https://api.github.com/users/diomat/followers",
+      "following_url": "https://api.github.com/users/diomat/following{/other_user}",
+      "gists_url": "https://api.github.com/users/diomat/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/diomat/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/diomat/subscriptions",
+      "organizations_url": "https://api.github.com/users/diomat/orgs",
+      "repos_url": "https://api.github.com/users/diomat/repos",
+      "events_url": "https://api.github.com/users/diomat/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/diomat/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-16T20:45:52Z",
+    "updated_at": "2015-03-16T20:45:52Z",
+    "body": "Hi!\n\nI'm having the same issue when I download and open the index.html from http://www.jonathantneal.com/examples/invoice/invoice.zip (the article is here http://www.jonathantneal.com/blog/the-html5-invoice/).\n\nBut it crashes only when I switch to another tab of atom. Before the switching it's working fine.\nWhen I load the invoice example directly (http://www.jonathantneal.com/examples/invoice/) it also works without problems.\n\nSetup\n- atom 0.187.0\n- Ubuntu 14.04\n\nCheers\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/110234232",
+    "html_url": "https://github.com/electron/electron/issues/1198#issuecomment-110234232",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1198",
+    "id": 110234232,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-06-09T05:59:13Z",
+    "updated_at": "2015-06-09T05:59:13Z",
+    "body": "Doesn't seem to crash anymore, Atom still needs to update to latest Electron to have this fix though.\n"
+  }
+]

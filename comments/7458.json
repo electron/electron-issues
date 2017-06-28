@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/251948798",
+    "html_url": "https://github.com/electron/electron/issues/7458#issuecomment-251948798",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7458",
+    "id": 251948798,
+    "user": {
+      "login": "andymartinwork",
+      "id": 1785253,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1785253?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/andymartinwork",
+      "html_url": "https://github.com/andymartinwork",
+      "followers_url": "https://api.github.com/users/andymartinwork/followers",
+      "following_url": "https://api.github.com/users/andymartinwork/following{/other_user}",
+      "gists_url": "https://api.github.com/users/andymartinwork/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/andymartinwork/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/andymartinwork/subscriptions",
+      "organizations_url": "https://api.github.com/users/andymartinwork/orgs",
+      "repos_url": "https://api.github.com/users/andymartinwork/repos",
+      "events_url": "https://api.github.com/users/andymartinwork/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/andymartinwork/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-06T12:36:41Z",
+    "updated_at": "2016-10-06T12:36:41Z",
+    "body": "After doing some investigation due to this bug: #6958 Webview zoomFactor reset on navigate, I found this issue too. getZoomFactor reports the \"wrong\" factor, but it's probably more likely that setZoomLevel is setting the wrong level.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/254989702",
+    "html_url": "https://github.com/electron/electron/issues/7458#issuecomment-254989702",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7458",
+    "id": 254989702,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-20T02:00:50Z",
+    "updated_at": "2016-10-20T02:00:50Z",
+    "body": "The `setZoomLevel` API is just simply wrapper of `blink`'s `WebView::setZoomLevel` call, so we have no control of how it behaves, and from [its interface](https://cs.chromium.org/chromium/src/third_party/WebKit/public/web/WebView.h?q=setZoomLevel&sq=package:chromium&dr=CSs&l=250) there is no definition of how it should behave.\n\nI suggest seeking help from [the blink-dev mailing list](https://groups.google.com/a/chromium.org/forum/#!forum/blink-dev) on the behavior of setZoomLevel.\n"
+  }
+]

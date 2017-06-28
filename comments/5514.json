@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/218891757",
+    "html_url": "https://github.com/electron/electron/issues/5514#issuecomment-218891757",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5514",
+    "id": 218891757,
+    "user": {
+      "login": "mnquintana",
+      "id": 823545,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/823545?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mnquintana",
+      "html_url": "https://github.com/mnquintana",
+      "followers_url": "https://api.github.com/users/mnquintana/followers",
+      "following_url": "https://api.github.com/users/mnquintana/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mnquintana/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mnquintana/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mnquintana/subscriptions",
+      "organizations_url": "https://api.github.com/users/mnquintana/orgs",
+      "repos_url": "https://api.github.com/users/mnquintana/repos",
+      "events_url": "https://api.github.com/users/mnquintana/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mnquintana/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-12T21:30:06Z",
+    "updated_at": "2016-05-12T21:31:54Z",
+    "body": "A lot of deprecations were removed for 1.0 – one of the things that was deprecated was `require` ing Electron-specific modules globally (ie. `const shell = require('shell')`, or `import shell from 'shell`. You'll need to update your app to import these properties from the `electron` module:\n\n``` js\nimport {shell} from 'electron';\nconst {shell} = require('electron');\n```\n\nHope that helps!\n\nAlso, [we're trying to control the amount of Issues that we have to triage and track](http://blog.atom.io/2016/04/19/managing-the-deluge-of-atom-issues.html). For general questions, [the Electron message board](https://discuss.atom.io/c/electron) or the [Electron Slack channel](http://atom-slack.herokuapp.com/) is where you'll probably be able to find answers faster.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/218892904",
+    "html_url": "https://github.com/electron/electron/issues/5514#issuecomment-218892904",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5514",
+    "id": 218892904,
+    "user": {
+      "login": "lipis",
+      "id": 125676,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/125676?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lipis",
+      "html_url": "https://github.com/lipis",
+      "followers_url": "https://api.github.com/users/lipis/followers",
+      "following_url": "https://api.github.com/users/lipis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lipis/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lipis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lipis/subscriptions",
+      "organizations_url": "https://api.github.com/users/lipis/orgs",
+      "repos_url": "https://api.github.com/users/lipis/repos",
+      "events_url": "https://api.github.com/users/lipis/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lipis/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-12T21:34:47Z",
+    "updated_at": "2016-05-12T21:34:47Z",
+    "body": "I have to admit I was a bit lazy with my research.. :/ Thanks @mnquintana 💃 \n"
+  }
+]

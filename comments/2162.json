@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/119776441",
+    "html_url": "https://github.com/electron/electron/issues/2162#issuecomment-119776441",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2162",
+    "id": 119776441,
+    "user": {
+      "login": "carlosperate",
+      "id": 4189262,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4189262?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carlosperate",
+      "html_url": "https://github.com/carlosperate",
+      "followers_url": "https://api.github.com/users/carlosperate/followers",
+      "following_url": "https://api.github.com/users/carlosperate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/carlosperate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/carlosperate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/carlosperate/subscriptions",
+      "organizations_url": "https://api.github.com/users/carlosperate/orgs",
+      "repos_url": "https://api.github.com/users/carlosperate/repos",
+      "events_url": "https://api.github.com/users/carlosperate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/carlosperate/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-09T01:19:24Z",
+    "updated_at": "2015-07-09T01:19:24Z",
+    "body": "I believe the ARM version is compiled for the ARMv7 instruction set, and the B+ uses v6, so it'll be only compatible with the Pi 2.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/119788504",
+    "html_url": "https://github.com/electron/electron/issues/2162#issuecomment-119788504",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2162",
+    "id": 119788504,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-07-09T02:24:07Z",
+    "updated_at": "2015-07-09T02:24:07Z",
+    "body": "The arm build is only available for ARMv7 machines, ARMv6 machines are not powerful enough to run latest Chromium smoothly so we won't have support for them.\n"
+  }
+]

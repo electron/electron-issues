@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/255638676",
+    "html_url": "https://github.com/electron/electron/issues/7574#issuecomment-255638676",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7574",
+    "id": 255638676,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-24T03:06:47Z",
+    "updated_at": "2016-10-24T03:06:47Z",
+    "body": "I'm merging this issue to #1854, the latter blocks this issue and fixing it implies implementing a set of APIs for controlling the popup.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/255713431",
+    "html_url": "https://github.com/electron/electron/issues/7574#issuecomment-255713431",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7574",
+    "id": 255713431,
+    "user": {
+      "login": "CandyFace",
+      "id": 1045397,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1045397?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/CandyFace",
+      "html_url": "https://github.com/CandyFace",
+      "followers_url": "https://api.github.com/users/CandyFace/followers",
+      "following_url": "https://api.github.com/users/CandyFace/following{/other_user}",
+      "gists_url": "https://api.github.com/users/CandyFace/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/CandyFace/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/CandyFace/subscriptions",
+      "organizations_url": "https://api.github.com/users/CandyFace/orgs",
+      "repos_url": "https://api.github.com/users/CandyFace/repos",
+      "events_url": "https://api.github.com/users/CandyFace/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/CandyFace/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-24T11:17:33Z",
+    "updated_at": "2016-10-24T11:17:33Z",
+    "body": "This is exactly the functionality I need right now, is there really no way to figure if a window is already open or to close a specific window currently? Say for example I have one window open, then when I open a second window, the first window should close. Right now when you use win.close it closes all my popup windows.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/241179676",
+    "html_url": "https://github.com/electron/electron/issues/6909#issuecomment-241179676",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6909",
+    "id": 241179676,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-20T04:54:34Z",
+    "updated_at": "2016-08-20T04:54:34Z",
+    "body": "Hey there,\n\nQuestions and support request should go on the discussion forums or in slack.  Github is for issues only.\n\nThere are a lot of things _wrong_ with your code, I've fixed a few of them below and tried to explain.\n\n``` js\n// Electron modules are properties of the top level Electron module\nvar app = require('electron').app;\nvar BrowserWindow = require('electron').BrowserWindow;\n\n// Null --> null (lowercase)\nvar mainWindow = null;\napp.on('ready', function(){\nvar mainWindow = new BrowserWindow({\nwidth:800, height: 600\n})\n\nmainWindow.loadUrl('file://Users/m/electron-apps-ex/index.html')\n```\n\nIt might be a good idea for you to check out https://github.com/electron/electron-quick-start for a good place to start\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/241183704",
+    "html_url": "https://github.com/electron/electron/issues/6909#issuecomment-241183704",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6909",
+    "id": 241183704,
+    "user": {
+      "login": "TSM696",
+      "id": 21136441,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/21136441?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TSM696",
+      "html_url": "https://github.com/TSM696",
+      "followers_url": "https://api.github.com/users/TSM696/followers",
+      "following_url": "https://api.github.com/users/TSM696/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TSM696/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TSM696/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TSM696/subscriptions",
+      "organizations_url": "https://api.github.com/users/TSM696/orgs",
+      "repos_url": "https://api.github.com/users/TSM696/repos",
+      "events_url": "https://api.github.com/users/TSM696/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TSM696/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-20T06:53:15Z",
+    "updated_at": "2016-08-20T06:53:15Z",
+    "body": "Thanks @MarshallOfSound \n\nWas following the code example used by Kyle in https://www.youtube.com/watch?v=ojX5yz35v4M\ngiven in this: http://electron.atom.io/community/#boilerplates\n\nGuess it is a bit dated. (request that such a caveat be added to that list of videos)\n\nYes, it works!  Electron rocks!\nThanks a lot for the quick response.\n"
+  }
+]

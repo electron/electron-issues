@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/231382403",
+    "html_url": "https://github.com/electron/electron/issues/6398#issuecomment-231382403",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6398",
+    "id": 231382403,
+    "user": {
+      "login": "aluxian",
+      "id": 1418870,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1418870?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aluxian",
+      "html_url": "https://github.com/aluxian",
+      "followers_url": "https://api.github.com/users/aluxian/followers",
+      "following_url": "https://api.github.com/users/aluxian/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aluxian/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aluxian/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aluxian/subscriptions",
+      "organizations_url": "https://api.github.com/users/aluxian/orgs",
+      "repos_url": "https://api.github.com/users/aluxian/repos",
+      "events_url": "https://api.github.com/users/aluxian/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aluxian/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-08T14:58:24Z",
+    "updated_at": "2016-07-08T14:58:24Z",
+    "body": "Note: I can't reproduce this in Electron 1.2.6 anymore, I'll ask the user to update and test again.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/234763059",
+    "html_url": "https://github.com/electron/electron/issues/6398#issuecomment-234763059",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6398",
+    "id": 234763059,
+    "user": {
+      "login": "aluxian",
+      "id": 1418870,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1418870?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aluxian",
+      "html_url": "https://github.com/aluxian",
+      "followers_url": "https://api.github.com/users/aluxian/followers",
+      "following_url": "https://api.github.com/users/aluxian/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aluxian/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aluxian/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aluxian/subscriptions",
+      "organizations_url": "https://api.github.com/users/aluxian/orgs",
+      "repos_url": "https://api.github.com/users/aluxian/repos",
+      "events_url": "https://api.github.com/users/aluxian/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aluxian/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-24T07:39:52Z",
+    "updated_at": "2016-07-24T07:39:52Z",
+    "body": "User not replying, I can't reproduce, no one seems to be having this issue as well, so closing.\n"
+  }
+]

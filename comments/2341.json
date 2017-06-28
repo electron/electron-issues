@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/125534498",
+    "html_url": "https://github.com/electron/electron/issues/2341#issuecomment-125534498",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2341",
+    "id": 125534498,
+    "user": {
+      "login": "joespina",
+      "id": 6695239,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6695239?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/joespina",
+      "html_url": "https://github.com/joespina",
+      "followers_url": "https://api.github.com/users/joespina/followers",
+      "following_url": "https://api.github.com/users/joespina/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joespina/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joespina/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joespina/subscriptions",
+      "organizations_url": "https://api.github.com/users/joespina/orgs",
+      "repos_url": "https://api.github.com/users/joespina/repos",
+      "events_url": "https://api.github.com/users/joespina/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joespina/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-28T09:58:07Z",
+    "updated_at": "2015-07-28T09:58:07Z",
+    "body": "A simple fix I made for this was to close DevTools `BrowserWindow.closeDevTools();` first then call `BrowserWindow.inspectElement(x,y);` it does the trick but being able to focus on DevTools on call would be nicer. Cheers!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217377586",
+    "html_url": "https://github.com/electron/electron/issues/2341#issuecomment-217377586",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2341",
+    "id": 217377586,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-06T08:13:59Z",
+    "updated_at": "2016-05-06T08:13:59Z",
+    "body": "Unable to reproduce in 0.37.x anymore.\n"
+  }
+]

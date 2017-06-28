@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/51478251",
+    "html_url": "https://github.com/electron/electron/issues/556#issuecomment-51478251",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/556",
+    "id": 51478251,
+    "user": {
+      "login": "marcbachmann",
+      "id": 431376,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/431376?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marcbachmann",
+      "html_url": "https://github.com/marcbachmann",
+      "followers_url": "https://api.github.com/users/marcbachmann/followers",
+      "following_url": "https://api.github.com/users/marcbachmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marcbachmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marcbachmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marcbachmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/marcbachmann/orgs",
+      "repos_url": "https://api.github.com/users/marcbachmann/repos",
+      "events_url": "https://api.github.com/users/marcbachmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marcbachmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-08-07T14:23:03Z",
+    "updated_at": "2014-08-07T14:24:38Z",
+    "body": "Github issues are for bugs and feature requests.\nThis is a topic which belongs to a user/mail group. e.g google+ or google groups.\nYou already answered your own question. You can use normal functions or EventEmitters (`ipc` module). There are a lot of solutions for such applications.\nHave a look at atom. They have tabs: https://github.com/atom/atom\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/51556508",
+    "html_url": "https://github.com/electron/electron/issues/556#issuecomment-51556508",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/556",
+    "id": 51556508,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-08-08T02:24:06Z",
+    "updated_at": "2014-08-08T02:24:06Z",
+    "body": "In atom-shell you have to draw tabs and other controls with HTML, there is no plan to implement Chromium like tabs.\n"
+  }
+]

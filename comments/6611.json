@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/235225790",
+    "html_url": "https://github.com/electron/electron/issues/6611#issuecomment-235225790",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6611",
+    "id": 235225790,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-26T10:09:22Z",
+    "updated_at": "2016-07-26T10:09:22Z",
+    "body": "`desktopCapturer` is only available in the renderer process, but you're attempting to access it in the main process.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/235231111",
+    "html_url": "https://github.com/electron/electron/issues/6611#issuecomment-235231111",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6611",
+    "id": 235231111,
+    "user": {
+      "login": "I-n-d-e-r",
+      "id": 18102267,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18102267?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/I-n-d-e-r",
+      "html_url": "https://github.com/I-n-d-e-r",
+      "followers_url": "https://api.github.com/users/I-n-d-e-r/followers",
+      "following_url": "https://api.github.com/users/I-n-d-e-r/following{/other_user}",
+      "gists_url": "https://api.github.com/users/I-n-d-e-r/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/I-n-d-e-r/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/I-n-d-e-r/subscriptions",
+      "organizations_url": "https://api.github.com/users/I-n-d-e-r/orgs",
+      "repos_url": "https://api.github.com/users/I-n-d-e-r/repos",
+      "events_url": "https://api.github.com/users/I-n-d-e-r/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/I-n-d-e-r/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-26T10:35:06Z",
+    "updated_at": "2016-07-26T10:35:06Z",
+    "body": "Now it works, thanks and sorry for the inconvenience. To close :)\n"
+  }
+]

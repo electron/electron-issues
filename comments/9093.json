@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308654840",
+    "html_url": "https://github.com/electron/electron/issues/9093#issuecomment-308654840",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9093",
+    "id": 308654840,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-15T07:42:53Z",
+    "updated_at": "2017-06-15T07:42:53Z",
+    "body": "It is probably because Chromium did some change that require a larger shared memory, while we would like to fix this, I'm afraid this is how Chromium works fundamentally and we are unable to work around on Electron's side.\r\n\r\nSo I'm closing this as won't fix, pull requests to fix it would be welcomed though."
+  }
+]

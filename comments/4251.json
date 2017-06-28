@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/175675407",
+    "html_url": "https://github.com/electron/electron/issues/4251#issuecomment-175675407",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4251",
+    "id": 175675407,
+    "user": {
+      "login": "AveVlad",
+      "id": 2889662,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2889662?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AveVlad",
+      "html_url": "https://github.com/AveVlad",
+      "followers_url": "https://api.github.com/users/AveVlad/followers",
+      "following_url": "https://api.github.com/users/AveVlad/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AveVlad/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AveVlad/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AveVlad/subscriptions",
+      "organizations_url": "https://api.github.com/users/AveVlad/orgs",
+      "repos_url": "https://api.github.com/users/AveVlad/repos",
+      "events_url": "https://api.github.com/users/AveVlad/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AveVlad/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-27T15:08:58Z",
+    "updated_at": "2016-01-27T15:08:58Z",
+    "body": "find https://github.com/segmentio/nightmare/issues/456#issuecomment-175666565\n"
+  }
+]

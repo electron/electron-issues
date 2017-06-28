@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/268773910",
+    "html_url": "https://github.com/electron/electron/issues/8150#issuecomment-268773910",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8150",
+    "id": 268773910,
+    "user": {
+      "login": "agrande",
+      "id": 1733751,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1733751?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/agrande",
+      "html_url": "https://github.com/agrande",
+      "followers_url": "https://api.github.com/users/agrande/followers",
+      "following_url": "https://api.github.com/users/agrande/following{/other_user}",
+      "gists_url": "https://api.github.com/users/agrande/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/agrande/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/agrande/subscriptions",
+      "organizations_url": "https://api.github.com/users/agrande/orgs",
+      "repos_url": "https://api.github.com/users/agrande/repos",
+      "events_url": "https://api.github.com/users/agrande/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/agrande/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-22T10:44:39Z",
+    "updated_at": "2016-12-22T10:44:39Z",
+    "body": "Hello,\r\n\r\nHow did you solve/workaround this issue? I have a similar problem. The 'login' event doesn't seem to fire, I'm running out of options to make it run requests through an authenticated proxy.\r\n\r\nThanks."
+  }
+]

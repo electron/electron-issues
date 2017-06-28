@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224485341",
+    "html_url": "https://github.com/electron/electron/pull/5926#issuecomment-224485341",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5926",
+    "id": 224485341,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-08T04:40:09Z",
+    "updated_at": "2016-06-08T04:40:09Z",
+    "body": "@atdrago Those frameworks are not included in the MAS build, if you see them then you are using the wrong version of Electron.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224613316",
+    "html_url": "https://github.com/electron/electron/pull/5926#issuecomment-224613316",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5926",
+    "id": 224613316,
+    "user": {
+      "login": "atdrago",
+      "id": 144225,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/144225?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/atdrago",
+      "html_url": "https://github.com/atdrago",
+      "followers_url": "https://api.github.com/users/atdrago/followers",
+      "following_url": "https://api.github.com/users/atdrago/following{/other_user}",
+      "gists_url": "https://api.github.com/users/atdrago/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/atdrago/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/atdrago/subscriptions",
+      "organizations_url": "https://api.github.com/users/atdrago/orgs",
+      "repos_url": "https://api.github.com/users/atdrago/repos",
+      "events_url": "https://api.github.com/users/atdrago/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/atdrago/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-08T14:48:27Z",
+    "updated_at": "2016-06-08T14:48:27Z",
+    "body": "@zcbenz Sorry about that. I was actually trying to package and sign my app for distribution _outside_ MAS. It's a bit confusing, especially for someone who hasn't done it before because there are no guides on this. Maybe I just couldn't find it?\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/274473694",
+    "html_url": "https://github.com/electron/electron/issues/8477#issuecomment-274473694",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8477",
+    "id": 274473694,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-23T12:14:34Z",
+    "updated_at": "2017-01-23T12:14:34Z",
+    "body": "This API has already been implemented.  See\r\n\r\nhttps://github.com/electron/electron/blob/master/docs/api/browser-window.md#winsetprogressbarprogress-options"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/274474180",
+    "html_url": "https://github.com/electron/electron/issues/8477#issuecomment-274474180",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8477",
+    "id": 274474180,
+    "user": {
+      "login": "PragmaticEd",
+      "id": 19263525,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19263525?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PragmaticEd",
+      "html_url": "https://github.com/PragmaticEd",
+      "followers_url": "https://api.github.com/users/PragmaticEd/followers",
+      "following_url": "https://api.github.com/users/PragmaticEd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PragmaticEd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PragmaticEd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PragmaticEd/subscriptions",
+      "organizations_url": "https://api.github.com/users/PragmaticEd/orgs",
+      "repos_url": "https://api.github.com/users/PragmaticEd/repos",
+      "events_url": "https://api.github.com/users/PragmaticEd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PragmaticEd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-23T12:17:29Z",
+    "updated_at": "2017-01-23T12:17:29Z",
+    "body": "@MarshallOfSound thanks. "
+  }
+]

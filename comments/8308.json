@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/269819625",
+    "html_url": "https://github.com/electron/electron/pull/8308#issuecomment-269819625",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8308",
+    "id": 269819625,
+    "user": {
+      "login": "damieng",
+      "id": 118951,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/118951?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/damieng",
+      "html_url": "https://github.com/damieng",
+      "followers_url": "https://api.github.com/users/damieng/followers",
+      "following_url": "https://api.github.com/users/damieng/following{/other_user}",
+      "gists_url": "https://api.github.com/users/damieng/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/damieng/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/damieng/subscriptions",
+      "organizations_url": "https://api.github.com/users/damieng/orgs",
+      "repos_url": "https://api.github.com/users/damieng/repos",
+      "events_url": "https://api.github.com/users/damieng/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/damieng/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-12-30T20:42:12Z",
+    "updated_at": "2016-12-30T20:42:12Z",
+    "body": "This looks great, thanks!"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/269939327",
+    "html_url": "https://github.com/electron/electron/pull/8308#issuecomment-269939327",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8308",
+    "id": 269939327,
+    "user": {
+      "login": "Thetzleoo",
+      "id": 2175700,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2175700?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Thetzleoo",
+      "html_url": "https://github.com/Thetzleoo",
+      "followers_url": "https://api.github.com/users/Thetzleoo/followers",
+      "following_url": "https://api.github.com/users/Thetzleoo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Thetzleoo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Thetzleoo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Thetzleoo/subscriptions",
+      "organizations_url": "https://api.github.com/users/Thetzleoo/orgs",
+      "repos_url": "https://api.github.com/users/Thetzleoo/repos",
+      "events_url": "https://api.github.com/users/Thetzleoo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Thetzleoo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-02T07:00:56Z",
+    "updated_at": "2017-01-02T07:00:56Z",
+    "body": "142,385"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/207268545",
+    "html_url": "https://github.com/electron/electron/issues/5077#issuecomment-207268545",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5077",
+    "id": 207268545,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-08T07:24:48Z",
+    "updated_at": "2016-04-08T07:24:48Z",
+    "body": "You should try later versions of v0.36.x, this is an old bug that already got fixed. But 0.36.x doesn't work well after being sandboxed, if you want to submit to MAS you have to use 0.35.x for now.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/207593993",
+    "html_url": "https://github.com/electron/electron/issues/5077#issuecomment-207593993",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5077",
+    "id": 207593993,
+    "user": {
+      "login": "stevedekorte",
+      "id": 138,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/138?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stevedekorte",
+      "html_url": "https://github.com/stevedekorte",
+      "followers_url": "https://api.github.com/users/stevedekorte/followers",
+      "following_url": "https://api.github.com/users/stevedekorte/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stevedekorte/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stevedekorte/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stevedekorte/subscriptions",
+      "organizations_url": "https://api.github.com/users/stevedekorte/orgs",
+      "repos_url": "https://api.github.com/users/stevedekorte/repos",
+      "events_url": "https://api.github.com/users/stevedekorte/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stevedekorte/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-08T20:39:25Z",
+    "updated_at": "2016-04-08T20:39:25Z",
+    "body": "Thanks for the response. I hope MAS is supported again soon. Electron is currently my favorite development platform and I'd like to be able to recommend it to other Apple developers.\n"
+  }
+]

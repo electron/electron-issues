@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/177817901",
+    "html_url": "https://github.com/electron/electron/issues/4297#issuecomment-177817901",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4297",
+    "id": 177817901,
+    "user": {
+      "login": "wsangtoki",
+      "id": 16789429,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/16789429?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wsangtoki",
+      "html_url": "https://github.com/wsangtoki",
+      "followers_url": "https://api.github.com/users/wsangtoki/followers",
+      "following_url": "https://api.github.com/users/wsangtoki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wsangtoki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wsangtoki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wsangtoki/subscriptions",
+      "organizations_url": "https://api.github.com/users/wsangtoki/orgs",
+      "repos_url": "https://api.github.com/users/wsangtoki/repos",
+      "events_url": "https://api.github.com/users/wsangtoki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wsangtoki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-01T07:15:07Z",
+    "updated_at": "2016-02-01T07:15:35Z",
+    "body": "Sorry too early to ask.\nI have prevented the callback from being called when authentication failure occurred by doing this.\n`\nvar authInfoArray=[];\napp.on('login', function(event, webContents, request, authInfo, callback) {\n  if (authInfoArray.indexOf(authInfo.host + authInfo.port) == -1) {\n     authInfoArray.push(authInfo.host + authInfo.port);\n     event.preventDefault();\n     callback('username', 'secret');\n  }\n})\n`\n"
+  }
+]

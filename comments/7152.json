@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/246582374",
+    "html_url": "https://github.com/electron/electron/issues/7152#issuecomment-246582374",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7152",
+    "id": 246582374,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-13T05:56:25Z",
+    "updated_at": "2016-09-13T05:56:25Z",
+    "body": "This is a bug of Node and had been fixed by https://github.com/nodejs/node/commit/08996fde3c08c0cfabc7cc3fe332d83f674ab099 in upstream, this will be fixed once Electron is upgraded to Node >= 6.4.0.\n\nI'm closing this since the upgrade to Node 6.5.0 has been done at #7104 and will be included in Electron 1.4.0.\n"
+  }
+]

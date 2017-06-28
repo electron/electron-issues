@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/282627035",
+    "html_url": "https://github.com/electron/electron/pull/8782#issuecomment-282627035",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8782",
+    "id": 282627035,
+    "user": {
+      "login": "odensc",
+      "id": 1520776,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1520776?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/odensc",
+      "html_url": "https://github.com/odensc",
+      "followers_url": "https://api.github.com/users/odensc/followers",
+      "following_url": "https://api.github.com/users/odensc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/odensc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/odensc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/odensc/subscriptions",
+      "organizations_url": "https://api.github.com/users/odensc/orgs",
+      "repos_url": "https://api.github.com/users/odensc/repos",
+      "events_url": "https://api.github.com/users/odensc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/odensc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-27T04:44:45Z",
+    "updated_at": "2017-02-27T04:45:07Z",
+    "body": "(the test that failed may need to be updated to account for the change? I'm not familiar with the specs)"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/283320619",
+    "html_url": "https://github.com/electron/electron/pull/8782#issuecomment-283320619",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8782",
+    "id": 283320619,
+    "user": {
+      "login": "odensc",
+      "id": 1520776,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1520776?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/odensc",
+      "html_url": "https://github.com/odensc",
+      "followers_url": "https://api.github.com/users/odensc/followers",
+      "following_url": "https://api.github.com/users/odensc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/odensc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/odensc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/odensc/subscriptions",
+      "organizations_url": "https://api.github.com/users/odensc/orgs",
+      "repos_url": "https://api.github.com/users/odensc/repos",
+      "events_url": "https://api.github.com/users/odensc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/odensc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-01T11:51:24Z",
+    "updated_at": "2017-03-01T11:51:24Z",
+    "body": "Will be submitting a better PR in a few hours."
+  }
+]

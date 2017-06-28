@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/183098642",
+    "html_url": "https://github.com/electron/electron/pull/4448#issuecomment-183098642",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4448",
+    "id": 183098642,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-11T23:23:31Z",
+    "updated_at": "2016-02-11T23:23:31Z",
+    "body": "@berlysia what do you think about adding some new specs for this that verify an ES2015 class has the correct properties exposed when used with the remote module?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/183228482",
+    "html_url": "https://github.com/electron/electron/pull/4448#issuecomment-183228482",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4448",
+    "id": 183228482,
+    "user": {
+      "login": "berlysia",
+      "id": 950573,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/950573?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/berlysia",
+      "html_url": "https://github.com/berlysia",
+      "followers_url": "https://api.github.com/users/berlysia/followers",
+      "following_url": "https://api.github.com/users/berlysia/following{/other_user}",
+      "gists_url": "https://api.github.com/users/berlysia/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/berlysia/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/berlysia/subscriptions",
+      "organizations_url": "https://api.github.com/users/berlysia/orgs",
+      "repos_url": "https://api.github.com/users/berlysia/repos",
+      "events_url": "https://api.github.com/users/berlysia/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/berlysia/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-12T08:39:23Z",
+    "updated_at": "2016-02-13T08:18:02Z",
+    "body": "@kevinsawicki \nI think there is 3 points to be satisfied\n1. non-enumerable props in prototype chain are exposed as non-enumerable.\n2. for-in like enumeration get same results whether used with the remote module or not.\n3. function Klass() {} style declaration is also works (**important**)\n\npoint 1 is derived from related issue (ES2015 class method is non-enumerable)\npoint 2 is for the consistent behavior between browser process and renderer process.\npoint 3 is also consistent behavior for forward.\n\nand my verify code -> https://gist.github.com/berlysia/c4b2ae2525176d8f9f33\n\nbut now I noticed, this PR's code is not satisfied above(point 3). This problem needs more consideration.\nI'll close this PR. I'm sorry to cause you trouble.\n"
+  }
+]

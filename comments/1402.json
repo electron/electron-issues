@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/91766976",
+    "html_url": "https://github.com/electron/electron/pull/1402#issuecomment-91766976",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1402",
+    "id": 91766976,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-04-11T05:49:41Z",
+    "updated_at": "2015-04-11T05:49:41Z",
+    "body": "Thanks, this is really quick!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/91773356",
+    "html_url": "https://github.com/electron/electron/pull/1402#issuecomment-91773356",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1402",
+    "id": 91773356,
+    "user": {
+      "login": "Tribex",
+      "id": 5861371,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5861371?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Tribex",
+      "html_url": "https://github.com/Tribex",
+      "followers_url": "https://api.github.com/users/Tribex/followers",
+      "following_url": "https://api.github.com/users/Tribex/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Tribex/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Tribex/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Tribex/subscriptions",
+      "organizations_url": "https://api.github.com/users/Tribex/orgs",
+      "repos_url": "https://api.github.com/users/Tribex/repos",
+      "events_url": "https://api.github.com/users/Tribex/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Tribex/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-11T06:46:26Z",
+    "updated_at": "2015-04-11T06:47:58Z",
+    "body": "@zcbenz Yeah, I've been watching all the recent commits, trying pretty much everything to build atom-shell recently so I can test some changes, but I always get stuck at fetching the google-hosted chromium srcs. (I live in China and can't access Google URLs.)\n\nNice work so far by the way!\n"
+  }
+]

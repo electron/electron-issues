@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/136619787",
+    "html_url": "https://github.com/electron/electron/issues/2674#issuecomment-136619787",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2674",
+    "id": 136619787,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-01T07:53:50Z",
+    "updated_at": "2015-09-01T07:53:50Z",
+    "body": "It was closed because it is not a bug, and the issues are usually used for reporting bugs not for answering questions. Please turn to the [forum](http://discuss.atom.io/category/electron) to ask questions, it is really disturbing to ask questions here.\n\nAnd for your question, I posted another reply there.\n"
+  }
+]

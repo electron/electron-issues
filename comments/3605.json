@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/160142472",
+    "html_url": "https://github.com/electron/electron/issues/3605#issuecomment-160142472",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3605",
+    "id": 160142472,
+    "user": {
+      "login": "tofuness",
+      "id": 2232877,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2232877?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tofuness",
+      "html_url": "https://github.com/tofuness",
+      "followers_url": "https://api.github.com/users/tofuness/followers",
+      "following_url": "https://api.github.com/users/tofuness/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tofuness/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tofuness/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tofuness/subscriptions",
+      "organizations_url": "https://api.github.com/users/tofuness/orgs",
+      "repos_url": "https://api.github.com/users/tofuness/repos",
+      "events_url": "https://api.github.com/users/tofuness/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tofuness/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-27T13:44:18Z",
+    "updated_at": "2015-11-27T13:44:18Z",
+    "body": "Don't think so.\nSee https://github.com/atom/electron/blob/master/docs/api/native-image.md\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/160537051",
+    "html_url": "https://github.com/electron/electron/issues/3605#issuecomment-160537051",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3605",
+    "id": 160537051,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-30T06:44:13Z",
+    "updated_at": "2015-11-30T06:44:13Z",
+    "body": "It is possible since they can renderered in HTML and then captured as image anyway, but it would very difficult to get an efficient solution because SVG and PDF are document types under the hood.\n\nI'm closing this as won't fix.\n"
+  }
+]

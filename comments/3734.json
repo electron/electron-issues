@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/163081942",
+    "html_url": "https://github.com/electron/electron/issues/3734#issuecomment-163081942",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3734",
+    "id": 163081942,
+    "user": {
+      "login": "brian-mann",
+      "id": 1268976,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1268976?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brian-mann",
+      "html_url": "https://github.com/brian-mann",
+      "followers_url": "https://api.github.com/users/brian-mann/followers",
+      "following_url": "https://api.github.com/users/brian-mann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brian-mann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brian-mann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brian-mann/subscriptions",
+      "organizations_url": "https://api.github.com/users/brian-mann/orgs",
+      "repos_url": "https://api.github.com/users/brian-mann/repos",
+      "events_url": "https://api.github.com/users/brian-mann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brian-mann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-09T01:58:57Z",
+    "updated_at": "2015-12-09T02:00:09Z",
+    "body": "Also it would be nice if it were publicly accessible from `webContents` to access the actual `history` array on the `NavigationController` instance. I read through the source and saw the array is never exposed.\n\nI'm currently patching the navigation controller object to do this:\n\n``` coffee\nrequire(\"navigation-controller\").prototype.getHistory = ->\n {history: @history, index: @currentIndex}\n```\n\nAs long as this is added prior to instantiating `new BrowserWindow` it'll get picked up as a function on the prototype here: https://github.com/atom/electron/blob/master/atom/browser/api/lib/web-contents.coffee#L55\n\nNow we can access that object:\n\n``` coffee\nmainWindow.webContents.getHistory()\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/227717922",
+    "html_url": "https://github.com/electron/electron/issues/3734#issuecomment-227717922",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3734",
+    "id": 227717922,
+    "user": {
+      "login": "bundyo",
+      "id": 98318,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/98318?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bundyo",
+      "html_url": "https://github.com/bundyo",
+      "followers_url": "https://api.github.com/users/bundyo/followers",
+      "following_url": "https://api.github.com/users/bundyo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bundyo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bundyo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bundyo/subscriptions",
+      "organizations_url": "https://api.github.com/users/bundyo/orgs",
+      "repos_url": "https://api.github.com/users/bundyo/repos",
+      "events_url": "https://api.github.com/users/bundyo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bundyo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-22T11:37:36Z",
+    "updated_at": "2016-06-22T11:37:36Z",
+    "body": "As a temporary fix until upgrading to a fixed version, one can replace the iframe's history.back() with the one of the containing window:\n\n``` javascript\niframeElement.contentWindow.history.back = window.history.back;\n```\n"
+  }
+]

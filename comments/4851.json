@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/199893365",
+    "html_url": "https://github.com/electron/electron/pull/4851#issuecomment-199893365",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4851",
+    "id": 199893365,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-03-22T16:35:56Z",
+    "updated_at": "2016-03-22T16:35:56Z",
+    "body": "Thanks for adding this :memo: :+1: \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/199896883",
+    "html_url": "https://github.com/electron/electron/pull/4851#issuecomment-199896883",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4851",
+    "id": 199896883,
+    "user": {
+      "login": "k0kubun",
+      "id": 3138447,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3138447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/k0kubun",
+      "html_url": "https://github.com/k0kubun",
+      "followers_url": "https://api.github.com/users/k0kubun/followers",
+      "following_url": "https://api.github.com/users/k0kubun/following{/other_user}",
+      "gists_url": "https://api.github.com/users/k0kubun/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/k0kubun/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/k0kubun/subscriptions",
+      "organizations_url": "https://api.github.com/users/k0kubun/orgs",
+      "repos_url": "https://api.github.com/users/k0kubun/repos",
+      "events_url": "https://api.github.com/users/k0kubun/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/k0kubun/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-22T16:42:32Z",
+    "updated_at": "2016-03-22T16:42:32Z",
+    "body": "Thank you for merging too! I'm always helped by this doc.\n"
+  }
+]

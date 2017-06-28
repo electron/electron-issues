@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/227031147",
+    "html_url": "https://github.com/electron/electron/issues/6138#issuecomment-227031147",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6138",
+    "id": 227031147,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-20T00:54:33Z",
+    "updated_at": "2016-06-20T00:54:33Z",
+    "body": "This is actually a feature of Chromium, and unfortunately it doesn't provide any option for this:\nhttps://bugs.chromium.org/p/chromium/issues/detail?id=244955\nhttps://bugs.chromium.org/p/chromium/issues/detail?id=353430\n\nI suggest creating an issue at Chromium's issues list to request an option to exclude shadow DOM form searching. I'm closing this since it is a hard-coded feature of Chromium, and we are not able to fix it alone on Electron's side.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/227033771",
+    "html_url": "https://github.com/electron/electron/issues/6138#issuecomment-227033771",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6138",
+    "id": 227033771,
+    "user": {
+      "login": "erkyrath",
+      "id": 65666,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/65666?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/erkyrath",
+      "html_url": "https://github.com/erkyrath",
+      "followers_url": "https://api.github.com/users/erkyrath/followers",
+      "following_url": "https://api.github.com/users/erkyrath/following{/other_user}",
+      "gists_url": "https://api.github.com/users/erkyrath/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/erkyrath/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/erkyrath/subscriptions",
+      "organizations_url": "https://api.github.com/users/erkyrath/orgs",
+      "repos_url": "https://api.github.com/users/erkyrath/repos",
+      "events_url": "https://api.github.com/users/erkyrath/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/erkyrath/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-20T01:32:24Z",
+    "updated_at": "2016-06-20T01:32:24Z",
+    "body": "Ok, thanks.\n"
+  }
+]

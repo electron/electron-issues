@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/186781667",
+    "html_url": "https://github.com/electron/electron/issues/4559#issuecomment-186781667",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4559",
+    "id": 186781667,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-21T09:26:31Z",
+    "updated_at": "2016-02-21T09:26:31Z",
+    "body": "Feel free to leave a comment if you think an issue should be closed, I usually went through all old issues every few months, it would be awesome if you can help with this.\n\nAlso notice that Electron is a cross-platform framework, so for issues that are only partly fixed/implemented on certain platforms, we would keep them open.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/187297854",
+    "html_url": "https://github.com/electron/electron/issues/4559#issuecomment-187297854",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4559",
+    "id": 187297854,
+    "user": {
+      "login": "baconbrad",
+      "id": 4763342,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4763342?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/baconbrad",
+      "html_url": "https://github.com/baconbrad",
+      "followers_url": "https://api.github.com/users/baconbrad/followers",
+      "following_url": "https://api.github.com/users/baconbrad/following{/other_user}",
+      "gists_url": "https://api.github.com/users/baconbrad/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/baconbrad/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/baconbrad/subscriptions",
+      "organizations_url": "https://api.github.com/users/baconbrad/orgs",
+      "repos_url": "https://api.github.com/users/baconbrad/repos",
+      "events_url": "https://api.github.com/users/baconbrad/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/baconbrad/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-22T18:06:04Z",
+    "updated_at": "2016-02-22T18:06:04Z",
+    "body": "Awesome. :+1: \n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/232176108",
+    "html_url": "https://github.com/electron/electron/issues/6458#issuecomment-232176108",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6458",
+    "id": 232176108,
+    "user": {
+      "login": "IlyaBiryukov",
+      "id": 15989459,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/15989459?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/IlyaBiryukov",
+      "html_url": "https://github.com/IlyaBiryukov",
+      "followers_url": "https://api.github.com/users/IlyaBiryukov/followers",
+      "following_url": "https://api.github.com/users/IlyaBiryukov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/IlyaBiryukov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/IlyaBiryukov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/IlyaBiryukov/subscriptions",
+      "organizations_url": "https://api.github.com/users/IlyaBiryukov/orgs",
+      "repos_url": "https://api.github.com/users/IlyaBiryukov/repos",
+      "events_url": "https://api.github.com/users/IlyaBiryukov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/IlyaBiryukov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-12T20:48:11Z",
+    "updated_at": "2016-07-12T20:48:11Z",
+    "body": "The offending code is located in vendor/brightray/vendor/gyp/pylib/gyp/generator/ninja.py (2274):\n\n``` Python\n    master_ninja.rule(\n      'merge_infoplist',\n      description='MERGE INFOPLISTS $in',\n      command='$env ./gyp-mac-tool merge-info-plist $out $in')\n    master_ninja.rule(\n      'compile_xcassets',\n      description='COMPILE XCASSETS $in',\n      command='$env ./gyp-mac-tool compile-xcassets $keys $in')\n    master_ninja.rule(\n      'compile_ios_framework_headers',\n      description='COMPILE HEADER MAPS AND COPY FRAMEWORK HEADERS $in',\n      command='$env ./gyp-mac-tool compile-ios-framework-header-map $out '\n              '$framework $in && $env ./gyp-mac-tool '\n              'copy-ios-framework-headers $framework $copy_headers')\n    master_ninja.rule(\n      'merge_infoplist',\n      description='MERGE INFOPLISTS $in',\n      command='$env ./gyp-mac-tool merge-info-plist $out $in')\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/232192235",
+    "html_url": "https://github.com/electron/electron/issues/6458#issuecomment-232192235",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6458",
+    "id": 232192235,
+    "user": {
+      "login": "IlyaBiryukov",
+      "id": 15989459,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/15989459?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/IlyaBiryukov",
+      "html_url": "https://github.com/IlyaBiryukov",
+      "followers_url": "https://api.github.com/users/IlyaBiryukov/followers",
+      "following_url": "https://api.github.com/users/IlyaBiryukov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/IlyaBiryukov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/IlyaBiryukov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/IlyaBiryukov/subscriptions",
+      "organizations_url": "https://api.github.com/users/IlyaBiryukov/orgs",
+      "repos_url": "https://api.github.com/users/IlyaBiryukov/repos",
+      "events_url": "https://api.github.com/users/IlyaBiryukov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/IlyaBiryukov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-12T21:48:31Z",
+    "updated_at": "2016-07-12T21:48:31Z",
+    "body": "It turned out to be a bad merge on our side. Not a real issue in electron.\n"
+  }
+]

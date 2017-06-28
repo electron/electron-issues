@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/72349589",
+    "html_url": "https://github.com/electron/electron/pull/1077#issuecomment-72349589",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1077",
+    "id": 72349589,
+    "user": {
+      "login": "bwin",
+      "id": 1673361,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1673361?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bwin",
+      "html_url": "https://github.com/bwin",
+      "followers_url": "https://api.github.com/users/bwin/followers",
+      "following_url": "https://api.github.com/users/bwin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bwin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bwin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bwin/subscriptions",
+      "organizations_url": "https://api.github.com/users/bwin/orgs",
+      "repos_url": "https://api.github.com/users/bwin/repos",
+      "events_url": "https://api.github.com/users/bwin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bwin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-01T03:27:40Z",
+    "updated_at": "2015-02-01T03:27:40Z",
+    "body": "IMO it's actually a lot nicer to not have a separate protocol for it.\n"
+  }
+]

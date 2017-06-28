@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/298981297",
+    "html_url": "https://github.com/electron/electron/issues/9363#issuecomment-298981297",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9363",
+    "id": 298981297,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-03T17:34:58Z",
+    "updated_at": "2017-05-03T17:34:58Z",
+    "body": "Merging into #1043"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/299023800",
+    "html_url": "https://github.com/electron/electron/issues/9363#issuecomment-299023800",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9363",
+    "id": 299023800,
+    "user": {
+      "login": "oom-",
+      "id": 11071671,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11071671?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/oom-",
+      "html_url": "https://github.com/oom-",
+      "followers_url": "https://api.github.com/users/oom-/followers",
+      "following_url": "https://api.github.com/users/oom-/following{/other_user}",
+      "gists_url": "https://api.github.com/users/oom-/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/oom-/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/oom-/subscriptions",
+      "organizations_url": "https://api.github.com/users/oom-/orgs",
+      "repos_url": "https://api.github.com/users/oom-/repos",
+      "events_url": "https://api.github.com/users/oom-/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/oom-/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-03T20:20:56Z",
+    "updated_at": "2017-05-03T20:21:07Z",
+    "body": "Thank you @MarshallOfSound \r\n"
+  }
+]

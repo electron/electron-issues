@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/310861324",
+    "html_url": "https://github.com/electron/electron/issues/9836#issuecomment-310861324",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9836",
+    "id": 310861324,
+    "user": {
+      "login": "andres-lowrie",
+      "id": 6182700,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6182700?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/andres-lowrie",
+      "html_url": "https://github.com/andres-lowrie",
+      "followers_url": "https://api.github.com/users/andres-lowrie/followers",
+      "following_url": "https://api.github.com/users/andres-lowrie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/andres-lowrie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/andres-lowrie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/andres-lowrie/subscriptions",
+      "organizations_url": "https://api.github.com/users/andres-lowrie/orgs",
+      "repos_url": "https://api.github.com/users/andres-lowrie/repos",
+      "events_url": "https://api.github.com/users/andres-lowrie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/andres-lowrie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-24T19:36:49Z",
+    "updated_at": "2017-06-24T19:36:49Z",
+    "body": "I posted a similar issue over here: https://github.com/electron-userland/electron-prebuilt/issues/264\r\n\r\nDon't know if I should close that one and just track this one"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/310880054",
+    "html_url": "https://github.com/electron/electron/issues/9836#issuecomment-310880054",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9836",
+    "id": 310880054,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-25T03:34:48Z",
+    "updated_at": "2017-06-25T03:34:48Z",
+    "body": "@andres-lowrie It should be tracked on the `prebuilt` repo"
+  }
+]

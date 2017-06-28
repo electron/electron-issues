@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/251098251",
+    "html_url": "https://github.com/electron/electron/issues/7443#issuecomment-251098251",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7443",
+    "id": 251098251,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-03T12:53:53Z",
+    "updated_at": "2016-10-03T12:53:53Z",
+    "body": "You can just call `win.hide()`.\nhttp://electron.atom.io/docs/api/browser-window/#winhide\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/251543328",
+    "html_url": "https://github.com/electron/electron/issues/7443#issuecomment-251543328",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7443",
+    "id": 251543328,
+    "user": {
+      "login": "bootstraponline",
+      "id": 1173057,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1173057?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bootstraponline",
+      "html_url": "https://github.com/bootstraponline",
+      "followers_url": "https://api.github.com/users/bootstraponline/followers",
+      "following_url": "https://api.github.com/users/bootstraponline/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bootstraponline/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bootstraponline/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bootstraponline/subscriptions",
+      "organizations_url": "https://api.github.com/users/bootstraponline/orgs",
+      "repos_url": "https://api.github.com/users/bootstraponline/repos",
+      "events_url": "https://api.github.com/users/bootstraponline/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bootstraponline/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-04T23:31:51Z",
+    "updated_at": "2016-10-04T23:31:51Z",
+    "body": "Thanks!\n"
+  }
+]

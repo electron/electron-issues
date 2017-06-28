@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/112266868",
+    "html_url": "https://github.com/electron/electron/issues/1971#issuecomment-112266868",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1971",
+    "id": 112266868,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-06-16T03:00:24Z",
+    "updated_at": "2015-06-16T03:00:24Z",
+    "body": "You can set `NODE_PATH` environment variable to override the default search paths.\n\nElectron apps are mostly used as GUI apps, so current directory usually doesn't affect module search paths.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/112278968",
+    "html_url": "https://github.com/electron/electron/issues/1971#issuecomment-112278968",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1971",
+    "id": 112278968,
+    "user": {
+      "login": "mattdesl",
+      "id": 1383811,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1383811?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mattdesl",
+      "html_url": "https://github.com/mattdesl",
+      "followers_url": "https://api.github.com/users/mattdesl/followers",
+      "following_url": "https://api.github.com/users/mattdesl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mattdesl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mattdesl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mattdesl/subscriptions",
+      "organizations_url": "https://api.github.com/users/mattdesl/orgs",
+      "repos_url": "https://api.github.com/users/mattdesl/repos",
+      "events_url": "https://api.github.com/users/mattdesl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mattdesl/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-16T04:09:21Z",
+    "updated_at": "2015-06-16T04:09:21Z",
+    "body": "Thanks !\n"
+  }
+]

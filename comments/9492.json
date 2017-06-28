@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/301768857",
+    "html_url": "https://github.com/electron/electron/issues/9492#issuecomment-301768857",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9492",
+    "id": 301768857,
+    "user": {
+      "login": "lal12",
+      "id": 14139770,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/14139770?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lal12",
+      "html_url": "https://github.com/lal12",
+      "followers_url": "https://api.github.com/users/lal12/followers",
+      "following_url": "https://api.github.com/users/lal12/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lal12/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lal12/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lal12/subscriptions",
+      "organizations_url": "https://api.github.com/users/lal12/orgs",
+      "repos_url": "https://api.github.com/users/lal12/repos",
+      "events_url": "https://api.github.com/users/lal12/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lal12/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-16T12:37:49Z",
+    "updated_at": "2017-05-16T12:39:48Z",
+    "body": "Seems to be an nullptr exception. Here is the ouput of valgrind before the segfault. It seems to occur in libnode.so not in electron it self, but of course the null ptr still could come from electron.\r\n\r\n==27167== Warning: set address range perms: large range [0x6e0ca625000, 0x6e0ea626000) (noaccess)\r\n==27167== Invalid read of size 8\r\n==27167==    at 0x6ED9AA7: ??? (in /home/user/project/electron/libnode.so)\r\n==27167==    by 0x6ED9EBC: v8::Context::SetAlignedPointerInEmbedderData(int, void*) (in /home/user/project/electron/libnode.so)\r\n==27167==    by 0x3E37E42: atom::AtomBrowserMainParts::PostEarlyInitialization() (in /home/user/project/electron/electron)\r\n==27167==    by 0x2D35FE6: ??? (in /home/user/project/electron/electron)\r\n==27167==    by 0x2D8DC0D: ??? (in /home/user/project/electron/electron)\r\n==27167==    by 0x2D2B1C7: ??? (in /home/user/project/electron/electron)\r\n==27167==    by 0x2A498FB: ??? (in /home/user/project/electron/electron)\r\n==27167==    by 0x2A49CEF: ??? (in /home/user/project/electron/electron)\r\n==27167==    by 0x3E30487: main (in /home/user/project/electron/electron)\r\n==27167==  Address 0x0 is not stack'd, malloc'd or (recently) free'd\r\n==27167== \r\n==27167== \r\n==27167== Process terminating with default action of signal 11 (SIGSEGV)\r\n==27167==  Access not within mapped region at address 0x0\r\n==27167==    at 0x6ED9AA7: ??? (in /home/user/project/electron/libnode.so)\r\n==27167==    by 0x6ED9EBC: v8::Context::SetAlignedPointerInEmbedderData(int, void*) (in /home/user/project/electron/libnode.so)\r\n==27167==    by 0x3E37E42: atom::AtomBrowserMainParts::PostEarlyInitialization() (in /home/user/project/electron/electron)\r\n==27167==    by 0x2D35FE6: ??? (in /home/user/project/electron/electron)\r\n==27167==    by 0x2D8DC0D: ??? (in /home/user/project/electron/electron)\r\n==27167==    by 0x2D2B1C7: ??? (in /home/user/project/electron/electron)\r\n==27167==    by 0x2A498FB: ??? (in /home/user/project/electron/electron)\r\n==27167==    by 0x2A49CEF: ??? (in /home/user/project/electron/electron)\r\n==27167==    by 0x3E30487: main (in /home/user/project/electron/electron)\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/301783170",
+    "html_url": "https://github.com/electron/electron/issues/9492#issuecomment-301783170",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9492",
+    "id": 301783170,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-16T13:33:02Z",
+    "updated_at": "2017-05-16T13:33:02Z",
+    "body": "Duplicate of #9434, support for these flags has been removed, the [`--inspect` flag](https://github.com/electron/electron/issues/9434) should be available in the next 1.7.x release."
+  }
+]

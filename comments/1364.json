@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/90043887",
+    "html_url": "https://github.com/electron/electron/issues/1364#issuecomment-90043887",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1364",
+    "id": 90043887,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-06T12:38:04Z",
+    "updated_at": "2015-04-06T12:51:15Z",
+    "body": "Server-side redirects dont get committed to navigation entry which is what `getUrl` depends on. But there are events that can be triggered during [redirects](https://github.com/atom/atom-shell/blob/e98953a5a563648a69b6cb8535d1f27febeec887/docs/api/web-view-tag.md#did-get-redirect-request)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/90045730",
+    "html_url": "https://github.com/electron/electron/issues/1364#issuecomment-90045730",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1364",
+    "id": 90045730,
+    "user": {
+      "login": "awsmsrc",
+      "id": 994907,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/994907?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/awsmsrc",
+      "html_url": "https://github.com/awsmsrc",
+      "followers_url": "https://api.github.com/users/awsmsrc/followers",
+      "following_url": "https://api.github.com/users/awsmsrc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/awsmsrc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/awsmsrc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/awsmsrc/subscriptions",
+      "organizations_url": "https://api.github.com/users/awsmsrc/orgs",
+      "repos_url": "https://api.github.com/users/awsmsrc/repos",
+      "events_url": "https://api.github.com/users/awsmsrc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/awsmsrc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-06T12:42:00Z",
+    "updated_at": "2015-04-06T12:42:00Z",
+    "body": "I'm not sure what the right way to do it is.\n\ni feel like there _should_ be some UI for current location?\nI'm implementing an oauth client and the access token is provided as a get parameter on redirect.\n\nI'm now relying on the did-get-redirect-request event which works.\n\nAs stated in the original comment this _may_ be a non issue\n"
+  }
+]

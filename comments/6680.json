@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/236753851",
+    "html_url": "https://github.com/electron/electron/issues/6680#issuecomment-236753851",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6680",
+    "id": 236753851,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-02T00:34:39Z",
+    "updated_at": "2016-08-02T00:34:39Z",
+    "body": "You can use the `new-window` event to create arbitrary window.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/236823680",
+    "html_url": "https://github.com/electron/electron/issues/6680#issuecomment-236823680",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6680",
+    "id": 236823680,
+    "user": {
+      "login": "cuixiping",
+      "id": 1104492,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1104492?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cuixiping",
+      "html_url": "https://github.com/cuixiping",
+      "followers_url": "https://api.github.com/users/cuixiping/followers",
+      "following_url": "https://api.github.com/users/cuixiping/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cuixiping/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cuixiping/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cuixiping/subscriptions",
+      "organizations_url": "https://api.github.com/users/cuixiping/orgs",
+      "repos_url": "https://api.github.com/users/cuixiping/repos",
+      "events_url": "https://api.github.com/users/cuixiping/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cuixiping/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-02T07:26:40Z",
+    "updated_at": "2016-12-23T03:48:02Z",
+    "body": "set the size option in `new-window` handler:\r\n\r\n```\r\nwin.webContents.on('new-window', function (evt, url, frameName, disposition, options, additionalFeatures) {\r\n        if(options.width == 800 && options.height == 600){ //default size is 800x600\r\n            let {width, height} = electron.screen.getPrimaryDisplay().workAreaSize;\r\n            options.width = width * 0.9 | 0;\r\n            options.height = height * 0.9 | 0;\r\n        }\r\n});\r\n```"
+  }
+]

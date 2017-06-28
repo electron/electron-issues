@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/260932952",
+    "html_url": "https://github.com/electron/electron/issues/7987#issuecomment-260932952",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7987",
+    "id": 260932952,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-16T12:20:16Z",
+    "updated_at": "2016-11-16T12:20:16Z",
+    "body": "There is no difference, the `BrowserWindow` just ends up calling those methods on the `WebContents`, as you can see here: https://github.com/electron/electron/blob/9624bc140353b3771bd07c55371f6db65fd1b67e/lib/browser/api/browser-window.js#L166\n\nIn general though I would suggest avoiding undocumented methods.\n"
+  }
+]

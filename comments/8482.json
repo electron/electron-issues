@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/274603927",
+    "html_url": "https://github.com/electron/electron/issues/8482#issuecomment-274603927",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8482",
+    "id": 274603927,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-01-23T20:15:50Z",
+    "updated_at": "2017-01-23T20:15:50Z",
+    "body": "Thanks, this is being tracked over at https://github.com/electron/electron.atom.io/issues/658, please subscribe to that issue for updates."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/274604282",
+    "html_url": "https://github.com/electron/electron/issues/8482#issuecomment-274604282",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8482",
+    "id": 274604282,
+    "user": {
+      "login": "dkfiresky",
+      "id": 2175645,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2175645?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dkfiresky",
+      "html_url": "https://github.com/dkfiresky",
+      "followers_url": "https://api.github.com/users/dkfiresky/followers",
+      "following_url": "https://api.github.com/users/dkfiresky/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dkfiresky/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dkfiresky/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dkfiresky/subscriptions",
+      "organizations_url": "https://api.github.com/users/dkfiresky/orgs",
+      "repos_url": "https://api.github.com/users/dkfiresky/repos",
+      "events_url": "https://api.github.com/users/dkfiresky/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dkfiresky/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-23T20:17:24Z",
+    "updated_at": "2017-01-23T20:17:24Z",
+    "body": "@kevinsawicki thanks 👍 "
+  }
+]

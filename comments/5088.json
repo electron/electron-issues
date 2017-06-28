@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/207414233",
+    "html_url": "https://github.com/electron/electron/issues/5088#issuecomment-207414233",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5088",
+    "id": 207414233,
+    "user": {
+      "login": "jean-emmanuel",
+      "id": 5261671,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5261671?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jean-emmanuel",
+      "html_url": "https://github.com/jean-emmanuel",
+      "followers_url": "https://api.github.com/users/jean-emmanuel/followers",
+      "following_url": "https://api.github.com/users/jean-emmanuel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jean-emmanuel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jean-emmanuel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jean-emmanuel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jean-emmanuel/orgs",
+      "repos_url": "https://api.github.com/users/jean-emmanuel/repos",
+      "events_url": "https://api.github.com/users/jean-emmanuel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jean-emmanuel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-08T12:35:43Z",
+    "updated_at": "2016-04-08T12:40:14Z",
+    "body": "Using regular chromium (v49), http://whatsmyuseragent.com fails to detect that javascript is enabled, http://www.enable-javascript.com/ detects it correctly though, no reason to worry I think.\n\nedit: the first one does work actually with chromium, I did not wait long enough. The latter detects javascript correctly with electron (0.37.5)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/207427931",
+    "html_url": "https://github.com/electron/electron/issues/5088#issuecomment-207427931",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5088",
+    "id": 207427931,
+    "user": {
+      "login": "elBarkey",
+      "id": 6080684,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6080684?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/elBarkey",
+      "html_url": "https://github.com/elBarkey",
+      "followers_url": "https://api.github.com/users/elBarkey/followers",
+      "following_url": "https://api.github.com/users/elBarkey/following{/other_user}",
+      "gists_url": "https://api.github.com/users/elBarkey/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/elBarkey/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/elBarkey/subscriptions",
+      "organizations_url": "https://api.github.com/users/elBarkey/orgs",
+      "repos_url": "https://api.github.com/users/elBarkey/repos",
+      "events_url": "https://api.github.com/users/elBarkey/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/elBarkey/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-08T13:16:58Z",
+    "updated_at": "2016-04-08T13:16:58Z",
+    "body": "i got it, thanks! :)\n"
+  }
+]

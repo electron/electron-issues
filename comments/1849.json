@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/108421084",
+    "html_url": "https://github.com/electron/electron/pull/1849#issuecomment-108421084",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1849",
+    "id": 108421084,
+    "user": {
+      "login": "aroben",
+      "id": 917945,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/917945?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aroben",
+      "html_url": "https://github.com/aroben",
+      "followers_url": "https://api.github.com/users/aroben/followers",
+      "following_url": "https://api.github.com/users/aroben/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aroben/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aroben/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aroben/subscriptions",
+      "organizations_url": "https://api.github.com/users/aroben/orgs",
+      "repos_url": "https://api.github.com/users/aroben/repos",
+      "events_url": "https://api.github.com/users/aroben/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aroben/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-03T13:43:21Z",
+    "updated_at": "2015-06-03T13:43:21Z",
+    "body": "Oh nice!\n"
+  }
+]

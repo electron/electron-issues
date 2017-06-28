@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/261998561",
+    "html_url": "https://github.com/electron/electron/issues/8025#issuecomment-261998561",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8025",
+    "id": 261998561,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-11-21T16:58:47Z",
+    "updated_at": "2016-11-21T16:58:47Z",
+    "body": "> Hello, is there any support for native popovers and tooltips ?\r\n\r\nThere isn't explicit support for native popovers and the tooltip support is limited to what Chrome enables via the `title` attribute on an HTML element.\r\n\r\nYou can create, position, and customize the look and feel and behavior of arbitrary windows so you can implement popovers in your app in a way that makes sense depending on which platforms you want to support.\r\n\r\nElectron does have modal window support as well, http://electron.atom.io/docs/all/#modal-windows"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/262026782",
+    "html_url": "https://github.com/electron/electron/issues/8025#issuecomment-262026782",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8025",
+    "id": 262026782,
+    "user": {
+      "login": "yopbeast",
+      "id": 22372334,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22372334?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yopbeast",
+      "html_url": "https://github.com/yopbeast",
+      "followers_url": "https://api.github.com/users/yopbeast/followers",
+      "following_url": "https://api.github.com/users/yopbeast/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yopbeast/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yopbeast/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yopbeast/subscriptions",
+      "organizations_url": "https://api.github.com/users/yopbeast/orgs",
+      "repos_url": "https://api.github.com/users/yopbeast/repos",
+      "events_url": "https://api.github.com/users/yopbeast/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yopbeast/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-21T18:36:44Z",
+    "updated_at": "2016-11-21T18:36:44Z",
+    "body": "@kevinsawicki this is actually a very cool solution, thanks!"
+  }
+]

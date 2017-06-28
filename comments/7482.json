@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/251413439",
+    "html_url": "https://github.com/electron/electron/issues/7482#issuecomment-251413439",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7482",
+    "id": 251413439,
+    "user": {
+      "login": "MTRNord",
+      "id": 1374914,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1374914?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MTRNord",
+      "html_url": "https://github.com/MTRNord",
+      "followers_url": "https://api.github.com/users/MTRNord/followers",
+      "following_url": "https://api.github.com/users/MTRNord/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MTRNord/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MTRNord/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MTRNord/subscriptions",
+      "organizations_url": "https://api.github.com/users/MTRNord/orgs",
+      "repos_url": "https://api.github.com/users/MTRNord/repos",
+      "events_url": "https://api.github.com/users/MTRNord/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MTRNord/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-04T14:57:53Z",
+    "updated_at": "2016-10-04T14:57:53Z",
+    "body": "Already open issue: https://github.com/electron/electron/issues/7237\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/251422834",
+    "html_url": "https://github.com/electron/electron/issues/7482#issuecomment-251422834",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7482",
+    "id": 251422834,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-04T15:28:39Z",
+    "updated_at": "2016-10-04T15:28:39Z",
+    "body": "Closing this as duplicate of #7237\n"
+  }
+]

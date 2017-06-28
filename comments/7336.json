@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/249352525",
+    "html_url": "https://github.com/electron/electron/issues/7336#issuecomment-249352525",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7336",
+    "id": 249352525,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-24T08:19:28Z",
+    "updated_at": "2016-09-24T08:19:28Z",
+    "body": "GitHub issues are for feature requests and bug reports, questions about using Electron should be directed to the [community](https://github.com/electron/electron#community).\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/249354723",
+    "html_url": "https://github.com/electron/electron/issues/7336#issuecomment-249354723",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7336",
+    "id": 249354723,
+    "user": {
+      "login": "ganxunzou",
+      "id": 5092728,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5092728?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ganxunzou",
+      "html_url": "https://github.com/ganxunzou",
+      "followers_url": "https://api.github.com/users/ganxunzou/followers",
+      "following_url": "https://api.github.com/users/ganxunzou/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ganxunzou/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ganxunzou/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ganxunzou/subscriptions",
+      "organizations_url": "https://api.github.com/users/ganxunzou/orgs",
+      "repos_url": "https://api.github.com/users/ganxunzou/repos",
+      "events_url": "https://api.github.com/users/ganxunzou/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ganxunzou/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-24T09:15:08Z",
+    "updated_at": "2016-09-24T09:15:08Z",
+    "body": "Oh Sorry ! Thank you for your help !\n"
+  }
+]

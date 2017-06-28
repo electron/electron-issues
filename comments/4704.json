@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/197291463",
+    "html_url": "https://github.com/electron/electron/issues/4704#issuecomment-197291463",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4704",
+    "id": 197291463,
+    "user": {
+      "login": "imfly",
+      "id": 12215508,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12215508?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/imfly",
+      "html_url": "https://github.com/imfly",
+      "followers_url": "https://api.github.com/users/imfly/followers",
+      "following_url": "https://api.github.com/users/imfly/following{/other_user}",
+      "gists_url": "https://api.github.com/users/imfly/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/imfly/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/imfly/subscriptions",
+      "organizations_url": "https://api.github.com/users/imfly/orgs",
+      "repos_url": "https://api.github.com/users/imfly/repos",
+      "events_url": "https://api.github.com/users/imfly/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/imfly/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-16T12:17:32Z",
+    "updated_at": "2016-03-16T12:17:32Z",
+    "body": "Update to electron v0.37.2\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/276136037",
+    "html_url": "https://github.com/electron/electron/issues/4704#issuecomment-276136037",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4704",
+    "id": 276136037,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-01-30T17:52:36Z",
+    "updated_at": "2017-01-30T17:52:36Z",
+    "body": "Merging this into #2524"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/302007071",
+    "html_url": "https://github.com/electron/electron/issues/9493#issuecomment-302007071",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9493",
+    "id": 302007071,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-17T07:18:42Z",
+    "updated_at": "2017-05-17T07:18:42Z",
+    "body": "```\r\n3   libnode.dylib                 \t0x0000000107786b0f v8::internal::Deserializer::DeserializePartial(v8::internal::Isolate*, v8::internal::Handle<v8::internal::JSGlobalProxy>) + 191 (deserializer.cc:118)\r\n4   libnode.dylib                 \t0x0000000107cc7516 v8::internal::Snapshot::NewContextFromSnapshot(v8::internal::Isolate*, v8::internal::Handle<v8::internal::JSGlobalProxy>, unsigned long) + 806 (snapshot-common.cc:68)\r\n```\r\n\r\nThe OOM crash happened when loading snapshot, I'm not sure if there is anything we can do on our side, we should report this to V8 team."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/302684146",
+    "html_url": "https://github.com/electron/electron/issues/9493#issuecomment-302684146",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9493",
+    "id": 302684146,
+    "user": {
+      "login": "as-cii",
+      "id": 482957,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/482957?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/as-cii",
+      "html_url": "https://github.com/as-cii",
+      "followers_url": "https://api.github.com/users/as-cii/followers",
+      "following_url": "https://api.github.com/users/as-cii/following{/other_user}",
+      "gists_url": "https://api.github.com/users/as-cii/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/as-cii/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/as-cii/subscriptions",
+      "organizations_url": "https://api.github.com/users/as-cii/orgs",
+      "repos_url": "https://api.github.com/users/as-cii/repos",
+      "events_url": "https://api.github.com/users/as-cii/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/as-cii/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-19T11:59:01Z",
+    "updated_at": "2017-05-19T11:59:01Z",
+    "body": "We think the cause of the problem was a big source map that was included inside the snapshot. Using a [more compact representation](https://github.com/atom/electron-link/commit/e40c54c08ac8fd83e8602d621aafd8016fa093ae) of the same data solved the issue for us.\r\n\r\nThanks for your help, @zcbenz! 🙏 Closing this for now."
+  }
+]

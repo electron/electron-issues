@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/300901757",
+    "html_url": "https://github.com/electron/electron/issues/9439#issuecomment-300901757",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9439",
+    "id": 300901757,
+    "user": {
+      "login": "mgc",
+      "id": 66737,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/66737?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mgc",
+      "html_url": "https://github.com/mgc",
+      "followers_url": "https://api.github.com/users/mgc/followers",
+      "following_url": "https://api.github.com/users/mgc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mgc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mgc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mgc/subscriptions",
+      "organizations_url": "https://api.github.com/users/mgc/orgs",
+      "repos_url": "https://api.github.com/users/mgc/repos",
+      "events_url": "https://api.github.com/users/mgc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mgc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-11T20:04:37Z",
+    "updated_at": "2017-05-11T20:04:37Z",
+    "body": "Per @kevinsawicki this must be an updater issue. `getPath` is called a line earlier, and exported in the same way as `setAppPath`. This means we somehow ended up with the 1.6.8 asar content talking to the 1.6.3 electron runtime, which is *extremely* confusing. "
+  }
+]

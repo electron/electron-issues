@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/216688709",
+    "html_url": "https://github.com/electron/electron/issues/5369#issuecomment-216688709",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5369",
+    "id": 216688709,
+    "user": {
+      "login": "lusbuab",
+      "id": 12849807,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12849807?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lusbuab",
+      "html_url": "https://github.com/lusbuab",
+      "followers_url": "https://api.github.com/users/lusbuab/followers",
+      "following_url": "https://api.github.com/users/lusbuab/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lusbuab/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lusbuab/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lusbuab/subscriptions",
+      "organizations_url": "https://api.github.com/users/lusbuab/orgs",
+      "repos_url": "https://api.github.com/users/lusbuab/repos",
+      "events_url": "https://api.github.com/users/lusbuab/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lusbuab/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-03T22:51:38Z",
+    "updated_at": "2016-05-03T22:51:38Z",
+    "body": "For OS X you can find information in Apple's official [developer library](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html#//apple_ref/doc/uid/TP40009249-101685-TPXREF107).\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/216689907",
+    "html_url": "https://github.com/electron/electron/issues/5369#issuecomment-216689907",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5369",
+    "id": 216689907,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-03T22:57:48Z",
+    "updated_at": "2016-05-03T22:57:57Z",
+    "body": "You can see how the Atom text editor does this with the following:\n\nMac OS X via the plist file: https://github.com/atom/atom/blob/d6d47c422c07b71421471720f7d96b52890feeb0/resources/mac/atom-Info.plist#L745-L761\n\nWindows via writing to the registry: https://github.com/atom/atom/blob/d6d47c422c07b71421471720f7d96b52890feeb0/src/browser/squirrel-update.coffee#L90-L92\n\nHope this helps.\n"
+  }
+]

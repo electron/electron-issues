@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/287523871",
+    "html_url": "https://github.com/electron/electron/issues/8868#issuecomment-287523871",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8868",
+    "id": 287523871,
+    "user": {
+      "login": "AlienHoboken",
+      "id": 2693828,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2693828?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AlienHoboken",
+      "html_url": "https://github.com/AlienHoboken",
+      "followers_url": "https://api.github.com/users/AlienHoboken/followers",
+      "following_url": "https://api.github.com/users/AlienHoboken/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AlienHoboken/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AlienHoboken/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AlienHoboken/subscriptions",
+      "organizations_url": "https://api.github.com/users/AlienHoboken/orgs",
+      "repos_url": "https://api.github.com/users/AlienHoboken/repos",
+      "events_url": "https://api.github.com/users/AlienHoboken/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AlienHoboken/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-18T08:00:51Z",
+    "updated_at": "2017-03-18T08:01:28Z",
+    "body": "To note, it is possible to know if a net.request redirection happens. Use session and webRequest hooks. To get information on request and interact with it.\r\n\r\nTake the following to perform some behavior on redirect.\r\n\r\n```javascript\r\nconst {net, session} = require('electron')\r\n\r\nvar netRequest = (url, onRedirect) => {\r\n    let sess = session.fromPartition(Date.now().toString())\r\n\r\n    sess.webRequest.onBeforeRedirect((details) => {\r\n        onRedirect(details)\r\n    })\r\n\r\n    let options = { url: url, session: sess }\r\n\r\n    net.request(options).end()\r\n}\r\n\r\nnetRequest(\"http://google.com\", details => console.log('1: ' + details.url) )\r\n```\r\n\r\nThis isn't great, it would litter your app with sessions, but it is functional. You can also use other hooks and additional logic to perform other tasks.\r\n\r\nThat being said, it'd be great to have first class support for this in `ClientRequest`"
+  }
+]

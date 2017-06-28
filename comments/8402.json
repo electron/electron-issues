@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/272438923",
+    "html_url": "https://github.com/electron/electron/pull/8402#issuecomment-272438923",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8402",
+    "id": 272438923,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-13T13:06:53Z",
+    "updated_at": "2017-01-13T13:06:53Z",
+    "body": "Dynamic initialization of function level static vaiables in non-thread safe code is against chromium style guide, prefer [base::LazyInstance<T>::Leaky](https://cs.chromium.org/chromium/src/base/lazy_instance.h?q=base::LazyInstance&sq=package:chromium&type=cs&l=82). Original chromium discussion https://groups.google.com/a/chromium.org/forum/#!msg/chromium-dev/p6h3HC8Wro4/o37LbEqEuoEJ .\r\n\r\nComing back to the leak referenced in this PR, it isn't actually a leak when the global variable is holding reference until the process is closed and doesn't grow, we leave the system to reclaim it."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/277540621",
+    "html_url": "https://github.com/electron/electron/pull/8402#issuecomment-277540621",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8402",
+    "id": 277540621,
+    "user": {
+      "login": "poiru",
+      "id": 1319028,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1319028?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/poiru",
+      "html_url": "https://github.com/poiru",
+      "followers_url": "https://api.github.com/users/poiru/followers",
+      "following_url": "https://api.github.com/users/poiru/following{/other_user}",
+      "gists_url": "https://api.github.com/users/poiru/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/poiru/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/poiru/subscriptions",
+      "organizations_url": "https://api.github.com/users/poiru/orgs",
+      "repos_url": "https://api.github.com/users/poiru/repos",
+      "events_url": "https://api.github.com/users/poiru/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/poiru/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-05T19:01:13Z",
+    "updated_at": "2017-02-05T19:01:13Z",
+    "body": "Seems like this is not necessary based on @deepak1556's comment. I'm going to go ahead and close this, but thank you for the patch anyway!"
+  }
+]

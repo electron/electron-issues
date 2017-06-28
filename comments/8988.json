@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/289106159",
+    "html_url": "https://github.com/electron/electron/pull/8988#issuecomment-289106159",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8988",
+    "id": 289106159,
+    "user": {
+      "login": "zeke",
+      "id": 2289,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2289?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zeke",
+      "html_url": "https://github.com/zeke",
+      "followers_url": "https://api.github.com/users/zeke/followers",
+      "following_url": "https://api.github.com/users/zeke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zeke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zeke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zeke/subscriptions",
+      "organizations_url": "https://api.github.com/users/zeke/orgs",
+      "repos_url": "https://api.github.com/users/zeke/repos",
+      "events_url": "https://api.github.com/users/zeke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zeke/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-03-24T18:23:36Z",
+    "updated_at": "2017-03-24T18:23:36Z",
+    "body": "Pushing this out so @juturu can do a followup PR with these V8 resources:\r\n\r\n> These help with debugging in gdb --\r\n> https://github.com/v8/v8/wiki/GDB-JIT-Interface\r\n> https://cs.chromium.org/chromium/src/v8/src/isolate.h?l=701\r\n> https://cs.chromium.org/chromium/src/v8/tools/gdbinit\r\n> \r\n> This has some info on tracing --\r\n> https://github.com/v8/v8/wiki/Tracing-V8\r\n> chrome://tracing can let you capture trace of Blink + V8. Click on\r\n> Record -> Edit categories -> check all V8 options.\r\n> \r\n> For info on profiling --\r\n> https://github.com/v8/v8/wiki/V8-Profiler\r\n> I personally use a combination of --prof, --trace-ic, --trace-opt,\r\n> --trace-deopt, --print-bytecode, --print-opt-code to profile.\r\n> \r\n> For docs on V8 internals --\r\n> Interpreter --https://docs.google.com/document/d/11T2CRex9hXxoJwbYqVQ32yIPMh0uouUZLdyrtmMoL44/edit?ts=56f27d9d#heading=h.6jz9dj3bnr8t\r\n> \r\n> Optimizing compiler --\r\n> https://github.com/v8/v8/wiki/TurboFan\r\n> \r\n> Thanks @gsathya for providing the links on v8!"
+  }
+]

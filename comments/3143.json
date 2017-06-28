@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/149306053",
+    "html_url": "https://github.com/electron/electron/issues/3143#issuecomment-149306053",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3143",
+    "id": 149306053,
+    "user": {
+      "login": "nathansobo",
+      "id": 1789,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1789?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nathansobo",
+      "html_url": "https://github.com/nathansobo",
+      "followers_url": "https://api.github.com/users/nathansobo/followers",
+      "following_url": "https://api.github.com/users/nathansobo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathansobo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nathansobo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathansobo/subscriptions",
+      "organizations_url": "https://api.github.com/users/nathansobo/orgs",
+      "repos_url": "https://api.github.com/users/nathansobo/repos",
+      "events_url": "https://api.github.com/users/nathansobo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nathansobo/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-19T18:30:59Z",
+    "updated_at": "2015-10-19T18:30:59Z",
+    "body": "No, this isn't intentional. We've disabled pinch to zoom on the latest beta release, and we should disable this as well. Thanks for the report.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/149323175",
+    "html_url": "https://github.com/electron/electron/issues/3143#issuecomment-149323175",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3143",
+    "id": 149323175,
+    "user": {
+      "login": "nathansobo",
+      "id": 1789,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1789?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nathansobo",
+      "html_url": "https://github.com/nathansobo",
+      "followers_url": "https://api.github.com/users/nathansobo/followers",
+      "following_url": "https://api.github.com/users/nathansobo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathansobo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nathansobo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathansobo/subscriptions",
+      "organizations_url": "https://api.github.com/users/nathansobo/orgs",
+      "repos_url": "https://api.github.com/users/nathansobo/repos",
+      "events_url": "https://api.github.com/users/nathansobo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nathansobo/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-19T19:40:26Z",
+    "updated_at": "2015-10-19T19:40:26Z",
+    "body": "This issue was moved to atom/atom#9216\n"
+  }
+]

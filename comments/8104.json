@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/285216173",
+    "html_url": "https://github.com/electron/electron/issues/8104#issuecomment-285216173",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8104",
+    "id": 285216173,
+    "user": {
+      "login": "danielkalen",
+      "id": 10832620,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10832620?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/danielkalen",
+      "html_url": "https://github.com/danielkalen",
+      "followers_url": "https://api.github.com/users/danielkalen/followers",
+      "following_url": "https://api.github.com/users/danielkalen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danielkalen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danielkalen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danielkalen/subscriptions",
+      "organizations_url": "https://api.github.com/users/danielkalen/orgs",
+      "repos_url": "https://api.github.com/users/danielkalen/repos",
+      "events_url": "https://api.github.com/users/danielkalen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danielkalen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-09T00:33:15Z",
+    "updated_at": "2017-03-09T00:40:05Z",
+    "body": "Able to reproduce this on MacOS 10.12.3 (without Xvfb ofcourse).\r\n\r\n**Update:** \r\nYou can ignore the above, turns out the [library](https://github.com/mixu/electroshot) I was trying to debug had set 'enable-larger-than-screen: true' instead of 'enableLargerThanScreen: true'..."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/305144469",
+    "html_url": "https://github.com/electron/electron/issues/8104#issuecomment-305144469",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8104",
+    "id": 305144469,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-31T10:00:22Z",
+    "updated_at": "2017-05-31T10:00:22Z",
+    "body": "For Linux the initial size of window is only a hint passed to window manager, and some window managers may decide to not create a window that can be larger than screen initially. I'm afraid this is not something we can fix on Electron's side, and I'm closing this as won't fix."
+  }
+]

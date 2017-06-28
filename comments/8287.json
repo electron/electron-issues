@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/272813550",
+    "html_url": "https://github.com/electron/electron/issues/8287#issuecomment-272813550",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8287",
+    "id": 272813550,
+    "user": {
+      "login": "liusy182",
+      "id": 3293332,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3293332?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/liusy182",
+      "html_url": "https://github.com/liusy182",
+      "followers_url": "https://api.github.com/users/liusy182/followers",
+      "following_url": "https://api.github.com/users/liusy182/following{/other_user}",
+      "gists_url": "https://api.github.com/users/liusy182/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/liusy182/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/liusy182/subscriptions",
+      "organizations_url": "https://api.github.com/users/liusy182/orgs",
+      "repos_url": "https://api.github.com/users/liusy182/repos",
+      "events_url": "https://api.github.com/users/liusy182/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/liusy182/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-16T09:36:58Z",
+    "updated_at": "2017-01-16T09:36:58Z",
+    "body": "Interestingly if we delay setting `alwaysOnTop` things will work.\r\n\r\n```\r\n    var win = new BrowserWindow({\r\n      width: 800, \r\n      height: 600,\r\n      frame: false,\r\n      transparent: true,\r\n      minimizable: false,\r\n      maximizable: false,\r\n      focusable: false\r\n    });\r\n\r\n    setTimeout( () => win.setAlwaysOnTop(true), 1000);\r\n\r\n```\r\n"
+  }
+]

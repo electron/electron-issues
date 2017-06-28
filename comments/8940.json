@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308400808",
+    "html_url": "https://github.com/electron/electron/issues/8940#issuecomment-308400808",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8940",
+    "id": 308400808,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-14T11:15:55Z",
+    "updated_at": "2017-06-14T11:15:55Z",
+    "body": "It is impossible to know whether and where the web page is on filesystem in renderer process, even when we know the protocol handler serves files, so it is impossible to correctly set the module search path.\r\n\r\nThis is a limitation of Chromium's networking stack, and we are unable to work around it in Electron. So I'm closing this as won't fix.\r\n\r\nA popular solution to this problem is to set module search paths in `preload` scripts."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/174040656",
+    "html_url": "https://github.com/electron/electron/issues/4196#issuecomment-174040656",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4196",
+    "id": 174040656,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-22T20:41:23Z",
+    "updated_at": "2016-01-22T20:41:23Z",
+    "body": "According to the log you have installed `gyp` locally:\n\n```\nC:\\Python27\\lib\\site-packages\\gyp-0.1-py2.7.egg\\\n```\n\nYou need to remove it otherwise it is going to override the one used in Electron.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/174096465",
+    "html_url": "https://github.com/electron/electron/issues/4196#issuecomment-174096465",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4196",
+    "id": 174096465,
+    "user": {
+      "login": "wangzhen263",
+      "id": 1235674,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1235674?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wangzhen263",
+      "html_url": "https://github.com/wangzhen263",
+      "followers_url": "https://api.github.com/users/wangzhen263/followers",
+      "following_url": "https://api.github.com/users/wangzhen263/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wangzhen263/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wangzhen263/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wangzhen263/subscriptions",
+      "organizations_url": "https://api.github.com/users/wangzhen263/orgs",
+      "repos_url": "https://api.github.com/users/wangzhen263/repos",
+      "events_url": "https://api.github.com/users/wangzhen263/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wangzhen263/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-23T00:21:52Z",
+    "updated_at": "2016-01-23T00:21:52Z",
+    "body": "Thanks @zcbenz. Works for me.\n"
+  }
+]

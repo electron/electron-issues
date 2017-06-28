@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309547632",
+    "html_url": "https://github.com/electron/electron/issues/9777#issuecomment-309547632",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9777",
+    "id": 309547632,
+    "user": {
+      "login": "cifratila",
+      "id": 282777,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/282777?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cifratila",
+      "html_url": "https://github.com/cifratila",
+      "followers_url": "https://api.github.com/users/cifratila/followers",
+      "following_url": "https://api.github.com/users/cifratila/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cifratila/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cifratila/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cifratila/subscriptions",
+      "organizations_url": "https://api.github.com/users/cifratila/orgs",
+      "repos_url": "https://api.github.com/users/cifratila/repos",
+      "events_url": "https://api.github.com/users/cifratila/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cifratila/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-19T19:39:03Z",
+    "updated_at": "2017-06-19T19:39:03Z",
+    "body": "@Hazlank what is the encoding used on the video? could you share the stream, or at least give us more info related to the codecs being used? Chrome has different codecs that Chromium, Electron uses FFMPEG with Chromium codecs."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309618962",
+    "html_url": "https://github.com/electron/electron/issues/9777#issuecomment-309618962",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9777",
+    "id": 309618962,
+    "user": {
+      "login": "Hazlank",
+      "id": 15724316,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/15724316?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Hazlank",
+      "html_url": "https://github.com/Hazlank",
+      "followers_url": "https://api.github.com/users/Hazlank/followers",
+      "following_url": "https://api.github.com/users/Hazlank/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Hazlank/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Hazlank/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Hazlank/subscriptions",
+      "organizations_url": "https://api.github.com/users/Hazlank/orgs",
+      "repos_url": "https://api.github.com/users/Hazlank/repos",
+      "events_url": "https://api.github.com/users/Hazlank/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Hazlank/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-20T01:33:04Z",
+    "updated_at": "2017-06-20T01:33:04Z",
+    "body": "@cifratila thanks for reply,but I don't know  how to know the video encode,I just use webrtc api ,electron can use the vedio stream to show the image,but when i open new one ,the new window will throw the error,I submit a issue on webtrc org and somebody said cameras can only be used by a single process，I don't know how to solve it,like the chrome can run two pages."
+  }
+]

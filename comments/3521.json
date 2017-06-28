@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/158250797",
+    "html_url": "https://github.com/electron/electron/issues/3521#issuecomment-158250797",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3521",
+    "id": 158250797,
+    "user": {
+      "login": "davepeck",
+      "id": 53165,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/53165?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/davepeck",
+      "html_url": "https://github.com/davepeck",
+      "followers_url": "https://api.github.com/users/davepeck/followers",
+      "following_url": "https://api.github.com/users/davepeck/following{/other_user}",
+      "gists_url": "https://api.github.com/users/davepeck/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/davepeck/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/davepeck/subscriptions",
+      "organizations_url": "https://api.github.com/users/davepeck/orgs",
+      "repos_url": "https://api.github.com/users/davepeck/repos",
+      "events_url": "https://api.github.com/users/davepeck/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/davepeck/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-20T01:23:45Z",
+    "updated_at": "2015-11-20T01:23:45Z",
+    "body": "Ah, I just noticed #3507 -- looks like I can just close this. Thanks.\n"
+  }
+]

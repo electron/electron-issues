@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/214150172",
+    "html_url": "https://github.com/electron/electron/issues/5281#issuecomment-214150172",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5281",
+    "id": 214150172,
+    "user": {
+      "login": "tenzan",
+      "id": 227346,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/227346?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tenzan",
+      "html_url": "https://github.com/tenzan",
+      "followers_url": "https://api.github.com/users/tenzan/followers",
+      "following_url": "https://api.github.com/users/tenzan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tenzan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tenzan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tenzan/subscriptions",
+      "organizations_url": "https://api.github.com/users/tenzan/orgs",
+      "repos_url": "https://api.github.com/users/tenzan/repos",
+      "events_url": "https://api.github.com/users/tenzan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tenzan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-25T06:04:10Z",
+    "updated_at": "2016-04-25T06:05:23Z",
+    "body": "Ref.: http://macappstore.org/electron/\n\n`brew install Caskroom/cask/electron`\n"
+  }
+]

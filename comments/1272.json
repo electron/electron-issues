@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/84745822",
+    "html_url": "https://github.com/electron/electron/issues/1272#issuecomment-84745822",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1272",
+    "id": 84745822,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-03-23T01:34:53Z",
+    "updated_at": "2015-03-23T01:34:53Z",
+    "body": "The problem is atom-shell allows running code on early stage of application to make it possible to hijack Chromium's internal settings, and it is not possible to initialize some APIs at that time. For `screen` module, returning a constructor would be quite weird because there is only one `screen` instance, lazy-initializing when methods are called is another option, but it would make things much more complicated. \n\nAfter https://github.com/atom/atom-shell/issues/387#issuecomment-82073846 we will not use `require` to use APIs, but some APIs would still require initialization after the `ready` event of `app`. It doesn't actually solve the problem, but I hope it can make code more clear.\n"
+  }
+]

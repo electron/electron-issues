@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/171613695",
+    "html_url": "https://github.com/electron/electron/issues/4085#issuecomment-171613695",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4085",
+    "id": 171613695,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-14T11:03:41Z",
+    "updated_at": "2016-01-14T11:03:41Z",
+    "body": "On Linux if you want to make an GUI app run on startup, you have to follow your desktop environment's specification, such as [Desktop Application Autostart Specification](https://developer.gnome.org/autostart-spec/).\n\nIf you use other ways like pm2 to do that, there would be no guarantee that the app would start after the desktop environment gets ready, which results in the problem you saw.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/171803317",
+    "html_url": "https://github.com/electron/electron/issues/4085#issuecomment-171803317",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4085",
+    "id": 171803317,
+    "user": {
+      "login": "MPolymath",
+      "id": 6394443,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6394443?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MPolymath",
+      "html_url": "https://github.com/MPolymath",
+      "followers_url": "https://api.github.com/users/MPolymath/followers",
+      "following_url": "https://api.github.com/users/MPolymath/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MPolymath/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MPolymath/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MPolymath/subscriptions",
+      "organizations_url": "https://api.github.com/users/MPolymath/orgs",
+      "repos_url": "https://api.github.com/users/MPolymath/repos",
+      "events_url": "https://api.github.com/users/MPolymath/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MPolymath/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-14T22:33:54Z",
+    "updated_at": "2016-01-14T22:33:54Z",
+    "body": "Thank you for your prompt reply, a true life saver.\n"
+  }
+]

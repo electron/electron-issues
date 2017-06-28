@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/50023000",
+    "html_url": "https://github.com/electron/electron/pull/503#issuecomment-50023000",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/503",
+    "id": 50023000,
+    "user": {
+      "login": "st-andrew",
+      "id": 8158705,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/8158705?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/st-andrew",
+      "html_url": "https://github.com/st-andrew",
+      "followers_url": "https://api.github.com/users/st-andrew/followers",
+      "following_url": "https://api.github.com/users/st-andrew/following{/other_user}",
+      "gists_url": "https://api.github.com/users/st-andrew/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/st-andrew/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/st-andrew/subscriptions",
+      "organizations_url": "https://api.github.com/users/st-andrew/orgs",
+      "repos_url": "https://api.github.com/users/st-andrew/repos",
+      "events_url": "https://api.github.com/users/st-andrew/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/st-andrew/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-24T14:12:05Z",
+    "updated_at": "2014-07-24T14:12:05Z",
+    "body": ":thumbsup: \n"
+  }
+]

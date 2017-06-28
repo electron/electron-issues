@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/165669759",
+    "html_url": "https://github.com/electron/electron/issues/3857#issuecomment-165669759",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3857",
+    "id": 165669759,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-18T04:17:02Z",
+    "updated_at": "2015-12-18T04:17:02Z",
+    "body": "We are using the same codecs with the Chrome browser, the build flags of ffmpeg can be found at:\nhttps://code.google.com/p/chromium/codesearch#chromium/src/third_party/ffmpeg/chromium/config/Chrome/win/x64/config.h&sq=package:chromium\n\nIt is possible to build with more codecs by modifying the build flags, but you need to hack into Chromium's source code yourself.\n\nMore information can be found at https://www.chromium.org/audio-video.\n"
+  }
+]

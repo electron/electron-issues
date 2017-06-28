@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/222356344",
+    "html_url": "https://github.com/electron/electron/issues/5754#issuecomment-222356344",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5754",
+    "id": 222356344,
+    "user": {
+      "login": "cedx",
+      "id": 1643950,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1643950?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cedx",
+      "html_url": "https://github.com/cedx",
+      "followers_url": "https://api.github.com/users/cedx/followers",
+      "following_url": "https://api.github.com/users/cedx/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cedx/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cedx/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cedx/subscriptions",
+      "organizations_url": "https://api.github.com/users/cedx/orgs",
+      "repos_url": "https://api.github.com/users/cedx/repos",
+      "events_url": "https://api.github.com/users/cedx/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cedx/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-29T11:44:30Z",
+    "updated_at": "2016-05-29T11:44:30Z",
+    "body": "Same problem here with a personal app. Electron 1.2.0 and Windows 10.\nUsed the same actions to reproduce the bug: minimizing the window, waiting, showing the window, hiding it (repeat)... and after an undetermined amout of time or trials, the icon is reset to the Electron one.\n"
+  }
+]

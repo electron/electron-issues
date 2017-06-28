@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/68558701",
+    "html_url": "https://github.com/electron/electron/issues/967#issuecomment-68558701",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/967",
+    "id": 68558701,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-01-02T20:20:42Z",
+    "updated_at": "2015-01-02T20:20:42Z",
+    "body": "There is no way to directly control the DOM of another window, you have to make use of `ipc` module to send messages to achieve that.\n\nIt works like this:\n1. The \"control\" window sends a \"draw xxx\" message to browser process\n2. The browser process redirects the \"draw xxx\" message to the \"canvas\" window\n3. The \"canvas\" window does the drawing when received \"draw xxx\" message\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/68565922",
+    "html_url": "https://github.com/electron/electron/issues/967#issuecomment-68565922",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/967",
+    "id": 68565922,
+    "user": {
+      "login": "saschagehlich",
+      "id": 119684,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/119684?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/saschagehlich",
+      "html_url": "https://github.com/saschagehlich",
+      "followers_url": "https://api.github.com/users/saschagehlich/followers",
+      "following_url": "https://api.github.com/users/saschagehlich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/saschagehlich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/saschagehlich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/saschagehlich/subscriptions",
+      "organizations_url": "https://api.github.com/users/saschagehlich/orgs",
+      "repos_url": "https://api.github.com/users/saschagehlich/repos",
+      "events_url": "https://api.github.com/users/saschagehlich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/saschagehlich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-02T21:52:49Z",
+    "updated_at": "2015-01-02T21:52:49Z",
+    "body": "Thank you!\n"
+  }
+]

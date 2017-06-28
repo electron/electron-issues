@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/310429835",
+    "html_url": "https://github.com/electron/electron/issues/9555#issuecomment-310429835",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9555",
+    "id": 310429835,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-22T16:18:27Z",
+    "updated_at": "2017-06-22T16:18:27Z",
+    "body": "You can use [session.webRequest.onErrorOccurred](https://github.com/electron/electron/blob/master/docs/api/web-request.md#webrequestonerroroccurredfilter-listener) to detect resource load failures."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/310528525",
+    "html_url": "https://github.com/electron/electron/issues/9555#issuecomment-310528525",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9555",
+    "id": 310528525,
+    "user": {
+      "login": "lynaghk",
+      "id": 147919,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/147919?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lynaghk",
+      "html_url": "https://github.com/lynaghk",
+      "followers_url": "https://api.github.com/users/lynaghk/followers",
+      "following_url": "https://api.github.com/users/lynaghk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lynaghk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lynaghk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lynaghk/subscriptions",
+      "organizations_url": "https://api.github.com/users/lynaghk/orgs",
+      "repos_url": "https://api.github.com/users/lynaghk/repos",
+      "events_url": "https://api.github.com/users/lynaghk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lynaghk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-22T23:18:35Z",
+    "updated_at": "2017-06-22T23:18:35Z",
+    "body": "@deepak1556 Confirmed, this works well for my use case. Thanks for the tip, and for your work on Electron!"
+  }
+]

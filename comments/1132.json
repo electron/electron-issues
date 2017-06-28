@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/74192243",
+    "html_url": "https://github.com/electron/electron/issues/1132#issuecomment-74192243",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1132",
+    "id": 74192243,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-13T02:00:00Z",
+    "updated_at": "2015-02-13T02:00:00Z",
+    "body": "https://github.com/atom/atom-shell/blob/master/docs/api/web-view-tag.md#webviewopendevtools\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/74192343",
+    "html_url": "https://github.com/electron/electron/issues/1132#issuecomment-74192343",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1132",
+    "id": 74192343,
+    "user": {
+      "login": "5paceManSpiff",
+      "id": 1596161,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1596161?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/5paceManSpiff",
+      "html_url": "https://github.com/5paceManSpiff",
+      "followers_url": "https://api.github.com/users/5paceManSpiff/followers",
+      "following_url": "https://api.github.com/users/5paceManSpiff/following{/other_user}",
+      "gists_url": "https://api.github.com/users/5paceManSpiff/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/5paceManSpiff/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/5paceManSpiff/subscriptions",
+      "organizations_url": "https://api.github.com/users/5paceManSpiff/orgs",
+      "repos_url": "https://api.github.com/users/5paceManSpiff/repos",
+      "events_url": "https://api.github.com/users/5paceManSpiff/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/5paceManSpiff/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-13T02:01:17Z",
+    "updated_at": "2015-02-13T02:01:17Z",
+    "body": "Thanks man, sorry about that.\n"
+  }
+]

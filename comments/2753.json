@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/139136218",
+    "html_url": "https://github.com/electron/electron/issues/2753#issuecomment-139136218",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2753",
+    "id": 139136218,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-10T07:17:18Z",
+    "updated_at": "2015-09-10T07:17:18Z",
+    "body": "Oops, I'll work out a fix and publish a new release.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/139166071",
+    "html_url": "https://github.com/electron/electron/issues/2753#issuecomment-139166071",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2753",
+    "id": 139166071,
+    "user": {
+      "login": "mrohnstock",
+      "id": 823072,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/823072?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mrohnstock",
+      "html_url": "https://github.com/mrohnstock",
+      "followers_url": "https://api.github.com/users/mrohnstock/followers",
+      "following_url": "https://api.github.com/users/mrohnstock/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mrohnstock/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mrohnstock/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mrohnstock/subscriptions",
+      "organizations_url": "https://api.github.com/users/mrohnstock/orgs",
+      "repos_url": "https://api.github.com/users/mrohnstock/repos",
+      "events_url": "https://api.github.com/users/mrohnstock/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mrohnstock/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-10T08:28:43Z",
+    "updated_at": "2015-09-10T08:28:43Z",
+    "body": "thanks @zcbenz :)\n"
+  }
+]

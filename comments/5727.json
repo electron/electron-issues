@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/222037776",
+    "html_url": "https://github.com/electron/electron/issues/5727#issuecomment-222037776",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5727",
+    "id": 222037776,
+    "user": {
+      "login": "LukePulverenti",
+      "id": 3607463,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3607463?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/LukePulverenti",
+      "html_url": "https://github.com/LukePulverenti",
+      "followers_url": "https://api.github.com/users/LukePulverenti/followers",
+      "following_url": "https://api.github.com/users/LukePulverenti/following{/other_user}",
+      "gists_url": "https://api.github.com/users/LukePulverenti/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/LukePulverenti/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/LukePulverenti/subscriptions",
+      "organizations_url": "https://api.github.com/users/LukePulverenti/orgs",
+      "repos_url": "https://api.github.com/users/LukePulverenti/repos",
+      "events_url": "https://api.github.com/users/LukePulverenti/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/LukePulverenti/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-27T01:21:29Z",
+    "updated_at": "2016-05-27T01:21:29Z",
+    "body": "Confirmed here as well.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/222227780",
+    "html_url": "https://github.com/electron/electron/issues/5727#issuecomment-222227780",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5727",
+    "id": 222227780,
+    "user": {
+      "login": "djpereira",
+      "id": 15444756,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/15444756?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/djpereira",
+      "html_url": "https://github.com/djpereira",
+      "followers_url": "https://api.github.com/users/djpereira/followers",
+      "following_url": "https://api.github.com/users/djpereira/following{/other_user}",
+      "gists_url": "https://api.github.com/users/djpereira/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/djpereira/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/djpereira/subscriptions",
+      "organizations_url": "https://api.github.com/users/djpereira/orgs",
+      "repos_url": "https://api.github.com/users/djpereira/repos",
+      "events_url": "https://api.github.com/users/djpereira/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/djpereira/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-27T19:00:46Z",
+    "updated_at": "2016-05-27T19:00:46Z",
+    "body": "Same here. The problem happens with OSX also. I am using the webview.preload.\n"
+  }
+]

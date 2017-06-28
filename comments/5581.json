@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/220186117",
+    "html_url": "https://github.com/electron/electron/issues/5581#issuecomment-220186117",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5581",
+    "id": 220186117,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-18T23:17:41Z",
+    "updated_at": "2016-05-18T23:17:41Z",
+    "body": "You can try creating icon from absolute path, using relative path would make the actual icon depend on current working directory.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/220203799",
+    "html_url": "https://github.com/electron/electron/issues/5581#issuecomment-220203799",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5581",
+    "id": 220203799,
+    "user": {
+      "login": "hon",
+      "id": 659199,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/659199?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hon",
+      "html_url": "https://github.com/hon",
+      "followers_url": "https://api.github.com/users/hon/followers",
+      "following_url": "https://api.github.com/users/hon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hon/subscriptions",
+      "organizations_url": "https://api.github.com/users/hon/orgs",
+      "repos_url": "https://api.github.com/users/hon/repos",
+      "events_url": "https://api.github.com/users/hon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-19T01:22:56Z",
+    "updated_at": "2016-05-19T01:22:56Z",
+    "body": "I tried to set the path to a file server, but dose not work either.\n"
+  }
+]

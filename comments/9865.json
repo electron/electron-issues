@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/311280243",
+    "html_url": "https://github.com/electron/electron/issues/9865#issuecomment-311280243",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9865",
+    "id": 311280243,
+    "user": {
+      "login": "alespergl",
+      "id": 19880051,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/19880051?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alespergl",
+      "html_url": "https://github.com/alespergl",
+      "followers_url": "https://api.github.com/users/alespergl/followers",
+      "following_url": "https://api.github.com/users/alespergl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alespergl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alespergl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alespergl/subscriptions",
+      "organizations_url": "https://api.github.com/users/alespergl/orgs",
+      "repos_url": "https://api.github.com/users/alespergl/repos",
+      "events_url": "https://api.github.com/users/alespergl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alespergl/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-27T07:46:26Z",
+    "updated_at": "2017-06-27T07:47:59Z",
+    "body": "873a315 changed only how Release is built. Not sure why these symbols are not being found in Debug.\r\nPossibly it's caused by the mix-up that happened in the libcc build - fixed by https://github.com/electron/libchromiumcontent/pull/315"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/311395071",
+    "html_url": "https://github.com/electron/electron/issues/9865#issuecomment-311395071",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9865",
+    "id": 311395071,
+    "user": {
+      "login": "poiru",
+      "id": 1319028,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1319028?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/poiru",
+      "html_url": "https://github.com/poiru",
+      "followers_url": "https://api.github.com/users/poiru/followers",
+      "following_url": "https://api.github.com/users/poiru/following{/other_user}",
+      "gists_url": "https://api.github.com/users/poiru/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/poiru/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/poiru/subscriptions",
+      "organizations_url": "https://api.github.com/users/poiru/orgs",
+      "repos_url": "https://api.github.com/users/poiru/repos",
+      "events_url": "https://api.github.com/users/poiru/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/poiru/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-27T15:29:38Z",
+    "updated_at": "2017-06-27T15:29:38Z",
+    "body": "Fix confirmed. Thank you!"
+  }
+]

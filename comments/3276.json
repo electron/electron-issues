@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/152695816",
+    "html_url": "https://github.com/electron/electron/issues/3276#issuecomment-152695816",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3276",
+    "id": 152695816,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-31T04:51:23Z",
+    "updated_at": "2015-10-31T04:51:23Z",
+    "body": "Hmm I am unable to reproduce with 32bit binary on my machine, can you try building Electron locally and then use Visual Studio or Windbg to debug it?\n\nAlso does it crash with 64bit binary? And does v0.33.9 crash for you?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/153326166",
+    "html_url": "https://github.com/electron/electron/issues/3276#issuecomment-153326166",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3276",
+    "id": 153326166,
+    "user": {
+      "login": "kamesh-a",
+      "id": 3531949,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3531949?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kamesh-a",
+      "html_url": "https://github.com/kamesh-a",
+      "followers_url": "https://api.github.com/users/kamesh-a/followers",
+      "following_url": "https://api.github.com/users/kamesh-a/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kamesh-a/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kamesh-a/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kamesh-a/subscriptions",
+      "organizations_url": "https://api.github.com/users/kamesh-a/orgs",
+      "repos_url": "https://api.github.com/users/kamesh-a/repos",
+      "events_url": "https://api.github.com/users/kamesh-a/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kamesh-a/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-03T11:34:56Z",
+    "updated_at": "2015-11-03T11:34:56Z",
+    "body": "sure @zcbenz , I am working on it to set windbg\n"
+  }
+]

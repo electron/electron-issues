@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223955174",
+    "html_url": "https://github.com/electron/electron/issues/5891#issuecomment-223955174",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5891",
+    "id": 223955174,
+    "user": {
+      "login": "danhp",
+      "id": 3745612,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3745612?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/danhp",
+      "html_url": "https://github.com/danhp",
+      "followers_url": "https://api.github.com/users/danhp/followers",
+      "following_url": "https://api.github.com/users/danhp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danhp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danhp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danhp/subscriptions",
+      "organizations_url": "https://api.github.com/users/danhp/orgs",
+      "repos_url": "https://api.github.com/users/danhp/repos",
+      "events_url": "https://api.github.com/users/danhp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danhp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-06T13:15:26Z",
+    "updated_at": "2016-06-06T13:15:26Z",
+    "body": "This is by design, `app.quit()` will request that all windows be closed before exiting the app. You should call [`app.exit(exitCode)`](https://github.com/electron/electron/blob/master/docs/api/app.md#appexitexitcode) when using unclosable windows.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223960796",
+    "html_url": "https://github.com/electron/electron/issues/5891#issuecomment-223960796",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5891",
+    "id": 223960796,
+    "user": {
+      "login": "karacas",
+      "id": 1050937,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1050937?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karacas",
+      "html_url": "https://github.com/karacas",
+      "followers_url": "https://api.github.com/users/karacas/followers",
+      "following_url": "https://api.github.com/users/karacas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/karacas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/karacas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/karacas/subscriptions",
+      "organizations_url": "https://api.github.com/users/karacas/orgs",
+      "repos_url": "https://api.github.com/users/karacas/repos",
+      "events_url": "https://api.github.com/users/karacas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/karacas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-06T13:37:12Z",
+    "updated_at": "2016-06-06T13:37:12Z",
+    "body": "Tnxs\n"
+  }
+]

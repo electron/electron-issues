@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250961166",
+    "html_url": "https://github.com/electron/electron/issues/7446#issuecomment-250961166",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7446",
+    "id": 250961166,
+    "user": {
+      "login": "diego-vasarelli",
+      "id": 1956608,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1956608?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/diego-vasarelli",
+      "html_url": "https://github.com/diego-vasarelli",
+      "followers_url": "https://api.github.com/users/diego-vasarelli/followers",
+      "following_url": "https://api.github.com/users/diego-vasarelli/following{/other_user}",
+      "gists_url": "https://api.github.com/users/diego-vasarelli/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/diego-vasarelli/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/diego-vasarelli/subscriptions",
+      "organizations_url": "https://api.github.com/users/diego-vasarelli/orgs",
+      "repos_url": "https://api.github.com/users/diego-vasarelli/repos",
+      "events_url": "https://api.github.com/users/diego-vasarelli/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/diego-vasarelli/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-02T08:56:55Z",
+    "updated_at": "2016-10-02T08:56:55Z",
+    "body": "Solved changing sendSync with simple send.\nMaybe main app was waiting for a response from setting window\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250961667",
+    "html_url": "https://github.com/electron/electron/issues/7446#issuecomment-250961667",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7446",
+    "id": 250961667,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-02T09:10:23Z",
+    "updated_at": "2016-10-02T09:10:23Z",
+    "body": "@diego-vasarelli As per the documentation of `sendSync`\n\nhttp://electron.atom.io/docs/api/ipc-renderer/#ipcrenderersendsyncchannel-arg1-arg2-\n\n>  Sending a synchronous message will block the whole renderer process, unless you know what you are doing you should never use it.\n\nYou need to set `event.returnValue` in the main process, but you should never really use `sendSync`, it's quite dangerous\n"
+  }
+]

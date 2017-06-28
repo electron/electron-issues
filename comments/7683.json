@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/255258558",
+    "html_url": "https://github.com/electron/electron/issues/7683#issuecomment-255258558",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7683",
+    "id": 255258558,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-20T23:48:55Z",
+    "updated_at": "2016-10-20T23:48:55Z",
+    "body": "Electron apps aren't distributed via NPM, but let's forget that for a second... Do you think users that use your module as a CLI tool or as a dependency are going to be happy to download and install an extra 100MB+ of Electron binaries/resources they have no intention of using?\n\nThe right way to do this is to create a distinct project for your Electron app, and add your module as a dependency of your app.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/255275779",
+    "html_url": "https://github.com/electron/electron/issues/7683#issuecomment-255275779",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7683",
+    "id": 255275779,
+    "user": {
+      "login": "codingfishman",
+      "id": 5292705,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5292705?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/codingfishman",
+      "html_url": "https://github.com/codingfishman",
+      "followers_url": "https://api.github.com/users/codingfishman/followers",
+      "following_url": "https://api.github.com/users/codingfishman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codingfishman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codingfishman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codingfishman/subscriptions",
+      "organizations_url": "https://api.github.com/users/codingfishman/orgs",
+      "repos_url": "https://api.github.com/users/codingfishman/repos",
+      "events_url": "https://api.github.com/users/codingfishman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codingfishman/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-21T02:05:13Z",
+    "updated_at": "2016-10-21T02:05:13Z",
+    "body": "Thanks for pointing it out, I didn't realize the electron App project will also include many resources, that way, a seperate project is a better choice.\n"
+  }
+]

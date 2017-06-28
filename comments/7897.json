@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/258948338",
+    "html_url": "https://github.com/electron/electron/pull/7897#issuecomment-258948338",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7897",
+    "id": 258948338,
+    "user": {
+      "login": "lee-dohm",
+      "id": 1038121,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1038121?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lee-dohm",
+      "html_url": "https://github.com/lee-dohm",
+      "followers_url": "https://api.github.com/users/lee-dohm/followers",
+      "following_url": "https://api.github.com/users/lee-dohm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lee-dohm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lee-dohm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lee-dohm/subscriptions",
+      "organizations_url": "https://api.github.com/users/lee-dohm/orgs",
+      "repos_url": "https://api.github.com/users/lee-dohm/repos",
+      "events_url": "https://api.github.com/users/lee-dohm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lee-dohm/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-11-07T20:10:45Z",
+    "updated_at": "2016-11-07T20:10:45Z",
+    "body": "/cc @bluemazzoo @mlinksva for 👍 / 👎 \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/258950072",
+    "html_url": "https://github.com/electron/electron/pull/7897#issuecomment-258950072",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7897",
+    "id": 258950072,
+    "user": {
+      "login": "bluemazzoo",
+      "id": 8147409,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8147409?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bluemazzoo",
+      "html_url": "https://github.com/bluemazzoo",
+      "followers_url": "https://api.github.com/users/bluemazzoo/followers",
+      "following_url": "https://api.github.com/users/bluemazzoo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bluemazzoo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bluemazzoo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bluemazzoo/subscriptions",
+      "organizations_url": "https://api.github.com/users/bluemazzoo/orgs",
+      "repos_url": "https://api.github.com/users/bluemazzoo/repos",
+      "events_url": "https://api.github.com/users/bluemazzoo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bluemazzoo/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-11-07T20:17:29Z",
+    "updated_at": "2016-11-07T20:17:29Z",
+    "body": "👍  LGTM, thanks @lee-dohm!\n"
+  }
+]

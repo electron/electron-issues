@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/48845528",
+    "html_url": "https://github.com/electron/electron/issues/482#issuecomment-48845528",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/482",
+    "id": 48845528,
+    "user": {
+      "login": "Sendoushi",
+      "id": 3297394,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3297394?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Sendoushi",
+      "html_url": "https://github.com/Sendoushi",
+      "followers_url": "https://api.github.com/users/Sendoushi/followers",
+      "following_url": "https://api.github.com/users/Sendoushi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Sendoushi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Sendoushi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Sendoushi/subscriptions",
+      "organizations_url": "https://api.github.com/users/Sendoushi/orgs",
+      "repos_url": "https://api.github.com/users/Sendoushi/repos",
+      "events_url": "https://api.github.com/users/Sendoushi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Sendoushi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-13T16:42:33Z",
+    "updated_at": "2014-07-13T16:42:33Z",
+    "body": "It seems that this was because I didn't have \"mainWindow\" outside on('ready') function.\nThat should be fixed I think. It's weird to have the variable outside.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49262720",
+    "html_url": "https://github.com/electron/electron/issues/482#issuecomment-49262720",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/482",
+    "id": 49262720,
+    "user": {
+      "login": "ghost",
+      "id": 10137,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10137?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghost",
+      "html_url": "https://github.com/ghost",
+      "followers_url": "https://api.github.com/users/ghost/followers",
+      "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghost/orgs",
+      "repos_url": "https://api.github.com/users/ghost/repos",
+      "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghost/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-17T06:23:11Z",
+    "updated_at": "2014-07-17T06:23:11Z",
+    "body": "You need the variable outside to prevent it to be garbage collected after `ready` returns. \n\nI use the following code to make it a bit cleaner.\n\n```\n(function(env) {\n    var Application = require('app');\n    var BrowserWindow = require('browser-window');\n\n    // ...\n\n    Application.on(\"ready\", function() {\n        env.mainWindow = new BrowserWindow({ width: 0, height: 0 });\n        env.mainWindow.loadUrl(\"file://\" + __dirname + \"/index.html\");\n    });\n})(this);\n```\n"
+  }
+]

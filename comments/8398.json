@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/272322134",
+    "html_url": "https://github.com/electron/electron/issues/8398#issuecomment-272322134",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8398",
+    "id": 272322134,
+    "user": {
+      "login": "fedyfausto",
+      "id": 3913712,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3913712?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fedyfausto",
+      "html_url": "https://github.com/fedyfausto",
+      "followers_url": "https://api.github.com/users/fedyfausto/followers",
+      "following_url": "https://api.github.com/users/fedyfausto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fedyfausto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fedyfausto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fedyfausto/subscriptions",
+      "organizations_url": "https://api.github.com/users/fedyfausto/orgs",
+      "repos_url": "https://api.github.com/users/fedyfausto/repos",
+      "events_url": "https://api.github.com/users/fedyfausto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fedyfausto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-12T23:57:56Z",
+    "updated_at": "2017-01-12T23:57:56Z",
+    "body": "possible fix:\r\n\r\nusing the hashprefix on router works"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/272331658",
+    "html_url": "https://github.com/electron/electron/issues/8398#issuecomment-272331658",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8398",
+    "id": 272331658,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-13T00:59:20Z",
+    "updated_at": "2017-01-13T00:59:20Z",
+    "body": "GitHub issues are for bug reports and feature requests, questions about using Electron should be directed to [the community](https://github.com/electron/electron#community)."
+  }
+]

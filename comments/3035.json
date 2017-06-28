@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/146737264",
+    "html_url": "https://github.com/electron/electron/issues/3035#issuecomment-146737264",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3035",
+    "id": 146737264,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-09T02:10:07Z",
+    "updated_at": "2015-10-09T02:10:07Z",
+    "body": "> /usr/bin/ld: unrecognised emulation mode: armelf_linux_eabi\n> Supported emulations: elf_x86_64 elf32_x86_64 elf_i386 i386linux elf_l1om elf_k1om i386pep i386pe\n> clang: error: linker command failed with exit code 1 (use -v to see invocation)\n\nFrom the error message you didn't install a cross compiler on your machine, you can follow [the guide](http://electron.atom.io/docs/v0.33.0/development/build-instructions-linux/#cross-compilation) to install the necessary dependencies. \n"
+  }
+]

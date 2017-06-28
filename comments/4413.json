@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/181505269",
+    "html_url": "https://github.com/electron/electron/pull/4413#issuecomment-181505269",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4413",
+    "id": 181505269,
+    "user": {
+      "login": "jlord",
+      "id": 1305617,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1305617?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jlord",
+      "html_url": "https://github.com/jlord",
+      "followers_url": "https://api.github.com/users/jlord/followers",
+      "following_url": "https://api.github.com/users/jlord/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jlord/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jlord/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jlord/subscriptions",
+      "organizations_url": "https://api.github.com/users/jlord/orgs",
+      "repos_url": "https://api.github.com/users/jlord/repos",
+      "events_url": "https://api.github.com/users/jlord/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jlord/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-08T18:09:46Z",
+    "updated_at": "2016-02-08T18:10:09Z",
+    "body": "Hi @hintjens! \n\nI'm not able to reproduce this on `v0.36.7` (i.e. `index.js` is defaulted to as noted) and don't believe this behavior would have been changed so it looks like there is something else causing this error for you. \n\nIf you're still getting the error please open an issue and we can get to the root of it there. Thanks! :sparkles: \n"
+  }
+]

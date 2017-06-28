@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/64166544",
+    "html_url": "https://github.com/electron/electron/issues/859#issuecomment-64166544",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/859",
+    "id": 64166544,
+    "user": {
+      "login": "rprichard",
+      "id": 1572855,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1572855?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rprichard",
+      "html_url": "https://github.com/rprichard",
+      "followers_url": "https://api.github.com/users/rprichard/followers",
+      "following_url": "https://api.github.com/users/rprichard/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rprichard/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rprichard/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rprichard/subscriptions",
+      "organizations_url": "https://api.github.com/users/rprichard/orgs",
+      "repos_url": "https://api.github.com/users/rprichard/repos",
+      "events_url": "https://api.github.com/users/rprichard/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rprichard/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-24T09:02:43Z",
+    "updated_at": "2014-11-24T09:02:43Z",
+    "body": "Another idea: if there were some way to close the menu (which `BrowserWindow.setMenu` would use), that could also work.  (At least, it would work for the app I'm working on, and it'd fix the crash.)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217369598",
+    "html_url": "https://github.com/electron/electron/issues/859#issuecomment-217369598",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/859",
+    "id": 217369598,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-06T07:25:19Z",
+    "updated_at": "2016-05-06T07:25:19Z",
+    "body": "Can no longer reproduce in 0.37.x.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/154476806",
+    "html_url": "https://github.com/electron/electron/issues/3358#issuecomment-154476806",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3358",
+    "id": 154476806,
+    "user": {
+      "login": "sindresorhus",
+      "id": 170270,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/170270?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sindresorhus",
+      "html_url": "https://github.com/sindresorhus",
+      "followers_url": "https://api.github.com/users/sindresorhus/followers",
+      "following_url": "https://api.github.com/users/sindresorhus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sindresorhus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sindresorhus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sindresorhus/subscriptions",
+      "organizations_url": "https://api.github.com/users/sindresorhus/orgs",
+      "repos_url": "https://api.github.com/users/sindresorhus/repos",
+      "events_url": "https://api.github.com/users/sindresorhus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sindresorhus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-06T17:17:54Z",
+    "updated_at": "2015-11-06T17:17:54Z",
+    "body": "``` js\nif ('electron' in process.versions) {\n  console.log('running in Electron');\n}\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/154477096",
+    "html_url": "https://github.com/electron/electron/issues/3358#issuecomment-154477096",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3358",
+    "id": 154477096,
+    "user": {
+      "login": "AndrewEastwood",
+      "id": 1483306,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1483306?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AndrewEastwood",
+      "html_url": "https://github.com/AndrewEastwood",
+      "followers_url": "https://api.github.com/users/AndrewEastwood/followers",
+      "following_url": "https://api.github.com/users/AndrewEastwood/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AndrewEastwood/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AndrewEastwood/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AndrewEastwood/subscriptions",
+      "organizations_url": "https://api.github.com/users/AndrewEastwood/orgs",
+      "repos_url": "https://api.github.com/users/AndrewEastwood/repos",
+      "events_url": "https://api.github.com/users/AndrewEastwood/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AndrewEastwood/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-06T17:19:09Z",
+    "updated_at": "2015-11-06T17:19:09Z",
+    "body": "Thanks!\n"
+  }
+]

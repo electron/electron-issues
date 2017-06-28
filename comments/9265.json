@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/296467843",
+    "html_url": "https://github.com/electron/electron/issues/9265#issuecomment-296467843",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9265",
+    "id": 296467843,
+    "user": {
+      "login": "RationalCoding",
+      "id": 14932492,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14932492?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RationalCoding",
+      "html_url": "https://github.com/RationalCoding",
+      "followers_url": "https://api.github.com/users/RationalCoding/followers",
+      "following_url": "https://api.github.com/users/RationalCoding/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RationalCoding/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RationalCoding/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RationalCoding/subscriptions",
+      "organizations_url": "https://api.github.com/users/RationalCoding/orgs",
+      "repos_url": "https://api.github.com/users/RationalCoding/repos",
+      "events_url": "https://api.github.com/users/RationalCoding/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RationalCoding/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-23T17:56:23Z",
+    "updated_at": "2017-04-23T17:56:23Z",
+    "body": "Not your issue, VSCode's packager is corrupting the electron install."
+  }
+]

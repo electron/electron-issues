@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/304421825",
+    "html_url": "https://github.com/electron/electron/issues/9325#issuecomment-304421825",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9325",
+    "id": 304421825,
+    "user": {
+      "login": "hxkuc",
+      "id": 17510186,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/17510186?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hxkuc",
+      "html_url": "https://github.com/hxkuc",
+      "followers_url": "https://api.github.com/users/hxkuc/followers",
+      "following_url": "https://api.github.com/users/hxkuc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hxkuc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hxkuc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hxkuc/subscriptions",
+      "organizations_url": "https://api.github.com/users/hxkuc/orgs",
+      "repos_url": "https://api.github.com/users/hxkuc/repos",
+      "events_url": "https://api.github.com/users/hxkuc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hxkuc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-27T02:44:20Z",
+    "updated_at": "2017-05-27T03:05:41Z",
+    "body": "const modalPath = path.join('file://', __dirname, '../../sections/windows/modal.html')\r\n  const nowwindow = BrowserWindow.getFocusedWindow()\r\n  let win = new BrowserWindow({ width: 400, height: 320, parent: nowwindow,modal:true })\r\n  win.on('close', function () { win = null })\r\n  win.loadURL(modalPath)\r\n  //win.show()\r\n\r\nelectron 1.6---1.7\r\n\r\nsame "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309681769",
+    "html_url": "https://github.com/electron/electron/issues/9325#issuecomment-309681769",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9325",
+    "id": 309681769,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-20T08:26:31Z",
+    "updated_at": "2017-06-20T08:26:31Z",
+    "body": "Please report your OS version along with a minimal app to reproduce the problem. Closing until more information is provided."
+  }
+]

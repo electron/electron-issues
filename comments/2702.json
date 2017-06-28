@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/137533991",
+    "html_url": "https://github.com/electron/electron/issues/2702#issuecomment-137533991",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2702",
+    "id": 137533991,
+    "user": {
+      "login": "frankhale",
+      "id": 190154,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/190154?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frankhale",
+      "html_url": "https://github.com/frankhale",
+      "followers_url": "https://api.github.com/users/frankhale/followers",
+      "following_url": "https://api.github.com/users/frankhale/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frankhale/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frankhale/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frankhale/subscriptions",
+      "organizations_url": "https://api.github.com/users/frankhale/orgs",
+      "repos_url": "https://api.github.com/users/frankhale/repos",
+      "events_url": "https://api.github.com/users/frankhale/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frankhale/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-03T18:21:53Z",
+    "updated_at": "2015-09-03T18:21:53Z",
+    "body": "This is question is probably a moot point because it doesn't seem like you can override the referrer using protocol.interceptHttpProtocol for navigations inside an iframe. The interception works but the referrer doesn't get set. Perhaps the iframe sets the referrer back to being empty?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/138784043",
+    "html_url": "https://github.com/electron/electron/issues/2702#issuecomment-138784043",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2702",
+    "id": 138784043,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-09T04:58:56Z",
+    "updated_at": "2015-09-09T04:58:56Z",
+    "body": "You can set `session` to `null` to send the request in a new context to solve the infinite loop:\n\n``` js\ncallback({ 'url' : request.url, 'referrer' : 'https://myreferrergoeshere', 'session': null });\n```\n\nCurrently we don't have a better way to modify a request before #2115 is implemented.\n"
+  }
+]

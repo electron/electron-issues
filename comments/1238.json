@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/81507002",
+    "html_url": "https://github.com/electron/electron/pull/1238#issuecomment-81507002",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1238",
+    "id": 81507002,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-03-16T08:43:42Z",
+    "updated_at": "2015-03-16T08:43:42Z",
+    "body": "Using a `devToolsContents` property implies that users should always get the it via calling `browserWindow.devToolsContents` instead aliasing it to a new variable. This implication is necessary because the WebContents object of devtools will change when devtools is closed and reopened, we should probably take a better approach, but since no one is complaining I think current behavior is fine.\n"
+  }
+]

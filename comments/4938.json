@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/203022301",
+    "html_url": "https://github.com/electron/electron/issues/4938#issuecomment-203022301",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4938",
+    "id": 203022301,
+    "user": {
+      "login": "felixrieseberg",
+      "id": 1426799,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1426799?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felixrieseberg",
+      "html_url": "https://github.com/felixrieseberg",
+      "followers_url": "https://api.github.com/users/felixrieseberg/followers",
+      "following_url": "https://api.github.com/users/felixrieseberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felixrieseberg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felixrieseberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felixrieseberg/subscriptions",
+      "organizations_url": "https://api.github.com/users/felixrieseberg/orgs",
+      "repos_url": "https://api.github.com/users/felixrieseberg/repos",
+      "events_url": "https://api.github.com/users/felixrieseberg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felixrieseberg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-29T17:43:05Z",
+    "updated_at": "2016-03-29T17:43:05Z",
+    "body": "Good catch - the correct answer here is that environments with disabled node-integration shouldn't be able to open new windows that do have Node integration, meaning that `openExternal` should not be available in a hostile/non-friendly environment, together with all other Node APIs.\n\nI know that @kevinsawicki did some work around that, so if we have new windows locked down, we could close this issue.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/203714878",
+    "html_url": "https://github.com/electron/electron/issues/4938#issuecomment-203714878",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4938",
+    "id": 203714878,
+    "user": {
+      "login": "harupu",
+      "id": 7601382,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7601382?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/harupu",
+      "html_url": "https://github.com/harupu",
+      "followers_url": "https://api.github.com/users/harupu/followers",
+      "following_url": "https://api.github.com/users/harupu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/harupu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/harupu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/harupu/subscriptions",
+      "organizations_url": "https://api.github.com/users/harupu/orgs",
+      "repos_url": "https://api.github.com/users/harupu/repos",
+      "events_url": "https://api.github.com/users/harupu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/harupu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-31T01:57:26Z",
+    "updated_at": "2016-03-31T11:18:32Z",
+    "body": "Thank you for a new document. :)\nHowever, I found that I could open file scheme on chrome by using this url: \n`http://www.example.com/#\" \"file://c:/`\n\nIt seems that lack of escaping of openExternal cause this strange behavior:\nhttps://github.com/atom/electron/blob/master/atom/common/platform_util_win.cc#L308\nThis insufficient escaping should be addressed to pass valid url.\n"
+  }
+]

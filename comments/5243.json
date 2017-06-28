@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/213004860",
+    "html_url": "https://github.com/electron/electron/issues/5243#issuecomment-213004860",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5243",
+    "id": 213004860,
+    "user": {
+      "login": "Acenth",
+      "id": 2179413,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2179413?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Acenth",
+      "html_url": "https://github.com/Acenth",
+      "followers_url": "https://api.github.com/users/Acenth/followers",
+      "following_url": "https://api.github.com/users/Acenth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Acenth/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Acenth/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Acenth/subscriptions",
+      "organizations_url": "https://api.github.com/users/Acenth/orgs",
+      "repos_url": "https://api.github.com/users/Acenth/repos",
+      "events_url": "https://api.github.com/users/Acenth/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Acenth/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-21T16:38:35Z",
+    "updated_at": "2016-04-21T16:54:31Z",
+    "body": "This is actually the expected behavior for Windows and you'll see it with basically all UI apps on Windows that are running as administrator. For example, try running Paint as admin and drag and image from Explorer into the app - nothing happens. Dragging same image with non-elevated Paint works. The issue is that two apps in different containers can't interact. Cmd.exe might be a special case.\n\nIt is probably best to not elevate your UI process and instead have a worker process that does the elevated tasks.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/213180722",
+    "html_url": "https://github.com/electron/electron/issues/5243#issuecomment-213180722",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5243",
+    "id": 213180722,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-22T00:38:24Z",
+    "updated_at": "2016-04-22T00:38:24Z",
+    "body": "@Acenth Thanks for answering this! I'm closing now.\n"
+  }
+]

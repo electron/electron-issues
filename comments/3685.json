@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/161860748",
+    "html_url": "https://github.com/electron/electron/issues/3685#issuecomment-161860748",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3685",
+    "id": 161860748,
+    "user": {
+      "login": "TheColorRed",
+      "id": 1571806,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1571806?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TheColorRed",
+      "html_url": "https://github.com/TheColorRed",
+      "followers_url": "https://api.github.com/users/TheColorRed/followers",
+      "following_url": "https://api.github.com/users/TheColorRed/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TheColorRed/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TheColorRed/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TheColorRed/subscriptions",
+      "organizations_url": "https://api.github.com/users/TheColorRed/orgs",
+      "repos_url": "https://api.github.com/users/TheColorRed/repos",
+      "events_url": "https://api.github.com/users/TheColorRed/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TheColorRed/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-04T03:16:00Z",
+    "updated_at": "2015-12-04T03:16:00Z",
+    "body": "I figured it out, It was because I was using the 32 bit version.\n"
+  }
+]

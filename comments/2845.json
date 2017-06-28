@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/141903846",
+    "html_url": "https://github.com/electron/electron/issues/2845#issuecomment-141903846",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2845",
+    "id": 141903846,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-21T08:08:55Z",
+    "updated_at": "2015-09-21T08:08:55Z",
+    "body": "Thanks for pasting it here, we usually don't open every Chromium issue on Electron's side unless we want to fix them ourselves, otherwise our issues tracker would be filled with Chromium's ones :smile_cat:.\n\nFor this bug, we will do an update of Chrome once Chrome releases a new version with the fix.\n"
+  }
+]

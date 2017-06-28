@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/278181528",
+    "html_url": "https://github.com/electron/electron/issues/8593#issuecomment-278181528",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8593",
+    "id": 278181528,
+    "user": {
+      "login": "felixrieseberg",
+      "id": 1426799,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1426799?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felixrieseberg",
+      "html_url": "https://github.com/felixrieseberg",
+      "followers_url": "https://api.github.com/users/felixrieseberg/followers",
+      "following_url": "https://api.github.com/users/felixrieseberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felixrieseberg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felixrieseberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felixrieseberg/subscriptions",
+      "organizations_url": "https://api.github.com/users/felixrieseberg/orgs",
+      "repos_url": "https://api.github.com/users/felixrieseberg/repos",
+      "events_url": "https://api.github.com/users/felixrieseberg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felixrieseberg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-07T23:41:59Z",
+    "updated_at": "2017-02-07T23:41:59Z",
+    "body": "Hey, thanks for opening an issue! Sadly, in its current state, the issue is neither actionable nor helpful - please take a moment to review our [Contributing Guidelines](https://github.com/electron/electron/blob/master/CONTRIBUTING.md). If you have any questions about them, feel free to reach out ℹ️"
+  }
+]

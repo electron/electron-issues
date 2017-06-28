@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/24491153",
+    "html_url": "https://github.com/electron/electron/issues/50#issuecomment-24491153",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/50",
+    "id": 24491153,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-09-16T06:36:49Z",
+    "updated_at": "2013-09-16T06:36:49Z",
+    "body": "The related Chromium issue is: http://code.google.com/p/chromium/issues/detail?id=91003.\n\nIt was solved in Chrome by sending a replacement range when inserting texts, however the replacement range can not be received in web page because it's not defined in W3C standards.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/24648784",
+    "html_url": "https://github.com/electron/electron/issues/50#issuecomment-24648784",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/50",
+    "id": 24648784,
+    "user": {
+      "login": "izuzak",
+      "id": 38924,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/38924?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/izuzak",
+      "html_url": "https://github.com/izuzak",
+      "followers_url": "https://api.github.com/users/izuzak/followers",
+      "following_url": "https://api.github.com/users/izuzak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/izuzak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/izuzak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/izuzak/subscriptions",
+      "organizations_url": "https://api.github.com/users/izuzak/orgs",
+      "repos_url": "https://api.github.com/users/izuzak/repos",
+      "events_url": "https://api.github.com/users/izuzak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/izuzak/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-09-18T08:30:13Z",
+    "updated_at": "2013-09-18T08:30:13Z",
+    "body": "@zcbenz :sparkles: :heart: :sparkles: I'm sending you a pony! Thanks so much for tackling this! Can't wait for the next Atom release! :sparkles: :heart: :sparkles: \n"
+  }
+]

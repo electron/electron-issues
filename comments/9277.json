@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/303634234",
+    "html_url": "https://github.com/electron/electron/issues/9277#issuecomment-303634234",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9277",
+    "id": 303634234,
+    "user": {
+      "login": "rajatsingla28",
+      "id": 16318005,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16318005?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rajatsingla28",
+      "html_url": "https://github.com/rajatsingla28",
+      "followers_url": "https://api.github.com/users/rajatsingla28/followers",
+      "following_url": "https://api.github.com/users/rajatsingla28/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rajatsingla28/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rajatsingla28/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rajatsingla28/subscriptions",
+      "organizations_url": "https://api.github.com/users/rajatsingla28/orgs",
+      "repos_url": "https://api.github.com/users/rajatsingla28/repos",
+      "events_url": "https://api.github.com/users/rajatsingla28/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rajatsingla28/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-24T06:51:22Z",
+    "updated_at": "2017-05-24T06:51:22Z",
+    "body": "Hi @tejohnso. I am new towards contributing to open source projects. I want to help resolve this issue. Just wanted to confirm if the change needs to be made to ipc-main.md to remove the optional keyword for channel. Please correct me if i am wrong."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/303803328",
+    "html_url": "https://github.com/electron/electron/issues/9277#issuecomment-303803328",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9277",
+    "id": 303803328,
+    "user": {
+      "login": "tejohnso",
+      "id": 1511535,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1511535?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tejohnso",
+      "html_url": "https://github.com/tejohnso",
+      "followers_url": "https://api.github.com/users/tejohnso/followers",
+      "following_url": "https://api.github.com/users/tejohnso/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tejohnso/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tejohnso/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tejohnso/subscriptions",
+      "organizations_url": "https://api.github.com/users/tejohnso/orgs",
+      "repos_url": "https://api.github.com/users/tejohnso/repos",
+      "events_url": "https://api.github.com/users/tejohnso/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tejohnso/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-24T17:58:54Z",
+    "updated_at": "2017-05-24T17:58:54Z",
+    "body": "@rajatsingla28 I think that's correct, and you'd also want to change the description to \"Removes listeners of the specified channel\" so that it no longer suggests all listeners can be removed."
+  }
+]

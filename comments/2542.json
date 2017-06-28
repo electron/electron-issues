@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/135624203",
+    "html_url": "https://github.com/electron/electron/issues/2542#issuecomment-135624203",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2542",
+    "id": 135624203,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-08-28T03:38:14Z",
+    "updated_at": "2015-08-28T03:38:14Z",
+    "body": "Can you give an example that can show this problem? I tested with this:\n\n``` js\nvar sqlite3 = require('sqlite3').verbose();\nvar db = new sqlite3.Database(':memory:');\n\nconsole.time('sqlite3');\ndb.serialize(function() {\n  db.run(\"CREATE TABLE lorem (info TEXT)\");\n\n  var stmt = db.prepare(\"INSERT INTO lorem VALUES (?)\");\n  for (var i = 0; i < 10; i++) {\n      stmt.run(\"Ipsum \" + i);\n  }\n  stmt.finalize();\n\n  db.run(\"SELECT * FROM lorem\", function(err) {\n      console.log(err);\n  });\n});\n\ndb.close();\nconsole.timeEnd('sqlite3');\n```\n\nThe result is only 2~3ms.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/141077798",
+    "html_url": "https://github.com/electron/electron/issues/2542#issuecomment-141077798",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2542",
+    "id": 141077798,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-17T13:09:26Z",
+    "updated_at": "2015-09-17T13:09:26Z",
+    "body": "Closing until more information is provided.\n"
+  }
+]

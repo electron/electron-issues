@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/222326166",
+    "html_url": "https://github.com/electron/electron/issues/5748#issuecomment-222326166",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5748",
+    "id": 222326166,
+    "user": {
+      "login": "herrmannplatz",
+      "id": 174685,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/174685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/herrmannplatz",
+      "html_url": "https://github.com/herrmannplatz",
+      "followers_url": "https://api.github.com/users/herrmannplatz/followers",
+      "following_url": "https://api.github.com/users/herrmannplatz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/herrmannplatz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/herrmannplatz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/herrmannplatz/subscriptions",
+      "organizations_url": "https://api.github.com/users/herrmannplatz/orgs",
+      "repos_url": "https://api.github.com/users/herrmannplatz/repos",
+      "events_url": "https://api.github.com/users/herrmannplatz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/herrmannplatz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-28T19:41:45Z",
+    "updated_at": "2016-05-28T19:41:45Z",
+    "body": "Have you tried to add\n\n```\n    <key>com.apple.security.files.user-selected.read-write</key>\n    <true/>\n```\n\nto your entitlements (parent.plist)?\n\nCheck [Apple Documentation](https://developer.apple.com/library/mac/documentation/Miscellaneous/Reference/EntitlementKeyReference/Chapters/EnablingAppSandbox.html#//apple_ref/doc/uid/TP40011195-CH4-SW1) to see if your app needs more.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/222326350",
+    "html_url": "https://github.com/electron/electron/issues/5748#issuecomment-222326350",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5748",
+    "id": 222326350,
+    "user": {
+      "login": "Allendar",
+      "id": 5161272,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5161272?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Allendar",
+      "html_url": "https://github.com/Allendar",
+      "followers_url": "https://api.github.com/users/Allendar/followers",
+      "following_url": "https://api.github.com/users/Allendar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Allendar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Allendar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Allendar/subscriptions",
+      "organizations_url": "https://api.github.com/users/Allendar/orgs",
+      "repos_url": "https://api.github.com/users/Allendar/repos",
+      "events_url": "https://api.github.com/users/Allendar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Allendar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-28T19:45:33Z",
+    "updated_at": "2016-05-28T19:45:33Z",
+    "body": "That instantly worked! Thank you so much!! I was pooping my pants in fear that this would totally block me releasing my app lol!\n\nThank you thank you thank you! Loves <3\n"
+  }
+]

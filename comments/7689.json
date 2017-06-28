@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/255356223",
+    "html_url": "https://github.com/electron/electron/issues/7689#issuecomment-255356223",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7689",
+    "id": 255356223,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-21T11:17:38Z",
+    "updated_at": "2016-10-21T11:17:38Z",
+    "body": "`ERR_FILE_NOT_FOUND` probably means the path you're passing to the callback is invalid, the callback takes an absolute file system path, not a URL. So calling `callback('file:///path/to/index.html')` won't work, but `callback('C:\\\\path\\\\to\\\\index.html')` should work (assuming the file exists).\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/255371220",
+    "html_url": "https://github.com/electron/electron/issues/7689#issuecomment-255371220",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7689",
+    "id": 255371220,
+    "user": {
+      "login": "diroru",
+      "id": 710482,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/710482?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/diroru",
+      "html_url": "https://github.com/diroru",
+      "followers_url": "https://api.github.com/users/diroru/followers",
+      "following_url": "https://api.github.com/users/diroru/following{/other_user}",
+      "gists_url": "https://api.github.com/users/diroru/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/diroru/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/diroru/subscriptions",
+      "organizations_url": "https://api.github.com/users/diroru/orgs",
+      "repos_url": "https://api.github.com/users/diroru/repos",
+      "events_url": "https://api.github.com/users/diroru/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/diroru/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-21T13:02:39Z",
+    "updated_at": "2016-10-21T13:02:39Z",
+    "body": "Thank you very much! This seems to solve the problem!\n\nNow i have the issue of the variable `__dirname` behaving weirdly, but it is another topic and needs further investigation.\n"
+  }
+]

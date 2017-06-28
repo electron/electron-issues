@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/92188739",
+    "html_url": "https://github.com/electron/electron/pull/1383#issuecomment-92188739",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1383",
+    "id": 92188739,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-04-13T03:48:02Z",
+    "updated_at": "2015-04-13T03:48:02Z",
+    "body": "Thanks!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/92230572",
+    "html_url": "https://github.com/electron/electron/pull/1383#issuecomment-92230572",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1383",
+    "id": 92230572,
+    "user": {
+      "login": "jorangreef",
+      "id": 413206,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/413206?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorangreef",
+      "html_url": "https://github.com/jorangreef",
+      "followers_url": "https://api.github.com/users/jorangreef/followers",
+      "following_url": "https://api.github.com/users/jorangreef/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorangreef/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorangreef/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorangreef/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorangreef/orgs",
+      "repos_url": "https://api.github.com/users/jorangreef/repos",
+      "events_url": "https://api.github.com/users/jorangreef/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorangreef/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-13T06:26:27Z",
+    "updated_at": "2015-04-13T06:26:27Z",
+    "body": "Thanks!\n"
+  }
+]

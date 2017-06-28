@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/297140627",
+    "html_url": "https://github.com/electron/electron/issues/9284#issuecomment-297140627",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9284",
+    "id": 297140627,
+    "user": {
+      "login": "sbruchmann",
+      "id": 141435,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/141435?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sbruchmann",
+      "html_url": "https://github.com/sbruchmann",
+      "followers_url": "https://api.github.com/users/sbruchmann/followers",
+      "following_url": "https://api.github.com/users/sbruchmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sbruchmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sbruchmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sbruchmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sbruchmann/orgs",
+      "repos_url": "https://api.github.com/users/sbruchmann/repos",
+      "events_url": "https://api.github.com/users/sbruchmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sbruchmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-25T19:34:19Z",
+    "updated_at": "2017-04-25T19:34:19Z",
+    "body": "Have you tried `npm install electron --save --verbose`? I’m guessing it’s downloading the prebuilt electron binary on installation and not showing a progress bar."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/297147488",
+    "html_url": "https://github.com/electron/electron/issues/9284#issuecomment-297147488",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9284",
+    "id": 297147488,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-04-25T20:00:07Z",
+    "updated_at": "2017-04-25T20:00:07Z",
+    "body": "> Have you tried npm install electron --save --verbose? I’m guessing it’s downloading the prebuilt electron binary on installation and not showing a progress bar.\r\n\r\n@sbruchmann is right, the progress bar option should help diagnose this.\r\n\r\nThe `node install.js` script downloads ~50 MB and which can take some time depending on your network conditions.\r\n\r\nClosing this out."
+  }
+]

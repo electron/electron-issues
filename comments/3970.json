@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/168915519",
+    "html_url": "https://github.com/electron/electron/issues/3970#issuecomment-168915519",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3970",
+    "id": 168915519,
+    "user": {
+      "login": "wearhere",
+      "id": 110000,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/110000?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wearhere",
+      "html_url": "https://github.com/wearhere",
+      "followers_url": "https://api.github.com/users/wearhere/followers",
+      "following_url": "https://api.github.com/users/wearhere/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wearhere/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wearhere/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wearhere/subscriptions",
+      "organizations_url": "https://api.github.com/users/wearhere/orgs",
+      "repos_url": "https://api.github.com/users/wearhere/repos",
+      "events_url": "https://api.github.com/users/wearhere/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wearhere/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-05T06:28:49Z",
+    "updated_at": "2016-01-05T06:28:49Z",
+    "body": "For anyone facing this issue, I factored @paulcbetts' logic out into an NPM package: https://www.npmjs.com/package/electron-promote-windows-tray-items Now you can work around the issue like so:\n\n``` js\nvar promoteWindowsTrayItems = require('electron-promote-windows-tray-items');\n\n// Create a tray item.\nvar icon = new Tray(/* ... */);\n\nif (process.platform === 'win32') {\n  // Icon will now be in the toolbar customization area without the user explicitly toggling it to show in the toolbar.\n\n  promoteWindowsTrayItems(function(err) {\n    // Icon will now be in the toolbar itself unless the user explicitly hid it from the toolbar.\n  });\n}\n```\n\nNot having to explicitly show the icon is a nicer UX anyway I think!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/303251859",
+    "html_url": "https://github.com/electron/electron/issues/3970#issuecomment-303251859",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3970",
+    "id": 303251859,
+    "user": {
+      "login": "mattetti",
+      "id": 113,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/113?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mattetti",
+      "html_url": "https://github.com/mattetti",
+      "followers_url": "https://api.github.com/users/mattetti/followers",
+      "following_url": "https://api.github.com/users/mattetti/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mattetti/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mattetti/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mattetti/subscriptions",
+      "organizations_url": "https://api.github.com/users/mattetti/orgs",
+      "repos_url": "https://api.github.com/users/mattetti/repos",
+      "events_url": "https://api.github.com/users/mattetti/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mattetti/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-22T23:58:40Z",
+    "updated_at": "2017-05-22T23:58:40Z",
+    "body": "To summarize, the problem is that squirrel uses a wrapper binary pointing to a versioned binary. When the icon is dragged, windows links to the versioned binary instead of the wrapper (AKA trampoline binary). When an update is available, a new binary is changed and the link is deal. Squirrel for windows exposes a C# API to link the proper executable when an icon is dragged into the tray, but because the option isn't available via command line. Electron communicates with squirrel only using the command line and that's why the behavior is broken on all electron/squirrel apps out there (starting with Slack)."
+  }
+]

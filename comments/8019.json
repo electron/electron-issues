@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/261705577",
+    "html_url": "https://github.com/electron/electron/issues/8019#issuecomment-261705577",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8019",
+    "id": 261705577,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-19T10:20:11Z",
+    "updated_at": "2016-11-19T10:20:11Z",
+    "body": "Closing as duplicate of #7919\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/261706007",
+    "html_url": "https://github.com/electron/electron/issues/8019#issuecomment-261706007",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8019",
+    "id": 261706007,
+    "user": {
+      "login": "kaepora",
+      "id": 9953,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9953?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kaepora",
+      "html_url": "https://github.com/kaepora",
+      "followers_url": "https://api.github.com/users/kaepora/followers",
+      "following_url": "https://api.github.com/users/kaepora/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kaepora/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kaepora/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kaepora/subscriptions",
+      "organizations_url": "https://api.github.com/users/kaepora/orgs",
+      "repos_url": "https://api.github.com/users/kaepora/repos",
+      "events_url": "https://api.github.com/users/kaepora/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kaepora/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-19T10:29:54Z",
+    "updated_at": "2016-11-19T10:29:54Z",
+    "body": "@enlight Thanks, sorry for the duplicate filing.\n"
+  }
+]

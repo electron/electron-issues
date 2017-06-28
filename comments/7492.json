@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/254991561",
+    "html_url": "https://github.com/electron/electron/issues/7492#issuecomment-254991561",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7492",
+    "id": 254991561,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-20T02:16:53Z",
+    "updated_at": "2016-10-20T02:16:53Z",
+    "body": "The scripts of Electron never invoke anything like `MySQL`, please verify your own environment is valid.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/292189904",
+    "html_url": "https://github.com/electron/electron/issues/7492#issuecomment-292189904",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7492",
+    "id": 292189904,
+    "user": {
+      "login": "dusan-kovacik-profiq",
+      "id": 14073689,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14073689?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dusan-kovacik-profiq",
+      "html_url": "https://github.com/dusan-kovacik-profiq",
+      "followers_url": "https://api.github.com/users/dusan-kovacik-profiq/followers",
+      "following_url": "https://api.github.com/users/dusan-kovacik-profiq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dusan-kovacik-profiq/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dusan-kovacik-profiq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dusan-kovacik-profiq/subscriptions",
+      "organizations_url": "https://api.github.com/users/dusan-kovacik-profiq/orgs",
+      "repos_url": "https://api.github.com/users/dusan-kovacik-profiq/repos",
+      "events_url": "https://api.github.com/users/dusan-kovacik-profiq/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dusan-kovacik-profiq/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-06T14:22:26Z",
+    "updated_at": "2017-04-06T14:22:26Z",
+    "body": "I had the same problem right now. To fix it, check your PATH environment variable and put all paths with some spaces into quotes."
+  }
+]

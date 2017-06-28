@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/280400561",
+    "html_url": "https://github.com/electron/electron/pull/8695#issuecomment-280400561",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8695",
+    "id": 280400561,
+    "user": {
+      "login": "ericbrumer",
+      "id": 7120621,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7120621?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericbrumer",
+      "html_url": "https://github.com/ericbrumer",
+      "followers_url": "https://api.github.com/users/ericbrumer/followers",
+      "following_url": "https://api.github.com/users/ericbrumer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ericbrumer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ericbrumer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ericbrumer/subscriptions",
+      "organizations_url": "https://api.github.com/users/ericbrumer/orgs",
+      "repos_url": "https://api.github.com/users/ericbrumer/repos",
+      "events_url": "https://api.github.com/users/ericbrumer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ericbrumer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-16T17:32:00Z",
+    "updated_at": "2017-02-16T17:32:00Z",
+    "body": "Thanks for taking a look. I have pushed those changes,"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/280440847",
+    "html_url": "https://github.com/electron/electron/pull/8695#issuecomment-280440847",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8695",
+    "id": 280440847,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-02-16T19:56:50Z",
+    "updated_at": "2017-02-16T19:56:50Z",
+    "body": "Thanks for this @ericbrumer 👍 🚢 :shipit: "
+  }
+]

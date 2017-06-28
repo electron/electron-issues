@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/247722626",
+    "html_url": "https://github.com/electron/electron/pull/7169#issuecomment-247722626",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7169",
+    "id": 247722626,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-16T22:23:07Z",
+    "updated_at": "2016-09-16T22:23:07Z",
+    "body": "Looks like the spec introduced here is consistently failing on AppVeyor with the following error:\n\n```\nnot ok 253 session module DownloadItem can generate a default filename\n  AssertionError: 'download' == 'download.pdf'\n      at EventEmitter.<anonymous> (C:\\projects\\electron\\spec\\api-session-spec.js:333:18)\n      at EventEmitter.g (events.js:286:16)\n      at emitMany (events.js:127:13)\n      at EventEmitter.emit (events.js:201:7)\n```\n\nIt doesn't appear to be failing though on our internal Windows build machines which is really strange.\n"
+  }
+]

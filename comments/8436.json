@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/273577631",
+    "html_url": "https://github.com/electron/electron/issues/8436#issuecomment-273577631",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8436",
+    "id": 273577631,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-01-18T19:36:08Z",
+    "updated_at": "2017-01-18T19:36:08Z",
+    "body": "Are you running your packaged app or via the `electron` command line?\r\n\r\nThe `electron` command line launcher quits the app when the all windows are closed: https://github.com/electron/electron/blob/71512ad244d5aa9e82af2e57cc89b31d0729a7ff/default_app/default_app.js#L7-L9\r\n\r\nThis will not be the behavior when your app is packaged since that code will not be running.\r\n\r\nhttp://electron.atom.io/docs/api/app/#event-window-all-closed\r\n\r\nYou can use the `activate` event on the app module to know when the dock is clicked and your app should relaunch a window.\r\n\r\nhttp://electron.atom.io/docs/api/app/#event-activate-macos"
+  }
+]

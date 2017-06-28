@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/253588356",
+    "html_url": "https://github.com/electron/electron/issues/7607#issuecomment-253588356",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7607",
+    "id": 253588356,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-13T17:54:50Z",
+    "updated_at": "2016-10-13T17:54:50Z",
+    "body": "Unable to reproduce on linux.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/253590086",
+    "html_url": "https://github.com/electron/electron/issues/7607#issuecomment-253590086",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7607",
+    "id": 253590086,
+    "user": {
+      "login": "damevelue",
+      "id": 22817520,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22817520?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/damevelue",
+      "html_url": "https://github.com/damevelue",
+      "followers_url": "https://api.github.com/users/damevelue/followers",
+      "following_url": "https://api.github.com/users/damevelue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/damevelue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/damevelue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/damevelue/subscriptions",
+      "organizations_url": "https://api.github.com/users/damevelue/orgs",
+      "repos_url": "https://api.github.com/users/damevelue/repos",
+      "events_url": "https://api.github.com/users/damevelue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/damevelue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-13T18:00:34Z",
+    "updated_at": "2016-10-13T18:02:17Z",
+    "body": "session must be persisted, first time doesn't crash.\nif I remove session persist there is no problem.\n\nalso tried linux : debian 8 64bits, same thing\n"
+  }
+]

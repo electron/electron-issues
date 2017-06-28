@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/207638165",
+    "html_url": "https://github.com/electron/electron/issues/5093#issuecomment-207638165",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5093",
+    "id": 207638165,
+    "user": {
+      "login": "fxckdead",
+      "id": 116668,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/116668?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fxckdead",
+      "html_url": "https://github.com/fxckdead",
+      "followers_url": "https://api.github.com/users/fxckdead/followers",
+      "following_url": "https://api.github.com/users/fxckdead/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fxckdead/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fxckdead/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fxckdead/subscriptions",
+      "organizations_url": "https://api.github.com/users/fxckdead/orgs",
+      "repos_url": "https://api.github.com/users/fxckdead/repos",
+      "events_url": "https://api.github.com/users/fxckdead/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fxckdead/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-08T22:46:34Z",
+    "updated_at": "2016-04-08T22:50:41Z",
+    "body": ":+1:  +1  i'm facing the same issue (same OS and Electron) \n\n [Here is my explanation ](https://discuss.atom.io/t/printing-on-windows-doesnt-work/27674) , in my case, this works like a charm on OSX but on windows doesn't work\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/207939559",
+    "html_url": "https://github.com/electron/electron/issues/5093#issuecomment-207939559",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5093",
+    "id": 207939559,
+    "user": {
+      "login": "mnquintana",
+      "id": 823545,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/823545?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mnquintana",
+      "html_url": "https://github.com/mnquintana",
+      "followers_url": "https://api.github.com/users/mnquintana/followers",
+      "following_url": "https://api.github.com/users/mnquintana/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mnquintana/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mnquintana/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mnquintana/subscriptions",
+      "organizations_url": "https://api.github.com/users/mnquintana/orgs",
+      "repos_url": "https://api.github.com/users/mnquintana/repos",
+      "events_url": "https://api.github.com/users/mnquintana/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mnquintana/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-10T07:31:19Z",
+    "updated_at": "2016-04-10T07:31:19Z",
+    "body": "Thanks for the report! This looks like a duplicate of https://github.com/electron/electron/issues/4906 though – feel free to subscribe there for updates.\n"
+  }
+]

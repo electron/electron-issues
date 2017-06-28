@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223468285",
+    "html_url": "https://github.com/electron/electron/pull/5841#issuecomment-223468285",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5841",
+    "id": 223468285,
+    "user": {
+      "login": "envygeeks",
+      "id": 99763,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/99763?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/envygeeks",
+      "html_url": "https://github.com/envygeeks",
+      "followers_url": "https://api.github.com/users/envygeeks/followers",
+      "following_url": "https://api.github.com/users/envygeeks/following{/other_user}",
+      "gists_url": "https://api.github.com/users/envygeeks/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/envygeeks/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/envygeeks/subscriptions",
+      "organizations_url": "https://api.github.com/users/envygeeks/orgs",
+      "repos_url": "https://api.github.com/users/envygeeks/repos",
+      "events_url": "https://api.github.com/users/envygeeks/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/envygeeks/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-03T01:27:11Z",
+    "updated_at": "2016-06-03T01:27:11Z",
+    "body": "Fixed.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223476776",
+    "html_url": "https://github.com/electron/electron/pull/5841#issuecomment-223476776",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5841",
+    "id": 223476776,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-03T02:36:40Z",
+    "updated_at": "2016-06-03T02:36:40Z",
+    "body": ":+1:\n"
+  }
+]

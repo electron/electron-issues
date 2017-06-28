@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/213559148",
+    "html_url": "https://github.com/electron/electron/issues/5256#issuecomment-213559148",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5256",
+    "id": 213559148,
+    "user": {
+      "login": "sindresorhus",
+      "id": 170270,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/170270?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sindresorhus",
+      "html_url": "https://github.com/sindresorhus",
+      "followers_url": "https://api.github.com/users/sindresorhus/followers",
+      "following_url": "https://api.github.com/users/sindresorhus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sindresorhus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sindresorhus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sindresorhus/subscriptions",
+      "organizations_url": "https://api.github.com/users/sindresorhus/orgs",
+      "repos_url": "https://api.github.com/users/sindresorhus/repos",
+      "events_url": "https://api.github.com/users/sindresorhus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sindresorhus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-22T19:17:10Z",
+    "updated_at": "2016-04-22T19:17:10Z",
+    "body": "This would be useful for when there are multiple shortcut conventions. Like, on OS X, going to the next tab, has two supported shortcuts. So in my app I had to implement one [manually in the browser view](https://github.com/sindresorhus/caprine/blob/297c96cce162e8d7b183d014e90f80013993ad67/browser.js#L78-L90).\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217903872",
+    "html_url": "https://github.com/electron/electron/issues/5256#issuecomment-217903872",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5256",
+    "id": 217903872,
+    "user": {
+      "login": "feross",
+      "id": 121766,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/121766?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/feross",
+      "html_url": "https://github.com/feross",
+      "followers_url": "https://api.github.com/users/feross/followers",
+      "following_url": "https://api.github.com/users/feross/following{/other_user}",
+      "gists_url": "https://api.github.com/users/feross/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/feross/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/feross/subscriptions",
+      "organizations_url": "https://api.github.com/users/feross/orgs",
+      "repos_url": "https://api.github.com/users/feross/repos",
+      "events_url": "https://api.github.com/users/feross/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/feross/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-09T15:47:47Z",
+    "updated_at": "2016-05-09T15:47:47Z",
+    "body": "I worked around this issue in WebTorrent Desktop by using [electron-localshortcut](https://www.npmjs.com/package/electron-localshortcut).\n"
+  }
+]

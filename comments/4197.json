@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/174271397",
+    "html_url": "https://github.com/electron/electron/issues/4197#issuecomment-174271397",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4197",
+    "id": 174271397,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-24T09:18:43Z",
+    "updated_at": "2016-01-24T09:18:43Z",
+    "body": "The autoUpdater libraries (https://github.com/Squirrel/Squirrel.Mac and https://github.com/Squirrel/Squirrel.Windows) used by Electron do not support passing state to new instance, I suggest reposting this to their repos and once they added support for this we can add corresponding APIs in Electron.\n\nAlso I think using a temporary file is not a bad idea though, many programs are using this pattern.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/175801639",
+    "html_url": "https://github.com/electron/electron/issues/4197#issuecomment-175801639",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4197",
+    "id": 175801639,
+    "user": {
+      "login": "f0zi",
+      "id": 11842740,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11842740?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/f0zi",
+      "html_url": "https://github.com/f0zi",
+      "followers_url": "https://api.github.com/users/f0zi/followers",
+      "following_url": "https://api.github.com/users/f0zi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/f0zi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/f0zi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/f0zi/subscriptions",
+      "organizations_url": "https://api.github.com/users/f0zi/orgs",
+      "repos_url": "https://api.github.com/users/f0zi/repos",
+      "events_url": "https://api.github.com/users/f0zi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/f0zi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-27T19:10:28Z",
+    "updated_at": "2016-01-27T19:10:28Z",
+    "body": "Thanks, I did, looks like it's already supported: https://github.com/Squirrel/Squirrel.Windows/issues/573 \n"
+  }
+]

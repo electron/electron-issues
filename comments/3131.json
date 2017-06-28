@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/149078501",
+    "html_url": "https://github.com/electron/electron/pull/3131#issuecomment-149078501",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3131",
+    "id": 149078501,
+    "user": {
+      "login": "jadekler",
+      "id": 3584893,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3584893?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jadekler",
+      "html_url": "https://github.com/jadekler",
+      "followers_url": "https://api.github.com/users/jadekler/followers",
+      "following_url": "https://api.github.com/users/jadekler/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jadekler/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jadekler/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jadekler/subscriptions",
+      "organizations_url": "https://api.github.com/users/jadekler/orgs",
+      "repos_url": "https://api.github.com/users/jadekler/repos",
+      "events_url": "https://api.github.com/users/jadekler/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jadekler/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-19T02:10:39Z",
+    "updated_at": "2015-10-19T02:10:39Z",
+    "body": "Whoops, no switches on strings in C++. :cry: \n"
+  }
+]

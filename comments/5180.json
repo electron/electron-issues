@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/210843657",
+    "html_url": "https://github.com/electron/electron/issues/5180#issuecomment-210843657",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5180",
+    "id": 210843657,
+    "user": {
+      "login": "Mr0grog",
+      "id": 74178,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/74178?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Mr0grog",
+      "html_url": "https://github.com/Mr0grog",
+      "followers_url": "https://api.github.com/users/Mr0grog/followers",
+      "following_url": "https://api.github.com/users/Mr0grog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Mr0grog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Mr0grog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Mr0grog/subscriptions",
+      "organizations_url": "https://api.github.com/users/Mr0grog/orgs",
+      "repos_url": "https://api.github.com/users/Mr0grog/repos",
+      "events_url": "https://api.github.com/users/Mr0grog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Mr0grog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-16T15:50:30Z",
+    "updated_at": "2016-04-16T15:50:30Z",
+    "body": "Update: this definitely affects Linux, too.\n"
+  }
+]

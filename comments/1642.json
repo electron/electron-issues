@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/257475886",
+    "html_url": "https://github.com/electron/electron/pull/1642#issuecomment-257475886",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1642",
+    "id": 257475886,
+    "user": {
+      "login": "valtersboze",
+      "id": 3168824,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3168824?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/valtersboze",
+      "html_url": "https://github.com/valtersboze",
+      "followers_url": "https://api.github.com/users/valtersboze/followers",
+      "following_url": "https://api.github.com/users/valtersboze/following{/other_user}",
+      "gists_url": "https://api.github.com/users/valtersboze/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/valtersboze/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/valtersboze/subscriptions",
+      "organizations_url": "https://api.github.com/users/valtersboze/orgs",
+      "repos_url": "https://api.github.com/users/valtersboze/repos",
+      "events_url": "https://api.github.com/users/valtersboze/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/valtersboze/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-01T02:31:35Z",
+    "updated_at": "2016-11-01T02:31:35Z",
+    "body": "any way to set a flag that asar archive can be overwritten (for my custom electron build) ?\n"
+  }
+]

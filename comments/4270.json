@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/176802940",
+    "html_url": "https://github.com/electron/electron/issues/4270#issuecomment-176802940",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4270",
+    "id": 176802940,
+    "user": {
+      "login": "sbruchmann",
+      "id": 141435,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/141435?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sbruchmann",
+      "html_url": "https://github.com/sbruchmann",
+      "followers_url": "https://api.github.com/users/sbruchmann/followers",
+      "following_url": "https://api.github.com/users/sbruchmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sbruchmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sbruchmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sbruchmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/sbruchmann/orgs",
+      "repos_url": "https://api.github.com/users/sbruchmann/repos",
+      "events_url": "https://api.github.com/users/sbruchmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sbruchmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-29T15:13:00Z",
+    "updated_at": "2016-01-29T15:13:00Z",
+    "body": "Which operating system and version of electron are you using? I could not reproduce this on OS X `10.11.3` and electron `0.36.6`.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/176825546",
+    "html_url": "https://github.com/electron/electron/issues/4270#issuecomment-176825546",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4270",
+    "id": 176825546,
+    "user": {
+      "login": "timruffles",
+      "id": 249800,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/249800?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/timruffles",
+      "html_url": "https://github.com/timruffles",
+      "followers_url": "https://api.github.com/users/timruffles/followers",
+      "following_url": "https://api.github.com/users/timruffles/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timruffles/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timruffles/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timruffles/subscriptions",
+      "organizations_url": "https://api.github.com/users/timruffles/orgs",
+      "repos_url": "https://api.github.com/users/timruffles/repos",
+      "events_url": "https://api.github.com/users/timruffles/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timruffles/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-29T15:43:36Z",
+    "updated_at": "2016-01-29T15:43:36Z",
+    "body": "Sorry! False alarm, this is `browserify`'s doings. :blush: \n"
+  }
+]

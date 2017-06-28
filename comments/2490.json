@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/130427205",
+    "html_url": "https://github.com/electron/electron/issues/2490#issuecomment-130427205",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2490",
+    "id": 130427205,
+    "user": {
+      "login": "kjlaw89",
+      "id": 4183007,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4183007?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kjlaw89",
+      "html_url": "https://github.com/kjlaw89",
+      "followers_url": "https://api.github.com/users/kjlaw89/followers",
+      "following_url": "https://api.github.com/users/kjlaw89/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kjlaw89/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kjlaw89/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kjlaw89/subscriptions",
+      "organizations_url": "https://api.github.com/users/kjlaw89/orgs",
+      "repos_url": "https://api.github.com/users/kjlaw89/repos",
+      "events_url": "https://api.github.com/users/kjlaw89/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kjlaw89/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-12T19:59:18Z",
+    "updated_at": "2015-08-12T19:59:18Z",
+    "body": "Nevermind, sounds like this was shot down: https://github.com/atom/electron/issues/879#issuecomment-109818705\n"
+  }
+]

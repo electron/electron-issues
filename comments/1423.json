@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/93621974",
+    "html_url": "https://github.com/electron/electron/issues/1423#issuecomment-93621974",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1423",
+    "id": 93621974,
+    "user": {
+      "login": "bushadam",
+      "id": 6523155,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6523155?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bushadam",
+      "html_url": "https://github.com/bushadam",
+      "followers_url": "https://api.github.com/users/bushadam/followers",
+      "following_url": "https://api.github.com/users/bushadam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bushadam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bushadam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bushadam/subscriptions",
+      "organizations_url": "https://api.github.com/users/bushadam/orgs",
+      "repos_url": "https://api.github.com/users/bushadam/repos",
+      "events_url": "https://api.github.com/users/bushadam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bushadam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-16T02:40:37Z",
+    "updated_at": "2015-04-16T02:40:37Z",
+    "body": "use vlc npapi plugin 2.2 not smooth,but use vlc 2.1.5 it work perfectly\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/94385744",
+    "html_url": "https://github.com/electron/electron/issues/1423#issuecomment-94385744",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1423",
+    "id": 94385744,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-04-20T07:56:48Z",
+    "updated_at": "2015-04-20T07:56:48Z",
+    "body": "NPAPI support is going to be disabled after we upgraded to Chrome 42 and removed after Chrome 45, so we will not fix bugs with NPAPI plugins.\n\nI'm closing this as won't fix.\n"
+  }
+]

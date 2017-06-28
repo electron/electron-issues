@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/161160928",
+    "html_url": "https://github.com/electron/electron/issues/3646#issuecomment-161160928",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3646",
+    "id": 161160928,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-02T02:39:36Z",
+    "updated_at": "2015-12-02T02:39:36Z",
+    "body": "On Linux the kiosk mode is just an alias to fullscreen mode, most desktop environments doesn't provide support for kiosk mode, and you have to hack your operating system to achieve it [like this](http://thepcspy.com/read/building-a-kiosk-computer-ubuntu-1404-chrome/).\n"
+  }
+]

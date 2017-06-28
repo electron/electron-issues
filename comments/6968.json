@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/242705959",
+    "html_url": "https://github.com/electron/electron/issues/6968#issuecomment-242705959",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6968",
+    "id": 242705959,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-26T11:16:54Z",
+    "updated_at": "2016-08-26T11:16:54Z",
+    "body": "For Windows we basically needs to write a new GUI toolkit from scratch to be able to switch the frame dynamically, and for Linux I don't think the X11 protocol supports this, even if it does I believe most window managers would not respect it.\n\nSo you may consider this as a impossible mission.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/242711249",
+    "html_url": "https://github.com/electron/electron/issues/6968#issuecomment-242711249",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6968",
+    "id": 242711249,
+    "user": {
+      "login": "z-ax",
+      "id": 1391015,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1391015?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/z-ax",
+      "html_url": "https://github.com/z-ax",
+      "followers_url": "https://api.github.com/users/z-ax/followers",
+      "following_url": "https://api.github.com/users/z-ax/following{/other_user}",
+      "gists_url": "https://api.github.com/users/z-ax/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/z-ax/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/z-ax/subscriptions",
+      "organizations_url": "https://api.github.com/users/z-ax/orgs",
+      "repos_url": "https://api.github.com/users/z-ax/repos",
+      "events_url": "https://api.github.com/users/z-ax/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/z-ax/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-26T11:40:47Z",
+    "updated_at": "2016-08-26T11:40:47Z",
+    "body": "This is sad.\n"
+  }
+]

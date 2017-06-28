@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/140772917",
+    "html_url": "https://github.com/electron/electron/issues/2792#issuecomment-140772917",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2792",
+    "id": 140772917,
+    "user": {
+      "login": "etiktin",
+      "id": 4381579,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4381579?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/etiktin",
+      "html_url": "https://github.com/etiktin",
+      "followers_url": "https://api.github.com/users/etiktin/followers",
+      "following_url": "https://api.github.com/users/etiktin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/etiktin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/etiktin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/etiktin/subscriptions",
+      "organizations_url": "https://api.github.com/users/etiktin/orgs",
+      "repos_url": "https://api.github.com/users/etiktin/repos",
+      "events_url": "https://api.github.com/users/etiktin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/etiktin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-16T15:15:31Z",
+    "updated_at": "2015-09-16T15:15:31Z",
+    "body": "On what OS did you notice this?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/140803018",
+    "html_url": "https://github.com/electron/electron/issues/2792#issuecomment-140803018",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2792",
+    "id": 140803018,
+    "user": {
+      "login": "ToadKing",
+      "id": 1023440,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1023440?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ToadKing",
+      "html_url": "https://github.com/ToadKing",
+      "followers_url": "https://api.github.com/users/ToadKing/followers",
+      "following_url": "https://api.github.com/users/ToadKing/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ToadKing/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ToadKing/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ToadKing/subscriptions",
+      "organizations_url": "https://api.github.com/users/ToadKing/orgs",
+      "repos_url": "https://api.github.com/users/ToadKing/repos",
+      "events_url": "https://api.github.com/users/ToadKing/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ToadKing/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-16T16:56:16Z",
+    "updated_at": "2015-09-16T16:56:16Z",
+    "body": "On second look it appears this is a side effect of my app working around the bug in #1806. Sorry about that.\n"
+  }
+]

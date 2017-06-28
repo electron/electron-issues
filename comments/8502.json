@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/275021401",
+    "html_url": "https://github.com/electron/electron/issues/8502#issuecomment-275021401",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8502",
+    "id": 275021401,
+    "user": {
+      "login": "bpasero",
+      "id": 900690,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/900690?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bpasero",
+      "html_url": "https://github.com/bpasero",
+      "followers_url": "https://api.github.com/users/bpasero/followers",
+      "following_url": "https://api.github.com/users/bpasero/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bpasero/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bpasero/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bpasero/subscriptions",
+      "organizations_url": "https://api.github.com/users/bpasero/orgs",
+      "repos_url": "https://api.github.com/users/bpasero/repos",
+      "events_url": "https://api.github.com/users/bpasero/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bpasero/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-25T05:15:21Z",
+    "updated_at": "2017-01-25T05:15:21Z",
+    "body": "I would hope that we can control this via `backgroundThrottling` in `BrowserWindow` [options](https://github.com/electron/electron/blob/master/docs/api/browser-window.md#new-browserwindowoptions)."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/279881358",
+    "html_url": "https://github.com/electron/electron/issues/8502#issuecomment-279881358",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8502",
+    "id": 279881358,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-02-15T00:31:42Z",
+    "updated_at": "2017-02-15T00:31:42Z",
+    "body": "Closing this out, this shouldn't be an issue on 1.6.0 because of the way Electron integrates with Chrome, each `BrowserWindow` has only one \"tab\" and so it shouldn't be throttled."
+  }
+]

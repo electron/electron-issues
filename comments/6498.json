@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/232827443",
+    "html_url": "https://github.com/electron/electron/issues/6498#issuecomment-232827443",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6498",
+    "id": 232827443,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-15T00:09:26Z",
+    "updated_at": "2016-07-15T00:09:26Z",
+    "body": "Can you include some example code that shows the issue?\n\nIf you just run the default Electron app and click something like the Edit > Select All menu, does that feel slow?\n\nDoes it only happen in 1.2.7, or also earlier versions?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/232852035",
+    "html_url": "https://github.com/electron/electron/issues/6498#issuecomment-232852035",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6498",
+    "id": 232852035,
+    "user": {
+      "login": "mikecao",
+      "id": 477975,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/477975?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mikecao",
+      "html_url": "https://github.com/mikecao",
+      "followers_url": "https://api.github.com/users/mikecao/followers",
+      "following_url": "https://api.github.com/users/mikecao/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikecao/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikecao/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikecao/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikecao/orgs",
+      "repos_url": "https://api.github.com/users/mikecao/repos",
+      "events_url": "https://api.github.com/users/mikecao/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikecao/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-15T03:32:48Z",
+    "updated_at": "2016-07-15T03:32:48Z",
+    "body": "So it seems that when you click on a menu item (in any OSX application), it plays a little flashing animation, the menu disappears, and then the action takes place (thus the delay). It's something I never really noticed before. If you run the accelerator via the keyboard then the action executes immediately because there is no animation to display. I guess it's just an OSX quirk.\n"
+  }
+]

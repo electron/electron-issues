@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/255163953",
+    "html_url": "https://github.com/electron/electron/issues/7680#issuecomment-255163953",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7680",
+    "id": 255163953,
+    "user": {
+      "login": "StefanYohansson",
+      "id": 1783252,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1783252?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/StefanYohansson",
+      "html_url": "https://github.com/StefanYohansson",
+      "followers_url": "https://api.github.com/users/StefanYohansson/followers",
+      "following_url": "https://api.github.com/users/StefanYohansson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/StefanYohansson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/StefanYohansson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/StefanYohansson/subscriptions",
+      "organizations_url": "https://api.github.com/users/StefanYohansson/orgs",
+      "repos_url": "https://api.github.com/users/StefanYohansson/repos",
+      "events_url": "https://api.github.com/users/StefanYohansson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/StefanYohansson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-20T16:54:32Z",
+    "updated_at": "2016-10-20T16:58:21Z",
+    "body": "can you provide more info about your problem ? (example code, distro, graphical interface)\nI am using KDE neon (ubuntu 16.04) and can't reproduce your problem using [electron-quick-start](https://github.com/electron/electron-quick-start) project.\n\nI just downloaded electron-quick-start and apply this patch like you describe in your description.\n\n```\ndiff --git a/index.html b/index.html\nindex 7bbf746..1688d41 100644\n--- a/index.html\n+++ b/index.html\n@@ -2,7 +2,6 @@\n <html>\n   <head>\n     <meta charset=\"UTF-8\">\n-    <title>Hello World!</title>\n   </head>\n   <body>\n     <h1>Hello World!</h1>\ndiff --git a/main.js b/main.js\nindex fdce321..3db79a5 100644\n--- a/main.js\n+++ b/main.js\n@@ -10,7 +10,14 @@ let mainWindow\n\n function createWindow () {\n   // Create the browser window.\n-  mainWindow = new BrowserWindow({width: 800, height: 600})\n+  mainWindow = new BrowserWindow({\n+    width: 800,\n+    height: 600,\n+    skipTaskbar: false,\n+    title: \"Something\",\n+    frame: false,\n+    type: \"nofitication\"\n+  })\n\n   // and load the index.html of the app.\n   mainWindow.loadURL(`file://${__dirname}/index.html`)\n```\n\nthe result is a window with title \"Something\" as you can see:\n![screenshot_20161020_135744](https://cloud.githubusercontent.com/assets/1783252/19569729/3395f518-96cd-11e6-9c63-29d206416ac8.png)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/261112439",
+    "html_url": "https://github.com/electron/electron/issues/7680#issuecomment-261112439",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7680",
+    "id": 261112439,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-11-17T00:00:52Z",
+    "updated_at": "2016-11-17T00:00:52Z",
+    "body": "Closing this out until more information is provided.\n"
+  }
+]

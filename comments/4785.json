@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/196154577",
+    "html_url": "https://github.com/electron/electron/issues/4785#issuecomment-196154577",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4785",
+    "id": 196154577,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-03-14T05:54:21Z",
+    "updated_at": "2016-03-14T05:54:21Z",
+    "body": "Actually this is caused by `module-cache` still using old path:\nhttps://github.com/atom/atom/blob/41161dd462a1be9073752a34b4809612f933da6e/src/module-cache.coffee#L205\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/196373912",
+    "html_url": "https://github.com/electron/electron/issues/4785#issuecomment-196373912",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4785",
+    "id": 196373912,
+    "user": {
+      "login": "50Wliu",
+      "id": 2766036,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2766036?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/50Wliu",
+      "html_url": "https://github.com/50Wliu",
+      "followers_url": "https://api.github.com/users/50Wliu/followers",
+      "following_url": "https://api.github.com/users/50Wliu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/50Wliu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/50Wliu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/50Wliu/subscriptions",
+      "organizations_url": "https://api.github.com/users/50Wliu/orgs",
+      "repos_url": "https://api.github.com/users/50Wliu/repos",
+      "events_url": "https://api.github.com/users/50Wliu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/50Wliu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-14T15:42:02Z",
+    "updated_at": "2016-03-14T15:42:02Z",
+    "body": "Awesome, thanks for the update and sorry for opening on the wrong repo.\n"
+  }
+]

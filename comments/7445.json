@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250951487",
+    "html_url": "https://github.com/electron/electron/issues/7445#issuecomment-250951487",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7445",
+    "id": 250951487,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-02T03:29:28Z",
+    "updated_at": "2016-10-02T03:29:28Z",
+    "body": "It would appear that the Node headers weren't downloaded properly. Delete `Documents/com~apple~CloudDocs/Projects/BiLab/micaDesktop/node_modules/electron-rebuild/lib` and try again. Any further issues with `electron-rebuild` should be filed at https://github.com/electron/electron-rebuild/issues\n"
+  }
+]

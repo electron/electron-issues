@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/212830687",
+    "html_url": "https://github.com/electron/electron/issues/5217#issuecomment-212830687",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5217",
+    "id": 212830687,
+    "user": {
+      "login": "felicienfrancois",
+      "id": 988144,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/988144?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felicienfrancois",
+      "html_url": "https://github.com/felicienfrancois",
+      "followers_url": "https://api.github.com/users/felicienfrancois/followers",
+      "following_url": "https://api.github.com/users/felicienfrancois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felicienfrancois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felicienfrancois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felicienfrancois/subscriptions",
+      "organizations_url": "https://api.github.com/users/felicienfrancois/orgs",
+      "repos_url": "https://api.github.com/users/felicienfrancois/repos",
+      "events_url": "https://api.github.com/users/felicienfrancois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felicienfrancois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-21T09:34:18Z",
+    "updated_at": "2016-04-21T09:34:18Z",
+    "body": "it happens when the new window is opened with 'window.open' from an onclick event.\n\n``` html\n<a href=\"somepage1.html\" target=\"_blank\" onclick=\"window.open('somepage2.html'); return false\">Click me</a>\n```\n\nin this case, both tabs are opened, and when `allowPopups` is on, the event for 'somepage2.html' is not cached (and it opens in an unexpected new BrowserWindow).\n\nWith Chrome, only `somepage2.html` is opened, even if the onclick event handler returns true (event default not prevented)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/236803045",
+    "html_url": "https://github.com/electron/electron/issues/5217#issuecomment-236803045",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5217",
+    "id": 236803045,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-02T05:33:22Z",
+    "updated_at": "2016-08-02T05:33:22Z",
+    "body": "I can no longer reproduce this in v1.3.1 anymore. \n"
+  }
+]

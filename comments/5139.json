@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/209433570",
+    "html_url": "https://github.com/electron/electron/issues/5139#issuecomment-209433570",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5139",
+    "id": 209433570,
+    "user": {
+      "login": "ghego1",
+      "id": 4340360,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4340360?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghego1",
+      "html_url": "https://github.com/ghego1",
+      "followers_url": "https://api.github.com/users/ghego1/followers",
+      "following_url": "https://api.github.com/users/ghego1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghego1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghego1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghego1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghego1/orgs",
+      "repos_url": "https://api.github.com/users/ghego1/repos",
+      "events_url": "https://api.github.com/users/ghego1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghego1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-13T13:13:07Z",
+    "updated_at": "2016-04-13T13:13:07Z",
+    "body": "Not sure of what the problem was, but restarting the system seems to have fixed the problem. So the problem was basically down to old good question \"Have you tried to witch it off and on?\" :-D\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/277341395",
+    "html_url": "https://github.com/electron/electron/issues/5139#issuecomment-277341395",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5139",
+    "id": 277341395,
+    "user": {
+      "login": "chuckhacker",
+      "id": 143290,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/143290?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chuckhacker",
+      "html_url": "https://github.com/chuckhacker",
+      "followers_url": "https://api.github.com/users/chuckhacker/followers",
+      "following_url": "https://api.github.com/users/chuckhacker/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chuckhacker/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chuckhacker/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chuckhacker/subscriptions",
+      "organizations_url": "https://api.github.com/users/chuckhacker/orgs",
+      "repos_url": "https://api.github.com/users/chuckhacker/repos",
+      "events_url": "https://api.github.com/users/chuckhacker/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chuckhacker/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-03T19:36:34Z",
+    "updated_at": "2017-02-03T19:36:34Z",
+    "body": "Restarting seems like a band-aid fix to me, the whole point of hot updates is that you don't have to restart (this isn't an OS update)."
+  }
+]

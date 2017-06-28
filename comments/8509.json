@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/276246602",
+    "html_url": "https://github.com/electron/electron/pull/8509#issuecomment-276246602",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8509",
+    "id": 276246602,
+    "user": {
+      "login": "zeke",
+      "id": 2289,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2289?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zeke",
+      "html_url": "https://github.com/zeke",
+      "followers_url": "https://api.github.com/users/zeke/followers",
+      "following_url": "https://api.github.com/users/zeke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zeke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zeke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zeke/subscriptions",
+      "organizations_url": "https://api.github.com/users/zeke/orgs",
+      "repos_url": "https://api.github.com/users/zeke/repos",
+      "events_url": "https://api.github.com/users/zeke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zeke/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-01-31T01:29:03Z",
+    "updated_at": "2017-01-31T01:29:03Z",
+    "body": "For fun:\r\n\r\n```\r\nnpm i -g github-issue-template\r\ngithub-issue-template --repo electron/electron --title \"Upgrading Chrome Checklist\" --body ~/Desktop/shiplist.md\r\n```\r\n\r\nClick this link: 👉  [Create an issue](https://github.com/electron/electron/issues/new?title=Upgrading%20Chrome%20Checklist&body=-%20%5B%20%5D%20Verify%20the%20new%20Chrome%20version%20is%20available%20from%0A%20%20https%3A%2F%2Fgithub.com%2Fzcbenz%2Fchromium-source-tarball%2Freleases%0A-%20%5B%20%5D%20Update%20the%20%60VERSION%60%20file%20at%20the%20root%20of%20the%20%60electron%2Flibchromiumcontent%60%0A%20%20repository%0A-%20%5B%20%5D%20Update%20the%20%60CLANG_REVISION%60%20in%20%60script%2Fupdate-clang.sh%60%20to%20match%20the%20version%0A%20%20Chrome%20is%20using%20in%20%60libchromiumcontent%2Fsrc%2Ftools%2Fclang%2Fscripts%2Fupdate.py%60%0A-%20%5B%20%5D%20Upgrade%20%60vendor%2Fnode%60%20to%20the%20Node%20release%20that%20corresponds%20to%20the%20v8%20version%0A%20%20being%20used%20in%20the%20new%20Chrome%20release.%20See%20the%20v8%20versions%20in%20Node%20on%0A%20%20https%3A%2F%2Fnodejs.org%2Fen%2Fdownload%2Freleases%20for%20more%20details%0A-%20%5B%20%5D%20Upgrade%20%60vendor%2Fcrashpad%60%20for%20any%20crash%20reporter%20changes%20needed%0A-%20%5B%20%5D%20Upgrade%20%60vendor%2Fdepot_tools%60%20for%20any%20build%20tools%20changes%20needed%0A-%20%5B%20%5D%20Update%20the%20%60libchromiumcontent%60%20SHA-1%20to%20download%20in%20%60script%2Flib%2Fconfig.py%60%0A-%20%5B%20%5D%20Open%20a%20pull%20request%20on%20%60electron%2Flibchromiumcontent%60%20with%20the%20changes%0A-%20%5B%20%5D%20Open%20a%20pull%20request%20on%20%60electron%2Fbrightray%60%20with%20the%20changes%0A%20%20-%20%5B%20%5D%20This%20should%20include%20upgrading%20the%20%60vendor%2Flibchromiumcontent%60%20submodule%0A-%20%5B%20%5D%20Open%20a%20pull%20request%20on%20%60electron%2Felectron%60%20with%20the%20changes%0A%20%20-%20%5B%20%5D%20This%20should%20include%20upgrading%20the%20submodules%20in%20%60vendor%2F%60%20as%20needed%0A-%20%5B%20%5D%20Verify%20debug%20builds%20succeed%20on%3A%0A%20%20-%20%5B%20%5D%20macOS%0A%20%20-%20%5B%20%5D%2032-bit%20Windows%0A%20%20-%20%5B%20%5D%2064-bit%20Window%0A%20%20-%20%5B%20%5D%2032-bit%20Linux%0A%20%20-%20%5B%20%5D%2064-bit%20Linux%0A%20%20-%20%5B%20%5D%20ARM%20Linux%0A-%20%5B%20%5D%20Verify%20release%20builds%20succeed%20on%3A%0A%20%20-%20%5B%20%5D%20macOS%0A%20%20-%20%5B%20%5D%2032-bit%20Windows%0A%20%20-%20%5B%20%5D%2064-bit%20Window%0A%20%20-%20%5B%20%5D%2032-bit%20Linux%0A%20%20-%20%5B%20%5D%2064-bit%20Linux%0A%20%20-%20%5B%20%5D%20ARM%20Linux%0A-%20%5B%20%5D%20Verify%20tests%20pass%20on%3A%0A%20%20-%20%5B%20%5D%20macOS%0A%20%20-%20%5B%20%5D%2032-bit%20Windows%0A%20%20-%20%5B%20%5D%2064-bit%20Window%0A%20%20-%20%5B%20%5D%2032-bit%20Linux%0A%20%20-%20%5B%20%5D%2064-bit%20Linux%0A%20%20-%20%5B%20%5D%20ARM%20Linux%0A)\r\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/257181646",
+    "html_url": "https://github.com/electron/electron/issues/7803#issuecomment-257181646",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7803",
+    "id": 257181646,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-30T21:44:37Z",
+    "updated_at": "2016-10-30T21:44:37Z",
+    "body": "@IonicaBizau Speech recognition is severely limited by Electron's hard coded API key.  If you want to get a larger quota just for your app you would have to build Electron yourself with your own API key or override Electron's key with the API key environment variable.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/257211274",
+    "html_url": "https://github.com/electron/electron/issues/7803#issuecomment-257211274",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7803",
+    "id": 257211274,
+    "user": {
+      "login": "IonicaBizau",
+      "id": 2864371,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2864371?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/IonicaBizau",
+      "html_url": "https://github.com/IonicaBizau",
+      "followers_url": "https://api.github.com/users/IonicaBizau/followers",
+      "following_url": "https://api.github.com/users/IonicaBizau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/IonicaBizau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/IonicaBizau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/IonicaBizau/subscriptions",
+      "organizations_url": "https://api.github.com/users/IonicaBizau/orgs",
+      "repos_url": "https://api.github.com/users/IonicaBizau/repos",
+      "events_url": "https://api.github.com/users/IonicaBizau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/IonicaBizau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-31T04:21:12Z",
+    "updated_at": "2016-10-31T04:21:12Z",
+    "body": "Thanks. But the problem is that it doesn't work at. \n\nHow to get a new key and override the current one via an ENV variable?\n"
+  }
+]

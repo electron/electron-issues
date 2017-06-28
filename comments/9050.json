@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/289985609",
+    "html_url": "https://github.com/electron/electron/issues/9050#issuecomment-289985609",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9050",
+    "id": 289985609,
+    "user": {
+      "login": "VPageDevelopment",
+      "id": 24694419,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/24694419?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/VPageDevelopment",
+      "html_url": "https://github.com/VPageDevelopment",
+      "followers_url": "https://api.github.com/users/VPageDevelopment/followers",
+      "following_url": "https://api.github.com/users/VPageDevelopment/following{/other_user}",
+      "gists_url": "https://api.github.com/users/VPageDevelopment/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/VPageDevelopment/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/VPageDevelopment/subscriptions",
+      "organizations_url": "https://api.github.com/users/VPageDevelopment/orgs",
+      "repos_url": "https://api.github.com/users/VPageDevelopment/repos",
+      "events_url": "https://api.github.com/users/VPageDevelopment/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/VPageDevelopment/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-29T05:21:44Z",
+    "updated_at": "2017-03-29T05:21:44Z",
+    "body": "I find a solution myself and the real problem is I had a folder called electron and I try to install electron inside an electron folder i.e like this C:\\Users\\codepanda\\Desktop\\electron\\ims\\ .. to overcome this create a folder called electronIms on my desktop and then I install electron successfully... Thanks "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/289994427",
+    "html_url": "https://github.com/electron/electron/issues/9050#issuecomment-289994427",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9050",
+    "id": 289994427,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-29T06:21:25Z",
+    "updated_at": "2017-03-29T06:21:25Z",
+    "body": "Closing since the OP has resolved his issue."
+  }
+]

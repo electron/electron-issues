@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/152858623",
+    "html_url": "https://github.com/electron/electron/issues/3296#issuecomment-152858623",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3296",
+    "id": 152858623,
+    "user": {
+      "login": "etiktin",
+      "id": 4381579,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4381579?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/etiktin",
+      "html_url": "https://github.com/etiktin",
+      "followers_url": "https://api.github.com/users/etiktin/followers",
+      "following_url": "https://api.github.com/users/etiktin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/etiktin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/etiktin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/etiktin/subscriptions",
+      "organizations_url": "https://api.github.com/users/etiktin/orgs",
+      "repos_url": "https://api.github.com/users/etiktin/repos",
+      "events_url": "https://api.github.com/users/etiktin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/etiktin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-01T20:00:58Z",
+    "updated_at": "2015-11-01T20:11:11Z",
+    "body": "If you just want caching in case you're offline, you might want to check out Service Worker:\nhttps://ponyfoo.com/articles/serviceworker-revolution\nhttps://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers\n\nIf you still want to be able to download all the files, the simplest hackish way is to use the [`webContents.savePage`](https://github.com/atom/electron/blob/master/docs/api/web-contents.md#webcontentssavepagefullpath-savetype-callback). If you don't already have a page that includes all the images, then you'll need to add a php page that dynamically creates `img` tags for all your images (`savePage` with `saveType=HTMLComplete` will download all page assets). You might want to run it in a separate BrowserWindow with `show` set to false, so it won't hurt the performance on an existing window.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/152877341",
+    "html_url": "https://github.com/electron/electron/issues/3296#issuecomment-152877341",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3296",
+    "id": 152877341,
+    "user": {
+      "login": "sergiuwd",
+      "id": 11777503,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11777503?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sergiuwd",
+      "html_url": "https://github.com/sergiuwd",
+      "followers_url": "https://api.github.com/users/sergiuwd/followers",
+      "following_url": "https://api.github.com/users/sergiuwd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sergiuwd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sergiuwd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sergiuwd/subscriptions",
+      "organizations_url": "https://api.github.com/users/sergiuwd/orgs",
+      "repos_url": "https://api.github.com/users/sergiuwd/repos",
+      "events_url": "https://api.github.com/users/sergiuwd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sergiuwd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-01T23:37:45Z",
+    "updated_at": "2015-11-01T23:37:45Z",
+    "body": "Hi, @etiktin! Thanks for your answer! I think your idea is better than mine. I was thinking about creating an archive of all existing images each time I upload a new image, then download it and extract it locally when the app syncs.\nBut I will try your idea, because it seems better to me.\nI really need to download the images, because I want to be sure that the app will run ok no matter what will happen. \n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/286664574",
+    "html_url": "https://github.com/electron/electron/issues/8928#issuecomment-286664574",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8928",
+    "id": 286664574,
+    "user": {
+      "login": "changkun",
+      "id": 5498964,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5498964?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/changkun",
+      "html_url": "https://github.com/changkun",
+      "followers_url": "https://api.github.com/users/changkun/followers",
+      "following_url": "https://api.github.com/users/changkun/following{/other_user}",
+      "gists_url": "https://api.github.com/users/changkun/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/changkun/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/changkun/subscriptions",
+      "organizations_url": "https://api.github.com/users/changkun/orgs",
+      "repos_url": "https://api.github.com/users/changkun/repos",
+      "events_url": "https://api.github.com/users/changkun/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/changkun/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-15T07:42:41Z",
+    "updated_at": "2017-03-15T07:47:24Z",
+    "body": "Runtime dynamic menu is not supported yet, see https://github.com/electron/electron/issues/7455.\r\nYou could rebuild the entire menu to archive this. Besides, you have to specify the submenu for MenuItem, for instance:\r\n\r\n```js\r\n  const menu = Menu.buildFromTemplate([{\r\n    label: 'edit',\r\n    submenu: [\r\n      {role:'undo'}\r\n  ]}])\r\n  menu.append(new MenuItem({\r\n    label: 'Test menu item',\r\n    submenu: [ {role: 'redo'} ]\r\n  }))\r\n  Menu.setApplicationMenu(menu)\r\n```"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/287433225",
+    "html_url": "https://github.com/electron/electron/issues/8928#issuecomment-287433225",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8928",
+    "id": 287433225,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-03-17T18:20:21Z",
+    "updated_at": "2017-03-17T18:20:21Z",
+    "body": ">  The Menu docs don’t mention anything about menus being immutable or Menu.getApplicationMenu returning an readonly instance.\r\n\r\nThe menu doesn't support adding/removing, but you can edit the \"dynamic\" properties of the menu items in the menu, https://electron.atom.io/docs/api/menu-item/#instance-properties\r\n\r\n> I‘d be happy to PR the docs with info if this is the case!\r\n\r\nThat would be appreciated 👍 📝 "
+  }
+]

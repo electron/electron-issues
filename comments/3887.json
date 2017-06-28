@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/166327033",
+    "html_url": "https://github.com/electron/electron/issues/3887#issuecomment-166327033",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3887",
+    "id": 166327033,
+    "user": {
+      "login": "astoilkov",
+      "id": 884810,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/884810?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/astoilkov",
+      "html_url": "https://github.com/astoilkov",
+      "followers_url": "https://api.github.com/users/astoilkov/followers",
+      "following_url": "https://api.github.com/users/astoilkov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/astoilkov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/astoilkov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/astoilkov/subscriptions",
+      "organizations_url": "https://api.github.com/users/astoilkov/orgs",
+      "repos_url": "https://api.github.com/users/astoilkov/repos",
+      "events_url": "https://api.github.com/users/astoilkov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/astoilkov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-21T15:13:56Z",
+    "updated_at": "2015-12-21T15:13:56Z",
+    "body": "When you don't specify callback to the `showOpenDialog` function it becomes a synchronous call. If you want for the music to continue playing you should probably go with `showOpenDialog(options. callback)` and provide it with second parameter callback function. This makes the call async.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/166330685",
+    "html_url": "https://github.com/electron/electron/issues/3887#issuecomment-166330685",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3887",
+    "id": 166330685,
+    "user": {
+      "login": "KeitIG",
+      "id": 1311607,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1311607?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/KeitIG",
+      "html_url": "https://github.com/KeitIG",
+      "followers_url": "https://api.github.com/users/KeitIG/followers",
+      "following_url": "https://api.github.com/users/KeitIG/following{/other_user}",
+      "gists_url": "https://api.github.com/users/KeitIG/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/KeitIG/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/KeitIG/subscriptions",
+      "organizations_url": "https://api.github.com/users/KeitIG/orgs",
+      "repos_url": "https://api.github.com/users/KeitIG/repos",
+      "events_url": "https://api.github.com/users/KeitIG/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/KeitIG/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-21T15:27:44Z",
+    "updated_at": "2015-12-21T15:27:44Z",
+    "body": "Yes indeed, thanks for pointing it, I didn't see there was a change here, thanks a lot.\n"
+  }
+]

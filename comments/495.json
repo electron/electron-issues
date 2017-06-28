@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49677912",
+    "html_url": "https://github.com/electron/electron/pull/495#issuecomment-49677912",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/495",
+    "id": 49677912,
+    "user": {
+      "login": "thedaniel",
+      "id": 1476,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1476?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thedaniel",
+      "html_url": "https://github.com/thedaniel",
+      "followers_url": "https://api.github.com/users/thedaniel/followers",
+      "following_url": "https://api.github.com/users/thedaniel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thedaniel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thedaniel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thedaniel/subscriptions",
+      "organizations_url": "https://api.github.com/users/thedaniel/orgs",
+      "repos_url": "https://api.github.com/users/thedaniel/repos",
+      "events_url": "https://api.github.com/users/thedaniel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thedaniel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-21T23:01:34Z",
+    "updated_at": "2014-07-21T23:01:34Z",
+    "body": "Big improvement. Could probably use a deeper rewrite in the future.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49679226",
+    "html_url": "https://github.com/electron/electron/pull/495#issuecomment-49679226",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/495",
+    "id": 49679226,
+    "user": {
+      "login": "batjko",
+      "id": 7287076,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7287076?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/batjko",
+      "html_url": "https://github.com/batjko",
+      "followers_url": "https://api.github.com/users/batjko/followers",
+      "following_url": "https://api.github.com/users/batjko/following{/other_user}",
+      "gists_url": "https://api.github.com/users/batjko/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/batjko/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/batjko/subscriptions",
+      "organizations_url": "https://api.github.com/users/batjko/orgs",
+      "repos_url": "https://api.github.com/users/batjko/repos",
+      "events_url": "https://api.github.com/users/batjko/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/batjko/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-21T23:18:09Z",
+    "updated_at": "2014-07-21T23:18:09Z",
+    "body": "Yup, it's a good first nudge into getting interested, though.\n"
+  }
+]

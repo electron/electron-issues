@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/233952291",
+    "html_url": "https://github.com/electron/electron/issues/6546#issuecomment-233952291",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6546",
+    "id": 233952291,
+    "user": {
+      "login": "changkun",
+      "id": 5498964,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5498964?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/changkun",
+      "html_url": "https://github.com/changkun",
+      "followers_url": "https://api.github.com/users/changkun/followers",
+      "following_url": "https://api.github.com/users/changkun/following{/other_user}",
+      "gists_url": "https://api.github.com/users/changkun/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/changkun/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/changkun/subscriptions",
+      "organizations_url": "https://api.github.com/users/changkun/orgs",
+      "repos_url": "https://api.github.com/users/changkun/repos",
+      "events_url": "https://api.github.com/users/changkun/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/changkun/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-20T13:41:49Z",
+    "updated_at": "2016-07-20T13:41:49Z",
+    "body": "Well, I think I found the reason, if we created multiple windows, somehow the url will be open inside the window, and 'will-navigate' is much better than 'new-window' in this case. \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/234207244",
+    "html_url": "https://github.com/electron/electron/issues/6546#issuecomment-234207244",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6546",
+    "id": 234207244,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-21T09:46:48Z",
+    "updated_at": "2016-07-21T09:46:48Z",
+    "body": "The `new-window` event is only emitted when the page requests to open a new window, like calling `window.open`. Clicking a link does not always belong to this event. \n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/181083731",
+    "html_url": "https://github.com/electron/electron/pull/4408#issuecomment-181083731",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4408",
+    "id": 181083731,
+    "user": {
+      "login": "adam-lynch",
+      "id": 1427241,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1427241?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adam-lynch",
+      "html_url": "https://github.com/adam-lynch",
+      "followers_url": "https://api.github.com/users/adam-lynch/followers",
+      "following_url": "https://api.github.com/users/adam-lynch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adam-lynch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adam-lynch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adam-lynch/subscriptions",
+      "organizations_url": "https://api.github.com/users/adam-lynch/orgs",
+      "repos_url": "https://api.github.com/users/adam-lynch/repos",
+      "events_url": "https://api.github.com/users/adam-lynch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adam-lynch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-07T19:04:26Z",
+    "updated_at": "2016-02-07T19:05:29Z",
+    "body": "See #4410 instead\n"
+  }
+]

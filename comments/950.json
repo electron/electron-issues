@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/67995865",
+    "html_url": "https://github.com/electron/electron/issues/950#issuecomment-67995865",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/950",
+    "id": 67995865,
+    "user": {
+      "login": "thedaniel",
+      "id": 1476,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1476?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thedaniel",
+      "html_url": "https://github.com/thedaniel",
+      "followers_url": "https://api.github.com/users/thedaniel/followers",
+      "following_url": "https://api.github.com/users/thedaniel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thedaniel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thedaniel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thedaniel/subscriptions",
+      "organizations_url": "https://api.github.com/users/thedaniel/orgs",
+      "repos_url": "https://api.github.com/users/thedaniel/repos",
+      "events_url": "https://api.github.com/users/thedaniel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thedaniel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-23T20:37:07Z",
+    "updated_at": "2014-12-23T20:37:07Z",
+    "body": "Very cool! I am going to close this issue though as it is not a bug/enhancement/feedback request for atom-shell itself. Good luck with lily!\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/271833375",
+    "html_url": "https://github.com/electron/electron/pull/8377#issuecomment-271833375",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8377",
+    "id": 271833375,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-01-11T10:28:15Z",
+    "updated_at": "2017-01-11T10:28:15Z",
+    "body": "> @zcbenz was this what you were thinking for #7490 (comment)?\r\n\r\nI don't quite remember, but this PR looks good to me."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/275154747",
+    "html_url": "https://github.com/electron/electron/pull/8377#issuecomment-275154747",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8377",
+    "id": 275154747,
+    "user": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/842846?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-25T16:23:04Z",
+    "updated_at": "2017-01-25T16:23:04Z",
+    "body": "My bad for not reviewing, somehow I didn't saw this notification."
+  }
+]

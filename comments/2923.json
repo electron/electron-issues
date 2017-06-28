@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/143749920",
+    "html_url": "https://github.com/electron/electron/issues/2923#issuecomment-143749920",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2923",
+    "id": 143749920,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-28T13:55:34Z",
+    "updated_at": "2015-09-28T13:55:34Z",
+    "body": "This guide seems to work: http://www.thecssninja.com/javascript/gmail-dragout\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/291479899",
+    "html_url": "https://github.com/electron/electron/issues/2923#issuecomment-291479899",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2923",
+    "id": 291479899,
+    "user": {
+      "login": "hems",
+      "id": 27327,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/27327?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hems",
+      "html_url": "https://github.com/hems",
+      "followers_url": "https://api.github.com/users/hems/followers",
+      "following_url": "https://api.github.com/users/hems/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hems/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hems/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hems/subscriptions",
+      "organizations_url": "https://api.github.com/users/hems/orgs",
+      "repos_url": "https://api.github.com/users/hems/repos",
+      "events_url": "https://api.github.com/users/hems/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hems/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-04T12:06:40Z",
+    "updated_at": "2017-04-04T12:06:40Z",
+    "body": "@zcbenz this guide works for images and to put images onto Finder, but this issue goes way deeper than that ( unfortunately ).\r\n\r\nFor instance when dragging an audio file into an audio application it by default won't let you \"drop in\" the file because it seems there is some issues on communication and the target application might not understand the kind of file that is being dragged over.\r\n\r\n@alexbilbie which kind of file have you tried?\r\n\r\nIt seems image files does work fine, for instance dragging a JPG onto photoshop but during my tests dragging a WAV file or MP3 file into an audio application isn't working as expected. \r\n\r\nAnyone successfully managed to do it? Any help on this direction would be more than appreciated."
+  }
+]

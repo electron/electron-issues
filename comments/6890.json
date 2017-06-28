@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/240637202",
+    "html_url": "https://github.com/electron/electron/issues/6890#issuecomment-240637202",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6890",
+    "id": 240637202,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-18T06:40:45Z",
+    "updated_at": "2016-08-18T06:40:45Z",
+    "body": "Calling `fork` in Electron would run the script in a pure Node environment which doesn't have electron APIs, and spawning Electron process in the forked script would also make Electron think it should run as Node. This behavior is to match most Node modules' expectations.\n\nTo work around this, you can remove `ELECTRON_RUN_AS_NODE` from the environment variables. \n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/46107150",
+    "html_url": "https://github.com/electron/electron/issues/401#issuecomment-46107150",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/401",
+    "id": 46107150,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-06-15T05:08:03Z",
+    "updated_at": "2014-06-15T05:08:03Z",
+    "body": "There is no way to override system wide keyboard shortcuts with standard API on Mac.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/46117317",
+    "html_url": "https://github.com/electron/electron/issues/401#issuecomment-46117317",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/401",
+    "id": 46117317,
+    "user": {
+      "login": "adhithyan15",
+      "id": 1253290,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1253290?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adhithyan15",
+      "html_url": "https://github.com/adhithyan15",
+      "followers_url": "https://api.github.com/users/adhithyan15/followers",
+      "following_url": "https://api.github.com/users/adhithyan15/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adhithyan15/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adhithyan15/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adhithyan15/subscriptions",
+      "organizations_url": "https://api.github.com/users/adhithyan15/orgs",
+      "repos_url": "https://api.github.com/users/adhithyan15/repos",
+      "events_url": "https://api.github.com/users/adhithyan15/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adhithyan15/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-06-15T14:35:13Z",
+    "updated_at": "2014-06-15T14:35:13Z",
+    "body": "Thanks @zcbenz!\n"
+  }
+]

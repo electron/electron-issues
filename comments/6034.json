@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225753256",
+    "html_url": "https://github.com/electron/electron/pull/6034#issuecomment-225753256",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6034",
+    "id": 225753256,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-14T01:06:17Z",
+    "updated_at": "2016-06-14T01:06:17Z",
+    "body": "This is probably hiding the root cause of the problem, usually the WebContents of BrowserWindow and webview should be destroyed after the background pages.\n\nIs is because we are also calling `hookWebContentsForTabEvents` for background pages?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225943969",
+    "html_url": "https://github.com/electron/electron/pull/6034#issuecomment-225943969",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6034",
+    "id": 225943969,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-14T16:50:19Z",
+    "updated_at": "2016-06-14T16:50:19Z",
+    "body": "> Is is because we are also calling hookWebContentsForTabEvents for background pages?\n\nYeah, I think it is 👍 \n\nClosing this out since #6035 should now address this since a background page check is in there, thanks for the feedback ⭐ \n"
+  }
+]

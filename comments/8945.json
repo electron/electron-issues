@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/287555591",
+    "html_url": "https://github.com/electron/electron/issues/8945#issuecomment-287555591",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8945",
+    "id": 287555591,
+    "user": {
+      "login": "paul321",
+      "id": 555502,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/555502?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paul321",
+      "html_url": "https://github.com/paul321",
+      "followers_url": "https://api.github.com/users/paul321/followers",
+      "following_url": "https://api.github.com/users/paul321/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paul321/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paul321/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paul321/subscriptions",
+      "organizations_url": "https://api.github.com/users/paul321/orgs",
+      "repos_url": "https://api.github.com/users/paul321/repos",
+      "events_url": "https://api.github.com/users/paul321/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paul321/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-18T16:05:00Z",
+    "updated_at": "2017-03-18T16:05:00Z",
+    "body": "Found the issue, it was a long running query that took 30 mins to run without indexes so, problem solved.\r\nClosing this one"
+  }
+]

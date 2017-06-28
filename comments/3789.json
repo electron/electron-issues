@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/164125504",
+    "html_url": "https://github.com/electron/electron/pull/3789#issuecomment-164125504",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3789",
+    "id": 164125504,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-12T08:32:41Z",
+    "updated_at": "2015-12-12T08:32:41Z",
+    "body": "We are crashing V8 :(\n\n```\n0   libnode.dylib                   0x0000000113066322 v8::internal::Heap::IterateAndMarkPointersToFromSpace(v8::internal::HeapObject*, unsigned char*, unsigned char*, bool, void (*)(v8::internal::HeapObject**, v8::internal::HeapObject*)) + 386\n1   libnode.dylib                   0x0000000113065bfe v8::internal::Heap::DoScavenge(v8::internal::ObjectVisitor*, unsigned char*) + 574\n2   libnode.dylib                   0x00000001130647e9 v8::internal::Heap::Scavenge() + 937\n3   libnode.dylib                   0x0000000113063353 v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) + 915\n4   libnode.dylib                   0x0000000113062bce v8::internal::Heap::CollectGarbage(v8::internal::GarbageCollector, char const*, char const*, v8::GCCallbackFlags) + 606\n5   libnode.dylib                   0x000000011303098f v8::internal::Factory::NewUninitializedFixedArray(int) + 95\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/164429607",
+    "html_url": "https://github.com/electron/electron/pull/3789#issuecomment-164429607",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3789",
+    "id": 164429607,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-14T12:54:59Z",
+    "updated_at": "2015-12-14T12:54:59Z",
+    "body": "Awesome! :+1: \n"
+  }
+]

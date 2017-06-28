@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/236451803",
+    "html_url": "https://github.com/electron/electron/issues/6664#issuecomment-236451803",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6664",
+    "id": 236451803,
+    "user": {
+      "login": "andreyavram",
+      "id": 584270,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/584270?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/andreyavram",
+      "html_url": "https://github.com/andreyavram",
+      "followers_url": "https://api.github.com/users/andreyavram/followers",
+      "following_url": "https://api.github.com/users/andreyavram/following{/other_user}",
+      "gists_url": "https://api.github.com/users/andreyavram/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/andreyavram/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/andreyavram/subscriptions",
+      "organizations_url": "https://api.github.com/users/andreyavram/orgs",
+      "repos_url": "https://api.github.com/users/andreyavram/repos",
+      "events_url": "https://api.github.com/users/andreyavram/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/andreyavram/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-31T19:35:07Z",
+    "updated_at": "2016-07-31T19:35:07Z",
+    "body": "Also, if the app gets fullscreened, this has no effect:\nrequire(\"electron\").remote.getCurrentWindow().setContentSize(1080,1920) , calling getContentSize() returns the previous size.\nSame thing with setSize, or setBounds. \nResizable is true.\n Window.screen(rendered) correctly detects the height and width of the fullscreened app.\n"
+  }
+]

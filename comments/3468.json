@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/157598100",
+    "html_url": "https://github.com/electron/electron/issues/3468#issuecomment-157598100",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3468",
+    "id": 157598100,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-18T03:52:59Z",
+    "updated_at": "2015-11-18T03:52:59Z",
+    "body": "I love the original protocol design, but it is against the design of Chromium's network stack and has many bugs and limitations, you can find more about the decision in #2475.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/157601991",
+    "html_url": "https://github.com/electron/electron/issues/3468#issuecomment-157601991",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3468",
+    "id": 157601991,
+    "user": {
+      "login": "ssboisen",
+      "id": 574189,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/574189?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ssboisen",
+      "html_url": "https://github.com/ssboisen",
+      "followers_url": "https://api.github.com/users/ssboisen/followers",
+      "following_url": "https://api.github.com/users/ssboisen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ssboisen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ssboisen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ssboisen/subscriptions",
+      "organizations_url": "https://api.github.com/users/ssboisen/orgs",
+      "repos_url": "https://api.github.com/users/ssboisen/repos",
+      "events_url": "https://api.github.com/users/ssboisen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ssboisen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-18T04:30:59Z",
+    "updated_at": "2015-11-18T04:31:13Z",
+    "body": "That is unfortunate! I guess the only way to get around this now then is by using `protocol.interceptHttpProtocol` with an integrated web server that acts as a sorta proxy for a local file and a remote one.\n"
+  }
+]

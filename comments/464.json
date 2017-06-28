@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/50382567",
+    "html_url": "https://github.com/electron/electron/issues/464#issuecomment-50382567",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/464",
+    "id": 50382567,
+    "user": {
+      "login": "marcbachmann",
+      "id": 431376,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/431376?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marcbachmann",
+      "html_url": "https://github.com/marcbachmann",
+      "followers_url": "https://api.github.com/users/marcbachmann/followers",
+      "following_url": "https://api.github.com/users/marcbachmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marcbachmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marcbachmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marcbachmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/marcbachmann/orgs",
+      "repos_url": "https://api.github.com/users/marcbachmann/repos",
+      "events_url": "https://api.github.com/users/marcbachmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marcbachmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-28T18:59:03Z",
+    "updated_at": "2014-07-28T18:59:03Z",
+    "body": "Temporary solution: https://github.com/rogerwang/node-webkit/issues/236#issuecomment-33526841\n"
+  }
+]

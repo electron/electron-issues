@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/65184644",
+    "html_url": "https://github.com/electron/electron/issues/878#issuecomment-65184644",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/878",
+    "id": 65184644,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-02T05:19:42Z",
+    "updated_at": "2014-12-02T05:19:42Z",
+    "body": "@cyvirus Can you paste the output of `clang --version`?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/68189552",
+    "html_url": "https://github.com/electron/electron/issues/878#issuecomment-68189552",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/878",
+    "id": 68189552,
+    "user": {
+      "login": "desm",
+      "id": 805145,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/805145?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/desm",
+      "html_url": "https://github.com/desm",
+      "followers_url": "https://api.github.com/users/desm/followers",
+      "following_url": "https://api.github.com/users/desm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/desm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/desm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/desm/subscriptions",
+      "organizations_url": "https://api.github.com/users/desm/orgs",
+      "repos_url": "https://api.github.com/users/desm/repos",
+      "events_url": "https://api.github.com/users/desm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/desm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-27T20:39:15Z",
+    "updated_at": "2014-12-27T20:39:15Z",
+    "body": "Not sure why this issue is closed, as it helped me.  I was having the same issue.  Ubuntu 12.04.  clang was 3.0-6ubuntu3 (from an 'apt-get install clang').  Upgrading using 'apt-get install clang-3.4' did the trick.  Thanks!\n"
+  }
+]

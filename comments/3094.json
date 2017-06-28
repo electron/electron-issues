@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/154217346",
+    "html_url": "https://github.com/electron/electron/issues/3094#issuecomment-154217346",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3094",
+    "id": 154217346,
+    "user": {
+      "login": "nishanths",
+      "id": 6028224,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6028224?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nishanths",
+      "html_url": "https://github.com/nishanths",
+      "followers_url": "https://api.github.com/users/nishanths/followers",
+      "following_url": "https://api.github.com/users/nishanths/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nishanths/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nishanths/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nishanths/subscriptions",
+      "organizations_url": "https://api.github.com/users/nishanths/orgs",
+      "repos_url": "https://api.github.com/users/nishanths/repos",
+      "events_url": "https://api.github.com/users/nishanths/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nishanths/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-05T22:35:05Z",
+    "updated_at": "2015-11-05T22:35:05Z",
+    "body": "+1 I can pick this up \n"
+  }
+]

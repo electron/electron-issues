@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/127057201",
+    "html_url": "https://github.com/electron/electron/issues/2398#issuecomment-127057201",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2398",
+    "id": 127057201,
+    "user": {
+      "login": "s-a",
+      "id": 1270662,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1270662?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s-a",
+      "html_url": "https://github.com/s-a",
+      "followers_url": "https://api.github.com/users/s-a/followers",
+      "following_url": "https://api.github.com/users/s-a/following{/other_user}",
+      "gists_url": "https://api.github.com/users/s-a/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/s-a/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/s-a/subscriptions",
+      "organizations_url": "https://api.github.com/users/s-a/orgs",
+      "repos_url": "https://api.github.com/users/s-a/repos",
+      "events_url": "https://api.github.com/users/s-a/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/s-a/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-02T19:18:42Z",
+    "updated_at": "2015-08-02T19:19:23Z",
+    "body": "Ok this is weird for me. I got it. It worked, but after restart electron will load the added DevTools Extension never again :sob: ...\n\n```\nvar path = require('path');\nvar Theme = function() {\n    this.init();\n    return this;\n}\n\nTheme.prototype.init = function() {\n    var dir = path.join(__dirname, \"chrome-devtools-zerodarkmatrix-theme-master\",\"theme-extension\" );\n    require('remote').require('browser-window').addDevToolsExtension(dir);\n    debugger;\n};\n\n\nmodule.exports = Theme;\n```\n\nCan anybody point me to what I am doing wrong here? I have tried to close and re open dev tools to refresh contents. without success.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/127058303",
+    "html_url": "https://github.com/electron/electron/issues/2398#issuecomment-127058303",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2398",
+    "id": 127058303,
+    "user": {
+      "login": "s-a",
+      "id": 1270662,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1270662?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s-a",
+      "html_url": "https://github.com/s-a",
+      "followers_url": "https://api.github.com/users/s-a/followers",
+      "following_url": "https://api.github.com/users/s-a/following{/other_user}",
+      "gists_url": "https://api.github.com/users/s-a/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/s-a/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/s-a/subscriptions",
+      "organizations_url": "https://api.github.com/users/s-a/orgs",
+      "repos_url": "https://api.github.com/users/s-a/repos",
+      "events_url": "https://api.github.com/users/s-a/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/s-a/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-02T19:23:36Z",
+    "updated_at": "2015-08-02T19:23:36Z",
+    "body": "OK ! Sorry for the noise. An Electron process was not ended correctly. After killing them all. It works :+1: :laughing: \n"
+  }
+]

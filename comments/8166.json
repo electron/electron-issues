@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/265740166",
+    "html_url": "https://github.com/electron/electron/issues/8166#issuecomment-265740166",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8166",
+    "id": 265740166,
+    "user": {
+      "login": "sindresorhus",
+      "id": 170270,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/170270?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sindresorhus",
+      "html_url": "https://github.com/sindresorhus",
+      "followers_url": "https://api.github.com/users/sindresorhus/followers",
+      "following_url": "https://api.github.com/users/sindresorhus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sindresorhus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sindresorhus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sindresorhus/subscriptions",
+      "organizations_url": "https://api.github.com/users/sindresorhus/orgs",
+      "repos_url": "https://api.github.com/users/sindresorhus/repos",
+      "events_url": "https://api.github.com/users/sindresorhus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sindresorhus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-08T13:32:26Z",
+    "updated_at": "2016-12-08T13:32:26Z",
+    "body": "Seems similar to https://github.com/electron/electron/issues/5918. I totally agree it's not the expected behavior."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/268586582",
+    "html_url": "https://github.com/electron/electron/issues/8166#issuecomment-268586582",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8166",
+    "id": 268586582,
+    "user": {
+      "login": "CodeTheory",
+      "id": 1695613,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1695613?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/CodeTheory",
+      "html_url": "https://github.com/CodeTheory",
+      "followers_url": "https://api.github.com/users/CodeTheory/followers",
+      "following_url": "https://api.github.com/users/CodeTheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/CodeTheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/CodeTheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/CodeTheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/CodeTheory/orgs",
+      "repos_url": "https://api.github.com/users/CodeTheory/repos",
+      "events_url": "https://api.github.com/users/CodeTheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/CodeTheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-21T17:32:57Z",
+    "updated_at": "2016-12-21T17:32:57Z",
+    "body": "In addition to this, resizing also has to be set to `true` in order for `win.maximize()` to work as intended. I think that's just an extension of this issue, though"
+  }
+]

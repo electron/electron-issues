@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308630652",
+    "html_url": "https://github.com/electron/electron/issues/9759#issuecomment-308630652",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9759",
+    "id": 308630652,
+    "user": {
+      "login": "KagamiChan",
+      "id": 3816900,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3816900?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/KagamiChan",
+      "html_url": "https://github.com/KagamiChan",
+      "followers_url": "https://api.github.com/users/KagamiChan/followers",
+      "following_url": "https://api.github.com/users/KagamiChan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/KagamiChan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/KagamiChan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/KagamiChan/subscriptions",
+      "organizations_url": "https://api.github.com/users/KagamiChan/orgs",
+      "repos_url": "https://api.github.com/users/KagamiChan/repos",
+      "events_url": "https://api.github.com/users/KagamiChan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/KagamiChan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-15T05:13:18Z",
+    "updated_at": "2017-06-15T05:13:18Z",
+    "body": "How about using node packages like this one: https://github.com/sebhildebrandt/systeminformation"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308819145",
+    "html_url": "https://github.com/electron/electron/issues/9759#issuecomment-308819145",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9759",
+    "id": 308819145,
+    "user": {
+      "login": "YurySolovyov",
+      "id": 2168518,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2168518?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YurySolovyov",
+      "html_url": "https://github.com/YurySolovyov",
+      "followers_url": "https://api.github.com/users/YurySolovyov/followers",
+      "following_url": "https://api.github.com/users/YurySolovyov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YurySolovyov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YurySolovyov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YurySolovyov/subscriptions",
+      "organizations_url": "https://api.github.com/users/YurySolovyov/orgs",
+      "repos_url": "https://api.github.com/users/YurySolovyov/repos",
+      "events_url": "https://api.github.com/users/YurySolovyov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YurySolovyov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-15T17:52:36Z",
+    "updated_at": "2017-06-15T17:52:36Z",
+    "body": "The downside is that it uses processes spawning that is costly.\r\nOther thing is that it does not seem to provide events for mounting."
+  }
+]

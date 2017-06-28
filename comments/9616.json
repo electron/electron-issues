@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/305480450",
+    "html_url": "https://github.com/electron/electron/issues/9616#issuecomment-305480450",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9616",
+    "id": 305480450,
+    "user": {
+      "login": "KillWolfVlad",
+      "id": 18448635,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18448635?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/KillWolfVlad",
+      "html_url": "https://github.com/KillWolfVlad",
+      "followers_url": "https://api.github.com/users/KillWolfVlad/followers",
+      "following_url": "https://api.github.com/users/KillWolfVlad/following{/other_user}",
+      "gists_url": "https://api.github.com/users/KillWolfVlad/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/KillWolfVlad/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/KillWolfVlad/subscriptions",
+      "organizations_url": "https://api.github.com/users/KillWolfVlad/orgs",
+      "repos_url": "https://api.github.com/users/KillWolfVlad/repos",
+      "events_url": "https://api.github.com/users/KillWolfVlad/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/KillWolfVlad/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-01T12:37:01Z",
+    "updated_at": "2017-06-01T12:37:01Z",
+    "body": "@SalahAdDin, try rebuild your application (e.g. GitKraken) with latest electron version\r\nsee Azd325/gitkraken#39 for more details\r\n\r\n# Expected and Actual behavior\r\n\r\n![image](https://cloud.githubusercontent.com/assets/18448635/26679833/2f037e52-46f0-11e7-92ff-db65a426358f.png)\r\n"
+  }
+]

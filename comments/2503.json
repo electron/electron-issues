@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/131189685",
+    "html_url": "https://github.com/electron/electron/pull/2503#issuecomment-131189685",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2503",
+    "id": 131189685,
+    "user": {
+      "login": "teleclimber",
+      "id": 5631748,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5631748?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teleclimber",
+      "html_url": "https://github.com/teleclimber",
+      "followers_url": "https://api.github.com/users/teleclimber/followers",
+      "following_url": "https://api.github.com/users/teleclimber/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teleclimber/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teleclimber/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teleclimber/subscriptions",
+      "organizations_url": "https://api.github.com/users/teleclimber/orgs",
+      "repos_url": "https://api.github.com/users/teleclimber/repos",
+      "events_url": "https://api.github.com/users/teleclimber/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teleclimber/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-14T17:32:46Z",
+    "updated_at": "2015-08-14T17:32:46Z",
+    "body": "Refer to issue #2499\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/133232889",
+    "html_url": "https://github.com/electron/electron/pull/2503#issuecomment-133232889",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2503",
+    "id": 133232889,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-08-21T00:57:30Z",
+    "updated_at": "2015-08-21T00:57:30Z",
+    "body": "Thanks!\n"
+  }
+]

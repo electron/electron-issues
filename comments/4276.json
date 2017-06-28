@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/176932791",
+    "html_url": "https://github.com/electron/electron/issues/4276#issuecomment-176932791",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4276",
+    "id": 176932791,
+    "user": {
+      "login": "lukeadams",
+      "id": 3508077,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3508077?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lukeadams",
+      "html_url": "https://github.com/lukeadams",
+      "followers_url": "https://api.github.com/users/lukeadams/followers",
+      "following_url": "https://api.github.com/users/lukeadams/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lukeadams/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lukeadams/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lukeadams/subscriptions",
+      "organizations_url": "https://api.github.com/users/lukeadams/orgs",
+      "repos_url": "https://api.github.com/users/lukeadams/repos",
+      "events_url": "https://api.github.com/users/lukeadams/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lukeadams/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-29T19:38:46Z",
+    "updated_at": "2016-01-29T19:38:46Z",
+    "body": "A quick Google search led me [here](https://github.com/atom/electron/blob/master/docs/api/frameless-window.md#draggable-region).\nAdd `-webkit-app-region: drag` to your CSS for whatever element you want to make draggable\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/177072451",
+    "html_url": "https://github.com/electron/electron/issues/4276#issuecomment-177072451",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4276",
+    "id": 177072451,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-30T05:26:55Z",
+    "updated_at": "2016-01-30T05:26:55Z",
+    "body": "If you mean making the contents inside webview draggable, it is impossible for now. The webview is implemented as an independent WebContents, and its DOM is completely separated from its host window, so mouse events inside webview would never be populated outside.\n\nSo the only option is to add a frame for the webview tag and make the frame draggable.\n"
+  }
+]

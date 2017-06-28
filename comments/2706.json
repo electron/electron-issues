@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/144415046",
+    "html_url": "https://github.com/electron/electron/issues/2706#issuecomment-144415046",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2706",
+    "id": 144415046,
+    "user": {
+      "login": "kidwm",
+      "id": 822446,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/822446?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kidwm",
+      "html_url": "https://github.com/kidwm",
+      "followers_url": "https://api.github.com/users/kidwm/followers",
+      "following_url": "https://api.github.com/users/kidwm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kidwm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kidwm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kidwm/subscriptions",
+      "organizations_url": "https://api.github.com/users/kidwm/orgs",
+      "repos_url": "https://api.github.com/users/kidwm/repos",
+      "events_url": "https://api.github.com/users/kidwm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kidwm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-30T13:58:40Z",
+    "updated_at": "2015-09-30T13:58:40Z",
+    "body": "@zcbenz Awesome! 趙大人請受我一拜 Orz\n"
+  }
+]

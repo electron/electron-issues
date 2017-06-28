@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308407114",
+    "html_url": "https://github.com/electron/electron/issues/8977#issuecomment-308407114",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8977",
+    "id": 308407114,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-14T11:47:35Z",
+    "updated_at": "2017-06-14T11:47:35Z",
+    "body": "The `key` passed to `sendInputEvent` must be a single character, the mappings of accelerators are not support in `sendInputEvent` (I'm not sure whether we should add the support). We probably need to make the document more clear.\r\n\r\nClosing since it is expected behavior."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308610508",
+    "html_url": "https://github.com/electron/electron/issues/8977#issuecomment-308610508",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8977",
+    "id": 308610508,
+    "user": {
+      "login": "binux",
+      "id": 646451,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/646451?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/binux",
+      "html_url": "https://github.com/binux",
+      "followers_url": "https://api.github.com/users/binux/followers",
+      "following_url": "https://api.github.com/users/binux/following{/other_user}",
+      "gists_url": "https://api.github.com/users/binux/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/binux/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/binux/subscriptions",
+      "organizations_url": "https://api.github.com/users/binux/orgs",
+      "repos_url": "https://api.github.com/users/binux/repos",
+      "events_url": "https://api.github.com/users/binux/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/binux/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-15T02:25:01Z",
+    "updated_at": "2017-06-15T02:32:36Z",
+    "body": "@zcbenz The document said: \r\n> keyCode String (required) - The character that will be sent as the keyboard event. Should only use the valid key codes in Accelerator.\r\n\r\nAccelerator said:\r\n\r\n> Available key codes\r\n> Return (or Enter as alias)\r\n\r\nI think it's clear but wrong in document.\r\n\r\nAnd you have already support `KeyIdentifier` in `KeyboardCodeFromStr` when getting the keyCode, just because the `text` attribute is set for `keypress` event is not convert https://github.com/electron/electron/blob/master/atom/common/native_mate_converters/blink_converter.cc#L192."
+  }
+]

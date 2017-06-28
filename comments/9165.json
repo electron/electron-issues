@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/293381564",
+    "html_url": "https://github.com/electron/electron/issues/9165#issuecomment-293381564",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9165",
+    "id": 293381564,
+    "user": {
+      "login": "baldwmic",
+      "id": 10538297,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10538297?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/baldwmic",
+      "html_url": "https://github.com/baldwmic",
+      "followers_url": "https://api.github.com/users/baldwmic/followers",
+      "following_url": "https://api.github.com/users/baldwmic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/baldwmic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/baldwmic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/baldwmic/subscriptions",
+      "organizations_url": "https://api.github.com/users/baldwmic/orgs",
+      "repos_url": "https://api.github.com/users/baldwmic/repos",
+      "events_url": "https://api.github.com/users/baldwmic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/baldwmic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-11T19:54:43Z",
+    "updated_at": "2017-04-11T19:54:43Z",
+    "body": "I am also encountering the same problem when trying to generate symbols. It would be superb if there was a helpful guide on how to get human readable stack traces when crash reporting!"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308662377",
+    "html_url": "https://github.com/electron/electron/issues/9165#issuecomment-308662377",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9165",
+    "id": 308662377,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-15T08:17:02Z",
+    "updated_at": "2017-06-15T08:17:02Z",
+    "body": "You can follow how crash reports are symbolized in the mini-breakpad-server project:\r\nhttps://github.com/electron/mini-breakpad-server/blob/master/src/reader.coffee"
+  }
+]

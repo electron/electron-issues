@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/300645993",
+    "html_url": "https://github.com/electron/electron/issues/9421#issuecomment-300645993",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9421",
+    "id": 300645993,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-11T00:05:59Z",
+    "updated_at": "2017-05-11T00:05:59Z",
+    "body": "@alexey-sh That code will remove a lot more than just the touch bar events, it will remove a whole bunch of internal Electron events as well.  You shouldn't ever call `removeAllListeners` if you weren't personally responsible for adding all the listeners to that object, it will cause unintended side effects like this. Things like our internal `blur` listeners and such will also be removed.\r\n\r\nI would say adding docs to say just don't use `removeAllListeners` on a browser window would be a good recommendation 👍 "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/300745593",
+    "html_url": "https://github.com/electron/electron/issues/9421#issuecomment-300745593",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9421",
+    "id": 300745593,
+    "user": {
+      "login": "sindresorhus",
+      "id": 170270,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/170270?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sindresorhus",
+      "html_url": "https://github.com/sindresorhus",
+      "followers_url": "https://api.github.com/users/sindresorhus/followers",
+      "following_url": "https://api.github.com/users/sindresorhus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sindresorhus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sindresorhus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sindresorhus/subscriptions",
+      "organizations_url": "https://api.github.com/users/sindresorhus/orgs",
+      "repos_url": "https://api.github.com/users/sindresorhus/repos",
+      "events_url": "https://api.github.com/users/sindresorhus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sindresorhus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-11T10:10:35Z",
+    "updated_at": "2017-05-11T10:10:35Z",
+    "body": "> I would say adding docs to say just don't use removeAllListeners on a browser window would be a good recommendation 👍\r\n\r\nI would take it even further. Either remove the method from the window or make it apply only to user event handles."
+  }
+]

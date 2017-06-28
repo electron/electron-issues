@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/235104237",
+    "html_url": "https://github.com/electron/electron/pull/6600#issuecomment-235104237",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6600",
+    "id": 235104237,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-25T22:21:09Z",
+    "updated_at": "2016-07-25T22:21:09Z",
+    "body": "👍 Thanks for this \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/235108398",
+    "html_url": "https://github.com/electron/electron/pull/6600#issuecomment-235108398",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6600",
+    "id": 235108398,
+    "user": {
+      "login": "feross",
+      "id": 121766,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/121766?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/feross",
+      "html_url": "https://github.com/feross",
+      "followers_url": "https://api.github.com/users/feross/followers",
+      "following_url": "https://api.github.com/users/feross/following{/other_user}",
+      "gists_url": "https://api.github.com/users/feross/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/feross/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/feross/subscriptions",
+      "organizations_url": "https://api.github.com/users/feross/orgs",
+      "repos_url": "https://api.github.com/users/feross/repos",
+      "events_url": "https://api.github.com/users/feross/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/feross/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-25T22:40:43Z",
+    "updated_at": "2016-07-25T22:40:43Z",
+    "body": "👏 no problem!\n"
+  }
+]

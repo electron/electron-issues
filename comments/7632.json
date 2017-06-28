@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/254017112",
+    "html_url": "https://github.com/electron/electron/issues/7632#issuecomment-254017112",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7632",
+    "id": 254017112,
+    "user": {
+      "login": "reidmweber",
+      "id": 2104873,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2104873?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/reidmweber",
+      "html_url": "https://github.com/reidmweber",
+      "followers_url": "https://api.github.com/users/reidmweber/followers",
+      "following_url": "https://api.github.com/users/reidmweber/following{/other_user}",
+      "gists_url": "https://api.github.com/users/reidmweber/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/reidmweber/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/reidmweber/subscriptions",
+      "organizations_url": "https://api.github.com/users/reidmweber/orgs",
+      "repos_url": "https://api.github.com/users/reidmweber/repos",
+      "events_url": "https://api.github.com/users/reidmweber/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/reidmweber/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-15T23:20:31Z",
+    "updated_at": "2016-10-15T23:20:31Z",
+    "body": "It looks like this is a crash in usb-detection. \nI built electron in debug, attached to all the electron processes and caught the exception thrown in detection.cpp of usb-detection. It is happening in NotifyRemoved on line 87. \nhttps://github.com/MadLittleMods/node-usb-detection/blob/master/src/detection.cpp\nI haven't figured out why yet but I'll close this issue here and open one over there. \n"
+  }
+]

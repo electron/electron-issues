@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224105930",
+    "html_url": "https://github.com/electron/electron/issues/5895#issuecomment-224105930",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5895",
+    "id": 224105930,
+    "user": {
+      "login": "MariasStory",
+      "id": 6576335,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6576335?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MariasStory",
+      "html_url": "https://github.com/MariasStory",
+      "followers_url": "https://api.github.com/users/MariasStory/followers",
+      "following_url": "https://api.github.com/users/MariasStory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MariasStory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MariasStory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MariasStory/subscriptions",
+      "organizations_url": "https://api.github.com/users/MariasStory/orgs",
+      "repos_url": "https://api.github.com/users/MariasStory/repos",
+      "events_url": "https://api.github.com/users/MariasStory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MariasStory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-06T22:17:38Z",
+    "updated_at": "2016-06-06T22:17:38Z",
+    "body": "Sorry. Just a wrong path to the executable.\n\nWorks like a charm.\n\nPlease close the issue\n"
+  }
+]

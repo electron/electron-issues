@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/129342340",
+    "html_url": "https://github.com/electron/electron/pull/2465#issuecomment-129342340",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2465",
+    "id": 129342340,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-08-10T07:47:17Z",
+    "updated_at": "2015-08-10T07:47:17Z",
+    "body": "AWS is down, ignoring the failed specs.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/129427509",
+    "html_url": "https://github.com/electron/electron/pull/2465#issuecomment-129427509",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2465",
+    "id": 129427509,
+    "user": {
+      "login": "seanchas116",
+      "id": 1025246,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1025246?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/seanchas116",
+      "html_url": "https://github.com/seanchas116",
+      "followers_url": "https://api.github.com/users/seanchas116/followers",
+      "following_url": "https://api.github.com/users/seanchas116/following{/other_user}",
+      "gists_url": "https://api.github.com/users/seanchas116/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/seanchas116/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/seanchas116/subscriptions",
+      "organizations_url": "https://api.github.com/users/seanchas116/orgs",
+      "repos_url": "https://api.github.com/users/seanchas116/repos",
+      "events_url": "https://api.github.com/users/seanchas116/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/seanchas116/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-10T12:32:53Z",
+    "updated_at": "2015-08-10T12:32:53Z",
+    "body": "This fixed the problem, thanks @zcbenz !\n"
+  }
+]

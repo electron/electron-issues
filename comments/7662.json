@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/254509990",
+    "html_url": "https://github.com/electron/electron/issues/7662#issuecomment-254509990",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7662",
+    "id": 254509990,
+    "user": {
+      "login": "davej",
+      "id": 26971,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26971?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/davej",
+      "html_url": "https://github.com/davej",
+      "followers_url": "https://api.github.com/users/davej/followers",
+      "following_url": "https://api.github.com/users/davej/following{/other_user}",
+      "gists_url": "https://api.github.com/users/davej/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/davej/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/davej/subscriptions",
+      "organizations_url": "https://api.github.com/users/davej/orgs",
+      "repos_url": "https://api.github.com/users/davej/repos",
+      "events_url": "https://api.github.com/users/davej/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/davej/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-18T13:38:06Z",
+    "updated_at": "2016-10-18T13:38:16Z",
+    "body": "Somewhat related to #1334.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/255661677",
+    "html_url": "https://github.com/electron/electron/issues/7662#issuecomment-255661677",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7662",
+    "id": 255661677,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-24T06:53:59Z",
+    "updated_at": "2016-10-24T06:53:59Z",
+    "body": "On macOS calling `Menu.setApplicationMenu` registers the accelerators of menu regardless of whether the app is a tray app, however your app must have a dock icon to make the key shortcuts work, and key shortcuts only work when your app is focused.\n\nIf you want to make key shortcuts work when your app is not focused, you can to register global key shortcuts.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/96176609",
+    "html_url": "https://github.com/electron/electron/issues/1489#issuecomment-96176609",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1489",
+    "id": 96176609,
+    "user": {
+      "login": "mattcollier",
+      "id": 902041,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/902041?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mattcollier",
+      "html_url": "https://github.com/mattcollier",
+      "followers_url": "https://api.github.com/users/mattcollier/followers",
+      "following_url": "https://api.github.com/users/mattcollier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mattcollier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mattcollier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mattcollier/subscriptions",
+      "organizations_url": "https://api.github.com/users/mattcollier/orgs",
+      "repos_url": "https://api.github.com/users/mattcollier/repos",
+      "events_url": "https://api.github.com/users/mattcollier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mattcollier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-25T11:10:26Z",
+    "updated_at": "2015-04-25T11:10:26Z",
+    "body": "@popopome Thank you for creating the test app!  Providing the app in a zip archive is not recommended.  Would it be possible for you to create a gist or a full on github repo (as necessary)?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/97309281",
+    "html_url": "https://github.com/electron/electron/issues/1489#issuecomment-97309281",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1489",
+    "id": 97309281,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-04-29T05:19:27Z",
+    "updated_at": "2015-04-29T05:19:27Z",
+    "body": "I can not reproduce with your app, can you provide more information about for OS? And are you using the latest release (v0.25.1)?\n"
+  }
+]

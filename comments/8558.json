@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/276990320",
+    "html_url": "https://github.com/electron/electron/issues/8558#issuecomment-276990320",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8558",
+    "id": 276990320,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-02T15:33:58Z",
+    "updated_at": "2017-02-02T15:33:58Z",
+    "body": "Thanks for the test case. But I think this is most likely a misuse of formidable or a bug in it, depends on if the encoding of the data is maintained when written to the file. Replace `fileData` with the following,\r\n\r\n```\r\nconst defaultEncodedFileData = fs.readFileSync(files.upload.path)\r\nconst fileData = Buffer.from(defaultEncodedFileData.toString(), 'binary')\r\n```\r\n\r\nAlso tested with\r\n\r\n```\r\n// Replace upload data in http handler with:\r\nresRequest.uploadData = {\r\n  contentType: 'application/octet-stream',\r\n  data: binaryData.toString('binary')\r\n};\r\n\r\n// replace /upload path handler with:\r\nif (req.url == '/upload' && req.method.toLowerCase() == 'post') {\r\n  let body = ''\r\n  req.on('data', (data) => {\r\n    if (data) {\r\n      body += data\r\n    }\r\n  })\r\n  req.on('end', () => {\r\n    const equal = binaryData.equals(Buffer.from(body, 'binary'))\r\n    res.writeHead(200, {'content-type': 'text/plain'});\r\n    res.end(`Binary data is ${equal ? 'ok' : 'corrupted'}`);\r\n  })\r\n  return;\r\n}\r\n```\r\n\r\nClosing since its not a bug in Electron. Also upload with custom protocol isn't much flexible for file uploads now, there is an issue tracking to enhance it https://github.com/electron/electron/issues/8503"
+  }
+]

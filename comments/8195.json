@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/266753077",
+    "html_url": "https://github.com/electron/electron/issues/8195#issuecomment-266753077",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8195",
+    "id": 266753077,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-13T14:32:17Z",
+    "updated_at": "2016-12-13T14:32:17Z",
+    "body": "GitHub issues are for feature requests and bug reports, questions about using Electron APIs should be directed to [the community](https://github.com/electron/electron#community).\r\n\r\nElectron doesn't provide any API to do what you want, and OS vendors generally don't make this easy to do with the native platform APIs either due to the security implications."
+  }
+]

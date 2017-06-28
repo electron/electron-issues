@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/249792476",
+    "html_url": "https://github.com/electron/electron/issues/7357#issuecomment-249792476",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7357",
+    "id": 249792476,
+    "user": {
+      "login": "salomvary",
+      "id": 193923,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/193923?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/salomvary",
+      "html_url": "https://github.com/salomvary",
+      "followers_url": "https://api.github.com/users/salomvary/followers",
+      "following_url": "https://api.github.com/users/salomvary/following{/other_user}",
+      "gists_url": "https://api.github.com/users/salomvary/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/salomvary/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/salomvary/subscriptions",
+      "organizations_url": "https://api.github.com/users/salomvary/orgs",
+      "repos_url": "https://api.github.com/users/salomvary/repos",
+      "events_url": "https://api.github.com/users/salomvary/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/salomvary/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-27T07:54:25Z",
+    "updated_at": "2016-09-27T07:54:25Z",
+    "body": "Workaround:\n\n``` js\nfs.access(app.getPath('exe'), fs.constants.W_OK, err => {\n  if (err && err.code == 'EROFS')\n    console.log('Disabled automatic updates on a read-only file system.')\n  else\n     // start autoUpdater\n})\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250142496",
+    "html_url": "https://github.com/electron/electron/issues/7357#issuecomment-250142496",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7357",
+    "id": 250142496,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-28T11:36:07Z",
+    "updated_at": "2016-09-28T11:36:07Z",
+    "body": "I'm merging this to #4603, which would provide a way to fix this.\n"
+  }
+]

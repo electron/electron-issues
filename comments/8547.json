@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/295536984",
+    "html_url": "https://github.com/electron/electron/issues/8547#issuecomment-295536984",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8547",
+    "id": 295536984,
+    "user": {
+      "login": "liliakai",
+      "id": 1039940,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1039940?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/liliakai",
+      "html_url": "https://github.com/liliakai",
+      "followers_url": "https://api.github.com/users/liliakai/followers",
+      "following_url": "https://api.github.com/users/liliakai/following{/other_user}",
+      "gists_url": "https://api.github.com/users/liliakai/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/liliakai/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/liliakai/subscriptions",
+      "organizations_url": "https://api.github.com/users/liliakai/orgs",
+      "repos_url": "https://api.github.com/users/liliakai/repos",
+      "events_url": "https://api.github.com/users/liliakai/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/liliakai/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-20T01:44:56Z",
+    "updated_at": "2017-04-20T01:45:17Z",
+    "body": "There are now multiple requests for `webFrame` support in sandboxed renderers over at #6712, but I think this particular use case would also be satisfied by allowing the main process access to `setSpellCheckProvider` via `webContents`, as is done with several other `webFrame`-specific methods [here](https://github.com/electron/electron/blob/master/lib/browser/api/web-contents.js#L109)."
+  }
+]

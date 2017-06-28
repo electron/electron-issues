@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/61055413",
+    "html_url": "https://github.com/electron/electron/issues/657#issuecomment-61055413",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/657",
+    "id": 61055413,
+    "user": {
+      "login": "cobalamin",
+      "id": 669103,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/669103?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cobalamin",
+      "html_url": "https://github.com/cobalamin",
+      "followers_url": "https://api.github.com/users/cobalamin/followers",
+      "following_url": "https://api.github.com/users/cobalamin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cobalamin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cobalamin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cobalamin/subscriptions",
+      "organizations_url": "https://api.github.com/users/cobalamin/orgs",
+      "repos_url": "https://api.github.com/users/cobalamin/repos",
+      "events_url": "https://api.github.com/users/cobalamin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cobalamin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-10-30T07:45:05Z",
+    "updated_at": "2014-10-30T07:45:05Z",
+    "body": "+1, though I wasn't able to find any documentation on `as_desktop`. Only this: https://github.com/rogerwang/node-webkit/wiki/Screen\n\nWhich would be good enough to use as an API, and then open multiple BrowserWindow instances using the screen information. If I'm not missing something, then such an API would be awesome to have.\n"
+  }
+]

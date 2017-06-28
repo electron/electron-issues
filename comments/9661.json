@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/306329876",
+    "html_url": "https://github.com/electron/electron/issues/9661#issuecomment-306329876",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9661",
+    "id": 306329876,
+    "user": {
+      "login": "bil-elmoussaoui",
+      "id": 7660997,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7660997?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bil-elmoussaoui",
+      "html_url": "https://github.com/bil-elmoussaoui",
+      "followers_url": "https://api.github.com/users/bil-elmoussaoui/followers",
+      "following_url": "https://api.github.com/users/bil-elmoussaoui/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bil-elmoussaoui/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bil-elmoussaoui/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bil-elmoussaoui/subscriptions",
+      "organizations_url": "https://api.github.com/users/bil-elmoussaoui/orgs",
+      "repos_url": "https://api.github.com/users/bil-elmoussaoui/repos",
+      "events_url": "https://api.github.com/users/bil-elmoussaoui/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bil-elmoussaoui/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-05T22:36:03Z",
+    "updated_at": "2017-06-05T22:36:03Z",
+    "body": "It appears that's somehow a duplicate of this https://github.com/electron/electron/issues/9642"
+  }
+]

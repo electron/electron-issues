@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/123799896",
+    "html_url": "https://github.com/electron/electron/issues/2295#issuecomment-123799896",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2295",
+    "id": 123799896,
+    "user": {
+      "login": "cylinderStudio",
+      "id": 4257657,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4257657?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cylinderStudio",
+      "html_url": "https://github.com/cylinderStudio",
+      "followers_url": "https://api.github.com/users/cylinderStudio/followers",
+      "following_url": "https://api.github.com/users/cylinderStudio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cylinderStudio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cylinderStudio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cylinderStudio/subscriptions",
+      "organizations_url": "https://api.github.com/users/cylinderStudio/orgs",
+      "repos_url": "https://api.github.com/users/cylinderStudio/repos",
+      "events_url": "https://api.github.com/users/cylinderStudio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cylinderStudio/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-22T17:29:01Z",
+    "updated_at": "2015-07-22T17:29:44Z",
+    "body": "I noticed that, post crash/rendering blank-out, when I look in the Sources tab of developer tools, the contents of the files listed in file:// are empty (HTML, CSS, JS, everything), whereas they are populated with content & code when the app is running/displaying normally. (I'm deploying/running the app by putting the contents in the Electron.app/Contents/Resources/app folder.)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/134901577",
+    "html_url": "https://github.com/electron/electron/issues/2295#issuecomment-134901577",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2295",
+    "id": 134901577,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-08-26T08:49:03Z",
+    "updated_at": "2015-08-26T08:49:03Z",
+    "body": "Should have been fixed in v0.31.0, please report back if it doesn't.\n"
+  }
+]

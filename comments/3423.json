@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/156412196",
+    "html_url": "https://github.com/electron/electron/issues/3423#issuecomment-156412196",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3423",
+    "id": 156412196,
+    "user": {
+      "login": "davej",
+      "id": 26971,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26971?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/davej",
+      "html_url": "https://github.com/davej",
+      "followers_url": "https://api.github.com/users/davej/followers",
+      "following_url": "https://api.github.com/users/davej/following{/other_user}",
+      "gists_url": "https://api.github.com/users/davej/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/davej/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/davej/subscriptions",
+      "organizations_url": "https://api.github.com/users/davej/orgs",
+      "repos_url": "https://api.github.com/users/davej/repos",
+      "events_url": "https://api.github.com/users/davej/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/davej/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-13T12:00:42Z",
+    "updated_at": "2015-11-13T12:00:42Z",
+    "body": "`window.module = undefined` should be done in the renderer process not the main process. Do it before any ember/jquery references.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/156425680",
+    "html_url": "https://github.com/electron/electron/issues/3423#issuecomment-156425680",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3423",
+    "id": 156425680,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-13T12:57:08Z",
+    "updated_at": "2015-11-13T12:57:08Z",
+    "body": "You can also just turn off node integration.\n"
+  }
+]

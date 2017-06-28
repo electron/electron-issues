@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217366996",
+    "html_url": "https://github.com/electron/electron/issues/1293#issuecomment-217366996",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1293",
+    "id": 217366996,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-06T07:09:32Z",
+    "updated_at": "2016-05-06T07:09:32Z",
+    "body": "I'm afraid this is not possible with the API provided by Cocoa, neither `[NSScreen screens]` nor `[NSScreen mainScreen]` is able to achieve what you want, and there is no other API we can use. So I'm closing this as won't fix.\n"
+  }
+]

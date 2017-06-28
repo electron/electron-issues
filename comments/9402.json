@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/299789827",
+    "html_url": "https://github.com/electron/electron/issues/9402#issuecomment-299789827",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9402",
+    "id": 299789827,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-08T07:08:01Z",
+    "updated_at": "2017-05-08T07:08:01Z",
+    "body": "GitHub issues are for feature requests and bug reports, questions about using Electron should be directed to the [community](https://github.com/electron/electron#community) or to the [Slack Channel](http://atom-slack.herokuapp.com/).\r\n\r\nI don't see the Electron issue here or even the relevance.  If you wish to use PHP in Electron you will need to set up your own back end to run your code"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/299790273",
+    "html_url": "https://github.com/electron/electron/issues/9402#issuecomment-299790273",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9402",
+    "id": 299790273,
+    "user": {
+      "login": "charliemenruna",
+      "id": 19528211,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/19528211?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/charliemenruna",
+      "html_url": "https://github.com/charliemenruna",
+      "followers_url": "https://api.github.com/users/charliemenruna/followers",
+      "following_url": "https://api.github.com/users/charliemenruna/following{/other_user}",
+      "gists_url": "https://api.github.com/users/charliemenruna/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/charliemenruna/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/charliemenruna/subscriptions",
+      "organizations_url": "https://api.github.com/users/charliemenruna/orgs",
+      "repos_url": "https://api.github.com/users/charliemenruna/repos",
+      "events_url": "https://api.github.com/users/charliemenruna/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/charliemenruna/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-08T07:10:42Z",
+    "updated_at": "2017-05-08T07:10:42Z",
+    "body": "@MarshallOfSound : I have a problem with my contact form every time I click the send button, that message will appear. I don't know how to fix this one, I have been trying my best but I really do need."
+  }
+]

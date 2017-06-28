@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/94201367",
+    "html_url": "https://github.com/electron/electron/issues/1443#issuecomment-94201367",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1443",
+    "id": 94201367,
+    "user": {
+      "login": "mattcollier",
+      "id": 902041,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/902041?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mattcollier",
+      "html_url": "https://github.com/mattcollier",
+      "followers_url": "https://api.github.com/users/mattcollier/followers",
+      "following_url": "https://api.github.com/users/mattcollier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mattcollier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mattcollier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mattcollier/subscriptions",
+      "organizations_url": "https://api.github.com/users/mattcollier/orgs",
+      "repos_url": "https://api.github.com/users/mattcollier/repos",
+      "events_url": "https://api.github.com/users/mattcollier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mattcollier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-18T21:14:42Z",
+    "updated_at": "2015-04-18T21:14:42Z",
+    "body": "@SBSTP, see https://github.com/atom/atom/issues/3593\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/94201387",
+    "html_url": "https://github.com/electron/electron/issues/1443#issuecomment-94201387",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1443",
+    "id": 94201387,
+    "user": {
+      "login": "sbstp",
+      "id": 862368,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/862368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sbstp",
+      "html_url": "https://github.com/sbstp",
+      "followers_url": "https://api.github.com/users/sbstp/followers",
+      "following_url": "https://api.github.com/users/sbstp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sbstp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sbstp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sbstp/subscriptions",
+      "organizations_url": "https://api.github.com/users/sbstp/orgs",
+      "repos_url": "https://api.github.com/users/sbstp/repos",
+      "events_url": "https://api.github.com/users/sbstp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sbstp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-18T21:15:22Z",
+    "updated_at": "2015-04-18T21:15:22Z",
+    "body": "Ok ty.\n"
+  }
+]

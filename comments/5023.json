@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/247707319",
+    "html_url": "https://github.com/electron/electron/issues/5023#issuecomment-247707319",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5023",
+    "id": 247707319,
+    "user": {
+      "login": "fantasticsid",
+      "id": 203771,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/203771?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fantasticsid",
+      "html_url": "https://github.com/fantasticsid",
+      "followers_url": "https://api.github.com/users/fantasticsid/followers",
+      "following_url": "https://api.github.com/users/fantasticsid/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fantasticsid/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fantasticsid/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fantasticsid/subscriptions",
+      "organizations_url": "https://api.github.com/users/fantasticsid/orgs",
+      "repos_url": "https://api.github.com/users/fantasticsid/repos",
+      "events_url": "https://api.github.com/users/fantasticsid/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fantasticsid/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-16T20:57:38Z",
+    "updated_at": "2016-09-16T20:57:38Z",
+    "body": "Hi,\n\nThis does not seem to work for web socket requests as I tested it.\nSo if the websocket returns a 302 with a redirect location, Chrome redirects but Electron does not seem to.\n"
+  }
+]

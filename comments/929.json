@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/67381879",
+    "html_url": "https://github.com/electron/electron/issues/929#issuecomment-67381879",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/929",
+    "id": 67381879,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-12-17T19:50:00Z",
+    "updated_at": "2014-12-17T19:50:00Z",
+    "body": "This is strange, I also use 2.7.8 on my Windows machine but it works fine on my side.\n\nBut I think I can use `http` instead `https` in download url to get rid this.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/67382385",
+    "html_url": "https://github.com/electron/electron/issues/929#issuecomment-67382385",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/929",
+    "id": 67382385,
+    "user": {
+      "login": "ffdd",
+      "id": 3620017,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3620017?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ffdd",
+      "html_url": "https://github.com/ffdd",
+      "followers_url": "https://api.github.com/users/ffdd/followers",
+      "following_url": "https://api.github.com/users/ffdd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ffdd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ffdd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ffdd/subscriptions",
+      "organizations_url": "https://api.github.com/users/ffdd/orgs",
+      "repos_url": "https://api.github.com/users/ffdd/repos",
+      "events_url": "https://api.github.com/users/ffdd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ffdd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-17T19:52:58Z",
+    "updated_at": "2014-12-17T19:52:58Z",
+    "body": "I am using one of the modern.ie images and at first I thought it was because of that but then I read Python's changelog... perhaps it's still a mystery.\n\nrey.sc\n\n> On Dec 17, 2014, at 2:50 PM, Cheng Zhao notifications@github.com wrote:\n> \n> This is strange, I also use 2.7.8 on my Windows machine but it works fine on my side.\n> \n> But I think I can use http instead https in download url to get rid this.\n> \n> —\n> Reply to this email directly or view it on GitHub.\n"
+  }
+]

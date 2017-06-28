@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/262830353",
+    "html_url": "https://github.com/electron/electron/issues/8077#issuecomment-262830353",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8077",
+    "id": 262830353,
+    "user": {
+      "login": "jonathon-love",
+      "id": 3240247,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3240247?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jonathon-love",
+      "html_url": "https://github.com/jonathon-love",
+      "followers_url": "https://api.github.com/users/jonathon-love/followers",
+      "following_url": "https://api.github.com/users/jonathon-love/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jonathon-love/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jonathon-love/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jonathon-love/subscriptions",
+      "organizations_url": "https://api.github.com/users/jonathon-love/orgs",
+      "repos_url": "https://api.github.com/users/jonathon-love/repos",
+      "events_url": "https://api.github.com/users/jonathon-love/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jonathon-love/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-24T18:38:23Z",
+    "updated_at": "2016-11-24T18:38:23Z",
+    "body": "presumably from #8041 "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/262830567",
+    "html_url": "https://github.com/electron/electron/issues/8077#issuecomment-262830567",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8077",
+    "id": 262830567,
+    "user": {
+      "login": "jonathon-love",
+      "id": 3240247,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3240247?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jonathon-love",
+      "html_url": "https://github.com/jonathon-love",
+      "followers_url": "https://api.github.com/users/jonathon-love/followers",
+      "following_url": "https://api.github.com/users/jonathon-love/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jonathon-love/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jonathon-love/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jonathon-love/subscriptions",
+      "organizations_url": "https://api.github.com/users/jonathon-love/orgs",
+      "repos_url": "https://api.github.com/users/jonathon-love/repos",
+      "events_url": "https://api.github.com/users/jonathon-love/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jonathon-love/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-24T18:40:16Z",
+    "updated_at": "2016-11-24T18:40:16Z",
+    "body": "oh, wait, typo ... *embarrassed*"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/62052271",
+    "html_url": "https://github.com/electron/electron/issues/795#issuecomment-62052271",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/795",
+    "id": 62052271,
+    "user": {
+      "login": "reggi",
+      "id": 296798,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/296798?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/reggi",
+      "html_url": "https://github.com/reggi",
+      "followers_url": "https://api.github.com/users/reggi/followers",
+      "following_url": "https://api.github.com/users/reggi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/reggi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/reggi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/reggi/subscriptions",
+      "organizations_url": "https://api.github.com/users/reggi/orgs",
+      "repos_url": "https://api.github.com/users/reggi/repos",
+      "events_url": "https://api.github.com/users/reggi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/reggi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-06T21:14:04Z",
+    "updated_at": "2014-11-06T21:14:37Z",
+    "body": "[I found it `Tray.setPressedImage()`!](https://github.com/atom/atom-shell/blob/master/docs/api/tray.md#traysetpressedimageimage)\n"
+  }
+]

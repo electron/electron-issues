@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/153735564",
+    "html_url": "https://github.com/electron/electron/pull/3313#issuecomment-153735564",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3313",
+    "id": 153735564,
+    "user": {
+      "login": "kevinsimper",
+      "id": 1126497,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1126497?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsimper",
+      "html_url": "https://github.com/kevinsimper",
+      "followers_url": "https://api.github.com/users/kevinsimper/followers",
+      "following_url": "https://api.github.com/users/kevinsimper/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsimper/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsimper/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsimper/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsimper/orgs",
+      "repos_url": "https://api.github.com/users/kevinsimper/repos",
+      "events_url": "https://api.github.com/users/kevinsimper/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsimper/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-04T14:20:20Z",
+    "updated_at": "2015-11-04T14:20:20Z",
+    "body": "I have updated it to be a note, good idea with making it to another tutorial, I just have not tried that.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/153930912",
+    "html_url": "https://github.com/electron/electron/pull/3313#issuecomment-153930912",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3313",
+    "id": 153930912,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-05T02:12:01Z",
+    "updated_at": "2015-11-05T02:12:01Z",
+    "body": "👍 \n"
+  }
+]

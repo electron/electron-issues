@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217517012",
+    "html_url": "https://github.com/electron/electron/issues/5414#issuecomment-217517012",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5414",
+    "id": 217517012,
+    "user": {
+      "login": "bengotow",
+      "id": 1037212,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1037212?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bengotow",
+      "html_url": "https://github.com/bengotow",
+      "followers_url": "https://api.github.com/users/bengotow/followers",
+      "following_url": "https://api.github.com/users/bengotow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bengotow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bengotow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bengotow/subscriptions",
+      "organizations_url": "https://api.github.com/users/bengotow/orgs",
+      "repos_url": "https://api.github.com/users/bengotow/repos",
+      "events_url": "https://api.github.com/users/bengotow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bengotow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-06T18:06:50Z",
+    "updated_at": "2016-05-06T18:06:50Z",
+    "body": "Hey! I'm not sure if this is related, but https://github.com/Squirrel/Squirrel.Windows does not support downgrading. When it's completing the installation process, it goes to delete the \"old\" files, and it always deletes the folder with the lower semver version number. Took us a while to figure out!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217599247",
+    "html_url": "https://github.com/electron/electron/issues/5414#issuecomment-217599247",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5414",
+    "id": 217599247,
+    "user": {
+      "login": "jaypanares",
+      "id": 7044596,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7044596?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaypanares",
+      "html_url": "https://github.com/jaypanares",
+      "followers_url": "https://api.github.com/users/jaypanares/followers",
+      "following_url": "https://api.github.com/users/jaypanares/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jaypanares/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jaypanares/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jaypanares/subscriptions",
+      "organizations_url": "https://api.github.com/users/jaypanares/orgs",
+      "repos_url": "https://api.github.com/users/jaypanares/repos",
+      "events_url": "https://api.github.com/users/jaypanares/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jaypanares/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-07T02:14:01Z",
+    "updated_at": "2016-05-07T02:14:01Z",
+    "body": "Thanks for the info, I wasn't actually trying to downgrade my app but just noticed that autoUpdater still downloads the .nupkg file even though it's a lower version.  Anyways, this probably shouldn't happen in a normal production setting since higher versions of .nupkg will always be uploaded to the release URL.\n"
+  }
+]

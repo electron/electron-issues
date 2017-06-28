@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/170443133",
+    "html_url": "https://github.com/electron/electron/issues/4038#issuecomment-170443133",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4038",
+    "id": 170443133,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-11T06:25:29Z",
+    "updated_at": "2016-01-11T06:25:29Z",
+    "body": "`overlayScrollbar` is turned on by default when it is enabled in system, in your case I think it is because your system settings disabled overlay scrollbar.\n\nIf you still want to force turning it on, you can use the new `blinkFeatures` option:\n\n``` js\nnew BrowserWindow({\n  webPreferences: {\n    blinkFeatures: 'OverlayScrollbars'\n  }\n});\n```\n\nI didn't know people are actually using this option, sorry for breaking this.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/260033371",
+    "html_url": "https://github.com/electron/electron/issues/4038#issuecomment-260033371",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4038",
+    "id": 260033371,
+    "user": {
+      "login": "flying-sheep",
+      "id": 291575,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/291575?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/flying-sheep",
+      "html_url": "https://github.com/flying-sheep",
+      "followers_url": "https://api.github.com/users/flying-sheep/followers",
+      "following_url": "https://api.github.com/users/flying-sheep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/flying-sheep/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/flying-sheep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/flying-sheep/subscriptions",
+      "organizations_url": "https://api.github.com/users/flying-sheep/orgs",
+      "repos_url": "https://api.github.com/users/flying-sheep/repos",
+      "events_url": "https://api.github.com/users/flying-sheep/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/flying-sheep/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-11T19:17:04Z",
+    "updated_at": "2016-11-11T19:17:04Z",
+    "body": "@zcbenz hi, what do you mean “enabled in system”?\n\nis it a compile option or…?\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224792772",
+    "html_url": "https://github.com/electron/electron/issues/5946#issuecomment-224792772",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5946",
+    "id": 224792772,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-09T03:39:57Z",
+    "updated_at": "2016-06-09T03:39:57Z",
+    "body": "This is a question on using Electron, I suggest seeking help from [the community](https://github.com/electron/electron#community) instead.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/262758981",
+    "html_url": "https://github.com/electron/electron/issues/5946#issuecomment-262758981",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5946",
+    "id": 262758981,
+    "user": {
+      "login": "himawari8",
+      "id": 1913079,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1913079?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/himawari8",
+      "html_url": "https://github.com/himawari8",
+      "followers_url": "https://api.github.com/users/himawari8/followers",
+      "following_url": "https://api.github.com/users/himawari8/following{/other_user}",
+      "gists_url": "https://api.github.com/users/himawari8/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/himawari8/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/himawari8/subscriptions",
+      "organizations_url": "https://api.github.com/users/himawari8/orgs",
+      "repos_url": "https://api.github.com/users/himawari8/repos",
+      "events_url": "https://api.github.com/users/himawari8/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/himawari8/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-24T11:52:00Z",
+    "updated_at": "2016-11-24T11:52:00Z",
+    "body": "try loadURL instead of loadUrl"
+  }
+]

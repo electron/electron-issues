@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/257347849",
+    "html_url": "https://github.com/electron/electron/issues/7790#issuecomment-257347849",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7790",
+    "id": 257347849,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-31T16:44:10Z",
+    "updated_at": "2016-10-31T16:44:20Z",
+    "body": "You should be able to open a folder by passing the full folder path to [shell.openItem](http://electron.atom.io/docs/api/shell/#shellopenitemfullpath). Is that not working as expected for you?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/257354470",
+    "html_url": "https://github.com/electron/electron/issues/7790#issuecomment-257354470",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7790",
+    "id": 257354470,
+    "user": {
+      "login": "jayalfredprufrock",
+      "id": 415763,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/415763?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jayalfredprufrock",
+      "html_url": "https://github.com/jayalfredprufrock",
+      "followers_url": "https://api.github.com/users/jayalfredprufrock/followers",
+      "following_url": "https://api.github.com/users/jayalfredprufrock/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jayalfredprufrock/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jayalfredprufrock/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jayalfredprufrock/subscriptions",
+      "organizations_url": "https://api.github.com/users/jayalfredprufrock/orgs",
+      "repos_url": "https://api.github.com/users/jayalfredprufrock/repos",
+      "events_url": "https://api.github.com/users/jayalfredprufrock/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jayalfredprufrock/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-31T17:06:17Z",
+    "updated_at": "2016-10-31T17:06:17Z",
+    "body": "Ahh, well I can see now that shell.openItem does work (could have sworn I tried this...), however I think the confusion was it doesn't focus the newly opened window. Now I can see other related issues, #4349, #4951 discussing this behavior. I'll close this out and follow along with the others. Thanks!\n"
+  }
+]

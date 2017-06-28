@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/203159184",
+    "html_url": "https://github.com/electron/electron/issues/4943#issuecomment-203159184",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4943",
+    "id": 203159184,
+    "user": {
+      "login": "felixrieseberg",
+      "id": 1426799,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1426799?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felixrieseberg",
+      "html_url": "https://github.com/felixrieseberg",
+      "followers_url": "https://api.github.com/users/felixrieseberg/followers",
+      "following_url": "https://api.github.com/users/felixrieseberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felixrieseberg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felixrieseberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felixrieseberg/subscriptions",
+      "organizations_url": "https://api.github.com/users/felixrieseberg/orgs",
+      "repos_url": "https://api.github.com/users/felixrieseberg/repos",
+      "events_url": "https://api.github.com/users/felixrieseberg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felixrieseberg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-29T23:38:27Z",
+    "updated_at": "2016-03-29T23:38:27Z",
+    "body": "Hey, thanks for reporting. If you're opening a dialog from the renderer process, you need to reference it as `require('electron').remote.dialog`, since it's a main thread-module.\n\nI'm closing this issue in the meantime, but feel free to reopen if you actually referenced it correctly and it is still undefined.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/203814402",
+    "html_url": "https://github.com/electron/electron/issues/4943#issuecomment-203814402",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4943",
+    "id": 203814402,
+    "user": {
+      "login": "barbalex",
+      "id": 669783,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/669783?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/barbalex",
+      "html_url": "https://github.com/barbalex",
+      "followers_url": "https://api.github.com/users/barbalex/followers",
+      "following_url": "https://api.github.com/users/barbalex/following{/other_user}",
+      "gists_url": "https://api.github.com/users/barbalex/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/barbalex/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/barbalex/subscriptions",
+      "organizations_url": "https://api.github.com/users/barbalex/orgs",
+      "repos_url": "https://api.github.com/users/barbalex/repos",
+      "events_url": "https://api.github.com/users/barbalex/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/barbalex/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-31T08:19:25Z",
+    "updated_at": "2016-03-31T08:19:25Z",
+    "body": "this helped me electron noob too, thanks\n\nmaybe add this information to https://github.com/atom/electron/blob/master/docs/api/dialog.md?\n"
+  }
+]

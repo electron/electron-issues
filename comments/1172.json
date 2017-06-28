@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/76390140",
+    "html_url": "https://github.com/electron/electron/issues/1172#issuecomment-76390140",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1172",
+    "id": 76390140,
+    "user": {
+      "login": "gliurn",
+      "id": 10954710,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10954710?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gliurn",
+      "html_url": "https://github.com/gliurn",
+      "followers_url": "https://api.github.com/users/gliurn/followers",
+      "following_url": "https://api.github.com/users/gliurn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gliurn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gliurn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gliurn/subscriptions",
+      "organizations_url": "https://api.github.com/users/gliurn/orgs",
+      "repos_url": "https://api.github.com/users/gliurn/repos",
+      "events_url": "https://api.github.com/users/gliurn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gliurn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-27T12:54:16Z",
+    "updated_at": "2015-02-27T12:54:16Z",
+    "body": "After some research it seems there is no solutions exept upgrade to CentOS 7 (which works btw) because atom-shell have been compil under Ubuntu. if you want to go deeper, here is an interresting link about the same issue with Chrome http://chrome.richardlloyd.org.uk/\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/253779628",
+    "html_url": "https://github.com/electron/electron/issues/1172#issuecomment-253779628",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1172",
+    "id": 253779628,
+    "user": {
+      "login": "blackSea4477",
+      "id": 22835841,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22835841?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/blackSea4477",
+      "html_url": "https://github.com/blackSea4477",
+      "followers_url": "https://api.github.com/users/blackSea4477/followers",
+      "following_url": "https://api.github.com/users/blackSea4477/following{/other_user}",
+      "gists_url": "https://api.github.com/users/blackSea4477/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/blackSea4477/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/blackSea4477/subscriptions",
+      "organizations_url": "https://api.github.com/users/blackSea4477/orgs",
+      "repos_url": "https://api.github.com/users/blackSea4477/repos",
+      "events_url": "https://api.github.com/users/blackSea4477/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/blackSea4477/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-14T11:50:26Z",
+    "updated_at": "2016-10-14T11:50:26Z",
+    "body": "Just Copy \n- libstdc++.so.6  \n- ld-linux-x86-64.so.0\n- libc.so.6\n- libgtk-x11-2.0.so.0 \n  under the path .....src/node_modules/electron/dist . You can get this from Centos 7 . \n  Then Download https://jlison.github.io/bin/centos6/soichih/mirror/gcc-4.7.2.tar.gz and extarct it to some folder and update LD_LIBRARY_PATH \n\nglibpath=/opt/glib/  (path where you have extracted glib )\n\nexport LD_LIBRARY_PATH=$glibpath/glib-2.49.4-kgesagxmtbemim2denf65on4iixy3miy/lib:$LD_LIBRARY_PATH\n\nexport LD_LIBRARY_PATH=$glibpath/libffi-3.2.1-wk2luzhfdpbievnqqtu24pi774esyqye/lib64:$LD_LIBRARY_PATH\n\nexport LD_LIBRARY_PATH=$glibpath/pcre-8.39-itdbuzevbtzqeqrvna47wstwczud67wx/lib:$LD_LIBRARY_PATH\n\nexport LD_LIBRARY_PATH=$glibpath/gettext-0.19.8.1-aoweyaoufujdlobl7dphb2gdrhuhikil/lib:$LD_LIBRARY_PATH\n\nI am able t o run electron on my centos 6.5 and nothing breaks !\n"
+  }
+]

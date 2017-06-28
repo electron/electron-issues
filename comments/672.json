@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/57494991",
+    "html_url": "https://github.com/electron/electron/issues/672#issuecomment-57494991",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/672",
+    "id": 57494991,
+    "user": {
+      "login": "Subash",
+      "id": 3478693,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3478693?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Subash",
+      "html_url": "https://github.com/Subash",
+      "followers_url": "https://api.github.com/users/Subash/followers",
+      "following_url": "https://api.github.com/users/Subash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Subash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Subash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Subash/subscriptions",
+      "organizations_url": "https://api.github.com/users/Subash/orgs",
+      "repos_url": "https://api.github.com/users/Subash/repos",
+      "events_url": "https://api.github.com/users/Subash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Subash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-10-01T16:33:34Z",
+    "updated_at": "2014-10-01T16:33:34Z",
+    "body": "Ok, I have just tested and found readStream is indeed supported but  I was just meaning about streams not about read or write functions.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/57495224",
+    "html_url": "https://github.com/electron/electron/issues/672#issuecomment-57495224",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/672",
+    "id": 57495224,
+    "user": {
+      "login": "Subash",
+      "id": 3478693,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3478693?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Subash",
+      "html_url": "https://github.com/Subash",
+      "followers_url": "https://api.github.com/users/Subash/followers",
+      "following_url": "https://api.github.com/users/Subash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Subash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Subash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Subash/subscriptions",
+      "organizations_url": "https://api.github.com/users/Subash/orgs",
+      "repos_url": "https://api.github.com/users/Subash/repos",
+      "events_url": "https://api.github.com/users/Subash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Subash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-10-01T16:35:11Z",
+    "updated_at": "2014-10-01T16:35:19Z",
+    "body": "Express is crashing because there is no mtime, atime and ctime in the stats object. Can we fake that too ?\n"
+  }
+]

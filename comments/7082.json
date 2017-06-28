@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/245892737",
+    "html_url": "https://github.com/electron/electron/pull/7082#issuecomment-245892737",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7082",
+    "id": 245892737,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-09-09T11:54:46Z",
+    "updated_at": "2016-09-09T11:54:46Z",
+    "body": "Thanks for this, but I think the documentation of `preload` is detailed enough that this small example won't do much help for most people, so I'm closing this.\n\nAnd I do agree we should have more examples for the `preload` script, since there are many tricks and common practices on using it, and we could have a tutorial for it and link it in the documentations.\n"
+  }
+]

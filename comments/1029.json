@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/70561386",
+    "html_url": "https://github.com/electron/electron/pull/1029#issuecomment-70561386",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1029",
+    "id": 70561386,
+    "user": {
+      "login": "CharlieHess",
+      "id": 1865957,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1865957?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/CharlieHess",
+      "html_url": "https://github.com/CharlieHess",
+      "followers_url": "https://api.github.com/users/CharlieHess/followers",
+      "following_url": "https://api.github.com/users/CharlieHess/following{/other_user}",
+      "gists_url": "https://api.github.com/users/CharlieHess/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/CharlieHess/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/CharlieHess/subscriptions",
+      "organizations_url": "https://api.github.com/users/CharlieHess/orgs",
+      "repos_url": "https://api.github.com/users/CharlieHess/repos",
+      "events_url": "https://api.github.com/users/CharlieHess/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/CharlieHess/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-19T21:10:41Z",
+    "updated_at": "2015-01-19T21:10:41Z",
+    "body": "Nice! :sparkles:\n"
+  }
+]

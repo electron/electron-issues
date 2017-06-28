@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/46966976",
+    "html_url": "https://github.com/electron/electron/issues/424#issuecomment-46966976",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/424",
+    "id": 46966976,
+    "user": {
+      "login": "YurySolovyov",
+      "id": 2168518,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2168518?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YurySolovyov",
+      "html_url": "https://github.com/YurySolovyov",
+      "followers_url": "https://api.github.com/users/YurySolovyov/followers",
+      "following_url": "https://api.github.com/users/YurySolovyov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YurySolovyov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YurySolovyov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YurySolovyov/subscriptions",
+      "organizations_url": "https://api.github.com/users/YurySolovyov/orgs",
+      "repos_url": "https://api.github.com/users/YurySolovyov/repos",
+      "events_url": "https://api.github.com/users/YurySolovyov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YurySolovyov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-06-24T12:56:50Z",
+    "updated_at": "2014-06-24T12:56:50Z",
+    "body": "strange, how does inline/base64 encoded images are working then?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/58620576",
+    "html_url": "https://github.com/electron/electron/issues/424#issuecomment-58620576",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/424",
+    "id": 58620576,
+    "user": {
+      "login": "orzFly",
+      "id": 158528,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/158528?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/orzFly",
+      "html_url": "https://github.com/orzFly",
+      "followers_url": "https://api.github.com/users/orzFly/followers",
+      "following_url": "https://api.github.com/users/orzFly/following{/other_user}",
+      "gists_url": "https://api.github.com/users/orzFly/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/orzFly/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/orzFly/subscriptions",
+      "organizations_url": "https://api.github.com/users/orzFly/orgs",
+      "repos_url": "https://api.github.com/users/orzFly/repos",
+      "events_url": "https://api.github.com/users/orzFly/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/orzFly/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-10-10T07:18:20Z",
+    "updated_at": "2014-10-10T07:18:20Z",
+    "body": "I have a patch on this...\n\n``` patch\nFrom 33798763b036f3cd809af47a7cf52be248c6dcaf Mon Sep 17 00:00:00 2001\nFrom: Yeechan Lu <wz.bluesnow@gmail.com>\nDate: Wed, 3 Sep 2014 20:39:23 +0800\nSubject: [PATCH] Support data uri in image converter\n\n---\n .../native_mate_converters/image_converter.cc      | 22 ++++++++++++++++++----\n 1 file changed, 18 insertions(+), 4 deletions(-)\n\ndiff --git a/atom/common/native_mate_converters/image_converter.cc b/atom/common/native_mate_converters/image_converter.cc\nindex 53f65d9..17a1776 100644\n--- a/atom/common/native_mate_converters/image_converter.cc\n+++ b/atom/common/native_mate_converters/image_converter.cc\n@@ -14,7 +14,8 @@\n #include \"ui/gfx/codec/png_codec.h\"\n #include \"ui/gfx/image/image_skia.h\"\n #include \"ui/base/layout.h\"\n-\n+#include \"url/gurl.h\"\n+#include \"net/base/data_url.h\"\n namespace mate {\n\n namespace {\n@@ -62,7 +63,7 @@ void AppendIfExists(std::vector<base::FilePath>* paths,\n\n void PopulatePossibleFilePaths(std::vector<base::FilePath>* paths,\n                                const base::FilePath& path) {\n-  AppendIfExists(paths, path);\n+  paths->push_back(path);\n\n   std::string filename(path.BaseName().RemoveExtension().AsUTF8Unsafe());\n   if (MatchPattern(filename, \"*@*x\"))\n@@ -76,8 +77,21 @@ void PopulatePossibleFilePaths(std::vector<base::FilePath>* paths,\n bool AddImageSkiaRepFromPath(gfx::ImageSkia* image,\n                              const base::FilePath& path) {\n   std::string file_contents;\n-  if (!base::ReadFileToString(path, &file_contents))\n-    return false;\n+  std::string pathstring = path.MaybeAsASCII();\n+  if (!pathstring.empty())\n+  {\n+    GURL url(pathstring);\n+    if (url.is_valid() && url.SchemeIs(\"data\"))\n+    {\n+      std::string mime_type;\n+      std::string charset;\n+      net::DataURL::Parse(url, &mime_type, &charset, &file_contents);\n+    }\n+  }\n+\n+  if (file_contents.empty())\n+    if (!base::ReadFileToString(path, &file_contents))\n+      return false;\n\n   const unsigned char* data =\n       reinterpret_cast<const unsigned char*>(file_contents.data());\n-- \n1.8.3.3\n```\n"
+  }
+]

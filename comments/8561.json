@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/277042085",
+    "html_url": "https://github.com/electron/electron/pull/8561#issuecomment-277042085",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8561",
+    "id": 277042085,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-02-02T18:33:30Z",
+    "updated_at": "2017-02-02T18:33:30Z",
+    "body": "Thanks for adding support for this ⌨️ :key: 👍 "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/277056674",
+    "html_url": "https://github.com/electron/electron/pull/8561#issuecomment-277056674",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8561",
+    "id": 277056674,
+    "user": {
+      "login": "m910q",
+      "id": 1075088,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1075088?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/m910q",
+      "html_url": "https://github.com/m910q",
+      "followers_url": "https://api.github.com/users/m910q/followers",
+      "following_url": "https://api.github.com/users/m910q/following{/other_user}",
+      "gists_url": "https://api.github.com/users/m910q/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/m910q/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/m910q/subscriptions",
+      "organizations_url": "https://api.github.com/users/m910q/orgs",
+      "repos_url": "https://api.github.com/users/m910q/repos",
+      "events_url": "https://api.github.com/users/m910q/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/m910q/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-02T19:26:49Z",
+    "updated_at": "2017-02-02T19:26:49Z",
+    "body": "Thanks for the quick fix."
+  }
+]

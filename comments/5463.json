@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/218694257",
+    "html_url": "https://github.com/electron/electron/issues/5463#issuecomment-218694257",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5463",
+    "id": 218694257,
+    "user": {
+      "login": "jbleuzen",
+      "id": 280681,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/280681?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jbleuzen",
+      "html_url": "https://github.com/jbleuzen",
+      "followers_url": "https://api.github.com/users/jbleuzen/followers",
+      "following_url": "https://api.github.com/users/jbleuzen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jbleuzen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jbleuzen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jbleuzen/subscriptions",
+      "organizations_url": "https://api.github.com/users/jbleuzen/orgs",
+      "repos_url": "https://api.github.com/users/jbleuzen/repos",
+      "events_url": "https://api.github.com/users/jbleuzen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jbleuzen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-12T08:36:35Z",
+    "updated_at": "2016-05-12T08:36:35Z",
+    "body": "Thanks 😄 \n"
+  }
+]

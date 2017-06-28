@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/237658759",
+    "html_url": "https://github.com/electron/electron/issues/6735#issuecomment-237658759",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6735",
+    "id": 237658759,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-04T19:31:55Z",
+    "updated_at": "2016-08-04T19:32:17Z",
+    "body": "I believe you can use the [`systemPreferences`](http://electron.atom.io/docs/api/system-preferences/) API for this already:\n\n### main process\n\n``` js\nrequire(\"electron\").systemPreferences.getUserDefault(\"AppleActionOnDoubleClick\", \"string\")\n```\n\n### render process\n\n``` js\nrequire(\"electron\").remote.systemPreferences.getUserDefault(\"AppleActionOnDoubleClick\", \"string\")\n```\n\nClosing this out.\n"
+  }
+]

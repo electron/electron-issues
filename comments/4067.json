@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/170834398",
+    "html_url": "https://github.com/electron/electron/issues/4067#issuecomment-170834398",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4067",
+    "id": 170834398,
+    "user": {
+      "login": "TamkeenLMS",
+      "id": 13228056,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13228056?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TamkeenLMS",
+      "html_url": "https://github.com/TamkeenLMS",
+      "followers_url": "https://api.github.com/users/TamkeenLMS/followers",
+      "following_url": "https://api.github.com/users/TamkeenLMS/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TamkeenLMS/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TamkeenLMS/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TamkeenLMS/subscriptions",
+      "organizations_url": "https://api.github.com/users/TamkeenLMS/orgs",
+      "repos_url": "https://api.github.com/users/TamkeenLMS/repos",
+      "events_url": "https://api.github.com/users/TamkeenLMS/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TamkeenLMS/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-12T08:17:10Z",
+    "updated_at": "2016-01-12T08:17:10Z",
+    "body": "This probably wasn't the right place to post this issue. Please go ahead and delete it. \nI now understand it's more of a nodejs issue. Actually it seems it's not a ISSUE anyway; administrator privileges are required! That's it, right.\n"
+  }
+]

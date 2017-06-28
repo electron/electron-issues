@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/219827338",
+    "html_url": "https://github.com/electron/electron/issues/5569#issuecomment-219827338",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5569",
+    "id": 219827338,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-17T19:28:52Z",
+    "updated_at": "2016-05-17T19:28:52Z",
+    "body": "You probably can just use `child_process.spawn` for that\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/219838044",
+    "html_url": "https://github.com/electron/electron/issues/5569#issuecomment-219838044",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5569",
+    "id": 219838044,
+    "user": {
+      "login": "isvaljek",
+      "id": 2500267,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2500267?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/isvaljek",
+      "html_url": "https://github.com/isvaljek",
+      "followers_url": "https://api.github.com/users/isvaljek/followers",
+      "following_url": "https://api.github.com/users/isvaljek/following{/other_user}",
+      "gists_url": "https://api.github.com/users/isvaljek/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/isvaljek/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/isvaljek/subscriptions",
+      "organizations_url": "https://api.github.com/users/isvaljek/orgs",
+      "repos_url": "https://api.github.com/users/isvaljek/repos",
+      "events_url": "https://api.github.com/users/isvaljek/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/isvaljek/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-17T20:09:46Z",
+    "updated_at": "2016-05-17T20:09:46Z",
+    "body": "Thanks, I found the same 10 minutes after, sorry for the noise.\n"
+  }
+]

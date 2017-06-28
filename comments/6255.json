@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/229064456",
+    "html_url": "https://github.com/electron/electron/issues/6255#issuecomment-229064456",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6255",
+    "id": 229064456,
+    "user": {
+      "login": "kjlaw89",
+      "id": 4183007,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4183007?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kjlaw89",
+      "html_url": "https://github.com/kjlaw89",
+      "followers_url": "https://api.github.com/users/kjlaw89/followers",
+      "following_url": "https://api.github.com/users/kjlaw89/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kjlaw89/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kjlaw89/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kjlaw89/subscriptions",
+      "organizations_url": "https://api.github.com/users/kjlaw89/orgs",
+      "repos_url": "https://api.github.com/users/kjlaw89/repos",
+      "events_url": "https://api.github.com/users/kjlaw89/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kjlaw89/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-28T14:22:51Z",
+    "updated_at": "2016-06-28T14:22:51Z",
+    "body": "Okay, I have some more details for this one. I'm programmatically adding webviews to my little browser setup. I was setting the \"disablewebsecurity\" using the \"prop\" function in jQuery. When I change that to \"attr\" everything works perfectly fine:\n\n`let view = $(\"<webview>\").prop (\"disablewebsecurity\", true);`\n\nchange to:\n\n`let view = $(\"<webview>\").attr (\"disablewebsecurity\", true);`\n\nand everything works fine. This wasn't a problem for the longest time, so not exactly sure what changed. Actually, if I had to guess I'd probably say it was the jQuery library. Before version 1.0.0 I was loading in jQuery (1.12) by setting the main window nodeIntegration to false and using a preload script. Then I could load it like a normal script. But then it became a requirement to have nodeintegration set to true if you wanted to use webviews so I had to change how I was loading in jQuery.\n\nI'm going to close the issue since it has a simple enough work around. Not sure if someone wants to look at it more or not but I'd say at this point it's a non-issue.\n"
+  }
+]

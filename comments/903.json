@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/66188055",
+    "html_url": "https://github.com/electron/electron/issues/903#issuecomment-66188055",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/903",
+    "id": 66188055,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-12-08T21:12:12Z",
+    "updated_at": "2014-12-08T21:12:12Z",
+    "body": "Chromium/AtomShell uses [grit](https://code.google.com/p/grit-i18n/) for i18n, it basically works by putting translations in a XML file and convert it to `.pak` files, and then loads the `.pak` files in application and use some C++ APIs to read localized string from it. You can see examples at:\nhttps://code.google.com/p/chromium/codesearch#chromium/src/chrome/app/chromium_strings.grd&sq=package:chromium&type=cs\nhttps://code.google.com/p/chromium/codesearch#chromium/src/components/policy/resources/policy_templates_zh-CN.xtb&q=打开&sq=package:chromium&type=cs\n\nThe `grit` is mainly targeted for use in Chromium, and especially for C++ language, in Atom everything is JavaScript so using `grit` would be overkill.\n\nBecause all atom-shell apps are written in JavaScript, the i18n can be easily implemented via node modules, and it doesn't making any difference integrating it in atom-shell or making it external module. So I'm closing this since I don't think it should a builtin API in atom-shell.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/162360070",
+    "html_url": "https://github.com/electron/electron/issues/903#issuecomment-162360070",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/903",
+    "id": 162360070,
+    "user": {
+      "login": "black-snow",
+      "id": 579733,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/579733?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/black-snow",
+      "html_url": "https://github.com/black-snow",
+      "followers_url": "https://api.github.com/users/black-snow/followers",
+      "following_url": "https://api.github.com/users/black-snow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/black-snow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/black-snow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/black-snow/subscriptions",
+      "organizations_url": "https://api.github.com/users/black-snow/orgs",
+      "repos_url": "https://api.github.com/users/black-snow/repos",
+      "events_url": "https://api.github.com/users/black-snow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/black-snow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-06T22:56:50Z",
+    "updated_at": "2015-12-06T22:56:50Z",
+    "body": "@zcbenz I see a directory called _locales_ with many 0 KB `*.pak` files but I can't find any docs on localization in electron. Is there still no built-in l18n? What's the _locales_ folder for then?\n"
+  }
+]

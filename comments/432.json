@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49137500",
+    "html_url": "https://github.com/electron/electron/issues/432#issuecomment-49137500",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/432",
+    "id": 49137500,
+    "user": {
+      "login": "majimboo",
+      "id": 6186420,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6186420?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/majimboo",
+      "html_url": "https://github.com/majimboo",
+      "followers_url": "https://api.github.com/users/majimboo/followers",
+      "following_url": "https://api.github.com/users/majimboo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/majimboo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/majimboo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/majimboo/subscriptions",
+      "organizations_url": "https://api.github.com/users/majimboo/orgs",
+      "repos_url": "https://api.github.com/users/majimboo/repos",
+      "events_url": "https://api.github.com/users/majimboo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/majimboo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-16T08:37:56Z",
+    "updated_at": "2014-07-16T08:38:06Z",
+    "body": "```\nnoRecur = (path) ->\n  return true\n\nconsole.log toString.call(noRecur)\n```\n\nThis returns\n\n```\n[object Object]\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49574615",
+    "html_url": "https://github.com/electron/electron/issues/432#issuecomment-49574615",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/432",
+    "id": 49574615,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-07-21T06:18:47Z",
+    "updated_at": "2014-07-21T06:18:47Z",
+    "body": "In Chrome 36 `toString.call(function() {})` returns `[object Object]`, atom-shell follows the behaviors of Chrome instead of node.js on JavaScript.\n"
+  }
+]

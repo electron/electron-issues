@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225252952",
+    "html_url": "https://github.com/electron/electron/issues/5987#issuecomment-225252952",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5987",
+    "id": 225252952,
+    "user": {
+      "login": "danhp",
+      "id": 3745612,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3745612?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/danhp",
+      "html_url": "https://github.com/danhp",
+      "followers_url": "https://api.github.com/users/danhp/followers",
+      "following_url": "https://api.github.com/users/danhp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danhp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danhp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danhp/subscriptions",
+      "organizations_url": "https://api.github.com/users/danhp/orgs",
+      "repos_url": "https://api.github.com/users/danhp/repos",
+      "events_url": "https://api.github.com/users/danhp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danhp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-10T18:01:44Z",
+    "updated_at": "2016-06-10T18:25:14Z",
+    "body": "I think it used to be there so that http://electron.atom.io/ could simply check that file to determine what node version was used, but it's not relevant\n\nEdit: that's actually wrong, it's used to pin the node version See #4845 \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225257169",
+    "html_url": "https://github.com/electron/electron/issues/5987#issuecomment-225257169",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5987",
+    "id": 225257169,
+    "user": {
+      "login": "jlord",
+      "id": 1305617,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1305617?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jlord",
+      "html_url": "https://github.com/jlord",
+      "followers_url": "https://api.github.com/users/jlord/followers",
+      "following_url": "https://api.github.com/users/jlord/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jlord/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jlord/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jlord/subscriptions",
+      "organizations_url": "https://api.github.com/users/jlord/orgs",
+      "repos_url": "https://api.github.com/users/jlord/repos",
+      "events_url": "https://api.github.com/users/jlord/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jlord/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-10T18:17:59Z",
+    "updated_at": "2016-06-10T18:17:59Z",
+    "body": "FWIW the website uses [this JSON](https://github.com/electron/electron.atom.io/blob/gh-pages/script/versions#L7) to get the version information for the site.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49195679",
+    "html_url": "https://github.com/electron/electron/issues/488#issuecomment-49195679",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/488",
+    "id": 49195679,
+    "user": {
+      "login": "quasado",
+      "id": 2025836,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2025836?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/quasado",
+      "html_url": "https://github.com/quasado",
+      "followers_url": "https://api.github.com/users/quasado/followers",
+      "following_url": "https://api.github.com/users/quasado/following{/other_user}",
+      "gists_url": "https://api.github.com/users/quasado/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/quasado/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/quasado/subscriptions",
+      "organizations_url": "https://api.github.com/users/quasado/orgs",
+      "repos_url": "https://api.github.com/users/quasado/repos",
+      "events_url": "https://api.github.com/users/quasado/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/quasado/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-16T17:01:51Z",
+    "updated_at": "2014-07-16T17:01:51Z",
+    "body": "+1\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49237981",
+    "html_url": "https://github.com/electron/electron/issues/488#issuecomment-49237981",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/488",
+    "id": 49237981,
+    "user": {
+      "login": "thedaniel",
+      "id": 1476,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1476?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thedaniel",
+      "html_url": "https://github.com/thedaniel",
+      "followers_url": "https://api.github.com/users/thedaniel/followers",
+      "following_url": "https://api.github.com/users/thedaniel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thedaniel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thedaniel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thedaniel/subscriptions",
+      "organizations_url": "https://api.github.com/users/thedaniel/orgs",
+      "repos_url": "https://api.github.com/users/thedaniel/repos",
+      "events_url": "https://api.github.com/users/thedaniel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thedaniel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-16T22:45:52Z",
+    "updated_at": "2014-07-16T22:45:52Z",
+    "body": "No plans currently.\n"
+  }
+]

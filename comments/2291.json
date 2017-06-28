@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/123379671",
+    "html_url": "https://github.com/electron/electron/issues/2291#issuecomment-123379671",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2291",
+    "id": 123379671,
+    "user": {
+      "login": "frankhale",
+      "id": 190154,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/190154?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frankhale",
+      "html_url": "https://github.com/frankhale",
+      "followers_url": "https://api.github.com/users/frankhale/followers",
+      "following_url": "https://api.github.com/users/frankhale/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frankhale/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frankhale/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frankhale/subscriptions",
+      "organizations_url": "https://api.github.com/users/frankhale/orgs",
+      "repos_url": "https://api.github.com/users/frankhale/repos",
+      "events_url": "https://api.github.com/users/frankhale/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frankhale/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-21T15:45:45Z",
+    "updated_at": "2015-07-21T15:46:50Z",
+    "body": "One way is to do something like this in your main.js on app ready:\n\n``` javascript\nmainWindow.webContents.executeJavaScript(\"window.hello = function() { console.log('Hello, World!'); }\");\n```\n\nThen you have access to that function from the page that loaded in your browser window. If you use a webview you can use it's preload script instead.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/123523054",
+    "html_url": "https://github.com/electron/electron/issues/2291#issuecomment-123523054",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2291",
+    "id": 123523054,
+    "user": {
+      "login": "tommyZZM",
+      "id": 6326007,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6326007?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tommyZZM",
+      "html_url": "https://github.com/tommyZZM",
+      "followers_url": "https://api.github.com/users/tommyZZM/followers",
+      "following_url": "https://api.github.com/users/tommyZZM/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tommyZZM/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tommyZZM/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tommyZZM/subscriptions",
+      "organizations_url": "https://api.github.com/users/tommyZZM/orgs",
+      "repos_url": "https://api.github.com/users/tommyZZM/repos",
+      "events_url": "https://api.github.com/users/tommyZZM/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tommyZZM/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-22T01:09:38Z",
+    "updated_at": "2015-07-22T01:09:38Z",
+    "body": "thx,i find it.\n"
+  }
+]

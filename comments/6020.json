@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225503747",
+    "html_url": "https://github.com/electron/electron/issues/6020#issuecomment-225503747",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6020",
+    "id": 225503747,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-13T07:06:55Z",
+    "updated_at": "2016-06-13T07:06:55Z",
+    "body": "On Linux you have to provide a [`.desktop`](https://wiki.archlinux.org/index.php/Desktop_entries) for your app to make the desktop environment show the icon, the `icon` option is just a hint and many desktop environments just ignore it.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225530741",
+    "html_url": "https://github.com/electron/electron/issues/6020#issuecomment-225530741",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6020",
+    "id": 225530741,
+    "user": {
+      "login": "strongant",
+      "id": 7685936,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7685936?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/strongant",
+      "html_url": "https://github.com/strongant",
+      "followers_url": "https://api.github.com/users/strongant/followers",
+      "following_url": "https://api.github.com/users/strongant/following{/other_user}",
+      "gists_url": "https://api.github.com/users/strongant/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/strongant/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/strongant/subscriptions",
+      "organizations_url": "https://api.github.com/users/strongant/orgs",
+      "repos_url": "https://api.github.com/users/strongant/repos",
+      "events_url": "https://api.github.com/users/strongant/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/strongant/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-13T09:24:35Z",
+    "updated_at": "2016-06-13T09:24:35Z",
+    "body": "thank you,let me try.\n"
+  }
+]

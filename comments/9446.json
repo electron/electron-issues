@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/301098937",
+    "html_url": "https://github.com/electron/electron/issues/9446#issuecomment-301098937",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9446",
+    "id": 301098937,
+    "user": {
+      "login": "hovancik",
+      "id": 4745859,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4745859?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hovancik",
+      "html_url": "https://github.com/hovancik",
+      "followers_url": "https://api.github.com/users/hovancik/followers",
+      "following_url": "https://api.github.com/users/hovancik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hovancik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hovancik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hovancik/subscriptions",
+      "organizations_url": "https://api.github.com/users/hovancik/orgs",
+      "repos_url": "https://api.github.com/users/hovancik/repos",
+      "events_url": "https://api.github.com/users/hovancik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hovancik/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-12T14:53:54Z",
+    "updated_at": "2017-05-12T14:53:54Z",
+    "body": "Styling your post would help. See https://guides.github.com/features/mastering-markdown/"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/301101643",
+    "html_url": "https://github.com/electron/electron/issues/9446#issuecomment-301101643",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9446",
+    "id": 301101643,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-12T15:03:50Z",
+    "updated_at": "2017-05-12T15:03:50Z",
+    "body": "GitHub issues are for feature requests and bug reports, questions about using Electron should be directed to the [community](https://github.com/electron/electron#community) or to the [Slack Channel](http://atom-slack.herokuapp.com/)."
+  }
+]

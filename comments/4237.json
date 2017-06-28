@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/175563023",
+    "html_url": "https://github.com/electron/electron/issues/4237#issuecomment-175563023",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4237",
+    "id": 175563023,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-27T11:07:12Z",
+    "updated_at": "2016-01-27T11:07:12Z",
+    "body": "The `-webkit-app-region` attribute doesn't work very well with complex CSS rules, and I can reproduce the same thing in Chrome extension. I suggest making an Chrome app that can reproduce this problem, and then report it to [Chromium's issues list](https://crbug.com).\n\nI'm closing this since it is a bug of Chromium/blink, and we are not able to fix it on Electron's side.\n"
+  }
+]

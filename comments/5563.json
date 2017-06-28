@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/219746556",
+    "html_url": "https://github.com/electron/electron/issues/5563#issuecomment-219746556",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5563",
+    "id": 219746556,
+    "user": {
+      "login": "danhp",
+      "id": 3745612,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3745612?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/danhp",
+      "html_url": "https://github.com/danhp",
+      "followers_url": "https://api.github.com/users/danhp/followers",
+      "following_url": "https://api.github.com/users/danhp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danhp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danhp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danhp/subscriptions",
+      "organizations_url": "https://api.github.com/users/danhp/orgs",
+      "repos_url": "https://api.github.com/users/danhp/repos",
+      "events_url": "https://api.github.com/users/danhp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danhp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-17T15:03:16Z",
+    "updated_at": "2016-05-17T15:03:16Z",
+    "body": "Duplicate of #5536. See that one for more details.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/219755934",
+    "html_url": "https://github.com/electron/electron/issues/5563#issuecomment-219755934",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5563",
+    "id": 219755934,
+    "user": {
+      "login": "parisk",
+      "id": 1188592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1188592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/parisk",
+      "html_url": "https://github.com/parisk",
+      "followers_url": "https://api.github.com/users/parisk/followers",
+      "following_url": "https://api.github.com/users/parisk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/parisk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/parisk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/parisk/subscriptions",
+      "organizations_url": "https://api.github.com/users/parisk/orgs",
+      "repos_url": "https://api.github.com/users/parisk/repos",
+      "events_url": "https://api.github.com/users/parisk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/parisk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-17T15:31:50Z",
+    "updated_at": "2016-05-17T15:31:50Z",
+    "body": "🆒 \n\nThis clears things up. Thanks!\n"
+  }
+]

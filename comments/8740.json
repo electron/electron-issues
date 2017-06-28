@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/281820251",
+    "html_url": "https://github.com/electron/electron/issues/8740#issuecomment-281820251",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8740",
+    "id": 281820251,
+    "user": {
+      "login": "dkfiresky",
+      "id": 2175645,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2175645?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dkfiresky",
+      "html_url": "https://github.com/dkfiresky",
+      "followers_url": "https://api.github.com/users/dkfiresky/followers",
+      "following_url": "https://api.github.com/users/dkfiresky/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dkfiresky/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dkfiresky/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dkfiresky/subscriptions",
+      "organizations_url": "https://api.github.com/users/dkfiresky/orgs",
+      "repos_url": "https://api.github.com/users/dkfiresky/repos",
+      "events_url": "https://api.github.com/users/dkfiresky/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dkfiresky/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-22T22:07:22Z",
+    "updated_at": "2017-02-22T22:07:22Z",
+    "body": "Actually it might be macOS issue... as it fails to change the vibrancy:\r\n```swift\r\nimport Cocoa\r\n\r\n@NSApplicationMain\r\nclass AppDelegate: NSObject, NSApplicationDelegate {\r\n\r\n    @IBOutlet weak var vibrantView: NSVisualEffectView!\r\n\r\n    func applicationDidFinishLaunching(_ aNotification: Notification) {\r\n        vibrantView.appearance = NSAppearance.init();\r\n        vibrantView.material = NSVisualEffectMaterial.appearanceBased;\r\n        \r\n    }\r\n\r\n}\r\n```"
+  }
+]

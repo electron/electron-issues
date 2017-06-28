@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/219195307",
+    "html_url": "https://github.com/electron/electron/issues/5527#issuecomment-219195307",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5527",
+    "id": 219195307,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-14T02:14:55Z",
+    "updated_at": "2016-05-14T02:14:55Z",
+    "body": "The HTML5 Video element does not support `.flv` elements in ANY browser.  These are the only formats supported by the HTML5 spec.\n\n> WebM video format\n> MPEG-4/H.264 video format\n> Ogg/Theora video format\n> WebVTT - Web Video Text Tracks\n\nCheck it out here http://caniuse.com/#feat=video\n\n`.flv` literally stands for Flash Video so it's not suprising the HTML5 standard doesn't support it.  If you need to play `.flv` videos you can use something like `video.js` or JWPlayer\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/219263033",
+    "html_url": "https://github.com/electron/electron/issues/5527#issuecomment-219263033",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5527",
+    "id": 219263033,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-15T02:47:16Z",
+    "updated_at": "2016-05-15T02:47:16Z",
+    "body": "Thank @MarshallOfSound for answering it, I'm closing this now.\n"
+  }
+]

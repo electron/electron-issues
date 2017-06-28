@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/161218660",
+    "html_url": "https://github.com/electron/electron/issues/3654#issuecomment-161218660",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3654",
+    "id": 161218660,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-02T08:33:58Z",
+    "updated_at": "2015-12-02T08:33:58Z",
+    "body": "I think you are somehow building with the 32bit binaries of libchromiumcontent, you can cleanup everything with `./script/clean.py` and then try again.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/161479474",
+    "html_url": "https://github.com/electron/electron/issues/3654#issuecomment-161479474",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3654",
+    "id": 161479474,
+    "user": {
+      "login": "tonny-zhang",
+      "id": 1396702,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396702?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tonny-zhang",
+      "html_url": "https://github.com/tonny-zhang",
+      "followers_url": "https://api.github.com/users/tonny-zhang/followers",
+      "following_url": "https://api.github.com/users/tonny-zhang/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tonny-zhang/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tonny-zhang/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tonny-zhang/subscriptions",
+      "organizations_url": "https://api.github.com/users/tonny-zhang/orgs",
+      "repos_url": "https://api.github.com/users/tonny-zhang/repos",
+      "events_url": "https://api.github.com/users/tonny-zhang/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tonny-zhang/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-03T00:45:06Z",
+    "updated_at": "2015-12-03T00:45:06Z",
+    "body": "@zcbenz yes, I build 64bit after building 32bit and got the error.\n\nProposed to put this solution into [build-instructions-windows.md](https://github.com/atom/electron/blob/master/docs/development/build-instructions-windows.md), believe that there are a lot of people like me care it.\n\n@zcbenz thanks again!\n"
+  }
+]

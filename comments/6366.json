@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/230853741",
+    "html_url": "https://github.com/electron/electron/issues/6366#issuecomment-230853741",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6366",
+    "id": 230853741,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-06T17:58:23Z",
+    "updated_at": "2016-07-06T17:58:23Z",
+    "body": "Try chrome://gpu\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/231007681",
+    "html_url": "https://github.com/electron/electron/issues/6366#issuecomment-231007681",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6366",
+    "id": 231007681,
+    "user": {
+      "login": "remss",
+      "id": 1586257,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1586257?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/remss",
+      "html_url": "https://github.com/remss",
+      "followers_url": "https://api.github.com/users/remss/followers",
+      "following_url": "https://api.github.com/users/remss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/remss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/remss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/remss/subscriptions",
+      "organizations_url": "https://api.github.com/users/remss/orgs",
+      "repos_url": "https://api.github.com/users/remss/repos",
+      "events_url": "https://api.github.com/users/remss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/remss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-07T07:50:06Z",
+    "updated_at": "2016-07-07T07:50:06Z",
+    "body": "Ok my bad, typing \"about:gpu\" in Chrome address bar will resolve to `chrome://gpu`\nMy other mistake was to try a `window.location.href = \"chrome://gpu\"` that is not supported. Only `mainWindow.loadURL( \"chrome://gpu\")` works.\nThanks\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/303494893",
+    "html_url": "https://github.com/electron/electron/issues/9477#issuecomment-303494893",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9477",
+    "id": 303494893,
+    "user": {
+      "login": "dregenor",
+      "id": 1700057,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1700057?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dregenor",
+      "html_url": "https://github.com/dregenor",
+      "followers_url": "https://api.github.com/users/dregenor/followers",
+      "following_url": "https://api.github.com/users/dregenor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dregenor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dregenor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dregenor/subscriptions",
+      "organizations_url": "https://api.github.com/users/dregenor/orgs",
+      "repos_url": "https://api.github.com/users/dregenor/repos",
+      "events_url": "https://api.github.com/users/dregenor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dregenor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-23T18:45:02Z",
+    "updated_at": "2017-05-23T18:45:12Z",
+    "body": "test example\r\nhttps://github.com/dregenor/electron-quick-start\r\n\r\n"
+  }
+]

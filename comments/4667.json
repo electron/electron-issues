@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/192815558",
+    "html_url": "https://github.com/electron/electron/pull/4667#issuecomment-192815558",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4667",
+    "id": 192815558,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-03-06T06:40:31Z",
+    "updated_at": "2016-03-06T06:40:31Z",
+    "body": "I'm good using sysroot for building by default.\n\nThe linking error you saw is probably because prebuilt binaries of libchromiumcontent are not using sysroot, anyway we need to switch on sysroot for libchromiumcontent first.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/193542954",
+    "html_url": "https://github.com/electron/electron/pull/4667#issuecomment-193542954",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4667",
+    "id": 193542954,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-08T01:22:42Z",
+    "updated_at": "2016-03-08T01:22:42Z",
+    "body": "chrome 49 uses sysroot by default on linux, so change is only required on electron side. Closing as this can be taken alongside chrome 49 upgrade PR.\n"
+  }
+]

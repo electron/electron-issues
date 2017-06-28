@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/176771540",
+    "html_url": "https://github.com/electron/electron/issues/4266#issuecomment-176771540",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4266",
+    "id": 176771540,
+    "user": {
+      "login": "felicienfrancois",
+      "id": 988144,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/988144?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felicienfrancois",
+      "html_url": "https://github.com/felicienfrancois",
+      "followers_url": "https://api.github.com/users/felicienfrancois/followers",
+      "following_url": "https://api.github.com/users/felicienfrancois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felicienfrancois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felicienfrancois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felicienfrancois/subscriptions",
+      "organizations_url": "https://api.github.com/users/felicienfrancois/orgs",
+      "repos_url": "https://api.github.com/users/felicienfrancois/repos",
+      "events_url": "https://api.github.com/users/felicienfrancois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felicienfrancois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-29T14:08:18Z",
+    "updated_at": "2016-01-29T14:08:18Z",
+    "body": "I also get a renderer crash when quitting my app, on windows 10 with electron 0.36.6 (0.36.5 was working well)\n\n```\n[8320:0129/150532:FATAL:scoped_handle.cc(44)] Check failed: false.\nBacktrace:\n        (No symbol) [0x00007FF6F09FE401]\n        (No symbol) [0x00007FF6F09F787C]\n        (No symbol) [0x00007FF6F0A38569]\n        (No symbol) [0x00007FF6F0A2C2AB]\n        (No symbol) [0x00007FF6F0A2BA7E]\n        (No symbol) [0x00007FF6F0980819]\n        (No symbol) [0x00007FF6F0980ABC]\n        (No symbol) [0x00007FF6F090991B]\n        (No symbol) [0x00007FF6F0909D3F]\n        v8::TypeSwitch::match [0x00007FF9513BBA2B+727259]\n        v8::Locker::IsLocked [0x00007FF95126D7B7+1036007]\n        v8::Locker::IsLocked [0x00007FF95126CB52+1032834]\n        (No symbol) [0x0000003D7EE08B1F]\n```\n"
+  }
+]

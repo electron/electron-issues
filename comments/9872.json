@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/311209885",
+    "html_url": "https://github.com/electron/electron/issues/9872#issuecomment-311209885",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9872",
+    "id": 311209885,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-26T23:28:56Z",
+    "updated_at": "2017-06-26T23:28:56Z",
+    "body": "GitHub issues are for feature requests and bug reports, questions about using Electron should be directed to the [community](https://github.com/electron/electron#community) or to the [Slack Channel](http://atom-slack.herokuapp.com/).\r\n\r\nPlease note you have to be on the latest beta to get the `Notification` class in the main process.\r\n\r\nTo fix your code you simply need to use destructuring when requiring electron.\r\n\r\n`const { Notification } = require('electron')`"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/311210350",
+    "html_url": "https://github.com/electron/electron/issues/9872#issuecomment-311210350",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9872",
+    "id": 311210350,
+    "user": {
+      "login": "naheller",
+      "id": 18204925,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18204925?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/naheller",
+      "html_url": "https://github.com/naheller",
+      "followers_url": "https://api.github.com/users/naheller/followers",
+      "following_url": "https://api.github.com/users/naheller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/naheller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/naheller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/naheller/subscriptions",
+      "organizations_url": "https://api.github.com/users/naheller/orgs",
+      "repos_url": "https://api.github.com/users/naheller/repos",
+      "events_url": "https://api.github.com/users/naheller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/naheller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-26T23:31:48Z",
+    "updated_at": "2017-06-26T23:31:48Z",
+    "body": "Thank you for your reply!\r\n\r\nI'd like to request the following feature: Notification usage example(s) in [main process](https://github.com/electron/electron/blob/master/docs/api/notification.md) documentation"
+  }
+]

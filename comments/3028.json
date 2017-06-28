@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/147642476",
+    "html_url": "https://github.com/electron/electron/issues/3028#issuecomment-147642476",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3028",
+    "id": 147642476,
+    "user": {
+      "login": "cking",
+      "id": 196108,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/196108?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cking",
+      "html_url": "https://github.com/cking",
+      "followers_url": "https://api.github.com/users/cking/followers",
+      "following_url": "https://api.github.com/users/cking/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cking/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cking/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cking/subscriptions",
+      "organizations_url": "https://api.github.com/users/cking/orgs",
+      "repos_url": "https://api.github.com/users/cking/repos",
+      "events_url": "https://api.github.com/users/cking/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cking/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-13T08:16:11Z",
+    "updated_at": "2015-10-13T08:16:11Z",
+    "body": "Normal Webbrowsers don't have a callback as well. Adding one would break compatibility IMO. \n\nBut in Chrome I am calling window.close in a settimeout after 10ms. This way the print window is displayed and then, after the print window is closed, the dummy window gets closed. \n"
+  }
+]

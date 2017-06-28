@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223669065",
+    "html_url": "https://github.com/electron/electron/issues/5857#issuecomment-223669065",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5857",
+    "id": 223669065,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-03T19:17:46Z",
+    "updated_at": "2016-06-03T19:17:46Z",
+    "body": "Both Squirrel for Mac and Squirrel for Windows rely on HTTPS to authenticate that updates are legitimate. In addition Squirrel for Mac checks the code signature of your binary\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/223669295",
+    "html_url": "https://github.com/electron/electron/issues/5857#issuecomment-223669295",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5857",
+    "id": 223669295,
+    "user": {
+      "login": "kunkinkan",
+      "id": 16960095,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/16960095?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunkinkan",
+      "html_url": "https://github.com/kunkinkan",
+      "followers_url": "https://api.github.com/users/kunkinkan/followers",
+      "following_url": "https://api.github.com/users/kunkinkan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kunkinkan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kunkinkan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kunkinkan/subscriptions",
+      "organizations_url": "https://api.github.com/users/kunkinkan/orgs",
+      "repos_url": "https://api.github.com/users/kunkinkan/repos",
+      "events_url": "https://api.github.com/users/kunkinkan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kunkinkan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-03T19:18:39Z",
+    "updated_at": "2016-06-03T19:19:14Z",
+    "body": "But that's not a replacement. Someone could break into the server and place other update files. However, if there were DSA signatures, he'd have to have those too (which are only on the local machine, normally). So it gives extra security. (Of course, this issue only applies to Windows).\n\n(The reason apple has code signatures is for this exact problem).\n"
+  }
+]

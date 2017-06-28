@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/307483919",
+    "html_url": "https://github.com/electron/electron/issues/9715#issuecomment-307483919",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9715",
+    "id": 307483919,
+    "user": {
+      "login": "pierreneter",
+      "id": 12815768,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/12815768?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pierreneter",
+      "html_url": "https://github.com/pierreneter",
+      "followers_url": "https://api.github.com/users/pierreneter/followers",
+      "following_url": "https://api.github.com/users/pierreneter/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pierreneter/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pierreneter/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pierreneter/subscriptions",
+      "organizations_url": "https://api.github.com/users/pierreneter/orgs",
+      "repos_url": "https://api.github.com/users/pierreneter/repos",
+      "events_url": "https://api.github.com/users/pierreneter/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pierreneter/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-09T19:51:30Z",
+    "updated_at": "2017-06-09T19:51:30Z",
+    "body": "Try run as admin your `cmd` and run `$ npm install && npm start` again. If it still error. Let me know."
+  }
+]

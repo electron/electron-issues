@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/67553178",
+    "html_url": "https://github.com/electron/electron/issues/845#issuecomment-67553178",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/845",
+    "id": 67553178,
+    "user": {
+      "login": "GeorgS",
+      "id": 827885,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/827885?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GeorgS",
+      "html_url": "https://github.com/GeorgS",
+      "followers_url": "https://api.github.com/users/GeorgS/followers",
+      "following_url": "https://api.github.com/users/GeorgS/following{/other_user}",
+      "gists_url": "https://api.github.com/users/GeorgS/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/GeorgS/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/GeorgS/subscriptions",
+      "organizations_url": "https://api.github.com/users/GeorgS/orgs",
+      "repos_url": "https://api.github.com/users/GeorgS/repos",
+      "events_url": "https://api.github.com/users/GeorgS/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/GeorgS/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-18T20:40:46Z",
+    "updated_at": "2014-12-18T20:40:46Z",
+    "body": "Thanks :+1: \n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/242630777",
+    "html_url": "https://github.com/electron/electron/issues/4967#issuecomment-242630777",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4967",
+    "id": 242630777,
+    "user": {
+      "login": "keerthivasan-r",
+      "id": 11159385,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11159385?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/keerthivasan-r",
+      "html_url": "https://github.com/keerthivasan-r",
+      "followers_url": "https://api.github.com/users/keerthivasan-r/followers",
+      "following_url": "https://api.github.com/users/keerthivasan-r/following{/other_user}",
+      "gists_url": "https://api.github.com/users/keerthivasan-r/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/keerthivasan-r/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/keerthivasan-r/subscriptions",
+      "organizations_url": "https://api.github.com/users/keerthivasan-r/orgs",
+      "repos_url": "https://api.github.com/users/keerthivasan-r/repos",
+      "events_url": "https://api.github.com/users/keerthivasan-r/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/keerthivasan-r/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-26T04:59:37Z",
+    "updated_at": "2016-08-26T04:59:37Z",
+    "body": "So, Do we have support for printing in Thermal receipt printer?\n"
+  }
+]

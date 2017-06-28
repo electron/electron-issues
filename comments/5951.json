@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224778714",
+    "html_url": "https://github.com/electron/electron/issues/5951#issuecomment-224778714",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5951",
+    "id": 224778714,
+    "user": {
+      "login": "OlsonDev",
+      "id": 308072,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/308072?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/OlsonDev",
+      "html_url": "https://github.com/OlsonDev",
+      "followers_url": "https://api.github.com/users/OlsonDev/followers",
+      "following_url": "https://api.github.com/users/OlsonDev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/OlsonDev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/OlsonDev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/OlsonDev/subscriptions",
+      "organizations_url": "https://api.github.com/users/OlsonDev/orgs",
+      "repos_url": "https://api.github.com/users/OlsonDev/repos",
+      "events_url": "https://api.github.com/users/OlsonDev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/OlsonDev/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-09T01:29:05Z",
+    "updated_at": "2016-06-09T01:29:05Z",
+    "body": "[Change or remove](http://electron.atom.io/docs/api/browser-window/#winsetmenumenu-linux-windows) the default [menu](http://electron.atom.io/docs/api/menu/). Note the default menu has `Window > Close    Ctrl+W`.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/224779572",
+    "html_url": "https://github.com/electron/electron/issues/5951#issuecomment-224779572",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5951",
+    "id": 224779572,
+    "user": {
+      "login": "farzher",
+      "id": 1005136,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1005136?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/farzher",
+      "html_url": "https://github.com/farzher",
+      "followers_url": "https://api.github.com/users/farzher/followers",
+      "following_url": "https://api.github.com/users/farzher/following{/other_user}",
+      "gists_url": "https://api.github.com/users/farzher/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/farzher/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/farzher/subscriptions",
+      "organizations_url": "https://api.github.com/users/farzher/orgs",
+      "repos_url": "https://api.github.com/users/farzher/repos",
+      "events_url": "https://api.github.com/users/farzher/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/farzher/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-09T01:36:35Z",
+    "updated_at": "2016-06-09T01:36:35Z",
+    "body": "The app I'm working on has all the toolbars hidden which is why I had no idea what was causing this.\nI ran the `electron-quick-start` real quick to confirm it wasn't just my app but I didn't notice the header menus... I'm dumb. Thanks!\n"
+  }
+]

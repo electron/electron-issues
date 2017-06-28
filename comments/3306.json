@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/153218234",
+    "html_url": "https://github.com/electron/electron/issues/3306#issuecomment-153218234",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3306",
+    "id": 153218234,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-03T02:16:16Z",
+    "updated_at": "2015-11-03T02:16:16Z",
+    "body": "This is unfortunately expected behavior on Linux, because Chromium uses a zygote process to fork renderer processes instead of forking them directly in parent process.\n\nI tried to fix this by disabling zygote process (#1323), but it then produced more problems like #1605, so I have to bring it back (#2014).\n\nTo work around it you can probably read the env from `remote.process.env`.\n"
+  }
+]

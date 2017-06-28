@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/253045774",
+    "html_url": "https://github.com/electron/electron/issues/7556#issuecomment-253045774",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7556",
+    "id": 253045774,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-11T21:04:37Z",
+    "updated_at": "2016-10-11T21:04:42Z",
+    "body": "> The div that should always be filling the window does not follow the fullscreen animation when entering (or exiting)\n\nThis is probably expected since using `remote` does a synchronous method call to the main process and the renderer process is blocked until that method returns. Since it is blocked, it probably can't handle events occurring while it is waiting for the main process to return.\n\nHave you tried using the `ipcRenderer`/`ipcMain` modules to send a message to the main process to ask it to go to full screen and then run `setFullScreen` there when that message is sent so that it isn't blocking the renderer process?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/253096926",
+    "html_url": "https://github.com/electron/electron/issues/7556#issuecomment-253096926",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7556",
+    "id": 253096926,
+    "user": {
+      "login": "romaincointepas",
+      "id": 797899,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/797899?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/romaincointepas",
+      "html_url": "https://github.com/romaincointepas",
+      "followers_url": "https://api.github.com/users/romaincointepas/followers",
+      "following_url": "https://api.github.com/users/romaincointepas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/romaincointepas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/romaincointepas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/romaincointepas/subscriptions",
+      "organizations_url": "https://api.github.com/users/romaincointepas/orgs",
+      "repos_url": "https://api.github.com/users/romaincointepas/repos",
+      "events_url": "https://api.github.com/users/romaincointepas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/romaincointepas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-12T01:49:31Z",
+    "updated_at": "2016-10-12T01:49:31Z",
+    "body": "Using `ipcRenderer / ipcMain` doesn't have this problem indeed, I will switch to this. I always tend to forget that `remote` is sync.\n\nThanks!\n"
+  }
+]

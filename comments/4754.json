@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/195930915",
+    "html_url": "https://github.com/electron/electron/issues/4754#issuecomment-195930915",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4754",
+    "id": 195930915,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-03-13T10:32:38Z",
+    "updated_at": "2016-03-13T10:32:38Z",
+    "body": "You can turn off `webSecurity` in `webPreferences` to enable it.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/195940399",
+    "html_url": "https://github.com/electron/electron/issues/4754#issuecomment-195940399",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4754",
+    "id": 195940399,
+    "user": {
+      "login": "zgc2537",
+      "id": 8650623,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8650623?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zgc2537",
+      "html_url": "https://github.com/zgc2537",
+      "followers_url": "https://api.github.com/users/zgc2537/followers",
+      "following_url": "https://api.github.com/users/zgc2537/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zgc2537/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zgc2537/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zgc2537/subscriptions",
+      "organizations_url": "https://api.github.com/users/zgc2537/orgs",
+      "repos_url": "https://api.github.com/users/zgc2537/repos",
+      "events_url": "https://api.github.com/users/zgc2537/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zgc2537/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-13T11:46:37Z",
+    "updated_at": "2016-03-13T11:46:37Z",
+    "body": "THX, I have found this setting, and try it tomorrow.THX again.\n"
+  }
+]

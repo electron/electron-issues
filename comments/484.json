@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49718182",
+    "html_url": "https://github.com/electron/electron/pull/484#issuecomment-49718182",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/484",
+    "id": 49718182,
+    "user": {
+      "login": "yaotti",
+      "id": 18807,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/18807?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yaotti",
+      "html_url": "https://github.com/yaotti",
+      "followers_url": "https://api.github.com/users/yaotti/followers",
+      "following_url": "https://api.github.com/users/yaotti/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yaotti/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yaotti/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yaotti/subscriptions",
+      "organizations_url": "https://api.github.com/users/yaotti/orgs",
+      "repos_url": "https://api.github.com/users/yaotti/repos",
+      "events_url": "https://api.github.com/users/yaotti/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yaotti/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-22T09:45:02Z",
+    "updated_at": "2014-07-22T09:45:02Z",
+    "body": "Thank you! :smiley: \n"
+  }
+]

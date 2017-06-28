@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/215413350",
+    "html_url": "https://github.com/electron/electron/issues/5329#issuecomment-215413350",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5329",
+    "id": 215413350,
+    "user": {
+      "login": "csy2002",
+      "id": 7488144,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7488144?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/csy2002",
+      "html_url": "https://github.com/csy2002",
+      "followers_url": "https://api.github.com/users/csy2002/followers",
+      "following_url": "https://api.github.com/users/csy2002/following{/other_user}",
+      "gists_url": "https://api.github.com/users/csy2002/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/csy2002/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/csy2002/subscriptions",
+      "organizations_url": "https://api.github.com/users/csy2002/orgs",
+      "repos_url": "https://api.github.com/users/csy2002/repos",
+      "events_url": "https://api.github.com/users/csy2002/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/csy2002/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-28T12:50:57Z",
+    "updated_at": "2016-04-28T12:50:57Z",
+    "body": "when the javascript code run in main.js, i can get the right result;\nbut, the javascript code run in other BrowserWindow, I can't get the right result;\nwhy？thanks\n"
+  }
+]

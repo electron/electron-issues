@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/292216447",
+    "html_url": "https://github.com/electron/electron/pull/9124#issuecomment-292216447",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9124",
+    "id": 292216447,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-04-06T15:45:54Z",
+    "updated_at": "2017-04-06T15:45:54Z",
+    "body": "Thanks for fixing this 👍 📝 "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/292358866",
+    "html_url": "https://github.com/electron/electron/pull/9124#issuecomment-292358866",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9124",
+    "id": 292358866,
+    "user": {
+      "login": "TasukuUno",
+      "id": 4372047,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4372047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TasukuUno",
+      "html_url": "https://github.com/TasukuUno",
+      "followers_url": "https://api.github.com/users/TasukuUno/followers",
+      "following_url": "https://api.github.com/users/TasukuUno/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TasukuUno/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TasukuUno/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TasukuUno/subscriptions",
+      "organizations_url": "https://api.github.com/users/TasukuUno/orgs",
+      "repos_url": "https://api.github.com/users/TasukuUno/repos",
+      "events_url": "https://api.github.com/users/TasukuUno/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TasukuUno/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-06T23:21:40Z",
+    "updated_at": "2017-04-06T23:21:40Z",
+    "body": "Thanks 😄 "
+  }
+]

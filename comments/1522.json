@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/97617443",
+    "html_url": "https://github.com/electron/electron/issues/1522#issuecomment-97617443",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1522",
+    "id": 97617443,
+    "user": {
+      "login": "tommoor",
+      "id": 380914,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/380914?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tommoor",
+      "html_url": "https://github.com/tommoor",
+      "followers_url": "https://api.github.com/users/tommoor/followers",
+      "following_url": "https://api.github.com/users/tommoor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tommoor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tommoor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tommoor/subscriptions",
+      "organizations_url": "https://api.github.com/users/tommoor/orgs",
+      "repos_url": "https://api.github.com/users/tommoor/repos",
+      "events_url": "https://api.github.com/users/tommoor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tommoor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-30T00:01:41Z",
+    "updated_at": "2015-04-30T00:01:41Z",
+    "body": "See previous answer here: https://github.com/atom/electron/issues/1299 :smile: \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/97618259",
+    "html_url": "https://github.com/electron/electron/issues/1522#issuecomment-97618259",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1522",
+    "id": 97618259,
+    "user": {
+      "login": "oleander",
+      "id": 220827,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/220827?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/oleander",
+      "html_url": "https://github.com/oleander",
+      "followers_url": "https://api.github.com/users/oleander/followers",
+      "following_url": "https://api.github.com/users/oleander/following{/other_user}",
+      "gists_url": "https://api.github.com/users/oleander/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/oleander/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/oleander/subscriptions",
+      "organizations_url": "https://api.github.com/users/oleander/orgs",
+      "repos_url": "https://api.github.com/users/oleander/repos",
+      "events_url": "https://api.github.com/users/oleander/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/oleander/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-30T00:09:41Z",
+    "updated_at": "2015-04-30T00:09:41Z",
+    "body": "Using an absolute path worked, thanks!\n"
+  }
+]

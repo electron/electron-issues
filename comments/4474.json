@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/184572491",
+    "html_url": "https://github.com/electron/electron/pull/4474#issuecomment-184572491",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4474",
+    "id": 184572491,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-16T08:27:56Z",
+    "updated_at": "2016-02-16T08:27:56Z",
+    "body": "The requirement of Node is explicitly listed in Prerequisites, including how to download and install it. And actually installing nodejs and npm from the official Ubuntu repository is strongly discouraged, because it is very likely you will get ancient versions of Node or npm, and the aliasing makes it useless.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/184623961",
+    "html_url": "https://github.com/electron/electron/pull/4474#issuecomment-184623961",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4474",
+    "id": 184623961,
+    "user": {
+      "login": "Juul",
+      "id": 122752,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/122752?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Juul",
+      "html_url": "https://github.com/Juul",
+      "followers_url": "https://api.github.com/users/Juul/followers",
+      "following_url": "https://api.github.com/users/Juul/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Juul/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Juul/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Juul/subscriptions",
+      "organizations_url": "https://api.github.com/users/Juul/orgs",
+      "repos_url": "https://api.github.com/users/Juul/repos",
+      "events_url": "https://api.github.com/users/Juul/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Juul/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-16T10:50:43Z",
+    "updated_at": "2016-02-16T10:50:43Z",
+    "body": "On Tue, Feb 16, 2016 at 12:28 AM, Cheng Zhao notifications@github.com\nwrote:\n\n> The requirement of Node is explicitly listed in Prerequisites, including\n> how to download and install it. And actually installing nodejs and npm from\n> the official Ubuntu repository is strongly discouraged, because it is very\n> likely you will get ancient versions of Node or npm, and the aliasing makes\n> it useless.\n\nAh! Apparently I can't read.\n"
+  }
+]

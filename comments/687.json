@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/58620872",
+    "html_url": "https://github.com/electron/electron/issues/687#issuecomment-58620872",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/687",
+    "id": 58620872,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-10-10T07:22:02Z",
+    "updated_at": "2014-10-10T07:22:02Z",
+    "body": "Sorry for bouncing this issue, but this is actually a bug of tree-view and I suggest reopening  atom/tree-view#233.\n\n@kevinsawicki, after some debugging I found that `@selectedPaths()` in `TreeView` always returned realpath for symbol links, which should be the source of this bug.\n"
+  }
+]

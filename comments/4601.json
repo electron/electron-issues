@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/189160732",
+    "html_url": "https://github.com/electron/electron/issues/4601#issuecomment-189160732",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4601",
+    "id": 189160732,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-02-26T08:29:52Z",
+    "updated_at": "2016-02-26T08:29:52Z",
+    "body": "Can you provide an example app?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/189258881",
+    "html_url": "https://github.com/electron/electron/issues/4601#issuecomment-189258881",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4601",
+    "id": 189258881,
+    "user": {
+      "login": "varHarrie",
+      "id": 14304201,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14304201?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/varHarrie",
+      "html_url": "https://github.com/varHarrie",
+      "followers_url": "https://api.github.com/users/varHarrie/followers",
+      "following_url": "https://api.github.com/users/varHarrie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/varHarrie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/varHarrie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/varHarrie/subscriptions",
+      "organizations_url": "https://api.github.com/users/varHarrie/orgs",
+      "repos_url": "https://api.github.com/users/varHarrie/repos",
+      "events_url": "https://api.github.com/users/varHarrie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/varHarrie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-26T12:36:59Z",
+    "updated_at": "2016-02-26T12:36:59Z",
+    "body": "Thx to reply.\nIn my app I use webpack. I just replace the 'require' from 'nodeRequire' and there is no error any more.\n"
+  }
+]

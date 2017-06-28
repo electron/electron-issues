@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/212747842",
+    "html_url": "https://github.com/electron/electron/issues/5232#issuecomment-212747842",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5232",
+    "id": 212747842,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-21T05:11:36Z",
+    "updated_at": "2016-04-21T05:11:36Z",
+    "body": "You are using dialog from the main process while passing the NativeImage instance from renderer process to it, so what `dialog.showMessageBox` sees is a remote object instead of a NativeImage instance.\n\nTo solve it you can either use image's path directly, or create the NativeImage instance in the main process: `nativeImage = require('electron').remote.nativeImage`.  \n"
+  }
+]

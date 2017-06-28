@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/46773498",
+    "html_url": "https://github.com/electron/electron/issues/400#issuecomment-46773498",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/400",
+    "id": 46773498,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-06-22T06:11:37Z",
+    "updated_at": "2014-06-22T06:11:37Z",
+    "body": "This error is expected and is part of the tests, and `./script/test.py` doesn't terminate immediately when all the tests have ran, it is mainly used for showing test results in GUI, `./script/test.py --ci` should be what you wanted.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/46773744",
+    "html_url": "https://github.com/electron/electron/issues/400#issuecomment-46773744",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/400",
+    "id": 46773744,
+    "user": {
+      "login": "felixrabe",
+      "id": 400795,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/400795?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/felixrabe",
+      "html_url": "https://github.com/felixrabe",
+      "followers_url": "https://api.github.com/users/felixrabe/followers",
+      "following_url": "https://api.github.com/users/felixrabe/following{/other_user}",
+      "gists_url": "https://api.github.com/users/felixrabe/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/felixrabe/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/felixrabe/subscriptions",
+      "organizations_url": "https://api.github.com/users/felixrabe/orgs",
+      "repos_url": "https://api.github.com/users/felixrabe/repos",
+      "events_url": "https://api.github.com/users/felixrabe/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/felixrabe/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-06-22T06:28:50Z",
+    "updated_at": "2014-06-22T06:28:50Z",
+    "body": "Thanks.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/275343048",
+    "html_url": "https://github.com/electron/electron/issues/8503#issuecomment-275343048",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8503",
+    "id": 275343048,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-26T09:27:07Z",
+    "updated_at": "2017-01-26T09:27:07Z",
+    "body": "`registerHttpProtocol` will handle streaming large files from the redirect request, there is an issue to allow specifying headers with custom protocol responses, once that is available you can send range responses with buffer protocol. Merging this to https://github.com/electron/electron/issues/4303"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/275348185",
+    "html_url": "https://github.com/electron/electron/issues/8503#issuecomment-275348185",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8503",
+    "id": 275348185,
+    "user": {
+      "login": "sedwards2009",
+      "id": 6926644,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6926644?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sedwards2009",
+      "html_url": "https://github.com/sedwards2009",
+      "followers_url": "https://api.github.com/users/sedwards2009/followers",
+      "following_url": "https://api.github.com/users/sedwards2009/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sedwards2009/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sedwards2009/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sedwards2009/subscriptions",
+      "organizations_url": "https://api.github.com/users/sedwards2009/orgs",
+      "repos_url": "https://api.github.com/users/sedwards2009/repos",
+      "events_url": "https://api.github.com/users/sedwards2009/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sedwards2009/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-26T09:51:41Z",
+    "updated_at": "2017-01-26T09:51:41Z",
+    "body": "@deepak1556  I don't think #4303 covers everything. I'm also looking for streaming *uploads*.\r\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/219218586",
+    "html_url": "https://github.com/electron/electron/issues/5521#issuecomment-219218586",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5521",
+    "id": 219218586,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-14T12:47:38Z",
+    "updated_at": "2016-05-14T12:47:38Z",
+    "body": "I can't see anything weird from the log, and the renderer process doesn't seem to have crashed, otherwise the devtools would have reported that.\n\nIt is probably because some code in your app is blocking when loading the page.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/219528917",
+    "html_url": "https://github.com/electron/electron/issues/5521#issuecomment-219528917",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5521",
+    "id": 219528917,
+    "user": {
+      "login": "Darkneon",
+      "id": 654727,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/654727?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Darkneon",
+      "html_url": "https://github.com/Darkneon",
+      "followers_url": "https://api.github.com/users/Darkneon/followers",
+      "following_url": "https://api.github.com/users/Darkneon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Darkneon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Darkneon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Darkneon/subscriptions",
+      "organizations_url": "https://api.github.com/users/Darkneon/orgs",
+      "repos_url": "https://api.github.com/users/Darkneon/repos",
+      "events_url": "https://api.github.com/users/Darkneon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Darkneon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-16T19:55:57Z",
+    "updated_at": "2016-05-16T19:55:57Z",
+    "body": "Thanks, so after going through the code again, we identified a potential race condition that could have caused it.\n\nFix is done, I'll see if we still get it.\n"
+  }
+]

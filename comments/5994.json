@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225380708",
+    "html_url": "https://github.com/electron/electron/issues/5994#issuecomment-225380708",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5994",
+    "id": 225380708,
+    "user": {
+      "login": "Gaafar",
+      "id": 7513428,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7513428?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Gaafar",
+      "html_url": "https://github.com/Gaafar",
+      "followers_url": "https://api.github.com/users/Gaafar/followers",
+      "following_url": "https://api.github.com/users/Gaafar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Gaafar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Gaafar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Gaafar/subscriptions",
+      "organizations_url": "https://api.github.com/users/Gaafar/orgs",
+      "repos_url": "https://api.github.com/users/Gaafar/repos",
+      "events_url": "https://api.github.com/users/Gaafar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Gaafar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-11T18:01:07Z",
+    "updated_at": "2016-06-11T18:01:17Z",
+    "body": "use `kiosk: true`\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/225496382",
+    "html_url": "https://github.com/electron/electron/issues/5994#issuecomment-225496382",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5994",
+    "id": 225496382,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-13T06:09:44Z",
+    "updated_at": "2016-06-13T06:09:44Z",
+    "body": "It is impossible to make the window receive mouse events while not taking focus, for your use case you can create a global mouse hook that captures mouse events from the game, or you can just make electron window take focus and then send mouse event to the game.\n\nElectron doesn't support either way, otherwise it would be easily be marked as virus by security softwares. But you can write a native node module for it.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/256903097",
+    "html_url": "https://github.com/electron/electron/issues/7778#issuecomment-256903097",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7778",
+    "id": 256903097,
+    "user": {
+      "login": "redhotbeani",
+      "id": 13960841,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13960841?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/redhotbeani",
+      "html_url": "https://github.com/redhotbeani",
+      "followers_url": "https://api.github.com/users/redhotbeani/followers",
+      "following_url": "https://api.github.com/users/redhotbeani/following{/other_user}",
+      "gists_url": "https://api.github.com/users/redhotbeani/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/redhotbeani/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/redhotbeani/subscriptions",
+      "organizations_url": "https://api.github.com/users/redhotbeani/orgs",
+      "repos_url": "https://api.github.com/users/redhotbeani/repos",
+      "events_url": "https://api.github.com/users/redhotbeani/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/redhotbeani/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-28T12:01:08Z",
+    "updated_at": "2016-10-28T12:01:08Z",
+    "body": "Note: when I copy an image inside a Windows app, like Windows Photos, Clipboard.readImage() returns usable NativeImage Object. But when I select an image in Windows Explorer and copy it, clipboard.readImage() is empty.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/260828240",
+    "html_url": "https://github.com/electron/electron/issues/7778#issuecomment-260828240",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7778",
+    "id": 260828240,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-11-16T01:43:00Z",
+    "updated_at": "2016-11-16T01:43:00Z",
+    "body": "When you copy an image in Windows Explorer, you are copying the file instead of copying the contents of image.\n\nThis is a duplicate of #2244.\n"
+  }
+]

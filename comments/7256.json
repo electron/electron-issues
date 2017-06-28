@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/248090288",
+    "html_url": "https://github.com/electron/electron/issues/7256#issuecomment-248090288",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7256",
+    "id": 248090288,
+    "user": {
+      "login": "gerhardberger",
+      "id": 1059699,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1059699?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gerhardberger",
+      "html_url": "https://github.com/gerhardberger",
+      "followers_url": "https://api.github.com/users/gerhardberger/followers",
+      "following_url": "https://api.github.com/users/gerhardberger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gerhardberger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gerhardberger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gerhardberger/subscriptions",
+      "organizations_url": "https://api.github.com/users/gerhardberger/orgs",
+      "repos_url": "https://api.github.com/users/gerhardberger/repos",
+      "events_url": "https://api.github.com/users/gerhardberger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gerhardberger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-19T19:04:22Z",
+    "updated_at": "2016-09-19T19:04:22Z",
+    "body": "I think rendering is done properly at 20 FPS in your case, those bigger values come from the fact that the rendering itself in chrome is halted for a little (that's why there is bigger values in the beginning, because it still loads the page) and no new changes happen (setting a frame rate means setting the maximum rate of the rendering), if there is no change in the frame, no `paint` event will be emitted.\n\nIn your case to prevent these long pauses, I can suggest to try to use the new `webContents.invalidate()` (will be available next electron version) to generate a new paint event on-demand, when you exceed a certain time limit.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/248197696",
+    "html_url": "https://github.com/electron/electron/issues/7256#issuecomment-248197696",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7256",
+    "id": 248197696,
+    "user": {
+      "login": "brian-mann",
+      "id": 1268976,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1268976?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brian-mann",
+      "html_url": "https://github.com/brian-mann",
+      "followers_url": "https://api.github.com/users/brian-mann/followers",
+      "following_url": "https://api.github.com/users/brian-mann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brian-mann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brian-mann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brian-mann/subscriptions",
+      "organizations_url": "https://api.github.com/users/brian-mann/orgs",
+      "repos_url": "https://api.github.com/users/brian-mann/repos",
+      "events_url": "https://api.github.com/users/brian-mann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brian-mann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-20T04:20:43Z",
+    "updated_at": "2016-09-20T04:20:43Z",
+    "body": "I was able to synchronize the variable framerate with `ffmpeg` after spending hours and hours finding **just the right flag** but such is life with `ffmpeg`.\n"
+  }
+]

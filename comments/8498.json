@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/279944803",
+    "html_url": "https://github.com/electron/electron/issues/8498#issuecomment-279944803",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8498",
+    "id": 279944803,
+    "user": {
+      "login": "gerhardberger",
+      "id": 1059699,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1059699?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gerhardberger",
+      "html_url": "https://github.com/gerhardberger",
+      "followers_url": "https://api.github.com/users/gerhardberger/followers",
+      "following_url": "https://api.github.com/users/gerhardberger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gerhardberger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gerhardberger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gerhardberger/subscriptions",
+      "organizations_url": "https://api.github.com/users/gerhardberger/orgs",
+      "repos_url": "https://api.github.com/users/gerhardberger/repos",
+      "events_url": "https://api.github.com/users/gerhardberger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gerhardberger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-15T08:15:26Z",
+    "updated_at": "2017-02-15T08:15:26Z",
+    "body": "Discussed in #8522 "
+  }
+]

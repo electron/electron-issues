@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/244681664",
+    "html_url": "https://github.com/electron/electron/issues/7095#issuecomment-244681664",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7095",
+    "id": 244681664,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-05T07:56:49Z",
+    "updated_at": "2016-09-05T07:56:49Z",
+    "body": "Did you read the [FAQ](http://electron.atom.io/docs/faq/#my-apps-windowtray-disappeared-after-a-few-minutes)?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/244682755",
+    "html_url": "https://github.com/electron/electron/issues/7095#issuecomment-244682755",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7095",
+    "id": 244682755,
+    "user": {
+      "login": "stanleyxu2005",
+      "id": 5162687,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5162687?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stanleyxu2005",
+      "html_url": "https://github.com/stanleyxu2005",
+      "followers_url": "https://api.github.com/users/stanleyxu2005/followers",
+      "following_url": "https://api.github.com/users/stanleyxu2005/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stanleyxu2005/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stanleyxu2005/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stanleyxu2005/subscriptions",
+      "organizations_url": "https://api.github.com/users/stanleyxu2005/orgs",
+      "repos_url": "https://api.github.com/users/stanleyxu2005/repos",
+      "events_url": "https://api.github.com/users/stanleyxu2005/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stanleyxu2005/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-05T08:02:19Z",
+    "updated_at": "2016-09-05T08:14:31Z",
+    "body": "Aha, before I update my clue -> memory management, I found your answer!\n\n**Oh, yes. I should have read the FAQ first. Thanks.** \n\nI think the dev team should consider adding `app.setTrayIcon()` will make much sense rather than declaring an orphan `tray` variable, which might be recycled by the JS VM. The similar improvement is to have `app.setMainWindow()`.\n"
+  }
+]

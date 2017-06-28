@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/305485060",
+    "html_url": "https://github.com/electron/electron/issues/9646#issuecomment-305485060",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9646",
+    "id": 305485060,
+    "user": {
+      "login": "fasterthanlime",
+      "id": 7998310,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7998310?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fasterthanlime",
+      "html_url": "https://github.com/fasterthanlime",
+      "followers_url": "https://api.github.com/users/fasterthanlime/followers",
+      "following_url": "https://api.github.com/users/fasterthanlime/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fasterthanlime/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fasterthanlime/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fasterthanlime/subscriptions",
+      "organizations_url": "https://api.github.com/users/fasterthanlime/orgs",
+      "repos_url": "https://api.github.com/users/fasterthanlime/repos",
+      "events_url": "https://api.github.com/users/fasterthanlime/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fasterthanlime/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-01T12:57:13Z",
+    "updated_at": "2017-06-01T13:01:49Z",
+    "body": "Another tidbit: I've recently started using [dtf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat) to format dates - I see ICU in #3570, so, it might be related?\r\n\r\n---\r\n\r\nedit: disabling date formatting codepath doesn't seem to change anything. I can get it to happen semi-reliably by just opening a new webview.\r\n\r\n---\r\n\r\nedit 2: new theory is a race condition - it happens about half the time when opening a new webview, but my code is pretty method-call heavy on webview, let's see if a little delay makes the crash go away"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/305968109",
+    "html_url": "https://github.com/electron/electron/issues/9646#issuecomment-305968109",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9646",
+    "id": 305968109,
+    "user": {
+      "login": "fasterthanlime",
+      "id": 7998310,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7998310?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fasterthanlime",
+      "html_url": "https://github.com/fasterthanlime",
+      "followers_url": "https://api.github.com/users/fasterthanlime/followers",
+      "following_url": "https://api.github.com/users/fasterthanlime/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fasterthanlime/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fasterthanlime/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fasterthanlime/subscriptions",
+      "organizations_url": "https://api.github.com/users/fasterthanlime/orgs",
+      "repos_url": "https://api.github.com/users/fasterthanlime/repos",
+      "events_url": "https://api.github.com/users/fasterthanlime/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fasterthanlime/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-03T11:05:55Z",
+    "updated_at": "2017-06-03T11:05:55Z",
+    "body": "Switched to Linux for day-to-day development since yesterday and haven't seen that bug pop up (exact same electron version, exact same codebase), so I think it's windows-specific."
+  }
+]

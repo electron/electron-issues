@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/187774981",
+    "html_url": "https://github.com/electron/electron/issues/4584#issuecomment-187774981",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4584",
+    "id": 187774981,
+    "user": {
+      "login": "xwartz",
+      "id": 4149827,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4149827?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xwartz",
+      "html_url": "https://github.com/xwartz",
+      "followers_url": "https://api.github.com/users/xwartz/followers",
+      "following_url": "https://api.github.com/users/xwartz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xwartz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xwartz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xwartz/subscriptions",
+      "organizations_url": "https://api.github.com/users/xwartz/orgs",
+      "repos_url": "https://api.github.com/users/xwartz/repos",
+      "events_url": "https://api.github.com/users/xwartz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xwartz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-23T16:31:11Z",
+    "updated_at": "2016-02-23T16:31:11Z",
+    "body": "ok, I saw the [configuration option](https://github.com/atom/electron/blob/master/docs/api/frameless-window.md)\n"
+  }
+]

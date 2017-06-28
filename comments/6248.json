@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/228639837",
+    "html_url": "https://github.com/electron/electron/issues/6248#issuecomment-228639837",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6248",
+    "id": 228639837,
+    "user": {
+      "login": "abdihaikal",
+      "id": 2351764,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2351764?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abdihaikal",
+      "html_url": "https://github.com/abdihaikal",
+      "followers_url": "https://api.github.com/users/abdihaikal/followers",
+      "following_url": "https://api.github.com/users/abdihaikal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abdihaikal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abdihaikal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abdihaikal/subscriptions",
+      "organizations_url": "https://api.github.com/users/abdihaikal/orgs",
+      "repos_url": "https://api.github.com/users/abdihaikal/repos",
+      "events_url": "https://api.github.com/users/abdihaikal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abdihaikal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-27T02:06:23Z",
+    "updated_at": "2016-06-27T02:06:23Z",
+    "body": "Could you please be more spesific..\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/228906540",
+    "html_url": "https://github.com/electron/electron/issues/6248#issuecomment-228906540",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6248",
+    "id": 228906540,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-27T23:29:41Z",
+    "updated_at": "2016-06-27T23:29:41Z",
+    "body": "You cannot show a window until the `app` `ready` event fires.\n\nYou may want to look at the quick start for code examples: http://electron.atom.io/docs/tutorial/quick-start/\n\nClosing this out.\n"
+  }
+]

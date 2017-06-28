@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/48057290",
+    "html_url": "https://github.com/electron/electron/issues/435#issuecomment-48057290",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/435",
+    "id": 48057290,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-07-04T15:44:47Z",
+    "updated_at": "2014-07-04T15:44:47Z",
+    "body": "The minidump file is produced by [google-breakpad](https://code.google.com/p/google-breakpad/), in order to convert it to readable text you need to generate symbols and use some command line tools to process it, you can find more information in [breakpad's wiki](https://code.google.com/p/google-breakpad/w/list).\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/48134659",
+    "html_url": "https://github.com/electron/electron/issues/435#issuecomment-48134659",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/435",
+    "id": 48134659,
+    "user": {
+      "login": "caracare521",
+      "id": 7552623,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7552623?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/caracare521",
+      "html_url": "https://github.com/caracare521",
+      "followers_url": "https://api.github.com/users/caracare521/followers",
+      "following_url": "https://api.github.com/users/caracare521/following{/other_user}",
+      "gists_url": "https://api.github.com/users/caracare521/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/caracare521/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/caracare521/subscriptions",
+      "organizations_url": "https://api.github.com/users/caracare521/orgs",
+      "repos_url": "https://api.github.com/users/caracare521/repos",
+      "events_url": "https://api.github.com/users/caracare521/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/caracare521/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-07T01:49:21Z",
+    "updated_at": "2014-07-07T01:49:21Z",
+    "body": "Thank you for the info.\n"
+  }
+]

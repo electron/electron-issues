@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/96121339",
+    "html_url": "https://github.com/electron/electron/issues/1449#issuecomment-96121339",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1449",
+    "id": 96121339,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-04-25T02:06:06Z",
+    "updated_at": "2015-04-25T02:06:06Z",
+    "body": "Unfortunately OS X doesn't allow setting arbitrary string as accelerator, the only way to implement it is to draw custom menu items, which I don't think we will do. Pull requests for that would still be welcomed though.\n\nI'm closing this as won't fix.\n"
+  }
+]

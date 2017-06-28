@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/234582925",
+    "html_url": "https://github.com/electron/electron/issues/6564#issuecomment-234582925",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6564",
+    "id": 234582925,
+    "user": {
+      "login": "dpvc",
+      "id": 432782,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/432782?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dpvc",
+      "html_url": "https://github.com/dpvc",
+      "followers_url": "https://api.github.com/users/dpvc/followers",
+      "following_url": "https://api.github.com/users/dpvc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dpvc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dpvc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dpvc/subscriptions",
+      "organizations_url": "https://api.github.com/users/dpvc/orgs",
+      "repos_url": "https://api.github.com/users/dpvc/repos",
+      "events_url": "https://api.github.com/users/dpvc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dpvc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-22T15:57:01Z",
+    "updated_at": "2016-07-22T15:57:01Z",
+    "body": "You haven't given your MathJax configuration, but I suspect that you have not turned off the font cache, so the SVG contains `<use>` tag that reference a global SVG element for the actual path data.  That will make the SVG no be self-contained, as needed for the `<img>` tag.\n\nTry adding\n\n```\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.Config({\n  SVG: {useFontCache: false}\n});\n</script>\n```\n\nto your page just _before_ the script that loads `MathJax.js` itself.  That will make each SVG be self contained, with no `<use>` tags.\n\nIf that doesn't work, attach an `onerror` handler to your `img` and see if that gets called.  \n\nFinally, you might want to attach the `onload` handler to the `img` _before_ setting the `src` attribute, just in case there is a race condition.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/243740969",
+    "html_url": "https://github.com/electron/electron/issues/6564#issuecomment-243740969",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6564",
+    "id": 243740969,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-08-31T11:52:46Z",
+    "updated_at": "2016-08-31T11:52:46Z",
+    "body": "Closing since the original question seems to have been resolved.\n"
+  }
+]

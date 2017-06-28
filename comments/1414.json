@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/92315327",
+    "html_url": "https://github.com/electron/electron/issues/1414#issuecomment-92315327",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1414",
+    "id": 92315327,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-04-13T11:09:42Z",
+    "updated_at": "2015-04-13T11:09:42Z",
+    "body": "Scripts loaded by `<script>` will be loaded by the browser, and the code in it will run under global context, so setting `foo` in it is equivalent to set `global.foo`.\n\nYou should use `require` if you want to constrain the code in module scope.\n"
+  }
+]

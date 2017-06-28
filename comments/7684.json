@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/255170444",
+    "html_url": "https://github.com/electron/electron/issues/7684#issuecomment-255170444",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7684",
+    "id": 255170444,
+    "user": {
+      "login": "tmikaeld",
+      "id": 907195,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/907195?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tmikaeld",
+      "html_url": "https://github.com/tmikaeld",
+      "followers_url": "https://api.github.com/users/tmikaeld/followers",
+      "following_url": "https://api.github.com/users/tmikaeld/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tmikaeld/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tmikaeld/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tmikaeld/subscriptions",
+      "organizations_url": "https://api.github.com/users/tmikaeld/orgs",
+      "repos_url": "https://api.github.com/users/tmikaeld/repos",
+      "events_url": "https://api.github.com/users/tmikaeld/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tmikaeld/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-20T17:19:58Z",
+    "updated_at": "2016-10-20T17:19:58Z",
+    "body": "I see it's already mentioned in other issues, so i guess it's \"You have to implement it yourself\" that's the consensus.\n"
+  }
+]

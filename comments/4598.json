@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/188489314",
+    "html_url": "https://github.com/electron/electron/issues/4598#issuecomment-188489314",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4598",
+    "id": 188489314,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-24T22:34:08Z",
+    "updated_at": "2016-02-24T22:34:08Z",
+    "body": "Peep https://github.com/atom/electron/blob/master/docs/tutorial/using-native-node-modules.md to solve this\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/188503473",
+    "html_url": "https://github.com/electron/electron/issues/4598#issuecomment-188503473",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4598",
+    "id": 188503473,
+    "user": {
+      "login": "azamatsmith",
+      "id": 4824919,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4824919?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/azamatsmith",
+      "html_url": "https://github.com/azamatsmith",
+      "followers_url": "https://api.github.com/users/azamatsmith/followers",
+      "following_url": "https://api.github.com/users/azamatsmith/following{/other_user}",
+      "gists_url": "https://api.github.com/users/azamatsmith/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/azamatsmith/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/azamatsmith/subscriptions",
+      "organizations_url": "https://api.github.com/users/azamatsmith/orgs",
+      "repos_url": "https://api.github.com/users/azamatsmith/repos",
+      "events_url": "https://api.github.com/users/azamatsmith/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/azamatsmith/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-24T23:07:18Z",
+    "updated_at": "2016-02-24T23:21:10Z",
+    "body": "So I followed all of the instructions there, but I must be doing something wrong? This is a module that was provided to me. It is actually a windows dll file, here is my line in my file: \n`var globals = require('./cache')` \nI am running `electron .` could that be why I am getting this error?\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/258319697",
+    "html_url": "https://github.com/electron/electron/issues/7871#issuecomment-258319697",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7871",
+    "id": 258319697,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-11-04T01:09:11Z",
+    "updated_at": "2016-11-04T01:09:11Z",
+    "body": "The `preload` attribute on the top-level options object was deprecated pre-Electron 1.0 and removed from the 1.0 API.\n\nIt should now be set on the nested `webPreferences` object:\n\n``` js\n mainWindow = new BrowserWindow({             // Instantiate the browser window.\n  width: 1024,\n  height: 768,\n  webPreferences: {\n    preload: __dirname+'/preload.js'\n  }\n}); \n```\n\nSee http://electron.atom.io/docs/api/browser-window/#new-browserwindowoptions for more details.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/258383450",
+    "html_url": "https://github.com/electron/electron/issues/7871#issuecomment-258383450",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7871",
+    "id": 258383450,
+    "user": {
+      "login": "akels",
+      "id": 2894312,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2894312?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akels",
+      "html_url": "https://github.com/akels",
+      "followers_url": "https://api.github.com/users/akels/followers",
+      "following_url": "https://api.github.com/users/akels/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akels/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akels/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akels/subscriptions",
+      "organizations_url": "https://api.github.com/users/akels/orgs",
+      "repos_url": "https://api.github.com/users/akels/repos",
+      "events_url": "https://api.github.com/users/akels/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akels/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-04T09:38:36Z",
+    "updated_at": "2016-11-04T09:39:18Z",
+    "body": "Disappointing that I did not saw error message for deprecated feature :/ But now it works. Thank You :)\n"
+  }
+]

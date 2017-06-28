@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/54023874",
+    "html_url": "https://github.com/electron/electron/issues/619#issuecomment-54023874",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/619",
+    "id": 54023874,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-09-01T06:40:35Z",
+    "updated_at": "2014-09-01T06:40:35Z",
+    "body": "If you meant making an app as Windows Service I'm afraid there is no easy way to do it, if you meant making your app run when Windows starts, there are quite a lot of solutions on Google.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/77306854",
+    "html_url": "https://github.com/electron/electron/issues/619#issuecomment-77306854",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/619",
+    "id": 77306854,
+    "user": {
+      "login": "vicentedealencar",
+      "id": 1762868,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1762868?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vicentedealencar",
+      "html_url": "https://github.com/vicentedealencar",
+      "followers_url": "https://api.github.com/users/vicentedealencar/followers",
+      "following_url": "https://api.github.com/users/vicentedealencar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vicentedealencar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vicentedealencar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vicentedealencar/subscriptions",
+      "organizations_url": "https://api.github.com/users/vicentedealencar/orgs",
+      "repos_url": "https://api.github.com/users/vicentedealencar/repos",
+      "events_url": "https://api.github.com/users/vicentedealencar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vicentedealencar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-05T05:00:20Z",
+    "updated_at": "2015-03-05T05:00:20Z",
+    "body": "Perhaps [topshelf](http://docs.topshelf-project.com/en/latest/configuration/quickstart.html#show-me-the-code) could be put together with [edge](https://github.com/tjanczuk/edge) to make a Windows Service.\n"
+  }
+]

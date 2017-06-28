@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250571376",
+    "html_url": "https://github.com/electron/electron/issues/7405#issuecomment-250571376",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7405",
+    "id": 250571376,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-29T19:47:15Z",
+    "updated_at": "2016-09-29T19:47:15Z",
+    "body": "GitHub issues are for feature requests and bug reports, questions / support requests about using Electron should be directed to the [community](https://github.com/electron/electron#community) or to the [Slack Channel](http://atom-slack.herokuapp.com/).\n\nThis appears to be a question / issue with the Electron application in question rather than Electron itself.\n\n> I am facing this frustrating issue for last 1 week. Everything was working fine earlier.\n\nLook through your commit log for the last week, a good trick is to just diff 1 week ago to today and see what has changed.   Look for any added `app.exit`, `app.quit` or `process.exit` calls that you may have added.  Things don't just magically stop working there is always a reason 👍 \n\n> What could be the possible reason? How can I figure this one out?\n\nFor more advanced debugging try setting the following environment variables and launching from command line\n\n``` bash\nset ELECTRON_ENABLE_LOGGING=true\nset ELECTRON_ENABLE_STACK_DUMPING=true\nC:\\Users\\u\\AppData\\Local\\MyElectronApp\\app-0.0.45\\MyElectron App.exe\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/250668566",
+    "html_url": "https://github.com/electron/electron/issues/7405#issuecomment-250668566",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7405",
+    "id": 250668566,
+    "user": {
+      "login": "makeitcount",
+      "id": 18238857,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/18238857?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/makeitcount",
+      "html_url": "https://github.com/makeitcount",
+      "followers_url": "https://api.github.com/users/makeitcount/followers",
+      "following_url": "https://api.github.com/users/makeitcount/following{/other_user}",
+      "gists_url": "https://api.github.com/users/makeitcount/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/makeitcount/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/makeitcount/subscriptions",
+      "organizations_url": "https://api.github.com/users/makeitcount/orgs",
+      "repos_url": "https://api.github.com/users/makeitcount/repos",
+      "events_url": "https://api.github.com/users/makeitcount/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/makeitcount/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-30T06:21:55Z",
+    "updated_at": "2016-09-30T06:21:55Z",
+    "body": "[Solved] \nThanks @MarshallOfSound , it's fixed now as below\nWhen receiving window closing event, close all the app windows(including hidden one). then call app.quit()\n"
+  }
+]

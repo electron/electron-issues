@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/99530725",
+    "html_url": "https://github.com/electron/electron/issues/1589#issuecomment-99530725",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1589",
+    "id": 99530725,
+    "user": {
+      "login": "arthurakay",
+      "id": 401229,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/401229?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arthurakay",
+      "html_url": "https://github.com/arthurakay",
+      "followers_url": "https://api.github.com/users/arthurakay/followers",
+      "following_url": "https://api.github.com/users/arthurakay/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arthurakay/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arthurakay/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arthurakay/subscriptions",
+      "organizations_url": "https://api.github.com/users/arthurakay/orgs",
+      "repos_url": "https://api.github.com/users/arthurakay/repos",
+      "events_url": "https://api.github.com/users/arthurakay/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arthurakay/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-06T16:32:32Z",
+    "updated_at": "2015-05-06T16:32:32Z",
+    "body": "You may have to try something like `path.join(__dirname, 'yo.txt');`\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/99558147",
+    "html_url": "https://github.com/electron/electron/issues/1589#issuecomment-99558147",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1589",
+    "id": 99558147,
+    "user": {
+      "login": "ThorstenHans",
+      "id": 357884,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/357884?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ThorstenHans",
+      "html_url": "https://github.com/ThorstenHans",
+      "followers_url": "https://api.github.com/users/ThorstenHans/followers",
+      "following_url": "https://api.github.com/users/ThorstenHans/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ThorstenHans/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ThorstenHans/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ThorstenHans/subscriptions",
+      "organizations_url": "https://api.github.com/users/ThorstenHans/orgs",
+      "repos_url": "https://api.github.com/users/ThorstenHans/repos",
+      "events_url": "https://api.github.com/users/ThorstenHans/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ThorstenHans/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-06T18:17:11Z",
+    "updated_at": "2015-05-06T18:17:11Z",
+    "body": "that's because you're only passing `yo.txt` to the fs module which is a valid directory name.  \nIn order to remain cross-platform compatible you should follow @arthurakay and change your code to\n\n```\nvar fs = require('fs'),\n  path = require('path');\n\nfs.readFile(path.join(__dirname, 'yo.txt'), 'utf8', function (err,data) {\n  if (err) {\n    return console.log(err);\n  }\n  console.log(data);\n});\n```\n"
+  }
+]

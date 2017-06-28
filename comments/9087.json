@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/308652732",
+    "html_url": "https://github.com/electron/electron/issues/9087#issuecomment-308652732",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9087",
+    "id": 308652732,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-15T07:32:30Z",
+    "updated_at": "2017-06-15T07:32:30Z",
+    "body": "Not all window managers support hints like this, and some expect `_NET_WM_WINDOW_TYPE_DOCK` while some expect `_NET_WM_WINDOW_TYPE`, so for implementing the dock feature I doubt setting `_NET_WM_STRUT` would be enough.\r\n\r\nI suggest working out a demo C program that implements docking yourself, and if it really works, we can integrate it into Electron.\r\n\r\nClosing since it is a much larger task than it sounds, and the team does not have enough resources to study into it."
+  }
+]

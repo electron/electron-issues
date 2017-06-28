@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/213855181",
+    "html_url": "https://github.com/electron/electron/issues/5265#issuecomment-213855181",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5265",
+    "id": 213855181,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-24T00:05:27Z",
+    "updated_at": "2016-04-24T00:05:27Z",
+    "body": "On Windows, the ASAR file ends up being diff-patched anyways, I think it'd be more appropriate to request that Squirrel.Mac support general delta patching, which would save bytes on _all_ the files, not just the ASAR package.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/213895567",
+    "html_url": "https://github.com/electron/electron/issues/5265#issuecomment-213895567",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5265",
+    "id": 213895567,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-24T05:58:08Z",
+    "updated_at": "2016-04-24T05:58:08Z",
+    "body": "Allow appending files only fixes a very specific edge case: when only a few files are added. If you want to patch some files, it won't work. I agree making the auto updater to handle this is the right way.\n"
+  }
+]

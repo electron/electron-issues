@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/227930379",
+    "html_url": "https://github.com/electron/electron/issues/6193#issuecomment-227930379",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6193",
+    "id": 227930379,
+    "user": {
+      "login": "mnquintana",
+      "id": 823545,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/823545?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mnquintana",
+      "html_url": "https://github.com/mnquintana",
+      "followers_url": "https://api.github.com/users/mnquintana/followers",
+      "following_url": "https://api.github.com/users/mnquintana/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mnquintana/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mnquintana/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mnquintana/subscriptions",
+      "organizations_url": "https://api.github.com/users/mnquintana/orgs",
+      "repos_url": "https://api.github.com/users/mnquintana/repos",
+      "events_url": "https://api.github.com/users/mnquintana/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mnquintana/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-23T02:04:44Z",
+    "updated_at": "2016-06-23T02:04:44Z",
+    "body": "[We're trying to control the amount of Issues that we have to triage and track](http://blog.atom.io/2016/04/19/managing-the-deluge-of-atom-issues.html). For general questions, [the Electron message board](https://discuss.atom.io/c/electron) or the [Electron Slack channel](http://atom-slack.herokuapp.com/) is where you'll probably be able to find answers faster.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/227931321",
+    "html_url": "https://github.com/electron/electron/issues/6193#issuecomment-227931321",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6193",
+    "id": 227931321,
+    "user": {
+      "login": "c1ngular",
+      "id": 9145844,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9145844?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/c1ngular",
+      "html_url": "https://github.com/c1ngular",
+      "followers_url": "https://api.github.com/users/c1ngular/followers",
+      "following_url": "https://api.github.com/users/c1ngular/following{/other_user}",
+      "gists_url": "https://api.github.com/users/c1ngular/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/c1ngular/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/c1ngular/subscriptions",
+      "organizations_url": "https://api.github.com/users/c1ngular/orgs",
+      "repos_url": "https://api.github.com/users/c1ngular/repos",
+      "events_url": "https://api.github.com/users/c1ngular/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/c1ngular/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-23T02:12:03Z",
+    "updated_at": "2016-06-23T02:12:03Z",
+    "body": "@mnquintana sorry! \n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/285854365",
+    "html_url": "https://github.com/electron/electron/issues/8904#issuecomment-285854365",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8904",
+    "id": 285854365,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-11T09:07:34Z",
+    "updated_at": "2017-03-11T09:07:34Z",
+    "body": "As per the Apple docs for [`NSTouchBar`](https://developer.apple.com/reference/appkit/nstouchbar)\r\n\r\n> The user controls the width of the Control Strip and can choose to hide it, and the system is in charge of the nesting of NSTouchBar instances (for the bars you make eligible for composition). As a result, the available display width for your bars can vary. There is no API for you to obtain the current available display width.\r\n\r\nThe user can choose to hide it, we can not hide it programmatically.  However as also mentioned in the docs\r\n\r\n> If you need more horizontal space than might be available, use a popover item, a scrubber, or a scroll view—as they fit your design needs, but in that, descending, order of preference.\r\n\r\nWe currently support \"PopOver\" touch bar items so that would be your best option if you want the full width 👍 "
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/285858505",
+    "html_url": "https://github.com/electron/electron/issues/8904#issuecomment-285858505",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8904",
+    "id": 285858505,
+    "user": {
+      "login": "Enivel",
+      "id": 1982819,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1982819?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Enivel",
+      "html_url": "https://github.com/Enivel",
+      "followers_url": "https://api.github.com/users/Enivel/followers",
+      "following_url": "https://api.github.com/users/Enivel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Enivel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Enivel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Enivel/subscriptions",
+      "organizations_url": "https://api.github.com/users/Enivel/orgs",
+      "repos_url": "https://api.github.com/users/Enivel/repos",
+      "events_url": "https://api.github.com/users/Enivel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Enivel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-11T10:35:02Z",
+    "updated_at": "2017-03-11T10:35:02Z",
+    "body": "Cool  Thanks for you work.\r\nbut PopOver show type like this? \r\n\r\n![image](https://cloud.githubusercontent.com/assets/1982819/23822521/308b2844-0689-11e7-9970-b405bce5ccdc.png)"
+  }
+]

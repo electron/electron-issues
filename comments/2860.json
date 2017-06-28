@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/172428716",
+    "html_url": "https://github.com/electron/electron/issues/2860#issuecomment-172428716",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2860",
+    "id": 172428716,
+    "user": {
+      "login": "Solomon-m",
+      "id": 8034514,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8034514?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Solomon-m",
+      "html_url": "https://github.com/Solomon-m",
+      "followers_url": "https://api.github.com/users/Solomon-m/followers",
+      "following_url": "https://api.github.com/users/Solomon-m/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Solomon-m/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Solomon-m/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Solomon-m/subscriptions",
+      "organizations_url": "https://api.github.com/users/Solomon-m/orgs",
+      "repos_url": "https://api.github.com/users/Solomon-m/repos",
+      "events_url": "https://api.github.com/users/Solomon-m/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Solomon-m/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-18T05:20:27Z",
+    "updated_at": "2016-01-18T05:20:27Z",
+    "body": "@zcbenz Thank you so much for working on this. \n"
+  }
+]

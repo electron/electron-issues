@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/48790549",
+    "html_url": "https://github.com/electron/electron/issues/479#issuecomment-48790549",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/479",
+    "id": 48790549,
+    "user": {
+      "login": "ghost",
+      "id": 10137,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10137?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghost",
+      "html_url": "https://github.com/ghost",
+      "followers_url": "https://api.github.com/users/ghost/followers",
+      "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghost/orgs",
+      "repos_url": "https://api.github.com/users/ghost/repos",
+      "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghost/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-11T22:33:30Z",
+    "updated_at": "2014-07-11T22:33:30Z",
+    "body": "Sorry, found the solution. It's already implemented.\n\nYou have to provide the BrowserWindow the dialog should be shown in.\n\n```\nvar win = require('remote').getCurrentWindow();\nrequire('remote').require('dialog').showSaveDialog(win, { title: \"Save\" }, function(savePath) { \n    console.log(savePath); \n});\n```\n"
+  }
+]

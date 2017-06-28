@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/163433387",
+    "html_url": "https://github.com/electron/electron/issues/3749#issuecomment-163433387",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3749",
+    "id": 163433387,
+    "user": {
+      "login": "leontastic",
+      "id": 5552308,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5552308?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/leontastic",
+      "html_url": "https://github.com/leontastic",
+      "followers_url": "https://api.github.com/users/leontastic/followers",
+      "following_url": "https://api.github.com/users/leontastic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/leontastic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/leontastic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/leontastic/subscriptions",
+      "organizations_url": "https://api.github.com/users/leontastic/orgs",
+      "repos_url": "https://api.github.com/users/leontastic/repos",
+      "events_url": "https://api.github.com/users/leontastic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/leontastic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-09T23:17:46Z",
+    "updated_at": "2015-12-09T23:17:59Z",
+    "body": "Just discovered that this is a known Chromium bug:\nhttps://code.google.com/p/chromium/issues/detail?id=492182\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/163563415",
+    "html_url": "https://github.com/electron/electron/issues/3749#issuecomment-163563415",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3749",
+    "id": 163563415,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-10T10:08:01Z",
+    "updated_at": "2015-12-10T10:08:01Z",
+    "body": "This is a duplicate of #2168.\n"
+  }
+]

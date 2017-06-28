@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/146513523",
+    "html_url": "https://github.com/electron/electron/issues/3034#issuecomment-146513523",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3034",
+    "id": 146513523,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-08T11:46:25Z",
+    "updated_at": "2015-10-08T11:46:25Z",
+    "body": "What's the value of `navigator.language` on your machine?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/146667455",
+    "html_url": "https://github.com/electron/electron/issues/3034#issuecomment-146667455",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3034",
+    "id": 146667455,
+    "user": {
+      "login": "webarchymeta",
+      "id": 3250215,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3250215?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/webarchymeta",
+      "html_url": "https://github.com/webarchymeta",
+      "followers_url": "https://api.github.com/users/webarchymeta/followers",
+      "following_url": "https://api.github.com/users/webarchymeta/following{/other_user}",
+      "gists_url": "https://api.github.com/users/webarchymeta/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/webarchymeta/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/webarchymeta/subscriptions",
+      "organizations_url": "https://api.github.com/users/webarchymeta/orgs",
+      "repos_url": "https://api.github.com/users/webarchymeta/repos",
+      "events_url": "https://api.github.com/users/webarchymeta/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/webarchymeta/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-08T19:48:29Z",
+    "updated_at": "2015-10-08T19:51:09Z",
+    "body": "The value of navigator.language is 'zh-CN' in my case and the property of navigator.languages is not initialized in the original electron environment, I set it to ['zh-CN'] as well. I upgraded to version 0.33.6 also, but jQuery still does not use what navigator.language(s) are specifying for some reasons.\n"
+  }
+]

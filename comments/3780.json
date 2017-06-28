@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/164111004",
+    "html_url": "https://github.com/electron/electron/issues/3780#issuecomment-164111004",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3780",
+    "id": 164111004,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-12T05:08:48Z",
+    "updated_at": "2015-12-12T05:08:48Z",
+    "body": "commandline switches work fine, its most likely the `IDR_CONTENT_SHELL_DEVTOOLS_DISCOVERY_PAGE` value must have changed. You can still use remote debugging, In your chrome browser visit `http://localhost:9222/json` and find the `webSocketDebuggerUrl` and visit `chrome-devtools://devtools/bundled/inspector.html?ws=<webSocketDebuggerUrl>`\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/164114993",
+    "html_url": "https://github.com/electron/electron/issues/3780#issuecomment-164114993",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3780",
+    "id": 164114993,
+    "user": {
+      "login": "kamesh-a",
+      "id": 3531949,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3531949?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kamesh-a",
+      "html_url": "https://github.com/kamesh-a",
+      "followers_url": "https://api.github.com/users/kamesh-a/followers",
+      "following_url": "https://api.github.com/users/kamesh-a/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kamesh-a/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kamesh-a/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kamesh-a/subscriptions",
+      "organizations_url": "https://api.github.com/users/kamesh-a/orgs",
+      "repos_url": "https://api.github.com/users/kamesh-a/repos",
+      "events_url": "https://api.github.com/users/kamesh-a/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kamesh-a/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-12T06:33:26Z",
+    "updated_at": "2015-12-12T06:33:26Z",
+    "body": "@deepak1556 thanks i didn't see the json. i thought devtools websocket didnt work. closing the card\nthanks.\n"
+  }
+]

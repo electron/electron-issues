@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/43162747",
+    "html_url": "https://github.com/electron/electron/pull/311#issuecomment-43162747",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/311",
+    "id": 43162747,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-05-15T02:29:27Z",
+    "updated_at": "2014-05-15T02:29:27Z",
+    "body": "`BrowserWindow::restart` is just the same with `BrowserWindow::reload` and deprecated now, it should not show in the docs. It would be good if you could replace deprecated usages of `restart` with `reload` in this PR.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/43202509",
+    "html_url": "https://github.com/electron/electron/pull/311#issuecomment-43202509",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/311",
+    "id": 43202509,
+    "user": {
+      "login": "SeriousM",
+      "id": 462013,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/462013?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SeriousM",
+      "html_url": "https://github.com/SeriousM",
+      "followers_url": "https://api.github.com/users/SeriousM/followers",
+      "following_url": "https://api.github.com/users/SeriousM/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SeriousM/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SeriousM/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SeriousM/subscriptions",
+      "organizations_url": "https://api.github.com/users/SeriousM/orgs",
+      "repos_url": "https://api.github.com/users/SeriousM/repos",
+      "events_url": "https://api.github.com/users/SeriousM/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SeriousM/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-05-15T12:23:30Z",
+    "updated_at": "2014-05-15T12:23:30Z",
+    "body": "Alright, done.\nThe restart method is used in the [default app](https://github.com/SeriousM/atom-shell/blob/cb324181add1ba78e9e74ffdef3b74430ef48723/atom/browser/default_app/default_app.js#L106) (thats how i found it).\nShould I replace that as well?\n"
+  }
+]

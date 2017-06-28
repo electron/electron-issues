@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/290648398",
+    "html_url": "https://github.com/electron/electron/issues/8842#issuecomment-290648398",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8842",
+    "id": 290648398,
+    "user": {
+      "login": "xiangkaiy",
+      "id": 4548701,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4548701?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xiangkaiy",
+      "html_url": "https://github.com/xiangkaiy",
+      "followers_url": "https://api.github.com/users/xiangkaiy/followers",
+      "following_url": "https://api.github.com/users/xiangkaiy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xiangkaiy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xiangkaiy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xiangkaiy/subscriptions",
+      "organizations_url": "https://api.github.com/users/xiangkaiy/orgs",
+      "repos_url": "https://api.github.com/users/xiangkaiy/repos",
+      "events_url": "https://api.github.com/users/xiangkaiy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xiangkaiy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-31T08:20:24Z",
+    "updated_at": "2017-03-31T08:20:24Z",
+    "body": "Solved~ For electron-quick-start, Just need to add ElectronTeamID to the info.plist."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/222415746",
+    "html_url": "https://github.com/electron/electron/issues/5767#issuecomment-222415746",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5767",
+    "id": 222415746,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-30T05:45:58Z",
+    "updated_at": "2016-05-30T05:45:58Z",
+    "body": "Dupe of #5712\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/222416130",
+    "html_url": "https://github.com/electron/electron/issues/5767#issuecomment-222416130",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5767",
+    "id": 222416130,
+    "user": {
+      "login": "abdihaikal",
+      "id": 2351764,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2351764?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abdihaikal",
+      "html_url": "https://github.com/abdihaikal",
+      "followers_url": "https://api.github.com/users/abdihaikal/followers",
+      "following_url": "https://api.github.com/users/abdihaikal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abdihaikal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abdihaikal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abdihaikal/subscriptions",
+      "organizations_url": "https://api.github.com/users/abdihaikal/orgs",
+      "repos_url": "https://api.github.com/users/abdihaikal/repos",
+      "events_url": "https://api.github.com/users/abdihaikal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abdihaikal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-30T05:50:06Z",
+    "updated_at": "2016-05-30T05:50:06Z",
+    "body": "@enlight ... Ouchh... my fault... Thank you :relieved:. Closing this issue.\n"
+  }
+]

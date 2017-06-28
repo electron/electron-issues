@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/42712962",
+    "html_url": "https://github.com/electron/electron/issues/282#issuecomment-42712962",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/282",
+    "id": 42712962,
+    "user": {
+      "login": "puckey",
+      "id": 271885,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/271885?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/puckey",
+      "html_url": "https://github.com/puckey",
+      "followers_url": "https://api.github.com/users/puckey/followers",
+      "following_url": "https://api.github.com/users/puckey/following{/other_user}",
+      "gists_url": "https://api.github.com/users/puckey/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/puckey/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/puckey/subscriptions",
+      "organizations_url": "https://api.github.com/users/puckey/orgs",
+      "repos_url": "https://api.github.com/users/puckey/repos",
+      "events_url": "https://api.github.com/users/puckey/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/puckey/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-05-09T20:57:26Z",
+    "updated_at": "2014-05-09T20:57:26Z",
+    "body": "my mistake.\n"
+  }
+]

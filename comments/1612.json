@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/100079951",
+    "html_url": "https://github.com/electron/electron/issues/1612#issuecomment-100079951",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1612",
+    "id": 100079951,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-05-08T02:48:33Z",
+    "updated_at": "2015-05-08T02:48:33Z",
+    "body": "Currently we don't have support for ftp protocol.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/100181419",
+    "html_url": "https://github.com/electron/electron/issues/1612#issuecomment-100181419",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1612",
+    "id": 100181419,
+    "user": {
+      "login": "thesabbir",
+      "id": 5576949,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5576949?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thesabbir",
+      "html_url": "https://github.com/thesabbir",
+      "followers_url": "https://api.github.com/users/thesabbir/followers",
+      "following_url": "https://api.github.com/users/thesabbir/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thesabbir/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thesabbir/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thesabbir/subscriptions",
+      "organizations_url": "https://api.github.com/users/thesabbir/orgs",
+      "repos_url": "https://api.github.com/users/thesabbir/repos",
+      "events_url": "https://api.github.com/users/thesabbir/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thesabbir/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-08T10:05:55Z",
+    "updated_at": "2015-05-08T10:05:55Z",
+    "body": "@zcbenz  can I compile/build one with ftp support?\n"
+  }
+]

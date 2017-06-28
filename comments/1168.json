@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/76250413",
+    "html_url": "https://github.com/electron/electron/issues/1168#issuecomment-76250413",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1168",
+    "id": 76250413,
+    "user": {
+      "login": "Wortex17",
+      "id": 170627,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/170627?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Wortex17",
+      "html_url": "https://github.com/Wortex17",
+      "followers_url": "https://api.github.com/users/Wortex17/followers",
+      "following_url": "https://api.github.com/users/Wortex17/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Wortex17/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Wortex17/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Wortex17/subscriptions",
+      "organizations_url": "https://api.github.com/users/Wortex17/orgs",
+      "repos_url": "https://api.github.com/users/Wortex17/repos",
+      "events_url": "https://api.github.com/users/Wortex17/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Wortex17/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-26T19:31:35Z",
+    "updated_at": "2015-02-26T19:32:03Z",
+    "body": "Hmm what you are actually asking for would be asking to the stack and the message queue / event loop.\nI doubt this is possible atm, but would actually be very interesting.\n\n> to get notified when JS finishes executing in a page.\n\nI doubt this is really useful. Actually, as long as any event listeners are there and the message queue isn't empty, this is never the case. You would get this 'event' very rarely, if at all, and only for pages that are _designed_ for that event (meaning it would be a lot easier to emit such an event yourself)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/76615005",
+    "html_url": "https://github.com/electron/electron/issues/1168#issuecomment-76615005",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1168",
+    "id": 76615005,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-03-01T17:13:19Z",
+    "updated_at": "2015-03-01T17:13:19Z",
+    "body": "It is hard to define when JS finished executing. In web page, under most cases when the document is loaded the JS has already finished executing, most code just starts to run when the `onload` event happens. So this would be quite meaningless in the case of web page.\n"
+  }
+]

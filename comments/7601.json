@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/253467348",
+    "html_url": "https://github.com/electron/electron/issues/7601#issuecomment-253467348",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7601",
+    "id": 253467348,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-13T09:49:04Z",
+    "updated_at": "2016-10-13T09:49:04Z",
+    "body": "GitHub issues are for feature requests and bug reports, questions about using Electron should be directed to the [community](https://github.com/electron/electron#community) or to the [Slack Channel](http://atom-slack.herokuapp.com/).\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/253467986",
+    "html_url": "https://github.com/electron/electron/issues/7601#issuecomment-253467986",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7601",
+    "id": 253467986,
+    "user": {
+      "login": "SameerKhan1406",
+      "id": 22536811,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22536811?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SameerKhan1406",
+      "html_url": "https://github.com/SameerKhan1406",
+      "followers_url": "https://api.github.com/users/SameerKhan1406/followers",
+      "following_url": "https://api.github.com/users/SameerKhan1406/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SameerKhan1406/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SameerKhan1406/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SameerKhan1406/subscriptions",
+      "organizations_url": "https://api.github.com/users/SameerKhan1406/orgs",
+      "repos_url": "https://api.github.com/users/SameerKhan1406/repos",
+      "events_url": "https://api.github.com/users/SameerKhan1406/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SameerKhan1406/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-13T09:51:31Z",
+    "updated_at": "2016-10-13T09:51:31Z",
+    "body": "I won't ask next time but answer this question because your community and channel seems to be in not working condition\n"
+  }
+]

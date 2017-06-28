@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/27544369",
+    "html_url": "https://github.com/electron/electron/issues/115#issuecomment-27544369",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/115",
+    "id": 27544369,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-11-01T02:38:29Z",
+    "updated_at": "2013-11-01T02:38:29Z",
+    "body": "The `python_26` which was built for win32 target is used to force `gyp` to run under win32 environment when the script is ran under Cygwin, so it's not needed when building under powershell. (Both atom-shell and node were built for win32 target, so `process.platform` would never be Cygwin).\n\nhttps://github.com/atom/atom-shell/commit/618d0c63973fc9e48c5815f1031533fa0a1b8dc4 should have fixed the error when bootstrapping under powershell, can you try if it works on your machine?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/27577086",
+    "html_url": "https://github.com/electron/electron/issues/115#issuecomment-27577086",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/115",
+    "id": 27577086,
+    "user": {
+      "login": "mcolyer",
+      "id": 1424,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1424?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mcolyer",
+      "html_url": "https://github.com/mcolyer",
+      "followers_url": "https://api.github.com/users/mcolyer/followers",
+      "following_url": "https://api.github.com/users/mcolyer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mcolyer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mcolyer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mcolyer/subscriptions",
+      "organizations_url": "https://api.github.com/users/mcolyer/orgs",
+      "repos_url": "https://api.github.com/users/mcolyer/repos",
+      "events_url": "https://api.github.com/users/mcolyer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mcolyer/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2013-11-01T16:09:02Z",
+    "updated_at": "2013-11-01T16:09:02Z",
+    "body": "That seems to have fixed it.\n"
+  }
+]

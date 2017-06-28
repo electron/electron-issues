@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/193719820",
+    "html_url": "https://github.com/electron/electron/pull/4715#issuecomment-193719820",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4715",
+    "id": 193719820,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-03-08T10:45:01Z",
+    "updated_at": "2016-03-08T10:45:01Z",
+    "body": "Thanks!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/193739443",
+    "html_url": "https://github.com/electron/electron/pull/4715#issuecomment-193739443",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4715",
+    "id": 193739443,
+    "user": {
+      "login": "dongjoon-hyun",
+      "id": 9700541,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9700541?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dongjoon-hyun",
+      "html_url": "https://github.com/dongjoon-hyun",
+      "followers_url": "https://api.github.com/users/dongjoon-hyun/followers",
+      "following_url": "https://api.github.com/users/dongjoon-hyun/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dongjoon-hyun/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dongjoon-hyun/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dongjoon-hyun/subscriptions",
+      "organizations_url": "https://api.github.com/users/dongjoon-hyun/orgs",
+      "repos_url": "https://api.github.com/users/dongjoon-hyun/repos",
+      "events_url": "https://api.github.com/users/dongjoon-hyun/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dongjoon-hyun/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-08T11:30:52Z",
+    "updated_at": "2016-03-08T11:30:52Z",
+    "body": "Thank you!\n"
+  }
+]

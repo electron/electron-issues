@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/290611864",
+    "html_url": "https://github.com/electron/electron/issues/9071#issuecomment-290611864",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9071",
+    "id": 290611864,
+    "user": {
+      "login": "kazkondo",
+      "id": 1083852,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1083852?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kazkondo",
+      "html_url": "https://github.com/kazkondo",
+      "followers_url": "https://api.github.com/users/kazkondo/followers",
+      "following_url": "https://api.github.com/users/kazkondo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kazkondo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kazkondo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kazkondo/subscriptions",
+      "organizations_url": "https://api.github.com/users/kazkondo/orgs",
+      "repos_url": "https://api.github.com/users/kazkondo/repos",
+      "events_url": "https://api.github.com/users/kazkondo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kazkondo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-31T04:18:28Z",
+    "updated_at": "2017-03-31T04:18:28Z",
+    "body": "I can fix by doing ./node_modules/.bin/electron-rebuild -v 1.6.2"
+  }
+]

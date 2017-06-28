@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/102523903",
+    "html_url": "https://github.com/electron/electron/issues/1704#issuecomment-102523903",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1704",
+    "id": 102523903,
+    "user": {
+      "login": "paulcbetts",
+      "id": 1396,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1396?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulcbetts",
+      "html_url": "https://github.com/paulcbetts",
+      "followers_url": "https://api.github.com/users/paulcbetts/followers",
+      "following_url": "https://api.github.com/users/paulcbetts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulcbetts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulcbetts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulcbetts/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulcbetts/orgs",
+      "repos_url": "https://api.github.com/users/paulcbetts/repos",
+      "events_url": "https://api.github.com/users/paulcbetts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulcbetts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-15T20:54:53Z",
+    "updated_at": "2015-05-15T20:54:53Z",
+    "body": "I don't know that changing the scaling factor counts as a metrics change at the moment, but it definitely should. Does plugging in a monitor fire it?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/102649608",
+    "html_url": "https://github.com/electron/electron/issues/1704#issuecomment-102649608",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1704",
+    "id": 102649608,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-16T16:38:20Z",
+    "updated_at": "2015-05-16T16:38:20Z",
+    "body": "> I don't know that changing the scaling factor counts as a metrics change at the moment, but it definitely should\n\nYup , these are the [metrics](https://code.google.com/p/chromium/codesearch#chromium/src/ui/gfx/display_observer.h&q=ondisplaymetrics&sq=package:chromium&l=20) being tracked.\n"
+  }
+]

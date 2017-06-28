@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/215396224",
+    "html_url": "https://github.com/electron/electron/issues/5328#issuecomment-215396224",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5328",
+    "id": 215396224,
+    "user": {
+      "login": "atmosuwiryo",
+      "id": 13653687,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13653687?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/atmosuwiryo",
+      "html_url": "https://github.com/atmosuwiryo",
+      "followers_url": "https://api.github.com/users/atmosuwiryo/followers",
+      "following_url": "https://api.github.com/users/atmosuwiryo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/atmosuwiryo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/atmosuwiryo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/atmosuwiryo/subscriptions",
+      "organizations_url": "https://api.github.com/users/atmosuwiryo/orgs",
+      "repos_url": "https://api.github.com/users/atmosuwiryo/repos",
+      "events_url": "https://api.github.com/users/atmosuwiryo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/atmosuwiryo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-28T11:34:55Z",
+    "updated_at": "2016-04-28T11:34:55Z",
+    "body": "Somehow it is not flickering after restart my ubuntu.\n\nsigh...\n"
+  }
+]

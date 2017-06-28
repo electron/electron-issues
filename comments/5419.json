@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217597912",
+    "html_url": "https://github.com/electron/electron/issues/5419#issuecomment-217597912",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5419",
+    "id": 217597912,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-07T01:48:23Z",
+    "updated_at": "2016-05-07T01:48:23Z",
+    "body": "The `Delete` accelerator should be what you want, but somehow it is not working.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/222389629",
+    "html_url": "https://github.com/electron/electron/issues/5419#issuecomment-222389629",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5419",
+    "id": 222389629,
+    "user": {
+      "login": "xMrWhite",
+      "id": 3723289,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3723289?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xMrWhite",
+      "html_url": "https://github.com/xMrWhite",
+      "followers_url": "https://api.github.com/users/xMrWhite/followers",
+      "following_url": "https://api.github.com/users/xMrWhite/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xMrWhite/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xMrWhite/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xMrWhite/subscriptions",
+      "organizations_url": "https://api.github.com/users/xMrWhite/orgs",
+      "repos_url": "https://api.github.com/users/xMrWhite/repos",
+      "events_url": "https://api.github.com/users/xMrWhite/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xMrWhite/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-29T23:41:21Z",
+    "updated_at": "2016-05-29T23:41:21Z",
+    "body": "I'm trying to trace this bug, looks like it might be a mismatch of key codes in libchromiumcontent.\nWhere is the code file that corresponds to this header?\n`./electron/vendor/brightray/vendor/download/libchromiumcontent/src/ui/events/keycodes/keyboard_code_conversion_mac.h`\n"
+  }
+]

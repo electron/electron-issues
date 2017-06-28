@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217599075",
+    "html_url": "https://github.com/electron/electron/issues/5433#issuecomment-217599075",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5433",
+    "id": 217599075,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-05-07T02:09:51Z",
+    "updated_at": "2016-05-07T02:09:51Z",
+    "body": "They should not be documented, and we should not encourage people to rely on our Node patches, we will eventually remove all patches in our Node fork. If people really wants to use `stat` without exceptions, they can use `process.binding('fs').internalModuleStat` instead, which is available in recent versions of Node.\n\nThey are still there because we haven't replaced the usages in Atom yet.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/217609867",
+    "html_url": "https://github.com/electron/electron/issues/5433#issuecomment-217609867",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5433",
+    "id": 217609867,
+    "user": {
+      "login": "mnquintana",
+      "id": 823545,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/823545?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mnquintana",
+      "html_url": "https://github.com/mnquintana",
+      "followers_url": "https://api.github.com/users/mnquintana/followers",
+      "following_url": "https://api.github.com/users/mnquintana/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mnquintana/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mnquintana/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mnquintana/subscriptions",
+      "organizations_url": "https://api.github.com/users/mnquintana/orgs",
+      "repos_url": "https://api.github.com/users/mnquintana/repos",
+      "events_url": "https://api.github.com/users/mnquintana/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mnquintana/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-07T05:50:51Z",
+    "updated_at": "2016-05-07T05:50:51Z",
+    "body": "Ah thanks for the clarification @zcbenz! I'll close this out then and get to work removing our usage of these methods 😄 \n"
+  }
+]

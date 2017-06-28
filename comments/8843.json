@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/284497490",
+    "html_url": "https://github.com/electron/electron/issues/8843#issuecomment-284497490",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8843",
+    "id": 284497490,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-03-06T19:03:43Z",
+    "updated_at": "2017-03-06T19:03:43Z",
+    "body": "I believe this is a duplicate of #5794, please see that issue for more details about this, closing this out."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/284514798",
+    "html_url": "https://github.com/electron/electron/issues/8843#issuecomment-284514798",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8843",
+    "id": 284514798,
+    "user": {
+      "login": "jbleuzen",
+      "id": 280681,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/280681?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jbleuzen",
+      "html_url": "https://github.com/jbleuzen",
+      "followers_url": "https://api.github.com/users/jbleuzen/followers",
+      "following_url": "https://api.github.com/users/jbleuzen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jbleuzen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jbleuzen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jbleuzen/subscriptions",
+      "organizations_url": "https://api.github.com/users/jbleuzen/orgs",
+      "repos_url": "https://api.github.com/users/jbleuzen/repos",
+      "events_url": "https://api.github.com/users/jbleuzen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jbleuzen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-06T20:02:26Z",
+    "updated_at": "2017-03-06T20:02:26Z",
+    "body": "Sorry didn't find it while I was searching, it is a duplicate :("
+  }
+]

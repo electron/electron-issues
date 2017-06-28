@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/165176920",
+    "html_url": "https://github.com/electron/electron/issues/3834#issuecomment-165176920",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3834",
+    "id": 165176920,
+    "user": {
+      "login": "jviotti",
+      "id": 2192773,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2192773?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jviotti",
+      "html_url": "https://github.com/jviotti",
+      "followers_url": "https://api.github.com/users/jviotti/followers",
+      "following_url": "https://api.github.com/users/jviotti/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jviotti/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jviotti/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jviotti/subscriptions",
+      "organizations_url": "https://api.github.com/users/jviotti/orgs",
+      "repos_url": "https://api.github.com/users/jviotti/repos",
+      "events_url": "https://api.github.com/users/jviotti/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jviotti/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-16T17:06:24Z",
+    "updated_at": "2015-12-16T17:06:24Z",
+    "body": "I get the following error when running the gist with `v0.36.0`:\n\n![capture3](https://cloud.githubusercontent.com/assets/2192773/11847854/cd259b32-a3f5-11e5-8529-2a330a4a4776.PNG)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/165388673",
+    "html_url": "https://github.com/electron/electron/issues/3834#issuecomment-165388673",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3834",
+    "id": 165388673,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-17T09:04:12Z",
+    "updated_at": "2015-12-17T09:04:12Z",
+    "body": "We can't debug every node module that doesn't work well with Electron, especially for ones like `windosu` that include lots of code. You can probably report this to the module's repo, and I'll reopen this once they found out which part of Electron doesn't work correctly.\n"
+  }
+]

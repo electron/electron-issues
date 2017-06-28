@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/270703032",
+    "html_url": "https://github.com/electron/electron/issues/8344#issuecomment-270703032",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8344",
+    "id": 270703032,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-01-05T17:24:32Z",
+    "updated_at": "2017-01-05T17:24:32Z",
+    "body": "> If guestinstance is set with the id of a webview from another window will it do the job?\r\n\r\nIf you want to move a `webContents` between `<webview>` tags then setting the `guestinstance` attribute is the way to do that.\r\n\r\n> I'm trying to implement windows with tab management where can drag a tab outside the window and a new window is created with this tag in it.... you know... well like every modern browsers?\r\n\r\nSetting the `guestinstance` attribute in the new window's `<webview>` tag to the value from the originating window should do this.\r\n\r\nhttp://electron.atom.io/docs/api/web-view-tag/#guestinstance"
+  }
+]

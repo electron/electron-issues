@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/58860116",
+    "html_url": "https://github.com/electron/electron/issues/693#issuecomment-58860116",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/693",
+    "id": 58860116,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-10-13T08:16:48Z",
+    "updated_at": "2014-10-13T08:16:48Z",
+    "body": "You need to upgrade apm to `>= 0.98.0  <=0.101.0` to build modules for atom-shell 0.17.x. You can also set `ATOM_NODE_VERSION` to the version of atom-shell to avoid upgrading apm every time:\n\n``` bash\n$ env ATOM_NODE_VERSION=0.17.2 apm install .\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/59123069",
+    "html_url": "https://github.com/electron/electron/issues/693#issuecomment-59123069",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/693",
+    "id": 59123069,
+    "user": {
+      "login": "natevw",
+      "id": 265902,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/265902?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/natevw",
+      "html_url": "https://github.com/natevw",
+      "followers_url": "https://api.github.com/users/natevw/followers",
+      "following_url": "https://api.github.com/users/natevw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/natevw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/natevw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/natevw/subscriptions",
+      "organizations_url": "https://api.github.com/users/natevw/orgs",
+      "repos_url": "https://api.github.com/users/natevw/repos",
+      "events_url": "https://api.github.com/users/natevw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/natevw/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-10-14T21:52:08Z",
+    "updated_at": "2014-10-14T21:52:08Z",
+    "body": "Confirming that the ATOM_NODE_VERSION trick works for me. Thanks for the help!\n"
+  }
+]

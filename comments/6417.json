@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/266030881",
+    "html_url": "https://github.com/electron/electron/pull/6417#issuecomment-266030881",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6417",
+    "id": 266030881,
+    "user": {
+      "login": "RobinCodeX",
+      "id": 8408783,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8408783?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RobinCodeX",
+      "html_url": "https://github.com/RobinCodeX",
+      "followers_url": "https://api.github.com/users/RobinCodeX/followers",
+      "following_url": "https://api.github.com/users/RobinCodeX/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RobinCodeX/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RobinCodeX/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RobinCodeX/subscriptions",
+      "organizations_url": "https://api.github.com/users/RobinCodeX/orgs",
+      "repos_url": "https://api.github.com/users/RobinCodeX/repos",
+      "events_url": "https://api.github.com/users/RobinCodeX/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RobinCodeX/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-09T14:48:32Z",
+    "updated_at": "2016-12-09T14:48:32Z",
+    "body": "Hi, my app run in Windows10, if `thickFrame: false` then can not be maximize, this is a BUG?"
+  }
+]

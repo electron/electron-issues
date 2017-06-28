@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/297801492",
+    "html_url": "https://github.com/electron/electron/issues/9170#issuecomment-297801492",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9170",
+    "id": 297801492,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-04-27T18:35:11Z",
+    "updated_at": "2017-04-27T18:35:11Z",
+    "body": "I can reproduce this, thanks for the detailed reproduction.\r\n\r\nLooking at the docs at https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/WinPanel/Concepts/WindowLevel.html I do see the following mentioned:\r\n\r\n> if you assign a window to a floating level, you must ensure that you also set it to hide on deactivation of your application or reset its level when your application is hidden. Cocoa automatically takes care of the latter aspect for you if you use default window configurations.\r\n\r\nSo I'm thinking here we need to remove the custom level when `windowWillMiniaturize` fires and then restore it when `windowDidDeminiaturize` fires."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/174258556",
+    "html_url": "https://github.com/electron/electron/issues/4213#issuecomment-174258556",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4213",
+    "id": 174258556,
+    "user": {
+      "login": "enlight",
+      "id": 233003,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/233003?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/enlight",
+      "html_url": "https://github.com/enlight",
+      "followers_url": "https://api.github.com/users/enlight/followers",
+      "following_url": "https://api.github.com/users/enlight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/enlight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/enlight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/enlight/subscriptions",
+      "organizations_url": "https://api.github.com/users/enlight/orgs",
+      "repos_url": "https://api.github.com/users/enlight/repos",
+      "events_url": "https://api.github.com/users/enlight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/enlight/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-24T05:52:30Z",
+    "updated_at": "2016-01-24T05:52:30Z",
+    "body": "If you're on v0.35 or later you should use `require('electron').app`, if you're on an earlier version use `require('app')`. If you are on v0.35+ and `require('electron').app` doesn't work double check you didn't accidentally install the `electron` module (which has nothing to do with Electron shell).\n\nBTW, questions should go to the [community](https://github.com/atom/electron#community), issues are for bugs/features.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/174259855",
+    "html_url": "https://github.com/electron/electron/issues/4213#issuecomment-174259855",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4213",
+    "id": 174259855,
+    "user": {
+      "login": "bcherny",
+      "id": 1761758,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1761758?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bcherny",
+      "html_url": "https://github.com/bcherny",
+      "followers_url": "https://api.github.com/users/bcherny/followers",
+      "following_url": "https://api.github.com/users/bcherny/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bcherny/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bcherny/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bcherny/subscriptions",
+      "organizations_url": "https://api.github.com/users/bcherny/orgs",
+      "repos_url": "https://api.github.com/users/bcherny/repos",
+      "events_url": "https://api.github.com/users/bcherny/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bcherny/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-24T05:58:55Z",
+    "updated_at": "2016-01-24T05:58:55Z",
+    "body": "that's the exact issue. thanks!\n\nbummer that electron can't just be called \"electron\".\n"
+  }
+]

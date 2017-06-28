@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/241247740",
+    "html_url": "https://github.com/electron/electron/issues/6917#issuecomment-241247740",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6917",
+    "id": 241247740,
+    "user": {
+      "login": "vsemozhetbyt",
+      "id": 10393198,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10393198?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vsemozhetbyt",
+      "html_url": "https://github.com/vsemozhetbyt",
+      "followers_url": "https://api.github.com/users/vsemozhetbyt/followers",
+      "following_url": "https://api.github.com/users/vsemozhetbyt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vsemozhetbyt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vsemozhetbyt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vsemozhetbyt/subscriptions",
+      "organizations_url": "https://api.github.com/users/vsemozhetbyt/orgs",
+      "repos_url": "https://api.github.com/users/vsemozhetbyt/repos",
+      "events_url": "https://api.github.com/users/vsemozhetbyt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vsemozhetbyt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-21T09:33:41Z",
+    "updated_at": "2016-08-21T09:33:51Z",
+    "body": "[As I see here](http://electron.atom.io/docs/tutorial/using-pepper-flash-plugin/), `app.commandLine.appendSwitch` should be called before `app.on('ready')`. Could you try this way?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/241264233",
+    "html_url": "https://github.com/electron/electron/issues/6917#issuecomment-241264233",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6917",
+    "id": 241264233,
+    "user": {
+      "login": "KirillGrigoriev",
+      "id": 3006659,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3006659?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/KirillGrigoriev",
+      "html_url": "https://github.com/KirillGrigoriev",
+      "followers_url": "https://api.github.com/users/KirillGrigoriev/followers",
+      "following_url": "https://api.github.com/users/KirillGrigoriev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/KirillGrigoriev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/KirillGrigoriev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/KirillGrigoriev/subscriptions",
+      "organizations_url": "https://api.github.com/users/KirillGrigoriev/orgs",
+      "repos_url": "https://api.github.com/users/KirillGrigoriev/repos",
+      "events_url": "https://api.github.com/users/KirillGrigoriev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/KirillGrigoriev/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-21T15:32:48Z",
+    "updated_at": "2016-08-21T15:32:48Z",
+    "body": "Yes, it's work. Big thanks. I did not think in this direction when looking for a solution.\n"
+  }
+]

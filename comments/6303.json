@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/229796569",
+    "html_url": "https://github.com/electron/electron/issues/6303#issuecomment-229796569",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6303",
+    "id": 229796569,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-30T21:38:31Z",
+    "updated_at": "2016-06-30T21:38:31Z",
+    "body": "Thanks for bringing this up, I've added support for customizing the location of the URL used to download ChromeDriver in https://github.com/electron/chromedriver/pull/3\n\nI've published new builds so if you use Spectron `3.2.4` or later, you should be able to set the `ELECTRON_MIRROR` environment variable to configure where it gets downloaded from and use a localhost URL or something else.\n\nPlease see https://github.com/electron/chromedriver#custom-mirror for more details.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/230504522",
+    "html_url": "https://github.com/electron/electron/issues/6303#issuecomment-230504522",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6303",
+    "id": 230504522,
+    "user": {
+      "login": "violinner",
+      "id": 18270687,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18270687?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/violinner",
+      "html_url": "https://github.com/violinner",
+      "followers_url": "https://api.github.com/users/violinner/followers",
+      "following_url": "https://api.github.com/users/violinner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/violinner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/violinner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/violinner/subscriptions",
+      "organizations_url": "https://api.github.com/users/violinner/orgs",
+      "repos_url": "https://api.github.com/users/violinner/repos",
+      "events_url": "https://api.github.com/users/violinner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/violinner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-05T15:01:43Z",
+    "updated_at": "2016-07-05T15:01:43Z",
+    "body": "Thank you for help installing behind a firewall, which works now.\n\nOn Windows 7, electron-chromedriver fails to start.\nI have posted the details in another issue:\nhttps://github.com/electron/electron/issues/6350\n\nDoes anyone have advice on how to start electron-chromedriver on Windows 7?\nThanks again.\n"
+  }
+]

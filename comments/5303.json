@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/215178858",
+    "html_url": "https://github.com/electron/electron/issues/5303#issuecomment-215178858",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5303",
+    "id": 215178858,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-27T18:15:21Z",
+    "updated_at": "2016-04-27T18:15:21Z",
+    "body": "Registering the scheme as standard should fix this. `protocol.registerStandardSchemes` doesnt work (confirmed on linux),because  the initialisation happens at a early stage. For now users can pass the flag on commandline `app.exe --register-standard-schemes=\"app,test\"`, any idea on how to fix this @zcbenz ?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/215337345",
+    "html_url": "https://github.com/electron/electron/issues/5303#issuecomment-215337345",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/5303",
+    "id": 215337345,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-04-28T07:42:27Z",
+    "updated_at": "2016-04-28T07:42:27Z",
+    "body": "I think the only option left for us is to patch Chromium to allow adding scheme as standard scheme after `url::LockSchemeRegistries` gets called, and then let users call `protocol.registerStandardSchemes` before the `ready` event.\n"
+  }
+]

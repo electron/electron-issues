@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49603169",
+    "html_url": "https://github.com/electron/electron/issues/486#issuecomment-49603169",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/486",
+    "id": 49603169,
+    "user": {
+      "login": "batjko",
+      "id": 7287076,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7287076?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/batjko",
+      "html_url": "https://github.com/batjko",
+      "followers_url": "https://api.github.com/users/batjko/followers",
+      "following_url": "https://api.github.com/users/batjko/following{/other_user}",
+      "gists_url": "https://api.github.com/users/batjko/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/batjko/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/batjko/subscriptions",
+      "organizations_url": "https://api.github.com/users/batjko/orgs",
+      "repos_url": "https://api.github.com/users/batjko/repos",
+      "events_url": "https://api.github.com/users/batjko/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/batjko/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-21T13:12:29Z",
+    "updated_at": "2014-07-21T13:12:29Z",
+    "body": "Yes would be nice.\n\nThinking beyond: Can that maybe even done with the windows frame itself (the outer window edge with the close/minimize/maximize buttons etc), or allow it to be overwritten by the app's theme if it has provisions for it?\n"
+  }
+]

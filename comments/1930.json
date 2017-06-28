@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/110963397",
+    "html_url": "https://github.com/electron/electron/issues/1930#issuecomment-110963397",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1930",
+    "id": 110963397,
+    "user": {
+      "login": "samueleaton",
+      "id": 9119269,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9119269?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/samueleaton",
+      "html_url": "https://github.com/samueleaton",
+      "followers_url": "https://api.github.com/users/samueleaton/followers",
+      "following_url": "https://api.github.com/users/samueleaton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/samueleaton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/samueleaton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/samueleaton/subscriptions",
+      "organizations_url": "https://api.github.com/users/samueleaton/orgs",
+      "repos_url": "https://api.github.com/users/samueleaton/repos",
+      "events_url": "https://api.github.com/users/samueleaton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/samueleaton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-11T01:37:53Z",
+    "updated_at": "2015-06-11T01:37:53Z",
+    "body": "I have found the problem. The api documentation did not make the prerequitistes clear for using methods. I have added to the api docs for the webview element and created a pull request [#1932](https://github.com/atom/electron/pull/1932)\n"
+  }
+]

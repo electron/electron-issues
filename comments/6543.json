@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/233892292",
+    "html_url": "https://github.com/electron/electron/pull/6543#issuecomment-233892292",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6543",
+    "id": 233892292,
+    "user": {
+      "login": "bhupendra-bhudia",
+      "id": 5295372,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5295372?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bhupendra-bhudia",
+      "html_url": "https://github.com/bhupendra-bhudia",
+      "followers_url": "https://api.github.com/users/bhupendra-bhudia/followers",
+      "following_url": "https://api.github.com/users/bhupendra-bhudia/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bhupendra-bhudia/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bhupendra-bhudia/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bhupendra-bhudia/subscriptions",
+      "organizations_url": "https://api.github.com/users/bhupendra-bhudia/orgs",
+      "repos_url": "https://api.github.com/users/bhupendra-bhudia/repos",
+      "events_url": "https://api.github.com/users/bhupendra-bhudia/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bhupendra-bhudia/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-20T08:58:06Z",
+    "updated_at": "2016-07-20T08:58:06Z",
+    "body": "Void - incorrect direction\n"
+  }
+]

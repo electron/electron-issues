@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49251955",
+    "html_url": "https://github.com/electron/electron/issues/489#issuecomment-49251955",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/489",
+    "id": 49251955,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2014-07-17T02:25:08Z",
+    "updated_at": "2014-07-17T02:25:08Z",
+    "body": "Please use English since most people here don't read Chinese.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/49253026",
+    "html_url": "https://github.com/electron/electron/issues/489#issuecomment-49253026",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/489",
+    "id": 49253026,
+    "user": {
+      "login": "icode",
+      "id": 972959,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/972959?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/icode",
+      "html_url": "https://github.com/icode",
+      "followers_url": "https://api.github.com/users/icode/followers",
+      "following_url": "https://api.github.com/users/icode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/icode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/icode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/icode/subscriptions",
+      "organizations_url": "https://api.github.com/users/icode/orgs",
+      "repos_url": "https://api.github.com/users/icode/repos",
+      "events_url": "https://api.github.com/users/icode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/icode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-17T02:48:42Z",
+    "updated_at": "2014-07-17T02:48:42Z",
+    "body": "哥，你是中国人不？上次在微薄留言你也没回。这样，你用中文告诉我，行还是不行，可以的话怎么实现，然后我用英文帮你补充到wiki可以么？我英文不好，写和读都很累。\n\n2014-07-17 10:25 GMT+08:00 Cheng Zhao notifications@github.com:\n\n> Please use English since most people here don't read Chinese.\n> \n> —\n> Reply to this email directly or view it on GitHub\n> https://github.com/atom/atom-shell/issues/489#issuecomment-49251955.\n"
+  }
+]

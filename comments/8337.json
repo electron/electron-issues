@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/270457650",
+    "html_url": "https://github.com/electron/electron/issues/8337#issuecomment-270457650",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8337",
+    "id": 270457650,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-01-04T19:07:24Z",
+    "updated_at": "2017-01-04T19:07:24Z",
+    "body": "The total storage can be over 10MB but a single value cannot be over 10MB.\r\n\r\nSince `localStorage` is synchronous, saving large values may hang the application, can you elaborate on why you are saving values that large?"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/270495127",
+    "html_url": "https://github.com/electron/electron/issues/8337#issuecomment-270495127",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8337",
+    "id": 270495127,
+    "user": {
+      "login": "nunomluz",
+      "id": 12936553,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12936553?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nunomluz",
+      "html_url": "https://github.com/nunomluz",
+      "followers_url": "https://api.github.com/users/nunomluz/followers",
+      "following_url": "https://api.github.com/users/nunomluz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nunomluz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nunomluz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nunomluz/subscriptions",
+      "organizations_url": "https://api.github.com/users/nunomluz/orgs",
+      "repos_url": "https://api.github.com/users/nunomluz/repos",
+      "events_url": "https://api.github.com/users/nunomluz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nunomluz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-04T21:42:21Z",
+    "updated_at": "2017-01-04T21:42:39Z",
+    "body": "Thanks, @kevinsawicki . I'm using the redux-localstorage enhancer, which stores part of the app state in serialized JSON as a single key-value. It's not a common case, but with the current implementation I'm working on, it can exceed 10 Mb.\r\nThe app hanging is an issue, so I'll consider another approach that doesn't rely on localStorage. However, anyone using redux-localstorage might experience this issue if the persisted slice of the app state grows over time."
+  }
+]

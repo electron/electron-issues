@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/157356396",
+    "html_url": "https://github.com/electron/electron/issues/3467#issuecomment-157356396",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3467",
+    "id": 157356396,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-17T12:25:37Z",
+    "updated_at": "2015-11-17T12:25:37Z",
+    "body": "You have to use `require('electron').ipcMain`, the `require('ipc-main')` also works but is deprecated.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/157362043",
+    "html_url": "https://github.com/electron/electron/issues/3467#issuecomment-157362043",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3467",
+    "id": 157362043,
+    "user": {
+      "login": "frozeman",
+      "id": 232662,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/232662?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frozeman",
+      "html_url": "https://github.com/frozeman",
+      "followers_url": "https://api.github.com/users/frozeman/followers",
+      "following_url": "https://api.github.com/users/frozeman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frozeman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frozeman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frozeman/subscriptions",
+      "organizations_url": "https://api.github.com/users/frozeman/orgs",
+      "repos_url": "https://api.github.com/users/frozeman/repos",
+      "events_url": "https://api.github.com/users/frozeman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frozeman/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-17T12:44:48Z",
+    "updated_at": "2015-11-17T12:44:48Z",
+    "body": "Thanks a lot, just looked at the release page, but better put that there ;)\n"
+  }
+]

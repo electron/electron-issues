@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/155271672",
+    "html_url": "https://github.com/electron/electron/issues/3373#issuecomment-155271672",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3373",
+    "id": 155271672,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-10T03:17:19Z",
+    "updated_at": "2015-11-10T03:17:19Z",
+    "body": "Chromium itself is a much more complicated environment than Node.js, from [what I can find](https://groups.google.com/forum/#!msg/golang-nuts/Vy8r05reLyw/gO-wetcSAgAJ) go-lang runtime is using some hacky way to initialize the environment, which seems to conflict with Chromium's environment.\n\nSo I suggest using the module in scripts forked by `child_process.fork`, which is very similar to upstream Node's environment. The root cause is in go-lang's internals, so unless some core go-lang developer looks into this we are not able to solve it.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/233514275",
+    "html_url": "https://github.com/electron/electron/issues/3373#issuecomment-233514275",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3373",
+    "id": 233514275,
+    "user": {
+      "login": "cepinos",
+      "id": 844810,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/844810?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cepinos",
+      "html_url": "https://github.com/cepinos",
+      "followers_url": "https://api.github.com/users/cepinos/followers",
+      "following_url": "https://api.github.com/users/cepinos/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cepinos/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cepinos/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cepinos/subscriptions",
+      "organizations_url": "https://api.github.com/users/cepinos/orgs",
+      "repos_url": "https://api.github.com/users/cepinos/repos",
+      "events_url": "https://api.github.com/users/cepinos/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cepinos/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-19T02:31:18Z",
+    "updated_at": "2016-07-19T02:31:18Z",
+    "body": "Using child_process.fork as @zcbenz said worked for me. Thanks a lot!!!\n"
+  }
+]

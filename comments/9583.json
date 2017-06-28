@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/304981504",
+    "html_url": "https://github.com/electron/electron/issues/9583#issuecomment-304981504",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9583",
+    "id": 304981504,
+    "user": {
+      "login": "shiftkey",
+      "id": 359239,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/359239?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shiftkey",
+      "html_url": "https://github.com/shiftkey",
+      "followers_url": "https://api.github.com/users/shiftkey/followers",
+      "following_url": "https://api.github.com/users/shiftkey/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shiftkey/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shiftkey/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shiftkey/subscriptions",
+      "organizations_url": "https://api.github.com/users/shiftkey/orgs",
+      "repos_url": "https://api.github.com/users/shiftkey/repos",
+      "events_url": "https://api.github.com/users/shiftkey/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shiftkey/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-30T19:23:30Z",
+    "updated_at": "2017-05-30T19:23:30Z",
+    "body": "I can reproduce this on 1.6.11 as well as a debug build in the 1.7.x series using latest `master` e.g. 717a1a666cabf0479bdc981ef7f08663804d050a"
+  }
+]

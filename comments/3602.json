@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/160033595",
+    "html_url": "https://github.com/electron/electron/issues/3602#issuecomment-160033595",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3602",
+    "id": 160033595,
+    "user": {
+      "login": "bitwombat",
+      "id": 3937658,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3937658?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bitwombat",
+      "html_url": "https://github.com/bitwombat",
+      "followers_url": "https://api.github.com/users/bitwombat/followers",
+      "following_url": "https://api.github.com/users/bitwombat/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bitwombat/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bitwombat/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bitwombat/subscriptions",
+      "organizations_url": "https://api.github.com/users/bitwombat/orgs",
+      "repos_url": "https://api.github.com/users/bitwombat/repos",
+      "events_url": "https://api.github.com/users/bitwombat/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bitwombat/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-27T03:16:50Z",
+    "updated_at": "2015-11-30T06:08:59Z",
+    "body": "I think userAgent persists across pages (links) just not to new windows.\n\nAny suggested workarounds in the meantime?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/175006645",
+    "html_url": "https://github.com/electron/electron/issues/3602#issuecomment-175006645",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3602",
+    "id": 175006645,
+    "user": {
+      "login": "ragingwind",
+      "id": 124117,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/124117?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ragingwind",
+      "html_url": "https://github.com/ragingwind",
+      "followers_url": "https://api.github.com/users/ragingwind/followers",
+      "following_url": "https://api.github.com/users/ragingwind/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ragingwind/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ragingwind/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ragingwind/subscriptions",
+      "organizations_url": "https://api.github.com/users/ragingwind/orgs",
+      "repos_url": "https://api.github.com/users/ragingwind/repos",
+      "events_url": "https://api.github.com/users/ragingwind/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ragingwind/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-26T13:15:14Z",
+    "updated_at": "2016-01-26T13:15:14Z",
+    "body": "I was digging to add `SetUserAgent` to Session but I couldn't find any point of sharing session between the parent window and newly created BrowserWindow. [Calling setUserAgent of webContents of guest borwser before `loadURL`](https://github.com/atom/electron/blob/master/atom/browser/lib/guest-window-manager.js#L57) is the simple way to solve the #3523 issue. but I'm not sure.\n"
+  }
+]

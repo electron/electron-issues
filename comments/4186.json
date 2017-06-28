@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/173721036",
+    "html_url": "https://github.com/electron/electron/pull/4186#issuecomment-173721036",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4186",
+    "id": 173721036,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-21T21:53:29Z",
+    "updated_at": "2016-01-21T21:53:29Z",
+    "body": ":+1: \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/174027158",
+    "html_url": "https://github.com/electron/electron/pull/4186#issuecomment-174027158",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4186",
+    "id": 174027158,
+    "user": {
+      "login": "christoth",
+      "id": 2223480,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2223480?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/christoth",
+      "html_url": "https://github.com/christoth",
+      "followers_url": "https://api.github.com/users/christoth/followers",
+      "following_url": "https://api.github.com/users/christoth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/christoth/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/christoth/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/christoth/subscriptions",
+      "organizations_url": "https://api.github.com/users/christoth/orgs",
+      "repos_url": "https://api.github.com/users/christoth/repos",
+      "events_url": "https://api.github.com/users/christoth/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/christoth/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-22T19:55:43Z",
+    "updated_at": "2016-01-22T19:55:43Z",
+    "body": "@CharlieHess Thanks!\n"
+  }
+]

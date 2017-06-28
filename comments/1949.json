@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/111437929",
+    "html_url": "https://github.com/electron/electron/issues/1949#issuecomment-111437929",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1949",
+    "id": 111437929,
+    "user": {
+      "login": "Ivshti",
+      "id": 1247629,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1247629?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ivshti",
+      "html_url": "https://github.com/Ivshti",
+      "followers_url": "https://api.github.com/users/Ivshti/followers",
+      "following_url": "https://api.github.com/users/Ivshti/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Ivshti/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Ivshti/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Ivshti/subscriptions",
+      "organizations_url": "https://api.github.com/users/Ivshti/orgs",
+      "repos_url": "https://api.github.com/users/Ivshti/repos",
+      "events_url": "https://api.github.com/users/Ivshti/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Ivshti/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-12T10:14:00Z",
+    "updated_at": "2015-06-12T10:14:00Z",
+    "body": "@willbarrett shouldn't you call setFullScreen with a boolean instead of a string?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/111476481",
+    "html_url": "https://github.com/electron/electron/issues/1949#issuecomment-111476481",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1949",
+    "id": 111476481,
+    "user": {
+      "login": "willbarrett",
+      "id": 1779034,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1779034?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/willbarrett",
+      "html_url": "https://github.com/willbarrett",
+      "followers_url": "https://api.github.com/users/willbarrett/followers",
+      "following_url": "https://api.github.com/users/willbarrett/following{/other_user}",
+      "gists_url": "https://api.github.com/users/willbarrett/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/willbarrett/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/willbarrett/subscriptions",
+      "organizations_url": "https://api.github.com/users/willbarrett/orgs",
+      "repos_url": "https://api.github.com/users/willbarrett/repos",
+      "events_url": "https://api.github.com/users/willbarrett/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/willbarrett/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-12T12:29:59Z",
+    "updated_at": "2015-06-12T12:29:59Z",
+    "body": "@Ivshti you're right, I should. The code is a paraphrase, not a copy. I've fixed the code in the issue. I'll see if I can mock up a demo app that will demonstrate the issue. Hopefully I'll get some time for that this afternoon.\n"
+  }
+]

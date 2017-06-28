@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/274443506",
+    "html_url": "https://github.com/electron/electron/pull/8475#issuecomment-274443506",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8475",
+    "id": 274443506,
+    "user": {
+      "login": "watilde",
+      "id": 1716463,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1716463?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/watilde",
+      "html_url": "https://github.com/watilde",
+      "followers_url": "https://api.github.com/users/watilde/followers",
+      "following_url": "https://api.github.com/users/watilde/following{/other_user}",
+      "gists_url": "https://api.github.com/users/watilde/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/watilde/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/watilde/subscriptions",
+      "organizations_url": "https://api.github.com/users/watilde/orgs",
+      "repos_url": "https://api.github.com/users/watilde/repos",
+      "events_url": "https://api.github.com/users/watilde/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/watilde/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-23T09:53:55Z",
+    "updated_at": "2017-01-23T09:53:55Z",
+    "body": "Thanks for the corrections! LGTM."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/274559129",
+    "html_url": "https://github.com/electron/electron/pull/8475#issuecomment-274559129",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8475",
+    "id": 274559129,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-01-23T17:35:05Z",
+    "updated_at": "2017-01-23T17:35:05Z",
+    "body": "Thanks :shipit: "
+  }
+]

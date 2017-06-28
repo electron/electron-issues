@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/100077332",
+    "html_url": "https://github.com/electron/electron/issues/1592#issuecomment-100077332",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1592",
+    "id": 100077332,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-05-08T02:30:14Z",
+    "updated_at": "2015-05-08T02:30:14Z",
+    "body": "Currently there is no option for it.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/100130032",
+    "html_url": "https://github.com/electron/electron/issues/1592#issuecomment-100130032",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1592",
+    "id": 100130032,
+    "user": {
+      "login": "zheung",
+      "id": 894004,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/894004?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zheung",
+      "html_url": "https://github.com/zheung",
+      "followers_url": "https://api.github.com/users/zheung/followers",
+      "following_url": "https://api.github.com/users/zheung/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zheung/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zheung/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zheung/subscriptions",
+      "organizations_url": "https://api.github.com/users/zheung/orgs",
+      "repos_url": "https://api.github.com/users/zheung/repos",
+      "events_url": "https://api.github.com/users/zheung/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zheung/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-08T07:18:10Z",
+    "updated_at": "2015-05-08T07:18:10Z",
+    "body": "https://github.com/atom/electron/blob/master/docs/api/browser-window.md\nbut these options in the docs\n\nshould be removed from the docs?\n"
+  }
+]

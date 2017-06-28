@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/156954467",
+    "html_url": "https://github.com/electron/electron/pull/3456#issuecomment-156954467",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3456",
+    "id": 156954467,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-16T08:29:05Z",
+    "updated_at": "2015-11-16T08:29:05Z",
+    "body": "Looks good to me, thanks!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/156979723",
+    "html_url": "https://github.com/electron/electron/pull/3456#issuecomment-156979723",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3456",
+    "id": 156979723,
+    "user": {
+      "login": "nekolab",
+      "id": 1770466,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1770466?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nekolab",
+      "html_url": "https://github.com/nekolab",
+      "followers_url": "https://api.github.com/users/nekolab/followers",
+      "following_url": "https://api.github.com/users/nekolab/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nekolab/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nekolab/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nekolab/subscriptions",
+      "organizations_url": "https://api.github.com/users/nekolab/orgs",
+      "repos_url": "https://api.github.com/users/nekolab/repos",
+      "events_url": "https://api.github.com/users/nekolab/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nekolab/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-16T10:21:13Z",
+    "updated_at": "2015-11-16T10:21:13Z",
+    "body": "Oops.. The `node_bindings` link is still dead...\nIt's my fault 0.0 Sorry~\nI will create another PR to fix it later\n"
+  }
+]

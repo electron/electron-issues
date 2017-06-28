@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/282026447",
+    "html_url": "https://github.com/electron/electron/issues/8753#issuecomment-282026447",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8753",
+    "id": 282026447,
+    "user": {
+      "login": "emorikawa",
+      "id": 489001,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/489001?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/emorikawa",
+      "html_url": "https://github.com/emorikawa",
+      "followers_url": "https://api.github.com/users/emorikawa/followers",
+      "following_url": "https://api.github.com/users/emorikawa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/emorikawa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/emorikawa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/emorikawa/subscriptions",
+      "organizations_url": "https://api.github.com/users/emorikawa/orgs",
+      "repos_url": "https://api.github.com/users/emorikawa/repos",
+      "events_url": "https://api.github.com/users/emorikawa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/emorikawa/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-23T15:37:40Z",
+    "updated_at": "2017-02-23T15:37:51Z",
+    "body": "I was able to fix this by completely uninstalling XCode then re-installing it fresh again.\r\n\r\nIt looks like there was a problem in the XCode 7 to XCode 8 upgrade when I moved from OSX 11 to OSX 12.\r\n\r\nNow when I run `xcodebuild -sdk -version` I get:\r\n```\r\n...\r\nMacOSX10.12.sdk - macOS 10.12 (macosx10.12)\r\nSDKVersion: 10.12\r\nPath: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk\r\nPlatformVersion: 1.1\r\nPlatformPath: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform\r\nProductBuildVersion: 16C58\r\nProductCopyright: 1983-2016 Apple Inc.\r\nProductName: Mac OS X\r\nProductUserVisibleVersion: 10.12.2\r\nProductVersion: 10.12.2\r\n...\r\nXcode 8.2.1\r\nBuild version 8C1002\r\n```"
+  }
+]

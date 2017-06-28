@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/148894763",
+    "html_url": "https://github.com/electron/electron/pull/3118#issuecomment-148894763",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3118",
+    "id": 148894763,
+    "user": {
+      "login": "izuzak",
+      "id": 38924,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/38924?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/izuzak",
+      "html_url": "https://github.com/izuzak",
+      "followers_url": "https://api.github.com/users/izuzak/followers",
+      "following_url": "https://api.github.com/users/izuzak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/izuzak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/izuzak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/izuzak/subscriptions",
+      "organizations_url": "https://api.github.com/users/izuzak/orgs",
+      "repos_url": "https://api.github.com/users/izuzak/repos",
+      "events_url": "https://api.github.com/users/izuzak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/izuzak/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-17T08:10:13Z",
+    "updated_at": "2015-10-17T08:10:13Z",
+    "body": ":+1: Thanks!\n"
+  }
+]

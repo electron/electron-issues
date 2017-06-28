@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/172778371",
+    "html_url": "https://github.com/electron/electron/issues/3387#issuecomment-172778371",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3387",
+    "id": 172778371,
+    "user": {
+      "login": "clericc",
+      "id": 851823,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/851823?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/clericc",
+      "html_url": "https://github.com/clericc",
+      "followers_url": "https://api.github.com/users/clericc/followers",
+      "following_url": "https://api.github.com/users/clericc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/clericc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/clericc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/clericc/subscriptions",
+      "organizations_url": "https://api.github.com/users/clericc/orgs",
+      "repos_url": "https://api.github.com/users/clericc/repos",
+      "events_url": "https://api.github.com/users/clericc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/clericc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-19T08:50:11Z",
+    "updated_at": "2016-01-19T08:50:11Z",
+    "body": "upvote\n"
+  }
+]

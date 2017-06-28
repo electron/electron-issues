@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/138468832",
+    "html_url": "https://github.com/electron/electron/pull/2732#issuecomment-138468832",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2732",
+    "id": 138468832,
+    "user": {
+      "login": "John-Lin",
+      "id": 4214069,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4214069?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/John-Lin",
+      "html_url": "https://github.com/John-Lin",
+      "followers_url": "https://api.github.com/users/John-Lin/followers",
+      "following_url": "https://api.github.com/users/John-Lin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/John-Lin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/John-Lin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/John-Lin/subscriptions",
+      "organizations_url": "https://api.github.com/users/John-Lin/orgs",
+      "repos_url": "https://api.github.com/users/John-Lin/repos",
+      "events_url": "https://api.github.com/users/John-Lin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/John-Lin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-08T08:07:33Z",
+    "updated_at": "2015-09-08T08:07:33Z",
+    "body": "Hmm... \nI only do translation. Why Travis build failed :grey_question: \n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/138813692",
+    "html_url": "https://github.com/electron/electron/pull/2732#issuecomment-138813692",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2732",
+    "id": 138813692,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-09T07:40:59Z",
+    "updated_at": "2015-09-09T07:40:59Z",
+    "body": "Thanks!\n\n> I only do translation. Why Travis build failed\n\nThat's not your fault.\n"
+  }
+]

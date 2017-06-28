@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/306358392",
+    "html_url": "https://github.com/electron/electron/issues/9677#issuecomment-306358392",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9677",
+    "id": 306358392,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-06T01:48:36Z",
+    "updated_at": "2017-06-06T01:48:36Z",
+    "body": "It looks correct for the latest release, https://github.com/electron/electron/releases/download/v1.7.2/electron-api.json\r\n\r\nIt is marked as a `type: 'String'` with `collection: true`. This seems to be how other string arrays are represented in other Electron APIs.\r\n\r\nIt looks like other `String[]` APIs are also wrong in the `hxelectron` docs, https://github.com/fponticelli/hxelectron/blob/04d908d46be3e64758cbf9ea16bf9465b4b3ec1c/src/electron/Clipboard.hx#L45\r\n\r\nClosing this out since this seems like an `hxelectron` issue that should be reported there since it looks like it isn't parsing the `electron-api.json` file correctly."
+  }
+]

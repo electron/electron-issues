@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/271778718",
+    "html_url": "https://github.com/electron/electron/issues/8374#issuecomment-271778718",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8374",
+    "id": 271778718,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-11T05:01:17Z",
+    "updated_at": "2017-01-11T05:01:17Z",
+    "body": "Implementing either of those api require changes from the chromium network layer, mainly getting access to the stream handle for the reading the response data. There is already an issue on the chromium repo, to get this done for extensions https://bugs.chromium.org/p/chromium/issues/detail?id=487422"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/271809693",
+    "html_url": "https://github.com/electron/electron/issues/8374#issuecomment-271809693",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8374",
+    "id": 271809693,
+    "user": {
+      "login": "damevelue",
+      "id": 22817520,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22817520?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/damevelue",
+      "html_url": "https://github.com/damevelue",
+      "followers_url": "https://api.github.com/users/damevelue/followers",
+      "following_url": "https://api.github.com/users/damevelue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/damevelue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/damevelue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/damevelue/subscriptions",
+      "organizations_url": "https://api.github.com/users/damevelue/orgs",
+      "repos_url": "https://api.github.com/users/damevelue/repos",
+      "events_url": "https://api.github.com/users/damevelue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/damevelue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-11T08:39:18Z",
+    "updated_at": "2017-01-11T08:39:18Z",
+    "body": "Ok, thanks for reply :)"
+  }
+]

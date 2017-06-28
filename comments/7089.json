@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/244631340",
+    "html_url": "https://github.com/electron/electron/issues/7089#issuecomment-244631340",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7089",
+    "id": 244631340,
+    "user": {
+      "login": "brenca",
+      "id": 1690458,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1690458?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brenca",
+      "html_url": "https://github.com/brenca",
+      "followers_url": "https://api.github.com/users/brenca/followers",
+      "following_url": "https://api.github.com/users/brenca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brenca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brenca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brenca/subscriptions",
+      "organizations_url": "https://api.github.com/users/brenca/orgs",
+      "repos_url": "https://api.github.com/users/brenca/repos",
+      "events_url": "https://api.github.com/users/brenca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brenca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-04T22:03:38Z",
+    "updated_at": "2016-09-04T22:03:38Z",
+    "body": "Chromium actually needs events for the modifier keys too (which is closer to what actually happens when you press `Ctrl+Z`)\n\n``` JavaScript\nbrowserWindow.webContents.sendInputEvent({\n    type: 'keyDown',\n    keyCode: 'Ctrl'\n});\n\nbrowserWindow.webContents.sendInputEvent({\n    type: 'keyDown',\n    keyCode: 'Z',\n    modifiers: [ 'control' ]\n});\n\nbrowserWindow.webContents.sendInputEvent({\n    type: 'keyUp',\n    keyCode: 'Z',\n    modifiers: [ 'control' ]\n});\n\nbrowserWindow.webContents.sendInputEvent({\n    type: 'keyUp',\n    keyCode: 'Ctrl'\n});\n```\n\nWe're forwarding events from SDL, but this should work. (This is what comes in and is being sent 1:1, and I could revert text in an input with this)\n\nThe `char` type events expect the actual \"string\" you want to send, since keyboard layouts can have other stuff on the same key when you press shift, and detecting the keyboard layout is not easy.\n\nI owe you guys a tutorial about sending input events, I'll create one and post it when I have time :)\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/244635875",
+    "html_url": "https://github.com/electron/electron/issues/7089#issuecomment-244635875",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7089",
+    "id": 244635875,
+    "user": {
+      "login": "Planeshifter",
+      "id": 1913638,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1913638?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Planeshifter",
+      "html_url": "https://github.com/Planeshifter",
+      "followers_url": "https://api.github.com/users/Planeshifter/followers",
+      "following_url": "https://api.github.com/users/Planeshifter/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Planeshifter/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Planeshifter/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Planeshifter/subscriptions",
+      "organizations_url": "https://api.github.com/users/Planeshifter/orgs",
+      "repos_url": "https://api.github.com/users/Planeshifter/repos",
+      "events_url": "https://api.github.com/users/Planeshifter/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Planeshifter/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-04T23:54:47Z",
+    "updated_at": "2016-09-04T23:54:47Z",
+    "body": "Thank you very much for the fast response! I can confirm that everything works when sending the events for the modifier keys. Closing this issue now, thanks again!\n"
+  }
+]

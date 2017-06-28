@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/58560430",
+    "html_url": "https://github.com/electron/electron/issues/690#issuecomment-58560430",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/690",
+    "id": 58560430,
+    "user": {
+      "login": "larzconwell",
+      "id": 1316992,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1316992?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/larzconwell",
+      "html_url": "https://github.com/larzconwell",
+      "followers_url": "https://api.github.com/users/larzconwell/followers",
+      "following_url": "https://api.github.com/users/larzconwell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/larzconwell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/larzconwell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/larzconwell/subscriptions",
+      "organizations_url": "https://api.github.com/users/larzconwell/orgs",
+      "repos_url": "https://api.github.com/users/larzconwell/repos",
+      "events_url": "https://api.github.com/users/larzconwell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/larzconwell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-10-09T19:02:44Z",
+    "updated_at": "2014-10-09T19:02:44Z",
+    "body": "Moving the application to /Applications fixes the issue, but occasionally fails with ENOENT when removing the old version that was moved.\n\nThis is most likely an issue with Squirrel rather than atom-shell itself so I'll move it there.\n"
+  }
+]

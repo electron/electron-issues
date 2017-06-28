@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/226990071",
+    "html_url": "https://github.com/electron/electron/issues/6108#issuecomment-226990071",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6108",
+    "id": 226990071,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-06-19T10:30:16Z",
+    "updated_at": "2016-06-19T10:30:16Z",
+    "body": "This is a duplicate of https://github.com/nodejs/node/issues/6563, there is already a fix in Node but it is not in any public release yet, we need to wait for a release of Node and then update to it.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/227002229",
+    "html_url": "https://github.com/electron/electron/issues/6108#issuecomment-227002229",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6108",
+    "id": 227002229,
+    "user": {
+      "login": "mnp",
+      "id": 881925,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/881925?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mnp",
+      "html_url": "https://github.com/mnp",
+      "followers_url": "https://api.github.com/users/mnp/followers",
+      "following_url": "https://api.github.com/users/mnp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mnp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mnp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mnp/subscriptions",
+      "organizations_url": "https://api.github.com/users/mnp/orgs",
+      "repos_url": "https://api.github.com/users/mnp/repos",
+      "events_url": "https://api.github.com/users/mnp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mnp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-19T15:08:41Z",
+    "updated_at": "2016-06-19T15:08:41Z",
+    "body": "@zcbenz : thanks for the note.  I'll close as dup | upstream.\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/234090359",
+    "html_url": "https://github.com/electron/electron/issues/6554#issuecomment-234090359",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6554",
+    "id": 234090359,
+    "user": {
+      "login": "baconbrad",
+      "id": 4763342,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4763342?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/baconbrad",
+      "html_url": "https://github.com/baconbrad",
+      "followers_url": "https://api.github.com/users/baconbrad/followers",
+      "following_url": "https://api.github.com/users/baconbrad/following{/other_user}",
+      "gists_url": "https://api.github.com/users/baconbrad/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/baconbrad/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/baconbrad/subscriptions",
+      "organizations_url": "https://api.github.com/users/baconbrad/orgs",
+      "repos_url": "https://api.github.com/users/baconbrad/repos",
+      "events_url": "https://api.github.com/users/baconbrad/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/baconbrad/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-20T21:33:38Z",
+    "updated_at": "2016-07-20T21:47:54Z",
+    "body": "For some clarity this project wasn't always Electron. It used to be Atom-Shell and development of it surrounded Atom. A lot of the retention of Atom branded APIs is backwards compatibility when it was Atom-Shell. So you will find that not only is there a `process.versions['atom-shell']` but `process.versions['electron']` as well. Both doing the same thing. Removing one would break programs and keeping both hurts nothing. Anything outward facing has been rebranded from Atom and Atom-Shell to Electron.\n\nUnder the hood as far as folder/files/functions etc in the source is still Atom. The source only makes references to Electron as a project name or if it is something Electron application developers would be using on their end. So the source isn't a mix and match of Electron and Atom and uses only one name (Atom). It is pretty easy to deal with if you need to ever work on the main source. I don't know exactly why a change to it wasn't made but expect it falls under, \"If it isn't broken, don't fix it.\" or backwards compatibility.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/234214497",
+    "html_url": "https://github.com/electron/electron/issues/6554#issuecomment-234214497",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6554",
+    "id": 234214497,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-21T10:20:07Z",
+    "updated_at": "2016-07-21T10:20:07Z",
+    "body": "Thanks @baconface for the excellent explanation, I'm closing this issue now.\n"
+  }
+]

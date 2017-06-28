@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/294125595",
+    "html_url": "https://github.com/electron/electron/issues/9171#issuecomment-294125595",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9171",
+    "id": 294125595,
+    "user": {
+      "login": "sonofachuck",
+      "id": 26582441,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26582441?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sonofachuck",
+      "html_url": "https://github.com/sonofachuck",
+      "followers_url": "https://api.github.com/users/sonofachuck/followers",
+      "following_url": "https://api.github.com/users/sonofachuck/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sonofachuck/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sonofachuck/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sonofachuck/subscriptions",
+      "organizations_url": "https://api.github.com/users/sonofachuck/orgs",
+      "repos_url": "https://api.github.com/users/sonofachuck/repos",
+      "events_url": "https://api.github.com/users/sonofachuck/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sonofachuck/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-14T09:36:31Z",
+    "updated_at": "2017-04-14T18:29:02Z",
+    "body": "Determined that the only workaround was to override the default drag and drop behavior, which cured both the data transformation and the erasing of new line characters."
+  }
+]

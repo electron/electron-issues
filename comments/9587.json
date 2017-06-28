@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/304098835",
+    "html_url": "https://github.com/electron/electron/issues/9587#issuecomment-304098835",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9587",
+    "id": 304098835,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-05-25T19:18:06Z",
+    "updated_at": "2017-05-25T19:18:59Z",
+    "body": "Able to crash it with the following page launched in the default app:\r\n\r\n```html\r\n<!DOCTYPE html>\r\n<html>\r\n  <head>\r\n    <meta charset=\"utf-8\">\r\n    <title></title>\r\n  </head>\r\n  <body>\r\n    <script>\r\n    const {protocol, session} = require('electron').remote\r\n\r\n    const customSession = session.fromPartition('custom-ses')\r\n    customSession.webRequest.onBeforeRequest(function (details, callback) {\r\n      callback({cancel: true})\r\n    })\r\n    const handler = function (request, callback) {\r\n      callback({\r\n        url: request.url,\r\n        session: customSession\r\n      })\r\n    }\r\n    protocol.interceptHttpProtocol('http', handler, function (error) {\r\n      fetch('http://fake-host')\r\n    })\r\n    </script>\r\n  </body>\r\n</html>\r\n```"
+  }
+]

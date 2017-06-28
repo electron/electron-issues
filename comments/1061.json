@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/71862361",
+    "html_url": "https://github.com/electron/electron/issues/1061#issuecomment-71862361",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1061",
+    "id": 71862361,
+    "user": {
+      "login": "mofucka",
+      "id": 10743915,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10743915?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mofucka",
+      "html_url": "https://github.com/mofucka",
+      "followers_url": "https://api.github.com/users/mofucka/followers",
+      "following_url": "https://api.github.com/users/mofucka/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mofucka/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mofucka/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mofucka/subscriptions",
+      "organizations_url": "https://api.github.com/users/mofucka/orgs",
+      "repos_url": "https://api.github.com/users/mofucka/repos",
+      "events_url": "https://api.github.com/users/mofucka/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mofucka/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-28T16:14:03Z",
+    "updated_at": "2015-01-28T16:14:03Z",
+    "body": "Screen only runs in the browser process tho.. Linux requires it to be run in the renderer otherwise screen produces a crash AFAIK.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/71888240",
+    "html_url": "https://github.com/electron/electron/issues/1061#issuecomment-71888240",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1061",
+    "id": 71888240,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-01-28T18:29:30Z",
+    "updated_at": "2015-01-28T18:29:30Z",
+    "body": "The `screen` module needs to subscribe to native screen events when it is initialized, which requires the app to be ready.\n\nOf course we can return a proxy object and then routing the actual events to it when app is ready, but it adds lots of complexity to the simple module and I don't think it deserves the method.\n"
+  }
+]

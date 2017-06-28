@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/258764910",
+    "html_url": "https://github.com/electron/electron/issues/7891#issuecomment-258764910",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7891",
+    "id": 258764910,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-07T07:30:40Z",
+    "updated_at": "2016-11-07T07:30:40Z",
+    "body": "Currently we let `AtomCertVerifier` default to chromium cert verification code path when `session.setCertificateVerifyProc` does not provide a custom callback. Instead of providing a `certificate-verified` event which does not interest users other than those performing custom cert verification, we could default to chromium verification first and respond to custom callback with the result along with other existing arguments. Sounds good ?\n\n/cc @zcbenz \n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/165844890",
+    "html_url": "https://github.com/electron/electron/issues/3862#issuecomment-165844890",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3862",
+    "id": 165844890,
+    "user": {
+      "login": "evgenyzinoviev",
+      "id": 6204306,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6204306?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/evgenyzinoviev",
+      "html_url": "https://github.com/evgenyzinoviev",
+      "followers_url": "https://api.github.com/users/evgenyzinoviev/followers",
+      "following_url": "https://api.github.com/users/evgenyzinoviev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evgenyzinoviev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evgenyzinoviev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evgenyzinoviev/subscriptions",
+      "organizations_url": "https://api.github.com/users/evgenyzinoviev/orgs",
+      "repos_url": "https://api.github.com/users/evgenyzinoviev/repos",
+      "events_url": "https://api.github.com/users/evgenyzinoviev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evgenyzinoviev/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-18T17:18:42Z",
+    "updated_at": "2015-12-18T17:21:13Z",
+    "body": "Well, If you or anyone else here is interested, I (maybe with someone's support, since I don't have so much time) could try to improve my fork and make some kind of API to create and inject vibrant views, but I guess that it's not so trivial to make universal API, because, for example, the user may wish to create a view with custom shape (circular view or custom-rounded-rectangular view or something else), but we could start with simple rectangular views.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/166214000",
+    "html_url": "https://github.com/electron/electron/issues/3862#issuecomment-166214000",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3862",
+    "id": 166214000,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-21T06:28:20Z",
+    "updated_at": "2015-12-21T06:28:20Z",
+    "body": "I'm merging this to #3002.\n"
+  }
+]

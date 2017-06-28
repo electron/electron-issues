@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/244338386",
+    "html_url": "https://github.com/electron/electron/issues/7070#issuecomment-244338386",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7070",
+    "id": 244338386,
+    "user": {
+      "login": "thomasjo",
+      "id": 3622,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3622?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thomasjo",
+      "html_url": "https://github.com/thomasjo",
+      "followers_url": "https://api.github.com/users/thomasjo/followers",
+      "following_url": "https://api.github.com/users/thomasjo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thomasjo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thomasjo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thomasjo/subscriptions",
+      "organizations_url": "https://api.github.com/users/thomasjo/orgs",
+      "repos_url": "https://api.github.com/users/thomasjo/repos",
+      "events_url": "https://api.github.com/users/thomasjo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thomasjo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-02T10:17:17Z",
+    "updated_at": "2016-09-02T10:17:17Z",
+    "body": "Everything under `/vendor` are Git submodules, so you need to initialize and clone them; run e.g.\n\n```\ngit submodule update --init --recursive\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/244351292",
+    "html_url": "https://github.com/electron/electron/issues/7070#issuecomment-244351292",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7070",
+    "id": 244351292,
+    "user": {
+      "login": "sboekhoff",
+      "id": 10683690,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10683690?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sboekhoff",
+      "html_url": "https://github.com/sboekhoff",
+      "followers_url": "https://api.github.com/users/sboekhoff/followers",
+      "following_url": "https://api.github.com/users/sboekhoff/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sboekhoff/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sboekhoff/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sboekhoff/subscriptions",
+      "organizations_url": "https://api.github.com/users/sboekhoff/orgs",
+      "repos_url": "https://api.github.com/users/sboekhoff/repos",
+      "events_url": "https://api.github.com/users/sboekhoff/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sboekhoff/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-02T11:31:14Z",
+    "updated_at": "2016-09-02T11:31:14Z",
+    "body": "Thanks @thomasjo .\n\nI haven't worked with submodules, yet.\n\nI suspected that there is something new, after running `grep -r \"depot_tools\"`:\n\n```\nscript/cpplint.py:40:  cpplint = os.path.join(SOURCE_ROOT, 'vendor', 'depot_tools', 'cpplint.py')\nscript/build.py:22:  ninja = os.path.join('vendor', 'depot_tools', 'ninja')\nscript/pylint.py:14:  pylint = os.path.join(SOURCE_ROOT, 'vendor', 'depot_tools', 'pylint.py')\nscript/pylint.py:15:  settings = ['--rcfile=vendor/depot_tools/pylintrc']\n.gitmodules:7:[submodule \"vendor/depot_tools\"]\n.gitmodules:8:  path = vendor/depot_tools\n.gitmodules:9:  url = https://chromium.googlesource.com/chromium/tools/depot_tools.git\n```\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/140590975",
+    "html_url": "https://github.com/electron/electron/pull/2796#issuecomment-140590975",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2796",
+    "id": 140590975,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-16T01:04:31Z",
+    "updated_at": "2015-09-16T01:04:31Z",
+    "body": "Thanks!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/140611239",
+    "html_url": "https://github.com/electron/electron/pull/2796#issuecomment-140611239",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2796",
+    "id": 140611239,
+    "user": {
+      "login": "dylang",
+      "id": 51505,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/51505?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dylang",
+      "html_url": "https://github.com/dylang",
+      "followers_url": "https://api.github.com/users/dylang/followers",
+      "following_url": "https://api.github.com/users/dylang/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dylang/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dylang/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dylang/subscriptions",
+      "organizations_url": "https://api.github.com/users/dylang/orgs",
+      "repos_url": "https://api.github.com/users/dylang/repos",
+      "events_url": "https://api.github.com/users/dylang/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dylang/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-16T03:02:10Z",
+    "updated_at": "2015-09-16T03:02:10Z",
+    "body": "Thanks for the quick fix @hokein!\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309665446",
+    "html_url": "https://github.com/electron/electron/issues/9205#issuecomment-309665446",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9205",
+    "id": 309665446,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-06-20T07:12:51Z",
+    "updated_at": "2017-06-20T07:12:51Z",
+    "body": "For security purpose referrer is hidden when it is from a `file://` URL, this is the behavior used by all browsers."
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/309693622",
+    "html_url": "https://github.com/electron/electron/issues/9205#issuecomment-309693622",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9205",
+    "id": 309693622,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-20T09:12:02Z",
+    "updated_at": "2017-06-20T09:12:02Z",
+    "body": "@zcbenz the issue is not specific to file protocol, this will happen only for new windows opened without sandbox or nativeWindowOpen option, as we don't pass the referrer information from [AtomBrowserClient::CanCreateWindow](https://github.com/electron/electron/blob/master/atom/browser/atom_browser_client.cc#L340) to our `guest_window_manager`. The fix is really simple, didn't get to it as I was working on other tasks. Can we reopen the issue ? Thanks!"
+  }
+]

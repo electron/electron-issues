@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/166903210",
+    "html_url": "https://github.com/electron/electron/issues/3893#issuecomment-166903210",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3893",
+    "id": 166903210,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-12-23T14:11:40Z",
+    "updated_at": "2015-12-23T14:11:40Z",
+    "body": "The main process crashed when calling `win.close()`, stack trace:\n\n```\n0:000> k\nChild-SP          RetAddr           Call Site\n00000068`3e2abd20 00007ff6`23bfa86e electron!atom::NativeWindow::RequestToClosePage+0x119 [c:\\cygwin\\home\\zcbenz\\codes\\electron\\atom\\browser\\native_window.cc @ 357]\n00000068`3e2abdd0 00007ffe`58ade6ee electron!atom::`anonymous namespace'::NativeWindowClientView::CanClose+0x6e [c:\\cygwin\\home\\zcbenz\\codes\\electron\\atom\\browser\\native_window_views.cc @ 114]\n00000068`3e2abe20 00007ff6`23bfa9a9 views!views::MenuItemView::GetMenuController+0xa5e80\n00000068`3e2abf90 00007ff6`23ab3c24 electron!atom::NativeWindowViews::Close+0x49 [c:\\cygwin\\home\\zcbenz\\codes\\electron\\atom\\browser\\native_window_views.cc @ 292]\n00000068`3e2abfd0 00007ff6`23abe1c1 electron!atom::api::Window::Close+0x44 [c:\\cygwin\\home\\zcbenz\\codes\\electron\\atom\\browser\\api\\atom_api_window.cc @ 285]\n00000068`3e2ac010 00007ff6`23aba87a electron!base::internal::RunnableAdapter<void (__cdecl atom::api::Window::*)(void) __ptr64>::Run+0x41 [c:\\cygwin\\home\\zcbenz\\codes\\electron\\vendor\\brightray\\vendor\\download\\libchromiumcontent\\src\\base\\bind_internal.h @ 177]\n00000068`3e2ac040 00007ff6`23abd50d electron!base::internal::InvokeHelper<0,void,base::internal::RunnableAdapter<void (__cdecl atom::api::Window::*)(void) __ptr64>,base::internal::TypeList<atom::api::Window * __ptr64 const & __ptr64> >::MakeItSo+0x3a [c:\\cygwin\\home\\zcbenz\\codes\\electron\\vendor\\brightray\\vendor\\download\\libchromiumcontent\\src\\base\\bind_internal.h @ 294]\n00000068`3e2ac070 00007ff6`23abc169 electron!base::internal::Invoker<base::IndexSequence<>,base::internal::BindState<base::internal::RunnableAdapter<void (__cdecl atom::api::Window::*)(void) __ptr64>,void __cdecl(atom::api::Window * __ptr64),base::internal::TypeList<> >,base::internal::TypeList<>,base::internal::InvokeHelper<0,void,base::internal::RunnableAdapter<void (__cdecl atom::api::Window::*)(void) __ptr64>,base::internal::TypeList<atom::api::Window * __ptr64 const & __ptr64> >,void __cdecl(atom::api::Window * __ptr64 const & __ptr64)>::Run+0x5d [c:\\cygwin\\home\\zcbenz\\codes\\electron\\vendor\\brightray\\vendor\\download\\libchromiumcontent\\src\\base\\bind_internal.h @ 347]\n00000068`3e2ac0d0 00007ff6`23ab814b electron!base::Callback<void __cdecl(atom::api::Window * __ptr64)>::Run+0x59 [c:\\cygwin\\home\\zcbenz\\codes\\electron\\vendor\\brightray\\vendor\\download\\libchromiumcontent\\src\\base\\callback.h @ 397]\n00000068`3e2ac110 00007ff6`23ab6220 electron!mate::internal::Invoker<mate::internal::IndicesHolder<0>,atom::api::Window * __ptr64>::DispatchToCallback+0x3b [c:\\cygwin\\home\\zcbenz\\codes\\electron\\vendor\\native_mate\\native_mate\\function_template.h @ 194]\n00000068`3e2ac150 00007ffe`5de5c96b electron!mate::internal::Dispatcher<void __cdecl(atom::api::Window * __ptr64)>::DispatchToCallback+0x1b0 [c:\\cygwin\\home\\zcbenz\\codes\\electron\\vendor\\native_mate\\native_mate\\function_template.h @ 228]\n```\n"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/293720272",
+    "html_url": "https://github.com/electron/electron/pull/9166#issuecomment-293720272",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9166",
+    "id": 293720272,
+    "user": {
+      "login": "CharlieHess",
+      "id": 1865957,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1865957?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/CharlieHess",
+      "html_url": "https://github.com/CharlieHess",
+      "followers_url": "https://api.github.com/users/CharlieHess/followers",
+      "following_url": "https://api.github.com/users/CharlieHess/following{/other_user}",
+      "gists_url": "https://api.github.com/users/CharlieHess/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/CharlieHess/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/CharlieHess/subscriptions",
+      "organizations_url": "https://api.github.com/users/CharlieHess/orgs",
+      "repos_url": "https://api.github.com/users/CharlieHess/repos",
+      "events_url": "https://api.github.com/users/CharlieHess/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/CharlieHess/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-12T22:01:45Z",
+    "updated_at": "2017-04-12T22:01:45Z",
+    "body": "This would be pretty great for Slack, considering our current team-switching approach is basically a stack of `webview` tags (and resizing them on the fly, which often results in layout jitter). If there is z-index support that would be :gem:. A few questions:\r\n\r\n* Will we be able to disable `nodeintegration` in the same manner as the `webview`?\r\n* Would there be any other security loopholes opened by using this instead of `webview`s?"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/293722078",
+    "html_url": "https://github.com/electron/electron/pull/9166#issuecomment-293722078",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/9166",
+    "id": 293722078,
+    "user": {
+      "login": "poiru",
+      "id": 1319028,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1319028?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/poiru",
+      "html_url": "https://github.com/poiru",
+      "followers_url": "https://api.github.com/users/poiru/followers",
+      "following_url": "https://api.github.com/users/poiru/following{/other_user}",
+      "gists_url": "https://api.github.com/users/poiru/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/poiru/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/poiru/subscriptions",
+      "organizations_url": "https://api.github.com/users/poiru/orgs",
+      "repos_url": "https://api.github.com/users/poiru/repos",
+      "events_url": "https://api.github.com/users/poiru/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/poiru/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-12T22:11:01Z",
+    "updated_at": "2017-04-12T22:11:01Z",
+    "body": "@CharlieHess Yeah, `new BrowserView({ webPreferences: { nodeintegration: false }})` works fine. This should be fine for remote content, but please wait until the experimental tag has been removed before using it for that purpose.\r\n\r\nBtw. I just added autoresizing support for smooth resizing!"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/189545008",
+    "html_url": "https://github.com/electron/electron/issues/4618#issuecomment-189545008",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4618",
+    "id": 189545008,
+    "user": {
+      "login": "MarshallOfSound",
+      "id": 6634592,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6634592?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MarshallOfSound",
+      "html_url": "https://github.com/MarshallOfSound",
+      "followers_url": "https://api.github.com/users/MarshallOfSound/followers",
+      "following_url": "https://api.github.com/users/MarshallOfSound/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MarshallOfSound/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MarshallOfSound/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MarshallOfSound/subscriptions",
+      "organizations_url": "https://api.github.com/users/MarshallOfSound/orgs",
+      "repos_url": "https://api.github.com/users/MarshallOfSound/repos",
+      "events_url": "https://api.github.com/users/MarshallOfSound/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MarshallOfSound/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-27T01:09:55Z",
+    "updated_at": "2016-02-27T01:09:55Z",
+    "body": "`openExternal` simply fires a URL at the OS and the OS decides which app to use to open it.  I don't think that it is possible to send headers/cookies with that URL.\n\nPerhaps you could implement an instant login feature inside your app that passes a token as a _GET_ parameter to the `openExternal` URL and logs them in to your website when that token is valid?\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/189560664",
+    "html_url": "https://github.com/electron/electron/issues/4618#issuecomment-189560664",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4618",
+    "id": 189560664,
+    "user": {
+      "login": "ccnokes",
+      "id": 1610343,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1610343?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ccnokes",
+      "html_url": "https://github.com/ccnokes",
+      "followers_url": "https://api.github.com/users/ccnokes/followers",
+      "following_url": "https://api.github.com/users/ccnokes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ccnokes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ccnokes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ccnokes/subscriptions",
+      "organizations_url": "https://api.github.com/users/ccnokes/orgs",
+      "repos_url": "https://api.github.com/users/ccnokes/repos",
+      "events_url": "https://api.github.com/users/ccnokes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ccnokes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-27T02:43:40Z",
+    "updated_at": "2016-02-27T02:43:40Z",
+    "body": "Gotcha. After looking around I think that's the best way to go. Too bad it's not possible though because it would be cool. Thanks for the help!\n"
+  }
+]

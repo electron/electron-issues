@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/94381631",
+    "html_url": "https://github.com/electron/electron/issues/1425#issuecomment-94381631",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1425",
+    "id": 94381631,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-04-20T07:41:04Z",
+    "updated_at": "2015-04-20T07:41:04Z",
+    "body": "The resourcesPath is also used to store Chromium's resource files, and on different platforms we have different resource files under resourcesPath. So putting your app under resourcesPath will mess up your app's files with Chromium's resource files, and some important files might be overwritten in future when Chromium have more resource files.\n\nI'm closing this as won't fix.\n"
+  }
+]

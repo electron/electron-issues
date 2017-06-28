@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/287885298",
+    "html_url": "https://github.com/electron/electron/issues/8949#issuecomment-287885298",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/8949",
+    "id": 287885298,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2017-03-20T20:20:57Z",
+    "updated_at": "2017-03-20T20:20:57Z",
+    "body": ">  Don't know if this is an OSX or Electron issue (or \"as designed\")\r\n\r\nI'm not seeing anything in the docs about this, https://developer.apple.com/reference/appkit/nssavepanel?language=objc so I don't think this is possible to configure or override.\r\n\r\nSo I'm going to close this out since it doesn't look like there are APIs currently to change this behavior.\r\n\r\nCan reopen if `NSSavePanel` expands support for this."
+  }
+]

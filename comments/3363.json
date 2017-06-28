@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/154905555",
+    "html_url": "https://github.com/electron/electron/issues/3363#issuecomment-154905555",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3363",
+    "id": 154905555,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-11-09T02:44:35Z",
+    "updated_at": "2015-11-09T02:44:35Z",
+    "body": "The renderer process and GPU process heavily communicates with the main process by IPC, many operations like submitting a form, or navigating to a new location, or drawing certain resources, would trigger a synchronous message to the main process.\n\nSo a blocking operation in main process is easy to block all other processes, and in Chromium's land it is required to put IO and CPU-bound operations in new threads to avoid this. In Electron since you have full power of the main process, you have to taken care of this yourself.\n"
+  }
+]

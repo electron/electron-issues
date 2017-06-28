@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/64098785",
+    "html_url": "https://github.com/electron/electron/issues/667#issuecomment-64098785",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/667",
+    "id": 64098785,
+    "user": {
+      "login": "ardeshirj",
+      "id": 6003742,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6003742?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ardeshirj",
+      "html_url": "https://github.com/ardeshirj",
+      "followers_url": "https://api.github.com/users/ardeshirj/followers",
+      "following_url": "https://api.github.com/users/ardeshirj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ardeshirj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ardeshirj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ardeshirj/subscriptions",
+      "organizations_url": "https://api.github.com/users/ardeshirj/orgs",
+      "repos_url": "https://api.github.com/users/ardeshirj/repos",
+      "events_url": "https://api.github.com/users/ardeshirj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ardeshirj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-22T22:57:51Z",
+    "updated_at": "2014-11-22T22:57:51Z",
+    "body": "This works for me while `chromeMediaSource = 'screen'`, but switching this to `chromeMediaSource = 'window'` cause `PermissionDeniedError` error in atom-shell 0.19.1.\n\nAlso `--enable-usermedia-screen-capturing` in dev tools gives me `Uncaught ReferenceError: enable is not defined`.\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/175979094",
+    "html_url": "https://github.com/electron/electron/issues/4254#issuecomment-175979094",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/4254",
+    "id": 175979094,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-01-28T05:04:59Z",
+    "updated_at": "2016-01-28T05:05:50Z",
+    "body": "There are two ways to focus a window on Linux:\n- send `_NET_ACTIVE_WINDOW` to window manager to request for focus;\n- or call `XSetInputFocus` to tell X11 to force focusing the window.\n\nIn Electron we are using the first solution, and so is GTK+. Then the window manager is responsible for deciding how to focus the window, in your case, the window manager decides that your popup window should not take focus when another app is having the focus.\n\nIt is possible to just force focusing the window, but it would be a possible annoyance to users, and may be against the desktop environment's settings, resulting in bugs like https://crbug.com/318937.\n\nSo I'm closing this as won't fix.\n"
+  }
+]

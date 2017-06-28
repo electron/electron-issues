@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/259457094",
+    "html_url": "https://github.com/electron/electron/issues/7915#issuecomment-259457094",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7915",
+    "id": 259457094,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-11-09T16:26:38Z",
+    "updated_at": "2016-11-09T16:26:38Z",
+    "body": "> Error: EACCES: permission denied, link '/usr/local/lib/node_modules/electron/electron-tmp-download-82077-1478703334824/electron-v1.4.5-darwin-x64.zip' -> '/Users/USERNAME/.electron/electron-v1.4.5-darwin-x64.zip'\n\nThis looks very similar to https://github.com/electron-userland/electron-prebuilt/issues/139, please subscribe to that issue for updates, closing this out here.\n\nIf you don't think it is the same issue then please open a new issue on https://github.com/electron-userland/electron-prebuilt directly.\n"
+  }
+]

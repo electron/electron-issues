@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/141748789",
+    "html_url": "https://github.com/electron/electron/issues/2838#issuecomment-141748789",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2838",
+    "id": 141748789,
+    "user": {
+      "login": "odingalt",
+      "id": 6405977,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6405977?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/odingalt",
+      "html_url": "https://github.com/odingalt",
+      "followers_url": "https://api.github.com/users/odingalt/followers",
+      "following_url": "https://api.github.com/users/odingalt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/odingalt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/odingalt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/odingalt/subscriptions",
+      "organizations_url": "https://api.github.com/users/odingalt/orgs",
+      "repos_url": "https://api.github.com/users/odingalt/repos",
+      "events_url": "https://api.github.com/users/odingalt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/odingalt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-20T05:10:15Z",
+    "updated_at": "2015-09-20T05:11:11Z",
+    "body": "This is an old fashioned Apache misconfiguration.  If you found this thread, you need to fix your Apache configuration.  Go read these two articles to jog your brain on the topic:\n\nhttps://www.digicert.com/ssl-certificate-installation-apache-cpanel.htm\nhttp://mail-archives.apache.org/mod_mbox/httpd-dev/201204.mbox/%3C4F7F6F8C.5020409@primary.net%3E\n\nThen go check your Apache config.  Then go take a week vacaton.  Then come back and check your Apache configuration.  Then get a cup of coffee.  Then check your Apache configuration again.  Also, over the past few years you've been meaning to ditch CPanel because it really sucks - now would be a good time to do so.\n\nAlso be sure to always trust the SSL checker at Comodo, it's always right.  Don't trust openssl, you can make it give you false positives if you try hard enough.\n\nhttps://sslanalyzer.comodoca.com/\n\nWhen you've finally fixed your Apache config, everything will work great.\n"
+  }
+]

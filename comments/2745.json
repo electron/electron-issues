@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/138916156",
+    "html_url": "https://github.com/electron/electron/pull/2745#issuecomment-138916156",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2745",
+    "id": 138916156,
+    "user": {
+      "login": "jlord",
+      "id": 1305617,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1305617?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jlord",
+      "html_url": "https://github.com/jlord",
+      "followers_url": "https://api.github.com/users/jlord/followers",
+      "following_url": "https://api.github.com/users/jlord/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jlord/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jlord/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jlord/subscriptions",
+      "organizations_url": "https://api.github.com/users/jlord/orgs",
+      "repos_url": "https://api.github.com/users/jlord/repos",
+      "events_url": "https://api.github.com/users/jlord/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jlord/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-09T13:54:02Z",
+    "updated_at": "2015-09-09T13:54:02Z",
+    "body": "Oh, good catch, thank you!\n\nActually the docs now pull `webContents` into its own doc so the url should be:\n\nhttps://github.com/atom/electron/blob/master/docs/api/web-contents.md#webcontentssendchannel-args\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/139356688",
+    "html_url": "https://github.com/electron/electron/pull/2745#issuecomment-139356688",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2745",
+    "id": 139356688,
+    "user": {
+      "login": "jlord",
+      "id": 1305617,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1305617?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jlord",
+      "html_url": "https://github.com/jlord",
+      "followers_url": "https://api.github.com/users/jlord/followers",
+      "following_url": "https://api.github.com/users/jlord/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jlord/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jlord/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jlord/subscriptions",
+      "organizations_url": "https://api.github.com/users/jlord/orgs",
+      "repos_url": "https://api.github.com/users/jlord/repos",
+      "events_url": "https://api.github.com/users/jlord/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jlord/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-10T19:38:58Z",
+    "updated_at": "2015-09-10T19:38:58Z",
+    "body": "Started with this branch and went ahead and took care of all the web-contents links in #2757. Thanks @destan! :boom: \n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/257341042",
+    "html_url": "https://github.com/electron/electron/issues/7802#issuecomment-257341042",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/7802",
+    "id": 257341042,
+    "user": {
+      "login": "kevinsawicki",
+      "id": 671378,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/671378?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevinsawicki",
+      "html_url": "https://github.com/kevinsawicki",
+      "followers_url": "https://api.github.com/users/kevinsawicki/followers",
+      "following_url": "https://api.github.com/users/kevinsawicki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevinsawicki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevinsawicki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevinsawicki/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevinsawicki/orgs",
+      "repos_url": "https://api.github.com/users/kevinsawicki/repos",
+      "events_url": "https://api.github.com/users/kevinsawicki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevinsawicki/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-10-31T16:20:31Z",
+    "updated_at": "2016-10-31T16:20:31Z",
+    "body": ">  is this possible?\n\nThis is not possible using the `globalShortcut` APIs. Electron wraps Chrome's [global_shortcut_listener.h](https://cs.chromium.org/chromium/src/chrome/browser/extensions/global_shortcut_listener.h) API which only exposes a key press event.\n\nYou could write a native module that hooks into OS keyboard APIs and implement this that way for your app. Closing this out.\n"
+  }
+]

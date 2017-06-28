@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/232290077",
+    "html_url": "https://github.com/electron/electron/pull/6469#issuecomment-232290077",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6469",
+    "id": 232290077,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2016-07-13T08:24:26Z",
+    "updated_at": "2016-07-13T08:24:26Z",
+    "body": "Thanks!\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/301253509",
+    "html_url": "https://github.com/electron/electron/pull/6469#issuecomment-301253509",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/6469",
+    "id": 301253509,
+    "user": {
+      "login": "suryast",
+      "id": 4986994,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4986994?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/suryast",
+      "html_url": "https://github.com/suryast",
+      "followers_url": "https://api.github.com/users/suryast/followers",
+      "following_url": "https://api.github.com/users/suryast/following{/other_user}",
+      "gists_url": "https://api.github.com/users/suryast/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/suryast/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/suryast/subscriptions",
+      "organizations_url": "https://api.github.com/users/suryast/orgs",
+      "repos_url": "https://api.github.com/users/suryast/repos",
+      "events_url": "https://api.github.com/users/suryast/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/suryast/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-13T14:59:23Z",
+    "updated_at": "2017-05-13T14:59:23Z",
+    "body": "@abdihaikal May I get an invite? I'm translating electron docs into Indonesian."
+  }
+]

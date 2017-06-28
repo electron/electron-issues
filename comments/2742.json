@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/138815209",
+    "html_url": "https://github.com/electron/electron/issues/2742#issuecomment-138815209",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2742",
+    "id": 138815209,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-09-09T07:49:53Z",
+    "updated_at": "2015-09-09T07:49:53Z",
+    "body": "It is a bug that if it doesn't work, though `node-integration` has been moved to `web-preferences` we are still keeping backward-compatitibily.\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/138843041",
+    "html_url": "https://github.com/electron/electron/issues/2742#issuecomment-138843041",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/2742",
+    "id": 138843041,
+    "user": {
+      "login": "dataich",
+      "id": 15887,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/15887?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dataich",
+      "html_url": "https://github.com/dataich",
+      "followers_url": "https://api.github.com/users/dataich/followers",
+      "following_url": "https://api.github.com/users/dataich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dataich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dataich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dataich/subscriptions",
+      "organizations_url": "https://api.github.com/users/dataich/orgs",
+      "repos_url": "https://api.github.com/users/dataich/repos",
+      "events_url": "https://api.github.com/users/dataich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dataich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-09T09:03:14Z",
+    "updated_at": "2015-09-09T09:03:14Z",
+    "body": "Thanks @zcbenz !\n"
+  }
+]

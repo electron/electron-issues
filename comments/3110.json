@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/149020020",
+    "html_url": "https://github.com/electron/electron/issues/3110#issuecomment-149020020",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3110",
+    "id": 149020020,
+    "user": {
+      "login": "zcbenz",
+      "id": 639601,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/639601?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zcbenz",
+      "html_url": "https://github.com/zcbenz",
+      "followers_url": "https://api.github.com/users/zcbenz/followers",
+      "following_url": "https://api.github.com/users/zcbenz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zcbenz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zcbenz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zcbenz/subscriptions",
+      "organizations_url": "https://api.github.com/users/zcbenz/orgs",
+      "repos_url": "https://api.github.com/users/zcbenz/repos",
+      "events_url": "https://api.github.com/users/zcbenz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zcbenz/received_events",
+      "type": "User",
+      "site_admin": true
+    },
+    "created_at": "2015-10-18T14:22:12Z",
+    "updated_at": "2015-10-18T14:22:12Z",
+    "body": "You probably have to run `minidump_stackwalk` on POSIX systems, the prebuilt `minidump_stackwalk.exe` binary has never been seriously tested, so there is no guarantee that it can work. And I think no one is actually using `minidump_stackwalk.exe` on Windows.\n\nI symbolized the dump file on OS X and the result is good:\n\n```\nOperating system: Windows NT\n                  6.3.9600 \nCPU: x86\n     GenuineIntel family 6 model 61 stepping 4\n     2 CPUs\n\nCrash reason:  EXCEPTION_ACCESS_VIOLATION_WRITE\nCrash address: 0x0\nAssertion: Unknown assertion type 0x00000000\nProcess uptime: 0 seconds\n\nThread 0 (crashed)\n 0  electron.exe!atom::`anonymous namespace'::Crash() [atom_bindings.cc : 28 + 0x0]\n    eip = 0x00ac90d2   esp = 0x007fe9d0   ebp = 0x007feac4   ebx = 0x00000000\n    esi = 0x03e2c860   edi = 0x007feb14   eax = 0x07cb8be0   ecx = 0x007feaac\n    edx = 0x07cb8be0   efl = 0x00010202\n    Found by: given as instruction pointer in context\n 1  electron.exe!mate::internal::Dispatcher<void >::DispatchToCallback(v8::FunctionC\nallbackInfo<v8::Value> const &) [function_template.h : 236 + 0x16]\n    eip = 0x00ac93df   esp = 0x007fe9d4   ebp = 0x007feac4\n    Found by: call frame info\n 2  node.dll!v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCall\nbackInfo<v8::Value> const &)) [arguments.cc : 33 + 0x6]\n    eip = 0x6d38f7ee   esp = 0x007feacc   ebp = 0x007feaf8\n    Found by: call frame info\n...\n```\n"
+  }
+]

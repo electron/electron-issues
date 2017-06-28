@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/110519469",
+    "html_url": "https://github.com/electron/electron/issues/1912#issuecomment-110519469",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1912",
+    "id": 110519469,
+    "user": {
+      "login": "deepak1556",
+      "id": 964386,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/964386?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deepak1556",
+      "html_url": "https://github.com/deepak1556",
+      "followers_url": "https://api.github.com/users/deepak1556/followers",
+      "following_url": "https://api.github.com/users/deepak1556/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deepak1556/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deepak1556/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deepak1556/subscriptions",
+      "organizations_url": "https://api.github.com/users/deepak1556/orgs",
+      "repos_url": "https://api.github.com/users/deepak1556/repos",
+      "events_url": "https://api.github.com/users/deepak1556/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deepak1556/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-09T22:09:34Z",
+    "updated_at": "2015-06-09T22:09:34Z",
+    "body": "filter#extensions is an array of file types. should probably handle the scenarios where it isnt.\n\n```\n  filters: [\n    { name: 'Markdown', extensions: ['md'] },\n    { name: 'Text', extensions: ['txt'] }\n  ]\n```\n"
+  },
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/110603942",
+    "html_url": "https://github.com/electron/electron/issues/1912#issuecomment-110603942",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/1912",
+    "id": 110603942,
+    "user": {
+      "login": "astoilkov",
+      "id": 884810,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/884810?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/astoilkov",
+      "html_url": "https://github.com/astoilkov",
+      "followers_url": "https://api.github.com/users/astoilkov/followers",
+      "following_url": "https://api.github.com/users/astoilkov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/astoilkov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/astoilkov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/astoilkov/subscriptions",
+      "organizations_url": "https://api.github.com/users/astoilkov/orgs",
+      "repos_url": "https://api.github.com/users/astoilkov/repos",
+      "events_url": "https://api.github.com/users/astoilkov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/astoilkov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-10T06:05:54Z",
+    "updated_at": "2015-06-10T06:05:54Z",
+    "body": "Grrr. I hate this kind of mistakes. Thanks a lot. Have a great day.\n"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://api.github.com/repos/electron/electron/issues/comments/152998600",
+    "html_url": "https://github.com/electron/electron/issues/3299#issuecomment-152998600",
+    "issue_url": "https://api.github.com/repos/electron/electron/issues/3299",
+    "id": 152998600,
+    "user": {
+      "login": "srad",
+      "id": 1612461,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1612461?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/srad",
+      "html_url": "https://github.com/srad",
+      "followers_url": "https://api.github.com/users/srad/followers",
+      "following_url": "https://api.github.com/users/srad/following{/other_user}",
+      "gists_url": "https://api.github.com/users/srad/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/srad/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/srad/subscriptions",
+      "organizations_url": "https://api.github.com/users/srad/orgs",
+      "repos_url": "https://api.github.com/users/srad/repos",
+      "events_url": "https://api.github.com/users/srad/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/srad/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-02T12:00:22Z",
+    "updated_at": "2015-11-02T12:00:22Z",
+    "body": "Nevermind I solved this with a div overlaying the webview\nat the top which has the style `-webkit-app-region: drag;`\n"
+  }
+]
