@@ -2,7 +2,7 @@ const issues = require('.')
 const tableify = require('tableify')
 // const {pick} = require('lodash')
 const {titleCase} = require('change-case')
-const MAX = 20
+const MAX = 30
 
 let datasets = {
   closed_issues_with_comments_after_closure: {
@@ -21,30 +21,11 @@ let datasets = {
       .value()
   },
 
-  open_issues_with_high_sentiment_score: {
+  closed_issues_with_low_sentiment_score_after_closure: {
     data: issues
-      .filter('open')
-      .filter(issue => issue.commentCount > 3)
-      .sortBy('sentimentScore')
-      .reverse()
-      .slice(0, MAX)
-      .map(issue => {
-        return {
-          '#': issue.linkedNumber,
-          title: issue.linkedTitle,
-          words: issue.positiveWords,
-          comments: issue.commentCount,
-          sentiment: issue.sentimentScore
-        }
-      })
-      .value()
-  },
-
-  open_issues_with_low_sentiment_score: {
-    data: issues
-      .filter('open')
-      .filter(issue => issue.commentCount > 3)      
-      .sortBy('sentimentScore')
+      .filter('closed')
+      .filter(issue => issue.commentCount > 2)      
+      .sortBy('postClosureSentimentScore')
       .slice(0, MAX)
       .map(issue => {
         return {
@@ -52,7 +33,7 @@ let datasets = {
           title: issue.linkedTitle,
           words: issue.negativeWords,
           comments: issue.commentCount,
-          sentiment: issue.sentimentScore
+          sentiment: issue.postClosureSentimentScore
         }
       })
       .value()
@@ -94,8 +75,7 @@ let datasets = {
       })
       .value()
   },
-  
-  
+
   oldest_open_issues: {
     data: issues
       .filter('open')
@@ -138,6 +118,43 @@ let datasets = {
           '#': issue.linkedNumber,
           title: issue.linkedTitle,
           comments: issue.commentCount
+        }
+      })
+      .value()
+  },
+
+  open_issues_with_high_sentiment_score: {
+    data: issues
+      .filter('open')
+      .filter(issue => issue.commentCount > 3)
+      .sortBy('sentimentScore')
+      .reverse()
+      .slice(0, MAX)
+      .map(issue => {
+        return {
+          '#': issue.linkedNumber,
+          title: issue.linkedTitle,
+          words: issue.positiveWords,
+          comments: issue.commentCount,
+          sentiment: issue.sentimentScore
+        }
+      })
+      .value()
+  },
+
+  open_issues_with_low_sentiment_score: {
+    data: issues
+      .filter('open')
+      .filter(issue => issue.commentCount > 3)      
+      .sortBy('sentimentScore')
+      .slice(0, MAX)
+      .map(issue => {
+        return {
+          '#': issue.linkedNumber,
+          title: issue.linkedTitle,
+          words: issue.negativeWords,
+          comments: issue.commentCount,
+          sentiment: issue.sentimentScore
         }
       })
       .value()

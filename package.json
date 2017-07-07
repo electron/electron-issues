@@ -1,9 +1,9 @@
 {
-  "name": "electron-electron-issues",
+  "name": "electron-issues",
   "version": "1.0.0",
   "description": "An experiment to better understand the issues filed on electron/electron",
   "main": "index.js",
-  "repository": "https://github.com/electron/electron-electron-issues",
+  "repository": "https://github.com/electron/electron-issues",
   "author": "zeke",
   "license": "MIT",
   "dependencies": {
